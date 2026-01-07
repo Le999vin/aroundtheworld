@@ -1,0 +1,292 @@
+[
+  {
+    "id": "statue-of-liberty",
+    "name": "Statue of Liberty",
+    "category": "landmarks",
+    "lat": 40.6892,
+    "lon": -74.0445,
+    "description": "Iconic harbor monument in New York City.",
+    "source": "static"
+  },
+  {
+    "id": "central-park",
+    "name": "Central Park",
+    "category": "nature",
+    "lat": 40.7829,
+    "lon": -73.9654,
+    "description": "Large urban park in Manhattan.",
+    "source": "static"
+  },
+  {
+    "id": "times-square",
+    "name": "Times Square",
+    "category": "landmarks",
+    "lat": 40.758,
+    "lon": -73.9855,
+    "source": "static"
+  },
+  {
+    "id": "brooklyn-bridge",
+    "name": "Brooklyn Bridge",
+    "category": "landmarks",
+    "lat": 40.7061,
+    "lon": -73.9969,
+    "source": "static"
+  },
+  {
+    "id": "golden-gate-bridge",
+    "name": "Golden Gate Bridge",
+    "category": "landmarks",
+    "lat": 37.8199,
+    "lon": -122.4783,
+    "source": "static"
+  },
+  {
+    "id": "millennium-park",
+    "name": "Millennium Park",
+    "category": "nature",
+    "lat": 41.8826,
+    "lon": -87.6226,
+    "source": "static"
+  },
+  {
+    "id": "british-museum",
+    "name": "British Museum",
+    "category": "museums",
+    "lat": 51.5194,
+    "lon": -0.1269,
+    "source": "static"
+  },
+  {
+    "id": "tower-bridge",
+    "name": "Tower Bridge",
+    "category": "landmarks",
+    "lat": 51.5055,
+    "lon": -0.0754,
+    "source": "static"
+  },
+  {
+    "id": "buckingham-palace",
+    "name": "Buckingham Palace",
+    "category": "landmarks",
+    "lat": 51.5014,
+    "lon": -0.1419,
+    "source": "static"
+  },
+  {
+    "id": "colosseum",
+    "name": "Colosseum",
+    "category": "landmarks",
+    "lat": 41.8902,
+    "lon": 12.4922,
+    "source": "static"
+  },
+  {
+    "id": "sagrada-familia",
+    "name": "Sagrada Familia",
+    "category": "landmarks",
+    "lat": 41.4036,
+    "lon": 2.1744,
+    "source": "static"
+  },
+  {
+    "id": "acropolis",
+    "name": "Acropolis of Athens",
+    "category": "landmarks",
+    "lat": 37.9715,
+    "lon": 23.7257,
+    "source": "static"
+  },
+  {
+    "id": "hagia-sophia",
+    "name": "Hagia Sophia",
+    "category": "landmarks",
+    "lat": 41.0086,
+    "lon": 28.9802,
+    "source": "static"
+  },
+  {
+    "id": "pyramids-giza",
+    "name": "Pyramids of Giza",
+    "category": "landmarks",
+    "lat": 29.9792,
+    "lon": 31.1342,
+    "source": "static"
+  },
+  {
+    "id": "burj-khalifa",
+    "name": "Burj Khalifa",
+    "category": "landmarks",
+    "lat": 25.1972,
+    "lon": 55.2744,
+    "source": "static"
+  },
+  {
+    "id": "dubai-marina-walk",
+    "name": "Dubai Marina Walk",
+    "category": "nightlife",
+    "lat": 25.0773,
+    "lon": 55.1403,
+    "source": "static"
+  },
+  {
+    "id": "marina-bay-sands",
+    "name": "Marina Bay Sands",
+    "category": "landmarks",
+    "lat": 1.2834,
+    "lon": 103.8607,
+    "source": "static"
+  },
+  {
+    "id": "gardens-by-the-bay",
+    "name": "Gardens by the Bay",
+    "category": "nature",
+    "lat": 1.2816,
+    "lon": 103.8636,
+    "source": "static"
+  },
+  {
+    "id": "tokyo-skytree",
+    "name": "Tokyo Skytree",
+    "category": "landmarks",
+    "lat": 35.71,
+    "lon": 139.8107,
+    "source": "static"
+  },
+  {
+    "id": "shibuya-crossing",
+    "name": "Shibuya Crossing",
+    "category": "landmarks",
+    "lat": 35.6595,
+    "lon": 139.7005,
+    "source": "static"
+  },
+  {
+    "id": "senso-ji",
+    "name": "Senso-ji Temple",
+    "category": "landmarks",
+    "lat": 35.7148,
+    "lon": 139.7967,
+    "source": "static"
+  },
+  {
+    "id": "sydney-opera-house",
+    "name": "Sydney Opera House",
+    "category": "landmarks",
+    "lat": -33.8568,
+    "lon": 151.2153,
+    "source": "static"
+  },
+  {
+    "id": "bondi-beach",
+    "name": "Bondi Beach",
+    "category": "nature",
+    "lat": -33.8915,
+    "lon": 151.2767,
+    "source": "static"
+  },
+  {
+    "id": "christ-the-redeemer",
+    "name": "Christ the Redeemer",
+    "category": "landmarks",
+    "lat": -22.9519,
+    "lon": -43.2105,
+    "source": "static"
+  },
+  {
+    "id": "table-mountain",
+    "name": "Table Mountain",
+    "category": "nature",
+    "lat": -33.9628,
+    "lon": 18.4098,
+    "source": "static"
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "category": "landmarks",
+    "lat": -13.1631,
+    "lon": -72.545,
+    "source": "static"
+  },
+  {
+    "id": "angkor-wat",
+    "name": "Angkor Wat",
+    "category": "landmarks",
+    "lat": 13.4125,
+    "lon": 103.8667,
+    "source": "static"
+  },
+  {
+    "id": "grand-palace-bangkok",
+    "name": "Grand Palace",
+    "category": "landmarks",
+    "lat": 13.75,
+    "lon": 100.4913,
+    "source": "static"
+  },
+  {
+    "id": "gyeongbokgung",
+    "name": "Gyeongbokgung Palace",
+    "category": "landmarks",
+    "lat": 37.5796,
+    "lon": 126.977,
+    "source": "static"
+  },
+  {
+    "id": "pike-place-market",
+    "name": "Pike Place Market",
+    "category": "food",
+    "lat": 47.6094,
+    "lon": -122.3417,
+    "source": "static"
+  },
+  {
+    "id": "reykjavik-hallgrimskirkja",
+    "name": "Hallgrimskirkja",
+    "category": "landmarks",
+    "lat": 64.1419,
+    "lon": -21.9266,
+    "source": "static"
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "category": "landmarks",
+    "lat": 30.3285,
+    "lon": 35.4444,
+    "source": "static"
+  },
+  {
+    "id": "louvre",
+    "name": "Louvre Museum",
+    "category": "museums",
+    "lat": 48.8606,
+    "lon": 2.3376,
+    "source": "static"
+  },
+  {
+    "id": "chinatown-food-street",
+    "name": "Chinatown Food Street",
+    "category": "food",
+    "lat": 1.283,
+    "lon": 103.8443,
+    "source": "static"
+  },
+  {
+    "id": "amsterdam-rijksmuseum",
+    "name": "Rijksmuseum",
+    "category": "museums",
+    "lat": 52.3599,
+    "lon": 4.8852,
+    "source": "static"
+  },
+  {
+    "id": "berlin-brandenburg-gate",
+    "name": "Brandenburg Gate",
+    "category": "landmarks",
+    "lat": 52.5163,
+    "lon": 13.3777,
+    "source": "static"
+  }
+]

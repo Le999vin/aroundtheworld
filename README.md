@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Global Travel Atlas
 
-## Getting Started
+Immersive travel planning with a 3D globe, live weather, and curated places.
 
-First, run the development server:
+## Features
+- 3D globe landing with hover + click focus
+- Country detail panel with weather and POIs
+- MapLibre view with filters and markers
+- Provider-based API routes for weather, places, and geocoding
+- Vitest baseline tests
 
+## Tech Stack
+- Next.js App Router + TypeScript
+- Tailwind CSS + shadcn/ui
+- React Three Fiber + drei
+- MapLibre GL
+
+## Setup
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment Variables
+```bash
+# Providers
+WEATHER_PROVIDER=openweather
+PLACES_PROVIDER=opentripmap
+GEOCODING_PROVIDER=photon
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Keys
+OPENWEATHER_API_KEY=your_key
+OPENTRIPMAP_API_KEY=your_key
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Defaults
+NEXT_PUBLIC_DEFAULT_UNITS=metric
+NEXT_PUBLIC_DEFAULT_LANG=de
+NEXT_PUBLIC_DEFAULT_LAT=47.3769
+NEXT_PUBLIC_DEFAULT_LON=8.5417
 
-## Learn More
+NEXT_PUBLIC_MAP_STYLE_URL=https://demotiles.maplibre.org/style.json
+NEXT_PUBLIC_MAP_TILES_ATTRIBUTION=Map data
+```
 
-To learn more about Next.js, take a look at the following resources:
+## API Routes
+- `GET /api/weather?lat=...&lon=...`
+- `GET /api/places?lat=...&lon=...&radius=...&category=...`
+- `GET /api/geocode?q=...`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
+- `npm run dev`
+- `npm run build`
+- `npm run test`
+- `npm run test:watch`
+- `npm run test:e2e`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Wie fuege ich neue Staedte hinzu?
+1. Erstelle eine neue JSON-Datei in `src/lib/data/pois/datasets/` (Array von POIs).
+2. Fuege die Region in `src/lib/data/pois/regions.ts` mit passender Bounding Box hinzu.
+3. Stelle sicher, dass jeder POI `source: "static"` setzt und die Felder aus `schema.ts` erfuellt.
+4. Optional: Aktualisiere `global.sample.json` fuer einen besseren Fallback.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Notes
+- OpenWeather uses the One Call endpoint for current + daily forecast.
+- POIs are loaded from local JSON datasets (no external API calls).
+- Geocoding defaults to Photon.

@@ -1,0 +1,155 @@
+import type { Country } from "@/lib/types";
+
+export const countryMeta: Country[] = [
+  {
+    code: "DE",
+    name: "Germany",
+    capital: "Berlin",
+    lat: 52.52,
+    lon: 13.405,
+    population: 83200000,
+    topCities: [
+      { name: "Munich", lat: 48.1351, lon: 11.582 },
+      { name: "Hamburg", lat: 53.5511, lon: 9.9937 },
+      { name: "Cologne", lat: 50.9375, lon: 6.9603 },
+    ],
+    topPlaces: [
+      { name: "Brandenburg Gate", category: "landmarks" },
+      { name: "Neuschwanstein Castle", category: "landmarks" },
+      { name: "Black Forest", category: "nature" },
+    ],
+  },
+  {
+    code: "JP",
+    name: "Japan",
+    capital: "Tokyo",
+    lat: 35.6895,
+    lon: 139.6917,
+    population: 125000000,
+    topCities: [
+      { name: "Kyoto", lat: 35.0116, lon: 135.7681 },
+      { name: "Osaka", lat: 34.6937, lon: 135.5023 },
+      { name: "Sapporo", lat: 43.0618, lon: 141.3545 },
+    ],
+    topPlaces: [
+      { name: "Fushimi Inari", category: "landmarks" },
+      { name: "Mount Fuji", category: "nature" },
+      { name: "Shibuya Crossing", category: "landmarks" },
+    ],
+  },
+  {
+    code: "BR",
+    name: "Brazil",
+    capital: "Brasilia",
+    lat: -15.7939,
+    lon: -47.8828,
+    population: 215000000,
+    topCities: [
+      { name: "Rio de Janeiro", lat: -22.9068, lon: -43.1729 },
+      { name: "Sao Paulo", lat: -23.5558, lon: -46.6396 },
+      { name: "Salvador", lat: -12.9777, lon: -38.5016 },
+    ],
+    topPlaces: [
+      { name: "Christ the Redeemer", category: "landmarks" },
+      { name: "Iguazu Falls", category: "nature" },
+      { name: "Amazon Theatre", category: "landmarks" },
+    ],
+  },
+  {
+    code: "US",
+    name: "United States",
+    capital: "Washington, D.C.",
+    lat: 38.9072,
+    lon: -77.0369,
+    population: 334000000,
+    topCities: [
+      { name: "New York", lat: 40.7128, lon: -74.006 },
+      { name: "Los Angeles", lat: 34.0522, lon: -118.2437 },
+      { name: "Chicago", lat: 41.8781, lon: -87.6298 },
+    ],
+    topPlaces: [
+      { name: "Grand Canyon", category: "nature" },
+      { name: "Statue of Liberty", category: "landmarks" },
+      { name: "Golden Gate Bridge", category: "landmarks" },
+    ],
+  },
+  {
+    code: "FR",
+    name: "France",
+    capital: "Paris",
+    lat: 48.8566,
+    lon: 2.3522,
+    population: 68000000,
+    topCities: [
+      { name: "Lyon", lat: 45.764, lon: 4.8357 },
+      { name: "Marseille", lat: 43.2965, lon: 5.3698 },
+      { name: "Nice", lat: 43.7102, lon: 7.262 },
+    ],
+    topPlaces: [
+      { name: "Eiffel Tower", category: "landmarks" },
+      { name: "Louvre Museum", category: "museums" },
+      { name: "French Riviera", category: "nature" },
+    ],
+  },
+  {
+    code: "ZA",
+    name: "South Africa",
+    capital: "Pretoria",
+    lat: -25.7479,
+    lon: 28.2293,
+    population: 60000000,
+    topCities: [
+      { name: "Cape Town", lat: -33.9249, lon: 18.4241 },
+      { name: "Johannesburg", lat: -26.2041, lon: 28.0473 },
+      { name: "Durban", lat: -29.8587, lon: 31.0218 },
+    ],
+    topPlaces: [
+      { name: "Table Mountain", category: "nature" },
+      { name: "Kruger Park", category: "nature" },
+      { name: "V&A Waterfront", category: "landmarks" },
+    ],
+  },
+  {
+    code: "AU",
+    name: "Australia",
+    capital: "Canberra",
+    lat: -35.2809,
+    lon: 149.13,
+    population: 26000000,
+    topCities: [
+      { name: "Sydney", lat: -33.8688, lon: 151.2093 },
+      { name: "Melbourne", lat: -37.8136, lon: 144.9631 },
+      { name: "Brisbane", lat: -27.4698, lon: 153.0251 },
+    ],
+    topPlaces: [
+      { name: "Sydney Opera House", category: "landmarks" },
+      { name: "Great Barrier Reef", category: "nature" },
+      { name: "Bondi Beach", category: "nature" },
+    ],
+  },
+  {
+    code: "IN",
+    name: "India",
+    capital: "New Delhi",
+    lat: 28.6139,
+    lon: 77.209,
+    population: 1400000000,
+    topCities: [
+      { name: "Mumbai", lat: 19.076, lon: 72.8777 },
+      { name: "Bengaluru", lat: 12.9716, lon: 77.5946 },
+      { name: "Jaipur", lat: 26.9124, lon: 75.7873 },
+    ],
+    topPlaces: [
+      { name: "Taj Mahal", category: "landmarks" },
+      { name: "Amber Fort", category: "landmarks" },
+      { name: "Goa Beaches", category: "nature" },
+    ],
+  },
+];
+
+export const countryMetaByCode = Object.fromEntries(
+  countryMeta.map((country) => [country.code, country])
+) as Record<string, Country>;
+
+export const getCountryMeta = (code: string) =>
+  countryMetaByCode[code.toUpperCase()] ?? null;
