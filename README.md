@@ -1,3 +1,4 @@
+ HEAD
 # Global Travel Atlas
 
 Immersive travel planning with a 3D globe, live weather, and curated places.
@@ -64,3 +65,6 @@ NEXT_PUBLIC_MAP_TILES_ATTRIBUTION=Map data
 - OpenWeather uses the One Call endpoint for current + daily forecast.
 - POIs are loaded from local JSON datasets (no external API calls).
 - Geocoding defaults to Photon.
+
+# aroundtheworld
+4247111e09476f29b718db16c0449670c72d4be5
