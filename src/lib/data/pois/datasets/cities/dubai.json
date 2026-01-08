@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-dubai-burj-khalifa",
+    "name": "Burj Khalifa",
+    "category": "landmarks",
+    "lat": 25.1972,
+    "lon": 55.2744,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-dubai-mall",
+    "name": "Dubai Mall",
+    "category": "food",
+    "lat": 25.1995,
+    "lon": 55.2773,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-palm-jumeirah-boardwalk",
+    "name": "Palm Jumeirah Boardwalk",
+    "category": "nature",
+    "lat": 25.1124,
+    "lon": 55.1383,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-dubai-marina",
+    "name": "Dubai Marina",
+    "category": "nightlife",
+    "lat": 25.0773,
+    "lon": 55.14,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-burj-al-arab-viewpoint",
+    "name": "Burj Al Arab Viewpoint",
+    "category": "landmarks",
+    "lat": 25.1412,
+    "lon": 55.1853,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-al-fahidi-district",
+    "name": "Al Fahidi Historical District",
+    "category": "landmarks",
+    "lat": 25.2632,
+    "lon": 55.2963,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-jumeirah-beach",
+    "name": "Jumeirah Beach",
+    "category": "nature",
+    "lat": 25.2007,
+    "lon": 55.2398,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-dubai-frame",
+    "name": "Dubai Frame",
+    "category": "landmarks",
+    "lat": 25.2355,
+    "lon": 55.3003,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-gold-souk",
+    "name": "Gold Souk",
+    "category": "other",
+    "lat": 25.2695,
+    "lon": 55.2963,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  },
+  {
+    "id": "city-dubai-museum-of-the-future",
+    "name": "Museum of the Future",
+    "category": "museums",
+    "lat": 25.2153,
+    "lon": 55.2782,
+    "source": "static",
+    "countryCode": "AE",
+    "cityId": "dubai"
+  }
+]

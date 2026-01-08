@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-amsterdam-anne-frank-house",
+    "name": "Anne Frank House",
+    "category": "museums",
+    "lat": 52.3752,
+    "lon": 4.8839,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-rijksmuseum",
+    "name": "Rijksmuseum",
+    "category": "museums",
+    "lat": 52.36,
+    "lon": 4.8852,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-van-gogh-museum",
+    "name": "Van Gogh Museum",
+    "category": "museums",
+    "lat": 52.3584,
+    "lon": 4.8811,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-dam-square",
+    "name": "Dam Square",
+    "category": "landmarks",
+    "lat": 52.3731,
+    "lon": 4.8922,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-jordaan",
+    "name": "Jordaan",
+    "category": "food",
+    "lat": 52.3735,
+    "lon": 4.8794,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-vondelpark",
+    "name": "Vondelpark",
+    "category": "nature",
+    "lat": 52.3581,
+    "lon": 4.8683,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-heineken-experience",
+    "name": "Heineken Experience",
+    "category": "food",
+    "lat": 52.3578,
+    "lon": 4.8911,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-canal-ring",
+    "name": "Canal Ring",
+    "category": "landmarks",
+    "lat": 52.3725,
+    "lon": 4.8936,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-ndsm-wharf",
+    "name": "NDSM Wharf",
+    "category": "nightlife",
+    "lat": 52.4017,
+    "lon": 4.8923,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  },
+  {
+    "id": "city-amsterdam-bloemenmarkt",
+    "name": "Bloemenmarkt",
+    "category": "food",
+    "lat": 52.3667,
+    "lon": 4.8931,
+    "source": "static",
+    "countryCode": "NL",
+    "cityId": "amsterdam"
+  }
+]

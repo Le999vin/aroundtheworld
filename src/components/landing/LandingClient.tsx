@@ -8,8 +8,14 @@ import GlobalSearch, {
   type SearchResult,
 } from "@/components/search/GlobalSearch";
 import { Button } from "@/components/ui/button";
-import { countryMeta, countryMetaByCode } from "@/lib/countries/countryMeta";
 import {
+  countryMeta,
+  countryMetaByCode,
+  getCountryMetaByName,
+  resolveCountryCode,
+} from "@/lib/countries/countryMeta";
+import {
+  getCountryCode,
   getFeatureCenter,
   getCountryName,
   type CountriesGeoJson,
@@ -25,15 +31,22 @@ const GlobeGL = dynamic(() => import("@/components/globe/GlobeGL"), {
   ssr: false,
 });
 
+const normalizeCountryCodeCandidate = (
+  value: string | number | null | undefined
+) => {
+  if (value === null || value === undefined) return null;
+  const trimmed = String(value).trim();
+  if (!trimmed || trimmed === "-99") return null;
+  return trimmed.toUpperCase();
+};
+
 const getGlobeCountryCode = (feature: CountryFeature) => {
-  const props = feature.properties ?? {};
-  return (
-    (props.ISO_A2 as string | undefined) ||
-    (props.iso_a2 as string | undefined) ||
-    (props.id as string | undefined) ||
-    (feature.id as string | undefined) ||
-    ""
-  );
+  const rawCode = getCountryCode(feature);
+  const normalized = normalizeCountryCodeCandidate(rawCode);
+  const resolved =
+    (normalized ? resolveCountryCode(normalized) : null) ??
+    resolveCountryCode(getCountryName(feature));
+  return resolved ?? normalized ?? "";
 };
 
 export const LandingClient = ({ countries }: LandingClientProps) => {
@@ -45,10 +58,11 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
       const code = getGlobeCountryCode(feature);
       if (!code) return acc;
       const center = getFeatureCenter(feature);
-      const meta = countryMetaByCode[code];
+      const name = getCountryName(feature);
+      const meta = countryMetaByCode[code] ?? getCountryMetaByName(name);
       acc[code] = {
         code,
-        name: getCountryName(feature),
+        name: meta?.name ?? name,
         lat: center.lat,
         lon: center.lon,
         capital: meta?.capital,
@@ -88,11 +102,12 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
           <Link
             href={
               selectedCountry
-                ? `/map?lat=${selectedCountry.lat}&lon=${selectedCountry.lon}`
+                ? `/map?lat=${selectedCountry.lat}&lon=${selectedCountry.lon}&country=${selectedCountry.code}`
                 : "/map"
             }
+            className="hidden md:inline-flex"
           >
-            <Button className="w-full md:w-auto">Open Map</Button>
+            <Button>Open Map</Button>
           </Link>
         </div>
       </header>
@@ -100,6 +115,7 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
       <main className="relative h-screen">
         <GlobeGL
           countries={countries}
+          selectedCountry={selectedCountry}
           selectedCountryCode={selectedCountry?.code ?? null}
           onSelectCountry={(code) => {
             if (!code) return;

@@ -1,32 +1,77 @@
+// Map page showing a zoomed-in view with POIs
 import Link from "next/link";
 import MapView from "@/components/map/MapView";
 import { Button } from "@/components/ui/button";
-import { countryMeta } from "@/lib/countries/countryMeta";
-import { getStaticPoisForCenter } from "@/lib/data/pois";
+import { getPoisForMap } from "@/lib/data/pois";
 
 const defaultLat = Number(process.env.NEXT_PUBLIC_DEFAULT_LAT);
 const defaultLon = Number(process.env.NEXT_PUBLIC_DEFAULT_LON);
 
-const defaultCenter = Number.isFinite(defaultLat) && Number.isFinite(defaultLon)
-  ? { lat: defaultLat, lon: defaultLon }
-  : { lat: countryMeta[0].lat, lon: countryMeta[0].lon };
+const DEFAULT_CENTER =
+  Number.isFinite(defaultLat) && Number.isFinite(defaultLon)
+    ? { lat: defaultLat, lon: defaultLon }
+    : { lat: 0, lon: 0 };
+
+const DEFAULT_ZOOM = 5;
+const CITY_ZOOM = 11;
+const POI_ZOOM = 13;
+
+const parseNumber = (value?: string) => {
+  if (!value) return undefined;
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : undefined;
+};
 
 const getCenter = (searchParams: { lat?: string; lon?: string }) => {
-  const lat = Number(searchParams.lat);
-  const lon = Number(searchParams.lon);
-  if (Number.isFinite(lat) && Number.isFinite(lon)) {
+  const lat = parseNumber(searchParams.lat);
+  const lon = parseNumber(searchParams.lon);
+  if (lat !== undefined && lon !== undefined) {
     return { lat, lon };
   }
-  return defaultCenter;
+  return DEFAULT_CENTER;
+};
+
+const getZoom = (searchParams: {
+  country?: string;
+  city?: string;
+  poi?: string;
+}) => {
+  if (searchParams.poi) return POI_ZOOM;
+  if (searchParams.city) return CITY_ZOOM;
+  if (searchParams.country) return DEFAULT_ZOOM;
+  return DEFAULT_ZOOM;
 };
 
 export default async function MapPage({
   searchParams,
 }: {
-  searchParams?: { lat?: string; lon?: string };
+  searchParams?: Promise<{
+    lat?: string;
+    lon?: string;
+    country?: string;
+    city?: string;
+    poi?: string;
+  }>;
 }) {
-  const center = getCenter(searchParams ?? {});
-  const pois = await getStaticPoisForCenter(center);
+  type MapSearchParams = {
+    lat?: string;
+    lon?: string;
+    country?: string;
+    city?: string;
+    poi?: string;
+  };
+  const resolvedParams = (await Promise.resolve(
+    searchParams ?? {}
+  )) as MapSearchParams;
+  const center = getCenter(resolvedParams);
+  const zoom = getZoom(resolvedParams);
+  const pois = await getPoisForMap({
+    lat: center.lat,
+    lon: center.lon,
+    country: resolvedParams.country,
+    city: resolvedParams.city,
+    limit: 200,
+  });
 
   return (
     <div className="min-h-screen px-6 pb-10 pt-6 text-white">
@@ -45,7 +90,13 @@ export default async function MapPage({
         </Link>
       </header>
 
-      <MapView center={center} pois={pois} />
+      <MapView
+        center={center}
+        initialZoom={zoom}
+        defaultCenter={DEFAULT_CENTER}
+        defaultZoom={DEFAULT_ZOOM}
+        pois={pois}
+      />
     </div>
   );
 }

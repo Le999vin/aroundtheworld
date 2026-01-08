@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-athens-acropolis",
+    "name": "Acropolis",
+    "category": "landmarks",
+    "lat": 37.9715,
+    "lon": 23.7257,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-acropolis-museum",
+    "name": "Acropolis Museum",
+    "category": "museums",
+    "lat": 37.9681,
+    "lon": 23.7286,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-parthenon",
+    "name": "Parthenon",
+    "category": "landmarks",
+    "lat": 37.9715,
+    "lon": 23.7267,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-plaka",
+    "name": "Plaka",
+    "category": "food",
+    "lat": 37.9737,
+    "lon": 23.7261,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-syntagma-square",
+    "name": "Syntagma Square",
+    "category": "landmarks",
+    "lat": 37.9755,
+    "lon": 23.7348,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-temple-of-olympian-zeus",
+    "name": "Temple of Olympian Zeus",
+    "category": "landmarks",
+    "lat": 37.9693,
+    "lon": 23.7325,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-panathenaic-stadium",
+    "name": "Panathenaic Stadium",
+    "category": "landmarks",
+    "lat": 37.9683,
+    "lon": 23.7411,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-lycabettus-hill",
+    "name": "Lycabettus Hill",
+    "category": "nature",
+    "lat": 37.9838,
+    "lon": 23.7433,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-national-archaeological-museum",
+    "name": "National Archaeological Museum",
+    "category": "museums",
+    "lat": 37.99,
+    "lon": 23.7336,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-monastiraki",
+    "name": "Monastiraki",
+    "category": "nightlife",
+    "lat": 37.976,
+    "lon": 23.725,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  }
+]

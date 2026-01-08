@@ -23,6 +23,9 @@ export const getCountryName = (feature: CountryFeature) => {
     (props.ADMIN as string | undefined) ||
     (props.name as string | undefined) ||
     (props.NAME as string | undefined) ||
+    (props.name_en as string | undefined) ||
+    (props.id as string | undefined) ||
+    (feature.id as string | undefined) ||
     "Unknown"
   );
 };
@@ -42,8 +45,15 @@ const collectCoordinates = (coords: unknown, bucket: number[][]) => {
 
 export const getFeatureCenter = (feature: CountryFeature) => {
   const bucket: number[][] = [];
+  const collectGeometry = (geometry: Geometry) => {
+    if (geometry.type === "GeometryCollection") {
+      geometry.geometries.forEach(collectGeometry);
+    } else {
+      collectCoordinates(geometry.coordinates, bucket);
+    }
+  };
   if (feature.geometry) {
-    collectCoordinates(feature.geometry.coordinates, bucket);
+    collectGeometry(feature.geometry);
   }
   if (bucket.length === 0) {
     return { lat: 0, lon: 0 };

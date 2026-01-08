@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-fr-eiffel-tower",
+    "name": "Eiffel Tower",
+    "category": "landmarks",
+    "lat": 48.8584,
+    "lon": 2.2945,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-louvre-museum",
+    "name": "Louvre Museum",
+    "category": "museums",
+    "lat": 48.8606,
+    "lon": 2.3376,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-mont-saint-michel",
+    "name": "Mont Saint-Michel",
+    "category": "landmarks",
+    "lat": 48.6361,
+    "lon": -1.5115,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-palace-of-versailles",
+    "name": "Palace of Versailles",
+    "category": "landmarks",
+    "lat": 48.8049,
+    "lon": 2.1204,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-promenade-des-anglais",
+    "name": "Promenade des Anglais",
+    "category": "nature",
+    "lat": 43.6955,
+    "lon": 7.265,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-vieux-lyon",
+    "name": "Vieux Lyon",
+    "category": "landmarks",
+    "lat": 45.7633,
+    "lon": 4.8271,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-strasbourg-cathedral",
+    "name": "Strasbourg Cathedral",
+    "category": "landmarks",
+    "lat": 48.5818,
+    "lon": 7.7509,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-bordeaux-waterfront",
+    "name": "Bordeaux Waterfront",
+    "category": "food",
+    "lat": 44.8412,
+    "lon": -0.5706,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-annecy-old-town",
+    "name": "Annecy Old Town",
+    "category": "landmarks",
+    "lat": 45.899,
+    "lon": 6.1286,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-dune-of-pilat",
+    "name": "Dune of Pilat",
+    "category": "nature",
+    "lat": 44.5893,
+    "lon": -1.2133,
+    "source": "static",
+    "countryCode": "FR"
+  }
+]

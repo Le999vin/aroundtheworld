@@ -1,5 +1,7 @@
 "use client";
 
+// Legacy R3F globe kept for experimentation; not wired into the current UI.
+
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import type { OrbitControls as OrbitControlsImpl } from "three-stdlib";
@@ -23,7 +25,11 @@ import {
   type CountriesGeoJson,
   type CountryFeature,
 } from "@/lib/countries/geo";
-import { countryMetaByCode } from "@/lib/countries/countryMeta";
+import {
+  countryMetaByCode,
+  getCountryMetaByName,
+  resolveCountryCode,
+} from "@/lib/countries/countryMeta";
 import type { Country } from "@/lib/types";
 
 const RADIUS = 2.15;
@@ -48,6 +54,18 @@ type CountryShape = {
   country: Country;
 };
 
+type GeoJsonCoords = number[] | number[][] | number[][][] | number[][][][];
+type GeoJsonGeometryInput = {
+  type:
+    | "Point"
+    | "MultiPoint"
+    | "LineString"
+    | "MultiLineString"
+    | "Polygon"
+    | "MultiPolygon";
+  coordinates: GeoJsonCoords;
+};
+
 type GlobeSceneProps = {
   countries: CountriesGeoJson;
   selectedCountry?: Country | null;
@@ -55,14 +73,27 @@ type GlobeSceneProps = {
   onHoverCountry?: (country: Country | null) => void;
 };
 
+const normalizeCountryCodeCandidate = (value?: string | null) => {
+  if (!value) return null;
+  const trimmed = value.trim();
+  if (!trimmed || trimmed === "-99") return null;
+  return trimmed.toUpperCase();
+};
+
 const buildCountry = (feature: CountryFeature): CountryShape => {
-  const code = getCountryCode(feature);
+  const rawCode = getCountryCode(feature);
   const name = getCountryName(feature);
+  const normalized = normalizeCountryCodeCandidate(rawCode);
+  const resolvedCode =
+    (normalized ? resolveCountryCode(normalized) : null) ??
+    resolveCountryCode(name);
+  const code = resolvedCode ?? normalized;
   const center = getFeatureCenter(feature);
-  const meta = code ? countryMetaByCode[code] : null;
+  const meta =
+    (code ? countryMetaByCode[code] : null) ?? getCountryMetaByName(name);
   const country: Country = {
     code: code || name.slice(0, 2).toUpperCase(),
-    name,
+    name: meta?.name ?? name,
     lat: center.lat,
     lon: center.lon,
     capital: meta?.capital,
@@ -71,7 +102,11 @@ const buildCountry = (feature: CountryFeature): CountryShape => {
     topPlaces: meta?.topPlaces,
   };
 
-  const geometry = new GeoJsonGeometry(feature, RADIUS, 4);
+  const geometry = new GeoJsonGeometry(
+    feature.geometry as GeoJsonGeometryInput,
+    RADIUS,
+    4
+  );
   geometry.computeVertexNormals();
 
   return {

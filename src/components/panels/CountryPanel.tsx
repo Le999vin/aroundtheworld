@@ -68,34 +68,43 @@ const useCountryWeather = (country: Country | null) => {
 
 const useCountryPlaces = (country: Country | null) => {
   const [state, setState] = useState<LoadState<POI[]> | null>(null);
-  const lat = country?.lat;
-  const lon = country?.lon;
-  const key = lat !== undefined && lon !== undefined ? `${lat}:${lon}` : null;
+  const key = country?.code ?? null;
 
   useEffect(() => {
-    if (lat === undefined || lon === undefined || !key) return;
+    if (!key) return;
     const controller = new AbortController();
 
-    fetch(`/api/static-places?lat=${lat}&lon=${lon}&limit=8`, {
-      signal: controller.signal,
-    })
-      .then(async (res) => {
-        if (!res.ok) {
-          const payload = await res.json();
-          throw new Error(payload.error || "Places unavailable");
-        }
-        return res.json();
-      })
-      .then((data) => {
-        setState({ key, data, error: null });
-      })
-      .catch((error: Error) => {
-        if (controller.signal.aborted) return;
-        setState({ key, data: null, error: error.message });
-      });
+    const load = async () => {
+      const res = await fetch(
+        `/api/pois?country=${encodeURIComponent(key)}&limit=8`,
+        { signal: controller.signal }
+      );
+      let payload: unknown = null;
+      try {
+        payload = await res.json();
+      } catch {
+        payload = null;
+      }
+
+      if (!res.ok) {
+        const errorPayload = payload as { error?: string } | null;
+        throw new Error(errorPayload?.error || "Places unavailable");
+      }
+
+      if (!Array.isArray(payload)) {
+        throw new Error("Places unavailable");
+      }
+
+      setState({ key, data: payload as POI[], error: null });
+    };
+
+    load().catch((error: Error) => {
+      if (controller.signal.aborted) return;
+      setState({ key, data: null, error: error.message });
+    });
 
     return () => controller.abort();
-  }, [key, lat, lon]);
+  }, [key]);
 
   return {
     data: state?.key === key ? state.data : null,
@@ -109,19 +118,15 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
   const weatherState = useCountryWeather(country);
   const placesState = useCountryPlaces(country);
 
-  const poiCards = useMemo(() => {
-    if (placesState.data?.length) {
-      return placesState.data.slice(0, 5);
-    }
-    return country?.topPlaces?.map((place, index) => ({
-      id: `${country.code}-${index}`,
-      name: place.name,
-      category: place.category,
-      lat: country.lat,
-      lon: country.lon,
-      source: "curated",
-    }));
-  }, [placesState.data, country]);
+  const poiCards = useMemo<POI[]>(
+    () => placesState.data?.slice(0, 5) ?? [],
+    [placesState.data]
+  );
+
+  const placesLabel = useMemo(() => {
+    if (!placesState.data?.length) return null;
+    return placesState.data.some((poi) => poi.cityId) ? "Local" : "Curated";
+  }, [placesState.data]);
 
   if (!country) {
     return (
@@ -160,12 +165,6 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
               </Badge>
             </div>
           </div>
-          <Link
-            href={`/map?lat=${country.lat}&lon=${country.lon}`}
-            className="hidden md:inline-flex"
-          >
-            <Button size="sm">Open Map</Button>
-          </Link>
         </div>
 
         <Card className="border-white/10 bg-white/5 p-4">
@@ -220,7 +219,7 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
                     key={day.date}
                     className="rounded-2xl border border-white/10 bg-white/5 p-2 text-center"
                   >
-                    <p className="text-[10px] uppercase tracking-widest text-slate-300">
+                    <p className="text-[10px] tracking-widest text-slate-300">
                       {new Date(day.date).toLocaleDateString("de-DE", {
                         weekday: "short",
                       })}
@@ -234,7 +233,7 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
                       unoptimized
                     />
                     <p className="text-sm font-semibold">
-                      {Math.round(day.maxC)}°
+                      {Math.round(day.maxC)}°C
                     </p>
                   </div>
                 ))}
@@ -265,9 +264,9 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
             <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
               Places to Visit
             </p>
-            <span className="text-xs text-slate-400">
-              {placesState.data?.length ? "Local" : "Curated"}
-            </span>
+            {placesLabel ? (
+              <span className="text-xs text-slate-400">{placesLabel}</span>
+            ) : null}
           </div>
           {placesState.loading ? (
             <div className="mt-4 space-y-3">
@@ -284,7 +283,7 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
             </p>
           ) : (
             <div className="mt-4 space-y-3">
-              {poiCards?.map((poi) => (
+              {poiCards.map((poi) => (
                 <div
                   key={poi.id}
                   className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3"
@@ -300,14 +299,16 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
                   ) : null}
                 </div>
               ))}
-              {!poiCards?.length ? (
+              {!poiCards.length ? (
                 <p className="text-sm text-slate-400">No places yet.</p>
               ) : null}
             </div>
           )}
         </div>
 
-        <Link href={`/map?lat=${country.lat}&lon=${country.lon}`}>
+        <Link
+          href={`/map?lat=${country.lat}&lon=${country.lon}&country=${country.code}`}
+        >
           <Button className="w-full md:hidden">Open Map</Button>
         </Link>
       </div>

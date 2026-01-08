@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-tokyo-senso-ji",
+    "name": "Senso-ji",
+    "category": "landmarks",
+    "lat": 35.7148,
+    "lon": 139.7967,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-skytree",
+    "name": "Tokyo Skytree",
+    "category": "landmarks",
+    "lat": 35.7101,
+    "lon": 139.8107,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-shibuya-crossing",
+    "name": "Shibuya Crossing",
+    "category": "landmarks",
+    "lat": 35.6595,
+    "lon": 139.7005,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-meiji-shrine",
+    "name": "Meiji Shrine",
+    "category": "landmarks",
+    "lat": 35.6764,
+    "lon": 139.6993,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-tsukiji-outer-market",
+    "name": "Tsukiji Outer Market",
+    "category": "food",
+    "lat": 35.6655,
+    "lon": 139.7708,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-national-museum",
+    "name": "Tokyo National Museum",
+    "category": "museums",
+    "lat": 35.7188,
+    "lon": 139.7765,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-ueno-park",
+    "name": "Ueno Park",
+    "category": "nature",
+    "lat": 35.7153,
+    "lon": 139.7741,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-akihabara",
+    "name": "Akihabara",
+    "category": "nightlife",
+    "lat": 35.6984,
+    "lon": 139.773,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-odaiba-seaside-park",
+    "name": "Odaiba Seaside Park",
+    "category": "nature",
+    "lat": 35.6264,
+    "lon": 139.7766,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-roppongi-hills",
+    "name": "Roppongi Hills",
+    "category": "nightlife",
+    "lat": 35.6605,
+    "lon": 139.7294,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  }
+]

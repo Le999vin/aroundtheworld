@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-rome-colosseum",
+    "name": "Colosseum",
+    "category": "landmarks",
+    "lat": 41.8902,
+    "lon": 12.4922,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-roman-forum",
+    "name": "Roman Forum",
+    "category": "landmarks",
+    "lat": 41.8925,
+    "lon": 12.4853,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-trevi-fountain",
+    "name": "Trevi Fountain",
+    "category": "landmarks",
+    "lat": 41.9009,
+    "lon": 12.4833,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-pantheon",
+    "name": "Pantheon",
+    "category": "landmarks",
+    "lat": 41.8986,
+    "lon": 12.4768,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-vatican-museums",
+    "name": "Vatican Museums",
+    "category": "museums",
+    "lat": 41.9065,
+    "lon": 12.4536,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-st-peters-basilica",
+    "name": "St. Peter's Basilica",
+    "category": "landmarks",
+    "lat": 41.9022,
+    "lon": 12.4539,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-piazza-navona",
+    "name": "Piazza Navona",
+    "category": "food",
+    "lat": 41.8992,
+    "lon": 12.4731,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-spanish-steps",
+    "name": "Spanish Steps",
+    "category": "landmarks",
+    "lat": 41.9059,
+    "lon": 12.4823,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-trastevere",
+    "name": "Trastevere",
+    "category": "nightlife",
+    "lat": 41.8897,
+    "lon": 12.4696,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-villa-borghese-gardens",
+    "name": "Villa Borghese Gardens",
+    "category": "nature",
+    "lat": 41.9142,
+    "lon": 12.4923,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  }
+]

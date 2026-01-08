@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-es-sagrada-familia",
+    "name": "Sagrada Familia",
+    "category": "landmarks",
+    "lat": 41.4036,
+    "lon": 2.1744,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-alhambra",
+    "name": "Alhambra",
+    "category": "landmarks",
+    "lat": 37.1761,
+    "lon": -3.5881,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-park-guell",
+    "name": "Park Guell",
+    "category": "nature",
+    "lat": 41.4145,
+    "lon": 2.1527,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-prado-museum",
+    "name": "Prado Museum",
+    "category": "museums",
+    "lat": 40.4138,
+    "lon": -3.6921,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-plaza-mayor",
+    "name": "Plaza Mayor",
+    "category": "landmarks",
+    "lat": 40.4154,
+    "lon": -3.7074,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-alcazar-seville",
+    "name": "Alcazar of Seville",
+    "category": "landmarks",
+    "lat": 37.3831,
+    "lon": -5.9903,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-guggenheim-bilbao",
+    "name": "Guggenheim Museum Bilbao",
+    "category": "museums",
+    "lat": 43.2686,
+    "lon": -2.934,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-ibiza-old-town",
+    "name": "Ibiza Old Town",
+    "category": "nightlife",
+    "lat": 38.9089,
+    "lon": 1.4325,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-la-boqueria-market",
+    "name": "La Boqueria Market",
+    "category": "food",
+    "lat": 41.3826,
+    "lon": 2.1722,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-santiago-cathedral",
+    "name": "Santiago Cathedral",
+    "category": "landmarks",
+    "lat": 42.8806,
+    "lon": -8.5456,
+    "source": "static",
+    "countryCode": "ES"
+  }
+]

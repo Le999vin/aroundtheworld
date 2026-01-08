@@ -1,3 +1,4 @@
+// src/app/(marketing)/page.tsx
 import LandingClient from "@/components/landing/LandingClient";
 import { loadCountries } from "@/lib/countries/loadCountries";
 

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-bangkok-grand-palace",
+    "name": "Grand Palace",
+    "category": "landmarks",
+    "lat": 13.75,
+    "lon": 100.4913,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-wat-pho",
+    "name": "Wat Pho",
+    "category": "landmarks",
+    "lat": 13.7466,
+    "lon": 100.493,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-wat-arun",
+    "name": "Wat Arun",
+    "category": "landmarks",
+    "lat": 13.7437,
+    "lon": 100.488,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-chatuchak-market",
+    "name": "Chatuchak Market",
+    "category": "food",
+    "lat": 13.7995,
+    "lon": 100.551,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-khao-san-road",
+    "name": "Khao San Road",
+    "category": "nightlife",
+    "lat": 13.7594,
+    "lon": 100.497,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-lumphini-park",
+    "name": "Lumphini Park",
+    "category": "nature",
+    "lat": 13.7304,
+    "lon": 100.541,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-jim-thompson-house",
+    "name": "Jim Thompson House",
+    "category": "museums",
+    "lat": 13.7494,
+    "lon": 100.5283,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-asiatique-riverfront",
+    "name": "Asiatique Riverfront",
+    "category": "nightlife",
+    "lat": 13.7049,
+    "lon": 100.5046,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-iconsiam",
+    "name": "Iconsiam",
+    "category": "food",
+    "lat": 13.7262,
+    "lon": 100.5106,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  },
+  {
+    "id": "city-bangkok-erawan-shrine",
+    "name": "Erawan Shrine",
+    "category": "landmarks",
+    "lat": 13.744,
+    "lon": 100.5405,
+    "source": "static",
+    "countryCode": "TH",
+    "cityId": "bangkok"
+  }
+]

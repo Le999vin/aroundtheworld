@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-tr-hagia-sophia",
+    "name": "Hagia Sophia",
+    "category": "landmarks",
+    "lat": 41.0086,
+    "lon": 28.9802,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-cappadocia-goreme",
+    "name": "Cappadocia Goreme",
+    "category": "nature",
+    "lat": 38.6431,
+    "lon": 34.8307,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-pamukkale",
+    "name": "Pamukkale",
+    "category": "nature",
+    "lat": 37.9167,
+    "lon": 29.1187,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-ephesus",
+    "name": "Ephesus",
+    "category": "landmarks",
+    "lat": 37.939,
+    "lon": 27.341,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-blue-mosque",
+    "name": "Blue Mosque",
+    "category": "landmarks",
+    "lat": 41.0054,
+    "lon": 28.9768,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-grand-bazaar",
+    "name": "Grand Bazaar",
+    "category": "food",
+    "lat": 41.0107,
+    "lon": 28.9681,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-bosphorus-bridge-viewpoint",
+    "name": "Bosphorus Bridge Viewpoint",
+    "category": "landmarks",
+    "lat": 41.044,
+    "lon": 29.036,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-topkapi-palace",
+    "name": "Topkapi Palace",
+    "category": "museums",
+    "lat": 41.0115,
+    "lon": 28.9833,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-antalya-old-town",
+    "name": "Antalya Old Town",
+    "category": "food",
+    "lat": 36.8841,
+    "lon": 30.7056,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-mount-nemrut",
+    "name": "Mount Nemrut",
+    "category": "nature",
+    "lat": 37.9809,
+    "lon": 38.74,
+    "source": "static",
+    "countryCode": "TR"
+  }
+]

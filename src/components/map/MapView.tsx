@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { MapRef } from "react-map-gl/maplibre";
 import Map, { Marker, NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import { Badge } from "@/components/ui/badge";
@@ -13,17 +14,28 @@ const CATEGORIES: PlaceCategory[] = [
   "food",
   "nightlife",
   "nature",
+  "other",
 ];
 
 type MapViewProps = {
   center: { lat: number; lon: number };
+  initialZoom: number;
+  defaultCenter: { lat: number; lon: number };
+  defaultZoom: number;
   pois: POI[];
 };
 
-export const MapView = ({ center, pois }: MapViewProps) => {
+export const MapView = ({
+  center,
+  initialZoom,
+  defaultCenter,
+  defaultZoom,
+  pois,
+}: MapViewProps) => {
   const [activeCategory, setActiveCategory] = useState<
     PlaceCategory | "all"
   >("all");
+  const mapRef = useRef<MapRef | null>(null);
 
   const filteredPois = useMemo(() => {
     if (activeCategory === "all") return pois;
@@ -33,6 +45,25 @@ export const MapView = ({ center, pois }: MapViewProps) => {
   const mapStyle =
     process.env.NEXT_PUBLIC_MAP_STYLE_URL ??
     "https://demotiles.maplibre.org/style.json";
+
+  const hasPois = pois.length > 0;
+
+  const handleReset = () => {
+    setActiveCategory("all");
+    mapRef.current?.flyTo({
+      center: [defaultCenter.lon, defaultCenter.lat],
+      zoom: defaultZoom,
+      essential: true,
+    });
+  };
+
+  useEffect(() => {
+    mapRef.current?.flyTo({
+      center: [center.lon, center.lat],
+      zoom: initialZoom,
+      essential: true,
+    });
+  }, [center.lat, center.lon, initialZoom]);
 
   return (
     <div className="relative flex h-[calc(100vh-2rem)] w-full flex-col overflow-hidden rounded-[32px] border border-white/10 bg-white/5 shadow-2xl backdrop-blur-lg md:flex-row">
@@ -49,7 +80,7 @@ export const MapView = ({ center, pois }: MapViewProps) => {
           <Button
             variant="secondary"
             size="sm"
-            onClick={() => setActiveCategory("all")}
+            onClick={handleReset}
           >
             Reset
           </Button>
@@ -93,7 +124,11 @@ export const MapView = ({ center, pois }: MapViewProps) => {
               ) : null}
             </div>
           ))}
-          {!filteredPois.length ? (
+          {!hasPois ? (
+            <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 text-sm text-slate-300">
+              <p>No curated POIs yet for this destination.</p>
+            </div>
+          ) : !filteredPois.length ? (
             <p className="text-sm text-slate-400">No places in this filter.</p>
           ) : null}
         </div>
@@ -103,10 +138,11 @@ export const MapView = ({ center, pois }: MapViewProps) => {
         <Map
           mapLib={maplibregl}
           mapStyle={mapStyle}
+          ref={mapRef}
           initialViewState={{
             longitude: center.lon,
             latitude: center.lat,
-            zoom: 5,
+            zoom: initialZoom,
           }}
           attributionControl={false}
         >

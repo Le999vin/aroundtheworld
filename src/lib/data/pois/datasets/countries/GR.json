@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-gr-acropolis",
+    "name": "Acropolis",
+    "category": "landmarks",
+    "lat": 37.9715,
+    "lon": 23.7257,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-santorini-oia",
+    "name": "Santorini Oia",
+    "category": "nature",
+    "lat": 36.4618,
+    "lon": 25.3753,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-meteora",
+    "name": "Meteora",
+    "category": "nature",
+    "lat": 39.7216,
+    "lon": 21.63,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-delphi",
+    "name": "Delphi",
+    "category": "landmarks",
+    "lat": 38.4827,
+    "lon": 22.501,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-mykonos-little-venice",
+    "name": "Mykonos Little Venice",
+    "category": "nightlife",
+    "lat": 37.4467,
+    "lon": 25.3289,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-palace-of-knossos",
+    "name": "Palace of Knossos",
+    "category": "landmarks",
+    "lat": 35.2989,
+    "lon": 25.1634,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-acropolis-museum",
+    "name": "Acropolis Museum",
+    "category": "museums",
+    "lat": 37.9681,
+    "lon": 23.7286,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-navagio-beach",
+    "name": "Navagio Beach",
+    "category": "nature",
+    "lat": 37.8597,
+    "lon": 20.624,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-white-tower",
+    "name": "White Tower of Thessaloniki",
+    "category": "landmarks",
+    "lat": 40.6264,
+    "lon": 22.9485,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-monastiraki",
+    "name": "Monastiraki",
+    "category": "food",
+    "lat": 37.976,
+    "lon": 23.725,
+    "source": "static",
+    "countryCode": "GR"
+  }
+]

@@ -1,5 +1,5 @@
 import type { GeocodeResult } from "@/lib/types";
-import { ServiceError } from "@/lib/services/errors";
+import { ServiceError, readResponseBody } from "@/lib/services/errors";
 import type { GeocodingService } from "@/lib/services/geocoding/types";
 
 export class PhotonGeocodingService implements GeocodingService {
@@ -11,11 +11,22 @@ export class PhotonGeocodingService implements GeocodingService {
     url.searchParams.set("lang", "de");
     url.searchParams.set("limit", "5");
 
-    const response = await fetch(url.toString());
+    let response: Response;
+    try {
+      response = await fetch(url.toString());
+    } catch (error) {
+      throw new ServiceError("Geocoding provider request failed", {
+        status: 502,
+        code: "provider_error",
+        cause: error,
+      });
+    }
     if (!response.ok) {
+      const body = await readResponseBody(response);
       throw new ServiceError("Geocoding provider error", {
         status: response.status,
         code: "provider_error",
+        details: body,
       });
     }
 

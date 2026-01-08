@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-it-colosseum",
+    "name": "Colosseum",
+    "category": "landmarks",
+    "lat": 41.8902,
+    "lon": 12.4922,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-vatican-museums",
+    "name": "Vatican Museums",
+    "category": "museums",
+    "lat": 41.9065,
+    "lon": 12.4536,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-grand-canal",
+    "name": "Grand Canal",
+    "category": "landmarks",
+    "lat": 45.437,
+    "lon": 12.3358,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-florence-duomo",
+    "name": "Florence Duomo",
+    "category": "landmarks",
+    "lat": 43.7731,
+    "lon": 11.256,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-leaning-tower-of-pisa",
+    "name": "Leaning Tower of Pisa",
+    "category": "landmarks",
+    "lat": 43.7229,
+    "lon": 10.3966,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-amalfi-coast",
+    "name": "Amalfi Coast",
+    "category": "nature",
+    "lat": 40.6281,
+    "lon": 14.485,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-milan-cathedral",
+    "name": "Milan Cathedral",
+    "category": "landmarks",
+    "lat": 45.4642,
+    "lon": 9.1916,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-cinque-terre",
+    "name": "Cinque Terre",
+    "category": "nature",
+    "lat": 44.1461,
+    "lon": 9.6549,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-pompeii",
+    "name": "Pompeii",
+    "category": "museums",
+    "lat": 40.7497,
+    "lon": 14.4869,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-lake-como",
+    "name": "Lake Como",
+    "category": "nature",
+    "lat": 46.016,
+    "lon": 9.257,
+    "source": "static",
+    "countryCode": "IT"
+  }
+]

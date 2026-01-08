@@ -56,10 +56,15 @@ export type POI = Coordinates & {
   id: string;
   name: string;
   category: PlaceCategory;
-  rating?: number;
+  source: "static" | "curated" | "opentripmap";
+  countryCode?: string;
+  cityId?: string;
+  description?: string;
   address?: string;
+  rating?: number;
+  website?: string;
   imageUrl?: string;
-  source?: string;
+  tags?: string[];
 };
 
 export type GeocodeResult = Coordinates & {

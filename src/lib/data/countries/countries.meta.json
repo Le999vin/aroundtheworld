@@ -1,0 +1,6412 @@
+{
+  "AF": {
+    "code": "AF",
+    "code3": "AFG",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "population": 43844000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kabul",
+        "lat": 34.52,
+        "lon": 69.18
+      },
+      {
+        "name": "Zōr Kōṯ",
+        "lat": 33.54149,
+        "lon": 69.73446
+      },
+      {
+        "name": "Wulêswālī Bihsūd",
+        "lat": 34.3436,
+        "lon": 67.90567
+      },
+      {
+        "name": "Kuhsān",
+        "lat": 34.65389,
+        "lon": 61.19778
+      },
+      {
+        "name": "Lāsh",
+        "lat": 35.3782,
+        "lon": 64.77457
+      }
+    ]
+  },
+  "AO": {
+    "code": "AO",
+    "code3": "AGO",
+    "name": "Angola",
+    "capital": "Luanda",
+    "population": 36170961,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Luanda",
+        "lat": -8.83,
+        "lon": 13.22
+      },
+      {
+        "name": "Saurimo",
+        "lat": -9.66078,
+        "lon": 20.39155
+      },
+      {
+        "name": "Lucapa",
+        "lat": -8.41915,
+        "lon": 20.74466
+      },
+      {
+        "name": "Dundo",
+        "lat": -7.36643,
+        "lon": 20.81557
+      },
+      {
+        "name": "Chitato",
+        "lat": -7.3,
+        "lon": 20.73333
+      }
+    ]
+  },
+  "AL": {
+    "code": "AL",
+    "code3": "ALB",
+    "name": "Albania",
+    "capital": "Tirana",
+    "population": 2363314,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tirana",
+        "lat": 41.32,
+        "lon": 19.82
+      },
+      {
+        "name": "Xarrë",
+        "lat": 39.72833,
+        "lon": 20.05444
+      },
+      {
+        "name": "Sarandë",
+        "lat": 39.87534,
+        "lon": 20.00477
+      },
+      {
+        "name": "Mesopotam",
+        "lat": 39.91028,
+        "lon": 20.09222
+      },
+      {
+        "name": "Markat",
+        "lat": 39.73278,
+        "lon": 20.19528
+      }
+    ]
+  },
+  "AE": {
+    "code": "AE",
+    "code3": "ARE",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "population": 11294243,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Abu Dhabi",
+        "lat": 24.47,
+        "lon": 54.37
+      },
+      {
+        "name": "Warīsān",
+        "lat": 25.16744,
+        "lon": 55.40708
+      },
+      {
+        "name": "Umm Suqaym",
+        "lat": 25.15491,
+        "lon": 55.21015
+      },
+      {
+        "name": "Umm Al Quwain City",
+        "lat": 25.56473,
+        "lon": 55.55517
+      },
+      {
+        "name": "Ţarīf Kalbā",
+        "lat": 25.0695,
+        "lon": 56.33115
+      }
+    ]
+  },
+  "AR": {
+    "code": "AR",
+    "code3": "ARG",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "population": 46735004,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Buenos Aires",
+        "lat": -34.58,
+        "lon": -58.67
+      },
+      {
+        "name": "Zárate",
+        "lat": -34.09584,
+        "lon": -59.02423
+      },
+      {
+        "name": "Yatayti Calle",
+        "lat": -29.02831,
+        "lon": -58.9123
+      },
+      {
+        "name": "Yapeyú",
+        "lat": -29.46907,
+        "lon": -56.81837
+      },
+      {
+        "name": "Colonia Wanda",
+        "lat": -25.97337,
+        "lon": -54.56304
+      }
+    ]
+  },
+  "AM": {
+    "code": "AM",
+    "code3": "ARM",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "population": 3076200,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Yerevan",
+        "lat": 40.17,
+        "lon": 44.5
+      },
+      {
+        "name": "Zaritap",
+        "lat": 39.63892,
+        "lon": 45.51111
+      },
+      {
+        "name": "Zangakatun",
+        "lat": 39.82233,
+        "lon": 45.04169
+      },
+      {
+        "name": "Goravan",
+        "lat": 39.90539,
+        "lon": 44.73131
+      },
+      {
+        "name": "Yeghegnavan",
+        "lat": 39.83893,
+        "lon": 44.61951
+      }
+    ]
+  },
+  "AQ": {
+    "code": "AQ",
+    "code3": "ATA",
+    "name": "Antarctica",
+    "capital": "Antarctica City",
+    "population": 1300,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Antarctica City",
+        "lat": -90.0,
+        "lon": 0.0
+      },
+      {
+        "name": "Antarctica Central",
+        "lat": 0.35,
+        "lon": 0.25
+      },
+      {
+        "name": "Antarctica Harbor",
+        "lat": -0.3,
+        "lon": 0.2
+      }
+    ]
+  },
+  "TF": {
+    "code": "TF",
+    "code3": "ATF",
+    "name": "French Southern and Antarctic Lands",
+    "capital": "Port-aux-Français",
+    "population": 400,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Port-aux-Français",
+        "lat": -49.34916,
+        "lon": 70.21937
+      },
+      {
+        "name": "French Southern and Antarctic Lands Central",
+        "lat": 0.35,
+        "lon": 0.25
+      },
+      {
+        "name": "French Southern and Antarctic Lands Harbor",
+        "lat": -0.3,
+        "lon": 0.2
+      }
+    ]
+  },
+  "AU": {
+    "code": "AU",
+    "code3": "AUS",
+    "name": "Australia",
+    "capital": "Canberra",
+    "population": 27536874,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Canberra",
+        "lat": -35.27,
+        "lon": 149.13
+      },
+      {
+        "name": "York",
+        "lat": -31.88809,
+        "lon": 116.7678
+      },
+      {
+        "name": "Yanchep",
+        "lat": -31.54678,
+        "lon": 115.63171
+      },
+      {
+        "name": "Yallingup",
+        "lat": -33.64592,
+        "lon": 115.03514
+      },
+      {
+        "name": "Wundowie",
+        "lat": -31.76163,
+        "lon": 116.3799
+      }
+    ]
+  },
+  "AT": {
+    "code": "AT",
+    "code3": "AUT",
+    "name": "Austria",
+    "capital": "Vienna",
+    "population": 9200931,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Vienna",
+        "lat": 48.2,
+        "lon": 16.37
+      },
+      {
+        "name": "Döbling",
+        "lat": 48.25,
+        "lon": 16.33333
+      },
+      {
+        "name": "Neu-Guntramsdorf",
+        "lat": 48.0642,
+        "lon": 16.31573
+      },
+      {
+        "name": "Kleinarl",
+        "lat": 47.27725,
+        "lon": 13.31955
+      },
+      {
+        "name": "Edelstauden",
+        "lat": 46.98333,
+        "lon": 15.61667
+      }
+    ]
+  },
+  "AZ": {
+    "code": "AZ",
+    "code3": "AZE",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "population": 10241722,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Baku",
+        "lat": 40.38,
+        "lon": 49.87
+      },
+      {
+        "name": "Sharur City",
+        "lat": 39.55298,
+        "lon": 44.97993
+      },
+      {
+        "name": "Geytepe",
+        "lat": 39.11998,
+        "lon": 48.59383
+      },
+      {
+        "name": "Zangilan",
+        "lat": 39.08371,
+        "lon": 46.65988
+      },
+      {
+        "name": "Yaycı",
+        "lat": 38.94052,
+        "lon": 45.73244
+      }
+    ]
+  },
+  "BI": {
+    "code": "BI",
+    "code3": "BDI",
+    "name": "Burundi",
+    "capital": "Gitega",
+    "population": 12332788,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Gitega",
+        "lat": -3.43,
+        "lon": 29.93
+      },
+      {
+        "name": "Mabanda",
+        "lat": -4.2743,
+        "lon": 29.7749
+      },
+      {
+        "name": "Makamba",
+        "lat": -4.1348,
+        "lon": 29.804
+      },
+      {
+        "name": "Kayogoro",
+        "lat": -4.2298,
+        "lon": 29.7662
+      },
+      {
+        "name": "Matana",
+        "lat": -3.76664,
+        "lon": 29.68296
+      }
+    ]
+  },
+  "BE": {
+    "code": "BE",
+    "code3": "BEL",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "population": 11825551,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Brussels",
+        "lat": 50.83,
+        "lon": 4.33
+      },
+      {
+        "name": "Zwijndrecht",
+        "lat": 51.21979,
+        "lon": 4.32664
+      },
+      {
+        "name": "Zwijnaarde",
+        "lat": 51.00077,
+        "lon": 3.70746
+      },
+      {
+        "name": "Zwevezele",
+        "lat": 51.03683,
+        "lon": 3.21186
+      },
+      {
+        "name": "Zwevegem",
+        "lat": 50.81268,
+        "lon": 3.33848
+      }
+    ]
+  },
+  "BJ": {
+    "code": "BJ",
+    "code3": "BEN",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "population": 13224860,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Porto-Novo",
+        "lat": 6.48,
+        "lon": 2.62
+      },
+      {
+        "name": "Zinvié",
+        "lat": 6.61738,
+        "lon": 2.35776
+      },
+      {
+        "name": "Zé",
+        "lat": 6.78333,
+        "lon": 2.3
+      },
+      {
+        "name": "Zagnanado",
+        "lat": 7.22097,
+        "lon": 2.38335
+      },
+      {
+        "name": "Toviklin",
+        "lat": 6.88935,
+        "lon": 1.83722
+      }
+    ]
+  },
+  "BF": {
+    "code": "BF",
+    "code3": "BFA",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "population": 24070553,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Ouagadougou",
+        "lat": 12.37,
+        "lon": -1.52
+      },
+      {
+        "name": "Zorgo",
+        "lat": 12.24922,
+        "lon": -0.61527
+      },
+      {
+        "name": "Zitenga",
+        "lat": 12.74846,
+        "lon": -1.30989
+      },
+      {
+        "name": "Ziniaré",
+        "lat": 12.58186,
+        "lon": -1.2971
+      },
+      {
+        "name": "Zinguédéssé",
+        "lat": 12.24661,
+        "lon": -1.58402
+      }
+    ]
+  },
+  "BD": {
+    "code": "BD",
+    "code3": "BGD",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "population": 169828911,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Dhaka",
+        "lat": 23.72,
+        "lon": 90.4
+      },
+      {
+        "name": "Thākurgaon",
+        "lat": 26.03097,
+        "lon": 88.46989
+      },
+      {
+        "name": "Teknāf",
+        "lat": 20.85829,
+        "lon": 92.29773
+      },
+      {
+        "name": "Tungi",
+        "lat": 23.89154,
+        "lon": 90.40232
+      },
+      {
+        "name": "Sylhet",
+        "lat": 24.89904,
+        "lon": 91.87198
+      }
+    ]
+  },
+  "BG": {
+    "code": "BG",
+    "code3": "BGR",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "population": 6437360,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Sofia",
+        "lat": 42.68,
+        "lon": 23.32
+      },
+      {
+        "name": "Beloslav",
+        "lat": 43.18717,
+        "lon": 27.70352
+      },
+      {
+        "name": "Zlatograd",
+        "lat": 41.3795,
+        "lon": 25.09605
+      },
+      {
+        "name": "Zlatitsa",
+        "lat": 42.71667,
+        "lon": 24.13333
+      },
+      {
+        "name": "Zlataritsa",
+        "lat": 43.05,
+        "lon": 25.9
+      }
+    ]
+  },
+  "BS": {
+    "code": "BS",
+    "code3": "BHS",
+    "name": "The Bahamas",
+    "capital": "Nassau",
+    "population": 398165,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "West End",
+        "lat": 26.68711,
+        "lon": -78.97702
+      },
+      {
+        "name": "Spanish Wells",
+        "lat": 25.54717,
+        "lon": -76.76405
+      },
+      {
+        "name": "San Andros",
+        "lat": 25.06667,
+        "lon": -78.05
+      },
+      {
+        "name": "Port Nelson",
+        "lat": 23.64967,
+        "lon": -74.84157
+      },
+      {
+        "name": "Nassau",
+        "lat": 25.05823,
+        "lon": -77.34306
+      }
+    ]
+  },
+  "BA": {
+    "code": "BA",
+    "code3": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "population": 3422000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Sarajevo",
+        "lat": 43.87,
+        "lon": 18.42
+      },
+      {
+        "name": "Zvornik",
+        "lat": 44.38605,
+        "lon": 19.10247
+      },
+      {
+        "name": "Živinice",
+        "lat": 44.54765,
+        "lon": 17.37357
+      },
+      {
+        "name": "Žepče",
+        "lat": 44.42667,
+        "lon": 18.03778
+      },
+      {
+        "name": "Zenica",
+        "lat": 44.20169,
+        "lon": 17.90397
+      }
+    ]
+  },
+  "BY": {
+    "code": "BY",
+    "code3": "BLR",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "population": 9109280,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Minsk",
+        "lat": 53.9,
+        "lon": 27.57
+      },
+      {
+        "name": "Indura",
+        "lat": 53.4605,
+        "lon": 23.8823
+      },
+      {
+        "name": "Skidel’",
+        "lat": 53.5904,
+        "lon": 24.2478
+      },
+      {
+        "name": "Znamenka",
+        "lat": 51.88168,
+        "lon": 23.65545
+      },
+      {
+        "name": "Horad Zhodzina",
+        "lat": 54.0985,
+        "lon": 28.3331
+      }
+    ]
+  },
+  "BZ": {
+    "code": "BZ",
+    "code3": "BLZ",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "population": 417634,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Belmopan",
+        "lat": 17.25,
+        "lon": -88.77
+      },
+      {
+        "name": "Yo Creek",
+        "lat": 18.09098,
+        "lon": -88.64607
+      },
+      {
+        "name": "Xaibe",
+        "lat": 18.38654,
+        "lon": -88.43393
+      },
+      {
+        "name": "Unitedville",
+        "lat": 17.21031,
+        "lon": -88.93385
+      },
+      {
+        "name": "Trial Farm",
+        "lat": 18.10124,
+        "lon": -88.56584
+      }
+    ]
+  },
+  "BM": {
+    "code": "BM",
+    "code3": "BMU",
+    "name": "Bermuda",
+    "capital": "Hamilton",
+    "population": 64055,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Saint George",
+        "lat": 32.38167,
+        "lon": -64.67806
+      },
+      {
+        "name": "Hamilton",
+        "lat": 32.2949,
+        "lon": -64.78303
+      },
+      {
+        "name": "Bermuda Central",
+        "lat": 0.35,
+        "lon": 0.25
+      }
+    ]
+  },
+  "BO": {
+    "code": "BO",
+    "code3": "BOL",
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "population": 11365333,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Sucre",
+        "lat": -19.02,
+        "lon": -65.26
+      },
+      {
+        "name": "San Pedro",
+        "lat": -18.28691,
+        "lon": -59.81742
+      },
+      {
+        "name": "San Matías",
+        "lat": -16.3597,
+        "lon": -58.40039
+      },
+      {
+        "name": "Roboré",
+        "lat": -18.33473,
+        "lon": -59.76142
+      },
+      {
+        "name": "Puerto Suárez",
+        "lat": -18.96722,
+        "lon": -57.80127
+      }
+    ]
+  },
+  "BR": {
+    "code": "BR",
+    "code3": "BRA",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "population": 213421037,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Brasília",
+        "lat": -15.79,
+        "lon": -47.88
+      },
+      {
+        "name": "Vitorino Freire",
+        "lat": -4.28805,
+        "lon": -45.24611
+      },
+      {
+        "name": "Vitória do Mearim",
+        "lat": -3.46222,
+        "lon": -44.87056
+      },
+      {
+        "name": "Vitória de Santo Antão",
+        "lat": -8.11806,
+        "lon": -35.29139
+      },
+      {
+        "name": "Viseu",
+        "lat": -1.19667,
+        "lon": -46.14
+      }
+    ]
+  },
+  "BN": {
+    "code": "BN",
+    "code3": "BRN",
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "population": 455500,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bandar Seri Begawan",
+        "lat": 4.88,
+        "lon": 114.93
+      },
+      {
+        "name": "Tutong",
+        "lat": 4.80278,
+        "lon": 114.64917
+      },
+      {
+        "name": "Seria",
+        "lat": 4.60637,
+        "lon": 114.32476
+      },
+      {
+        "name": "Kuala Belait",
+        "lat": 4.58361,
+        "lon": 114.2312
+      },
+      {
+        "name": "Kampong Tunah Jambu",
+        "lat": 4.98333,
+        "lon": 114.98333
+      }
+    ]
+  },
+  "BT": {
+    "code": "BT",
+    "code3": "BTN",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "population": 784043,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Wangdue Phodrang",
+        "lat": 27.48615,
+        "lon": 89.89915
+      },
+      {
+        "name": "Trongsa",
+        "lat": 27.5026,
+        "lon": 90.50716
+      },
+      {
+        "name": "Thimphu",
+        "lat": 27.46609,
+        "lon": 89.64191
+      },
+      {
+        "name": "Trashi Yangtse",
+        "lat": 27.6116,
+        "lon": 91.498
+      },
+      {
+        "name": "Trashigang",
+        "lat": 27.3331,
+        "lon": 91.55424
+      }
+    ]
+  },
+  "BW": {
+    "code": "BW",
+    "code3": "BWA",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "population": 2359609,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Gaborone",
+        "lat": -24.63,
+        "lon": 25.9
+      },
+      {
+        "name": "Werda",
+        "lat": -25.26667,
+        "lon": 23.28333
+      },
+      {
+        "name": "Tshabong",
+        "lat": -26.05,
+        "lon": 22.45
+      },
+      {
+        "name": "Tsau",
+        "lat": -20.16458,
+        "lon": 22.45573
+      },
+      {
+        "name": "Tonota",
+        "lat": -21.44236,
+        "lon": 27.46153
+      }
+    ]
+  },
+  "CF": {
+    "code": "CF",
+    "code3": "CAF",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "population": 6470307,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bangui",
+        "lat": 4.37,
+        "lon": 18.58
+      },
+      {
+        "name": "Zemio",
+        "lat": 5.03144,
+        "lon": 25.13614
+      },
+      {
+        "name": "Ouango",
+        "lat": 4.31325,
+        "lon": 22.55524
+      },
+      {
+        "name": "Ouadda",
+        "lat": 8.07771,
+        "lon": 22.40075
+      },
+      {
+        "name": "Obo",
+        "lat": 5.39586,
+        "lon": 26.49211
+      }
+    ]
+  },
+  "CA": {
+    "code": "CA",
+    "code3": "CAN",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "population": 41651653,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Ottawa",
+        "lat": 45.42,
+        "lon": -75.7
+      },
+      {
+        "name": "100 Mile House",
+        "lat": 51.64982,
+        "lon": -121.28594
+      },
+      {
+        "name": "Abbotsford",
+        "lat": 49.05798,
+        "lon": -122.25257
+      },
+      {
+        "name": "Acadia",
+        "lat": 50.97172,
+        "lon": -114.05688
+      },
+      {
+        "name": "Acton Vale",
+        "lat": 45.65007,
+        "lon": -72.56582
+      }
+    ]
+  },
+  "CH": {
+    "code": "CH",
+    "code3": "CHE",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "population": 9082848,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bern",
+        "lat": 46.92,
+        "lon": 7.47
+      },
+      {
+        "name": "Zwingen",
+        "lat": 47.43825,
+        "lon": 7.53027
+      },
+      {
+        "name": "Zweisimmen",
+        "lat": 46.55539,
+        "lon": 7.37302
+      },
+      {
+        "name": "Zuzwil",
+        "lat": 47.47452,
+        "lon": 9.11196
+      },
+      {
+        "name": "Bad Zurzach",
+        "lat": 47.58764,
+        "lon": 8.29365
+      }
+    ]
+  },
+  "CL": {
+    "code": "CL",
+    "code3": "CHL",
+    "name": "Chile",
+    "capital": "Santiago",
+    "population": 20206953,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Santiago",
+        "lat": -33.45,
+        "lon": -70.67
+      },
+      {
+        "name": "Yumbel",
+        "lat": -37.0982,
+        "lon": -72.56084
+      },
+      {
+        "name": "Viña del Mar",
+        "lat": -33.02457,
+        "lon": -71.55183
+      },
+      {
+        "name": "Villarrica",
+        "lat": -39.28569,
+        "lon": -72.2279
+      },
+      {
+        "name": "Villa Alemana",
+        "lat": -33.04823,
+        "lon": -71.3729
+      }
+    ]
+  },
+  "CN": {
+    "code": "CN",
+    "code3": "CHN",
+    "name": "China",
+    "capital": "Beijing",
+    "population": 1408280000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Beijing",
+        "lat": 39.92,
+        "lon": 116.38
+      },
+      {
+        "name": "Zongga",
+        "lat": 29.0,
+        "lon": 85.25
+      },
+      {
+        "name": "Zito",
+        "lat": 30.73893,
+        "lon": 95.83613
+      },
+      {
+        "name": "Zhowagoin",
+        "lat": 28.6591,
+        "lon": 97.45065
+      },
+      {
+        "name": "Zhefang",
+        "lat": 24.26667,
+        "lon": 98.28333
+      }
+    ]
+  },
+  "CI": {
+    "code": "CI",
+    "code3": "CIV",
+    "name": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "population": 31719275,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Yamoussoukro",
+        "lat": 6.82,
+        "lon": -5.27
+      },
+      {
+        "name": "Zyogouiné",
+        "lat": 7.19246,
+        "lon": -7.64056
+      },
+      {
+        "name": "Zuénoula",
+        "lat": 7.43027,
+        "lon": -6.05054
+      },
+      {
+        "name": "Zuenda",
+        "lat": 7.69915,
+        "lon": -5.59069
+      },
+      {
+        "name": "Zuékokoré",
+        "lat": 6.56831,
+        "lon": -4.28911
+      }
+    ]
+  },
+  "CM": {
+    "code": "CM",
+    "code3": "CMR",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "population": 29442327,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Yoko",
+        "lat": 5.53333,
+        "lon": 12.31667
+      },
+      {
+        "name": "Yokadouma",
+        "lat": 3.51667,
+        "lon": 15.05
+      },
+      {
+        "name": "Yaoundé",
+        "lat": 3.86667,
+        "lon": 11.51667
+      },
+      {
+        "name": "Yagoua",
+        "lat": 10.34107,
+        "lon": 15.23288
+      },
+      {
+        "name": "Yabassi",
+        "lat": 4.45697,
+        "lon": 9.96822
+      }
+    ]
+  },
+  "CD": {
+    "code": "CD",
+    "code3": "COD",
+    "name": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "population": 112832000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kinshasa",
+        "lat": -4.32,
+        "lon": 15.3
+      },
+      {
+        "name": "Yangambi",
+        "lat": 0.76755,
+        "lon": 24.43973
+      },
+      {
+        "name": "Watsa",
+        "lat": 3.03716,
+        "lon": 29.53551
+      },
+      {
+        "name": "Wamba",
+        "lat": 2.14838,
+        "lon": 27.99466
+      },
+      {
+        "name": "Uvira",
+        "lat": -3.39534,
+        "lon": 29.13779
+      }
+    ]
+  },
+  "CG": {
+    "code": "CG",
+    "code3": "COG",
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "population": 6142180,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Brazzaville",
+        "lat": -4.25,
+        "lon": 15.28
+      },
+      {
+        "name": "Zanaga",
+        "lat": -2.85028,
+        "lon": 13.82611
+      },
+      {
+        "name": "Tchikapika",
+        "lat": -1.26444,
+        "lon": 16.18028
+      },
+      {
+        "name": "Souanké",
+        "lat": 2.05966,
+        "lon": 14.13219
+      },
+      {
+        "name": "Sibiti",
+        "lat": -3.68192,
+        "lon": 13.34985
+      }
+    ]
+  },
+  "CO": {
+    "code": "CO",
+    "code3": "COL",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "population": 53057212,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bogotá",
+        "lat": 4.71,
+        "lon": -74.07
+      },
+      {
+        "name": "Zipaquirá",
+        "lat": 5.02208,
+        "lon": -74.00481
+      },
+      {
+        "name": "Zipacón",
+        "lat": 4.75881,
+        "lon": -74.38017
+      },
+      {
+        "name": "Zetaquira",
+        "lat": 5.28215,
+        "lon": -73.16896
+      },
+      {
+        "name": "Zarzal",
+        "lat": 4.39462,
+        "lon": -76.0715
+      }
+    ]
+  },
+  "CR": {
+    "code": "CR",
+    "code3": "CRI",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "population": 5309625,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "San José",
+        "lat": 9.93,
+        "lon": -84.09
+      },
+      {
+        "name": "Zarcero",
+        "lat": 10.18455,
+        "lon": -84.39163
+      },
+      {
+        "name": "Zapotal",
+        "lat": 10.0,
+        "lon": -85.3
+      },
+      {
+        "name": "Upala",
+        "lat": 10.89908,
+        "lon": -85.01366
+      },
+      {
+        "name": "Turrialba",
+        "lat": 9.90371,
+        "lon": -83.68361
+      }
+    ]
+  },
+  "CU": {
+    "code": "CU",
+    "code3": "CUB",
+    "name": "Cuba",
+    "capital": "Havana",
+    "population": 9748007,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Havana",
+        "lat": 23.12,
+        "lon": -82.35
+      },
+      {
+        "name": "Zaza del Medio",
+        "lat": 21.99712,
+        "lon": -79.36678
+      },
+      {
+        "name": "Yara",
+        "lat": 20.27465,
+        "lon": -76.95132
+      },
+      {
+        "name": "Yaguajay",
+        "lat": 22.32691,
+        "lon": -79.23567
+      },
+      {
+        "name": "Viñales",
+        "lat": 22.61892,
+        "lon": -83.70694
+      }
+    ]
+  },
+  "XC": {
+    "code": "XC",
+    "code3": "NCY",
+    "name": "Northern Cyprus",
+    "capital": "Nicosia",
+    "population": 326000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Nicosia",
+        "lat": 35.1856,
+        "lon": 33.3823
+      },
+      {
+        "name": "Famagusta",
+        "lat": 35.125,
+        "lon": 33.95
+      },
+      {
+        "name": "Kyrenia",
+        "lat": 35.3417,
+        "lon": 33.3167
+      }
+    ]
+  },
+  "CY": {
+    "code": "CY",
+    "code3": "CYP",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "population": 1442614,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Nicosia",
+        "lat": 35.17,
+        "lon": 33.37
+      },
+      {
+        "name": "Protaras",
+        "lat": 35.0125,
+        "lon": 34.05833
+      },
+      {
+        "name": "Ýpsonas",
+        "lat": 34.68797,
+        "lon": 32.96191
+      },
+      {
+        "name": "Geroskípou (quarter)",
+        "lat": 34.75581,
+        "lon": 32.44915
+      },
+      {
+        "name": "Germasógeia",
+        "lat": 34.72073,
+        "lon": 33.08447
+      }
+    ]
+  },
+  "CZ": {
+    "code": "CZ",
+    "code3": "CZE",
+    "name": "Czech Republic",
+    "capital": "Prague",
+    "population": 10882341,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Prague",
+        "lat": 50.08,
+        "lon": 14.47
+      },
+      {
+        "name": "Dvůr Králové nad Labem",
+        "lat": 50.43172,
+        "lon": 15.81402
+      },
+      {
+        "name": "Zvole",
+        "lat": 49.93466,
+        "lon": 14.41769
+      },
+      {
+        "name": "Žulová",
+        "lat": 50.30933,
+        "lon": 17.09871
+      },
+      {
+        "name": "Zubří",
+        "lat": 49.46603,
+        "lon": 18.09249
+      }
+    ]
+  },
+  "DE": {
+    "code": "DE",
+    "code3": "DEU",
+    "name": "Germany",
+    "capital": "Berlin",
+    "population": 83491249,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Berlin",
+        "lat": 52.52,
+        "lon": 13.4
+      },
+      {
+        "name": "Zwota",
+        "lat": 50.35103,
+        "lon": 12.42241
+      },
+      {
+        "name": "Zwönitz",
+        "lat": 50.63027,
+        "lon": 12.80999
+      },
+      {
+        "name": "Zwochau",
+        "lat": 51.46467,
+        "lon": 12.26844
+      },
+      {
+        "name": "Zwingenberg",
+        "lat": 49.72389,
+        "lon": 8.61084
+      }
+    ]
+  },
+  "DJ": {
+    "code": "DJ",
+    "code3": "DJI",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "population": 1066809,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tadjoura",
+        "lat": 11.78778,
+        "lon": 42.88222
+      },
+      {
+        "name": "Obock",
+        "lat": 11.96693,
+        "lon": 43.28835
+      },
+      {
+        "name": "Loyada",
+        "lat": 11.46111,
+        "lon": 43.25278
+      },
+      {
+        "name": "Holhol",
+        "lat": 11.31028,
+        "lon": 42.92944
+      },
+      {
+        "name": "Dorra",
+        "lat": 12.15028,
+        "lon": 42.47624
+      }
+    ]
+  },
+  "DK": {
+    "code": "DK",
+    "code3": "DNK",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "population": 6011488,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Copenhagen",
+        "lat": 55.67,
+        "lon": 12.58
+      },
+      {
+        "name": "Vrå",
+        "lat": 57.3537,
+        "lon": 9.94176
+      },
+      {
+        "name": "Vordingborg",
+        "lat": 55.00801,
+        "lon": 11.91057
+      },
+      {
+        "name": "Vorbasse",
+        "lat": 55.62992,
+        "lon": 9.08239
+      },
+      {
+        "name": "Vojens",
+        "lat": 55.24639,
+        "lon": 9.30603
+      }
+    ]
+  },
+  "DO": {
+    "code": "DO",
+    "code3": "DOM",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "population": 10771504,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Santo Domingo",
+        "lat": 18.47,
+        "lon": -69.9
+      },
+      {
+        "name": "Yayas de Viajama",
+        "lat": 18.6071,
+        "lon": -70.92753
+      },
+      {
+        "name": "Yamasá",
+        "lat": 18.77315,
+        "lon": -70.02583
+      },
+      {
+        "name": "Yaguate",
+        "lat": 18.3353,
+        "lon": -70.18113
+      },
+      {
+        "name": "Villa Vásquez",
+        "lat": 19.7411,
+        "lon": -71.4464
+      }
+    ]
+  },
+  "DZ": {
+    "code": "DZ",
+    "code3": "DZA",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "population": 47400000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Algiers",
+        "lat": 36.75,
+        "lon": 3.05
+      },
+      {
+        "name": "Boumerdas",
+        "lat": 36.76639,
+        "lon": 3.47717
+      },
+      {
+        "name": "Zighout Youcef",
+        "lat": 36.53307,
+        "lon": 6.71237
+      },
+      {
+        "name": "Zeribet el Oued",
+        "lat": 34.68284,
+        "lon": 6.51109
+      },
+      {
+        "name": "Zeralda",
+        "lat": 36.71169,
+        "lon": 2.84244
+      }
+    ]
+  },
+  "EC": {
+    "code": "EC",
+    "code3": "ECU",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "population": 18103660,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Quito",
+        "lat": -0.22,
+        "lon": -78.5
+      },
+      {
+        "name": "Zuña",
+        "lat": -2.18781,
+        "lon": -78.35907
+      },
+      {
+        "name": "Zumbahua",
+        "lat": -0.96098,
+        "lon": -78.89839
+      },
+      {
+        "name": "Zaruma",
+        "lat": -3.69227,
+        "lon": -79.61254
+      },
+      {
+        "name": "Bolívar",
+        "lat": 0.44604,
+        "lon": -80.04376
+      }
+    ]
+  },
+  "EG": {
+    "code": "EG",
+    "code3": "EGY",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "population": 107271260,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Cairo",
+        "lat": 30.05,
+        "lon": 31.25
+      },
+      {
+        "name": "Zefta",
+        "lat": 30.7142,
+        "lon": 31.24425
+      },
+      {
+        "name": "Ţūkh",
+        "lat": 30.35487,
+        "lon": 31.20105
+      },
+      {
+        "name": "Timayy al Imdīd",
+        "lat": 30.94384,
+        "lon": 31.52926
+      },
+      {
+        "name": "Ţimā",
+        "lat": 26.90843,
+        "lon": 31.43469
+      }
+    ]
+  },
+  "ER": {
+    "code": "ER",
+    "code3": "ERI",
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "population": 3607000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Asmara",
+        "lat": 15.33,
+        "lon": 38.93
+      },
+      {
+        "name": "Teseney",
+        "lat": 15.11,
+        "lon": 36.6575
+      },
+      {
+        "name": "Massawa",
+        "lat": 15.60811,
+        "lon": 39.47455
+      },
+      {
+        "name": "Keren",
+        "lat": 15.77792,
+        "lon": 38.45107
+      },
+      {
+        "name": "Himora",
+        "lat": 14.30427,
+        "lon": 36.60601
+      }
+    ]
+  },
+  "ES": {
+    "code": "ES",
+    "code3": "ESP",
+    "name": "Spain",
+    "capital": "Madrid",
+    "population": 49315949,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Madrid",
+        "lat": 40.4,
+        "lon": -3.68
+      },
+      {
+        "name": "Zurgena",
+        "lat": 37.34218,
+        "lon": -2.03985
+      },
+      {
+        "name": "Zújar",
+        "lat": 37.54285,
+        "lon": -2.84197
+      },
+      {
+        "name": "Zuheros",
+        "lat": 37.54332,
+        "lon": -4.31531
+      },
+      {
+        "name": "Zufre",
+        "lat": 37.83333,
+        "lon": -6.33333
+      }
+    ]
+  },
+  "EE": {
+    "code": "EE",
+    "code3": "EST",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "population": 1369995,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tallinn",
+        "lat": 59.43,
+        "lon": 24.72
+      },
+      {
+        "name": "Vändra",
+        "lat": 58.64806,
+        "lon": 25.03611
+      },
+      {
+        "name": "Võru",
+        "lat": 57.83389,
+        "lon": 27.01944
+      },
+      {
+        "name": "Võhma",
+        "lat": 58.62833,
+        "lon": 25.54833
+      },
+      {
+        "name": "Vinni",
+        "lat": 59.29583,
+        "lon": 26.43222
+      }
+    ]
+  },
+  "ET": {
+    "code": "ET",
+    "code3": "ETH",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "population": 111652998,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Addis Ababa",
+        "lat": 9.03,
+        "lon": 38.7
+      },
+      {
+        "name": "Waal",
+        "lat": 6.88658,
+        "lon": 46.21508
+      },
+      {
+        "name": "Fadhigaradle",
+        "lat": 6.17559,
+        "lon": 45.29866
+      },
+      {
+        "name": "Ziway",
+        "lat": 7.93333,
+        "lon": 38.71667
+      },
+      {
+        "name": "Yirga Ch’efē",
+        "lat": 6.16667,
+        "lon": 38.2
+      }
+    ]
+  },
+  "FI": {
+    "code": "FI",
+    "code3": "FIN",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "population": 5650325,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Helsinki",
+        "lat": 60.17,
+        "lon": 24.93
+      },
+      {
+        "name": "Herukka",
+        "lat": 65.09712,
+        "lon": 25.40485
+      },
+      {
+        "name": "Linnanmaa",
+        "lat": 65.05559,
+        "lon": 25.46639
+      },
+      {
+        "name": "Ytteresse",
+        "lat": 63.62209,
+        "lon": 22.99456
+      },
+      {
+        "name": "Ypäjä",
+        "lat": 60.8,
+        "lon": 23.28333
+      }
+    ]
+  },
+  "FJ": {
+    "code": "FJ",
+    "code3": "FJI",
+    "name": "Fiji",
+    "capital": "Suva",
+    "population": 900869,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Suva",
+        "lat": -18.13683,
+        "lon": 178.42531
+      },
+      {
+        "name": "Sigatoka",
+        "lat": -18.14307,
+        "lon": 177.50691
+      },
+      {
+        "name": "Nadi",
+        "lat": -17.80309,
+        "lon": 177.41617
+      },
+      {
+        "name": "Levuka",
+        "lat": -18.06667,
+        "lon": 179.31667
+      },
+      {
+        "name": "Lautoka",
+        "lat": -17.61686,
+        "lon": 177.45049
+      }
+    ]
+  },
+  "FK": {
+    "code": "FK",
+    "code3": "FLK",
+    "name": "Falkland Islands",
+    "capital": "Stanley",
+    "population": 3662,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Stanley",
+        "lat": -51.69382,
+        "lon": -57.85701
+      },
+      {
+        "name": "Falkland Islands Central",
+        "lat": 0.35,
+        "lon": 0.25
+      },
+      {
+        "name": "Falkland Islands Harbor",
+        "lat": -0.3,
+        "lon": 0.2
+      }
+    ]
+  },
+  "FR": {
+    "code": "FR",
+    "code3": "FRA",
+    "name": "France",
+    "capital": "Paris",
+    "population": 66351959,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Paris",
+        "lat": 48.87,
+        "lon": 2.33
+      },
+      {
+        "name": "Peyrat-le-Château",
+        "lat": 45.81376,
+        "lon": 1.7726
+      },
+      {
+        "name": "Blaye",
+        "lat": 45.12764,
+        "lon": -0.66225
+      },
+      {
+        "name": "Zuydcoote",
+        "lat": 51.06096,
+        "lon": 2.49338
+      },
+      {
+        "name": "Zutkerque",
+        "lat": 50.85303,
+        "lon": 2.06818
+      }
+    ]
+  },
+  "GA": {
+    "code": "GA",
+    "code3": "GAB",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "population": 2469296,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Libreville",
+        "lat": 0.38,
+        "lon": 9.45
+      },
+      {
+        "name": "Tchibanga",
+        "lat": -2.93323,
+        "lon": 10.98178
+      },
+      {
+        "name": "Port-Gentil",
+        "lat": -0.71933,
+        "lon": 8.78151
+      },
+      {
+        "name": "Pana",
+        "lat": -1.67159,
+        "lon": 12.63035
+      },
+      {
+        "name": "Oyem",
+        "lat": 1.5995,
+        "lon": 11.57933
+      }
+    ]
+  },
+  "GB": {
+    "code": "GB",
+    "code3": "GBR",
+    "name": "United Kingdom",
+    "capital": "London",
+    "population": 69281437,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "London",
+        "lat": 51.5,
+        "lon": -0.08
+      },
+      {
+        "name": "Ystrad Mynach",
+        "lat": 51.64276,
+        "lon": -3.2362
+      },
+      {
+        "name": "Ystradgynlais",
+        "lat": 51.76667,
+        "lon": -3.76667
+      },
+      {
+        "name": "Ystalyfera",
+        "lat": 51.76716,
+        "lon": -3.78082
+      },
+      {
+        "name": "Yoxall",
+        "lat": 52.76659,
+        "lon": -1.79068
+      }
+    ]
+  },
+  "GE": {
+    "code": "GE",
+    "code3": "GEO",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "population": 4000921,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tbilisi",
+        "lat": 41.68,
+        "lon": 44.83
+      },
+      {
+        "name": "Abastumani",
+        "lat": 41.75339,
+        "lon": 42.83203
+      },
+      {
+        "name": "Zugdidi",
+        "lat": 42.5088,
+        "lon": 41.87088
+      },
+      {
+        "name": "Zhinvali",
+        "lat": 42.13181,
+        "lon": 44.77264
+      },
+      {
+        "name": "Zest’aponi",
+        "lat": 42.10752,
+        "lon": 43.03291
+      }
+    ]
+  },
+  "GH": {
+    "code": "GH",
+    "code3": "GHA",
+    "name": "Ghana",
+    "capital": "Accra",
+    "population": 33742380,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Accra",
+        "lat": 5.55,
+        "lon": -0.22
+      },
+      {
+        "name": "Yendi",
+        "lat": 9.44272,
+        "lon": -0.00991
+      },
+      {
+        "name": "Yegyi",
+        "lat": 8.22542,
+        "lon": -0.64889
+      },
+      {
+        "name": "Winneba",
+        "lat": 5.35113,
+        "lon": -0.62313
+      },
+      {
+        "name": "Sefwi Wiawso",
+        "lat": 6.20583,
+        "lon": -2.48944
+      }
+    ]
+  },
+  "GN": {
+    "code": "GN",
+    "code3": "GIN",
+    "name": "Guinea",
+    "capital": "Conakry",
+    "population": 14363931,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Conakry",
+        "lat": 9.5,
+        "lon": -13.7
+      },
+      {
+        "name": "Youkounkoun",
+        "lat": 12.5311,
+        "lon": -13.1224
+      },
+      {
+        "name": "Yomou",
+        "lat": 7.56748,
+        "lon": -9.26283
+      },
+      {
+        "name": "Tougué",
+        "lat": 11.44503,
+        "lon": -11.66422
+      },
+      {
+        "name": "Touba",
+        "lat": 11.6,
+        "lon": -13.03333
+      }
+    ]
+  },
+  "GM": {
+    "code": "GM",
+    "code3": "GMB",
+    "name": "Gambia",
+    "capital": "Banjul",
+    "population": 2422712,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Banjul",
+        "lat": 13.45,
+        "lon": -16.57
+      },
+      {
+        "name": "Old Yundum",
+        "lat": 13.3625,
+        "lon": -16.68611
+      },
+      {
+        "name": "Yundum",
+        "lat": 13.34556,
+        "lon": -16.67278
+      },
+      {
+        "name": "Wellingara Ba",
+        "lat": 13.41667,
+        "lon": -15.4
+      },
+      {
+        "name": "Welingara",
+        "lat": 13.40361,
+        "lon": -16.67361
+      }
+    ]
+  },
+  "GW": {
+    "code": "GW",
+    "code3": "GNB",
+    "name": "Guinea Bissau",
+    "capital": "Bissau",
+    "population": 1781308,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bissau",
+        "lat": 11.85,
+        "lon": -15.58
+      },
+      {
+        "name": "Tite",
+        "lat": 11.78333,
+        "lon": -15.4
+      },
+      {
+        "name": "Sonaco",
+        "lat": 12.4,
+        "lon": -14.48333
+      },
+      {
+        "name": "São Domingos",
+        "lat": 12.40194,
+        "lon": -16.20056
+      },
+      {
+        "name": "Safim",
+        "lat": 11.95,
+        "lon": -15.65
+      }
+    ]
+  },
+  "GQ": {
+    "code": "GQ",
+    "code3": "GNQ",
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "population": 1668768,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Malabo",
+        "lat": 3.75,
+        "lon": 8.78
+      },
+      {
+        "name": "Santiago de Baney",
+        "lat": 3.6992,
+        "lon": 8.9084
+      },
+      {
+        "name": "Aual",
+        "lat": -1.44556,
+        "lon": 5.62722
+      },
+      {
+        "name": "San Antonio de Palé",
+        "lat": -1.4068,
+        "lon": 5.63198
+      },
+      {
+        "name": "Río Campo",
+        "lat": 2.33812,
+        "lon": 9.82212
+      }
+    ]
+  },
+  "GR": {
+    "code": "GR",
+    "code3": "GRC",
+    "name": "Greece",
+    "capital": "Athens",
+    "population": 10400720,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Athens",
+        "lat": 37.98,
+        "lon": 23.73
+      },
+      {
+        "name": "Zonianá",
+        "lat": 35.29502,
+        "lon": 24.82944
+      },
+      {
+        "name": "Zevgolateió",
+        "lat": 37.93333,
+        "lon": 22.8
+      },
+      {
+        "name": "Zarós",
+        "lat": 35.1303,
+        "lon": 24.90412
+      },
+      {
+        "name": "Zárkos",
+        "lat": 39.6086,
+        "lon": 22.12336
+      }
+    ]
+  },
+  "GL": {
+    "code": "GL",
+    "code3": "GRL",
+    "name": "Greenland",
+    "capital": "Nuuk",
+    "population": 56542,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Upernavik",
+        "lat": 72.78358,
+        "lon": -56.14933
+      },
+      {
+        "name": "Sisimiut",
+        "lat": 66.93946,
+        "lon": -53.6735
+      },
+      {
+        "name": "Qasigiannguit",
+        "lat": 68.81926,
+        "lon": -51.19221
+      },
+      {
+        "name": "Qaqortoq",
+        "lat": 60.71839,
+        "lon": -46.03561
+      },
+      {
+        "name": "Paamiut",
+        "lat": 61.99402,
+        "lon": -49.66776
+      }
+    ]
+  },
+  "GT": {
+    "code": "GT",
+    "code3": "GTM",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "population": 18079810,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Guatemala City",
+        "lat": 14.62,
+        "lon": -90.52
+      },
+      {
+        "name": "Zunilito",
+        "lat": 14.61264,
+        "lon": -91.5098
+      },
+      {
+        "name": "Zunil",
+        "lat": 14.78463,
+        "lon": -91.48345
+      },
+      {
+        "name": "Zaragoza",
+        "lat": 14.64968,
+        "lon": -90.89034
+      },
+      {
+        "name": "Zapotitlán",
+        "lat": 14.13917,
+        "lon": -89.82628
+      }
+    ]
+  },
+  "GF": {
+    "code": "GF",
+    "code3": "GUF",
+    "name": "French Guiana",
+    "capital": "Cayenne",
+    "population": 292354,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Cayenne",
+        "lat": 4.94,
+        "lon": -52.33
+      },
+      {
+        "name": "Sinnamary",
+        "lat": 5.37676,
+        "lon": -52.95679
+      },
+      {
+        "name": "Saint-Laurent-du-Maroni",
+        "lat": 5.50153,
+        "lon": -54.02916
+      },
+      {
+        "name": "Saint-Georges",
+        "lat": 3.88857,
+        "lon": -51.80243
+      },
+      {
+        "name": "Roura",
+        "lat": 4.72874,
+        "lon": -52.32495
+      }
+    ]
+  },
+  "GY": {
+    "code": "GY",
+    "code3": "GUY",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "population": 772975,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Georgetown",
+        "lat": 6.8,
+        "lon": -58.15
+      },
+      {
+        "name": "Vreed-en-Hoop",
+        "lat": 6.80927,
+        "lon": -58.19798
+      },
+      {
+        "name": "Skeldon",
+        "lat": 5.87035,
+        "lon": -57.14681
+      },
+      {
+        "name": "Rosignol",
+        "lat": 6.27095,
+        "lon": -57.53697
+      },
+      {
+        "name": "Parika",
+        "lat": 6.83712,
+        "lon": -58.42941
+      }
+    ]
+  },
+  "HN": {
+    "code": "HN",
+    "code3": "HND",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "population": 9892632,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tegucigalpa",
+        "lat": 14.1,
+        "lon": -87.22
+      },
+      {
+        "name": "Puerto Cortez",
+        "lat": 15.82562,
+        "lon": -87.92968
+      },
+      {
+        "name": "Zopilotepe",
+        "lat": 14.6,
+        "lon": -86.26667
+      },
+      {
+        "name": "Zamora",
+        "lat": 15.63333,
+        "lon": -86.06667
+      },
+      {
+        "name": "Zambrano",
+        "lat": 14.26667,
+        "lon": -87.4
+      }
+    ]
+  },
+  "HR": {
+    "code": "HR",
+    "code3": "HRV",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "population": 3866233,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Zagreb",
+        "lat": 45.8,
+        "lon": 16.0
+      },
+      {
+        "name": "Vranjic",
+        "lat": 43.53333,
+        "lon": 16.46667
+      },
+      {
+        "name": "Županja",
+        "lat": 45.0775,
+        "lon": 18.6975
+      },
+      {
+        "name": "Žumberak",
+        "lat": 45.76711,
+        "lon": 15.41483
+      },
+      {
+        "name": "Žrnovo",
+        "lat": 42.94523,
+        "lon": 17.11028
+      }
+    ]
+  },
+  "HT": {
+    "code": "HT",
+    "code3": "HTI",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "population": 11867032,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Port-au-Prince",
+        "lat": 18.53,
+        "lon": -72.33
+      },
+      {
+        "name": "Verrettes",
+        "lat": 19.0505,
+        "lon": -72.46585
+      },
+      {
+        "name": "Trou du Nord",
+        "lat": 19.61668,
+        "lon": -72.02442
+      },
+      {
+        "name": "Torbeck",
+        "lat": 18.16338,
+        "lon": -73.80949
+      },
+      {
+        "name": "Tiburon",
+        "lat": 18.32589,
+        "lon": -74.39598
+      }
+    ]
+  },
+  "HU": {
+    "code": "HU",
+    "code3": "HUN",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "population": 9539502,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Budapest",
+        "lat": 47.5,
+        "lon": 19.08
+      },
+      {
+        "name": "Záhony",
+        "lat": 48.40906,
+        "lon": 22.17614
+      },
+      {
+        "name": "Zagyvarékas",
+        "lat": 47.26667,
+        "lon": 20.13333
+      },
+      {
+        "name": "Vésztő",
+        "lat": 46.91667,
+        "lon": 21.26667
+      },
+      {
+        "name": "Verpelét",
+        "lat": 47.85,
+        "lon": 20.23333
+      }
+    ]
+  },
+  "ID": {
+    "code": "ID",
+    "code3": "IDN",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "population": 284438782,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Jakarta",
+        "lat": -6.17,
+        "lon": 106.82
+      },
+      {
+        "name": "Ujung Gading",
+        "lat": 0.27293,
+        "lon": 99.55762
+      },
+      {
+        "name": "Ujungbatu",
+        "lat": 1.04239,
+        "lon": 99.93461
+      },
+      {
+        "name": "Tualangcut",
+        "lat": 4.4018,
+        "lon": 98.0722
+      },
+      {
+        "name": "Tongging",
+        "lat": 2.8985,
+        "lon": 98.5231
+      }
+    ]
+  },
+  "IN": {
+    "code": "IN",
+    "code3": "IND",
+    "name": "India",
+    "capital": "New Delhi",
+    "population": 1417492000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "New Delhi",
+        "lat": 28.6,
+        "lon": 77.2
+      },
+      {
+        "name": "Thang",
+        "lat": 34.9274,
+        "lon": 76.79336
+      },
+      {
+        "name": "Pūnch",
+        "lat": 33.77033,
+        "lon": 74.09254
+      },
+      {
+        "name": "Keelakarai",
+        "lat": 9.23183,
+        "lon": 78.78545
+      },
+      {
+        "name": "Zunheboto",
+        "lat": 25.96667,
+        "lon": 94.51667
+      }
+    ]
+  },
+  "IE": {
+    "code": "IE",
+    "code3": "IRL",
+    "name": "Ireland",
+    "capital": "Dublin",
+    "population": 5458600,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Dublin",
+        "lat": 53.32,
+        "lon": -6.23
+      },
+      {
+        "name": "Buncrana",
+        "lat": 55.13333,
+        "lon": -7.45
+      },
+      {
+        "name": "Youghal",
+        "lat": 51.95,
+        "lon": -7.85056
+      },
+      {
+        "name": "Wicklow",
+        "lat": 52.975,
+        "lon": -6.04944
+      },
+      {
+        "name": "Whitegate",
+        "lat": 51.83056,
+        "lon": -8.22972
+      }
+    ]
+  },
+  "IR": {
+    "code": "IR",
+    "code3": "IRN",
+    "name": "Iran",
+    "capital": "Tehran",
+    "population": 85961000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tehran",
+        "lat": 35.7,
+        "lon": 51.42
+      },
+      {
+        "name": "Takht-e Qeyşar",
+        "lat": 32.05908,
+        "lon": 48.86752
+      },
+      {
+        "name": "‘Abdollāhābād",
+        "lat": 36.502,
+        "lon": 52.12746
+      },
+      {
+        "name": "Kalārdasht",
+        "lat": 36.51094,
+        "lon": 51.17343
+      },
+      {
+        "name": "Ţāleqān",
+        "lat": 36.17449,
+        "lon": 50.76908
+      }
+    ]
+  },
+  "IQ": {
+    "code": "IQ",
+    "code3": "IRQ",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "population": 46118793,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Baghdad",
+        "lat": 33.33,
+        "lon": 44.4
+      },
+      {
+        "name": "Zāwītah",
+        "lat": 36.90547,
+        "lon": 43.14478
+      },
+      {
+        "name": "Zaxo",
+        "lat": 37.14871,
+        "lon": 42.68591
+      },
+      {
+        "name": "Umm Qaşr",
+        "lat": 30.0362,
+        "lon": 47.91951
+      },
+      {
+        "name": "Ţūz Khūrmātū",
+        "lat": 34.88808,
+        "lon": 44.63256
+      }
+    ]
+  },
+  "IS": {
+    "code": "IS",
+    "code3": "ISL",
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "population": 391810,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Reykjavik",
+        "lat": 64.15,
+        "lon": -21.95
+      },
+      {
+        "name": "Siglufjörður",
+        "lat": 66.15198,
+        "lon": -18.90815
+      },
+      {
+        "name": "Sauðárkrókur",
+        "lat": 65.74611,
+        "lon": -19.63944
+      },
+      {
+        "name": "Neskaupstaður",
+        "lat": 65.14819,
+        "lon": -13.68368
+      },
+      {
+        "name": "Norðurþing",
+        "lat": 66.04148,
+        "lon": -17.33834
+      }
+    ]
+  },
+  "IL": {
+    "code": "IL",
+    "code3": "ISR",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "population": 10134800,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tel Qatsir",
+        "lat": 32.70545,
+        "lon": 35.61761
+      },
+      {
+        "name": "Majdal Shams",
+        "lat": 33.27029,
+        "lon": 35.7716
+      },
+      {
+        "name": "Fīq",
+        "lat": 32.77935,
+        "lon": 35.70032
+      },
+      {
+        "name": "‘Ein Qunīya",
+        "lat": 33.23752,
+        "lon": 35.73131
+      },
+      {
+        "name": "Al Buţayḩah",
+        "lat": 32.90871,
+        "lon": 35.63199
+      }
+    ]
+  },
+  "IT": {
+    "code": "IT",
+    "code3": "ITA",
+    "name": "Italy",
+    "capital": "Rome",
+    "population": 58927633,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Rome",
+        "lat": 41.9,
+        "lon": 12.48
+      },
+      {
+        "name": "Zumpano",
+        "lat": 39.31053,
+        "lon": 16.29269
+      },
+      {
+        "name": "Zerfaliu",
+        "lat": 39.96088,
+        "lon": 8.70971
+      },
+      {
+        "name": "Zeddiani",
+        "lat": 39.98898,
+        "lon": 8.5958
+      },
+      {
+        "name": "Zambrone",
+        "lat": 38.69878,
+        "lon": 15.98982
+      }
+    ]
+  },
+  "JM": {
+    "code": "JM",
+    "code3": "JAM",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "population": 2825544,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kingston",
+        "lat": 17.99702,
+        "lon": -76.79358
+      },
+      {
+        "name": "Yallahs",
+        "lat": 17.8748,
+        "lon": -76.56245
+      },
+      {
+        "name": "Williamsfield",
+        "lat": 18.06667,
+        "lon": -77.46667
+      },
+      {
+        "name": "Wakefield",
+        "lat": 18.41211,
+        "lon": -77.72183
+      },
+      {
+        "name": "Ulster Spring",
+        "lat": 18.31482,
+        "lon": -77.52067
+      }
+    ]
+  },
+  "JO": {
+    "code": "JO",
+    "code3": "JOR",
+    "name": "Jordan",
+    "capital": "Amman",
+    "population": 11734000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Amman",
+        "lat": 31.95,
+        "lon": 35.93
+      },
+      {
+        "name": "Zaḩar",
+        "lat": 32.5667,
+        "lon": 35.77811
+      },
+      {
+        "name": "Yarqā",
+        "lat": 31.97583,
+        "lon": 35.69638
+      },
+      {
+        "name": "Waqqāş",
+        "lat": 32.54214,
+        "lon": 35.60508
+      },
+      {
+        "name": "Wādī Mūsá",
+        "lat": 30.32096,
+        "lon": 35.47895
+      }
+    ]
+  },
+  "JP": {
+    "code": "JP",
+    "code3": "JPN",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 123210000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tokyo",
+        "lat": 35.68,
+        "lon": 139.75
+      },
+      {
+        "name": "Shingū",
+        "lat": 33.73333,
+        "lon": 135.98333
+      },
+      {
+        "name": "Atsugi",
+        "lat": 35.44272,
+        "lon": 139.36931
+      },
+      {
+        "name": "Akashi",
+        "lat": 34.65524,
+        "lon": 135.00687
+      },
+      {
+        "name": "Zushi",
+        "lat": 35.29483,
+        "lon": 139.57812
+      }
+    ]
+  },
+  "KZ": {
+    "code": "KZ",
+    "code3": "KAZ",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "population": 20426568,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Astana",
+        "lat": 51.16,
+        "lon": 71.45
+      },
+      {
+        "name": "Zhumysker",
+        "lat": 49.33333,
+        "lon": 49.4
+      },
+      {
+        "name": "Zhetybay",
+        "lat": 43.58928,
+        "lon": 52.10313
+      },
+      {
+        "name": "Zhanaozen",
+        "lat": 43.34116,
+        "lon": 52.86192
+      },
+      {
+        "name": "Temir",
+        "lat": 49.14284,
+        "lon": 57.12736
+      }
+    ]
+  },
+  "KE": {
+    "code": "KE",
+    "code3": "KEN",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "population": 53330978,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Nairobi",
+        "lat": -1.28,
+        "lon": 36.82
+      },
+      {
+        "name": "Yala",
+        "lat": 0.09438,
+        "lon": 34.53602
+      },
+      {
+        "name": "Wundanyi",
+        "lat": -3.39642,
+        "lon": 38.35729
+      },
+      {
+        "name": "Wote",
+        "lat": -1.78079,
+        "lon": 37.62882
+      },
+      {
+        "name": "Witu",
+        "lat": -2.38892,
+        "lon": 40.43827
+      }
+    ]
+  },
+  "KG": {
+    "code": "KG",
+    "code3": "KGZ",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "population": 7281800,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bishkek",
+        "lat": 42.87,
+        "lon": 74.6
+      },
+      {
+        "name": "Tayan",
+        "lat": 39.9026,
+        "lon": 71.10826
+      },
+      {
+        "name": "Suluktu",
+        "lat": 39.93652,
+        "lon": 69.56779
+      },
+      {
+        "name": "Kyzyl-Eshme",
+        "lat": 39.56559,
+        "lon": 72.27153
+      },
+      {
+        "name": "Korgon",
+        "lat": 39.88899,
+        "lon": 69.93559
+      }
+    ]
+  },
+  "KH": {
+    "code": "KH",
+    "code3": "KHM",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "population": 17577760,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Phnom Penh",
+        "lat": 11.56245,
+        "lon": 104.91601
+      },
+      {
+        "name": "Veun Sai",
+        "lat": 13.97598,
+        "lon": 106.81144
+      },
+      {
+        "name": "Tăng Krâsăng",
+        "lat": 12.56743,
+        "lon": 105.04559
+      },
+      {
+        "name": "Ta Khmau",
+        "lat": 11.48333,
+        "lon": 104.95
+      },
+      {
+        "name": "Takeo",
+        "lat": 10.99081,
+        "lon": 104.78498
+      }
+    ]
+  },
+  "KR": {
+    "code": "KR",
+    "code3": "KOR",
+    "name": "South Korea",
+    "capital": "Seoul",
+    "population": 51159889,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Seoul",
+        "lat": 37.55,
+        "lon": 126.98
+      },
+      {
+        "name": "Heunghae",
+        "lat": 36.10945,
+        "lon": 129.34517
+      },
+      {
+        "name": "Yuseong",
+        "lat": 36.35389,
+        "lon": 127.33667
+      },
+      {
+        "name": "Yeonil",
+        "lat": 36.00446,
+        "lon": 129.3185
+      },
+      {
+        "name": "Neietsu",
+        "lat": 37.18447,
+        "lon": 128.46821
+      }
+    ]
+  },
+  "XK": {
+    "code": "XK",
+    "code3": "UNK",
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "population": 1585566,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Pristina",
+        "lat": 42.67,
+        "lon": 21.17
+      },
+      {
+        "name": "Kosovo Central",
+        "lat": 0.35,
+        "lon": 0.25
+      },
+      {
+        "name": "Kosovo Harbor",
+        "lat": -0.3,
+        "lon": 0.2
+      }
+    ]
+  },
+  "KW": {
+    "code": "KW",
+    "code3": "KWT",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "population": 4881254,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kuwait City",
+        "lat": 29.37,
+        "lon": 47.97
+      },
+      {
+        "name": "Janūb as Surrah",
+        "lat": 29.26917,
+        "lon": 47.97806
+      },
+      {
+        "name": "Ḩawallī",
+        "lat": 29.33278,
+        "lon": 48.02861
+      },
+      {
+        "name": "Bayān",
+        "lat": 29.3032,
+        "lon": 48.04881
+      },
+      {
+        "name": "Az Zawr",
+        "lat": 29.4425,
+        "lon": 48.27472
+      }
+    ]
+  },
+  "LA": {
+    "code": "LA",
+    "code3": "LAO",
+    "name": "Laos",
+    "capital": "Vientiane",
+    "population": 7647000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Vientiane",
+        "lat": 17.96667,
+        "lon": 102.6
+      },
+      {
+        "name": "Xam Nua",
+        "lat": 20.4164,
+        "lon": 104.045
+      },
+      {
+        "name": "Savannakhet",
+        "lat": 16.5703,
+        "lon": 104.7622
+      },
+      {
+        "name": "Salavan",
+        "lat": 15.71652,
+        "lon": 106.41744
+      },
+      {
+        "name": "Phôngsali",
+        "lat": 21.6808,
+        "lon": 102.1003
+      }
+    ]
+  },
+  "LB": {
+    "code": "LB",
+    "code3": "LBN",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "population": 5490000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Beirut",
+        "lat": 33.87,
+        "lon": 35.5
+      },
+      {
+        "name": "Zghartā",
+        "lat": 34.39739,
+        "lon": 35.89493
+      },
+      {
+        "name": "Zahlé",
+        "lat": 33.84675,
+        "lon": 35.90203
+      },
+      {
+        "name": "Tripoli",
+        "lat": 34.43352,
+        "lon": 35.84415
+      },
+      {
+        "name": "Tyre",
+        "lat": 33.27333,
+        "lon": 35.19389
+      }
+    ]
+  },
+  "LR": {
+    "code": "LR",
+    "code3": "LBR",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "population": 5248621,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Monrovia",
+        "lat": 6.3,
+        "lon": -10.8
+      },
+      {
+        "name": "Zwedru",
+        "lat": 6.06846,
+        "lon": -8.13559
+      },
+      {
+        "name": "Zorzor",
+        "lat": 7.77944,
+        "lon": -9.43028
+      },
+      {
+        "name": "New Yekepa",
+        "lat": 7.57944,
+        "lon": -8.53778
+      },
+      {
+        "name": "Voinjama",
+        "lat": 8.42194,
+        "lon": -9.74778
+      }
+    ]
+  },
+  "LY": {
+    "code": "LY",
+    "code3": "LBY",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "population": 7459000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tripoli",
+        "lat": 32.88,
+        "lon": 13.17
+      },
+      {
+        "name": "Al Bardīyah",
+        "lat": 31.75601,
+        "lon": 25.0853
+      },
+      {
+        "name": "Mukhaylá",
+        "lat": 32.16005,
+        "lon": 22.27845
+      },
+      {
+        "name": "Umm ar Rizam",
+        "lat": 32.53332,
+        "lon": 23.00904
+      },
+      {
+        "name": "Tobruk",
+        "lat": 32.08963,
+        "lon": 23.95385
+      }
+    ]
+  },
+  "LK": {
+    "code": "LK",
+    "code3": "LKA",
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "population": 21763170,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Sri Jayawardenepura Kotte",
+        "lat": 6.89,
+        "lon": 79.9
+      },
+      {
+        "name": "Welisara",
+        "lat": 7.0281,
+        "lon": 79.9014
+      },
+      {
+        "name": "Weligama",
+        "lat": 5.97501,
+        "lon": 80.42968
+      },
+      {
+        "name": "Wattegama",
+        "lat": 6.7989,
+        "lon": 81.4808
+      },
+      {
+        "name": "Wattala",
+        "lat": 6.98918,
+        "lon": 79.89167
+      }
+    ]
+  },
+  "LS": {
+    "code": "LS",
+    "code3": "LSO",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "population": 2116427,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Maseru",
+        "lat": -29.32,
+        "lon": 27.48
+      },
+      {
+        "name": "Tsa Kholo",
+        "lat": -29.66918,
+        "lon": 27.15164
+      },
+      {
+        "name": "Thabana Morena",
+        "lat": -29.96008,
+        "lon": 27.42044
+      },
+      {
+        "name": "Teyateyaneng",
+        "lat": -29.14719,
+        "lon": 27.74895
+      },
+      {
+        "name": "Sekake",
+        "lat": -30.0,
+        "lon": 28.35
+      }
+    ]
+  },
+  "LT": {
+    "code": "LT",
+    "code3": "LTU",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "population": 2894886,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Žiežmariai",
+        "lat": 54.80725,
+        "lon": 24.44073
+      },
+      {
+        "name": "Žemaičių Naumiestis",
+        "lat": 55.35941,
+        "lon": 21.70364
+      },
+      {
+        "name": "Zarasai",
+        "lat": 55.73225,
+        "lon": 26.25115
+      },
+      {
+        "name": "Žagarė",
+        "lat": 56.36149,
+        "lon": 23.25094
+      },
+      {
+        "name": "Visaginas",
+        "lat": 55.59678,
+        "lon": 26.43984
+      }
+    ]
+  },
+  "LU": {
+    "code": "LU",
+    "code3": "LUX",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "population": 681973,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Luxembourg",
+        "lat": 49.6,
+        "lon": 6.12
+      },
+      {
+        "name": "Wormeldange",
+        "lat": 49.61114,
+        "lon": 6.40546
+      },
+      {
+        "name": "Winseler",
+        "lat": 49.96778,
+        "lon": 5.89028
+      },
+      {
+        "name": "Wincrange",
+        "lat": 50.05333,
+        "lon": 5.91917
+      },
+      {
+        "name": "Wilwerwiltz",
+        "lat": 49.98889,
+        "lon": 5.99917
+      }
+    ]
+  },
+  "LV": {
+    "code": "LV",
+    "code3": "LVA",
+    "name": "Latvia",
+    "capital": "Riga",
+    "population": 1829000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Riga",
+        "lat": 56.95,
+        "lon": 24.1
+      },
+      {
+        "name": "Valmiera",
+        "lat": 57.54108,
+        "lon": 25.42751
+      },
+      {
+        "name": "Zilupe",
+        "lat": 56.38616,
+        "lon": 28.12165
+      },
+      {
+        "name": "Zelmeņi",
+        "lat": 56.45167,
+        "lon": 23.35194
+      },
+      {
+        "name": "Viļaka",
+        "lat": 57.18458,
+        "lon": 27.6722
+      }
+    ]
+  },
+  "MA": {
+    "code": "MA",
+    "code3": "MAR",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "population": 36828330,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Rabat",
+        "lat": 34.02,
+        "lon": -6.82
+      },
+      {
+        "name": "Smara",
+        "lat": 26.73841,
+        "lon": -11.67194
+      },
+      {
+        "name": "Aousserd",
+        "lat": 22.554,
+        "lon": -14.33
+      },
+      {
+        "name": "Zoumi",
+        "lat": 34.80321,
+        "lon": -5.34458
+      },
+      {
+        "name": "Zinat",
+        "lat": 35.43,
+        "lon": -5.4
+      }
+    ]
+  },
+  "MD": {
+    "code": "MD",
+    "code3": "MDA",
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "population": 2749076,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Chișinău",
+        "lat": 47.01,
+        "lon": 28.9
+      },
+      {
+        "name": "Tiraspolul Nou",
+        "lat": 46.82874,
+        "lon": 29.52174
+      },
+      {
+        "name": "Edineţ",
+        "lat": 48.17215,
+        "lon": 27.30337
+      },
+      {
+        "name": "Iargara",
+        "lat": 46.4252,
+        "lon": 28.42676
+      },
+      {
+        "name": "Vulcăneşti",
+        "lat": 45.68492,
+        "lon": 28.40613
+      }
+    ]
+  },
+  "MG": {
+    "code": "MG",
+    "code3": "MDG",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "population": 31727042,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Antananarivo",
+        "lat": -18.92,
+        "lon": 47.52
+      },
+      {
+        "name": "Toamasina",
+        "lat": -18.1492,
+        "lon": 49.40234
+      },
+      {
+        "name": "Vondrozo",
+        "lat": -22.81667,
+        "lon": 47.28333
+      },
+      {
+        "name": "Vohipeno",
+        "lat": -22.35,
+        "lon": 47.83333
+      },
+      {
+        "name": "Vohipaho",
+        "lat": -23.55,
+        "lon": 47.5
+      }
+    ]
+  },
+  "MX": {
+    "code": "MX",
+    "code3": "MEX",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "population": 130575786,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Mexico City",
+        "lat": 19.43,
+        "lon": -99.13
+      },
+      {
+        "name": "Maclovio Herrera",
+        "lat": 22.50062,
+        "lon": -98.08545
+      },
+      {
+        "name": "La Colonia",
+        "lat": 22.4388,
+        "lon": -98.01729
+      },
+      {
+        "name": "Esteros",
+        "lat": 22.52005,
+        "lon": -98.12607
+      },
+      {
+        "name": "Cuauhtémoc",
+        "lat": 22.54408,
+        "lon": -98.15074
+      }
+    ]
+  },
+  "MK": {
+    "code": "MK",
+    "code3": "MKD",
+    "name": "Macedonia",
+    "capital": "Skopje",
+    "population": 1822612,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Skopje",
+        "lat": 42.0,
+        "lon": 21.43
+      },
+      {
+        "name": "Zrnovci",
+        "lat": 41.85417,
+        "lon": 22.44444
+      },
+      {
+        "name": "Zletovo",
+        "lat": 41.98861,
+        "lon": 22.23611
+      },
+      {
+        "name": "Žitoše",
+        "lat": 41.41991,
+        "lon": 21.29078
+      },
+      {
+        "name": "Zelino",
+        "lat": 41.98028,
+        "lon": 21.06417
+      }
+    ]
+  },
+  "ML": {
+    "code": "ML",
+    "code3": "MLI",
+    "name": "Mali",
+    "capital": "Bamako",
+    "population": 22395489,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bamako",
+        "lat": 12.65,
+        "lon": -8.0
+      },
+      {
+        "name": "Zégoua",
+        "lat": 10.48804,
+        "lon": -5.64943
+      },
+      {
+        "name": "Youwarou",
+        "lat": 15.3684,
+        "lon": -4.2628
+      },
+      {
+        "name": "Yorosso",
+        "lat": 12.35811,
+        "lon": -4.77688
+      },
+      {
+        "name": "Yélimané",
+        "lat": 15.11868,
+        "lon": -10.57729
+      }
+    ]
+  },
+  "MT": {
+    "code": "MT",
+    "code3": "MLT",
+    "name": "Malta",
+    "capital": "Valletta",
+    "population": 574250,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Valletta",
+        "lat": 35.88,
+        "lon": 14.5
+      },
+      {
+        "name": "Marsaxlokk",
+        "lat": 35.84194,
+        "lon": 14.54306
+      },
+      {
+        "name": "Żurrieq",
+        "lat": 35.83111,
+        "lon": 14.47417
+      },
+      {
+        "name": "Żejtun",
+        "lat": 35.85583,
+        "lon": 14.53306
+      },
+      {
+        "name": "Żebbuġ",
+        "lat": 36.07222,
+        "lon": 14.23583
+      }
+    ]
+  },
+  "MM": {
+    "code": "MM",
+    "code3": "MMR",
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "population": 51316756,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Naypyidaw",
+        "lat": 19.76,
+        "lon": 96.07
+      },
+      {
+        "name": "Ye-u",
+        "lat": 22.76722,
+        "lon": 95.42758
+      },
+      {
+        "name": "Yenangyaung",
+        "lat": 20.46504,
+        "lon": 94.8712
+      },
+      {
+        "name": "Ye",
+        "lat": 15.24645,
+        "lon": 97.85506
+      },
+      {
+        "name": "Nyaungdon",
+        "lat": 17.04459,
+        "lon": 95.63957
+      }
+    ]
+  },
+  "ME": {
+    "code": "ME",
+    "code3": "MNE",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "population": 623327,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Podgorica",
+        "lat": 42.43,
+        "lon": 19.27
+      },
+      {
+        "name": "Rožaje",
+        "lat": 42.83299,
+        "lon": 20.16652
+      },
+      {
+        "name": "Žabljak",
+        "lat": 43.15423,
+        "lon": 19.12325
+      },
+      {
+        "name": "Ulcinj",
+        "lat": 41.92936,
+        "lon": 19.22436
+      },
+      {
+        "name": "Tuzi",
+        "lat": 42.36556,
+        "lon": 19.33139
+      }
+    ]
+  },
+  "MN": {
+    "code": "MN",
+    "code3": "MNG",
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "population": 3544835,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Ulan Bator",
+        "lat": 47.92,
+        "lon": 106.91
+      },
+      {
+        "name": "Üyönch",
+        "lat": 46.05,
+        "lon": 92.01667
+      },
+      {
+        "name": "Uujim",
+        "lat": 48.9,
+        "lon": 89.61667
+      },
+      {
+        "name": "Urdgol",
+        "lat": 47.83333,
+        "lon": 92.65
+      },
+      {
+        "name": "Uliastay",
+        "lat": 47.74167,
+        "lon": 96.84444
+      }
+    ]
+  },
+  "MZ": {
+    "code": "MZ",
+    "code3": "MOZ",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "population": 34090466,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Maputo",
+        "lat": -25.95,
+        "lon": 32.58
+      },
+      {
+        "name": "Xai-Xai",
+        "lat": -25.05194,
+        "lon": 33.64417
+      },
+      {
+        "name": "Gorongosa",
+        "lat": -18.67556,
+        "lon": 34.07278
+      },
+      {
+        "name": "Vilankulo",
+        "lat": -22.0,
+        "lon": 35.31667
+      },
+      {
+        "name": "Moatize",
+        "lat": -16.11528,
+        "lon": 33.72944
+      }
+    ]
+  },
+  "MR": {
+    "code": "MR",
+    "code3": "MRT",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "population": 4927532,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Nouakchott",
+        "lat": 18.07,
+        "lon": -15.97
+      },
+      {
+        "name": "Zouérat",
+        "lat": 22.73542,
+        "lon": -12.47134
+      },
+      {
+        "name": "Timbedgha",
+        "lat": 16.2447,
+        "lon": -8.1643
+      },
+      {
+        "name": "Tékane",
+        "lat": 16.60175,
+        "lon": -15.34866
+      },
+      {
+        "name": "Tidjikja",
+        "lat": 18.55644,
+        "lon": -11.42715
+      }
+    ]
+  },
+  "MW": {
+    "code": "MW",
+    "code3": "MWI",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "population": 20734262,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Lilongwe",
+        "lat": -13.97,
+        "lon": 33.78
+      },
+      {
+        "name": "Karonga",
+        "lat": -9.93333,
+        "lon": 33.93333
+      },
+      {
+        "name": "Chitipa",
+        "lat": -9.70237,
+        "lon": 33.26969
+      },
+      {
+        "name": "Zomba",
+        "lat": -15.38596,
+        "lon": 35.3188
+      },
+      {
+        "name": "Thyolo",
+        "lat": -16.06775,
+        "lon": 35.14046
+      }
+    ]
+  },
+  "MY": {
+    "code": "MY",
+    "code3": "MYS",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "population": 34231700,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kuala Lumpur",
+        "lat": 3.17,
+        "lon": 101.7
+      },
+      {
+        "name": "Padang Mat Sirat",
+        "lat": 6.35423,
+        "lon": 99.73404
+      },
+      {
+        "name": "Ayer Hangat",
+        "lat": 6.42062,
+        "lon": 99.82199
+      },
+      {
+        "name": "Kuah",
+        "lat": 6.32649,
+        "lon": 99.8432
+      },
+      {
+        "name": "Jerantut",
+        "lat": 3.936,
+        "lon": 102.3626
+      }
+    ]
+  },
+  "NA": {
+    "code": "NA",
+    "code3": "NAM",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "population": 3022401,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tsumkwe",
+        "lat": -19.59363,
+        "lon": 20.50203
+      },
+      {
+        "name": "Linyanti",
+        "lat": -18.07229,
+        "lon": 24.01566
+      },
+      {
+        "name": "Katima Mulilo",
+        "lat": -17.50467,
+        "lon": 24.27574
+      },
+      {
+        "name": "Bagani",
+        "lat": -18.11065,
+        "lon": 21.61645
+      },
+      {
+        "name": "Witvlei",
+        "lat": -22.41039,
+        "lon": 18.49359
+      }
+    ]
+  },
+  "NC": {
+    "code": "NC",
+    "code3": "NCL",
+    "name": "New Caledonia",
+    "capital": "Nouméa",
+    "population": 264596,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Nouméa",
+        "lat": -22.27,
+        "lon": 166.45
+      },
+      {
+        "name": "Yaté-Barrage",
+        "lat": -22.15,
+        "lon": 166.88333
+      },
+      {
+        "name": "Wé",
+        "lat": -20.91687,
+        "lon": 167.26461
+      },
+      {
+        "name": "Wala",
+        "lat": -19.71161,
+        "lon": 163.64702
+      },
+      {
+        "name": "Voh",
+        "lat": -20.96667,
+        "lon": 164.7
+      }
+    ]
+  },
+  "NE": {
+    "code": "NE",
+    "code3": "NER",
+    "name": "Niger",
+    "capital": "Niamey",
+    "population": 26312034,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Niamey",
+        "lat": 13.52,
+        "lon": 2.12
+      },
+      {
+        "name": "Birnin Gaouré",
+        "lat": 13.08173,
+        "lon": 2.91099
+      },
+      {
+        "name": "Birni N Konni",
+        "lat": 13.79599,
+        "lon": 5.25026
+      },
+      {
+        "name": "Zinder",
+        "lat": 13.80716,
+        "lon": 8.9881
+      },
+      {
+        "name": "Torodi",
+        "lat": 13.11915,
+        "lon": 1.79869
+      }
+    ]
+  },
+  "NG": {
+    "code": "NG",
+    "code3": "NGA",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "population": 223800000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Abuja",
+        "lat": 9.08,
+        "lon": 7.53
+      },
+      {
+        "name": "Zuru",
+        "lat": 11.43522,
+        "lon": 5.23494
+      },
+      {
+        "name": "Zurmi",
+        "lat": 12.77675,
+        "lon": 6.78404
+      },
+      {
+        "name": "Zungeru",
+        "lat": 9.80726,
+        "lon": 6.15238
+      },
+      {
+        "name": "Zonkwa",
+        "lat": 9.78453,
+        "lon": 8.29056
+      }
+    ]
+  },
+  "NI": {
+    "code": "NI",
+    "code3": "NIC",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "population": 6803886,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Managua",
+        "lat": 12.13,
+        "lon": -86.25
+      },
+      {
+        "name": "Yalagüina",
+        "lat": 13.48383,
+        "lon": -86.49305
+      },
+      {
+        "name": "Wiwilí",
+        "lat": 13.62679,
+        "lon": -85.8254
+      },
+      {
+        "name": "Waspán",
+        "lat": 14.74189,
+        "lon": -83.9717
+      },
+      {
+        "name": "Waslala",
+        "lat": 13.23333,
+        "lon": -85.38333
+      }
+    ]
+  },
+  "NL": {
+    "code": "NL",
+    "code3": "NLD",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "population": 18100436,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Amsterdam",
+        "lat": 52.35,
+        "lon": 4.92
+      },
+      {
+        "name": "Zwolle",
+        "lat": 52.5125,
+        "lon": 6.09444
+      },
+      {
+        "name": "Zwijndrecht",
+        "lat": 51.8175,
+        "lon": 4.63333
+      },
+      {
+        "name": "Zwaanshoek",
+        "lat": 52.3125,
+        "lon": 4.61667
+      },
+      {
+        "name": "De Westereen",
+        "lat": 53.25731,
+        "lon": 6.0363
+      }
+    ]
+  },
+  "NO": {
+    "code": "NO",
+    "code3": "NOR",
+    "name": "Norway",
+    "capital": "Oslo",
+    "population": 5606944,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Oslo",
+        "lat": 59.92,
+        "lon": 10.75
+      },
+      {
+        "name": "Vardø",
+        "lat": 70.37048,
+        "lon": 31.11066
+      },
+      {
+        "name": "Vuonnabahta",
+        "lat": 70.17278,
+        "lon": 28.55598
+      },
+      {
+        "name": "Vadsø",
+        "lat": 70.07348,
+        "lon": 29.74943
+      },
+      {
+        "name": "Storslett",
+        "lat": 69.76783,
+        "lon": 21.02466
+      }
+    ]
+  },
+  "NP": {
+    "code": "NP",
+    "code3": "NPL",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "population": 29911840,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kathmandu",
+        "lat": 27.72,
+        "lon": 85.32
+      },
+      {
+        "name": "Wāliṅ",
+        "lat": 27.9837,
+        "lon": 83.75925
+      },
+      {
+        "name": "Tulsi̇̄pur",
+        "lat": 28.13328,
+        "lon": 82.29803
+      },
+      {
+        "name": "Ṭikāpur",
+        "lat": 28.52819,
+        "lon": 81.11828
+      },
+      {
+        "name": "Tānsen",
+        "lat": 27.86655,
+        "lon": 83.54587
+      }
+    ]
+  },
+  "NZ": {
+    "code": "NZ",
+    "code3": "NZL",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "population": 5324700,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Wellington",
+        "lat": -41.3,
+        "lon": 174.78
+      },
+      {
+        "name": "Yaldhurst",
+        "lat": -43.51667,
+        "lon": 172.51667
+      },
+      {
+        "name": "Woodend",
+        "lat": -43.31667,
+        "lon": 172.66667
+      },
+      {
+        "name": "Wingatui",
+        "lat": -45.88333,
+        "lon": 170.38333
+      },
+      {
+        "name": "Wigram",
+        "lat": -43.55,
+        "lon": 172.55
+      }
+    ]
+  },
+  "OM": {
+    "code": "OM",
+    "code3": "OMN",
+    "name": "Oman",
+    "capital": "Muscat",
+    "population": 5343630,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Sur",
+        "lat": 22.56667,
+        "lon": 59.52889
+      },
+      {
+        "name": "Sohar",
+        "lat": 24.34745,
+        "lon": 56.70937
+      },
+      {
+        "name": "Sufālat Samā’il",
+        "lat": 23.31667,
+        "lon": 58.01667
+      },
+      {
+        "name": "Shināş",
+        "lat": 24.7426,
+        "lon": 56.46698
+      },
+      {
+        "name": "Şalālah",
+        "lat": 17.01505,
+        "lon": 54.09237
+      }
+    ]
+  },
+  "PK": {
+    "code": "PK",
+    "code3": "PAK",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "population": 241499431,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Islamabad",
+        "lat": 33.68,
+        "lon": 73.05
+      },
+      {
+        "name": "Chuhar Jamali",
+        "lat": 24.3944,
+        "lon": 67.99298
+      },
+      {
+        "name": "Timargara",
+        "lat": 34.82659,
+        "lon": 71.84423
+      },
+      {
+        "name": "Rawalakot",
+        "lat": 33.85782,
+        "lon": 73.76043
+      },
+      {
+        "name": "Pir Jo Goth",
+        "lat": 27.59178,
+        "lon": 68.61848
+      }
+    ]
+  },
+  "PA": {
+    "code": "PA",
+    "code3": "PAN",
+    "name": "Panama",
+    "capital": "Panama City",
+    "population": 4064780,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Panama City",
+        "lat": 8.97,
+        "lon": -79.53
+      },
+      {
+        "name": "Zapotillo",
+        "lat": 8.00719,
+        "lon": -81.50917
+      },
+      {
+        "name": "Las Zangüengas",
+        "lat": 8.95811,
+        "lon": -79.86979
+      },
+      {
+        "name": "Yaviza",
+        "lat": 8.15835,
+        "lon": -77.69276
+      },
+      {
+        "name": "Yape",
+        "lat": 8.09839,
+        "lon": -77.59817
+      }
+    ]
+  },
+  "PE": {
+    "code": "PE",
+    "code3": "PER",
+    "name": "Peru",
+    "capital": "Lima",
+    "population": 34350244,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Lima",
+        "lat": -12.05,
+        "lon": -77.05
+      },
+      {
+        "name": "Zorritos",
+        "lat": -3.68046,
+        "lon": -80.67819
+      },
+      {
+        "name": "Yurimaguas",
+        "lat": -5.90181,
+        "lon": -76.12234
+      },
+      {
+        "name": "Yuracmarca",
+        "lat": -8.73761,
+        "lon": -77.9036
+      },
+      {
+        "name": "Yuracyacu",
+        "lat": -5.93139,
+        "lon": -77.22667
+      }
+    ]
+  },
+  "PH": {
+    "code": "PH",
+    "code3": "PHL",
+    "name": "Philippines",
+    "capital": "Manila",
+    "population": 114123600,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Manila",
+        "lat": 14.6,
+        "lon": 120.97
+      },
+      {
+        "name": "Zumarraga",
+        "lat": 11.6388,
+        "lon": 124.8417
+      },
+      {
+        "name": "Zarraga",
+        "lat": 10.81972,
+        "lon": 122.60806
+      },
+      {
+        "name": "Zaragoza",
+        "lat": 16.3871,
+        "lon": 119.9443
+      },
+      {
+        "name": "Zamboanguita",
+        "lat": 9.1025,
+        "lon": 123.1996
+      }
+    ]
+  },
+  "PG": {
+    "code": "PG",
+    "code3": "PNG",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "population": 11781559,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Wewak",
+        "lat": -3.54964,
+        "lon": 143.63229
+      },
+      {
+        "name": "Wau",
+        "lat": -7.342,
+        "lon": 146.724
+      },
+      {
+        "name": "Wabag",
+        "lat": -5.49119,
+        "lon": 143.72151
+      },
+      {
+        "name": "Vanimo",
+        "lat": -2.68372,
+        "lon": 141.30195
+      },
+      {
+        "name": "Tari",
+        "lat": -5.845,
+        "lon": 142.94667
+      }
+    ]
+  },
+  "PL": {
+    "code": "PL",
+    "code3": "POL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "population": 37392000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Warsaw",
+        "lat": 52.25,
+        "lon": 21.0
+      },
+      {
+        "name": "Żyrzyn",
+        "lat": 51.49918,
+        "lon": 22.0917
+      },
+      {
+        "name": "Żyrardów",
+        "lat": 52.0488,
+        "lon": 20.44599
+      },
+      {
+        "name": "Żyraków",
+        "lat": 50.08545,
+        "lon": 21.39622
+      },
+      {
+        "name": "Zwoleń",
+        "lat": 51.35542,
+        "lon": 21.58768
+      }
+    ]
+  },
+  "PR": {
+    "code": "PR",
+    "code3": "PRI",
+    "name": "Puerto Rico",
+    "capital": "San Juan",
+    "population": 3203295,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "San Juan",
+        "lat": 18.47,
+        "lon": -66.12
+      },
+      {
+        "name": "Aceitunas",
+        "lat": 18.44328,
+        "lon": -67.0649
+      },
+      {
+        "name": "Adjuntas",
+        "lat": 18.16274,
+        "lon": -66.72212
+      },
+      {
+        "name": "Aguada",
+        "lat": 18.37939,
+        "lon": -67.18824
+      },
+      {
+        "name": "Aguadilla",
+        "lat": 18.42745,
+        "lon": -67.15407
+      }
+    ]
+  },
+  "KP": {
+    "code": "KP",
+    "code3": "PRK",
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "population": 25950000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Pyongyang",
+        "lat": 39.02,
+        "lon": 125.75
+      },
+      {
+        "name": "Ryonggang-ŭp",
+        "lat": 38.85611,
+        "lon": 125.42444
+      },
+      {
+        "name": "Yŏngbyŏn",
+        "lat": 39.81333,
+        "lon": 125.80417
+      },
+      {
+        "name": "Yŏnan-ŭp",
+        "lat": 37.90889,
+        "lon": 126.16111
+      },
+      {
+        "name": "Yŏmju-ŭp",
+        "lat": 39.89333,
+        "lon": 124.59806
+      }
+    ]
+  },
+  "PT": {
+    "code": "PT",
+    "code3": "PRT",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "population": 10749635,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Lisbon",
+        "lat": 38.72,
+        "lon": -9.13
+      },
+      {
+        "name": "Zibreira",
+        "lat": 39.48257,
+        "lon": -8.60994
+      },
+      {
+        "name": "Zambujeira do Mar",
+        "lat": 37.52799,
+        "lon": -8.78483
+      },
+      {
+        "name": "Vimeiro",
+        "lat": 39.17768,
+        "lon": -9.31702
+      },
+      {
+        "name": "Vila Viçosa",
+        "lat": 38.7777,
+        "lon": -7.41793
+      }
+    ]
+  },
+  "PY": {
+    "code": "PY",
+    "code3": "PRY",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "population": 6109644,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Asunción",
+        "lat": -25.28,
+        "lon": -57.57
+      },
+      {
+        "name": "Yuty",
+        "lat": -26.61415,
+        "lon": -56.24727
+      },
+      {
+        "name": "Ypacarai",
+        "lat": -25.40777,
+        "lon": -57.28889
+      },
+      {
+        "name": "Yhú",
+        "lat": -25.05784,
+        "lon": -55.92267
+      },
+      {
+        "name": "Villa Ygatimí",
+        "lat": -24.12371,
+        "lon": -55.64418
+      }
+    ]
+  },
+  "QA": {
+    "code": "QA",
+    "code3": "QAT",
+    "name": "Qatar",
+    "capital": "Doha",
+    "population": 3173024,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Doha",
+        "lat": 25.28,
+        "lon": 51.53
+      },
+      {
+        "name": "Al ‘Unayzah",
+        "lat": 25.33759,
+        "lon": 51.50953
+      },
+      {
+        "name": "Umm Şalāl Muḩammad",
+        "lat": 25.41524,
+        "lon": 51.40647
+      },
+      {
+        "name": "Umm Şalāl ‘Alī",
+        "lat": 25.46972,
+        "lon": 51.3975
+      },
+      {
+        "name": "Musay‘īd",
+        "lat": 24.99226,
+        "lon": 51.55067
+      }
+    ]
+  },
+  "RO": {
+    "code": "RO",
+    "code3": "ROU",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "population": 19036031,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bucharest",
+        "lat": 44.43,
+        "lon": 26.1
+      },
+      {
+        "name": "Ghioca",
+        "lat": 44.31667,
+        "lon": 24.73333
+      },
+      {
+        "name": "Zvoriştea",
+        "lat": 47.83333,
+        "lon": 26.28333
+      },
+      {
+        "name": "Zorlenţu Mare",
+        "lat": 45.45056,
+        "lon": 21.95611
+      },
+      {
+        "name": "Zorleni",
+        "lat": 46.26667,
+        "lon": 27.71667
+      }
+    ]
+  },
+  "RU": {
+    "code": "RU",
+    "code3": "RUS",
+    "name": "Russia",
+    "capital": "Moscow",
+    "population": 146028325,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Moscow",
+        "lat": 55.75,
+        "lon": 37.6
+      },
+      {
+        "name": "Udomlya",
+        "lat": 57.87597,
+        "lon": 35.00702
+      },
+      {
+        "name": "Sosnovka",
+        "lat": 60.01667,
+        "lon": 30.35
+      },
+      {
+        "name": "Sasovo",
+        "lat": 54.35369,
+        "lon": 41.91986
+      },
+      {
+        "name": "Novozavidovskiy",
+        "lat": 56.55,
+        "lon": 36.43333
+      }
+    ]
+  },
+  "RW": {
+    "code": "RW",
+    "code3": "RWA",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "population": 14104969,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kigali",
+        "lat": -1.95,
+        "lon": 30.05
+      },
+      {
+        "name": "Rwamagana",
+        "lat": -1.9487,
+        "lon": 30.4347
+      },
+      {
+        "name": "Musanze",
+        "lat": -1.49984,
+        "lon": 29.63497
+      },
+      {
+        "name": "Ruhango",
+        "lat": -2.2246,
+        "lon": 29.79088
+      },
+      {
+        "name": "Mugina",
+        "lat": -2.1057,
+        "lon": 29.9417
+      }
+    ]
+  },
+  "EH": {
+    "code": "EH",
+    "code3": "ESH",
+    "name": "Western Sahara",
+    "capital": "El Aaiún",
+    "population": 600904,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "El Aaiún",
+        "lat": -13.28,
+        "lon": 27.14
+      },
+      {
+        "name": "Laayoune Plage",
+        "lat": 27.09611,
+        "lon": -13.41583
+      },
+      {
+        "name": "Laayoune",
+        "lat": 27.1418,
+        "lon": -13.18797
+      },
+      {
+        "name": "Boujdour",
+        "lat": 26.13073,
+        "lon": -14.48513
+      },
+      {
+        "name": "Dakhla",
+        "lat": 23.68477,
+        "lon": -15.95798
+      }
+    ]
+  },
+  "SA": {
+    "code": "SA",
+    "code3": "SAU",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "population": 35300280,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Riyadh",
+        "lat": 24.65,
+        "lon": 46.7
+      },
+      {
+        "name": "Yanbu",
+        "lat": 24.08954,
+        "lon": 38.0618
+      },
+      {
+        "name": "Unaizah",
+        "lat": 26.08793,
+        "lon": 43.96368
+      },
+      {
+        "name": "Umluj",
+        "lat": 25.02126,
+        "lon": 37.2685
+      },
+      {
+        "name": "Umm as Sāhik",
+        "lat": 26.65361,
+        "lon": 49.91639
+      }
+    ]
+  },
+  "SD": {
+    "code": "SD",
+    "code3": "SDN",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "population": 51662000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Khartoum",
+        "lat": 15.6,
+        "lon": 32.53
+      },
+      {
+        "name": "Dongola",
+        "lat": 19.18163,
+        "lon": 30.47689
+      },
+      {
+        "name": "Zalinguei",
+        "lat": 12.90918,
+        "lon": 23.47058
+      },
+      {
+        "name": "Wagar",
+        "lat": 16.1525,
+        "lon": 36.2032
+      },
+      {
+        "name": "Wad Rāwah",
+        "lat": 15.16028,
+        "lon": 33.13972
+      }
+    ]
+  },
+  "SS": {
+    "code": "SS",
+    "code3": "SSD",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "population": 15786898,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Juba",
+        "lat": 4.85,
+        "lon": 31.62
+      },
+      {
+        "name": "Yirol",
+        "lat": 6.5525,
+        "lon": 30.49806
+      },
+      {
+        "name": "Yei",
+        "lat": 4.09444,
+        "lon": 30.67639
+      },
+      {
+        "name": "Yambio",
+        "lat": 4.57083,
+        "lon": 28.39417
+      },
+      {
+        "name": "Winejok",
+        "lat": 9.01222,
+        "lon": 27.57081
+      }
+    ]
+  },
+  "SN": {
+    "code": "SN",
+    "code3": "SEN",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "population": 18593258,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Dakar",
+        "lat": 14.73,
+        "lon": -17.63
+      },
+      {
+        "name": "Ziguinchor",
+        "lat": 12.56801,
+        "lon": -16.27326
+      },
+      {
+        "name": "Vélingara",
+        "lat": 13.15,
+        "lon": -14.11667
+      },
+      {
+        "name": "Touba",
+        "lat": 14.85,
+        "lon": -15.88333
+      },
+      {
+        "name": "Tionk Essil",
+        "lat": 12.78556,
+        "lon": -16.52167
+      }
+    ]
+  },
+  "SB": {
+    "code": "SB",
+    "code3": "SLB",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "population": 750325,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tulagi",
+        "lat": -9.10306,
+        "lon": 160.15056
+      },
+      {
+        "name": "Munda",
+        "lat": -8.32799,
+        "lon": 157.26652
+      },
+      {
+        "name": "Malango",
+        "lat": -9.69523,
+        "lon": 159.71734
+      },
+      {
+        "name": "Honiara",
+        "lat": -9.43333,
+        "lon": 159.95
+      },
+      {
+        "name": "Gizo",
+        "lat": -8.10303,
+        "lon": 156.84186
+      }
+    ]
+  },
+  "SL": {
+    "code": "SL",
+    "code3": "SLE",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "population": 9077691,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Freetown",
+        "lat": 8.48,
+        "lon": -13.23
+      },
+      {
+        "name": "Zimmi",
+        "lat": 7.31356,
+        "lon": -11.30818
+      },
+      {
+        "name": "Yonibana",
+        "lat": 8.44347,
+        "lon": -12.23929
+      },
+      {
+        "name": "Yengema",
+        "lat": 8.71441,
+        "lon": -11.17057
+      },
+      {
+        "name": "Wima",
+        "lat": 8.30052,
+        "lon": -11.20455
+      }
+    ]
+  },
+  "SV": {
+    "code": "SV",
+    "code3": "SLV",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "population": 6029976,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "San Salvador",
+        "lat": 13.7,
+        "lon": -89.2
+      },
+      {
+        "name": "Zaragoza",
+        "lat": 13.58944,
+        "lon": -89.28889
+      },
+      {
+        "name": "Zacatecoluca",
+        "lat": 13.5,
+        "lon": -88.86667
+      },
+      {
+        "name": "Victoria",
+        "lat": 13.95,
+        "lon": -88.63333
+      },
+      {
+        "name": "Usulután",
+        "lat": 13.35,
+        "lon": -88.45
+      }
+    ]
+  },
+  "XS": {
+    "code": "XS",
+    "code3": "SOL",
+    "name": "Somaliland",
+    "capital": "Hargeisa",
+    "population": 3500000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Hargeisa",
+        "lat": 9.563,
+        "lon": 44.065
+      },
+      {
+        "name": "Berbera",
+        "lat": 10.4396,
+        "lon": 45.014
+      },
+      {
+        "name": "Burao",
+        "lat": 9.5221,
+        "lon": 45.5336
+      }
+    ]
+  },
+  "SO": {
+    "code": "SO",
+    "code3": "SOM",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "population": 19655000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Mogadishu",
+        "lat": 2.07,
+        "lon": 45.33
+      },
+      {
+        "name": "Yeed",
+        "lat": 4.55,
+        "lon": 43.03333
+      },
+      {
+        "name": "Xuddur",
+        "lat": 4.12129,
+        "lon": 43.88945
+      },
+      {
+        "name": "Xarardheere",
+        "lat": 4.6544,
+        "lon": 47.8575
+      },
+      {
+        "name": "Wanlaweyn",
+        "lat": 2.6185,
+        "lon": 44.8938
+      }
+    ]
+  },
+  "RS": {
+    "code": "RS",
+    "code3": "SRB",
+    "name": "Republic of Serbia",
+    "capital": "Belgrade",
+    "population": 6567783,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Belgrade",
+        "lat": 44.83,
+        "lon": 20.5
+      },
+      {
+        "name": "Zvečka",
+        "lat": 44.64025,
+        "lon": 20.16432
+      },
+      {
+        "name": "Žujince",
+        "lat": 42.31568,
+        "lon": 21.70212
+      },
+      {
+        "name": "Zuce",
+        "lat": 44.69806,
+        "lon": 20.55524
+      },
+      {
+        "name": "Zrenjanin",
+        "lat": 45.38361,
+        "lon": 20.38194
+      }
+    ]
+  },
+  "SR": {
+    "code": "SR",
+    "code3": "SUR",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "population": 616500,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Wageningen",
+        "lat": 5.7601,
+        "lon": -56.66523
+      },
+      {
+        "name": "Totness",
+        "lat": 5.87618,
+        "lon": -56.32572
+      },
+      {
+        "name": "Paramaribo",
+        "lat": 5.86638,
+        "lon": -55.16682
+      },
+      {
+        "name": "Onverwacht",
+        "lat": 5.58983,
+        "lon": -55.19462
+      },
+      {
+        "name": "Nieuw Nickerie",
+        "lat": 5.92606,
+        "lon": -56.97297
+      }
+    ]
+  },
+  "SK": {
+    "code": "SK",
+    "code3": "SVK",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "population": 5413813,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bratislava",
+        "lat": 48.15,
+        "lon": 17.12
+      },
+      {
+        "name": "Žehra",
+        "lat": 48.9796,
+        "lon": 20.7917
+      },
+      {
+        "name": "Ždiar",
+        "lat": 49.271,
+        "lon": 20.26239
+      },
+      {
+        "name": "Zálesie",
+        "lat": 49.32607,
+        "lon": 20.38744
+      },
+      {
+        "name": "Vysoké Tatry",
+        "lat": 49.13637,
+        "lon": 20.24386
+      }
+    ]
+  },
+  "SI": {
+    "code": "SI",
+    "code3": "SVN",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "population": 2130638,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Ljubljana",
+        "lat": 46.05,
+        "lon": 14.52
+      },
+      {
+        "name": "Žužemberk",
+        "lat": 45.83389,
+        "lon": 14.92917
+      },
+      {
+        "name": "Žiri",
+        "lat": 46.04222,
+        "lon": 14.10722
+      },
+      {
+        "name": "Zgornji Duplek",
+        "lat": 46.51361,
+        "lon": 15.72083
+      },
+      {
+        "name": "Zgornje Pirniče",
+        "lat": 46.14251,
+        "lon": 14.43158
+      }
+    ]
+  },
+  "SE": {
+    "code": "SE",
+    "code3": "SWE",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "population": 10605098,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Stockholm",
+        "lat": 59.33,
+        "lon": 18.05
+      },
+      {
+        "name": "Viken",
+        "lat": 64.72587,
+        "lon": 20.91548
+      },
+      {
+        "name": "Ursviken",
+        "lat": 64.71261,
+        "lon": 21.1658
+      },
+      {
+        "name": "Umeå",
+        "lat": 63.82842,
+        "lon": 20.25972
+      },
+      {
+        "name": "Töre",
+        "lat": 65.91243,
+        "lon": 22.65128
+      }
+    ]
+  },
+  "SZ": {
+    "code": "SZ",
+    "code3": "SWZ",
+    "name": "Swaziland",
+    "capital": "Mbabane",
+    "population": 1235549,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Mbabane",
+        "lat": -26.32,
+        "lon": 31.13
+      },
+      {
+        "name": "Thunzini",
+        "lat": -25.95764,
+        "lon": 31.7274
+      },
+      {
+        "name": "Siteki",
+        "lat": -26.4525,
+        "lon": 31.94722
+      },
+      {
+        "name": "Sidvokodvo",
+        "lat": -26.6282,
+        "lon": 31.42021
+      },
+      {
+        "name": "Piggs Peak",
+        "lat": -25.96082,
+        "lon": 31.24666
+      }
+    ]
+  },
+  "SY": {
+    "code": "SY",
+    "code3": "SYR",
+    "name": "Syria",
+    "capital": "Damascus",
+    "population": 25620000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Damascus",
+        "lat": 33.5,
+        "lon": 36.3
+      },
+      {
+        "name": "Ayn Halaqim",
+        "lat": 34.93998,
+        "lon": 36.32212
+      },
+      {
+        "name": "Al Karāmah",
+        "lat": 35.86865,
+        "lon": 39.27803
+      },
+      {
+        "name": "‘Arīqah",
+        "lat": 32.88994,
+        "lon": 36.48342
+      },
+      {
+        "name": "Aş Şūrah aş Şaghīrah",
+        "lat": 33.03247,
+        "lon": 36.5742
+      }
+    ]
+  },
+  "TD": {
+    "code": "TD",
+    "code3": "TCD",
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "population": 19340757,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "N'Djamena",
+        "lat": 12.1,
+        "lon": 15.03
+      },
+      {
+        "name": "Iriba",
+        "lat": 15.11667,
+        "lon": 22.25
+      },
+      {
+        "name": "Guéréda",
+        "lat": 14.51667,
+        "lon": 22.08333
+      },
+      {
+        "name": "Goz Béïda",
+        "lat": 13.94563,
+        "lon": 20.5468
+      },
+      {
+        "name": "Goz Beida",
+        "lat": 12.22643,
+        "lon": 21.40983
+      }
+    ]
+  },
+  "TG": {
+    "code": "TG",
+    "code3": "TGO",
+    "name": "Togo",
+    "capital": "Lomé",
+    "population": 8095498,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Lomé",
+        "lat": 6.14,
+        "lon": 1.21
+      },
+      {
+        "name": "Vogan",
+        "lat": 6.33333,
+        "lon": 1.53333
+      },
+      {
+        "name": "Tsévié",
+        "lat": 6.42611,
+        "lon": 1.21333
+      },
+      {
+        "name": "Tohoun",
+        "lat": 7.03333,
+        "lon": 1.61667
+      },
+      {
+        "name": "Tchamba",
+        "lat": 9.03333,
+        "lon": 1.41667
+      }
+    ]
+  },
+  "TH": {
+    "code": "TH",
+    "code3": "THA",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "population": 65859640,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Bangkok",
+        "lat": 13.75,
+        "lon": 100.52
+      },
+      {
+        "name": "Don Sak",
+        "lat": 9.31676,
+        "lon": 99.69184
+      },
+      {
+        "name": "Thung Sai",
+        "lat": 16.31489,
+        "lon": 99.83267
+      },
+      {
+        "name": "Tham Phannara",
+        "lat": 8.42045,
+        "lon": 99.39517
+      },
+      {
+        "name": "Ban Talat Yai",
+        "lat": 7.88481,
+        "lon": 98.40008
+      }
+    ]
+  },
+  "TJ": {
+    "code": "TJ",
+    "code3": "TJK",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "population": 10499000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Dushanbe",
+        "lat": 38.55,
+        "lon": 68.77
+      },
+      {
+        "name": "Yovon",
+        "lat": 38.31408,
+        "lon": 69.03784
+      },
+      {
+        "name": "Hulbuk",
+        "lat": 37.80542,
+        "lon": 69.64516
+      },
+      {
+        "name": "Vorukh",
+        "lat": 39.85125,
+        "lon": 70.58012
+      },
+      {
+        "name": "Varzob",
+        "lat": 38.77369,
+        "lon": 68.81776
+      }
+    ]
+  },
+  "TM": {
+    "code": "TM",
+    "code3": "TKM",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "population": 7057841,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Ashgabat",
+        "lat": 37.95,
+        "lon": 58.38
+      },
+      {
+        "name": "Balkanabat",
+        "lat": 39.51075,
+        "lon": 54.36713
+      },
+      {
+        "name": "Kaka",
+        "lat": 37.34821,
+        "lon": 59.61431
+      },
+      {
+        "name": "Serdar",
+        "lat": 38.97644,
+        "lon": 56.27575
+      },
+      {
+        "name": "Gumdag",
+        "lat": 39.20611,
+        "lon": 54.59056
+      }
+    ]
+  },
+  "TL": {
+    "code": "TL",
+    "code3": "TLS",
+    "name": "East Timor",
+    "capital": "Dili",
+    "population": 1391221,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Dili",
+        "lat": -8.58,
+        "lon": 125.6
+      },
+      {
+        "name": "Viqueque",
+        "lat": -8.8575,
+        "lon": 126.36472
+      },
+      {
+        "name": "Suai",
+        "lat": -9.31286,
+        "lon": 125.25648
+      },
+      {
+        "name": "Same",
+        "lat": -9.00417,
+        "lon": 125.64861
+      },
+      {
+        "name": "Pante Makasar",
+        "lat": -9.2,
+        "lon": 124.38333
+      }
+    ]
+  },
+  "TT": {
+    "code": "TT",
+    "code3": "TTO",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "population": 1367764,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Port of Spain",
+        "lat": 10.65,
+        "lon": -61.52
+      },
+      {
+        "name": "Tunapuna",
+        "lat": 10.65245,
+        "lon": -61.38878
+      },
+      {
+        "name": "Talparo",
+        "lat": 10.5,
+        "lon": -61.26667
+      },
+      {
+        "name": "Tabaquite",
+        "lat": 10.38824,
+        "lon": -61.29704
+      },
+      {
+        "name": "Siparia",
+        "lat": 10.14525,
+        "lon": -61.5074
+      }
+    ]
+  },
+  "TN": {
+    "code": "TN",
+    "code3": "TUN",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "population": 11972169,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tunis",
+        "lat": 36.8,
+        "lon": 10.18
+      },
+      {
+        "name": "Matmata",
+        "lat": 33.54445,
+        "lon": 9.97157
+      },
+      {
+        "name": "Zaouiet Sousse",
+        "lat": 35.78553,
+        "lon": 10.62725
+      },
+      {
+        "name": "Zaouiet Kountech",
+        "lat": 35.63333,
+        "lon": 10.76667
+      },
+      {
+        "name": "Zaouiet Medien",
+        "lat": 36.76767,
+        "lon": 9.08894
+      }
+    ]
+  },
+  "TR": {
+    "code": "TR",
+    "code3": "TUR",
+    "name": "Turkey",
+    "capital": "Ankara",
+    "population": 85664944,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Ankara",
+        "lat": 39.93,
+        "lon": 32.87
+      },
+      {
+        "name": "Demre",
+        "lat": 36.24444,
+        "lon": 29.985
+      },
+      {
+        "name": "Yavrudoğan",
+        "lat": 36.8791,
+        "lon": 31.31096
+      },
+      {
+        "name": "Zeytinliova",
+        "lat": 38.99118,
+        "lon": 27.67635
+      },
+      {
+        "name": "Zeytinli",
+        "lat": 36.99333,
+        "lon": 35.13397
+      }
+    ]
+  },
+  "TW": {
+    "code": "TW",
+    "code3": "TWN",
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "population": 23317031,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Taipei",
+        "lat": 25.03,
+        "lon": 121.52
+      },
+      {
+        "name": "Douliu",
+        "lat": 23.70944,
+        "lon": 120.54333
+      },
+      {
+        "name": "Yongkang",
+        "lat": 23.02444,
+        "lon": 120.25556
+      },
+      {
+        "name": "Yongjing",
+        "lat": 23.92148,
+        "lon": 120.54594
+      },
+      {
+        "name": "Yujing",
+        "lat": 23.12493,
+        "lon": 120.46138
+      }
+    ]
+  },
+  "TZ": {
+    "code": "TZ",
+    "code3": "TZA",
+    "name": "United Republic of Tanzania",
+    "capital": "Dodoma",
+    "population": 68153004,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Dodoma",
+        "lat": -6.16,
+        "lon": 35.75
+      },
+      {
+        "name": "Zanzibar",
+        "lat": -6.16394,
+        "lon": 39.19793
+      },
+      {
+        "name": "Wete",
+        "lat": -5.05589,
+        "lon": 39.72938
+      },
+      {
+        "name": "Vwawa",
+        "lat": -9.10806,
+        "lon": 32.93472
+      },
+      {
+        "name": "Vikindu",
+        "lat": -7.00667,
+        "lon": 39.29849
+      }
+    ]
+  },
+  "UG": {
+    "code": "UG",
+    "code3": "UGA",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "population": 45905417,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kampala",
+        "lat": 0.32,
+        "lon": 32.55
+      },
+      {
+        "name": "Zombo",
+        "lat": 2.51355,
+        "lon": 30.90909
+      },
+      {
+        "name": "Yumbe",
+        "lat": 3.46506,
+        "lon": 31.24689
+      },
+      {
+        "name": "Wobulenzi",
+        "lat": 0.72833,
+        "lon": 32.51222
+      },
+      {
+        "name": "Wakiso",
+        "lat": 0.40444,
+        "lon": 32.45944
+      }
+    ]
+  },
+  "UA": {
+    "code": "UA",
+    "code3": "UKR",
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "population": 32862000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Kyiv",
+        "lat": 50.43,
+        "lon": 30.52
+      },
+      {
+        "name": "Olenevka",
+        "lat": 45.38333,
+        "lon": 32.53333
+      },
+      {
+        "name": "Urzuf",
+        "lat": 46.91495,
+        "lon": 37.10426
+      },
+      {
+        "name": "Lebedyn",
+        "lat": 50.58518,
+        "lon": 34.4849
+      },
+      {
+        "name": "Staryi Dobrotvir",
+        "lat": 50.23154,
+        "lon": 24.37701
+      }
+    ]
+  },
+  "UY": {
+    "code": "UY",
+    "code3": "URY",
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "population": 3499451,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Montevideo",
+        "lat": -34.85,
+        "lon": -56.17
+      },
+      {
+        "name": "Young",
+        "lat": -32.69844,
+        "lon": -57.62693
+      },
+      {
+        "name": "Villa Sara",
+        "lat": -33.2534,
+        "lon": -54.41947
+      },
+      {
+        "name": "Villa del Carmen",
+        "lat": -33.23943,
+        "lon": -56.00936
+      },
+      {
+        "name": "Vichadero",
+        "lat": -31.77794,
+        "lon": -54.69183
+      }
+    ]
+  },
+  "US": {
+    "code": "US",
+    "code3": "USA",
+    "name": "United States of America",
+    "capital": "Washington, D.C.",
+    "population": 340110988,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Washington, D.C.",
+        "lat": 38.89,
+        "lon": -77.05
+      },
+      {
+        "name": "Bay Minette",
+        "lat": 30.88296,
+        "lon": -87.77305
+      },
+      {
+        "name": "Edna",
+        "lat": 28.97859,
+        "lon": -96.64609
+      },
+      {
+        "name": "Bayou La Batre",
+        "lat": 30.40352,
+        "lon": -88.24852
+      },
+      {
+        "name": "Henderson",
+        "lat": 32.15322,
+        "lon": -94.79938
+      }
+    ]
+  },
+  "UZ": {
+    "code": "UZ",
+    "code3": "UZB",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "population": 37859698,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Tashkent",
+        "lat": 41.32,
+        "lon": 69.25
+      },
+      {
+        "name": "Shumanay",
+        "lat": 42.64281,
+        "lon": 58.91345
+      },
+      {
+        "name": "Nukus",
+        "lat": 42.45306,
+        "lon": 59.61028
+      },
+      {
+        "name": "Mŭynoq",
+        "lat": 43.76833,
+        "lon": 59.02139
+      },
+      {
+        "name": "Qanliko‘l",
+        "lat": 42.8395,
+        "lon": 59.00093
+      }
+    ]
+  },
+  "VE": {
+    "code": "VE",
+    "code3": "VEN",
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "population": 28517000,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Caracas",
+        "lat": 10.48,
+        "lon": -66.87
+      },
+      {
+        "name": "La Asunción",
+        "lat": 11.03333,
+        "lon": -63.86278
+      },
+      {
+        "name": "Caricuao",
+        "lat": 10.43337,
+        "lon": -66.98313
+      },
+      {
+        "name": "Tocuyito",
+        "lat": 10.11347,
+        "lon": -68.06783
+      },
+      {
+        "name": "El Chaparro",
+        "lat": 9.15204,
+        "lon": -65.01732
+      }
+    ]
+  },
+  "VN": {
+    "code": "VN",
+    "code3": "VNM",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "population": 101343800,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Hanoi",
+        "lat": 21.03,
+        "lon": 105.85
+      },
+      {
+        "name": "Yên Vinh",
+        "lat": 18.66667,
+        "lon": 105.66667
+      },
+      {
+        "name": "Yên Thượng",
+        "lat": 18.88333,
+        "lon": 105.28333
+      },
+      {
+        "name": "Yên Thành",
+        "lat": 18.99856,
+        "lon": 105.47116
+      },
+      {
+        "name": "Yên Ninh",
+        "lat": 20.18396,
+        "lon": 106.06121
+      }
+    ]
+  },
+  "VU": {
+    "code": "VU",
+    "code3": "VUT",
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "population": 321409,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Port Vila",
+        "lat": -17.73,
+        "lon": 168.32
+      },
+      {
+        "name": "Sola",
+        "lat": -13.87611,
+        "lon": 167.55167
+      },
+      {
+        "name": "Port-Vila",
+        "lat": -17.73648,
+        "lon": 168.31366
+      },
+      {
+        "name": "Port-Olry",
+        "lat": -15.04175,
+        "lon": 167.07265
+      },
+      {
+        "name": "Norsup",
+        "lat": -16.06536,
+        "lon": 167.39714
+      }
+    ]
+  },
+  "PS": {
+    "code": "PS",
+    "code3": "PSE",
+    "name": "West Bank",
+    "capital": "Ramallah",
+    "population": 5483450,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Ramallah",
+        "lat": 31.9,
+        "lon": 35.2
+      },
+      {
+        "name": "Shūkat aş Şūfī",
+        "lat": 31.25997,
+        "lon": 34.2826
+      },
+      {
+        "name": "Rafaḩ",
+        "lat": 31.29722,
+        "lon": 34.24357
+      },
+      {
+        "name": "An Nuşayrāt",
+        "lat": 31.44861,
+        "lon": 34.3925
+      },
+      {
+        "name": "Khuzā‘ah",
+        "lat": 31.30675,
+        "lon": 34.3611
+      }
+    ]
+  },
+  "YE": {
+    "code": "YE",
+    "code3": "YEM",
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "population": 32684503,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Sana'a",
+        "lat": 15.37,
+        "lon": 44.19
+      },
+      {
+        "name": "Daḩasuways",
+        "lat": 15.72389,
+        "lon": 50.72944
+      },
+      {
+        "name": "Ash Shiḩr",
+        "lat": 14.76026,
+        "lon": 49.60537
+      },
+      {
+        "name": "Al Ghaylah",
+        "lat": 14.59583,
+        "lon": 45.58333
+      },
+      {
+        "name": "Judaydah",
+        "lat": 15.07512,
+        "lon": 45.29962
+      }
+    ]
+  },
+  "ZA": {
+    "code": "ZA",
+    "code3": "ZAF",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "population": 63100945,
+    "lat": -28.73635719148936,
+    "lon": 25.34707620212766,
+    "topCities": [
+      {
+        "name": "Pretoria",
+        "lat": -25.7,
+        "lon": 28.22
+      },
+      {
+        "name": "Roodepoort",
+        "lat": -26.1625,
+        "lon": 27.8725
+      },
+      {
+        "name": "Zoar",
+        "lat": -33.4956,
+        "lon": 21.44373
+      },
+      {
+        "name": "Zeerust",
+        "lat": -25.53695,
+        "lon": 26.07512
+      },
+      {
+        "name": "Zastron",
+        "lat": -30.30225,
+        "lon": 27.08395
+      }
+    ]
+  },
+  "ZM": {
+    "code": "ZM",
+    "code3": "ZMB",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "population": 19693423,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Lusaka",
+        "lat": -15.42,
+        "lon": 28.28
+      },
+      {
+        "name": "Nchelenge",
+        "lat": -9.34506,
+        "lon": 28.73396
+      },
+      {
+        "name": "Nakonde",
+        "lat": -9.34213,
+        "lon": 32.745
+      },
+      {
+        "name": "Mununga",
+        "lat": -9.04865,
+        "lon": 29.04265
+      },
+      {
+        "name": "Mpulungu",
+        "lat": -8.76234,
+        "lon": 31.11405
+      }
+    ]
+  },
+  "ZW": {
+    "code": "ZW",
+    "code3": "ZWE",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "population": 17073087,
+    "lat": 0.0,
+    "lon": 0.0,
+    "topCities": [
+      {
+        "name": "Harare",
+        "lat": -17.82,
+        "lon": 31.03
+      },
+      {
+        "name": "Zvishavane",
+        "lat": -20.32674,
+        "lon": 30.06648
+      },
+      {
+        "name": "Victoria Falls",
+        "lat": -17.93285,
+        "lon": 25.83066
+      },
+      {
+        "name": "Shurugwi",
+        "lat": -19.67016,
+        "lon": 30.00589
+      },
+      {
+        "name": "Shangani",
+        "lat": -19.78333,
+        "lon": 29.36667
+      }
+    ]
+  }
+}

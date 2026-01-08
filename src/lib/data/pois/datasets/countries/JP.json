@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-jp-tokyo-skytree",
+    "name": "Tokyo Skytree",
+    "category": "landmarks",
+    "lat": 35.7101,
+    "lon": 139.8107,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-fushimi-inari",
+    "name": "Fushimi Inari Shrine",
+    "category": "landmarks",
+    "lat": 34.9671,
+    "lon": 135.7727,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-arashiyama-bamboo-grove",
+    "name": "Arashiyama Bamboo Grove",
+    "category": "nature",
+    "lat": 35.0168,
+    "lon": 135.6713,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-osaka-castle",
+    "name": "Osaka Castle",
+    "category": "landmarks",
+    "lat": 34.6873,
+    "lon": 135.5262,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-hiroshima-peace-memorial",
+    "name": "Hiroshima Peace Memorial",
+    "category": "museums",
+    "lat": 34.3955,
+    "lon": 132.4536,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-mount-fuji",
+    "name": "Mount Fuji",
+    "category": "nature",
+    "lat": 35.3606,
+    "lon": 138.7274,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-nara-park",
+    "name": "Nara Park",
+    "category": "nature",
+    "lat": 34.6851,
+    "lon": 135.8431,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-tsukiji-outer-market",
+    "name": "Tsukiji Outer Market",
+    "category": "food",
+    "lat": 35.6655,
+    "lon": 139.7708,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-odori-park",
+    "name": "Odori Park",
+    "category": "nature",
+    "lat": 43.0621,
+    "lon": 141.3544,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-tokyo-national-museum",
+    "name": "Tokyo National Museum",
+    "category": "museums",
+    "lat": 35.7188,
+    "lon": 139.7765,
+    "source": "static",
+    "countryCode": "JP"
+  }
+]

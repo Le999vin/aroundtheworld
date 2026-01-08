@@ -1,5 +1,5 @@
 import type { POI, PlaceCategory } from "@/lib/types";
-import { ServiceError, requireEnv } from "@/lib/services/errors";
+import { ServiceError, readResponseBody, requireEnv } from "@/lib/services/errors";
 import type { PlacesOptions, PlacesService } from "@/lib/services/places/types";
 
 const CATEGORY_KINDS: Record<PlaceCategory, string> = {
@@ -62,9 +62,18 @@ export class OpenTripMapPlacesService implements PlacesService {
     url.searchParams.set("limit", limit.toString());
     url.searchParams.set("apikey", apiKey);
 
-    const response = await fetch(url.toString());
+    let response: Response;
+    try {
+      response = await fetch(url.toString());
+    } catch (error) {
+      throw new ServiceError("Places provider request failed", {
+        status: 502,
+        code: "provider_error",
+        cause: error,
+      });
+    }
     if (!response.ok) {
-      const body = await response.text();
+      const body = await readResponseBody(response);
       throw new ServiceError("Places provider error", {
         status: response.status,
         code: "provider_error",
@@ -90,18 +99,22 @@ export class OpenTripMapPlacesService implements PlacesService {
       );
       detailsUrl.searchParams.set("apikey", apiKey);
 
-      const res = await fetch(detailsUrl.toString());
-      if (!res.ok) return null;
+      try {
+        const res = await fetch(detailsUrl.toString());
+        if (!res.ok) return null;
+        return (await res.json()) as {
+          xid: string;
+          name?: string;
+          kinds?: string;
+          rate?: number;
+          point?: { lat: number; lon: number };
+          preview?: { source?: string };
+          wikipedia_extracts?: { title?: string; text?: string };
+        };
+      } catch {
+        return null;
+      }
 
-      return (await res.json()) as {
-        xid: string;
-        name?: string;
-        kinds?: string;
-        rate?: number;
-        point?: { lat: number; lon: number };
-        preview?: { source?: string };
-        wikipedia_extracts?: { title?: string; text?: string };
-      };
     };
 
     const base = data.features

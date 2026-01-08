@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-istanbul-hagia-sophia",
+    "name": "Hagia Sophia",
+    "category": "landmarks",
+    "lat": 41.0086,
+    "lon": 28.9802,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-blue-mosque",
+    "name": "Blue Mosque",
+    "category": "landmarks",
+    "lat": 41.0054,
+    "lon": 28.9768,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-topkapi-palace",
+    "name": "Topkapi Palace",
+    "category": "museums",
+    "lat": 41.0115,
+    "lon": 28.9833,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-grand-bazaar",
+    "name": "Grand Bazaar",
+    "category": "food",
+    "lat": 41.0107,
+    "lon": 28.9681,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-galata-tower",
+    "name": "Galata Tower",
+    "category": "landmarks",
+    "lat": 41.0256,
+    "lon": 28.9744,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-bosphorus-pier",
+    "name": "Bosphorus Pier",
+    "category": "nature",
+    "lat": 41.043,
+    "lon": 29.01,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-spice-bazaar",
+    "name": "Spice Bazaar",
+    "category": "food",
+    "lat": 41.0165,
+    "lon": 28.9706,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-istiklal-avenue",
+    "name": "Istiklal Avenue",
+    "category": "nightlife",
+    "lat": 41.0351,
+    "lon": 28.9776,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-basilica-cistern",
+    "name": "Basilica Cistern",
+    "category": "museums",
+    "lat": 41.0084,
+    "lon": 28.9779,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-dolmabahce-palace",
+    "name": "Dolmabahce Palace",
+    "category": "landmarks",
+    "lat": 41.039,
+    "lon": 29.0006,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  }
+]

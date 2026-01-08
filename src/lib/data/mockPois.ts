@@ -29,7 +29,7 @@ export const buildMockPois = (center: { lat: number; lon: number }): POI[] => {
       lon: center.lon + (index % 3 === 0 ? -offset : offset),
       rating: 4.2 + (index % 3) * 0.2,
       address: "Central district",
-      source: "demo",
+      source: "static",
     };
   });
 };

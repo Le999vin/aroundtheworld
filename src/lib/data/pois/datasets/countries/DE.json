@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-de-brandenburg-gate",
+    "name": "Brandenburg Gate",
+    "category": "landmarks",
+    "lat": 52.5163,
+    "lon": 13.3777,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-neuschwanstein-castle",
+    "name": "Neuschwanstein Castle",
+    "category": "landmarks",
+    "lat": 47.5576,
+    "lon": 10.7498,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-cologne-cathedral",
+    "name": "Cologne Cathedral",
+    "category": "landmarks",
+    "lat": 50.9413,
+    "lon": 6.9583,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-heidelberg-old-town",
+    "name": "Heidelberg Old Town",
+    "category": "landmarks",
+    "lat": 49.3988,
+    "lon": 8.6724,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-black-forest",
+    "name": "Black Forest",
+    "category": "nature",
+    "lat": 48.1313,
+    "lon": 8.232,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-zugspitze-summit",
+    "name": "Zugspitze Summit",
+    "category": "nature",
+    "lat": 47.421,
+    "lon": 10.9855,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-miniatur-wunderland",
+    "name": "Miniatur Wunderland",
+    "category": "museums",
+    "lat": 53.5436,
+    "lon": 9.9888,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-frauenkirche-dresden",
+    "name": "Frauenkirche Dresden",
+    "category": "landmarks",
+    "lat": 51.051,
+    "lon": 13.7414,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-oktoberfest-theresienwiese",
+    "name": "Oktoberfest Theresienwiese",
+    "category": "nightlife",
+    "lat": 48.1319,
+    "lon": 11.5496,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-museum-island",
+    "name": "Museum Island",
+    "category": "museums",
+    "lat": 52.5169,
+    "lon": 13.4019,
+    "source": "static",
+    "countryCode": "DE"
+  }
+]

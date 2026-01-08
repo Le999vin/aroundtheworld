@@ -1,14 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
 import { unstable_cache } from "next/cache";
 import { getGeocodingService } from "@/lib/services/geocoding";
-import { toServiceError } from "@/lib/services/errors";
+import { logServiceError, toErrorResponse } from "@/lib/services/errors";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
-  const query = searchParams.get("q");
+  const query = searchParams.get("q")?.trim();
 
   if (!query) {
-    return NextResponse.json({ error: "Missing query" }, { status: 400 });
+    return NextResponse.json(
+      { error: "Missing query", code: "bad_request" },
+      { status: 400 }
+    );
   }
 
   const service = getGeocodingService();
@@ -22,10 +25,11 @@ export async function GET(request: NextRequest) {
     const data = await cached();
     return NextResponse.json(data);
   } catch (error) {
-    const serviceError = toServiceError(error);
+    const { serviceError, status, body } = toErrorResponse(error);
+    logServiceError("api/geocode", serviceError);
     return NextResponse.json(
-      { error: serviceError.message },
-      { status: serviceError.status }
+      body,
+      { status }
     );
   }
 }

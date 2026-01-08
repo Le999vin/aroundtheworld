@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-london-big-ben",
+    "name": "Big Ben",
+    "category": "landmarks",
+    "lat": 51.5007,
+    "lon": -0.1246,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-buckingham-palace",
+    "name": "Buckingham Palace",
+    "category": "landmarks",
+    "lat": 51.5014,
+    "lon": -0.1419,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-tower-of-london",
+    "name": "Tower of London",
+    "category": "landmarks",
+    "lat": 51.5081,
+    "lon": -0.0759,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-british-museum",
+    "name": "British Museum",
+    "category": "museums",
+    "lat": 51.5194,
+    "lon": -0.127,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-london-eye",
+    "name": "London Eye",
+    "category": "landmarks",
+    "lat": 51.5033,
+    "lon": -0.1195,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-borough-market",
+    "name": "Borough Market",
+    "category": "food",
+    "lat": 51.5055,
+    "lon": -0.0912,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-camden-market",
+    "name": "Camden Market",
+    "category": "food",
+    "lat": 51.5413,
+    "lon": -0.146,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-hyde-park",
+    "name": "Hyde Park",
+    "category": "nature",
+    "lat": 51.5073,
+    "lon": -0.1657,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-soho",
+    "name": "Soho",
+    "category": "nightlife",
+    "lat": 51.5137,
+    "lon": -0.1365,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-tate-modern",
+    "name": "Tate Modern",
+    "category": "museums",
+    "lat": 51.5076,
+    "lon": -0.0994,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  }
+]

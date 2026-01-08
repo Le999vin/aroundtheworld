@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-th-grand-palace",
+    "name": "Grand Palace",
+    "category": "landmarks",
+    "lat": 13.75,
+    "lon": 100.4913,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-wat-pho",
+    "name": "Wat Pho",
+    "category": "landmarks",
+    "lat": 13.7466,
+    "lon": 100.493,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-patong-beach",
+    "name": "Patong Beach",
+    "category": "nature",
+    "lat": 7.8925,
+    "lon": 98.2969,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-chiang-mai-old-city",
+    "name": "Chiang Mai Old City",
+    "category": "landmarks",
+    "lat": 18.7883,
+    "lon": 98.9853,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-ayutthaya-park",
+    "name": "Ayutthaya Historical Park",
+    "category": "landmarks",
+    "lat": 14.3556,
+    "lon": 100.568,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-railay-beach",
+    "name": "Railay Beach",
+    "category": "nature",
+    "lat": 8.0095,
+    "lon": 98.8374,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-chatuchak-market",
+    "name": "Chatuchak Market",
+    "category": "food",
+    "lat": 13.7995,
+    "lon": 100.551,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-damnoen-saduak",
+    "name": "Damnoen Saduak Floating Market",
+    "category": "food",
+    "lat": 13.52,
+    "lon": 99.958,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-doi-suthep",
+    "name": "Doi Suthep",
+    "category": "nature",
+    "lat": 18.8049,
+    "lon": 98.922,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-khao-san-road",
+    "name": "Khao San Road",
+    "category": "nightlife",
+    "lat": 13.7594,
+    "lon": 100.497,
+    "source": "static",
+    "countryCode": "TH"
+  }
+]

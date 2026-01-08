@@ -1,5 +1,5 @@
 import type { WeatherData } from "@/lib/types";
-import { ServiceError, requireEnv } from "@/lib/services/errors";
+import { ServiceError, readResponseBody, requireEnv } from "@/lib/services/errors";
 import type { WeatherOptions, WeatherService } from "@/lib/services/weather/types";
 
 export class OpenWeatherService implements WeatherService {
@@ -31,13 +31,25 @@ export class OpenWeatherService implements WeatherService {
     forecastUrl.searchParams.set("lang", lang);
     forecastUrl.searchParams.set("appid", apiKey);
 
+    const safeFetch = async (url: URL, label: string) => {
+      try {
+        return await fetch(url.toString());
+      } catch (error) {
+        throw new ServiceError(`Weather provider request failed (${label})`, {
+          status: 502,
+          code: "provider_error",
+          cause: error,
+        });
+      }
+    };
+
     const [currentRes, forecastRes] = await Promise.all([
-      fetch(currentUrl.toString()),
-      fetch(forecastUrl.toString()),
+      safeFetch(currentUrl, "current"),
+      safeFetch(forecastUrl, "forecast"),
     ]);
 
     if (!currentRes.ok) {
-      const body = await currentRes.text();
+      const body = await readResponseBody(currentRes);
       throw new ServiceError("Weather provider error (current)", {
         status: currentRes.status,
         code: "provider_error",
@@ -46,7 +58,7 @@ export class OpenWeatherService implements WeatherService {
     }
 
     if (!forecastRes.ok) {
-      const body = await forecastRes.text();
+      const body = await readResponseBody(forecastRes);
       throw new ServiceError("Weather provider error (forecast)", {
         status: forecastRes.status,
         code: "provider_error",

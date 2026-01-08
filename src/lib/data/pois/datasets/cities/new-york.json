@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-new-york-statue-of-liberty",
+    "name": "Statue of Liberty",
+    "category": "landmarks",
+    "lat": 40.6892,
+    "lon": -74.0445,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-times-square",
+    "name": "Times Square",
+    "category": "landmarks",
+    "lat": 40.758,
+    "lon": -73.9855,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-central-park",
+    "name": "Central Park",
+    "category": "nature",
+    "lat": 40.7851,
+    "lon": -73.9683,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-empire-state-building",
+    "name": "Empire State Building",
+    "category": "landmarks",
+    "lat": 40.7484,
+    "lon": -73.9857,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-brooklyn-bridge",
+    "name": "Brooklyn Bridge",
+    "category": "landmarks",
+    "lat": 40.7061,
+    "lon": -73.9969,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-metropolitan-museum",
+    "name": "Metropolitan Museum of Art",
+    "category": "museums",
+    "lat": 40.7794,
+    "lon": -73.9632,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-moma",
+    "name": "Museum of Modern Art",
+    "category": "museums",
+    "lat": 40.7614,
+    "lon": -73.9776,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-high-line",
+    "name": "High Line",
+    "category": "nature",
+    "lat": 40.748,
+    "lon": -74.0048,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-chelsea-market",
+    "name": "Chelsea Market",
+    "category": "food",
+    "lat": 40.7424,
+    "lon": -74.006,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-greenwich-village",
+    "name": "Greenwich Village",
+    "category": "nightlife",
+    "lat": 40.7336,
+    "lon": -74.0027,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  }
+]

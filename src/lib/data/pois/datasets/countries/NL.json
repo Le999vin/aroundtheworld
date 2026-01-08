@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-nl-canal-ring",
+    "name": "Amsterdam Canal Ring",
+    "category": "landmarks",
+    "lat": 52.3725,
+    "lon": 4.8936,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-rijksmuseum",
+    "name": "Rijksmuseum",
+    "category": "museums",
+    "lat": 52.36,
+    "lon": 4.8852,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-keukenhof",
+    "name": "Keukenhof Gardens",
+    "category": "nature",
+    "lat": 52.271,
+    "lon": 4.546,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-kinderdijk",
+    "name": "Kinderdijk Windmills",
+    "category": "landmarks",
+    "lat": 51.884,
+    "lon": 4.638,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-giethoorn",
+    "name": "Giethoorn",
+    "category": "nature",
+    "lat": 52.7425,
+    "lon": 6.0836,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-vrijthof",
+    "name": "Vrijthof Square",
+    "category": "food",
+    "lat": 50.8514,
+    "lon": 5.69,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-markthal",
+    "name": "Rotterdam Markthal",
+    "category": "food",
+    "lat": 51.9203,
+    "lon": 4.4867,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-binnenhof",
+    "name": "Binnenhof",
+    "category": "landmarks",
+    "lat": 52.079,
+    "lon": 4.3125,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-anne-frank-house",
+    "name": "Anne Frank House",
+    "category": "museums",
+    "lat": 52.3752,
+    "lon": 4.8839,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-utrecht-dom-tower",
+    "name": "Utrecht Dom Tower",
+    "category": "landmarks",
+    "lat": 52.0908,
+    "lon": 5.1222,
+    "source": "static",
+    "countryCode": "NL"
+  }
+]

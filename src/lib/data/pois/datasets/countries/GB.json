@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-gb-big-ben",
+    "name": "Big Ben",
+    "category": "landmarks",
+    "lat": 51.5007,
+    "lon": -0.1246,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-stonehenge",
+    "name": "Stonehenge",
+    "category": "landmarks",
+    "lat": 51.1789,
+    "lon": -1.8262,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-edinburgh-castle",
+    "name": "Edinburgh Castle",
+    "category": "landmarks",
+    "lat": 55.9486,
+    "lon": -3.1999,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-lake-district",
+    "name": "Lake District",
+    "category": "nature",
+    "lat": 54.3781,
+    "lon": -2.9077,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-tower-of-london",
+    "name": "Tower of London",
+    "category": "landmarks",
+    "lat": 51.5081,
+    "lon": -0.0759,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-british-museum",
+    "name": "British Museum",
+    "category": "museums",
+    "lat": 51.5194,
+    "lon": -0.127,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-roman-baths",
+    "name": "Roman Baths",
+    "category": "museums",
+    "lat": 51.3811,
+    "lon": -2.359,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-giants-causeway",
+    "name": "Giants Causeway",
+    "category": "nature",
+    "lat": 55.2408,
+    "lon": -6.5116,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-albert-dock",
+    "name": "Albert Dock",
+    "category": "food",
+    "lat": 53.4009,
+    "lon": -2.9953,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-cardiff-castle",
+    "name": "Cardiff Castle",
+    "category": "landmarks",
+    "lat": 51.4839,
+    "lon": -3.1815,
+    "source": "static",
+    "countryCode": "GB"
+  }
+]

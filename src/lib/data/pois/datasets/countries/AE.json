@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-ae-burj-khalifa",
+    "name": "Burj Khalifa",
+    "category": "landmarks",
+    "lat": 25.1972,
+    "lon": 55.2744,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-sheikh-zayed-mosque",
+    "name": "Sheikh Zayed Grand Mosque",
+    "category": "landmarks",
+    "lat": 24.4129,
+    "lon": 54.4749,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-louvre-abu-dhabi",
+    "name": "Louvre Abu Dhabi",
+    "category": "museums",
+    "lat": 24.5337,
+    "lon": 54.3985,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-palm-jumeirah",
+    "name": "Palm Jumeirah",
+    "category": "nature",
+    "lat": 25.1124,
+    "lon": 55.1383,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-dubai-mall",
+    "name": "Dubai Mall",
+    "category": "food",
+    "lat": 25.1995,
+    "lon": 55.2773,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-al-fahidi-district",
+    "name": "Al Fahidi Historical District",
+    "category": "landmarks",
+    "lat": 25.2632,
+    "lon": 55.2963,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-jbr-beach",
+    "name": "JBR Beach",
+    "category": "nature",
+    "lat": 25.078,
+    "lon": 55.1333,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-dubai-marina",
+    "name": "Dubai Marina",
+    "category": "nightlife",
+    "lat": 25.0773,
+    "lon": 55.14,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-desert-safari",
+    "name": "Desert Safari",
+    "category": "nature",
+    "lat": 24.9343,
+    "lon": 55.2474,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-qasr-al-watan",
+    "name": "Qasr Al Watan",
+    "category": "landmarks",
+    "lat": 24.4624,
+    "lon": 54.3186,
+    "source": "static",
+    "countryCode": "AE"
+  }
+]

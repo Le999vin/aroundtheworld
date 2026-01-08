@@ -1,6 +1,18 @@
 import type { Country } from "@/lib/types";
+import baseMeta from "@/lib/data/countries/countries.meta.json";
 
-export const countryMeta: Country[] = [
+type CountryMetaEntry = {
+  code: string;
+  code3?: string | null;
+  name: string;
+  capital: string;
+  population: number;
+  lat: number;
+  lon: number;
+  topCities: NonNullable<Country["topCities"]>;
+};
+
+const curatedOverrides: Country[] = [
   {
     code: "DE",
     name: "Germany",
@@ -147,9 +159,60 @@ export const countryMeta: Country[] = [
   },
 ];
 
-export const countryMetaByCode = Object.fromEntries(
-  countryMeta.map((country) => [country.code, country])
+const curatedByCode = Object.fromEntries(
+  curatedOverrides.map((entry) => [entry.code.toUpperCase(), entry])
 ) as Record<string, Country>;
 
-export const getCountryMeta = (code: string) =>
-  countryMetaByCode[code.toUpperCase()] ?? null;
+const baseEntries = Object.values(baseMeta) as CountryMetaEntry[];
+
+export const countryMeta: Country[] = baseEntries.map((entry) => {
+  const override = curatedByCode[entry.code.toUpperCase()];
+  return {
+    code: entry.code,
+    name: override?.name ?? entry.name,
+    capital: override?.capital ?? entry.capital,
+    lat: override?.lat ?? entry.lat,
+    lon: override?.lon ?? entry.lon,
+    population: override?.population ?? entry.population,
+    topCities: override?.topCities ?? entry.topCities,
+    topPlaces: override?.topPlaces,
+  };
+});
+
+export const countryMetaByCode = Object.fromEntries(
+  countryMeta.map((country) => [country.code.toUpperCase(), country])
+) as Record<string, Country>;
+
+const countryMetaByCode3 = Object.fromEntries(
+  baseEntries
+    .filter((entry) => entry.code3)
+    .map((entry) => [
+      String(entry.code3).toUpperCase(),
+      countryMetaByCode[entry.code.toUpperCase()],
+    ])
+) as Record<string, Country>;
+
+const countryMetaByName = Object.fromEntries(
+  countryMeta.map((country) => [country.name.toLowerCase(), country])
+) as Record<string, Country>;
+
+export const getCountryMeta = (code: string) => {
+  const normalized = code?.trim().toUpperCase();
+  if (!normalized) return null;
+  return (
+    countryMetaByCode[normalized] ??
+    countryMetaByCode3[normalized] ??
+    null
+  );
+};
+
+export const getCountryMetaByName = (name: string) => {
+  const key = name?.trim().toLowerCase();
+  if (!key) return null;
+  return countryMetaByName[key] ?? null;
+};
+
+export const resolveCountryCode = (value: string) =>
+  getCountryMeta(value)?.code ?? getCountryMetaByName(value)?.code ?? null;
+
+export const loadCountryMeta = getCountryMeta;

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-ch-zurich-old-town",
+    "name": "Zurich Old Town",
+    "category": "landmarks",
+    "lat": 47.3712,
+    "lon": 8.5433,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-chapel-bridge",
+    "name": "Chapel Bridge",
+    "category": "landmarks",
+    "lat": 47.0516,
+    "lon": 8.3077,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-matterhorn-viewpoint",
+    "name": "Matterhorn Viewpoint",
+    "category": "nature",
+    "lat": 45.9763,
+    "lon": 7.6586,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-jungfraujoch",
+    "name": "Jungfraujoch",
+    "category": "nature",
+    "lat": 46.5475,
+    "lon": 7.9808,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-lake-geneva-promenade",
+    "name": "Lake Geneva Promenade",
+    "category": "nature",
+    "lat": 46.2106,
+    "lon": 6.1424,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-bern-old-town",
+    "name": "Bern Old Town",
+    "category": "landmarks",
+    "lat": 46.948,
+    "lon": 7.4474,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-rhine-falls",
+    "name": "Rhine Falls",
+    "category": "nature",
+    "lat": 47.6776,
+    "lon": 8.6156,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-oeschinen-lake",
+    "name": "Oeschinen Lake",
+    "category": "nature",
+    "lat": 46.4983,
+    "lon": 7.7266,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-chillon-castle",
+    "name": "Chillon Castle",
+    "category": "landmarks",
+    "lat": 46.4143,
+    "lon": 6.9279,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-lugano-lakefront",
+    "name": "Lugano Lakefront",
+    "category": "nature",
+    "lat": 46.0037,
+    "lon": 8.9511,
+    "source": "static",
+    "countryCode": "CH"
+  }
+]

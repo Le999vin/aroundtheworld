@@ -61,7 +61,7 @@ const buildSearchIndex = (countries: Country[]): SearchResult[] => {
 export const GlobalSearch = ({
   countries,
   onSelect,
-  placeholder = "Search country, city, or place",
+  placeholder = "Search countries or cities",
 }: GlobalSearchProps) => {
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
@@ -83,7 +83,7 @@ export const GlobalSearch = ({
   };
 
   return (
-    <div className="relative w-full max-w-xs">
+    <div className="relative w-full max-w-sm">
       <label className="sr-only" htmlFor="global-search">
         Global search
       </label>

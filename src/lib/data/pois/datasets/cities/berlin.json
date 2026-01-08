@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-berlin-brandenburg-gate",
+    "name": "Brandenburg Gate",
+    "category": "landmarks",
+    "lat": 52.5163,
+    "lon": 13.3777,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-reichstag-building",
+    "name": "Reichstag Building",
+    "category": "landmarks",
+    "lat": 52.5186,
+    "lon": 13.376,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-museum-island",
+    "name": "Museum Island",
+    "category": "museums",
+    "lat": 52.5169,
+    "lon": 13.4019,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-berlin-cathedral",
+    "name": "Berlin Cathedral",
+    "category": "landmarks",
+    "lat": 52.5192,
+    "lon": 13.401,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-east-side-gallery",
+    "name": "East Side Gallery",
+    "category": "landmarks",
+    "lat": 52.505,
+    "lon": 13.439,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-alexanderplatz",
+    "name": "Alexanderplatz",
+    "category": "landmarks",
+    "lat": 52.5219,
+    "lon": 13.4132,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-tiergarten-park",
+    "name": "Tiergarten Park",
+    "category": "nature",
+    "lat": 52.5145,
+    "lon": 13.3501,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-checkpoint-charlie",
+    "name": "Checkpoint Charlie",
+    "category": "landmarks",
+    "lat": 52.5076,
+    "lon": 13.3904,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-hackescher-markt",
+    "name": "Hackescher Markt",
+    "category": "food",
+    "lat": 52.5229,
+    "lon": 13.402,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-philharmonie",
+    "name": "Berlin Philharmonie",
+    "category": "museums",
+    "lat": 52.5095,
+    "lon": 13.3694,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  }
+]

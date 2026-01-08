@@ -1,0 +1,92 @@
+[
+  {
+    "id": "country-us-statue-of-liberty",
+    "name": "Statue of Liberty",
+    "category": "landmarks",
+    "lat": 40.6892,
+    "lon": -74.0445,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-grand-canyon",
+    "name": "Grand Canyon",
+    "category": "nature",
+    "lat": 36.1069,
+    "lon": -112.1129,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-golden-gate-bridge",
+    "name": "Golden Gate Bridge",
+    "category": "landmarks",
+    "lat": 37.8199,
+    "lon": -122.4783,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-yosemite-valley",
+    "name": "Yosemite Valley",
+    "category": "nature",
+    "lat": 37.7429,
+    "lon": -119.5744,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-walt-disney-world",
+    "name": "Walt Disney World",
+    "category": "landmarks",
+    "lat": 28.3852,
+    "lon": -81.5639,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-national-mall",
+    "name": "National Mall",
+    "category": "landmarks",
+    "lat": 38.8895,
+    "lon": -77.0353,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-las-vegas-strip",
+    "name": "Las Vegas Strip",
+    "category": "nightlife",
+    "lat": 36.1147,
+    "lon": -115.1728,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-air-and-space-museum",
+    "name": "National Air and Space Museum",
+    "category": "museums",
+    "lat": 38.8882,
+    "lon": -77.0199,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-bourbon-street",
+    "name": "Bourbon Street",
+    "category": "nightlife",
+    "lat": 29.9584,
+    "lon": -90.064,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-old-faithful",
+    "name": "Old Faithful",
+    "category": "nature",
+    "lat": 44.4605,
+    "lon": -110.8281,
+    "source": "static",
+    "countryCode": "US"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-barcelona-sagrada-familia",
+    "name": "Sagrada Familia",
+    "category": "landmarks",
+    "lat": 41.4036,
+    "lon": 2.1744,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-park-guell",
+    "name": "Park Guell",
+    "category": "nature",
+    "lat": 41.4145,
+    "lon": 2.1527,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-casa-batllo",
+    "name": "Casa Batllo",
+    "category": "landmarks",
+    "lat": 41.3917,
+    "lon": 2.1649,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-casa-mila",
+    "name": "Casa Mila",
+    "category": "landmarks",
+    "lat": 41.3954,
+    "lon": 2.1619,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-la-rambla",
+    "name": "La Rambla",
+    "category": "food",
+    "lat": 41.3809,
+    "lon": 2.1736,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-gothic-quarter",
+    "name": "Gothic Quarter",
+    "category": "landmarks",
+    "lat": 41.3839,
+    "lon": 2.1763,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-barceloneta-beach",
+    "name": "Barceloneta Beach",
+    "category": "nature",
+    "lat": 41.3795,
+    "lon": 2.1927,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-camp-nou",
+    "name": "Camp Nou",
+    "category": "landmarks",
+    "lat": 41.3809,
+    "lon": 2.1228,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-picasso-museum",
+    "name": "Picasso Museum",
+    "category": "museums",
+    "lat": 41.3852,
+    "lon": 2.1804,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  },
+  {
+    "id": "city-barcelona-montjuic-castle",
+    "name": "Montjuic Castle",
+    "category": "landmarks",
+    "lat": 41.3649,
+    "lon": 2.1653,
+    "source": "static",
+    "countryCode": "ES",
+    "cityId": "barcelona"
+  }
+]

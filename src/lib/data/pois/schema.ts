@@ -1,25 +1,10 @@
-export type PlaceCategory =
-  | "landmarks"
-  | "museums"
-  | "food"
-  | "nightlife"
-  | "nature"
-  | "other";
+import { ServiceError } from "@/lib/services/errors";
+import type { POI, PlaceCategory } from "@/lib/types";
+import { normalizeCityId, normalizeCountryCode } from "@/lib/data/pois/utils";
 
-export type StaticPOI = {
-  id: string;
-  name: string;
-  category: PlaceCategory;
-  lat: number;
-  lon: number;
-  rating?: number;
-  address?: string;
-  source: "static";
-  description?: string;
-  imageUrl?: string;
-};
+export type { PlaceCategory } from "@/lib/types";
 
-const CATEGORIES: PlaceCategory[] = [
+export const PLACE_CATEGORIES: PlaceCategory[] = [
   "landmarks",
   "museums",
   "food",
@@ -36,64 +21,128 @@ const isNumber = (value: unknown): value is number =>
 
 const isString = (value: unknown): value is string => typeof value === "string";
 
-const isCategory = (value: unknown): value is PlaceCategory =>
-  isString(value) && CATEGORIES.includes(value as PlaceCategory);
+const isStringArray = (value: unknown): value is string[] =>
+  Array.isArray(value) && value.every((item) => typeof item === "string");
 
-export const parseStaticPois = (
-  data: unknown,
-  context: string
-): StaticPOI[] => {
-  if (!Array.isArray(data)) {
-    console.warn(`[static-pois] Dataset ${context} is not an array.`);
-    return [];
+const isCategory = (value: unknown): value is PlaceCategory =>
+  isString(value) && PLACE_CATEGORIES.includes(value as PlaceCategory);
+
+const isCountryCode = (value: string) => /^[A-Z]{2,3}$/.test(value);
+
+const fail = (context: string, index: number, reason: string): never => {
+  throw new ServiceError(`Invalid POI dataset ${context}[${index}]: ${reason}`, {
+    status: 500,
+    code: "unexpected",
+  });
+};
+
+const parseOptionalString = (value: unknown, context: string, index: number) => {
+  if (value === undefined) return undefined;
+  if (isString(value)) return value;
+  fail(context, index, "optional string field is invalid.");
+  return undefined;
+};
+
+const parseOptionalNumber = (value: unknown, context: string, index: number) => {
+  if (value === undefined) return undefined;
+  if (isNumber(value)) return value;
+  fail(context, index, "optional number field is invalid.");
+  return undefined;
+};
+
+const parsePoi = (value: unknown, context: string, index: number): POI => {
+  if (!isRecord(value)) {
+    fail(context, index, "item is not an object.");
   }
 
-  const valid: StaticPOI[] = [];
+  const record = value as Record<string, unknown>;
+  const idValue = record["id"];
+  const nameValue = record["name"];
+  const categoryValue = record["category"];
+  const latValue = record["lat"];
+  const lonValue = record["lon"];
+  const sourceValue = record["source"];
 
-  data.forEach((item, index) => {
-    if (!isRecord(item)) {
-      console.warn(
-        `[static-pois] Invalid POI at ${context}[${index}]: not an object.`
-      );
-      return;
-    }
+  if (!isString(idValue) || !idValue.trim()) {
+    fail(context, index, "id is required.");
+  }
 
-    const { id, name, category, lat, lon, rating, address, description, imageUrl, source } = item;
+  if (!isString(nameValue) || !nameValue.trim()) {
+    fail(context, index, "name is required.");
+  }
 
-    if (!isString(id) || !isString(name) || !isCategory(category)) {
-      console.warn(
-        `[static-pois] Invalid POI at ${context}[${index}]: required fields missing.`
-      );
-      return;
-    }
+  if (!isCategory(categoryValue)) {
+    fail(context, index, "category is invalid.");
+  }
 
-    if (!isNumber(lat) || !isNumber(lon)) {
-      console.warn(
-        `[static-pois] Invalid POI at ${context}[${index}]: lat/lon invalid.`
-      );
-      return;
-    }
+  if (!isNumber(latValue) || !isNumber(lonValue)) {
+    fail(context, index, "lat/lon are invalid.");
+  }
 
-    if (source !== "static") {
-      console.warn(
-        `[static-pois] Invalid POI at ${context}[${index}]: source must be "static".`
-      );
-      return;
-    }
+  if (sourceValue !== "static") {
+    fail(context, index, 'source must be \"static\".');
+  }
 
-    valid.push({
-      id,
-      name,
-      category,
-      lat,
-      lon,
-      source: "static",
-      rating: isNumber(rating) ? rating : undefined,
-      address: isString(address) ? address : undefined,
-      description: isString(description) ? description : undefined,
-      imageUrl: isString(imageUrl) ? imageUrl : undefined,
+  const id = (idValue as string).trim();
+  const name = (nameValue as string).trim();
+  const category = categoryValue as PlaceCategory;
+  const lat = latValue as number;
+  const lon = lonValue as number;
+
+  const countryCodeRaw = parseOptionalString(
+    record["countryCode"],
+    context,
+    index
+  );
+  const cityIdRaw = parseOptionalString(record["cityId"], context, index);
+
+  const normalizedCountryCode = countryCodeRaw
+    ? normalizeCountryCode(countryCodeRaw)
+    : null;
+  const countryCode = normalizedCountryCode ?? undefined;
+  if (
+    countryCodeRaw &&
+    (!normalizedCountryCode || !isCountryCode(normalizedCountryCode))
+  ) {
+    fail(context, index, "countryCode must be ISO-2 or ISO-3.");
+  }
+
+  const normalizedCityId = cityIdRaw ? normalizeCityId(cityIdRaw) : null;
+  const cityId = normalizedCityId ?? undefined;
+  if (cityIdRaw && !normalizedCityId) {
+    fail(context, index, "cityId is invalid.");
+  }
+
+  const tags = record["tags"];
+  if (tags !== undefined && !isStringArray(tags)) {
+    fail(context, index, "tags must be an array of strings.");
+  }
+
+  return {
+    id,
+    name,
+    category,
+    lat,
+    lon,
+    source: "static",
+    countryCode,
+    cityId,
+    description: parseOptionalString(record["description"], context, index),
+    address: parseOptionalString(record["address"], context, index),
+    rating: parseOptionalNumber(record["rating"], context, index),
+    website: parseOptionalString(record["website"], context, index),
+    imageUrl: parseOptionalString(record["imageUrl"], context, index),
+    tags: tags as string[] | undefined,
+  };
+};
+
+export const parsePoisDataset = (data: unknown, context: string): POI[] => {
+  if (!Array.isArray(data)) {
+    throw new ServiceError(`Invalid POI dataset ${context}: not an array.`, {
+      status: 500,
+      code: "unexpected",
     });
-  });
+  }
 
-  return valid;
+  return data.map((item, index) => parsePoi(item, context, index));
 };

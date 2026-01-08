@@ -1,0 +1,122 @@
+[
+  {
+    "id": "city-paris-eiffel-tower",
+    "name": "Eiffel Tower",
+    "category": "landmarks",
+    "lat": 48.8584,
+    "lon": 2.2945,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-louvre",
+    "name": "Louvre",
+    "category": "museums",
+    "lat": 48.8606,
+    "lon": 2.3376,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-notre-dame-area",
+    "name": "Notre-Dame Area",
+    "category": "landmarks",
+    "lat": 48.8529,
+    "lon": 2.35,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-montmartre",
+    "name": "Montmartre / Sacre-Coeur",
+    "category": "landmarks",
+    "lat": 48.8867,
+    "lon": 2.3431,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-champs-elysees",
+    "name": "Champs-Elysees",
+    "category": "landmarks",
+    "lat": 48.8698,
+    "lon": 2.3073,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-arc-de-triomphe",
+    "name": "Arc de Triomphe",
+    "category": "landmarks",
+    "lat": 48.8738,
+    "lon": 2.295,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-seine-river-walk",
+    "name": "Seine River Walk",
+    "category": "nature",
+    "lat": 48.857,
+    "lon": 2.342,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-musee-d-orsay",
+    "name": "Musee d'Orsay",
+    "category": "museums",
+    "lat": 48.86,
+    "lon": 2.3266,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-le-marais",
+    "name": "Le Marais",
+    "category": "food",
+    "lat": 48.8589,
+    "lon": 2.3622,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-luxembourg-gardens",
+    "name": "Luxembourg Gardens",
+    "category": "nature",
+    "lat": 48.8462,
+    "lon": 2.3372,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-palais-garnier",
+    "name": "Palais Garnier",
+    "category": "landmarks",
+    "lat": 48.8719,
+    "lon": 2.3316,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-trocadero",
+    "name": "Trocadero",
+    "category": "landmarks",
+    "lat": 48.8629,
+    "lon": 2.287,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  }
+]
