@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import CountryPanel from "@/components/panels/CountryPanel";
@@ -11,17 +11,21 @@ import { Button } from "@/components/ui/button";
 import {
   countryMeta,
   countryMetaByCode,
+  getCapitalCoordinates,
+  getCountryMeta,
   getCountryMetaByName,
   resolveCountryCode,
+  resolveCountryCenterFromMeta,
 } from "@/lib/countries/countryMeta";
 import {
   getCountryCode,
+  getFeatureBboxCenter,
   getFeatureCenter,
   getCountryName,
   type CountriesGeoJson,
   type CountryFeature,
 } from "@/lib/countries/geo";
-import type { Country } from "@/lib/types";
+import type { Country, Focus } from "@/lib/types";
 
 type LandingClientProps = {
   countries: CountriesGeoJson;
@@ -40,6 +44,55 @@ const normalizeCountryCodeCandidate = (
   return trimmed.toUpperCase();
 };
 
+const isValidLatLon = (lat?: number, lon?: number) => {
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return false;
+  if (Math.abs(lat as number) > 90 || Math.abs(lon as number) > 180) {
+    return false;
+  }
+  return true;
+};
+
+const isZeroCenter = (lat: number, lon: number) =>
+  Math.abs(lat) < 0.0001 && Math.abs(lon) < 0.0001;
+
+const pickCenter = (
+  ...candidates: Array<{ lat: number; lon: number } | null | undefined>
+) => {
+  for (const candidate of candidates) {
+    if (!candidate) continue;
+    if (!isValidLatLon(candidate.lat, candidate.lon)) continue;
+    if (isZeroCenter(candidate.lat, candidate.lon)) continue;
+    return candidate;
+  }
+  return null;
+};
+
+const buildFocus = ({
+  kind,
+  source,
+  code,
+  name,
+  center,
+}: {
+  kind: Focus["kind"];
+  source: Focus["source"];
+  code?: string;
+  name: string;
+  center: { lat: number; lon: number } | null;
+}): Focus | null => {
+  if (!center) return null;
+  if (!isValidLatLon(center.lat, center.lon)) return null;
+  if (isZeroCenter(center.lat, center.lon)) return null;
+  return {
+    kind,
+    source,
+    code,
+    name,
+    lat: center.lat,
+    lon: center.lon,
+  };
+};
+
 const getGlobeCountryCode = (feature: CountryFeature) => {
   const rawCode = getCountryCode(feature);
   const normalized = normalizeCountryCodeCandidate(rawCode);
@@ -50,16 +103,33 @@ const getGlobeCountryCode = (feature: CountryFeature) => {
 };
 
 export const LandingClient = ({ countries }: LandingClientProps) => {
-  const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
+  const [focus, setFocus] = useState<Focus | null>(null);
+  useEffect(() => {
+    if (process.env.NODE_ENV === "production") return;
+    if (!focus) return;
+    console.debug("[focus]", {
+      kind: focus.kind,
+      code: focus.code,
+      lat: focus.lat,
+      lon: focus.lon,
+      source: focus.source,
+    });
+  }, [focus]);
 
   const countryLookup = useMemo(() => {
     const features = (countries?.features ?? []) as CountryFeature[];
     return features.reduce<Record<string, Country>>((acc, feature) => {
       const code = getGlobeCountryCode(feature);
       if (!code) return acc;
-      const center = getFeatureCenter(feature);
       const name = getCountryName(feature);
       const meta = countryMetaByCode[code] ?? getCountryMetaByName(name);
+      const center = pickCenter(
+        getFeatureCenter(feature),
+        getCapitalCoordinates(meta ?? null),
+        getFeatureBboxCenter(feature),
+        resolveCountryCenterFromMeta(meta ?? null)
+      );
+      if (!center) return acc;
       acc[code] = {
         code,
         name: meta?.name ?? name,
@@ -74,13 +144,87 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
     }, {});
   }, [countries]);
 
-  const handleSearch = (result: SearchResult) => {
-    setSelectedCountry({
-      ...result.country,
-      lat: result.lat,
-      lon: result.lon,
+  const resolveCountryFocus = (
+    code: string,
+    source: Focus["source"],
+    nameHint?: string
+  ) => {
+    const base = countryLookup[code] ?? countryMetaByCode[code] ?? null;
+    if (base) {
+      return buildFocus({
+        kind: "country",
+        source,
+        code: base.code,
+        name: base.name,
+        center: { lat: base.lat, lon: base.lon },
+      });
+    }
+    const meta =
+      getCountryMeta(code) ??
+      (nameHint ? getCountryMetaByName(nameHint) : null);
+    const center = resolveCountryCenterFromMeta(meta ?? null);
+    return buildFocus({
+      kind: "country",
+      source,
+      code: meta?.code ?? code,
+      name: meta?.name ?? nameHint ?? code,
+      center,
     });
   };
+
+  const selectedCountry = useMemo<Country | null>(() => {
+    if (!focus) return null;
+    const base =
+      (focus.code
+        ? countryLookup[focus.code] ?? countryMetaByCode[focus.code]
+        : null) ?? null;
+    const code = base?.code ?? focus.code ?? "";
+    return {
+      code,
+      name: base?.name ?? focus.name,
+      lat: focus.lat,
+      lon: focus.lon,
+      capital: base?.capital,
+      population: base?.population,
+      topCities: base?.topCities,
+      topPlaces: base?.topPlaces,
+    };
+  }, [countryLookup, focus]);
+
+  const handleSearch = (result: SearchResult) => {
+    if (result.type === "city") {
+      const cityName = result.label.split(",")[0]?.trim() || result.label;
+      const next = buildFocus({
+        kind: "city",
+        source: "search",
+        code: result.country.code,
+        name: cityName,
+        center: { lat: result.lat, lon: result.lon },
+      });
+      if (next) setFocus(next);
+      return;
+    }
+
+    const next = resolveCountryFocus(
+      result.country.code,
+      "search",
+      result.country.name
+    );
+    if (next) setFocus(next);
+  };
+
+  const mapHref = useMemo(() => {
+    if (!focus) return "/map";
+    const params = new URLSearchParams({
+      lat: focus.lat.toString(),
+      lon: focus.lon.toString(),
+    });
+    if (focus.code) params.set("country", focus.code);
+    if (focus.kind === "city" && focus.name) {
+      params.set("city", focus.name);
+    }
+    return `/map?${params.toString()}`;
+  }, [focus]);
 
   return (
     <div className="relative min-h-screen overflow-hidden text-white">
@@ -100,11 +244,7 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
         <div className="flex flex-col gap-3 md:flex-row md:items-center">
           <GlobalSearch countries={countryMeta} onSelect={handleSearch} />
           <Link
-            href={
-              selectedCountry
-                ? `/map?lat=${selectedCountry.lat}&lon=${selectedCountry.lon}&country=${selectedCountry.code}`
-                : "/map"
-            }
+            href={mapHref}
             className="hidden md:inline-flex"
           >
             <Button>Open Map</Button>
@@ -115,15 +255,15 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
       <main className="relative h-screen">
         <GlobeGL
           countries={countries}
-          selectedCountry={selectedCountry}
-          selectedCountryCode={selectedCountry?.code ?? null}
+          selectedCountry={focus ? { lat: focus.lat, lon: focus.lon } : null}
+          selectedCountryCode={focus?.code ?? null}
           onSelectCountry={(code) => {
             if (!code) return;
-            const next = countryLookup[code] ?? countryMetaByCode[code] ?? null;
-            if (next) setSelectedCountry(next);
+            const next = resolveCountryFocus(code, "globe");
+            if (next) setFocus(next);
           }}
         />
-        <CountryPanel country={selectedCountry} />
+        <CountryPanel country={selectedCountry} focus={focus} />
 
         <div className="pointer-events-none absolute bottom-20 left-6 z-10 max-w-md md:left-12">
           <p className="text-xs uppercase tracking-[0.3em] text-slate-300">

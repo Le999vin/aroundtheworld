@@ -45,11 +45,21 @@ export type WeatherForecastDay = {
   description: string;
 };
 
+export type WeatherError = {
+  message: string;
+  code?: string;
+  status?: number;
+};
+
 export type WeatherData = {
   provider: string;
   location: Coordinates;
   current: WeatherCondition;
   daily: WeatherForecastDay[];
+  errors?: {
+    current?: WeatherError;
+    forecast?: WeatherError;
+  };
 };
 
 export type POI = Coordinates & {
@@ -71,4 +81,11 @@ export type GeocodeResult = Coordinates & {
   name: string;
   country?: string;
   type?: string;
+};
+
+export type Focus = Coordinates & {
+  kind: "country" | "city";
+  code?: string;
+  name: string;
+  source: "globe" | "search" | "map";
 };

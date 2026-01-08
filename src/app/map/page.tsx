@@ -3,6 +3,7 @@ import Link from "next/link";
 import MapView from "@/components/map/MapView";
 import { Button } from "@/components/ui/button";
 import { getPoisForMap } from "@/lib/data/pois";
+import { getCountryMeta, resolveCountryCenterFromMeta } from "@/lib/countries/countryMeta";
 
 const defaultLat = Number(process.env.NEXT_PUBLIC_DEFAULT_LAT);
 const defaultLon = Number(process.env.NEXT_PUBLIC_DEFAULT_LON);
@@ -22,11 +23,16 @@ const parseNumber = (value?: string) => {
   return Number.isFinite(parsed) ? parsed : undefined;
 };
 
-const getCenter = (searchParams: { lat?: string; lon?: string }) => {
+const getCenter = (searchParams: { lat?: string; lon?: string; country?: string }) => {
   const lat = parseNumber(searchParams.lat);
   const lon = parseNumber(searchParams.lon);
   if (lat !== undefined && lon !== undefined) {
     return { lat, lon };
+  }
+  if (searchParams.country) {
+    const meta = getCountryMeta(searchParams.country);
+    const center = resolveCountryCenterFromMeta(meta);
+    if (center) return center;
   }
   return DEFAULT_CENTER;
 };

@@ -6,16 +6,8 @@ import Map, { Marker, NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { PLACE_CATEGORIES } from "@/lib/data/pois/constants";
 import type { POI, PlaceCategory } from "@/lib/types";
-
-const CATEGORIES: PlaceCategory[] = [
-  "landmarks",
-  "museums",
-  "food",
-  "nightlife",
-  "nature",
-  "other",
-];
 
 type MapViewProps = {
   center: { lat: number; lon: number };
@@ -87,7 +79,7 @@ export const MapView = ({
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
-          {(["all", ...CATEGORIES] as const).map((category) => (
+          {(["all", ...PLACE_CATEGORIES] as const).map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}

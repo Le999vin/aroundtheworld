@@ -1,4 +1,4 @@
-import type { Country } from "@/lib/types";
+import type { Country, Coordinates } from "@/lib/types";
 import baseMeta from "@/lib/data/countries/countries.meta.json";
 
 type CountryMetaEntry = {
@@ -216,3 +216,38 @@ export const resolveCountryCode = (value: string) =>
   getCountryMeta(value)?.code ?? getCountryMetaByName(value)?.code ?? null;
 
 export const loadCountryMeta = getCountryMeta;
+
+const isValidLatLon = (lat?: number, lon?: number) => {
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return false;
+  if (Math.abs(lat as number) > 90 || Math.abs(lon as number) > 180) {
+    return false;
+  }
+  return true;
+};
+
+const isZeroCenter = (lat: number, lon: number) =>
+  Math.abs(lat) < 0.0001 && Math.abs(lon) < 0.0001;
+
+export const getCapitalCoordinates = (
+  country?: Country | null
+): Coordinates | null => {
+  if (!country?.capital || !country.topCities?.length) return null;
+  const capitalName = country.capital.trim().toLowerCase();
+  const capital = country.topCities.find(
+    (city) => city.name.trim().toLowerCase() === capitalName
+  );
+  if (!capital) return null;
+  if (!isValidLatLon(capital.lat, capital.lon)) return null;
+  if (isZeroCenter(capital.lat, capital.lon)) return null;
+  return { lat: capital.lat, lon: capital.lon };
+};
+
+export const resolveCountryCenterFromMeta = (
+  country?: Country | null
+): Coordinates | null => {
+  if (!country) return null;
+  if (isValidLatLon(country.lat, country.lon) && !isZeroCenter(country.lat, country.lon)) {
+    return { lat: country.lat, lon: country.lon };
+  }
+  return getCapitalCoordinates(country);
+};

@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import type { Country, POI, WeatherData } from "@/lib/types";
+import type { Country, Focus, POI, WeatherData } from "@/lib/types";
 
 const formatPopulation = (value?: number) => {
   if (!value) return "-";
@@ -18,8 +18,22 @@ const formatPopulation = (value?: number) => {
 const weatherIconUrl = (icon: string) =>
   `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
+const roundCoordinate = (value: number) => Math.round(value * 10000) / 10000;
+
+const isValidLatLon = (lat?: number, lon?: number) => {
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return false;
+  if (Math.abs(lat as number) > 90 || Math.abs(lon as number) > 180) {
+    return false;
+  }
+  return true;
+};
+
+const isZeroCenter = (lat: number, lon: number) =>
+  Math.abs(lat) < 0.0001 && Math.abs(lon) < 0.0001;
+
 type CountryPanelProps = {
   country: Country | null;
+  focus: Focus | null;
 };
 
 type LoadState<T> = {
@@ -28,36 +42,78 @@ type LoadState<T> = {
   error: string | null;
 };
 
-const useCountryWeather = (country: Country | null) => {
+const useCountryWeather = (focus: Focus | null) => {
   const [state, setState] = useState<LoadState<WeatherData> | null>(null);
-  const lat = country?.lat;
-  const lon = country?.lon;
-  const key = lat !== undefined && lon !== undefined ? `${lat}:${lon}` : null;
+  const lat = focus?.lat;
+  const lon = focus?.lon;
+  const roundedLat = Number.isFinite(lat)
+    ? roundCoordinate(lat as number)
+    : undefined;
+  const roundedLon = Number.isFinite(lon)
+    ? roundCoordinate(lon as number)
+    : undefined;
+  const key =
+    roundedLat !== undefined && roundedLon !== undefined
+      ? `${roundedLat}:${roundedLon}`
+      : null;
 
   useEffect(() => {
-    if (lat === undefined || lon === undefined || !key) return;
+    if (roundedLat === undefined || roundedLon === undefined || !key) return;
+    if (!isValidLatLon(roundedLat, roundedLon) || isZeroCenter(roundedLat, roundedLon)) {
+      setState({ key, data: null, error: "Weather unavailable" });
+      return;
+    }
     const controller = new AbortController();
+    const timeoutId = setTimeout(() => {
+      const url = `/api/weather?lat=${roundedLat}&lon=${roundedLon}`;
+      if (process.env.NODE_ENV !== "production") {
+        console.debug("[weather] request", { url, key });
+      }
 
-    fetch(`/api/weather?lat=${lat}&lon=${lon}`, {
-      signal: controller.signal,
-    })
-      .then(async (res) => {
-        if (!res.ok) {
-          const payload = await res.json();
-          throw new Error(payload.error || "Weather unavailable");
-        }
-        return res.json();
+      fetch(url, {
+        signal: controller.signal,
       })
-      .then((data) => {
-        setState({ key, data, error: null });
-      })
-      .catch((error: Error) => {
-        if (controller.signal.aborted) return;
-        setState({ key, data: null, error: error.message });
-      });
+        .then(async (res) => {
+          let payload: unknown = null;
+          try {
+            payload = await res.json();
+          } catch {
+            payload = null;
+          }
+          if (!res.ok) {
+            const errorPayload = payload as { error?: string } | null;
+            if (process.env.NODE_ENV !== "production") {
+              console.warn("[weather] request failed", {
+                status: res.status,
+                payload,
+              });
+            }
+            throw new Error(errorPayload?.error || "Weather unavailable");
+          }
+          return payload as WeatherData;
+        })
+        .then((data: WeatherData) => {
+          if (process.env.NODE_ENV !== "production") {
+            console.debug("[weather] response", {
+              provider: data.provider,
+              location: data.location,
+              tempC: data.current?.tempC,
+              errors: data.errors,
+            });
+          }
+          setState({ key, data, error: null });
+        })
+        .catch((error: Error) => {
+          if (controller.signal.aborted) return;
+          setState({ key, data: null, error: error.message });
+        });
+    }, 200);
 
-    return () => controller.abort();
-  }, [key, lat, lon]);
+    return () => {
+      clearTimeout(timeoutId);
+      controller.abort();
+    };
+  }, [key, roundedLat, roundedLon]);
 
   return {
     data: state?.key === key ? state.data : null,
@@ -66,19 +122,48 @@ const useCountryWeather = (country: Country | null) => {
   };
 };
 
-const useCountryPlaces = (country: Country | null) => {
+const useCountryPlaces = (country: Country | null, focus: Focus | null) => {
   const [state, setState] = useState<LoadState<POI[]> | null>(null);
-  const key = country?.code ?? null;
+  const lat = focus?.lat;
+  const lon = focus?.lon;
+  const roundedLat = Number.isFinite(lat)
+    ? roundCoordinate(lat as number)
+    : undefined;
+  const roundedLon = Number.isFinite(lon)
+    ? roundCoordinate(lon as number)
+    : undefined;
+  const focusKey = focus
+    ? `${focus.kind}:${focus.code ?? "na"}:${focus.name}:${roundedLat ?? "na"}:${roundedLon ?? "na"}`
+    : null;
+  const key =
+    focusKey ??
+    (country?.code
+      ? `${country.code}:${roundedLat ?? "na"}:${roundedLon ?? "na"}`
+      : null);
 
   useEffect(() => {
     if (!key) return;
     const controller = new AbortController();
 
     const load = async () => {
-      const res = await fetch(
-        `/api/pois?country=${encodeURIComponent(key)}&limit=8`,
-        { signal: controller.signal }
-      );
+      const params = new URLSearchParams({ limit: "8" });
+      if (focus?.kind === "city" && focus.name) {
+        params.set("city", focus.name);
+      } else if (focus?.code || country?.code) {
+        params.set("country", focus?.code ?? country?.code ?? "");
+      }
+      if (
+        roundedLat !== undefined &&
+        roundedLon !== undefined &&
+        isValidLatLon(roundedLat, roundedLon) &&
+        !isZeroCenter(roundedLat, roundedLon)
+      ) {
+        params.set("lat", roundedLat.toString());
+        params.set("lon", roundedLon.toString());
+      }
+      const res = await fetch(`/api/pois?${params.toString()}`, {
+        signal: controller.signal,
+      });
       let payload: unknown = null;
       try {
         payload = await res.json();
@@ -104,7 +189,7 @@ const useCountryPlaces = (country: Country | null) => {
     });
 
     return () => controller.abort();
-  }, [key]);
+  }, [key, country?.code, focus, roundedLat, roundedLon]);
 
   return {
     data: state?.key === key ? state.data : null,
@@ -113,10 +198,10 @@ const useCountryPlaces = (country: Country | null) => {
   };
 };
 
-export const CountryPanel = ({ country }: CountryPanelProps) => {
+export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
   const reduceMotion = useReducedMotion();
-  const weatherState = useCountryWeather(country);
-  const placesState = useCountryPlaces(country);
+  const weatherState = useCountryWeather(focus);
+  const placesState = useCountryPlaces(country, focus);
 
   const poiCards = useMemo<POI[]>(
     () => placesState.data?.slice(0, 5) ?? [],
@@ -128,7 +213,7 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
     return placesState.data.some((poi) => poi.cityId) ? "Local" : "Curated";
   }, [placesState.data]);
 
-  if (!country) {
+  if (!country || !focus) {
     return (
       <div className="pointer-events-none fixed inset-x-4 bottom-6 z-20 flex justify-center md:right-6 md:top-20 md:bottom-6 md:left-auto md:w-[380px]">
         <div className="w-full rounded-3xl border border-white/10 bg-white/5 p-6 text-center text-sm text-slate-200 backdrop-blur-lg md:text-left">
@@ -188,6 +273,11 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
                   />
                 ))}
               </div>
+              {weatherState.data?.errors?.forecast ? (
+                <p className="text-xs text-amber-200">
+                  Forecast unavailable. Showing current conditions.
+                </p>
+              ) : null}
             </div>
           ) : weatherState.error ? (
             <p className="mt-4 text-sm text-amber-200">
@@ -307,7 +397,11 @@ export const CountryPanel = ({ country }: CountryPanelProps) => {
         </div>
 
         <Link
-          href={`/map?lat=${country.lat}&lon=${country.lon}&country=${country.code}`}
+          href={
+            focus.kind === "city"
+              ? `/map?lat=${focus.lat}&lon=${focus.lon}&country=${focus.code ?? ""}&city=${encodeURIComponent(focus.name)}`
+              : `/map?lat=${focus.lat}&lon=${focus.lon}&country=${focus.code ?? ""}`
+          }
         >
           <Button className="w-full md:hidden">Open Map</Button>
         </Link>

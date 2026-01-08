@@ -1,6 +1,146 @@
-import type { WeatherData } from "@/lib/types";
-import { ServiceError, readResponseBody, requireEnv } from "@/lib/services/errors";
+import fs from "node:fs";
+import type { WeatherData, WeatherError } from "@/lib/types";
+import {
+  ServiceError,
+  readResponseBody,
+  requireEnv,
+  toServiceError,
+} from "@/lib/services/errors";
 import type { WeatherOptions, WeatherService } from "@/lib/services/weather/types";
+
+type TlsState = {
+  mode: "default" | "custom_ca" | "insecure";
+  caPath?: string;
+  caError?: { name: string; message: string };
+};
+
+let tlsState: TlsState | null = null;
+
+const DEFAULT_TIMEOUT_MS = 8000;
+
+const resolveTimeoutMs = () => {
+  const raw = process.env.OPENWEATHER_TIMEOUT_MS;
+  if (!raw) return DEFAULT_TIMEOUT_MS;
+  const parsed = Number(raw);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : DEFAULT_TIMEOUT_MS;
+};
+
+const resolveTlsState = (): TlsState => {
+  if (tlsState) return tlsState;
+
+  const isDev = process.env.NODE_ENV !== "production";
+  const allowInsecure = process.env.ALLOW_INSECURE_SSL === "true";
+  if (isDev && allowInsecure) {
+    // WARNING: Dev-only fallback. Do NOT enable in production.
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+    tlsState = { mode: "insecure" };
+    return tlsState;
+  }
+
+  const caPath = process.env.NODE_EXTRA_CA_CERTS;
+  if (caPath) {
+    try {
+      fs.readFileSync(caPath);
+      tlsState = { mode: "custom_ca", caPath };
+      return tlsState;
+    } catch (error) {
+      const err = error as { name?: string; message?: string };
+      tlsState = {
+        mode: "default",
+        caPath,
+        caError: {
+          name: err.name ?? "Error",
+          message: err.message ?? "Failed to read CA file",
+        },
+      };
+      return tlsState;
+    }
+  }
+
+  tlsState = { mode: "default" };
+  return tlsState;
+};
+
+const toWeatherError = (error: unknown): WeatherError => {
+  const serviceError = toServiceError(error);
+  return {
+    message: serviceError.message || "Weather provider error",
+    code: serviceError.code,
+    status: serviceError.status,
+  };
+};
+
+const fetchWithTimeout = async (url: URL, label: string) => {
+  const timeoutMs = resolveTimeoutMs();
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+  const tlsInfo = resolveTlsState();
+
+  try {
+    return await fetch(url.toString(), { signal: controller.signal });
+  } catch (error) {
+    const err = error as {
+      name?: string;
+      message?: string;
+      code?: string;
+      cause?: { code?: string };
+    };
+    const isTimeout = err.name === "AbortError";
+    const code = err.code ?? (isTimeout ? "ETIMEDOUT" : undefined);
+    throw new ServiceError(
+      isTimeout
+        ? `Weather provider request timed out (${label})`
+        : `Weather provider request failed (${label})`,
+      {
+        status: 502,
+        code: "provider_error",
+        details: {
+          name: err.name ?? "Error",
+          message: err.message ?? "fetch failed",
+          code,
+          causeCode: err.cause?.code,
+          tlsMode: tlsInfo.mode,
+          caPath: tlsInfo.caPath,
+          caError: tlsInfo.caError,
+          target: `${url.origin}${url.pathname}`,
+          timeoutMs,
+        },
+        cause: error,
+      }
+    );
+  } finally {
+    clearTimeout(timeoutId);
+  }
+};
+
+const buildProviderError = async (response: Response, label: string) => {
+  const body = await readResponseBody(response);
+  const status = response.status;
+  const target = response.url ? new URL(response.url).pathname : undefined;
+  let message = `Weather provider error (${label})`;
+  let code: ServiceError["code"] = "provider_error";
+
+  if (status === 401 || status === 403) {
+    message = `Weather provider rejected request (${label})`;
+  } else if (status === 404) {
+    message = `Weather provider endpoint not found (${label})`;
+    code = "not_found";
+  } else if (status === 429) {
+    message = `Weather provider rate limit exceeded (${label})`;
+    code = "rate_limited";
+  }
+
+  throw new ServiceError(message, {
+    status,
+    code,
+    details: {
+      status,
+      label,
+      target,
+      body,
+    },
+  });
+};
 
 export class OpenWeatherService implements WeatherService {
   provider = "openweather";
@@ -31,55 +171,72 @@ export class OpenWeatherService implements WeatherService {
     forecastUrl.searchParams.set("lang", lang);
     forecastUrl.searchParams.set("appid", apiKey);
 
-    const safeFetch = async (url: URL, label: string) => {
-      try {
-        return await fetch(url.toString());
-      } catch (error) {
-        throw new ServiceError(`Weather provider request failed (${label})`, {
-          status: 502,
-          code: "provider_error",
-          cause: error,
-        });
+    const fetchCurrent = async () => {
+      const response = await fetchWithTimeout(currentUrl, "current");
+      if (!response.ok) {
+        await buildProviderError(response, "current");
       }
+      return (await response.json()) as {
+        main: { temp: number; humidity: number };
+        wind?: { speed?: number };
+        weather?: { description: string; icon: string }[];
+      };
     };
 
-    const [currentRes, forecastRes] = await Promise.all([
-      safeFetch(currentUrl, "current"),
-      safeFetch(forecastUrl, "forecast"),
+    const fetchForecast = async () => {
+      const response = await fetchWithTimeout(forecastUrl, "forecast");
+      if (!response.ok) {
+        await buildProviderError(response, "forecast");
+      }
+      return (await response.json()) as {
+        list: {
+          dt: number;
+          main: { temp_min: number; temp_max: number };
+          weather?: { description: string; icon: string }[];
+        }[];
+      };
+    };
+
+    const [currentResult, forecastResult] = await Promise.allSettled([
+      fetchCurrent(),
+      fetchForecast(),
     ]);
 
-    if (!currentRes.ok) {
-      const body = await readResponseBody(currentRes);
-      throw new ServiceError("Weather provider error (current)", {
-        status: currentRes.status,
+    if (currentResult.status === "rejected") {
+      throw currentResult.reason;
+    }
+
+    const current = currentResult.value;
+    if (!Number.isFinite(current?.main?.temp)) {
+      throw new ServiceError("Weather provider response missing temp", {
+        status: 502,
         code: "provider_error",
-        details: body,
       });
     }
 
-    if (!forecastRes.ok) {
-      const body = await readResponseBody(forecastRes);
-      throw new ServiceError("Weather provider error (forecast)", {
-        status: forecastRes.status,
+    if (!Number.isFinite(current?.main?.humidity)) {
+      throw new ServiceError("Weather provider response missing humidity", {
+        status: 502,
         code: "provider_error",
-        details: body,
       });
     }
 
-    const current = (await currentRes.json()) as {
-      main: { temp: number; humidity: number };
-      wind?: { speed?: number };
-      weather?: { description: string; icon: string }[];
-      coord?: { lat: number; lon: number };
-    };
+    const errors: WeatherData["errors"] = {};
+    let forecast = forecastResult.status === "fulfilled" ? forecastResult.value : null;
 
-    const forecast = (await forecastRes.json()) as {
-      list: {
-        dt: number;
-        main: { temp_min: number; temp_max: number };
-        weather?: { description: string; icon: string }[];
-      }[];
-    };
+    if (forecastResult.status === "rejected") {
+      errors.forecast = toWeatherError(forecastResult.reason);
+    }
+
+    if (forecast && !Array.isArray(forecast.list)) {
+      errors.forecast = toWeatherError(
+        new ServiceError("Weather forecast response missing list", {
+          status: 502,
+          code: "provider_error",
+        })
+      );
+      forecast = null;
+    }
 
     // Aggregate 5-day/3-hour forecast into daily min/max.
     // OpenWeather free forecast is typically limited to ~5 days.
@@ -95,7 +252,7 @@ export class OpenWeatherService implements WeatherService {
 
     const byDay = new Map<string, DayAgg>();
 
-    for (const item of forecast.list ?? []) {
+    for (const item of forecast?.list ?? []) {
       const dtMs = item.dt * 1000;
       const d = new Date(dtMs);
       const dateKey = d.toISOString().slice(0, 10); // YYYY-MM-DD
@@ -140,9 +297,8 @@ export class OpenWeatherService implements WeatherService {
       .slice(0, 7);
 
     // Pad to 7 days to satisfy UI expectations (free API often provides only 5 days)
-    while (dailyAgg.length < 7) {
+    while (dailyAgg.length < 7 && dailyAgg.length > 0) {
       const last = dailyAgg[dailyAgg.length - 1];
-      if (!last) break;
       const nextDate = new Date(last.dateKey + "T00:00:00.000Z");
       nextDate.setUTCDate(nextDate.getUTCDate() + 1);
       const nextKey = nextDate.toISOString().slice(0, 10);
@@ -156,6 +312,14 @@ export class OpenWeatherService implements WeatherService {
       });
     }
 
+    const daily = dailyAgg.map((day) => ({
+      date: new Date(day.reprDt * 1000).toISOString(),
+      minC: day.min,
+      maxC: day.max,
+      description: day.reprDesc ?? "",
+      icon: day.reprIcon ?? "01d",
+    }));
+
     return {
       provider: this.provider,
       location: { lat, lon },
@@ -166,13 +330,8 @@ export class OpenWeatherService implements WeatherService {
         windKph: (current.wind?.speed ?? 0) * 3.6,
         humidity: current.main.humidity,
       },
-      daily: dailyAgg.map((day) => ({
-        date: new Date(day.reprDt * 1000).toISOString(),
-        minC: day.min,
-        maxC: day.max,
-        description: day.reprDesc ?? "",
-        icon: day.reprIcon ?? "01d",
-      })),
+      daily,
+      errors: Object.keys(errors).length ? errors : undefined,
     };
   }
 }

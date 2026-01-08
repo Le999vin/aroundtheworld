@@ -2,7 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import CountryPanel from "@/components/panels/CountryPanel";
 import { Button } from "@/components/ui/button";
-import { getCountryMeta } from "@/lib/countries/countryMeta";
+import { getCountryMeta, resolveCountryCenterFromMeta } from "@/lib/countries/countryMeta";
+import type { Focus } from "@/lib/types";
 
 export default function CountryDetailPage({
   params,
@@ -10,6 +11,17 @@ export default function CountryDetailPage({
   params: { code: string };
 }) {
   const country = getCountryMeta(params.code);
+  const center = resolveCountryCenterFromMeta(country);
+  const focus: Focus | null = center
+    ? {
+        kind: "country",
+        source: "map",
+        code: country?.code,
+        name: country?.name ?? params.code,
+        lat: center.lat,
+        lon: center.lon,
+      }
+    : null;
 
   if (!country) {
     notFound();
@@ -33,7 +45,7 @@ export default function CountryDetailPage({
       </header>
 
       <div className="relative">
-        <CountryPanel country={country} />
+        <CountryPanel country={country} focus={focus} />
         <div className="rounded-[32px] border border-white/10 bg-white/5 p-8 text-sm text-slate-200">
           <p className="text-xs uppercase tracking-[0.3em] text-slate-300">
             Overview

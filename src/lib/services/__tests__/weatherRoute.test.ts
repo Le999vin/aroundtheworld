@@ -36,9 +36,49 @@ describe("weather route", () => {
     const response = await GET(request);
 
     expect(response.status).toBe(401);
-    await expect(response.json()).resolves.toEqual({
-      error: "Weather provider error (current)",
+    const body = await response.json();
+    expect(body).toMatchObject({
+      error: "Weather provider rejected the API key",
       code: "provider_error",
     });
+    expect(body.debugId).toEqual(expect.any(String));
+  });
+
+  it("returns current weather when forecast fails", async () => {
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            main: { temp: 10, humidity: 70 },
+            weather: [{ description: "clear", icon: "01d" }],
+            wind: { speed: 2 },
+          }),
+          { status: 200 }
+        )
+      )
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ message: "forecast down" }), { status: 500 })
+      );
+
+    vi.stubGlobal("fetch", fetchMock);
+
+    const { GET } = await import("@/app/api/weather/route");
+    const request = new NextRequest(
+      "http://localhost/api/weather?lat=48.8566&lon=2.3522"
+    );
+    const response = await GET(request);
+
+    expect(response.status).toBe(200);
+    const body = await response.json();
+    expect(body.current).toMatchObject({
+      tempC: 10,
+      description: "clear",
+      icon: "01d",
+      humidity: 70,
+    });
+    expect(body.errors?.forecast?.message).toBe(
+      "Weather provider error (forecast)"
+    );
   });
 });

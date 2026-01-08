@@ -31,19 +31,17 @@ export const getCountryName = (feature: CountryFeature) => {
 };
 
 const collectCoordinates = (coords: unknown, bucket: number[][]) => {
-  if (!coords) return;
-  if (Array.isArray(coords) && coords.length >= 2) {
-    const first = coords[0];
-    const second = coords[1];
-    if (typeof first === "number" && typeof second === "number") {
-      bucket.push([first, second]);
-      return;
-    }
-    coords.forEach((item) => collectCoordinates(item, bucket));
+  if (!Array.isArray(coords)) return;
+  const first = coords[0];
+  const second = coords[1];
+  if (typeof first === "number" && typeof second === "number") {
+    bucket.push([first, second]);
+    return;
   }
+  coords.forEach((item) => collectCoordinates(item, bucket));
 };
 
-export const getFeatureCenter = (feature: CountryFeature) => {
+const collectFeatureCoordinates = (feature: CountryFeature) => {
   const bucket: number[][] = [];
   const collectGeometry = (geometry: Geometry) => {
     if (geometry.type === "GeometryCollection") {
@@ -55,6 +53,11 @@ export const getFeatureCenter = (feature: CountryFeature) => {
   if (feature.geometry) {
     collectGeometry(feature.geometry);
   }
+  return bucket;
+};
+
+export const getFeatureCenter = (feature: CountryFeature) => {
+  const bucket = collectFeatureCoordinates(feature);
   if (bucket.length === 0) {
     return { lat: 0, lon: 0 };
   }
@@ -69,6 +72,32 @@ export const getFeatureCenter = (feature: CountryFeature) => {
   return {
     lat: sums.lat / bucket.length,
     lon: sums.lon / bucket.length,
+  };
+};
+
+export const getFeatureBboxCenter = (feature: CountryFeature) => {
+  const bucket = collectFeatureCoordinates(feature);
+  if (bucket.length === 0) {
+    return { lat: 0, lon: 0 };
+  }
+  const bounds = bucket.reduce(
+    (acc, [lon, lat]) => {
+      acc.minLat = Math.min(acc.minLat, lat);
+      acc.maxLat = Math.max(acc.maxLat, lat);
+      acc.minLon = Math.min(acc.minLon, lon);
+      acc.maxLon = Math.max(acc.maxLon, lon);
+      return acc;
+    },
+    {
+      minLat: Number.POSITIVE_INFINITY,
+      maxLat: Number.NEGATIVE_INFINITY,
+      minLon: Number.POSITIVE_INFINITY,
+      maxLon: Number.NEGATIVE_INFINITY,
+    }
+  );
+  return {
+    lat: (bounds.minLat + bounds.maxLat) / 2,
+    lon: (bounds.minLon + bounds.maxLon) / 2,
   };
 };
 

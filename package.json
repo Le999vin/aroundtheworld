@@ -28,7 +28,8 @@
     "react-map-gl": "^8.1.0",
     "tailwind-merge": "^3.4.0",
     "three": "^0.182.0",
-    "three-geojson-geometry": "^2.1.1"
+    "three-geojson-geometry": "^2.1.1",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",

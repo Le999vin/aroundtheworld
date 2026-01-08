@@ -107,6 +107,15 @@ NEXT_PUBLIC_DEFAULT_LANG=de
 NEXT_PUBLIC_DEFAULT_LAT=47.3769
 NEXT_PUBLIC_DEFAULT_LON=8.5417
 
+# Optional: Weather request timeout (ms)
+OPENWEATHER_TIMEOUT_MS=8000
+
+# Optional: Corporate proxy CA bundle
+NODE_EXTRA_CA_CERTS=C:\path\to\corp-ca.pem
+
+# Optional: Dev-only TLS fallback (never enable in production)
+ALLOW_INSECURE_SSL=false
+
 # Optional: MapLibre Style (fallback ist demotiles)
 NEXT_PUBLIC_MAP_STYLE_URL=https://demotiles.maplibre.org/style.json
 ```
@@ -137,9 +146,9 @@ Wenn du das Projekt wirklich verstehen willst, starte hier:
 4. `src/components/panels/CountryPanel.tsx` – Wetter + POIs Panel (Custom Hooks)
 5. `src/app/api/weather/route.ts` – Wetter API (Caching)
 6. `src/lib/services/weather/openweather.ts` – OpenWeather Integration + Mapping
-7. `src/app/api/static-places/route.ts` – Static POIs API
-8. `src/lib/data/pois/index.ts` – Dataset-Auswahl, Filter, Distanz-Sortierung
-9. `src/lib/data/pois/regions.ts` – Bounding Boxes → welches Dataset gilt wo?
+7. `src/app/api/pois/route.ts` - POI API (country/city/lat/lon)
+8. `src/lib/data/pois/index.ts` - Dataset-Auswahl, Filter, Distanz-Sortierung
+9. `src/lib/data/pois/registry.ts` - City/Country Datasets + BBoxes
 10. `src/components/map/MapView.tsx` + `src/app/map/page.tsx` – Map Mode (Server->Client)
 
 ---
@@ -162,12 +171,12 @@ Wenn du das Projekt wirklich verstehen willst, starte hier:
    - `selectedCountry` wird gesetzt (GeoJSON Center + Meta aus `countryMetaByCode`).
 3. `CountryPanel` startet zwei Requests:
    - Wetter: `/api/weather?lat=...&lon=...`
-   - Orte: `/api/static-places?lat=...&lon=...&limit=8`
+   - Orte: `/api/pois?country=...&lat=...&lon=...&limit=8` (lat/lon fuer Sortierung)
 
 ### C) Kartenmodus `/map`
 1. `src/app/map/page.tsx` ist Server Component:
    - bestimmt das Center (Query `?lat&lon` oder Default).
-   - laedt POIs serverseitig: `getStaticPoisForCenter(center)`
+   - laedt POIs serverseitig: `getPoisForMap({ lat, lon, country, city })`
 2. `MapView` zeigt Karte + Marker + Filter + Liste.
 
 ---
@@ -188,14 +197,20 @@ Wenn du das Projekt wirklich verstehen willst, starte hier:
   "daily": [ { "date": "...", "minC": 1, "maxC": 7, "icon": "03d" } ]
 }
 ```
+Optional: `errors` kann gesetzt sein, wenn Forecast ausfaellt.
+
+### `GET /api/pois?country=...&city=...&lat=...&lon=...&limit=...&category=...`
+- Datei: `src/app/api/pois/route.ts`
+- Selector: country/city/lat/lon (mindestens eins), optional `category`
+- Kategorien: all, landmarks, museums, food, nightlife, nature, other
 
 ### `GET /api/static-places?lat=...&lon=...&limit=...&category=...`
 - Datei: `src/app/api/static-places/route.ts`
-- Gibt POIs aus lokalen JSON-Datasets zurueck (Paris/Zuerich/Mumbai/Global Sample)
+- Deprecated Alias fuer `/api/pois` (lat/lon required)
 
 ### `GET /api/places?lat=...&lon=...`
 - Datei: `src/app/api/places/route.ts`
-- Aktuell praktisch identisch zu `static-places` (Legacy / zweite Route).
+- Deprecated Alias fuer `/api/pois` (Legacy Route).
 
 ### `GET /api/geocode?q=...`
 - Datei: `src/app/api/geocode/route.ts`
@@ -245,35 +260,37 @@ Im Code sind POIs Objekte mit z.B.:
 - `source` (bei static datasets muss `source: "static"` sein)
 
 ### Wie wird entschieden, welches Dataset gilt?
-- Datei: `src/lib/data/pois/regions.ts`
-- Jede Region hat eine **Bounding Box** (min/max Lat/Lon).
-- Wenn dein Center in der Box liegt → dieses Dataset wird geladen.
-- Sonst → `fallbackRegion` (global.sample).
+- Datei: `src/lib/data/pois/registry.ts`
+- `cityDatasets` definieren BBoxes, `countryDatasets` sind ISO-Codes.
+- Auswahl in `getPoisForMap` (`src/lib/data/pois/index.ts`):
+  - city param -> city dataset
+  - country param -> country dataset
+  - lat/lon -> city dataset per bbox
 
 ### Wie werden POIs gefiltert und sortiert?
 - Datei: `src/lib/data/pois/index.ts`
 - Schritte:
-  1. Region finden (`findRegionForCenter`)
+  1. Dataset waehlen (city/country/lat-lon)
   2. Dataset dynamisch importieren
-  3. Validieren (`parseStaticPois`)
+  3. Validieren (`parsePoisDataset`)
   4. Optional nach `category` filtern
-  5. Nach Distanz sortieren (Haversine)
+  5. Optional nach Distanz sortieren (Haversine)
   6. `limit` anwenden
 
 ### Neue Stadt/Region hinzufuegen (Schritt fuer Schritt)
 1. Neues Dataset erstellen, z.B.:
    - `src/lib/data/pois/datasets/berlin.json`
 2. Struktur wie bestehende Datensaetze verwenden (wichtig: `source: "static"`).
-3. Region in `src/lib/data/pois/regions.ts` ergaenzen:
+3. City-Dataset in `src/lib/data/pois/registry.ts` ergaenzen:
 
 ```ts
-{
+berlin: {
   id: "berlin",
-  label: "Berlin",
+  center: { lat: 52.52, lon: 13.405 },
   bbox: { minLat: 52.3, minLon: 13.0, maxLat: 52.7, maxLon: 13.8 },
-  dataset: async () =>
-    (await import("./datasets/berlin.json")).default as StaticPOI[],
-}
+  loader: async () =>
+    (await import("./datasets/cities/berlin.json")).default as POI[],
+},
 ```
 
 4. Testen:
@@ -317,16 +334,23 @@ Hinweis: `loadCountries()` versucht die Base-URL automatisch zu bestimmen (u.a. 
 
 ## Troubleshooting
 
-### Wetter zeigt „Weather data will appear...“
+### Wetter zeigt "Weather data will appear..."
 - `OPENWEATHER_API_KEY` fehlt oder ist falsch.
-- Pruefe `.env.local` und starte `npm run dev` neu.
+- Nach dem Setzen `npm run dev` neu starten.
+- `/api/weather` liefert 401/403 -> API key ungueltig oder nicht aktiviert.
+- `/api/weather` liefert 429 -> Rate Limit erreicht (abwarten oder Plan upgraden).
+- Bei Timeouts: `OPENWEATHER_TIMEOUT_MS` (z.B. 10000) setzen und neu starten.
+
+### SSL/Proxy Fehler (UNABLE_TO_GET_ISSUER_CERT_LOCALLY)
+- Setze `NODE_EXTRA_CA_CERTS` auf den Pfad deiner Corporate-CA und starte neu.
+- Dev-only fallback: `ALLOW_INSECURE_SSL=true` (niemals in Produktion).
 
 ### Karte ist leer / keine Marker
-- Du bist evtl. in einem Bereich ohne Region-Dataset → es faellt auf `global.sample.json` zurueck.
+- Fuer viele Regionen gibt es (noch) keine lokalen POI-Datasets.
 - Teste `/map?lat=48.8566&lon=2.3522` (Paris) oder `/map?lat=47.3769&lon=8.5417` (Zuerich).
 
 ### Externe Texturen (Globus) laden langsam
-- `GlobeGL` nutzt aktuell Assets von `unpkg.com`. Bei Bedarf in `public/` speichern und lokal ausliefern.
+- `GlobeGL` nutzt lokale Texturen in `public/textures`. Stelle sicher, dass sie vorhanden sind.
 
 ---
 
@@ -349,3 +373,6 @@ Hinweis: `loadCountries()` versucht die Base-URL automatisch zu bestimmen (u.a. 
 ---
 
 Viel Spass beim Weiterbauen! 🙂
+
+
+

@@ -72,12 +72,25 @@ const applyFilters = (
   pois: POI[],
   center: LatLon | null,
   category: PlaceCategory | "all" | undefined,
-  limit: number
+  limit: number,
+  selector?: { countryCode?: string; cityId?: string }
 ) => {
+  const scoped = selector
+    ? pois.filter((poi) => {
+        if (selector.countryCode && poi.countryCode) {
+          if (poi.countryCode !== selector.countryCode) return false;
+        }
+        if (selector.cityId && poi.cityId) {
+          if (poi.cityId !== selector.cityId) return false;
+        }
+        return true;
+      })
+    : pois;
+
   const filtered =
     category && category !== "all"
-      ? pois.filter((poi) => poi.category === category)
-      : pois;
+      ? scoped.filter((poi) => poi.category === category)
+      : scoped;
 
   const sorted = center
     ? filtered
@@ -115,7 +128,9 @@ export const getPoisForMap = async (
       return [];
     }
     const pois = await loadDataset(dataset.loader, `city:${cityId}`);
-    return applyFilters(pois, center ?? dataset.center, category, limit);
+    return applyFilters(pois, center ?? dataset.center, category, limit, {
+      cityId,
+    });
   }
 
   if (params.country) {
@@ -132,7 +147,7 @@ export const getPoisForMap = async (
       return [];
     }
     const pois = await loadDataset(loader, `country:${countryCode}`);
-    return applyFilters(pois, center, category, limit);
+    return applyFilters(pois, center, category, limit, { countryCode });
   }
 
   if (!center) {
@@ -147,7 +162,9 @@ export const getPoisForMap = async (
     return [];
   }
   const pois = await loadDataset(cityDataset.loader, `city:${cityDataset.id}`);
-  return applyFilters(pois, center, category, limit);
+  return applyFilters(pois, center, category, limit, {
+    cityId: cityDataset.id,
+  });
 };
 
 export const getStaticPoisForCenter = async (
