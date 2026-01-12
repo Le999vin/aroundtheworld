@@ -1,3 +1,4 @@
+//Startseiten-UI (Header, Suche, Globus, CountryPanel)
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
