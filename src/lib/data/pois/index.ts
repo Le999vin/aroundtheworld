@@ -61,6 +61,12 @@ const loadDataset = async (loader: () => Promise<unknown>, context: string) => {
   }
 };
 
+const loadGlobal = async () =>
+  loadDataset(
+    async () => (await import("./datasets/global.sample.json")).default,
+    "global"
+  );
+
 const selectCityDatasetForCenter = (center: LatLon): CityDataset | null => {
   const cityList = Object.values(cityDatasets);
   return cityList.find(
@@ -77,11 +83,11 @@ const applyFilters = (
 ) => {
   const scoped = selector
     ? pois.filter((poi) => {
-        if (selector.countryCode && poi.countryCode) {
-          if (poi.countryCode !== selector.countryCode) return false;
+        if (selector.countryCode && poi.countryCode !== selector.countryCode) {
+          return false;
         }
-        if (selector.cityId && poi.cityId) {
-          if (poi.cityId !== selector.cityId) return false;
+        if (selector.cityId && poi.cityId !== selector.cityId) {
+          return false;
         }
         return true;
       })
@@ -125,7 +131,8 @@ export const getPoisForMap = async (
     }
     const dataset = cityDatasets[cityId];
     if (!dataset) {
-      return [];
+      const globalPois = await loadGlobal();
+      return applyFilters(globalPois, center, category, limit, { cityId });
     }
     const pois = await loadDataset(dataset.loader, `city:${cityId}`);
     return applyFilters(pois, center ?? dataset.center, category, limit, {
@@ -144,7 +151,8 @@ export const getPoisForMap = async (
     }
     const loader = countryDatasets[countryCode];
     if (!loader) {
-      return [];
+      const globalPois = await loadGlobal();
+      return applyFilters(globalPois, center, category, limit, { countryCode });
     }
     const pois = await loadDataset(loader, `country:${countryCode}`);
     return applyFilters(pois, center, category, limit, { countryCode });
@@ -159,7 +167,8 @@ export const getPoisForMap = async (
 
   const cityDataset = selectCityDatasetForCenter(center);
   if (!cityDataset) {
-    return [];
+    const globalPois = await loadGlobal();
+    return applyFilters(globalPois, center, category, limit);
   }
   const pois = await loadDataset(cityDataset.loader, `city:${cityDataset.id}`);
   return applyFilters(pois, center, category, limit, {

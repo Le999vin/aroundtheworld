@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-pl-krakow-old-town",
+    "name": "Krakow Old Town",
+    "category": "landmarks",
+    "lat": 50.0619,
+    "lon": 19.9368,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-wawel-castle",
+    "name": "Wawel Castle",
+    "category": "landmarks",
+    "lat": 50.0545,
+    "lon": 19.9352,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-kazimierz-district",
+    "name": "Kazimierz District",
+    "category": "food",
+    "lat": 50.049,
+    "lon": 19.944,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-auschwitz-birkenau-memorial",
+    "name": "Auschwitz-Birkenau Memorial",
+    "category": "museums",
+    "lat": 50.0359,
+    "lon": 19.1783,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-warsaw-old-town",
+    "name": "Warsaw Old Town",
+    "category": "landmarks",
+    "lat": 52.2498,
+    "lon": 21.0122,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-palace-of-culture-and-science",
+    "name": "Palace of Culture and Science",
+    "category": "landmarks",
+    "lat": 52.2318,
+    "lon": 21.0067,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-lazienki-park",
+    "name": "Lazienki Park",
+    "category": "nature",
+    "lat": 52.2147,
+    "lon": 21.0339,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-gdansk-main-town",
+    "name": "Gdansk Main Town",
+    "category": "landmarks",
+    "lat": 54.352,
+    "lon": 18.6466,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-sopot-pier",
+    "name": "Sopot Pier",
+    "category": "nature",
+    "lat": 54.4416,
+    "lon": 18.5601,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-wroclaw-market-square",
+    "name": "Wroclaw Market Square",
+    "category": "landmarks",
+    "lat": 51.109,
+    "lon": 17.0325,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-poznan-old-town",
+    "name": "Poznan Old Town",
+    "category": "landmarks",
+    "lat": 52.408,
+    "lon": 16.9335,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-zakopane-tatra-gateway",
+    "name": "Zakopane Tatra Gateway",
+    "category": "nature",
+    "lat": 49.2992,
+    "lon": 19.9496,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-tatra-national-park",
+    "name": "Tatra National Park",
+    "category": "nature",
+    "lat": 49.25,
+    "lon": 19.98,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-bialowieza-forest",
+    "name": "Bialowieza Forest",
+    "category": "nature",
+    "lat": 52.7,
+    "lon": 23.9,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-malbork-castle",
+    "name": "Malbork Castle",
+    "category": "landmarks",
+    "lat": 54.04,
+    "lon": 19.03,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-wieliczka-salt-mine",
+    "name": "Wieliczka Salt Mine",
+    "category": "landmarks",
+    "lat": 49.983,
+    "lon": 20.055,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-copernicus-science-centre",
+    "name": "Copernicus Science Centre",
+    "category": "museums",
+    "lat": 52.241,
+    "lon": 21.028,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-polin-museum-of-polish-jews",
+    "name": "POLIN Museum of Polish Jews",
+    "category": "museums",
+    "lat": 52.249,
+    "lon": 20.993,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-st-marys-basilica-krakow",
+    "name": "St. Mary's Basilica Krakow",
+    "category": "landmarks",
+    "lat": 50.0616,
+    "lon": 19.939,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-hala-koszyki-food-hall",
+    "name": "Hala Koszyki Food Hall",
+    "category": "food",
+    "lat": 52.2224,
+    "lon": 21.0126,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-warsaw-pawilony",
+    "name": "Warsaw Pawilony",
+    "category": "nightlife",
+    "lat": 52.234,
+    "lon": 21.012,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-krakow-club-district",
+    "name": "Krakow Club District",
+    "category": "nightlife",
+    "lat": 50.0619,
+    "lon": 19.9368,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-gdansk-nightlife-dluga-street",
+    "name": "Gdansk Nightlife (Dluga Street)",
+    "category": "nightlife",
+    "lat": 54.3522,
+    "lon": 18.6464,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-masurian-lake-district",
+    "name": "Masurian Lake District",
+    "category": "nature",
+    "lat": 53.8,
+    "lon": 21.5,
+    "source": "static",
+    "countryCode": "PL"
+  },
+  {
+    "id": "country-pl-slowinski-national-park-dunes",
+    "name": "Slowinski National Park Dunes",
+    "category": "nature",
+    "lat": 54.745,
+    "lon": 17.247,
+    "source": "static",
+    "countryCode": "PL"
+  }
+]

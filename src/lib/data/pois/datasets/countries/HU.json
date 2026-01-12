@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-hu-budapest-parliament-building",
+    "name": "Budapest Parliament Building",
+    "category": "landmarks",
+    "lat": 47.5076,
+    "lon": 19.0457,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-buda-castle",
+    "name": "Buda Castle",
+    "category": "landmarks",
+    "lat": 47.4969,
+    "lon": 19.0399,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-fishermans-bastion",
+    "name": "Fisherman's Bastion",
+    "category": "landmarks",
+    "lat": 47.5029,
+    "lon": 19.0345,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-st-stephens-basilica-budapest",
+    "name": "St. Stephen's Basilica Budapest",
+    "category": "landmarks",
+    "lat": 47.5009,
+    "lon": 19.0536,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-sz-chenyi-thermal-bath",
+    "name": "Széchenyi Thermal Bath",
+    "category": "other",
+    "lat": 47.5189,
+    "lon": 19.0825,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-chain-bridge",
+    "name": "Chain Bridge",
+    "category": "landmarks",
+    "lat": 47.498,
+    "lon": 19.044,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-heroes-square",
+    "name": "Heroes' Square",
+    "category": "landmarks",
+    "lat": 47.5149,
+    "lon": 19.077,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-lake-balaton",
+    "name": "Lake Balaton",
+    "category": "nature",
+    "lat": 46.75,
+    "lon": 17.7,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-hortobagy-national-park",
+    "name": "Hortobagy National Park",
+    "category": "nature",
+    "lat": 47.58,
+    "lon": 21.15,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-aggtelek-national-park-caves",
+    "name": "Aggtelek National Park Caves",
+    "category": "nature",
+    "lat": 48.47,
+    "lon": 20.5,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-danube-bend-viewpoints",
+    "name": "Danube Bend Viewpoints",
+    "category": "nature",
+    "lat": 47.785,
+    "lon": 18.97,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-eger-castle",
+    "name": "Eger Castle",
+    "category": "landmarks",
+    "lat": 47.9025,
+    "lon": 20.3772,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-pecs-old-town",
+    "name": "Pecs Old Town",
+    "category": "landmarks",
+    "lat": 46.0727,
+    "lon": 18.2323,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-szentendre",
+    "name": "Szentendre",
+    "category": "landmarks",
+    "lat": 47.669,
+    "lon": 19.075,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-hungarian-national-museum",
+    "name": "Hungarian National Museum",
+    "category": "museums",
+    "lat": 47.4917,
+    "lon": 19.061,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-house-of-terror-museum",
+    "name": "House of Terror Museum",
+    "category": "museums",
+    "lat": 47.5072,
+    "lon": 19.0658,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-museum-of-fine-arts-budapest",
+    "name": "Museum of Fine Arts Budapest",
+    "category": "museums",
+    "lat": 47.516,
+    "lon": 19.0776,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-great-market-hall",
+    "name": "Great Market Hall",
+    "category": "food",
+    "lat": 47.4865,
+    "lon": 19.0583,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-gozsdu-courtyard-food",
+    "name": "Gozsdu Courtyard Food",
+    "category": "food",
+    "lat": 47.4976,
+    "lon": 19.0622,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-ruin-bar-szimpla-kert",
+    "name": "Ruin Bar Szimpla Kert",
+    "category": "nightlife",
+    "lat": 47.4978,
+    "lon": 19.0651,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-instant-fogas-complex",
+    "name": "Instant-Fogas Complex",
+    "category": "nightlife",
+    "lat": 47.4986,
+    "lon": 19.0599,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-budapest-river-cruise-night",
+    "name": "Budapest River Cruise Night",
+    "category": "nightlife",
+    "lat": 47.498,
+    "lon": 19.044,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-tokaj-wine-region",
+    "name": "Tokaj Wine Region",
+    "category": "food",
+    "lat": 48.117,
+    "lon": 21.408,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-sopron-old-town",
+    "name": "Sopron Old Town",
+    "category": "landmarks",
+    "lat": 47.684,
+    "lon": 16.584,
+    "source": "static",
+    "countryCode": "HU"
+  },
+  {
+    "id": "country-hu-balaton-uplands-national-park",
+    "name": "Balaton Uplands National Park",
+    "category": "nature",
+    "lat": 46.9,
+    "lon": 17.7,
+    "source": "static",
+    "countryCode": "HU"
+  }
+]

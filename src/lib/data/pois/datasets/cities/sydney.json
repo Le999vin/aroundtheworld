@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-sydney-art-gallery-of-nsw",
+    "name": "Art Gallery of NSW",
+    "category": "museums",
+    "lat": -33.8802,
+    "lon": 151.2007,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-australian-museum",
+    "name": "Australian Museum",
+    "category": "museums",
+    "lat": -33.8749,
+    "lon": 151.2154,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-barangaroo-reserve",
+    "name": "Barangaroo Reserve",
+    "category": "nature",
+    "lat": -33.8805,
+    "lon": 151.2176,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-bondi-beach",
+    "name": "Bondi Beach",
+    "category": "nature",
+    "lat": -33.8825,
+    "lon": 151.2146,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-carriageworks-farmers-market",
+    "name": "Carriageworks Farmers Market",
+    "category": "food",
+    "lat": -33.8693,
+    "lon": 151.2039,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-circular-quay",
+    "name": "Circular Quay",
+    "category": "landmarks",
+    "lat": -33.86,
+    "lon": 151.2151,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-darling-harbour",
+    "name": "Darling Harbour",
+    "category": "nightlife",
+    "lat": -33.8588,
+    "lon": 151.2227,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-hyde-park-sydney",
+    "name": "Hyde Park Sydney",
+    "category": "nature",
+    "lat": -33.853,
+    "lon": 151.2022,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-kings-cross",
+    "name": "Kings Cross",
+    "category": "nightlife",
+    "lat": -33.875,
+    "lon": 151.207,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-luna-park",
+    "name": "Luna Park",
+    "category": "other",
+    "lat": -33.8609,
+    "lon": 151.23,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-manly-beach",
+    "name": "Manly Beach",
+    "category": "nature",
+    "lat": -33.8594,
+    "lon": 151.1902,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-mrs-macquarie-s-chair",
+    "name": "Mrs Macquarie's Chair",
+    "category": "landmarks",
+    "lat": -33.8555,
+    "lon": 151.2088,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-newtown",
+    "name": "Newtown",
+    "category": "nightlife",
+    "lat": -33.8844,
+    "lon": 151.2239,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-opera-bar",
+    "name": "Opera Bar",
+    "category": "nightlife",
+    "lat": -33.8545,
+    "lon": 151.1917,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-paddington-markets",
+    "name": "Paddington Markets",
+    "category": "food",
+    "lat": -33.8854,
+    "lon": 151.1886,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-queen-victoria-building",
+    "name": "Queen Victoria Building",
+    "category": "landmarks",
+    "lat": -33.8598,
+    "lon": 151.2152,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-royal-botanic-garden",
+    "name": "Royal Botanic Garden",
+    "category": "nature",
+    "lat": -33.863,
+    "lon": 151.2128,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-surry-hills",
+    "name": "Surry Hills",
+    "category": "food",
+    "lat": -33.8559,
+    "lon": 151.2148,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-sydney-fish-market",
+    "name": "Sydney Fish Market",
+    "category": "food",
+    "lat": -33.8633,
+    "lon": 151.2164,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-sydney-harbour-bridge",
+    "name": "Sydney Harbour Bridge",
+    "category": "landmarks",
+    "lat": -33.8856,
+    "lon": 151.2223,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-sydney-opera-house",
+    "name": "Sydney Opera House",
+    "category": "landmarks",
+    "lat": -33.8664,
+    "lon": 151.2269,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-sydney-tower-eye",
+    "name": "Sydney Tower Eye",
+    "category": "landmarks",
+    "lat": -33.8683,
+    "lon": 151.2288,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-taronga-zoo",
+    "name": "Taronga Zoo",
+    "category": "nature",
+    "lat": -33.8653,
+    "lon": 151.195,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-the-rocks",
+    "name": "The Rocks",
+    "category": "landmarks",
+    "lat": -33.8516,
+    "lon": 151.2065,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  },
+  {
+    "id": "city-sydney-watsons-bay",
+    "name": "Watsons Bay",
+    "category": "nature",
+    "lat": -33.8841,
+    "lon": 151.1982,
+    "source": "static",
+    "countryCode": "AU",
+    "cityId": "sydney"
+  }
+]

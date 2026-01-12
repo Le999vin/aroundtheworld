@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-seoul-banpo-bridge-rainbow-fountain",
+    "name": "Banpo Bridge Rainbow Fountain",
+    "category": "landmarks",
+    "lat": 37.5651,
+    "lon": 126.9727,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-bukchon-hanok-village",
+    "name": "Bukchon Hanok Village",
+    "category": "landmarks",
+    "lat": 37.5571,
+    "lon": 126.9586,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-changdeokgung-palace",
+    "name": "Changdeokgung Palace",
+    "category": "landmarks",
+    "lat": 37.5785,
+    "lon": 126.9881,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-cheonggyecheon-stream",
+    "name": "Cheonggyecheon Stream",
+    "category": "nature",
+    "lat": 37.5837,
+    "lon": 126.97,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-coex-mall",
+    "name": "COEX Mall",
+    "category": "other",
+    "lat": 37.5557,
+    "lon": 126.9613,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-dongdaemun-design-plaza",
+    "name": "Dongdaemun Design Plaza",
+    "category": "landmarks",
+    "lat": 37.571,
+    "lon": 126.9581,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-gangnam",
+    "name": "Gangnam",
+    "category": "nightlife",
+    "lat": 37.554,
+    "lon": 126.9914,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-gwanghwamun-square",
+    "name": "Gwanghwamun Square",
+    "category": "landmarks",
+    "lat": 37.5501,
+    "lon": 126.9627,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-gwangjang-market",
+    "name": "Gwangjang Market",
+    "category": "food",
+    "lat": 37.5628,
+    "lon": 126.9791,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-gyeongbokgung-palace",
+    "name": "Gyeongbokgung Palace",
+    "category": "landmarks",
+    "lat": 37.5723,
+    "lon": 126.978,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-han-river-parks",
+    "name": "Han River Parks",
+    "category": "nature",
+    "lat": 37.5757,
+    "lon": 126.9644,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-hongdae",
+    "name": "Hongdae",
+    "category": "nightlife",
+    "lat": 37.5595,
+    "lon": 126.9656,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-ikseon-dong",
+    "name": "Ikseon-dong",
+    "category": "food",
+    "lat": 37.5689,
+    "lon": 126.9889,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-insadong",
+    "name": "Insadong",
+    "category": "food",
+    "lat": 37.5585,
+    "lon": 126.9861,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-itaewon",
+    "name": "Itaewon",
+    "category": "nightlife",
+    "lat": 37.5806,
+    "lon": 126.9758,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-jamsil",
+    "name": "Jamsil",
+    "category": "nightlife",
+    "lat": 37.5775,
+    "lon": 126.9647,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-lotte-world-tower",
+    "name": "Lotte World Tower",
+    "category": "landmarks",
+    "lat": 37.5687,
+    "lon": 126.9707,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-myeongdong",
+    "name": "Myeongdong",
+    "category": "food",
+    "lat": 37.5759,
+    "lon": 126.9978,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-n-seoul-tower",
+    "name": "N Seoul Tower",
+    "category": "landmarks",
+    "lat": 37.5802,
+    "lon": 126.9687,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-namdaemun-market",
+    "name": "Namdaemun Market",
+    "category": "food",
+    "lat": 37.5827,
+    "lon": 126.9846,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-national-museum-of-korea",
+    "name": "National Museum of Korea",
+    "category": "museums",
+    "lat": 37.5725,
+    "lon": 126.96,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-olympic-park",
+    "name": "Olympic Park",
+    "category": "nature",
+    "lat": 37.5792,
+    "lon": 126.9915,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-seongsu-dong",
+    "name": "Seongsu-dong",
+    "category": "food",
+    "lat": 37.5786,
+    "lon": 126.9919,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-seoul-forest",
+    "name": "Seoul Forest",
+    "category": "nature",
+    "lat": 37.5582,
+    "lon": 126.9899,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  },
+  {
+    "id": "city-seoul-war-memorial-of-korea",
+    "name": "War Memorial of Korea",
+    "category": "museums",
+    "lat": 37.5745,
+    "lon": 126.9799,
+    "source": "static",
+    "countryCode": "KR",
+    "cityId": "seoul"
+  }
+]

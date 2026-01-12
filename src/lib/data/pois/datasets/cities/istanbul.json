@@ -1,80 +1,30 @@
 [
   {
-    "id": "city-istanbul-hagia-sophia",
-    "name": "Hagia Sophia",
-    "category": "landmarks",
-    "lat": 41.0086,
-    "lon": 28.9802,
-    "source": "static",
-    "countryCode": "TR",
-    "cityId": "istanbul"
-  },
-  {
-    "id": "city-istanbul-blue-mosque",
-    "name": "Blue Mosque",
-    "category": "landmarks",
-    "lat": 41.0054,
-    "lon": 28.9768,
-    "source": "static",
-    "countryCode": "TR",
-    "cityId": "istanbul"
-  },
-  {
-    "id": "city-istanbul-topkapi-palace",
-    "name": "Topkapi Palace",
-    "category": "museums",
-    "lat": 41.0115,
-    "lon": 28.9833,
-    "source": "static",
-    "countryCode": "TR",
-    "cityId": "istanbul"
-  },
-  {
-    "id": "city-istanbul-grand-bazaar",
-    "name": "Grand Bazaar",
-    "category": "food",
-    "lat": 41.0107,
-    "lon": 28.9681,
-    "source": "static",
-    "countryCode": "TR",
-    "cityId": "istanbul"
-  },
-  {
-    "id": "city-istanbul-galata-tower",
-    "name": "Galata Tower",
-    "category": "landmarks",
-    "lat": 41.0256,
-    "lon": 28.9744,
-    "source": "static",
-    "countryCode": "TR",
-    "cityId": "istanbul"
-  },
-  {
-    "id": "city-istanbul-bosphorus-pier",
-    "name": "Bosphorus Pier",
-    "category": "nature",
-    "lat": 41.043,
-    "lon": 29.01,
-    "source": "static",
-    "countryCode": "TR",
-    "cityId": "istanbul"
-  },
-  {
-    "id": "city-istanbul-spice-bazaar",
-    "name": "Spice Bazaar",
-    "category": "food",
-    "lat": 41.0165,
-    "lon": 28.9706,
-    "source": "static",
-    "countryCode": "TR",
-    "cityId": "istanbul"
-  },
-  {
-    "id": "city-istanbul-istiklal-avenue",
-    "name": "Istiklal Avenue",
+    "id": "city-istanbul-arnavutkoy-nightlife",
+    "name": "Arnavutkoy Nightlife",
     "category": "nightlife",
-    "lat": 41.0351,
-    "lon": 28.9776,
+    "lat": 41.0675,
+    "lon": 29.042,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-balat",
+    "name": "Balat",
+    "category": "landmarks",
+    "lat": 41.0048,
+    "lon": 28.9569,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-balat-colorful-streets",
+    "name": "Balat Colorful Streets",
+    "category": "landmarks",
+    "lat": 41.029,
+    "lon": 28.948,
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul"
@@ -90,11 +40,361 @@
     "cityId": "istanbul"
   },
   {
+    "id": "city-istanbul-bebek-waterfront",
+    "name": "Bebek Waterfront",
+    "category": "food",
+    "lat": 41.076,
+    "lon": 29.044,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-blue-mosque",
+    "name": "Blue Mosque",
+    "category": "landmarks",
+    "lat": 41.0054,
+    "lon": 28.9768,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-bosphorus-cruise-pier",
+    "name": "Bosphorus Cruise Pier",
+    "category": "nature",
+    "lat": 41.0107,
+    "lon": 28.9681,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-bosphorus-pier",
+    "name": "Bosphorus Pier",
+    "category": "nature",
+    "lat": 41.043,
+    "lon": 29.01,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-central-market-istanbul-2",
+    "name": "Central Market (Istanbul) 2",
+    "category": "food",
+    "lat": 41.0025,
+    "lon": 28.9457,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-chora-church-kariye",
+    "name": "Chora Church (Kariye)",
+    "category": "museums",
+    "lat": 41.0329,
+    "lon": 28.94,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-city-park-istanbul-4",
+    "name": "City Park (Istanbul) 4",
+    "category": "nature",
+    "lat": 40.9983,
+    "lon": 29.0054,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
     "id": "city-istanbul-dolmabahce-palace",
     "name": "Dolmabahce Palace",
     "category": "landmarks",
     "lat": 41.039,
     "lon": 29.0006,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-galata-bridge",
+    "name": "Galata Bridge",
+    "category": "landmarks",
+    "lat": 41.018,
+    "lon": 28.9582,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-galata-tower",
+    "name": "Galata Tower",
+    "category": "landmarks",
+    "lat": 41.0256,
+    "lon": 28.9744,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-grand-bazaar",
+    "name": "Grand Bazaar",
+    "category": "food",
+    "lat": 41.0107,
+    "lon": 28.9681,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-hagia-sophia",
+    "name": "Hagia Sophia",
+    "category": "landmarks",
+    "lat": 41.0086,
+    "lon": 28.9802,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-historic-cathedral-istanbul-5",
+    "name": "Historic Cathedral (Istanbul) 5",
+    "category": "landmarks",
+    "lat": 40.9983,
+    "lon": 29.0081,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-istanbul-archaeology-museums",
+    "name": "Istanbul Archaeology Museums",
+    "category": "museums",
+    "lat": 41.0121,
+    "lon": 28.9935,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-istanbul-modern",
+    "name": "Istanbul Modern",
+    "category": "museums",
+    "lat": 41.0287,
+    "lon": 28.9848,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-istiklal-avenue",
+    "name": "Istiklal Avenue",
+    "category": "nightlife",
+    "lat": 41.0351,
+    "lon": 28.9776,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-istiklal-street",
+    "name": "Istiklal Street",
+    "category": "food",
+    "lat": 40.9932,
+    "lon": 28.9956,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-kadikoy-market",
+    "name": "Kadikoy Market",
+    "category": "food",
+    "lat": 40.9909,
+    "lon": 29.0281,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-kadikoy-moda",
+    "name": "Kadikoy (Moda)",
+    "category": "food",
+    "lat": 41.0194,
+    "lon": 28.9959,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-karakoy",
+    "name": "Karakoy",
+    "category": "food",
+    "lat": 41.025,
+    "lon": 28.977,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-kariye-mosque-chora",
+    "name": "Kariye Mosque (Chora)",
+    "category": "museums",
+    "lat": 41.0111,
+    "lon": 28.9936,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-maiden-s-tower-viewpoint",
+    "name": "Maiden's Tower Viewpoint",
+    "category": "landmarks",
+    "lat": 41.0211,
+    "lon": 29.0041,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-moda-coast",
+    "name": "Moda Coast",
+    "category": "nature",
+    "lat": 40.9838,
+    "lon": 29.0235,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-modern-art-gallery-istanbul-6",
+    "name": "Modern Art Gallery (Istanbul) 6",
+    "category": "museums",
+    "lat": 41.0223,
+    "lon": 28.9652,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-nevizade-street",
+    "name": "Nevizade Street",
+    "category": "nightlife",
+    "lat": 41.0355,
+    "lon": 28.9789,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-nisantasi",
+    "name": "Nisantasi",
+    "category": "food",
+    "lat": 41.049,
+    "lon": 28.994,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-old-town-istanbul-1",
+    "name": "Old Town (Istanbul) 1",
+    "category": "landmarks",
+    "lat": 41.0258,
+    "lon": 28.9922,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-ortakoy-mosque",
+    "name": "Ortakoy Mosque",
+    "category": "landmarks",
+    "lat": 41.005,
+    "lon": 28.9907,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-ortakoy-waterfront",
+    "name": "Ortakoy Waterfront",
+    "category": "food",
+    "lat": 41.0479,
+    "lon": 29.0273,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-princes-islands",
+    "name": "Princes' Islands",
+    "category": "nature",
+    "lat": 41.0241,
+    "lon": 28.9731,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-princes-islands-buyukada",
+    "name": "Princes' Islands (Büyükada)",
+    "category": "nature",
+    "lat": 40.875,
+    "lon": 29.125,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-riverside-promenade-istanbul-3",
+    "name": "Riverside Promenade (Istanbul) 3",
+    "category": "nature",
+    "lat": 40.9887,
+    "lon": 29.0085,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-spice-bazaar",
+    "name": "Spice Bazaar",
+    "category": "food",
+    "lat": 41.0165,
+    "lon": 28.9706,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-suleymaniye-mosque",
+    "name": "Suleymaniye Mosque",
+    "category": "landmarks",
+    "lat": 41.0163,
+    "lon": 28.9639,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-taksim-square",
+    "name": "Taksim Square",
+    "category": "landmarks",
+    "lat": 41.0369,
+    "lon": 28.9862,
+    "source": "static",
+    "countryCode": "TR",
+    "cityId": "istanbul"
+  },
+  {
+    "id": "city-istanbul-topkapi-palace",
+    "name": "Topkapi Palace",
+    "category": "museums",
+    "lat": 41.0115,
+    "lon": 28.9833,
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul"

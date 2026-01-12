@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-kr-gyeongbokgung-palace",
+    "name": "Gyeongbokgung Palace",
+    "category": "landmarks",
+    "lat": 37.5796,
+    "lon": 126.977,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-bukchon-hanok-village",
+    "name": "Bukchon Hanok Village",
+    "category": "landmarks",
+    "lat": 37.5826,
+    "lon": 126.983,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-insadong",
+    "name": "Insadong",
+    "category": "landmarks",
+    "lat": 37.574,
+    "lon": 126.9849,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-n-seoul-tower",
+    "name": "N Seoul Tower",
+    "category": "landmarks",
+    "lat": 37.5512,
+    "lon": 126.9882,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-myeongdong-shopping-streets",
+    "name": "Myeongdong Shopping Streets",
+    "category": "other",
+    "lat": 37.5636,
+    "lon": 126.985,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-dongdaemun-design-plaza",
+    "name": "Dongdaemun Design Plaza",
+    "category": "landmarks",
+    "lat": 37.5663,
+    "lon": 127.0095,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-coex-mall-and-starfield-library",
+    "name": "COEX Mall and Starfield Library",
+    "category": "other",
+    "lat": 37.5125,
+    "lon": 127.0585,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-changdeokgung-palace",
+    "name": "Changdeokgung Palace",
+    "category": "landmarks",
+    "lat": 37.5794,
+    "lon": 126.991,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-dmz-observation-area",
+    "name": "DMZ Observation Area",
+    "category": "other",
+    "lat": 37.914,
+    "lon": 126.91,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-jeju-hallasan-national-park",
+    "name": "Jeju Hallasan National Park",
+    "category": "nature",
+    "lat": 33.3617,
+    "lon": 126.5292,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-jeju-seongsan-ilchulbong",
+    "name": "Jeju Seongsan Ilchulbong",
+    "category": "nature",
+    "lat": 33.458,
+    "lon": 126.942,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-busan-haeundae-beach",
+    "name": "Busan Haeundae Beach",
+    "category": "nature",
+    "lat": 35.1587,
+    "lon": 129.1604,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-gamcheon-culture-village",
+    "name": "Gamcheon Culture Village",
+    "category": "landmarks",
+    "lat": 35.097,
+    "lon": 129.01,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-gyeongju-bulguksa-temple",
+    "name": "Gyeongju Bulguksa Temple",
+    "category": "landmarks",
+    "lat": 35.79,
+    "lon": 129.332,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-seoraksan-national-park",
+    "name": "Seoraksan National Park",
+    "category": "nature",
+    "lat": 38.119,
+    "lon": 128.465,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-bukhansan-national-park",
+    "name": "Bukhansan National Park",
+    "category": "nature",
+    "lat": 37.658,
+    "lon": 126.995,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-national-museum-of-korea",
+    "name": "National Museum of Korea",
+    "category": "museums",
+    "lat": 37.523,
+    "lon": 126.98,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-leeum-samsung-museum-of-art",
+    "name": "Leeum Samsung Museum of Art",
+    "category": "museums",
+    "lat": 37.5385,
+    "lon": 126.999,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-busan-cinema-center",
+    "name": "Busan Cinema Center",
+    "category": "museums",
+    "lat": 35.171,
+    "lon": 129.127,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-gwangjang-market",
+    "name": "Gwangjang Market",
+    "category": "food",
+    "lat": 37.57,
+    "lon": 126.999,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-myeongdong-street-food",
+    "name": "Myeongdong Street Food",
+    "category": "food",
+    "lat": 37.5636,
+    "lon": 126.985,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-jagalchi-fish-market",
+    "name": "Jagalchi Fish Market",
+    "category": "food",
+    "lat": 35.0965,
+    "lon": 129.03,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-hongdae",
+    "name": "Hongdae",
+    "category": "nightlife",
+    "lat": 37.5563,
+    "lon": 126.9237,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-itaewon",
+    "name": "Itaewon",
+    "category": "nightlife",
+    "lat": 37.5345,
+    "lon": 126.994,
+    "source": "static",
+    "countryCode": "KR"
+  },
+  {
+    "id": "country-kr-gangnam-nightlife-district",
+    "name": "Gangnam Nightlife District",
+    "category": "nightlife",
+    "lat": 37.5172,
+    "lon": 127.0473,
+    "source": "static",
+    "countryCode": "KR"
+  }
+]

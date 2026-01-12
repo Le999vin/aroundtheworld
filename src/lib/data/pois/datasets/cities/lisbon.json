@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-lisbon-alfama",
+    "name": "Alfama",
+    "category": "food",
+    "lat": 38.7134,
+    "lon": -9.1527,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-bairro-alto",
+    "name": "Bairro Alto",
+    "category": "nightlife",
+    "lat": 38.7267,
+    "lon": -9.1378,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-belem-pastry-district",
+    "name": "Belem Pastry District",
+    "category": "food",
+    "lat": 38.7101,
+    "lon": -9.1243,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-belem-tower",
+    "name": "Belem Tower",
+    "category": "landmarks",
+    "lat": 38.7241,
+    "lon": -9.135,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-cais-do-sodre",
+    "name": "Cais do Sodre",
+    "category": "nightlife",
+    "lat": 38.7369,
+    "lon": -9.1376,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-chiado",
+    "name": "Chiado",
+    "category": "food",
+    "lat": 38.7126,
+    "lon": -9.1512,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-docas-de-santo-amaro",
+    "name": "Docas de Santo Amaro",
+    "category": "nightlife",
+    "lat": 38.7158,
+    "lon": -9.1475,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-eduardo-vii-park",
+    "name": "Eduardo VII Park",
+    "category": "nature",
+    "lat": 38.7222,
+    "lon": -9.1324,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-elevador-de-santa-justa",
+    "name": "Elevador de Santa Justa",
+    "category": "landmarks",
+    "lat": 38.7276,
+    "lon": -9.1584,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-gulbenkian-museum",
+    "name": "Gulbenkian Museum",
+    "category": "museums",
+    "lat": 38.7166,
+    "lon": -9.1244,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-jeronimos-monastery",
+    "name": "Jeronimos Monastery",
+    "category": "landmarks",
+    "lat": 38.7302,
+    "lon": -9.1273,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-lisbon-cathedral",
+    "name": "Lisbon Cathedral",
+    "category": "landmarks",
+    "lat": 38.7367,
+    "lon": -9.1455,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-lx-factory",
+    "name": "LX Factory",
+    "category": "food",
+    "lat": 38.7128,
+    "lon": -9.1399,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-maat-museum",
+    "name": "MAAT Museum",
+    "category": "museums",
+    "lat": 38.7085,
+    "lon": -9.1381,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-miradouro-da-senhora-do-monte",
+    "name": "Miradouro da Senhora do Monte",
+    "category": "nature",
+    "lat": 38.7186,
+    "lon": -9.1442,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-miradouro-das-portas-do-sol",
+    "name": "Miradouro das Portas do Sol",
+    "category": "nature",
+    "lat": 38.7286,
+    "lon": -9.1295,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-miradouro-de-santa-catarina",
+    "name": "Miradouro de Santa Catarina",
+    "category": "nature",
+    "lat": 38.7335,
+    "lon": -9.1236,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-oceanario-de-lisboa",
+    "name": "Oceanario de Lisboa",
+    "category": "museums",
+    "lat": 38.7156,
+    "lon": -9.1256,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-parque-das-nacoes",
+    "name": "Parque das Nacoes",
+    "category": "nature",
+    "lat": 38.7332,
+    "lon": -9.131,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-pink-street",
+    "name": "Pink Street",
+    "category": "nightlife",
+    "lat": 38.7102,
+    "lon": -9.145,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-praca-do-comercio",
+    "name": "Praca do Comercio",
+    "category": "landmarks",
+    "lat": 38.7164,
+    "lon": -9.1349,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-rossio-square",
+    "name": "Rossio Square",
+    "category": "landmarks",
+    "lat": 38.7083,
+    "lon": -9.1321,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-sao-jorge-castle",
+    "name": "Sao Jorge Castle",
+    "category": "landmarks",
+    "lat": 38.7242,
+    "lon": -9.1388,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-time-out-market",
+    "name": "Time Out Market",
+    "category": "food",
+    "lat": 38.7338,
+    "lon": -9.1247,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  },
+  {
+    "id": "city-lisbon-tram-28-route",
+    "name": "Tram 28 Route",
+    "category": "landmarks",
+    "lat": 38.7372,
+    "lon": -9.1235,
+    "source": "static",
+    "countryCode": "PT",
+    "cityId": "lisbon"
+  }
+]

@@ -88,5 +88,140 @@
     "lon": -110.8281,
     "source": "static",
     "countryCode": "US"
+  },
+  {
+    "id": "country-us-central-park",
+    "name": "Central Park",
+    "category": "nature",
+    "lat": 40.7829,
+    "lon": -73.9654,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-times-square",
+    "name": "Times Square",
+    "category": "landmarks",
+    "lat": 40.758,
+    "lon": -73.9855,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-niagara-falls",
+    "name": "Niagara Falls",
+    "category": "nature",
+    "lat": 43.0828,
+    "lon": -79.0742,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-zion-national-park",
+    "name": "Zion National Park",
+    "category": "nature",
+    "lat": 37.2982,
+    "lon": -113.0263,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-bryce-canyon",
+    "name": "Bryce Canyon",
+    "category": "nature",
+    "lat": 37.593,
+    "lon": -112.1871,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-glacier-national-park",
+    "name": "Glacier National Park",
+    "category": "nature",
+    "lat": 48.6967,
+    "lon": -113.7183,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-waikiki-beach",
+    "name": "Waikiki Beach",
+    "category": "nature",
+    "lat": 21.2767,
+    "lon": -157.8289,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-south-beach-miami",
+    "name": "South Beach (Miami)",
+    "category": "nature",
+    "lat": 25.7826,
+    "lon": -80.1341,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-millennium-park-chicago",
+    "name": "Millennium Park (Chicago)",
+    "category": "landmarks",
+    "lat": 41.8826,
+    "lon": -87.6226,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-pike-place-market-seattle",
+    "name": "Pike Place Market (Seattle)",
+    "category": "food",
+    "lat": 47.6097,
+    "lon": -122.3425,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-freedom-trail-boston",
+    "name": "Freedom Trail (Boston)",
+    "category": "landmarks",
+    "lat": 42.3601,
+    "lon": -71.0589,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-broadway-nashville",
+    "name": "Broadway (Nashville)",
+    "category": "nightlife",
+    "lat": 36.1612,
+    "lon": -86.7785,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-sixth-street-austin",
+    "name": "Sixth Street (Austin)",
+    "category": "nightlife",
+    "lat": 30.2676,
+    "lon": -97.7396,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-frenchmen-street-new-orleans",
+    "name": "Frenchmen Street (New Orleans)",
+    "category": "nightlife",
+    "lat": 29.9637,
+    "lon": -90.0566,
+    "source": "static",
+    "countryCode": "US"
+  },
+  {
+    "id": "country-us-griffith-observatory-la",
+    "name": "Griffith Observatory (LA)",
+    "category": "landmarks",
+    "lat": 34.1184,
+    "lon": -118.3004,
+    "source": "static",
+    "countryCode": "US"
   }
 ]

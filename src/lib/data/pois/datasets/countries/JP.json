@@ -88,5 +88,140 @@
     "lon": 139.7765,
     "source": "static",
     "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-tokyo-womb",
+    "name": "WOMB (Tokyo)",
+    "category": "nightlife",
+    "lat": 35.6582,
+    "lon": 139.6993,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-tokyo-ageha",
+    "name": "ageHa (Tokyo)",
+    "category": "nightlife",
+    "lat": 35.6481,
+    "lon": 139.8286,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-tokyo-golden-gai",
+    "name": "Golden Gai (Tokyo)",
+    "category": "nightlife",
+    "lat": 35.6951,
+    "lon": 139.7047,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-tokyo-omoide-yokocho",
+    "name": "Omoide Yokocho (Tokyo)",
+    "category": "nightlife",
+    "lat": 35.6937,
+    "lon": 139.7006,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-osaka-giraffe",
+    "name": "GIRAFFE Osaka",
+    "category": "nightlife",
+    "lat": 34.6717,
+    "lon": 135.5031,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-osaka-dotonbori-bars",
+    "name": "Dotonbori Nightlife (Osaka)",
+    "category": "nightlife",
+    "lat": 34.6687,
+    "lon": 135.5019,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-kyoto-pontocho-alley",
+    "name": "Pontocho Alley (Kyoto)",
+    "category": "nightlife",
+    "lat": 35.0039,
+    "lon": 135.7709,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-kiyomizu-dera",
+    "name": "Kiyomizu-dera",
+    "category": "landmarks",
+    "lat": 34.9948,
+    "lon": 135.785,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-shibuya-crossing",
+    "name": "Shibuya Crossing",
+    "category": "landmarks",
+    "lat": 35.6595,
+    "lon": 139.7005,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-hakone-open-air-museum",
+    "name": "Hakone Open-Air Museum",
+    "category": "museums",
+    "lat": 35.2494,
+    "lon": 139.0505,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-nikko-toshogu-shrine",
+    "name": "Nikko Toshogu Shrine",
+    "category": "landmarks",
+    "lat": 36.757,
+    "lon": 139.598,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-kenrokuen-garden-kanazawa",
+    "name": "Kenrokuen Garden (Kanazawa)",
+    "category": "nature",
+    "lat": 36.5621,
+    "lon": 136.6627,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-okinawa-churaumi-aquarium",
+    "name": "Okinawa Churaumi Aquarium",
+    "category": "museums",
+    "lat": 26.6941,
+    "lon": 127.877,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-takayama-old-town",
+    "name": "Takayama Old Town",
+    "category": "landmarks",
+    "lat": 36.1405,
+    "lon": 137.2525,
+    "source": "static",
+    "countryCode": "JP"
+  },
+  {
+    "id": "country-jp-naoshima-art-island",
+    "name": "Naoshima Art Island",
+    "category": "museums",
+    "lat": 34.4585,
+    "lon": 133.995,
+    "source": "static",
+    "countryCode": "JP"
   }
 ]

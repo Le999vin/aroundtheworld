@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-warsaw-chopin-museum",
+    "name": "Chopin Museum",
+    "category": "museums",
+    "lat": 52.2368,
+    "lon": 20.9958,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-copernicus-science-centre",
+    "name": "Copernicus Science Centre",
+    "category": "museums",
+    "lat": 52.2342,
+    "lon": 21.0132,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-hala-koszyki",
+    "name": "Hala Koszyki",
+    "category": "food",
+    "lat": 52.2267,
+    "lon": 21.0314,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-krakowskie-przedmiescie",
+    "name": "Krakowskie Przedmiescie",
+    "category": "landmarks",
+    "lat": 52.2378,
+    "lon": 21.0084,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-lazienki-park",
+    "name": "Lazienki Park",
+    "category": "nature",
+    "lat": 52.2324,
+    "lon": 21.0333,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-multimedia-fountain-park",
+    "name": "Multimedia Fountain Park",
+    "category": "nature",
+    "lat": 52.2232,
+    "lon": 21.0243,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-museum-of-modern-art-warsaw",
+    "name": "Museum of Modern Art Warsaw",
+    "category": "museums",
+    "lat": 52.2444,
+    "lon": 21.0061,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-neon-museum",
+    "name": "Neon Museum",
+    "category": "museums",
+    "lat": 52.2166,
+    "lon": 20.996,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-nowy-swiat-street",
+    "name": "Nowy Swiat Street",
+    "category": "food",
+    "lat": 52.2358,
+    "lon": 21.0356,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-old-town",
+    "name": "Old Town",
+    "category": "landmarks",
+    "lat": 52.2268,
+    "lon": 21.0301,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-palace-of-culture-and-science",
+    "name": "Palace of Culture and Science",
+    "category": "landmarks",
+    "lat": 52.2365,
+    "lon": 21.0046,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-pawilony-nowy-swiat",
+    "name": "Pawilony Nowy Swiat",
+    "category": "nightlife",
+    "lat": 52.239,
+    "lon": 21.0015,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-pge-narodowy",
+    "name": "PGE Narodowy",
+    "category": "landmarks",
+    "lat": 52.2269,
+    "lon": 21.0012,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-plac-bankowy",
+    "name": "Plac Bankowy",
+    "category": "landmarks",
+    "lat": 52.2162,
+    "lon": 21.0287,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-plac-zbawiciela",
+    "name": "Plac Zbawiciela",
+    "category": "nightlife",
+    "lat": 52.2195,
+    "lon": 20.9957,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-polin-museum",
+    "name": "POLIN Museum",
+    "category": "museums",
+    "lat": 52.229,
+    "lon": 21.0214,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-powazki-cemetery",
+    "name": "Powazki Cemetery",
+    "category": "landmarks",
+    "lat": 52.2279,
+    "lon": 20.9979,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-praga-district",
+    "name": "Praga District",
+    "category": "nightlife",
+    "lat": 52.2299,
+    "lon": 20.9904,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-royal-castle",
+    "name": "Royal Castle",
+    "category": "landmarks",
+    "lat": 52.2304,
+    "lon": 20.9974,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-saxon-garden",
+    "name": "Saxon Garden",
+    "category": "nature",
+    "lat": 52.2187,
+    "lon": 20.9916,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-vistula-boulevards",
+    "name": "Vistula Boulevards",
+    "category": "nature",
+    "lat": 52.2362,
+    "lon": 21.0122,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-warsaw-barbican",
+    "name": "Warsaw Barbican",
+    "category": "landmarks",
+    "lat": 52.2152,
+    "lon": 21.0223,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-warsaw-river-beaches",
+    "name": "Warsaw River Beaches",
+    "category": "nature",
+    "lat": 52.2397,
+    "lon": 21.0044,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-warsaw-uprising-museum",
+    "name": "Warsaw Uprising Museum",
+    "category": "museums",
+    "lat": 52.2177,
+    "lon": 21.0069,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  },
+  {
+    "id": "city-warsaw-wilanow-palace",
+    "name": "Wilanow Palace",
+    "category": "landmarks",
+    "lat": 52.2179,
+    "lon": 21.0218,
+    "source": "static",
+    "countryCode": "PL",
+    "cityId": "warsaw"
+  }
+]

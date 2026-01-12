@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-be-grand-place-brussels",
+    "name": "Grand-Place Brussels",
+    "category": "landmarks",
+    "lat": 50.8467,
+    "lon": 4.3525,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-atomium",
+    "name": "Atomium",
+    "category": "landmarks",
+    "lat": 50.895,
+    "lon": 4.3416,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-bruges-canals",
+    "name": "Bruges Canals",
+    "category": "landmarks",
+    "lat": 51.2093,
+    "lon": 3.2247,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-belfry-of-bruges",
+    "name": "Belfry of Bruges",
+    "category": "landmarks",
+    "lat": 51.2089,
+    "lon": 3.2244,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-ghent-gravensteen-castle",
+    "name": "Ghent Gravensteen Castle",
+    "category": "landmarks",
+    "lat": 51.0574,
+    "lon": 3.7204,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-antwerp-cathedral-of-our-lady",
+    "name": "Antwerp Cathedral of Our Lady",
+    "category": "landmarks",
+    "lat": 51.22,
+    "lon": 4.3997,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-manneken-pis",
+    "name": "Manneken Pis",
+    "category": "landmarks",
+    "lat": 50.8449,
+    "lon": 4.3499,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-royal-palace-of-brussels",
+    "name": "Royal Palace of Brussels",
+    "category": "landmarks",
+    "lat": 50.8429,
+    "lon": 4.361,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-ardennes-forest",
+    "name": "Ardennes Forest",
+    "category": "nature",
+    "lat": 50.25,
+    "lon": 5.6,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-hoge-kempen-national-park",
+    "name": "Hoge Kempen National Park",
+    "category": "nature",
+    "lat": 51.0,
+    "lon": 5.6,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-dinant-citadel",
+    "name": "Dinant Citadel",
+    "category": "landmarks",
+    "lat": 50.26,
+    "lon": 4.912,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-waterloo-battlefield",
+    "name": "Waterloo Battlefield",
+    "category": "landmarks",
+    "lat": 50.6806,
+    "lon": 4.4066,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-magritte-museum",
+    "name": "Magritte Museum",
+    "category": "museums",
+    "lat": 50.845,
+    "lon": 4.355,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-mas-museum-antwerp",
+    "name": "MAS Museum Antwerp",
+    "category": "museums",
+    "lat": 51.2289,
+    "lon": 4.4041,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-royal-museums-of-fine-arts",
+    "name": "Royal Museums of Fine Arts",
+    "category": "museums",
+    "lat": 50.8428,
+    "lon": 4.3572,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-sablon-chocolate-district",
+    "name": "Sablon Chocolate District",
+    "category": "food",
+    "lat": 50.842,
+    "lon": 4.3557,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-frites-stand-place-jourdan",
+    "name": "Frites Stand (Place Jourdan)",
+    "category": "food",
+    "lat": 50.8379,
+    "lon": 4.3809,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-belgian-beer-cafe-delirium",
+    "name": "Belgian Beer Cafe Delirium",
+    "category": "food",
+    "lat": 50.8484,
+    "lon": 4.3527,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-fuse-club-brussels",
+    "name": "Fuse Club Brussels",
+    "category": "nightlife",
+    "lat": 50.8415,
+    "lon": 4.369,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-leuven-oude-markt",
+    "name": "Leuven Oude Markt",
+    "category": "nightlife",
+    "lat": 50.8798,
+    "lon": 4.7005,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-antwerp-het-eilandje-bars",
+    "name": "Antwerp Het Eilandje Bars",
+    "category": "nightlife",
+    "lat": 51.229,
+    "lon": 4.404,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-brussels-comic-strip-route",
+    "name": "Brussels Comic Strip Route",
+    "category": "other",
+    "lat": 50.848,
+    "lon": 4.3517,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-pairi-daiza",
+    "name": "Pairi Daiza",
+    "category": "other",
+    "lat": 50.581,
+    "lon": 3.901,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-ostend-beach-promenade",
+    "name": "Ostend Beach Promenade",
+    "category": "nature",
+    "lat": 51.231,
+    "lon": 2.912,
+    "source": "static",
+    "countryCode": "BE"
+  },
+  {
+    "id": "country-be-meuse-valley-viewpoints",
+    "name": "Meuse Valley Viewpoints",
+    "category": "nature",
+    "lat": 50.36,
+    "lon": 4.9,
+    "source": "static",
+    "countryCode": "BE"
+  }
+]

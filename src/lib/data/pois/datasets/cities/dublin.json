@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-dublin-aviva-stadium",
+    "name": "Aviva Stadium",
+    "category": "landmarks",
+    "lat": 53.3533,
+    "lon": -6.2375,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-christ-church-cathedral",
+    "name": "Christ Church Cathedral",
+    "category": "landmarks",
+    "lat": 53.3563,
+    "lon": -6.2578,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-croke-park",
+    "name": "Croke Park",
+    "category": "landmarks",
+    "lat": 53.3454,
+    "lon": -6.2444,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-dublin-castle",
+    "name": "Dublin Castle",
+    "category": "landmarks",
+    "lat": 53.3427,
+    "lon": -6.2707,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-epic-the-irish-emigration-museum",
+    "name": "EPIC The Irish Emigration Museum",
+    "category": "museums",
+    "lat": 53.3601,
+    "lon": -6.282,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-george-s-street-arcade",
+    "name": "George's Street Arcade",
+    "category": "food",
+    "lat": 53.3524,
+    "lon": -6.2523,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-grafton-street",
+    "name": "Grafton Street",
+    "category": "food",
+    "lat": 53.3549,
+    "lon": -6.2677,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-grand-canal-dock",
+    "name": "Grand Canal Dock",
+    "category": "nightlife",
+    "lat": 53.3504,
+    "lon": -6.2475,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-guinness-storehouse",
+    "name": "Guinness Storehouse",
+    "category": "museums",
+    "lat": 53.3382,
+    "lon": -6.2454,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-ha-penny-bridge",
+    "name": "Ha'penny Bridge",
+    "category": "landmarks",
+    "lat": 53.3382,
+    "lon": -6.2597,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-howth-cliff-walk",
+    "name": "Howth Cliff Walk",
+    "category": "nature",
+    "lat": 53.3624,
+    "lon": -6.2554,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-iveagh-gardens",
+    "name": "Iveagh Gardens",
+    "category": "nature",
+    "lat": 53.3406,
+    "lon": -6.2715,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-kilmainham-gaol",
+    "name": "Kilmainham Gaol",
+    "category": "museums",
+    "lat": 53.3618,
+    "lon": -6.2539,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-merrion-square",
+    "name": "Merrion Square",
+    "category": "nature",
+    "lat": 53.3377,
+    "lon": -6.2431,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-national-gallery-of-ireland",
+    "name": "National Gallery of Ireland",
+    "category": "museums",
+    "lat": 53.3429,
+    "lon": -6.2798,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-national-museum-of-ireland",
+    "name": "National Museum of Ireland",
+    "category": "museums",
+    "lat": 53.3436,
+    "lon": -6.2556,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-o-connell-street",
+    "name": "O'Connell Street",
+    "category": "landmarks",
+    "lat": 53.3598,
+    "lon": -6.2699,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-phoenix-park",
+    "name": "Phoenix Park",
+    "category": "nature",
+    "lat": 53.3349,
+    "lon": -6.2432,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-smithfield-square",
+    "name": "Smithfield Square",
+    "category": "nightlife",
+    "lat": 53.3466,
+    "lon": -6.2474,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-st-patrick-s-cathedral",
+    "name": "St Patrick's Cathedral",
+    "category": "landmarks",
+    "lat": 53.343,
+    "lon": -6.2685,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-st-stephen-s-green",
+    "name": "St. Stephen's Green",
+    "category": "nature",
+    "lat": 53.3565,
+    "lon": -6.2549,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-stoneybatter",
+    "name": "Stoneybatter",
+    "category": "food",
+    "lat": 53.3597,
+    "lon": -6.2779,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-temple-bar",
+    "name": "Temple Bar",
+    "category": "nightlife",
+    "lat": 53.3525,
+    "lon": -6.2497,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-the-brazen-head",
+    "name": "The Brazen Head",
+    "category": "nightlife",
+    "lat": 53.3531,
+    "lon": -6.2738,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  },
+  {
+    "id": "city-dublin-trinity-college-book-of-kells",
+    "name": "Trinity College & Book of Kells",
+    "category": "museums",
+    "lat": 53.3357,
+    "lon": -6.2617,
+    "source": "static",
+    "countryCode": "IE",
+    "cityId": "dublin"
+  }
+]

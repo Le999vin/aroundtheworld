@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-cape-town-bo-kaap",
+    "name": "Bo-Kaap",
+    "category": "landmarks",
+    "lat": -33.9189,
+    "lon": 18.4092,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-bree-street",
+    "name": "Bree Street",
+    "category": "food",
+    "lat": -33.9277,
+    "lon": 18.4135,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-camps-bay-beach",
+    "name": "Camps Bay Beach",
+    "category": "nature",
+    "lat": -33.9179,
+    "lon": 18.4278,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-cape-town-stadium",
+    "name": "Cape Town Stadium",
+    "category": "landmarks",
+    "lat": -33.9347,
+    "lon": 18.4399,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-chapman-s-peak-drive",
+    "name": "Chapman's Peak Drive",
+    "category": "nature",
+    "lat": -33.916,
+    "lon": 18.4328,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-clifton-beaches",
+    "name": "Clifton Beaches",
+    "category": "nature",
+    "lat": -33.908,
+    "lon": 18.4168,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-company-s-garden",
+    "name": "Company's Garden",
+    "category": "nature",
+    "lat": -33.9377,
+    "lon": 18.4092,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-district-six-museum",
+    "name": "District Six Museum",
+    "category": "museums",
+    "lat": -33.9394,
+    "lon": 18.4236,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-first-thursdays-art-walk",
+    "name": "First Thursdays Art Walk",
+    "category": "nightlife",
+    "lat": -33.9224,
+    "lon": 18.4433,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-greenmarket-square",
+    "name": "Greenmarket Square",
+    "category": "food",
+    "lat": -33.919,
+    "lon": 18.4342,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-hout-bay",
+    "name": "Hout Bay",
+    "category": "nature",
+    "lat": -33.9263,
+    "lon": 18.44,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-kirstenbosch-gardens",
+    "name": "Kirstenbosch Gardens",
+    "category": "nature",
+    "lat": -33.9356,
+    "lon": 18.415,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-kloof-street",
+    "name": "Kloof Street",
+    "category": "food",
+    "lat": -33.9218,
+    "lon": 18.4047,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-lion-s-head",
+    "name": "Lion's Head",
+    "category": "nature",
+    "lat": -33.9135,
+    "lon": 18.439,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-long-street",
+    "name": "Long Street",
+    "category": "nightlife",
+    "lat": -33.9231,
+    "lon": 18.4402,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-oranjezicht-city-farm-market",
+    "name": "Oranjezicht City Farm Market",
+    "category": "food",
+    "lat": -33.9235,
+    "lon": 18.4207,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-robben-island-ferry",
+    "name": "Robben Island Ferry",
+    "category": "museums",
+    "lat": -33.9213,
+    "lon": 18.4167,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-sea-point-promenade",
+    "name": "Sea Point Promenade",
+    "category": "nature",
+    "lat": -33.9388,
+    "lon": 18.4093,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-signal-hill",
+    "name": "Signal Hill",
+    "category": "nature",
+    "lat": -33.9418,
+    "lon": 18.4226,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-table-mountain",
+    "name": "Table Mountain",
+    "category": "nature",
+    "lat": -33.9262,
+    "lon": 18.4322,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-the-old-biscuit-mill",
+    "name": "The Old Biscuit Mill",
+    "category": "food",
+    "lat": -33.9348,
+    "lon": 18.4075,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-two-oceans-aquarium",
+    "name": "Two Oceans Aquarium",
+    "category": "museums",
+    "lat": -33.9306,
+    "lon": 18.4139,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-v-a-waterfront",
+    "name": "V&A Waterfront",
+    "category": "food",
+    "lat": -33.9157,
+    "lon": 18.4082,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-woodstock",
+    "name": "Woodstock",
+    "category": "food",
+    "lat": -33.9105,
+    "lon": 18.4107,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  },
+  {
+    "id": "city-cape-town-zeitz-mocaa",
+    "name": "Zeitz MOCAA",
+    "category": "museums",
+    "lat": -33.9154,
+    "lon": 18.4438,
+    "source": "static",
+    "countryCode": "ZA",
+    "cityId": "cape-town"
+  }
+]

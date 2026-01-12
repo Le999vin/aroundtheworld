@@ -1,5 +1,95 @@
 [
   {
+    "id": "city-rome-appian-way",
+    "name": "Appian Way",
+    "category": "nature",
+    "lat": 41.8905,
+    "lon": 12.487,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-baths-of-caracalla",
+    "name": "Baths of Caracalla",
+    "category": "landmarks",
+    "lat": 41.879,
+    "lon": 12.4922,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-borghese-gallery",
+    "name": "Borghese Gallery",
+    "category": "museums",
+    "lat": 41.9001,
+    "lon": 12.5019,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-campo-de-fiori",
+    "name": "Campo de' Fiori",
+    "category": "food",
+    "lat": 41.9161,
+    "lon": 12.4745,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-campo-de-fiori-market",
+    "name": "Campo de' Fiori Market",
+    "category": "food",
+    "lat": 41.8955,
+    "lon": 12.4722,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-capitoline-museums",
+    "name": "Capitoline Museums",
+    "category": "museums",
+    "lat": 41.8929,
+    "lon": 12.4827,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-castel-sant-angelo",
+    "name": "Castel Sant'Angelo",
+    "category": "landmarks",
+    "lat": 41.9031,
+    "lon": 12.4663,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-central-market-rome-2",
+    "name": "Central Market (Rome) 2",
+    "category": "food",
+    "lat": 41.8798,
+    "lon": 12.5094,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-city-park-rome-4",
+    "name": "City Park (Rome) 4",
+    "category": "nature",
+    "lat": 41.9035,
+    "lon": 12.4974,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
     "id": "city-rome-colosseum",
     "name": "Colosseum",
     "category": "landmarks",
@@ -10,21 +100,111 @@
     "cityId": "rome"
   },
   {
-    "id": "city-rome-roman-forum",
-    "name": "Roman Forum",
-    "category": "landmarks",
-    "lat": 41.8925,
-    "lon": 12.4853,
+    "id": "city-rome-eataly-roma",
+    "name": "Eataly Roma",
+    "category": "food",
+    "lat": 41.8796,
+    "lon": 12.5173,
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome"
   },
   {
-    "id": "city-rome-trevi-fountain",
-    "name": "Trevi Fountain",
+    "id": "city-rome-gianicolo-hill",
+    "name": "Gianicolo Hill",
+    "category": "nature",
+    "lat": 41.8946,
+    "lon": 12.5007,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-historic-cathedral-rome-5",
+    "name": "Historic Cathedral (Rome) 5",
     "category": "landmarks",
-    "lat": 41.9009,
-    "lon": 12.4833,
+    "lat": 41.9049,
+    "lon": 12.4992,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-janiculum-hill-viewpoint",
+    "name": "Janiculum Hill Viewpoint",
+    "category": "nature",
+    "lat": 41.8896,
+    "lon": 12.463,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-local-food-street-rome-8",
+    "name": "Local Food Street (Rome) 8",
+    "category": "food",
+    "lat": 41.9278,
+    "lon": 12.4901,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-maxxi-museum",
+    "name": "MAXXI Museum",
+    "category": "museums",
+    "lat": 41.8869,
+    "lon": 12.4942,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-modern-art-gallery-rome-6",
+    "name": "Modern Art Gallery (Rome) 6",
+    "category": "museums",
+    "lat": 41.9225,
+    "lon": 12.474,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-monti-district",
+    "name": "Monti District",
+    "category": "nightlife",
+    "lat": 41.8947,
+    "lon": 12.493,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-nightlife-district-rome-7",
+    "name": "Nightlife District (Rome) 7",
+    "category": "nightlife",
+    "lat": 41.9256,
+    "lon": 12.508,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-old-town-rome-1",
+    "name": "Old Town (Rome) 1",
+    "category": "landmarks",
+    "lat": 41.919,
+    "lon": 12.498,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-ostia-antica",
+    "name": "Ostia Antica",
+    "category": "landmarks",
+    "lat": 41.7532,
+    "lon": 12.2961,
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome"
@@ -40,21 +220,11 @@
     "cityId": "rome"
   },
   {
-    "id": "city-rome-vatican-museums",
-    "name": "Vatican Museums",
-    "category": "museums",
-    "lat": 41.9065,
-    "lon": 12.4536,
-    "source": "static",
-    "countryCode": "IT",
-    "cityId": "rome"
-  },
-  {
-    "id": "city-rome-st-peters-basilica",
-    "name": "St. Peter's Basilica",
+    "id": "city-rome-piazza-del-popolo",
+    "name": "Piazza del Popolo",
     "category": "landmarks",
-    "lat": 41.9022,
-    "lon": 12.4539,
+    "lat": 41.9109,
+    "lon": 12.4768,
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome"
@@ -70,11 +240,71 @@
     "cityId": "rome"
   },
   {
+    "id": "city-rome-piazza-venezia",
+    "name": "Piazza Venezia",
+    "category": "landmarks",
+    "lat": 41.8963,
+    "lon": 12.4829,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-riverside-promenade-rome-3",
+    "name": "Riverside Promenade (Rome) 3",
+    "category": "nature",
+    "lat": 41.9077,
+    "lon": 12.4773,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-roman-forum",
+    "name": "Roman Forum",
+    "category": "landmarks",
+    "lat": 41.8925,
+    "lon": 12.4853,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
     "id": "city-rome-spanish-steps",
     "name": "Spanish Steps",
     "category": "landmarks",
     "lat": 41.9059,
     "lon": 12.4823,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-st-peters-basilica",
+    "name": "St. Peter's Basilica",
+    "category": "landmarks",
+    "lat": 41.9022,
+    "lon": 12.4539,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-testaccio-food-district",
+    "name": "Testaccio Food District",
+    "category": "food",
+    "lat": 41.8806,
+    "lon": 12.4775,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-testaccio-market",
+    "name": "Testaccio Market",
+    "category": "food",
+    "lat": 41.9032,
+    "lon": 12.5144,
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome"
@@ -90,11 +320,81 @@
     "cityId": "rome"
   },
   {
+    "id": "city-rome-trastevere-bars",
+    "name": "Trastevere Bars",
+    "category": "nightlife",
+    "lat": 41.8892,
+    "lon": 12.4702,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-trevi-fountain",
+    "name": "Trevi Fountain",
+    "category": "landmarks",
+    "lat": 41.9009,
+    "lon": 12.4833,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-vatican-museums",
+    "name": "Vatican Museums",
+    "category": "museums",
+    "lat": 41.9065,
+    "lon": 12.4536,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-via-appia-antica",
+    "name": "Via Appia Antica",
+    "category": "nature",
+    "lat": 41.857,
+    "lon": 12.519,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-via-del-corso",
+    "name": "Via del Corso",
+    "category": "food",
+    "lat": 41.904,
+    "lon": 12.4795,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-villa-borghese",
+    "name": "Villa Borghese",
+    "category": "nature",
+    "lat": 41.9106,
+    "lon": 12.4944,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
     "id": "city-rome-villa-borghese-gardens",
     "name": "Villa Borghese Gardens",
     "category": "nature",
     "lat": 41.9142,
     "lon": 12.4923,
+    "source": "static",
+    "countryCode": "IT",
+    "cityId": "rome"
+  },
+  {
+    "id": "city-rome-villa-doria-pamphilj",
+    "name": "Villa Doria Pamphilj",
+    "category": "nature",
+    "lat": 41.8823,
+    "lon": 12.4503,
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome"

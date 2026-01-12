@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-hr-dubrovnik-old-town",
+    "name": "Dubrovnik Old Town",
+    "category": "landmarks",
+    "lat": 42.6409,
+    "lon": 18.1086,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-city-walls-of-dubrovnik",
+    "name": "City Walls of Dubrovnik",
+    "category": "landmarks",
+    "lat": 42.6412,
+    "lon": 18.109,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-split-diocletians-palace",
+    "name": "Split Diocletian's Palace",
+    "category": "landmarks",
+    "lat": 43.5081,
+    "lon": 16.4402,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-hvar-town",
+    "name": "Hvar Town",
+    "category": "landmarks",
+    "lat": 43.1729,
+    "lon": 16.4425,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-zagreb-upper-town",
+    "name": "Zagreb Upper Town",
+    "category": "landmarks",
+    "lat": 45.815,
+    "lon": 15.975,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-plitvice-lakes-national-park",
+    "name": "Plitvice Lakes National Park",
+    "category": "nature",
+    "lat": 44.8802,
+    "lon": 15.6164,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-krka-national-park",
+    "name": "Krka National Park",
+    "category": "nature",
+    "lat": 43.801,
+    "lon": 15.972,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-istria-rovinj-old-town",
+    "name": "Istria Rovinj Old Town",
+    "category": "landmarks",
+    "lat": 45.0812,
+    "lon": 13.6387,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-pula-arena",
+    "name": "Pula Arena",
+    "category": "landmarks",
+    "lat": 44.873,
+    "lon": 13.8496,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-zadar-sea-organ",
+    "name": "Zadar Sea Organ",
+    "category": "other",
+    "lat": 44.1194,
+    "lon": 15.2314,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-korcula-old-town",
+    "name": "Korcula Old Town",
+    "category": "landmarks",
+    "lat": 42.959,
+    "lon": 17.135,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-brijuni-national-park",
+    "name": "Brijuni National Park",
+    "category": "nature",
+    "lat": 44.913,
+    "lon": 13.767,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-paklenica-national-park",
+    "name": "Paklenica National Park",
+    "category": "nature",
+    "lat": 44.3,
+    "lon": 15.45,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-mljet-national-park",
+    "name": "Mljet National Park",
+    "category": "nature",
+    "lat": 42.744,
+    "lon": 17.535,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-museum-of-broken-relationships",
+    "name": "Museum of Broken Relationships",
+    "category": "museums",
+    "lat": 45.814,
+    "lon": 15.974,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-dubrovnik-city-museum",
+    "name": "Dubrovnik City Museum",
+    "category": "museums",
+    "lat": 42.6409,
+    "lon": 18.11,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-zagreb-dolac-market",
+    "name": "Zagreb Dolac Market",
+    "category": "food",
+    "lat": 45.8144,
+    "lon": 15.977,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-split-green-market-pazar",
+    "name": "Split Green Market (Pazar)",
+    "category": "food",
+    "lat": 43.508,
+    "lon": 16.441,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-istrian-truffle-region-motovun",
+    "name": "Istrian Truffle Region Motovun",
+    "category": "food",
+    "lat": 45.337,
+    "lon": 13.829,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-carpe-diem-beach-club-hvar",
+    "name": "Carpe Diem Beach Club Hvar",
+    "category": "nightlife",
+    "lat": 43.176,
+    "lon": 16.453,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-central-club-split",
+    "name": "Central Club Split",
+    "category": "nightlife",
+    "lat": 43.509,
+    "lon": 16.439,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-dubrovnik-old-port-bars",
+    "name": "Dubrovnik Old Port Bars",
+    "category": "nightlife",
+    "lat": 42.641,
+    "lon": 18.11,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-makarska-riviera-beaches",
+    "name": "Makarska Riviera Beaches",
+    "category": "nature",
+    "lat": 43.3,
+    "lon": 17.02,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-trogir-old-town",
+    "name": "Trogir Old Town",
+    "category": "landmarks",
+    "lat": 43.517,
+    "lon": 16.251,
+    "source": "static",
+    "countryCode": "HR"
+  },
+  {
+    "id": "country-hr-opatija-seafront",
+    "name": "Opatija Seafront",
+    "category": "nature",
+    "lat": 45.337,
+    "lon": 14.305,
+    "source": "static",
+    "countryCode": "HR"
+  }
+]

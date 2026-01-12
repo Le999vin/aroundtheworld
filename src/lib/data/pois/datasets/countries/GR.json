@@ -88,5 +88,140 @@
     "lon": 23.725,
     "source": "static",
     "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-plaka-athens",
+    "name": "Plaka (Athens)",
+    "category": "food",
+    "lat": 37.973,
+    "lon": 23.7285,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-syntagma-square",
+    "name": "Syntagma Square",
+    "category": "landmarks",
+    "lat": 37.9755,
+    "lon": 23.7347,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-rhodes-old-town",
+    "name": "Rhodes Old Town",
+    "category": "landmarks",
+    "lat": 36.4467,
+    "lon": 28.227,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-corfu-old-town",
+    "name": "Corfu Old Town",
+    "category": "landmarks",
+    "lat": 39.6243,
+    "lon": 19.9217,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-naxos-chora",
+    "name": "Naxos Chora",
+    "category": "nature",
+    "lat": 37.1045,
+    "lon": 25.3773,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-laganas-strip-zakynthos",
+    "name": "Laganas Strip (Zakynthos)",
+    "category": "nightlife",
+    "lat": 37.728,
+    "lon": 20.868,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-elafonissi-beach-crete",
+    "name": "Elafonissi Beach (Crete)",
+    "category": "nature",
+    "lat": 35.2715,
+    "lon": 23.5413,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-ladadika-thessaloniki",
+    "name": "Ladadika (Thessaloniki)",
+    "category": "nightlife",
+    "lat": 40.633,
+    "lon": 22.936,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-mount-olympus-litochoro",
+    "name": "Mount Olympus (Litochoro)",
+    "category": "nature",
+    "lat": 40.1,
+    "lon": 22.497,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-hydra-port",
+    "name": "Hydra Port",
+    "category": "landmarks",
+    "lat": 37.3495,
+    "lon": 23.465,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-nafplio-old-town",
+    "name": "Nafplio Old Town",
+    "category": "landmarks",
+    "lat": 37.5686,
+    "lon": 22.8062,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-athens-central-market",
+    "name": "Athens Central Market",
+    "category": "food",
+    "lat": 37.9802,
+    "lon": 23.7266,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-ancient-agora-athens",
+    "name": "Ancient Agora (Athens)",
+    "category": "landmarks",
+    "lat": 37.9755,
+    "lon": 23.7218,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-mykonos-beach-clubs-paradise-beach",
+    "name": "Mykonos Beach Clubs (Paradise Beach)",
+    "category": "nightlife",
+    "lat": 37.4012,
+    "lon": 25.3477,
+    "source": "static",
+    "countryCode": "GR"
+  },
+  {
+    "id": "country-gr-piraeus-port-marina-zeas",
+    "name": "Piraeus Port & Marina Zeas",
+    "category": "food",
+    "lat": 37.94,
+    "lon": 23.647,
+    "source": "static",
+    "countryCode": "GR"
   }
 ]

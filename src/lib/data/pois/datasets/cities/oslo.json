@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-oslo-aker-brygge",
+    "name": "Aker Brygge",
+    "category": "food",
+    "lat": 59.9088,
+    "lon": 10.729,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-akerselva-river-walk",
+    "name": "Akerselva River Walk",
+    "category": "nature",
+    "lat": 59.9118,
+    "lon": 10.7573,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-akershus-fortress",
+    "name": "Akershus Fortress",
+    "category": "landmarks",
+    "lat": 59.9103,
+    "lon": 10.737,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-barcode-project",
+    "name": "Barcode Project",
+    "category": "landmarks",
+    "lat": 59.9088,
+    "lon": 10.7544,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-bygdoy-peninsula",
+    "name": "Bygdoy Peninsula",
+    "category": "nature",
+    "lat": 59.9033,
+    "lon": 10.7504,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-damstredet",
+    "name": "Damstredet",
+    "category": "landmarks",
+    "lat": 59.9273,
+    "lon": 10.7391,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-ekebergparken",
+    "name": "Ekebergparken",
+    "category": "nature",
+    "lat": 59.9076,
+    "lon": 10.7387,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-fram-museum",
+    "name": "Fram Museum",
+    "category": "museums",
+    "lat": 59.8996,
+    "lon": 10.7737,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-frogner-park",
+    "name": "Frogner Park",
+    "category": "nature",
+    "lat": 59.9078,
+    "lon": 10.7622,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-grunerlokka",
+    "name": "Grunerlokka",
+    "category": "nightlife",
+    "lat": 59.9195,
+    "lon": 10.7422,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-holmenkollen-ski-jump",
+    "name": "Holmenkollen Ski Jump",
+    "category": "landmarks",
+    "lat": 59.9179,
+    "lon": 10.7705,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-karl-johans-gate",
+    "name": "Karl Johans gate",
+    "category": "food",
+    "lat": 59.9057,
+    "lon": 10.764,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-mathallen-oslo",
+    "name": "Mathallen Oslo",
+    "category": "food",
+    "lat": 59.9025,
+    "lon": 10.7706,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-munch-museum",
+    "name": "Munch Museum",
+    "category": "museums",
+    "lat": 59.9155,
+    "lon": 10.7272,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-national-museum-oslo",
+    "name": "National Museum Oslo",
+    "category": "museums",
+    "lat": 59.9054,
+    "lon": 10.7274,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-nobel-peace-center",
+    "name": "Nobel Peace Center",
+    "category": "museums",
+    "lat": 59.9202,
+    "lon": 10.779,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-norwegian-folk-museum",
+    "name": "Norwegian Folk Museum",
+    "category": "museums",
+    "lat": 59.915,
+    "lon": 10.7263,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-oslo-opera-house",
+    "name": "Oslo Opera House",
+    "category": "landmarks",
+    "lat": 59.9184,
+    "lon": 10.7254,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-oslo-street-food",
+    "name": "Oslo Street Food",
+    "category": "food",
+    "lat": 59.9178,
+    "lon": 10.7467,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-oslofjord-islands-ferry",
+    "name": "Oslofjord Islands Ferry",
+    "category": "nature",
+    "lat": 59.9094,
+    "lon": 10.7479,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-sorenga-seawater-pool",
+    "name": "Sorenga Seawater Pool",
+    "category": "nature",
+    "lat": 59.8997,
+    "lon": 10.7444,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-tjuvholmen",
+    "name": "Tjuvholmen",
+    "category": "food",
+    "lat": 59.9257,
+    "lon": 10.7512,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-torggata-bars",
+    "name": "Torggata Bars",
+    "category": "nightlife",
+    "lat": 59.9282,
+    "lon": 10.7816,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-vigeland-sculpture-park",
+    "name": "Vigeland Sculpture Park",
+    "category": "nature",
+    "lat": 59.9072,
+    "lon": 10.7267,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  },
+  {
+    "id": "city-oslo-vulkan-area",
+    "name": "Vulkan Area",
+    "category": "nightlife",
+    "lat": 59.9133,
+    "lon": 10.7431,
+    "source": "static",
+    "countryCode": "NO",
+    "cityId": "oslo"
+  }
+]

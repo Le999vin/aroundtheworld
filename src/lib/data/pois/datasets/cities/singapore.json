@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-singapore-artscience-museum",
+    "name": "ArtScience Museum",
+    "category": "museums",
+    "lat": 1.3409,
+    "lon": 103.8067,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-boat-quay",
+    "name": "Boat Quay",
+    "category": "nightlife",
+    "lat": 1.3352,
+    "lon": 103.82,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-chinatown",
+    "name": "Chinatown",
+    "category": "food",
+    "lat": 1.3395,
+    "lon": 103.8081,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-clarke-quay",
+    "name": "Clarke Quay",
+    "category": "nightlife",
+    "lat": 1.3617,
+    "lon": 103.8189,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-east-coast-park",
+    "name": "East Coast Park",
+    "category": "nature",
+    "lat": 1.3582,
+    "lon": 103.8223,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-esplanade",
+    "name": "Esplanade",
+    "category": "landmarks",
+    "lat": 1.368,
+    "lon": 103.8284,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-gardens-by-the-bay",
+    "name": "Gardens by the Bay",
+    "category": "nature",
+    "lat": 1.3378,
+    "lon": 103.8088,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-haji-lane",
+    "name": "Haji Lane",
+    "category": "nightlife",
+    "lat": 1.3359,
+    "lon": 103.8115,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-jewel-changi",
+    "name": "Jewel Changi",
+    "category": "landmarks",
+    "lat": 1.3376,
+    "lon": 103.8166,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-kampong-glam",
+    "name": "Kampong Glam",
+    "category": "food",
+    "lat": 1.3448,
+    "lon": 103.8129,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-lau-pa-sat",
+    "name": "Lau Pa Sat",
+    "category": "food",
+    "lat": 1.337,
+    "lon": 103.8355,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-little-india",
+    "name": "Little India",
+    "category": "food",
+    "lat": 1.3587,
+    "lon": 103.8056,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-marina-bay-sands",
+    "name": "Marina Bay Sands",
+    "category": "landmarks",
+    "lat": 1.3671,
+    "lon": 103.8036,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-marina-bay-waterfront-promenade",
+    "name": "Marina Bay Waterfront Promenade",
+    "category": "nature",
+    "lat": 1.3506,
+    "lon": 103.8291,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-maxwell-food-centre",
+    "name": "Maxwell Food Centre",
+    "category": "food",
+    "lat": 1.3541,
+    "lon": 103.8031,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-merlion-park",
+    "name": "Merlion Park",
+    "category": "landmarks",
+    "lat": 1.3404,
+    "lon": 103.8096,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-national-gallery-singapore",
+    "name": "National Gallery Singapore",
+    "category": "museums",
+    "lat": 1.3642,
+    "lon": 103.8096,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-orchard-road",
+    "name": "Orchard Road",
+    "category": "food",
+    "lat": 1.367,
+    "lon": 103.8327,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-sentosa-island",
+    "name": "Sentosa Island",
+    "category": "nature",
+    "lat": 1.3428,
+    "lon": 103.8031,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-singapore-botanic-gardens",
+    "name": "Singapore Botanic Gardens",
+    "category": "nature",
+    "lat": 1.354,
+    "lon": 103.8309,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-singapore-flyer",
+    "name": "Singapore Flyer",
+    "category": "landmarks",
+    "lat": 1.3496,
+    "lon": 103.8249,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-supertree-grove",
+    "name": "Supertree Grove",
+    "category": "nature",
+    "lat": 1.3409,
+    "lon": 103.8259,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-tiong-bahru",
+    "name": "Tiong Bahru",
+    "category": "food",
+    "lat": 1.3376,
+    "lon": 103.8301,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-universal-studios-singapore",
+    "name": "Universal Studios Singapore",
+    "category": "other",
+    "lat": 1.3652,
+    "lon": 103.834,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  },
+  {
+    "id": "city-singapore-zouk-singapore",
+    "name": "Zouk Singapore",
+    "category": "nightlife",
+    "lat": 1.365,
+    "lon": 103.8254,
+    "source": "static",
+    "countryCode": "SG",
+    "cityId": "singapore"
+  }
+]

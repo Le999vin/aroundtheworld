@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-br-christ-the-redeemer",
+    "name": "Christ the Redeemer",
+    "category": "landmarks",
+    "lat": -22.9519,
+    "lon": -43.2105,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-sugarloaf-mountain",
+    "name": "Sugarloaf Mountain",
+    "category": "nature",
+    "lat": -22.9486,
+    "lon": -43.1566,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-copacabana-beach",
+    "name": "Copacabana Beach",
+    "category": "nature",
+    "lat": -22.9711,
+    "lon": -43.1822,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-ipanema-beach",
+    "name": "Ipanema Beach",
+    "category": "nature",
+    "lat": -22.9846,
+    "lon": -43.2048,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-iguazu-falls",
+    "name": "Iguazu Falls",
+    "category": "nature",
+    "lat": -25.6953,
+    "lon": -54.4367,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-amazon-theatre-manaus",
+    "name": "Amazon Theatre Manaus",
+    "category": "landmarks",
+    "lat": -3.13,
+    "lon": -60.023,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-amazon-rainforest-gateway-manaus",
+    "name": "Amazon Rainforest Gateway Manaus",
+    "category": "nature",
+    "lat": -3.119,
+    "lon": -60.0217,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-salvador-pelourinho",
+    "name": "Salvador Pelourinho",
+    "category": "landmarks",
+    "lat": -12.9718,
+    "lon": -38.5011,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-brasilia-cathedral",
+    "name": "Brasilia Cathedral",
+    "category": "landmarks",
+    "lat": -15.7982,
+    "lon": -47.875,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-sao-paulo-paulista-avenue",
+    "name": "Sao Paulo Paulista Avenue",
+    "category": "landmarks",
+    "lat": -23.5614,
+    "lon": -46.6559,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-rio-lapa-arches",
+    "name": "Rio Lapa Arches",
+    "category": "landmarks",
+    "lat": -22.9136,
+    "lon": -43.1816,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-fernando-de-noronha",
+    "name": "Fernando de Noronha",
+    "category": "nature",
+    "lat": -3.854,
+    "lon": -32.429,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-len-is-maranhenses",
+    "name": "Lençóis Maranhenses",
+    "category": "nature",
+    "lat": -2.53,
+    "lon": -43.129,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-pantanal-wetlands",
+    "name": "Pantanal Wetlands",
+    "category": "nature",
+    "lat": -16.5,
+    "lon": -56.7,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-ouro-preto-historic-center",
+    "name": "Ouro Preto Historic Center",
+    "category": "landmarks",
+    "lat": -20.385,
+    "lon": -43.503,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-masp-sao-paulo",
+    "name": "MASP Sao Paulo",
+    "category": "museums",
+    "lat": -23.5614,
+    "lon": -46.6559,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-museum-of-tomorrow-rio",
+    "name": "Museum of Tomorrow Rio",
+    "category": "museums",
+    "lat": -22.894,
+    "lon": -43.18,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-inhotim-contemporary-art-museum",
+    "name": "Inhotim Contemporary Art Museum",
+    "category": "museums",
+    "lat": -20.125,
+    "lon": -44.219,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-mercado-municipal-sao-paulo",
+    "name": "Mercado Municipal Sao Paulo",
+    "category": "food",
+    "lat": -23.541,
+    "lon": -46.628,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-rio-street-food-copacabana",
+    "name": "Rio Street Food (Copacabana)",
+    "category": "food",
+    "lat": -22.9711,
+    "lon": -43.1822,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-salvador-seafood-market",
+    "name": "Salvador Seafood Market",
+    "category": "food",
+    "lat": -12.9718,
+    "lon": -38.5011,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-lapa-nightlife-rio",
+    "name": "Lapa Nightlife Rio",
+    "category": "nightlife",
+    "lat": -22.9136,
+    "lon": -43.1816,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-vila-madalena-sao-paulo",
+    "name": "Vila Madalena Sao Paulo",
+    "category": "nightlife",
+    "lat": -23.556,
+    "lon": -46.691,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-belo-horizonte-nightlife-savassi",
+    "name": "Belo Horizonte Nightlife Savassi",
+    "category": "nightlife",
+    "lat": -19.937,
+    "lon": -43.938,
+    "source": "static",
+    "countryCode": "BR"
+  },
+  {
+    "id": "country-br-chapada-diamantina",
+    "name": "Chapada Diamantina",
+    "category": "nature",
+    "lat": -12.9,
+    "lon": -41.4,
+    "source": "static",
+    "countryCode": "BR"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-zagreb-art-pavilion",
+    "name": "Art Pavilion",
+    "category": "museums",
+    "lat": 45.7992,
+    "lon": 15.9634,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-ban-jelacic-square",
+    "name": "Ban Jelacic Square",
+    "category": "landmarks",
+    "lat": 45.8318,
+    "lon": 15.987,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-branimirova-street-art",
+    "name": "Branimirova Street Art",
+    "category": "other",
+    "lat": 45.8207,
+    "lon": 15.9873,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-britanski-trg",
+    "name": "Britanski Trg",
+    "category": "food",
+    "lat": 45.815,
+    "lon": 15.9666,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-croatian-national-theatre",
+    "name": "Croatian National Theatre",
+    "category": "landmarks",
+    "lat": 45.8076,
+    "lon": 15.9821,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-cvjetni-square",
+    "name": "Cvjetni Square",
+    "category": "food",
+    "lat": 45.8116,
+    "lon": 15.9654,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-dolac-market",
+    "name": "Dolac Market",
+    "category": "food",
+    "lat": 45.8186,
+    "lon": 16.0013,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-jarun-lake",
+    "name": "Jarun Lake",
+    "category": "nature",
+    "lat": 45.8059,
+    "lon": 15.9855,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-kaptol-district",
+    "name": "Kaptol District",
+    "category": "food",
+    "lat": 45.8068,
+    "lon": 15.9936,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-lotrscak-tower",
+    "name": "Lotrscak Tower",
+    "category": "landmarks",
+    "lat": 45.8324,
+    "lon": 15.9876,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-maksimir-park",
+    "name": "Maksimir Park",
+    "category": "nature",
+    "lat": 45.8305,
+    "lon": 15.9874,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-medvednica-sljeme",
+    "name": "Medvednica / Sljeme",
+    "category": "nature",
+    "lat": 45.8153,
+    "lon": 15.9978,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-mimara-museum",
+    "name": "Mimara Museum",
+    "category": "museums",
+    "lat": 45.8044,
+    "lon": 15.9584,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-mirogoj-cemetery",
+    "name": "Mirogoj Cemetery",
+    "category": "landmarks",
+    "lat": 45.8313,
+    "lon": 15.9993,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-museum-of-broken-relationships",
+    "name": "Museum of Broken Relationships",
+    "category": "museums",
+    "lat": 45.8158,
+    "lon": 16.0014,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-park-ribnjak",
+    "name": "Park Ribnjak",
+    "category": "nature",
+    "lat": 45.8031,
+    "lon": 15.9788,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-stone-gate",
+    "name": "Stone Gate",
+    "category": "landmarks",
+    "lat": 45.8053,
+    "lon": 15.9577,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-tkalca-nightlife",
+    "name": "Tkalca Nightlife",
+    "category": "nightlife",
+    "lat": 45.8109,
+    "lon": 16.0068,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-tkalciceva-street",
+    "name": "Tkalciceva Street",
+    "category": "food",
+    "lat": 45.8213,
+    "lon": 15.9685,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-upper-town-gornji-grad",
+    "name": "Upper Town (Gornji Grad)",
+    "category": "landmarks",
+    "lat": 45.8212,
+    "lon": 15.97,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-vintage-industrial-bar",
+    "name": "Vintage Industrial Bar",
+    "category": "nightlife",
+    "lat": 45.8007,
+    "lon": 15.9843,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-zagreb-360-viewpoint",
+    "name": "Zagreb 360 Viewpoint",
+    "category": "landmarks",
+    "lat": 45.8047,
+    "lon": 15.9882,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-zagreb-botanical-garden",
+    "name": "Zagreb Botanical Garden",
+    "category": "nature",
+    "lat": 45.8247,
+    "lon": 16.0042,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-zagreb-cathedral",
+    "name": "Zagreb Cathedral",
+    "category": "landmarks",
+    "lat": 45.8319,
+    "lon": 15.9991,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  },
+  {
+    "id": "city-zagreb-zrinjevac-park",
+    "name": "Zrinjevac Park",
+    "category": "nature",
+    "lat": 45.827,
+    "lon": 15.9642,
+    "source": "static",
+    "countryCode": "HR",
+    "cityId": "zagreb"
+  }
+]

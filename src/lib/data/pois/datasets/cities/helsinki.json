@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-helsinki-allas-sea-pool",
+    "name": "Allas Sea Pool",
+    "category": "nature",
+    "lat": 60.1795,
+    "lon": 24.9645,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-ateneum-art-museum",
+    "name": "Ateneum Art Museum",
+    "category": "museums",
+    "lat": 60.1703,
+    "lon": 24.9094,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-design-district",
+    "name": "Design District",
+    "category": "food",
+    "lat": 60.1806,
+    "lon": 24.9589,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-esplanadi-park",
+    "name": "Esplanadi Park",
+    "category": "nature",
+    "lat": 60.1823,
+    "lon": 24.9468,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-hakaniemi-market-hall",
+    "name": "Hakaniemi Market Hall",
+    "category": "food",
+    "lat": 60.1795,
+    "lon": 24.9331,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-helsinki-cathedral",
+    "name": "Helsinki Cathedral",
+    "category": "landmarks",
+    "lat": 60.1603,
+    "lon": 24.9639,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-helsinki-central-station",
+    "name": "Helsinki Central Station",
+    "category": "landmarks",
+    "lat": 60.1813,
+    "lon": 24.9517,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-hietaniemi-beach",
+    "name": "Hietaniemi Beach",
+    "category": "nature",
+    "lat": 60.1674,
+    "lon": 24.9406,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-kaivopuisto-park",
+    "name": "Kaivopuisto Park",
+    "category": "nature",
+    "lat": 60.1702,
+    "lon": 24.9132,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-kallio",
+    "name": "Kallio",
+    "category": "nightlife",
+    "lat": 60.1771,
+    "lon": 24.9366,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-kamppi-chapel",
+    "name": "Kamppi Chapel",
+    "category": "landmarks",
+    "lat": 60.1739,
+    "lon": 24.952,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-kiasma-museum",
+    "name": "Kiasma Museum",
+    "category": "museums",
+    "lat": 60.1772,
+    "lon": 24.9393,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-linnanmaki",
+    "name": "Linnanmaki",
+    "category": "other",
+    "lat": 60.1652,
+    "lon": 24.9425,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-lonna-island",
+    "name": "Lonna Island",
+    "category": "nature",
+    "lat": 60.1569,
+    "lon": 24.9376,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-loyly-sauna",
+    "name": "Loyly Sauna",
+    "category": "nightlife",
+    "lat": 60.1819,
+    "lon": 24.9199,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-market-square",
+    "name": "Market Square",
+    "category": "food",
+    "lat": 60.1754,
+    "lon": 24.9214,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-old-market-hall",
+    "name": "Old Market Hall",
+    "category": "food",
+    "lat": 60.1604,
+    "lon": 24.9397,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-oodi-library",
+    "name": "Oodi Library",
+    "category": "other",
+    "lat": 60.1765,
+    "lon": 24.9623,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-punavuori",
+    "name": "Punavuori",
+    "category": "food",
+    "lat": 60.1822,
+    "lon": 24.9125,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-senate-square",
+    "name": "Senate Square",
+    "category": "landmarks",
+    "lat": 60.1695,
+    "lon": 24.9661,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-seurasaari-open-air-museum",
+    "name": "Seurasaari Open-Air Museum",
+    "category": "museums",
+    "lat": 60.1562,
+    "lon": 24.9594,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-sibelius-monument",
+    "name": "Sibelius Monument",
+    "category": "landmarks",
+    "lat": 60.173,
+    "lon": 24.9334,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-sornainen",
+    "name": "Sornainen",
+    "category": "nightlife",
+    "lat": 60.1578,
+    "lon": 24.9586,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-suomenlinna-sea-fortress",
+    "name": "Suomenlinna Sea Fortress",
+    "category": "landmarks",
+    "lat": 60.1618,
+    "lon": 24.9145,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  },
+  {
+    "id": "city-helsinki-temppeliaukio-church",
+    "name": "Temppeliaukio Church",
+    "category": "landmarks",
+    "lat": 60.1794,
+    "lon": 24.9505,
+    "source": "static",
+    "countryCode": "FI",
+    "cityId": "helsinki"
+  }
+]

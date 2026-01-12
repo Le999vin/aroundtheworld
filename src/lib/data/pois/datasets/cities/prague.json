@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-prague-andel",
+    "name": "Andel",
+    "category": "food",
+    "lat": 50.0854,
+    "lon": 14.455,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-astronomical-clock",
+    "name": "Astronomical Clock",
+    "category": "landmarks",
+    "lat": 50.0806,
+    "lon": 14.4416,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-charles-bridge",
+    "name": "Charles Bridge",
+    "category": "landmarks",
+    "lat": 50.0884,
+    "lon": 14.4269,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-dancing-house",
+    "name": "Dancing House",
+    "category": "landmarks",
+    "lat": 50.077,
+    "lon": 14.4205,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-havelske-market",
+    "name": "Havelske Market",
+    "category": "food",
+    "lat": 50.0633,
+    "lon": 14.4475,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-jewish-quarter",
+    "name": "Jewish Quarter",
+    "category": "museums",
+    "lat": 50.0842,
+    "lon": 14.4361,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-kampa-island",
+    "name": "Kampa Island",
+    "category": "nature",
+    "lat": 50.0811,
+    "lon": 14.4216,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-lennon-wall",
+    "name": "Lennon Wall",
+    "category": "landmarks",
+    "lat": 50.0655,
+    "lon": 14.4154,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-letna-park-viewpoint",
+    "name": "Letna Park Viewpoint",
+    "category": "nature",
+    "lat": 50.0823,
+    "lon": 14.452,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-mala-strana",
+    "name": "Mala Strana",
+    "category": "food",
+    "lat": 50.0676,
+    "lon": 14.4534,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-municipal-house",
+    "name": "Municipal House",
+    "category": "landmarks",
+    "lat": 50.0808,
+    "lon": 14.4506,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-naplavka-riverfront",
+    "name": "Naplavka Riverfront",
+    "category": "food",
+    "lat": 50.074,
+    "lon": 14.4362,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-national-museum-prague",
+    "name": "National Museum Prague",
+    "category": "museums",
+    "lat": 50.0866,
+    "lon": 14.4541,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-old-town-pubs",
+    "name": "Old Town Pubs",
+    "category": "nightlife",
+    "lat": 50.0667,
+    "lon": 14.4417,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-old-town-square",
+    "name": "Old Town Square",
+    "category": "landmarks",
+    "lat": 50.089,
+    "lon": 14.4285,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-petrin-hill-tower",
+    "name": "Petrin Hill & Tower",
+    "category": "nature",
+    "lat": 50.0619,
+    "lon": 14.4399,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-prague-beer-gardens",
+    "name": "Prague Beer Gardens",
+    "category": "nightlife",
+    "lat": 50.0743,
+    "lon": 14.4412,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-prague-castle",
+    "name": "Prague Castle",
+    "category": "landmarks",
+    "lat": 50.0783,
+    "lon": 14.4228,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-rudolfinum",
+    "name": "Rudolfinum",
+    "category": "museums",
+    "lat": 50.0854,
+    "lon": 14.4211,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-st-vitus-cathedral",
+    "name": "St. Vitus Cathedral",
+    "category": "landmarks",
+    "lat": 50.0872,
+    "lon": 14.4455,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-strahov-library",
+    "name": "Strahov Library",
+    "category": "museums",
+    "lat": 50.0622,
+    "lon": 14.46,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-stromovka-park",
+    "name": "Stromovka Park",
+    "category": "nature",
+    "lat": 50.089,
+    "lon": 14.4299,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-vysehrad",
+    "name": "Vysehrad",
+    "category": "landmarks",
+    "lat": 50.0819,
+    "lon": 14.4206,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-wenceslas-square",
+    "name": "Wenceslas Square",
+    "category": "landmarks",
+    "lat": 50.0648,
+    "lon": 14.418,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  },
+  {
+    "id": "city-prague-zizkov-bars",
+    "name": "Zizkov Bars",
+    "category": "nightlife",
+    "lat": 50.0658,
+    "lon": 14.4317,
+    "source": "static",
+    "countryCode": "CZ",
+    "cityId": "prague"
+  }
+]

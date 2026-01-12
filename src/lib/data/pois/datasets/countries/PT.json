@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-pt-lisbon-alfama",
+    "name": "Lisbon Alfama",
+    "category": "landmarks",
+    "lat": 38.712,
+    "lon": -9.13,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-belem-tower",
+    "name": "Belem Tower",
+    "category": "landmarks",
+    "lat": 38.6916,
+    "lon": -9.2165,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-jer-nimos-monastery",
+    "name": "Jerónimos Monastery",
+    "category": "museums",
+    "lat": 38.6977,
+    "lon": -9.2066,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-porto-ribeira",
+    "name": "Porto Ribeira",
+    "category": "landmarks",
+    "lat": 41.1406,
+    "lon": -8.611,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-dom-luis-i-bridge",
+    "name": "Dom Luis I Bridge",
+    "category": "landmarks",
+    "lat": 41.1402,
+    "lon": -8.6113,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-sintra-pena-palace",
+    "name": "Sintra Pena Palace",
+    "category": "landmarks",
+    "lat": 38.7879,
+    "lon": -9.3906,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-quinta-da-regaleira",
+    "name": "Quinta da Regaleira",
+    "category": "landmarks",
+    "lat": 38.7973,
+    "lon": -9.394,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-douro-valley",
+    "name": "Douro Valley",
+    "category": "nature",
+    "lat": 41.156,
+    "lon": -7.811,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-madeira-funchal-viewpoints",
+    "name": "Madeira Funchal Viewpoints",
+    "category": "nature",
+    "lat": 32.6669,
+    "lon": -16.9241,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-azores-sete-cidades",
+    "name": "Azores Sete Cidades",
+    "category": "nature",
+    "lat": 37.865,
+    "lon": -25.787,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-benagil-cave",
+    "name": "Benagil Cave",
+    "category": "nature",
+    "lat": 37.0902,
+    "lon": -8.4233,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-praia-da-marinha",
+    "name": "Praia da Marinha",
+    "category": "nature",
+    "lat": 37.09,
+    "lon": -8.409,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-coimbra-university",
+    "name": "Coimbra University",
+    "category": "museums",
+    "lat": 40.2074,
+    "lon": -8.4265,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-museu-nacional-do-azulejo",
+    "name": "Museu Nacional do Azulejo",
+    "category": "museums",
+    "lat": 38.7229,
+    "lon": -9.1127,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-time-out-market-lisbon",
+    "name": "Time Out Market Lisbon",
+    "category": "food",
+    "lat": 38.7078,
+    "lon": -9.144,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-pastel-de-belem",
+    "name": "Pastel de Belem",
+    "category": "food",
+    "lat": 38.6972,
+    "lon": -9.2065,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-mercado-do-bolhao",
+    "name": "Mercado do Bolhao",
+    "category": "food",
+    "lat": 41.1498,
+    "lon": -8.6069,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-bairro-alto",
+    "name": "Bairro Alto",
+    "category": "nightlife",
+    "lat": 38.7145,
+    "lon": -9.1445,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-lux-fr-gil",
+    "name": "Lux Frágil",
+    "category": "nightlife",
+    "lat": 38.711,
+    "lon": -9.122,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-cais-do-sodre",
+    "name": "Cais do Sodre",
+    "category": "nightlife",
+    "lat": 38.7076,
+    "lon": -9.1457,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-cascais-seafront",
+    "name": "Cascais Seafront",
+    "category": "other",
+    "lat": 38.6968,
+    "lon": -9.4209,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-obidos-medieval-town",
+    "name": "Obidos Medieval Town",
+    "category": "landmarks",
+    "lat": 39.3607,
+    "lon": -9.1579,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-evora-roman-temple",
+    "name": "Evora Roman Temple",
+    "category": "landmarks",
+    "lat": 38.5719,
+    "lon": -7.9097,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-nazare-viewpoint",
+    "name": "Nazare Viewpoint",
+    "category": "nature",
+    "lat": 39.6027,
+    "lon": -9.0699,
+    "source": "static",
+    "countryCode": "PT"
+  },
+  {
+    "id": "country-pt-peniche-surf-spots",
+    "name": "Peniche Surf Spots",
+    "category": "nature",
+    "lat": 39.356,
+    "lon": -9.381,
+    "source": "static",
+    "countryCode": "PT"
+  }
+]

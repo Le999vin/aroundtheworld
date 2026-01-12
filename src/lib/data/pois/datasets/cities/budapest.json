@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-budapest-a38-ship",
+    "name": "A38 Ship",
+    "category": "nightlife",
+    "lat": 47.5114,
+    "lon": 19.031,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-andrassy-avenue",
+    "name": "Andrassy Avenue",
+    "category": "food",
+    "lat": 47.4886,
+    "lon": 19.0604,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-buda-castle",
+    "name": "Buda Castle",
+    "category": "landmarks",
+    "lat": 47.5153,
+    "lon": 19.0387,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-chain-bridge",
+    "name": "Chain Bridge",
+    "category": "landmarks",
+    "lat": 47.4932,
+    "lon": 19.027,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-city-park",
+    "name": "City Park",
+    "category": "nature",
+    "lat": 47.4822,
+    "lon": 19.0261,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-danube-promenade",
+    "name": "Danube Promenade",
+    "category": "nature",
+    "lat": 47.4901,
+    "lon": 19.0194,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-dohany-street-synagogue",
+    "name": "Dohany Street Synagogue",
+    "category": "landmarks",
+    "lat": 47.5074,
+    "lon": 19.0571,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-fisherman-s-bastion",
+    "name": "Fisherman's Bastion",
+    "category": "landmarks",
+    "lat": 47.4838,
+    "lon": 19.0411,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-gellert-baths",
+    "name": "Gellert Baths",
+    "category": "landmarks",
+    "lat": 47.5088,
+    "lon": 19.064,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-gellert-hill-citadella",
+    "name": "Gellert Hill Citadella",
+    "category": "nature",
+    "lat": 47.491,
+    "lon": 19.0421,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-great-market-hall",
+    "name": "Great Market Hall",
+    "category": "food",
+    "lat": 47.4826,
+    "lon": 19.0458,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-heroes-square",
+    "name": "Heroes' Square",
+    "category": "landmarks",
+    "lat": 47.4936,
+    "lon": 19.0604,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-house-of-terror-museum",
+    "name": "House of Terror Museum",
+    "category": "museums",
+    "lat": 47.5016,
+    "lon": 19.0521,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-hungarian-national-museum",
+    "name": "Hungarian National Museum",
+    "category": "museums",
+    "lat": 47.5005,
+    "lon": 19.0337,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-hungarian-parliament",
+    "name": "Hungarian Parliament",
+    "category": "landmarks",
+    "lat": 47.5026,
+    "lon": 19.0244,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-instant-fogas",
+    "name": "Instant-Fogas",
+    "category": "nightlife",
+    "lat": 47.5072,
+    "lon": 19.0447,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-jewish-quarter-bars",
+    "name": "Jewish Quarter Bars",
+    "category": "nightlife",
+    "lat": 47.491,
+    "lon": 19.0405,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-kossuth-lajos-square",
+    "name": "Kossuth Lajos Square",
+    "category": "landmarks",
+    "lat": 47.5077,
+    "lon": 19.0306,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-margaret-island",
+    "name": "Margaret Island",
+    "category": "nature",
+    "lat": 47.5097,
+    "lon": 19.0518,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-matthias-church",
+    "name": "Matthias Church",
+    "category": "landmarks",
+    "lat": 47.5061,
+    "lon": 19.0607,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-new-york-cafe",
+    "name": "New York Cafe",
+    "category": "food",
+    "lat": 47.487,
+    "lon": 19.0234,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-st-stephen-s-basilica",
+    "name": "St. Stephen's Basilica",
+    "category": "landmarks",
+    "lat": 47.4831,
+    "lon": 19.0595,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-szechenyi-thermal-bath",
+    "name": "Szechenyi Thermal Bath",
+    "category": "landmarks",
+    "lat": 47.4917,
+    "lon": 19.0338,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-szimpla-kert-ruin-bar",
+    "name": "Szimpla Kert Ruin Bar",
+    "category": "nightlife",
+    "lat": 47.5058,
+    "lon": 19.0418,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  },
+  {
+    "id": "city-budapest-vajdahunyad-castle",
+    "name": "Vajdahunyad Castle",
+    "category": "landmarks",
+    "lat": 47.503,
+    "lon": 19.0396,
+    "source": "static",
+    "countryCode": "HU",
+    "cityId": "budapest"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-vienna-albertina-museum",
+    "name": "Albertina Museum",
+    "category": "museums",
+    "lat": 48.2036,
+    "lon": 16.3706,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-belvedere-palace",
+    "name": "Belvedere Palace",
+    "category": "museums",
+    "lat": 48.1918,
+    "lon": 16.3843,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-cafe-central",
+    "name": "Cafe Central",
+    "category": "food",
+    "lat": 48.1911,
+    "lon": 16.3777,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-danube-canal",
+    "name": "Danube Canal",
+    "category": "nightlife",
+    "lat": 48.1967,
+    "lon": 16.3673,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-danube-island",
+    "name": "Danube Island",
+    "category": "nature",
+    "lat": 48.2083,
+    "lon": 16.3824,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-figlmueller",
+    "name": "Figlmueller",
+    "category": "food",
+    "lat": 48.1926,
+    "lon": 16.3983,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-flex-club",
+    "name": "Flex Club",
+    "category": "nightlife",
+    "lat": 48.1923,
+    "lon": 16.3661,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-graben-kohlmarkt",
+    "name": "Graben & Kohlmarkt",
+    "category": "food",
+    "lat": 48.214,
+    "lon": 16.3656,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-guertel-nightlife",
+    "name": "Guertel Nightlife",
+    "category": "nightlife",
+    "lat": 48.2179,
+    "lon": 16.3681,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-hofburg-palace",
+    "name": "Hofburg Palace",
+    "category": "landmarks",
+    "lat": 48.2195,
+    "lon": 16.3629,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-hundertwasserhaus",
+    "name": "Hundertwasserhaus",
+    "category": "landmarks",
+    "lat": 48.2033,
+    "lon": 16.3645,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-karlskirche",
+    "name": "Karlskirche",
+    "category": "landmarks",
+    "lat": 48.1994,
+    "lon": 16.3979,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-karlsplatz",
+    "name": "Karlsplatz",
+    "category": "landmarks",
+    "lat": 48.1926,
+    "lon": 16.3556,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-kunsthistorisches-museum",
+    "name": "Kunsthistorisches Museum",
+    "category": "museums",
+    "lat": 48.1977,
+    "lon": 16.3995,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-museumsquartier",
+    "name": "MuseumsQuartier",
+    "category": "museums",
+    "lat": 48.2057,
+    "lon": 16.3593,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-naschmarkt",
+    "name": "Naschmarkt",
+    "category": "food",
+    "lat": 48.216,
+    "lon": 16.3732,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-prater-giant-ferris-wheel",
+    "name": "Prater Giant Ferris Wheel",
+    "category": "landmarks",
+    "lat": 48.1983,
+    "lon": 16.3499,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-prater-park",
+    "name": "Prater Park",
+    "category": "nature",
+    "lat": 48.2169,
+    "lon": 16.3906,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-pratersauna",
+    "name": "Pratersauna",
+    "category": "nightlife",
+    "lat": 48.2255,
+    "lon": 16.3885,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-ringstrasse",
+    "name": "Ringstrasse",
+    "category": "landmarks",
+    "lat": 48.2204,
+    "lon": 16.3521,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-schonbrunn-palace",
+    "name": "Schonbrunn Palace",
+    "category": "landmarks",
+    "lat": 48.2036,
+    "lon": 16.377,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-st-stephen-s-cathedral",
+    "name": "St. Stephen's Cathedral",
+    "category": "landmarks",
+    "lat": 48.1912,
+    "lon": 16.3766,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-stadtpark",
+    "name": "Stadtpark",
+    "category": "nature",
+    "lat": 48.2038,
+    "lon": 16.3758,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-vienna-state-opera",
+    "name": "Vienna State Opera",
+    "category": "landmarks",
+    "lat": 48.2256,
+    "lon": 16.3733,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  },
+  {
+    "id": "city-vienna-zentralfriedhof",
+    "name": "Zentralfriedhof",
+    "category": "landmarks",
+    "lat": 48.2146,
+    "lon": 16.3536,
+    "source": "static",
+    "countryCode": "AT",
+    "cityId": "vienna"
+  }
+]

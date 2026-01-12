@@ -88,5 +88,140 @@
     "lon": -3.1815,
     "source": "static",
     "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-london-fabric",
+    "name": "fabric",
+    "category": "nightlife",
+    "lat": 51.5199,
+    "lon": -0.1023,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-london-ministry-of-sound",
+    "name": "Ministry of Sound",
+    "category": "nightlife",
+    "lat": 51.4982,
+    "lon": -0.1004,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-london-printworks",
+    "name": "Printworks London",
+    "category": "nightlife",
+    "lat": 51.4965,
+    "lon": -0.0503,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-london-corsica-studios",
+    "name": "Corsica Studios",
+    "category": "nightlife",
+    "lat": 51.496,
+    "lon": -0.1009,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-manchester-the-warehouse-project",
+    "name": "The Warehouse Project",
+    "category": "nightlife",
+    "lat": 53.4806,
+    "lon": -2.2374,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-manchester-factory-international",
+    "name": "Factory International (Aviva Studios)",
+    "category": "nightlife",
+    "lat": 53.479,
+    "lon": -2.2592,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-liverpool-concert-square",
+    "name": "Concert Square",
+    "category": "nightlife",
+    "lat": 53.4046,
+    "lon": -2.9836,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-edinburgh-the-bongo-club",
+    "name": "The Bongo Club",
+    "category": "nightlife",
+    "lat": 55.9542,
+    "lon": -3.1855,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-west-end-theatre-district",
+    "name": "West End Theatre District",
+    "category": "nightlife",
+    "lat": 51.512,
+    "lon": -0.128,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-brighton-pier",
+    "name": "Brighton Pier",
+    "category": "landmarks",
+    "lat": 50.819,
+    "lon": -0.1372,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-snowdonia-eryri-national-park",
+    "name": "Snowdonia (Eryri) National Park",
+    "category": "nature",
+    "lat": 53.0685,
+    "lon": -4.0761,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-isle-of-skye-fairy-pools-area",
+    "name": "Isle of Skye (Fairy Pools Area)",
+    "category": "nature",
+    "lat": 57.246,
+    "lon": -6.275,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-oxford-university",
+    "name": "Oxford University",
+    "category": "museums",
+    "lat": 51.7548,
+    "lon": -1.2544,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-cotswolds-villages",
+    "name": "Cotswolds Villages",
+    "category": "nature",
+    "lat": 51.833,
+    "lon": -1.8,
+    "source": "static",
+    "countryCode": "GB"
+  },
+  {
+    "id": "country-gb-liverpool-cavern-quarter",
+    "name": "Liverpool Cavern Quarter",
+    "category": "nightlife",
+    "lat": 53.4058,
+    "lon": -2.9812,
+    "source": "static",
+    "countryCode": "GB"
   }
 ]

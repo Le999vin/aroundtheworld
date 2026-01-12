@@ -1,30 +1,30 @@
 [
   {
-    "id": "city-munich-marienplatz",
-    "name": "Marienplatz",
+    "id": "city-munich-allianz-arena",
+    "name": "Allianz Arena",
     "category": "landmarks",
-    "lat": 48.1374,
-    "lon": 11.5755,
+    "lat": 48.2188,
+    "lon": 11.6247,
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich"
   },
   {
-    "id": "city-munich-english-garden",
-    "name": "English Garden",
-    "category": "nature",
-    "lat": 48.159,
-    "lon": 11.603,
+    "id": "city-munich-alte-pinakothek",
+    "name": "Alte Pinakothek",
+    "category": "museums",
+    "lat": 48.1483,
+    "lon": 11.5708,
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich"
   },
   {
-    "id": "city-munich-nymphenburg-palace",
-    "name": "Nymphenburg Palace",
-    "category": "landmarks",
-    "lat": 48.158,
-    "lon": 11.503,
+    "id": "city-munich-augustiner-keller",
+    "name": "Augustiner-Keller",
+    "category": "food",
+    "lat": 48.1456,
+    "lon": 11.5556,
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich"
@@ -40,21 +40,31 @@
     "cityId": "munich"
   },
   {
-    "id": "city-munich-viktualienmarkt",
-    "name": "Viktualienmarkt",
+    "id": "city-munich-central-market-munich-2",
+    "name": "Central Market (Munich) 2",
     "category": "food",
-    "lat": 48.1351,
-    "lon": 11.5761,
+    "lat": 48.1476,
+    "lon": 11.6189,
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich"
   },
   {
-    "id": "city-munich-residenz",
-    "name": "Munich Residenz",
-    "category": "landmarks",
-    "lat": 48.1391,
-    "lon": 11.5796,
+    "id": "city-munich-chinesischer-turm-beer-garden",
+    "name": "Chinesischer Turm Beer Garden",
+    "category": "food",
+    "lat": 48.1504,
+    "lon": 11.5913,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-city-park-munich-4",
+    "name": "City Park (Munich) 4",
+    "category": "nature",
+    "lat": 48.1567,
+    "lon": 11.5478,
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich"
@@ -70,21 +80,121 @@
     "cityId": "munich"
   },
   {
-    "id": "city-munich-olympiapark",
-    "name": "Olympiapark",
+    "id": "city-munich-eisbach-wave",
+    "name": "Eisbach Wave",
     "category": "nature",
-    "lat": 48.1735,
-    "lon": 11.546,
+    "lat": 48.142,
+    "lon": 11.5887,
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich"
   },
   {
-    "id": "city-munich-allianz-arena",
-    "name": "Allianz Arena",
+    "id": "city-munich-eisbachwelle",
+    "name": "Eisbachwelle",
+    "category": "nature",
+    "lat": 48.1327,
+    "lon": 11.556,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-english-garden",
+    "name": "English Garden",
+    "category": "nature",
+    "lat": 48.159,
+    "lon": 11.603,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-frauenkirche",
+    "name": "Frauenkirche",
     "category": "landmarks",
-    "lat": 48.2188,
-    "lon": 11.6247,
+    "lat": 48.1386,
+    "lon": 11.5736,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-gartnerplatz",
+    "name": "Gärtnerplatz",
+    "category": "nightlife",
+    "lat": 48.1309,
+    "lon": 11.575,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-gasteig-cultural-center",
+    "name": "Gasteig Cultural Center",
+    "category": "museums",
+    "lat": 48.1355,
+    "lon": 11.5602,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-giesing-neighborhood",
+    "name": "Giesing Neighborhood",
+    "category": "food",
+    "lat": 48.112,
+    "lon": 11.581,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-glockenbachviertel",
+    "name": "Glockenbachviertel",
+    "category": "nightlife",
+    "lat": 48.127,
+    "lon": 11.574,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-hellabrunn-zoo",
+    "name": "Hellabrunn Zoo",
+    "category": "nature",
+    "lat": 48.1451,
+    "lon": 11.6059,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-hirschgarten",
+    "name": "Hirschgarten",
+    "category": "nature",
+    "lat": 48.153,
+    "lon": 11.5295,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-historic-cathedral-munich-5",
+    "name": "Historic Cathedral (Munich) 5",
+    "category": "landmarks",
+    "lat": 48.1508,
+    "lon": 11.6054,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-hofbraeuhaus",
+    "name": "Hofbraeuhaus",
+    "category": "nightlife",
+    "lat": 48.1508,
+    "lon": 11.5859,
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich"
@@ -95,6 +205,196 @@
     "category": "nightlife",
     "lat": 48.1371,
     "lon": 11.5795,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-isar-river-flaucher",
+    "name": "Isar River (Flaucher)",
+    "category": "nature",
+    "lat": 48.102,
+    "lon": 11.544,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-isar-river-walks",
+    "name": "Isar River Walks",
+    "category": "nature",
+    "lat": 48.1439,
+    "lon": 11.5615,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-karlsplatz-stachus",
+    "name": "Karlsplatz (Stachus)",
+    "category": "landmarks",
+    "lat": 48.1405,
+    "lon": 11.5657,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-marienplatz",
+    "name": "Marienplatz",
+    "category": "landmarks",
+    "lat": 48.1374,
+    "lon": 11.5755,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-maximilianstrasse",
+    "name": "Maximilianstrasse",
+    "category": "food",
+    "lat": 48.1203,
+    "lon": 11.5936,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-modern-art-gallery-munich-6",
+    "name": "Modern Art Gallery (Munich) 6",
+    "category": "museums",
+    "lat": 48.1141,
+    "lon": 11.6118,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-nightlife-district-munich-7",
+    "name": "Nightlife District (Munich) 7",
+    "category": "nightlife",
+    "lat": 48.136,
+    "lon": 11.5596,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-nymphenburg-palace",
+    "name": "Nymphenburg Palace",
+    "category": "landmarks",
+    "lat": 48.158,
+    "lon": 11.503,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-odeonsplatz",
+    "name": "Odeonsplatz",
+    "category": "landmarks",
+    "lat": 48.1505,
+    "lon": 11.5792,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-old-town-munich-1",
+    "name": "Old Town (Munich) 1",
+    "category": "landmarks",
+    "lat": 48.1443,
+    "lon": 11.5693,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-olympiapark",
+    "name": "Olympiapark",
+    "category": "nature",
+    "lat": 48.1735,
+    "lon": 11.546,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-olympiaturm-viewpoint",
+    "name": "Olympiaturm Viewpoint",
+    "category": "landmarks",
+    "lat": 48.1753,
+    "lon": 11.552,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-olympic-tower",
+    "name": "Olympic Tower",
+    "category": "landmarks",
+    "lat": 48.1363,
+    "lon": 11.5948,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-pinakothek-der-moderne",
+    "name": "Pinakothek der Moderne",
+    "category": "museums",
+    "lat": 48.1471,
+    "lon": 11.5722,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-residenz",
+    "name": "Munich Residenz",
+    "category": "landmarks",
+    "lat": 48.1391,
+    "lon": 11.5796,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-riverside-promenade-munich-3",
+    "name": "Riverside Promenade (Munich) 3",
+    "category": "nature",
+    "lat": 48.1533,
+    "lon": 11.5896,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-sendlinger-tor",
+    "name": "Sendlinger Tor",
+    "category": "landmarks",
+    "lat": 48.1334,
+    "lon": 11.5683,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-theresienwiese",
+    "name": "Theresienwiese",
+    "category": "landmarks",
+    "lat": 48.1319,
+    "lon": 11.5498,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "munich"
+  },
+  {
+    "id": "city-munich-viktualienmarkt",
+    "name": "Viktualienmarkt",
+    "category": "food",
+    "lat": 48.1351,
+    "lon": 11.5761,
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich"

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-no-oslo-opera-house",
+    "name": "Oslo Opera House",
+    "category": "landmarks",
+    "lat": 59.9076,
+    "lon": 10.7532,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-vigeland-sculpture-park",
+    "name": "Vigeland Sculpture Park",
+    "category": "landmarks",
+    "lat": 59.927,
+    "lon": 10.7007,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-akershus-fortress",
+    "name": "Akershus Fortress",
+    "category": "landmarks",
+    "lat": 59.9073,
+    "lon": 10.7365,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-bergen-bryggen",
+    "name": "Bergen Bryggen",
+    "category": "landmarks",
+    "lat": 60.3971,
+    "lon": 5.3244,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-flam-railway",
+    "name": "Flam Railway",
+    "category": "landmarks",
+    "lat": 60.863,
+    "lon": 7.113,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-geirangerfjord",
+    "name": "Geirangerfjord",
+    "category": "nature",
+    "lat": 62.1015,
+    "lon": 7.2056,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-n-r-yfjord-viewpoints",
+    "name": "Nærøyfjord Viewpoints",
+    "category": "nature",
+    "lat": 60.923,
+    "lon": 6.848,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-trolltunga",
+    "name": "Trolltunga",
+    "category": "nature",
+    "lat": 60.124,
+    "lon": 6.74,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-preikestolen",
+    "name": "Preikestolen",
+    "category": "nature",
+    "lat": 58.986,
+    "lon": 6.19,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-lofoten-islands",
+    "name": "Lofoten Islands",
+    "category": "nature",
+    "lat": 68.154,
+    "lon": 13.586,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-tromso-arctic-cathedral",
+    "name": "Tromso Arctic Cathedral",
+    "category": "landmarks",
+    "lat": 69.6489,
+    "lon": 18.9873,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-north-cape",
+    "name": "North Cape",
+    "category": "nature",
+    "lat": 71.171,
+    "lon": 25.784,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-stavanger-old-town",
+    "name": "Stavanger Old Town",
+    "category": "landmarks",
+    "lat": 58.972,
+    "lon": 5.733,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-kjeragbolten",
+    "name": "Kjeragbolten",
+    "category": "nature",
+    "lat": 59.04,
+    "lon": 6.59,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-munch-museum",
+    "name": "Munch Museum",
+    "category": "museums",
+    "lat": 59.91,
+    "lon": 10.76,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-viking-ship-museum-area",
+    "name": "Viking Ship Museum Area",
+    "category": "museums",
+    "lat": 59.9048,
+    "lon": 10.6846,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-mathallen-oslo",
+    "name": "Mathallen Oslo",
+    "category": "food",
+    "lat": 59.9229,
+    "lon": 10.7506,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-bergen-fish-market",
+    "name": "Bergen Fish Market",
+    "category": "food",
+    "lat": 60.3946,
+    "lon": 5.3233,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-trondheim-bakklandet",
+    "name": "Trondheim Bakklandet",
+    "category": "food",
+    "lat": 63.4306,
+    "lon": 10.3951,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-aker-brygge",
+    "name": "Aker Brygge",
+    "category": "nightlife",
+    "lat": 59.911,
+    "lon": 10.727,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-the-villa-oslo",
+    "name": "The Villa Oslo",
+    "category": "nightlife",
+    "lat": 59.914,
+    "lon": 10.752,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-bergen-nightlife-district",
+    "name": "Bergen Nightlife District",
+    "category": "nightlife",
+    "lat": 60.3946,
+    "lon": 5.324,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-sognefjord-scenic-route",
+    "name": "Sognefjord Scenic Route",
+    "category": "other",
+    "lat": 61.2,
+    "lon": 7.2,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-jotunheimen-national-park",
+    "name": "Jotunheimen National Park",
+    "category": "nature",
+    "lat": 61.6,
+    "lon": 8.3,
+    "source": "static",
+    "countryCode": "NO"
+  },
+  {
+    "id": "country-no-roros-historic-town",
+    "name": "Roros Historic Town",
+    "category": "landmarks",
+    "lat": 62.574,
+    "lon": 11.385,
+    "source": "static",
+    "countryCode": "NO"
+  }
+]

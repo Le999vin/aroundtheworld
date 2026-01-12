@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-cz-prague-castle",
+    "name": "Prague Castle",
+    "category": "landmarks",
+    "lat": 50.0909,
+    "lon": 14.4005,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-charles-bridge",
+    "name": "Charles Bridge",
+    "category": "landmarks",
+    "lat": 50.0865,
+    "lon": 14.4114,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-old-town-square-prague",
+    "name": "Old Town Square Prague",
+    "category": "landmarks",
+    "lat": 50.0875,
+    "lon": 14.4213,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-astronomical-clock",
+    "name": "Astronomical Clock",
+    "category": "landmarks",
+    "lat": 50.087,
+    "lon": 14.42,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-st-vitus-cathedral",
+    "name": "St. Vitus Cathedral",
+    "category": "landmarks",
+    "lat": 50.0906,
+    "lon": 14.4005,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-jewish-quarter-josefov",
+    "name": "Jewish Quarter Josefov",
+    "category": "museums",
+    "lat": 50.09,
+    "lon": 14.418,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-vysehrad",
+    "name": "Vysehrad",
+    "category": "landmarks",
+    "lat": 50.0645,
+    "lon": 14.4207,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-cesky-krumlov",
+    "name": "Cesky Krumlov",
+    "category": "landmarks",
+    "lat": 48.8127,
+    "lon": 14.3175,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-kutna-hora-sedlec-ossuary",
+    "name": "Kutna Hora Sedlec Ossuary",
+    "category": "museums",
+    "lat": 49.953,
+    "lon": 15.288,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-karlovy-vary",
+    "name": "Karlovy Vary",
+    "category": "landmarks",
+    "lat": 50.231,
+    "lon": 12.871,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-brno-old-town",
+    "name": "Brno Old Town",
+    "category": "landmarks",
+    "lat": 49.1951,
+    "lon": 16.6068,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-moravian-karst",
+    "name": "Moravian Karst",
+    "category": "nature",
+    "lat": 49.363,
+    "lon": 16.722,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-bohemian-switzerland-national-park",
+    "name": "Bohemian Switzerland National Park",
+    "category": "nature",
+    "lat": 50.882,
+    "lon": 14.307,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-sumava-national-park",
+    "name": "Sumava National Park",
+    "category": "nature",
+    "lat": 49.1,
+    "lon": 13.5,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-lipno-lake",
+    "name": "Lipno Lake",
+    "category": "nature",
+    "lat": 48.64,
+    "lon": 14.23,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-national-museum-prague",
+    "name": "National Museum Prague",
+    "category": "museums",
+    "lat": 50.0796,
+    "lon": 14.4306,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-dox-centre-for-contemporary-art",
+    "name": "DOX Centre for Contemporary Art",
+    "category": "museums",
+    "lat": 50.107,
+    "lon": 14.452,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-havelske-trziste-market",
+    "name": "Havelske Trziste Market",
+    "category": "food",
+    "lat": 50.0862,
+    "lon": 14.4202,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-lok-l-dlouh-czech-pub-food",
+    "name": "Lokál Dlouhááá (Czech Pub Food)",
+    "category": "food",
+    "lat": 50.09,
+    "lon": 14.424,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-brno-zeln-trh",
+    "name": "Brno Zelný trh",
+    "category": "food",
+    "lat": 49.1935,
+    "lon": 16.609,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-roxy-prague",
+    "name": "Roxy Prague",
+    "category": "nightlife",
+    "lat": 50.0885,
+    "lon": 14.4247,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-cross-club",
+    "name": "Cross Club",
+    "category": "nightlife",
+    "lat": 50.109,
+    "lon": 14.446,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-karlovy-lazne",
+    "name": "Karlovy Lazne",
+    "category": "nightlife",
+    "lat": 50.0863,
+    "lon": 14.4157,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-pilsner-urquell-brewery-pilsen",
+    "name": "Pilsner Urquell Brewery Pilsen",
+    "category": "other",
+    "lat": 49.746,
+    "lon": 13.377,
+    "source": "static",
+    "countryCode": "CZ"
+  },
+  {
+    "id": "country-cz-telc-historic-center",
+    "name": "Telc Historic Center",
+    "category": "landmarks",
+    "lat": 49.184,
+    "lon": 15.454,
+    "source": "static",
+    "countryCode": "CZ"
+  }
+]

@@ -88,5 +88,140 @@
     "lon": -1.2133,
     "source": "static",
     "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-notre-dame-cathedral",
+    "name": "Notre-Dame Cathedral",
+    "category": "landmarks",
+    "lat": 48.853,
+    "lon": 2.3499,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-sacre-coeur",
+    "name": "Sacré-Cœur Basilica",
+    "category": "landmarks",
+    "lat": 48.8867,
+    "lon": 2.3431,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-arc-de-triomphe",
+    "name": "Arc de Triomphe",
+    "category": "landmarks",
+    "lat": 48.8738,
+    "lon": 2.295,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-musee-d-orsay",
+    "name": "Musée d'Orsay",
+    "category": "museums",
+    "lat": 48.8601,
+    "lon": 2.3265,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-lavender-fields-provence",
+    "name": "Lavender Fields Provence",
+    "category": "nature",
+    "lat": 43.9359,
+    "lon": 5.8081,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-pigalle-district",
+    "name": "Pigalle District",
+    "category": "nightlife",
+    "lat": 48.8829,
+    "lon": 2.3323,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-marais-nightlife",
+    "name": "Marais Nightlife",
+    "category": "nightlife",
+    "lat": 48.8595,
+    "lon": 2.3635,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-bastille-clubs",
+    "name": "Bastille Clubs",
+    "category": "nightlife",
+    "lat": 48.8528,
+    "lon": 2.3691,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-canal-saint-martin",
+    "name": "Canal Saint-Martin",
+    "category": "nightlife",
+    "lat": 48.8713,
+    "lon": 2.364,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-pont-du-gard",
+    "name": "Pont du Gard",
+    "category": "landmarks",
+    "lat": 43.9475,
+    "lon": 4.535,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-loire-valley-chateaux",
+    "name": "Loire Valley Châteaux",
+    "category": "landmarks",
+    "lat": 47.325,
+    "lon": 0.715,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-chamonix-mont-blanc",
+    "name": "Chamonix (Mont-Blanc)",
+    "category": "nature",
+    "lat": 45.9237,
+    "lon": 6.8694,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-calanques-national-park",
+    "name": "Calanques National Park",
+    "category": "nature",
+    "lat": 43.214,
+    "lon": 5.435,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-reims-cathedral-champagne",
+    "name": "Reims Cathedral (Champagne)",
+    "category": "landmarks",
+    "lat": 49.253,
+    "lon": 4.034,
+    "source": "static",
+    "countryCode": "FR"
+  },
+  {
+    "id": "country-fr-carcassonne-citadel",
+    "name": "Carcassonne Citadel",
+    "category": "landmarks",
+    "lat": 43.2067,
+    "lon": 2.363,
+    "source": "static",
+    "countryCode": "FR"
   }
 ]

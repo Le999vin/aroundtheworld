@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-ie-dublin-temple-bar",
+    "name": "Dublin Temple Bar",
+    "category": "nightlife",
+    "lat": 53.3455,
+    "lon": -6.264,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-trinity-college-and-book-of-kells",
+    "name": "Trinity College and Book of Kells",
+    "category": "museums",
+    "lat": 53.3438,
+    "lon": -6.2546,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-guinness-storehouse",
+    "name": "Guinness Storehouse",
+    "category": "food",
+    "lat": 53.3419,
+    "lon": -6.2863,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-dublin-castle",
+    "name": "Dublin Castle",
+    "category": "landmarks",
+    "lat": 53.343,
+    "lon": -6.2674,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-st-patricks-cathedral-dublin",
+    "name": "St Patrick's Cathedral Dublin",
+    "category": "landmarks",
+    "lat": 53.3395,
+    "lon": -6.2713,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-cliffs-of-moher",
+    "name": "Cliffs of Moher",
+    "category": "nature",
+    "lat": 52.9715,
+    "lon": -9.4309,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-ring-of-kerry-scenic-route",
+    "name": "Ring of Kerry Scenic Route",
+    "category": "nature",
+    "lat": 52.0,
+    "lon": -9.6,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-killarney-national-park",
+    "name": "Killarney National Park",
+    "category": "nature",
+    "lat": 52.016,
+    "lon": -9.504,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-galway-latin-quarter",
+    "name": "Galway Latin Quarter",
+    "category": "landmarks",
+    "lat": 53.272,
+    "lon": -9.053,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-claddagh-galway",
+    "name": "Claddagh Galway",
+    "category": "landmarks",
+    "lat": 53.27,
+    "lon": -9.06,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-aran-islands",
+    "name": "Aran Islands",
+    "category": "nature",
+    "lat": 53.11,
+    "lon": -9.68,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-dingle-peninsula",
+    "name": "Dingle Peninsula",
+    "category": "nature",
+    "lat": 52.14,
+    "lon": -10.27,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-blarney-castle",
+    "name": "Blarney Castle",
+    "category": "landmarks",
+    "lat": 51.929,
+    "lon": -8.57,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-rock-of-cashel",
+    "name": "Rock of Cashel",
+    "category": "landmarks",
+    "lat": 52.52,
+    "lon": -7.89,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-newgrange",
+    "name": "Newgrange",
+    "category": "landmarks",
+    "lat": 53.6947,
+    "lon": -6.4752,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-titanic-belfast",
+    "name": "Titanic Belfast",
+    "category": "museums",
+    "lat": 54.6081,
+    "lon": -5.909,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-cork-english-market",
+    "name": "Cork English Market",
+    "category": "food",
+    "lat": 51.8977,
+    "lon": -8.4706,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-galway-food-market",
+    "name": "Galway Food Market",
+    "category": "food",
+    "lat": 53.272,
+    "lon": -9.053,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-dublin-grafton-street",
+    "name": "Dublin Grafton Street",
+    "category": "food",
+    "lat": 53.3436,
+    "lon": -6.2596,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-whelans-dublin",
+    "name": "Whelan's Dublin",
+    "category": "nightlife",
+    "lat": 53.337,
+    "lon": -6.2653,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-the-george-dublin",
+    "name": "The George Dublin",
+    "category": "nightlife",
+    "lat": 53.3408,
+    "lon": -6.2647,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-dublin-docklands",
+    "name": "Dublin Docklands",
+    "category": "other",
+    "lat": 53.3498,
+    "lon": -6.239,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-wicklow-mountains",
+    "name": "Wicklow Mountains",
+    "category": "nature",
+    "lat": 53.1,
+    "lon": -6.5,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-kilmainham-gaol-museum",
+    "name": "Kilmainham Gaol Museum",
+    "category": "museums",
+    "lat": 53.3418,
+    "lon": -6.3098,
+    "source": "static",
+    "countryCode": "IE"
+  },
+  {
+    "id": "country-ie-howth-cliff-walk",
+    "name": "Howth Cliff Walk",
+    "category": "nature",
+    "lat": 53.386,
+    "lon": -6.07,
+    "source": "static",
+    "countryCode": "IE"
+  }
+]

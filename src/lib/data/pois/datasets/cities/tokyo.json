@@ -1,30 +1,150 @@
 [
   {
-    "id": "city-tokyo-senso-ji",
-    "name": "Senso-ji",
-    "category": "landmarks",
-    "lat": 35.7148,
-    "lon": 139.7967,
+    "id": "city-tokyo-akihabara",
+    "name": "Akihabara",
+    "category": "nightlife",
+    "lat": 35.6984,
+    "lon": 139.773,
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo"
   },
   {
-    "id": "city-tokyo-skytree",
-    "name": "Tokyo Skytree",
-    "category": "landmarks",
-    "lat": 35.7101,
-    "lon": 139.8107,
+    "id": "city-tokyo-akihabara-electric-town",
+    "name": "Akihabara Electric Town",
+    "category": "other",
+    "lat": 35.6932,
+    "lon": 139.6559,
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo"
   },
   {
-    "id": "city-tokyo-shibuya-crossing",
-    "name": "Shibuya Crossing",
+    "id": "city-tokyo-asakusa-nakamise-street",
+    "name": "Asakusa Nakamise Street",
+    "category": "food",
+    "lat": 35.7142,
+    "lon": 139.7966,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-central-market-tokyo-2",
+    "name": "Central Market (Tokyo) 2",
+    "category": "food",
+    "lat": 35.6778,
+    "lon": 139.6509,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-city-park-tokyo-4",
+    "name": "City Park (Tokyo) 4",
+    "category": "nature",
+    "lat": 35.6918,
+    "lon": 139.6767,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-ebisu-yokocho",
+    "name": "Ebisu Yokocho",
+    "category": "food",
+    "lat": 35.6465,
+    "lon": 139.7086,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-ginza",
+    "name": "Ginza",
+    "category": "food",
+    "lat": 35.6717,
+    "lon": 139.765,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-golden-gai",
+    "name": "Golden Gai",
+    "category": "nightlife",
+    "lat": 35.694,
+    "lon": 139.7032,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-historic-cathedral-tokyo-5",
+    "name": "Historic Cathedral (Tokyo) 5",
     "category": "landmarks",
-    "lat": 35.6595,
-    "lon": 139.7005,
+    "lat": 35.6723,
+    "lon": 139.681,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-ikebukuro-sunshine-city",
+    "name": "Ikebukuro Sunshine City",
+    "category": "landmarks",
+    "lat": 35.7295,
+    "lon": 139.7196,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-imperial-palace-east-gardens",
+    "name": "Imperial Palace East Gardens",
+    "category": "nature",
+    "lat": 35.6852,
+    "lon": 139.7528,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-kabukicho",
+    "name": "Kabukicho",
+    "category": "nightlife",
+    "lat": 35.6949,
+    "lon": 139.7026,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-kagurazaka",
+    "name": "Kagurazaka",
+    "category": "food",
+    "lat": 35.7032,
+    "lon": 139.7415,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-local-food-street-tokyo-8",
+    "name": "Local Food Street (Tokyo) 8",
+    "category": "food",
+    "lat": 35.6612,
+    "lon": 139.6702,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-main-square-tokyo-9",
+    "name": "Main Square (Tokyo) 9",
+    "category": "landmarks",
+    "lat": 35.6663,
+    "lon": 139.6203,
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo"
@@ -40,11 +160,21 @@
     "cityId": "tokyo"
   },
   {
-    "id": "city-tokyo-tsukiji-outer-market",
-    "name": "Tsukiji Outer Market",
+    "id": "city-tokyo-modern-art-gallery-tokyo-6",
+    "name": "Modern Art Gallery (Tokyo) 6",
+    "category": "museums",
+    "lat": 35.6648,
+    "lon": 139.6734,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-nakameguro",
+    "name": "Nakameguro",
     "category": "food",
-    "lat": 35.6655,
-    "lon": 139.7708,
+    "lat": 35.6443,
+    "lon": 139.6993,
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo"
@@ -60,21 +190,21 @@
     "cityId": "tokyo"
   },
   {
-    "id": "city-tokyo-ueno-park",
-    "name": "Ueno Park",
-    "category": "nature",
-    "lat": 35.7153,
-    "lon": 139.7741,
+    "id": "city-tokyo-nightlife-district-tokyo-7",
+    "name": "Nightlife District (Tokyo) 7",
+    "category": "nightlife",
+    "lat": 35.6711,
+    "lon": 139.6765,
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo"
   },
   {
-    "id": "city-tokyo-akihabara",
-    "name": "Akihabara",
-    "category": "nightlife",
-    "lat": 35.6984,
-    "lon": 139.773,
+    "id": "city-tokyo-odaiba",
+    "name": "Odaiba",
+    "category": "landmarks",
+    "lat": 35.6654,
+    "lon": 139.6453,
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo"
@@ -90,11 +220,181 @@
     "cityId": "tokyo"
   },
   {
+    "id": "city-tokyo-old-town-tokyo-1",
+    "name": "Old Town (Tokyo) 1",
+    "category": "landmarks",
+    "lat": 35.6794,
+    "lon": 139.671,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-omotesando",
+    "name": "Omotesando",
+    "category": "food",
+    "lat": 35.6826,
+    "lon": 139.6363,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-riverside-promenade-tokyo-3",
+    "name": "Riverside Promenade (Tokyo) 3",
+    "category": "nature",
+    "lat": 35.6754,
+    "lon": 139.6613,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
     "id": "city-tokyo-roppongi-hills",
     "name": "Roppongi Hills",
     "category": "nightlife",
     "lat": 35.6605,
     "lon": 139.7294,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-senso-ji",
+    "name": "Senso-ji",
+    "category": "landmarks",
+    "lat": 35.7148,
+    "lon": 139.7967,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-shibuya-crossing",
+    "name": "Shibuya Crossing",
+    "category": "landmarks",
+    "lat": 35.6595,
+    "lon": 139.7005,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-shimokitazawa",
+    "name": "Shimokitazawa",
+    "category": "nightlife",
+    "lat": 35.6613,
+    "lon": 139.6686,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-shinjuku-gyoen",
+    "name": "Shinjuku Gyoen",
+    "category": "nature",
+    "lat": 35.6852,
+    "lon": 139.71,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-skytree",
+    "name": "Tokyo Skytree",
+    "category": "landmarks",
+    "lat": 35.7101,
+    "lon": 139.8107,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-takeshita-street-harajuku",
+    "name": "Takeshita Street (Harajuku)",
+    "category": "food",
+    "lat": 35.6717,
+    "lon": 139.7021,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-teamlab-planets",
+    "name": "TeamLab Planets",
+    "category": "museums",
+    "lat": 35.6491,
+    "lon": 139.789,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-teamlab-planets-2",
+    "name": "teamLab Planets",
+    "category": "museums",
+    "lat": 35.6721,
+    "lon": 139.6687,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-tokyo-metropolitan-government-building",
+    "name": "Tokyo Metropolitan Government Building",
+    "category": "landmarks",
+    "lat": 35.6635,
+    "lon": 139.6452,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-tokyo-station-marunouchi",
+    "name": "Tokyo Station (Marunouchi)",
+    "category": "landmarks",
+    "lat": 35.6734,
+    "lon": 139.6328,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-tokyo-tower",
+    "name": "Tokyo Tower",
+    "category": "landmarks",
+    "lat": 35.6586,
+    "lon": 139.7454,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-toyosu-market",
+    "name": "Toyosu Market",
+    "category": "food",
+    "lat": 35.6456,
+    "lon": 139.7821,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-tsukiji-outer-market",
+    "name": "Tsukiji Outer Market",
+    "category": "food",
+    "lat": 35.6655,
+    "lon": 139.7708,
+    "source": "static",
+    "countryCode": "JP",
+    "cityId": "tokyo"
+  },
+  {
+    "id": "city-tokyo-ueno-park",
+    "name": "Ueno Park",
+    "category": "nature",
+    "lat": 35.7153,
+    "lon": 139.7741,
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo"

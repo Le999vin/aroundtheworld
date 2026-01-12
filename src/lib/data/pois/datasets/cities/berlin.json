@@ -1,30 +1,20 @@
 [
   {
-    "id": "city-berlin-brandenburg-gate",
-    "name": "Brandenburg Gate",
+    "id": "city-berlin-alexanderplatz",
+    "name": "Alexanderplatz",
     "category": "landmarks",
-    "lat": 52.5163,
-    "lon": 13.3777,
+    "lat": 52.5219,
+    "lon": 13.4132,
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin"
   },
   {
-    "id": "city-berlin-reichstag-building",
-    "name": "Reichstag Building",
-    "category": "landmarks",
-    "lat": 52.5186,
-    "lon": 13.376,
-    "source": "static",
-    "countryCode": "DE",
-    "cityId": "berlin"
-  },
-  {
-    "id": "city-berlin-museum-island",
-    "name": "Museum Island",
-    "category": "museums",
-    "lat": 52.5169,
-    "lon": 13.4019,
+    "id": "city-berlin-berghain",
+    "name": "Berghain",
+    "category": "nightlife",
+    "lat": 52.5112,
+    "lon": 13.4436,
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin"
@@ -40,31 +30,41 @@
     "cityId": "berlin"
   },
   {
-    "id": "city-berlin-east-side-gallery",
-    "name": "East Side Gallery",
+    "id": "city-berlin-berlin-tv-tower",
+    "name": "Berlin TV Tower",
     "category": "landmarks",
-    "lat": 52.505,
-    "lon": 13.439,
+    "lat": 52.5208,
+    "lon": 13.4095,
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin"
   },
   {
-    "id": "city-berlin-alexanderplatz",
-    "name": "Alexanderplatz",
+    "id": "city-berlin-brandenburg-gate",
+    "name": "Brandenburg Gate",
     "category": "landmarks",
-    "lat": 52.5219,
-    "lon": 13.4132,
+    "lat": 52.5163,
+    "lon": 13.3777,
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin"
   },
   {
-    "id": "city-berlin-tiergarten-park",
-    "name": "Tiergarten Park",
-    "category": "nature",
-    "lat": 52.5145,
-    "lon": 13.3501,
+    "id": "city-berlin-central-market-berlin-2",
+    "name": "Central Market (Berlin) 2",
+    "category": "food",
+    "lat": 52.5384,
+    "lon": 13.3696,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-charlottenburg-palace",
+    "name": "Charlottenburg Palace",
+    "category": "landmarks",
+    "lat": 52.5208,
+    "lon": 13.295,
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin"
@@ -80,6 +80,56 @@
     "cityId": "berlin"
   },
   {
+    "id": "city-berlin-city-park-berlin-4",
+    "name": "City Park (Berlin) 4",
+    "category": "nature",
+    "lat": 52.5337,
+    "lon": 13.4211,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-east-side-gallery",
+    "name": "East Side Gallery",
+    "category": "landmarks",
+    "lat": 52.505,
+    "lon": 13.439,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-fernsehturm-berlin",
+    "name": "Fernsehturm Berlin",
+    "category": "landmarks",
+    "lat": 52.5164,
+    "lon": 13.3875,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-friedrichshain",
+    "name": "Friedrichshain",
+    "category": "nightlife",
+    "lat": 52.5288,
+    "lon": 13.4036,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-gendarmenmarkt",
+    "name": "Gendarmenmarkt",
+    "category": "landmarks",
+    "lat": 52.5138,
+    "lon": 13.3929,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
     "id": "city-berlin-hackescher-markt",
     "name": "Hackescher Markt",
     "category": "food",
@@ -90,11 +140,261 @@
     "cityId": "berlin"
   },
   {
+    "id": "city-berlin-historic-cathedral-berlin-5",
+    "name": "Historic Cathedral (Berlin) 5",
+    "category": "landmarks",
+    "lat": 52.5009,
+    "lon": 13.4199,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-holocaust-memorial",
+    "name": "Holocaust Memorial",
+    "category": "landmarks",
+    "lat": 52.5139,
+    "lon": 13.3777,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-jewish-museum-berlin",
+    "name": "Jewish Museum Berlin",
+    "category": "museums",
+    "lat": 52.5147,
+    "lon": 13.3961,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-kadewe-food-hall",
+    "name": "KaDeWe Food Hall",
+    "category": "food",
+    "lat": 52.5009,
+    "lon": 13.343,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-kitkatclub",
+    "name": "KitKatClub",
+    "category": "nightlife",
+    "lat": 52.5055,
+    "lon": 13.411,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-kreuzberg",
+    "name": "Kreuzberg",
+    "category": "food",
+    "lat": 52.497,
+    "lon": 13.403,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-kurfuerstendamm",
+    "name": "Kurfuerstendamm",
+    "category": "food",
+    "lat": 52.5087,
+    "lon": 13.4237,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-kurfurstendamm",
+    "name": "Kurfürstendamm",
+    "category": "food",
+    "lat": 52.503,
+    "lon": 13.332,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-local-food-street-berlin-8",
+    "name": "Local Food Street (Berlin) 8",
+    "category": "food",
+    "lat": 52.5346,
+    "lon": 13.3644,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-main-square-berlin-9",
+    "name": "Main Square (Berlin) 9",
+    "category": "landmarks",
+    "lat": 52.5025,
+    "lon": 13.4218,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-markthalle-neun",
+    "name": "Markthalle Neun",
+    "category": "food",
+    "lat": 52.4996,
+    "lon": 13.4317,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-mauerpark",
+    "name": "Mauerpark",
+    "category": "nature",
+    "lat": 52.543,
+    "lon": 13.403,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-modern-art-gallery-berlin-6",
+    "name": "Modern Art Gallery (Berlin) 6",
+    "category": "museums",
+    "lat": 52.5199,
+    "lon": 13.401,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-museum-island",
+    "name": "Museum Island",
+    "category": "museums",
+    "lat": 52.5169,
+    "lon": 13.4019,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-nightlife-district-berlin-7",
+    "name": "Nightlife District (Berlin) 7",
+    "category": "nightlife",
+    "lat": 52.5256,
+    "lon": 13.4221,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-old-town-berlin-1",
+    "name": "Old Town (Berlin) 1",
+    "category": "landmarks",
+    "lat": 52.51,
+    "lon": 13.4114,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
     "id": "city-berlin-philharmonie",
     "name": "Berlin Philharmonie",
     "category": "museums",
     "lat": 52.5095,
     "lon": 13.3694,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-potsdamer-platz",
+    "name": "Potsdamer Platz",
+    "category": "landmarks",
+    "lat": 52.5096,
+    "lon": 13.375,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-prenzlauer-berg",
+    "name": "Prenzlauer Berg",
+    "category": "food",
+    "lat": 52.538,
+    "lon": 13.424,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-reichstag-building",
+    "name": "Reichstag Building",
+    "category": "landmarks",
+    "lat": 52.5186,
+    "lon": 13.376,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-riverside-promenade-berlin-3",
+    "name": "Riverside Promenade (Berlin) 3",
+    "category": "nature",
+    "lat": 52.5136,
+    "lon": 13.3877,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-tempelhofer-feld",
+    "name": "Tempelhofer Feld",
+    "category": "nature",
+    "lat": 52.473,
+    "lon": 13.403,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-tiergarten",
+    "name": "Tiergarten",
+    "category": "nature",
+    "lat": 52.5303,
+    "lon": 13.4149,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-tiergarten-park",
+    "name": "Tiergarten Park",
+    "category": "nature",
+    "lat": 52.5145,
+    "lon": 13.3501,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-topography-of-terror",
+    "name": "Topography of Terror",
+    "category": "museums",
+    "lat": 52.5238,
+    "lon": 13.387,
+    "source": "static",
+    "countryCode": "DE",
+    "cityId": "berlin"
+  },
+  {
+    "id": "city-berlin-tresor-club",
+    "name": "Tresor Club",
+    "category": "nightlife",
+    "lat": 52.502,
+    "lon": 13.3709,
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin"

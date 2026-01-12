@@ -20,51 +20,141 @@
     "cityId": "athens"
   },
   {
-    "id": "city-athens-parthenon",
-    "name": "Parthenon",
+    "id": "city-athens-anafiotika",
+    "name": "Anafiotika",
     "category": "landmarks",
-    "lat": 37.9715,
-    "lon": 23.7267,
+    "lat": 37.9723,
+    "lon": 23.7262,
     "source": "static",
     "countryCode": "GR",
     "cityId": "athens"
   },
   {
-    "id": "city-athens-plaka",
-    "name": "Plaka",
-    "category": "food",
-    "lat": 37.9737,
-    "lon": 23.7261,
-    "source": "static",
-    "countryCode": "GR",
-    "cityId": "athens"
-  },
-  {
-    "id": "city-athens-syntagma-square",
-    "name": "Syntagma Square",
+    "id": "city-athens-ancient-agora",
+    "name": "Ancient Agora",
     "category": "landmarks",
     "lat": 37.9755,
-    "lon": 23.7348,
+    "lon": 23.7218,
     "source": "static",
     "countryCode": "GR",
     "cityId": "athens"
   },
   {
-    "id": "city-athens-temple-of-olympian-zeus",
-    "name": "Temple of Olympian Zeus",
-    "category": "landmarks",
-    "lat": 37.9693,
-    "lon": 23.7325,
+    "id": "city-athens-athens-riviera-glyfada",
+    "name": "Athens Riviera (Glyfada)",
+    "category": "nature",
+    "lat": 37.9996,
+    "lon": 23.7071,
     "source": "static",
     "countryCode": "GR",
     "cityId": "athens"
   },
   {
-    "id": "city-athens-panathenaic-stadium",
-    "name": "Panathenaic Stadium",
+    "id": "city-athens-benaki-museum",
+    "name": "Benaki Museum",
+    "category": "museums",
+    "lat": 37.9749,
+    "lon": 23.7407,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-central-market-athens-2",
+    "name": "Central Market (Athens) 2",
+    "category": "food",
+    "lat": 37.9898,
+    "lon": 23.7343,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-city-park-athens-4",
+    "name": "City Park (Athens) 4",
+    "category": "nature",
+    "lat": 37.9797,
+    "lon": 23.7194,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-ermou-street",
+    "name": "Ermou Street",
+    "category": "food",
+    "lat": 37.9752,
+    "lon": 23.7335,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-gazi-district",
+    "name": "Gazi District",
+    "category": "nightlife",
+    "lat": 37.9776,
+    "lon": 23.7111,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-gazi-technopolis",
+    "name": "Gazi / Technopolis",
+    "category": "nightlife",
+    "lat": 37.9707,
+    "lon": 23.7435,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-historic-cathedral-athens-5",
+    "name": "Historic Cathedral (Athens) 5",
     "category": "landmarks",
-    "lat": 37.9683,
-    "lon": 23.7411,
+    "lat": 37.9676,
+    "lon": 23.6987,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-kallidromiou-farmers-market",
+    "name": "Kallidromiou Farmers Market",
+    "category": "food",
+    "lat": 37.9902,
+    "lon": 23.735,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-kerameikos",
+    "name": "Kerameikos",
+    "category": "landmarks",
+    "lat": 37.9787,
+    "lon": 23.7083,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-kolonaki",
+    "name": "Kolonaki",
+    "category": "food",
+    "lat": 37.9778,
+    "lon": 23.7435,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-local-food-street-athens-8",
+    "name": "Local Food Street (Athens) 8",
+    "category": "food",
+    "lat": 37.9795,
+    "lon": 23.7186,
     "source": "static",
     "countryCode": "GR",
     "cityId": "athens"
@@ -80,11 +170,11 @@
     "cityId": "athens"
   },
   {
-    "id": "city-athens-national-archaeological-museum",
-    "name": "National Archaeological Museum",
+    "id": "city-athens-modern-art-gallery-athens-6",
+    "name": "Modern Art Gallery (Athens) 6",
     "category": "museums",
-    "lat": 37.99,
-    "lon": 23.7336,
+    "lat": 38.0021,
+    "lon": 23.7131,
     "source": "static",
     "countryCode": "GR",
     "cityId": "athens"
@@ -95,6 +185,216 @@
     "category": "nightlife",
     "lat": 37.976,
     "lon": 23.725,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-monastiraki-flea-market",
+    "name": "Monastiraki Flea Market",
+    "category": "food",
+    "lat": 37.9686,
+    "lon": 23.7062,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-monastiraki-square",
+    "name": "Monastiraki Square",
+    "category": "food",
+    "lat": 37.9759,
+    "lon": 23.7203,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-mount-lycabettus",
+    "name": "Mount Lycabettus",
+    "category": "nature",
+    "lat": 37.9834,
+    "lon": 23.7356,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-national-archaeological-museum",
+    "name": "National Archaeological Museum",
+    "category": "museums",
+    "lat": 37.99,
+    "lon": 23.7336,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-national-garden",
+    "name": "National Garden",
+    "category": "nature",
+    "lat": 37.9733,
+    "lon": 23.7368,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-nightlife-district-athens-7",
+    "name": "Nightlife District (Athens) 7",
+    "category": "nightlife",
+    "lat": 37.9591,
+    "lon": 23.7575,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-odeon-of-herodes-atticus",
+    "name": "Odeon of Herodes Atticus",
+    "category": "landmarks",
+    "lat": 37.9683,
+    "lon": 23.7166,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-old-town-athens-1",
+    "name": "Old Town (Athens) 1",
+    "category": "landmarks",
+    "lat": 37.9713,
+    "lon": 23.7069,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-panathenaic-stadium",
+    "name": "Panathenaic Stadium",
+    "category": "landmarks",
+    "lat": 37.9683,
+    "lon": 23.7411,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-panormou-ambelokipi-bars",
+    "name": "Panormou / Ambelokipi Bars",
+    "category": "nightlife",
+    "lat": 37.989,
+    "lon": 23.757,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-parthenon",
+    "name": "Parthenon",
+    "category": "landmarks",
+    "lat": 37.9715,
+    "lon": 23.7267,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-philopappos-hill",
+    "name": "Philopappos Hill",
+    "category": "nature",
+    "lat": 37.9707,
+    "lon": 23.7216,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-plaka",
+    "name": "Plaka",
+    "category": "food",
+    "lat": 37.9737,
+    "lon": 23.7261,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-psyrri",
+    "name": "Psyrri",
+    "category": "nightlife",
+    "lat": 37.9686,
+    "lon": 23.7329,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-psyrri-district",
+    "name": "Psyrri District",
+    "category": "nightlife",
+    "lat": 37.9789,
+    "lon": 23.724,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-riverside-promenade-athens-3",
+    "name": "Riverside Promenade (Athens) 3",
+    "category": "nature",
+    "lat": 37.9594,
+    "lon": 23.7159,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-stavros-niarchos-foundation-cultural-center",
+    "name": "Stavros Niarchos Foundation Cultural Center",
+    "category": "museums",
+    "lat": 37.9399,
+    "lon": 23.6872,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-syntagma-square",
+    "name": "Syntagma Square",
+    "category": "landmarks",
+    "lat": 37.9755,
+    "lon": 23.7348,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-temple-of-hephaestus",
+    "name": "Temple of Hephaestus",
+    "category": "landmarks",
+    "lat": 37.9756,
+    "lon": 23.7215,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-temple-of-olympian-zeus",
+    "name": "Temple of Olympian Zeus",
+    "category": "landmarks",
+    "lat": 37.9693,
+    "lon": 23.7325,
+    "source": "static",
+    "countryCode": "GR",
+    "cityId": "athens"
+  },
+  {
+    "id": "city-athens-varvakios-central-market",
+    "name": "Varvakios Central Market",
+    "category": "food",
+    "lat": 37.9802,
+    "lon": 23.7266,
     "source": "static",
     "countryCode": "GR",
     "cityId": "athens"

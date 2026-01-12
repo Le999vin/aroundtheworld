@@ -1,80 +1,30 @@
 [
   {
-    "id": "city-mumbai-gateway-of-india",
-    "name": "Gateway of India",
-    "category": "landmarks",
-    "lat": 18.922,
-    "lon": 72.8347,
-    "source": "static",
-    "countryCode": "IN",
-    "cityId": "mumbai"
-  },
-  {
-    "id": "city-mumbai-taj-mahal-palace",
-    "name": "Taj Mahal Palace",
-    "category": "landmarks",
-    "lat": 18.9217,
-    "lon": 72.8331,
-    "source": "static",
-    "countryCode": "IN",
-    "cityId": "mumbai"
-  },
-  {
-    "id": "city-mumbai-marine-drive",
-    "name": "Marine Drive",
+    "id": "city-mumbai-bandra-bandstand",
+    "name": "Bandra Bandstand",
     "category": "nature",
-    "lat": 18.943,
-    "lon": 72.8238,
+    "lat": 19.0642,
+    "lon": 72.8629,
     "source": "static",
     "countryCode": "IN",
     "cityId": "mumbai"
   },
   {
-    "id": "city-mumbai-cst-terminus",
-    "name": "CST Terminus",
+    "id": "city-mumbai-bandra-fort",
+    "name": "Bandra Fort",
     "category": "landmarks",
-    "lat": 18.9402,
-    "lon": 72.8355,
+    "lat": 19.0426,
+    "lon": 72.8221,
     "source": "static",
     "countryCode": "IN",
     "cityId": "mumbai"
   },
   {
-    "id": "city-mumbai-elephanta-caves",
-    "name": "Elephanta Caves",
-    "category": "landmarks",
-    "lat": 18.9633,
-    "lon": 72.9315,
-    "source": "static",
-    "countryCode": "IN",
-    "cityId": "mumbai"
-  },
-  {
-    "id": "city-mumbai-siddhivinayak-temple",
-    "name": "Siddhivinayak Temple",
-    "category": "landmarks",
-    "lat": 19.0169,
-    "lon": 72.8304,
-    "source": "static",
-    "countryCode": "IN",
-    "cityId": "mumbai"
-  },
-  {
-    "id": "city-mumbai-haji-ali-dargah",
-    "name": "Haji Ali Dargah",
-    "category": "landmarks",
-    "lat": 18.9822,
-    "lon": 72.8081,
-    "source": "static",
-    "countryCode": "IN",
-    "cityId": "mumbai"
-  },
-  {
-    "id": "city-mumbai-juhu-beach",
-    "name": "Juhu Beach",
-    "category": "nature",
-    "lat": 19.0988,
-    "lon": 72.8264,
+    "id": "city-mumbai-bandra-linking-road",
+    "name": "Bandra (Linking Road)",
+    "category": "food",
+    "lat": 19.0603,
+    "lon": 72.8306,
     "source": "static",
     "countryCode": "IN",
     "cityId": "mumbai"
@@ -90,11 +40,291 @@
     "cityId": "mumbai"
   },
   {
+    "id": "city-mumbai-bandra-worli-sea-link-2",
+    "name": "Bandra-Worli Sea Link",
+    "category": "landmarks",
+    "lat": 19.0841,
+    "lon": 72.8833,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-banganga-tank",
+    "name": "Banganga Tank",
+    "category": "landmarks",
+    "lat": 18.9585,
+    "lon": 72.8037,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-central-market-mumbai-2",
+    "name": "Central Market (Mumbai) 2",
+    "category": "food",
+    "lat": 19.0638,
+    "lon": 72.8635,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
     "id": "city-mumbai-chor-bazaar",
     "name": "Chor Bazaar",
     "category": "food",
     "lat": 18.963,
     "lon": 72.827,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-city-park-mumbai-4",
+    "name": "City Park (Mumbai) 4",
+    "category": "nature",
+    "lat": 19.0693,
+    "lon": 72.8605,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-colaba-causeway",
+    "name": "Colaba Causeway",
+    "category": "food",
+    "lat": 18.922,
+    "lon": 72.8327,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-crawford-market",
+    "name": "Crawford Market",
+    "category": "food",
+    "lat": 18.946,
+    "lon": 72.8343,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-csmvs-museum",
+    "name": "CSMVS Museum",
+    "category": "museums",
+    "lat": 19.0614,
+    "lon": 72.88,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-cst-terminus",
+    "name": "CST Terminus",
+    "category": "landmarks",
+    "lat": 18.9402,
+    "lon": 72.8355,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-dhobi-ghat-viewpoint",
+    "name": "Dhobi Ghat Viewpoint",
+    "category": "landmarks",
+    "lat": 18.9528,
+    "lon": 72.8266,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-elephanta-caves",
+    "name": "Elephanta Caves",
+    "category": "landmarks",
+    "lat": 18.9633,
+    "lon": 72.9315,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-film-city-goregaon",
+    "name": "Film City (Goregaon)",
+    "category": "other",
+    "lat": 19.1664,
+    "lon": 72.875,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-gateway-of-india",
+    "name": "Gateway of India",
+    "category": "landmarks",
+    "lat": 18.922,
+    "lon": 72.8347,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-haji-ali-dargah",
+    "name": "Haji Ali Dargah",
+    "category": "landmarks",
+    "lat": 18.9822,
+    "lon": 72.8081,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-historic-cathedral-mumbai-5",
+    "name": "Historic Cathedral (Mumbai) 5",
+    "category": "landmarks",
+    "lat": 19.0847,
+    "lon": 72.8587,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-juhu-beach",
+    "name": "Juhu Beach",
+    "category": "nature",
+    "lat": 19.0988,
+    "lon": 72.8264,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-kala-ghoda-arts-district",
+    "name": "Kala Ghoda Arts District",
+    "category": "museums",
+    "lat": 18.926,
+    "lon": 72.8326,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-kanheri-caves",
+    "name": "Kanheri Caves",
+    "category": "landmarks",
+    "lat": 19.214,
+    "lon": 72.91,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-local-food-street-mumbai-8",
+    "name": "Local Food Street (Mumbai) 8",
+    "category": "food",
+    "lat": 19.0866,
+    "lon": 72.9019,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-lower-parel",
+    "name": "Lower Parel",
+    "category": "nightlife",
+    "lat": 19.0055,
+    "lon": 72.83,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-lower-parel-nightlife",
+    "name": "Lower Parel Nightlife",
+    "category": "nightlife",
+    "lat": 19.0626,
+    "lon": 72.894,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-main-square-mumbai-9",
+    "name": "Main Square (Mumbai) 9",
+    "category": "landmarks",
+    "lat": 19.0657,
+    "lon": 72.9005,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-marine-drive",
+    "name": "Marine Drive",
+    "category": "nature",
+    "lat": 18.943,
+    "lon": 72.8238,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-modern-art-gallery-mumbai-6",
+    "name": "Modern Art Gallery (Mumbai) 6",
+    "category": "museums",
+    "lat": 19.0944,
+    "lon": 72.893,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-nariman-point",
+    "name": "Nariman Point",
+    "category": "landmarks",
+    "lat": 18.925,
+    "lon": 72.823,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-nightlife-district-mumbai-7",
+    "name": "Nightlife District (Mumbai) 7",
+    "category": "nightlife",
+    "lat": 19.0851,
+    "lon": 72.9012,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-old-town-mumbai-1",
+    "name": "Old Town (Mumbai) 1",
+    "category": "landmarks",
+    "lat": 19.0561,
+    "lon": 72.8872,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-powai-lake",
+    "name": "Powai Lake",
+    "category": "nature",
+    "lat": 19.1266,
+    "lon": 72.909,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-riverside-promenade-mumbai-3",
+    "name": "Riverside Promenade (Mumbai) 3",
+    "category": "nature",
+    "lat": 19.0647,
+    "lon": 72.8697,
     "source": "static",
     "countryCode": "IN",
     "cityId": "mumbai"
@@ -110,11 +340,61 @@
     "cityId": "mumbai"
   },
   {
-    "id": "city-mumbai-kanheri-caves",
-    "name": "Kanheri Caves",
+    "id": "city-mumbai-siddhivinayak-temple",
+    "name": "Siddhivinayak Temple",
     "category": "landmarks",
-    "lat": 19.214,
-    "lon": 72.91,
+    "lat": 19.0169,
+    "lon": 72.8304,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-taj-mahal-palace",
+    "name": "Taj Mahal Palace",
+    "category": "landmarks",
+    "lat": 18.9217,
+    "lon": 72.8331,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-versova-beach",
+    "name": "Versova Beach",
+    "category": "nature",
+    "lat": 19.1285,
+    "lon": 72.811,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-waterfront-mumbai-10",
+    "name": "Waterfront (Mumbai) 10",
+    "category": "nature",
+    "lat": 19.0733,
+    "lon": 72.8849,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-worli-fort",
+    "name": "Worli Fort",
+    "category": "landmarks",
+    "lat": 19.0771,
+    "lon": 72.8926,
+    "source": "static",
+    "countryCode": "IN",
+    "cityId": "mumbai"
+  },
+  {
+    "id": "city-mumbai-worli-sea-face",
+    "name": "Worli Sea Face",
+    "category": "nature",
+    "lat": 19.003,
+    "lon": 72.815,
     "source": "static",
     "countryCode": "IN",
     "cityId": "mumbai"

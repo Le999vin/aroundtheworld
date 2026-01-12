@@ -88,5 +88,140 @@
     "lon": 54.3186,
     "source": "static",
     "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-burj-al-arab-viewpoint",
+    "name": "Burj Al Arab Viewpoint",
+    "category": "landmarks",
+    "lat": 25.1412,
+    "lon": 55.1853,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-museum-of-the-future",
+    "name": "Museum of the Future",
+    "category": "museums",
+    "lat": 25.2184,
+    "lon": 55.2809,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-dubai-frame",
+    "name": "Dubai Frame",
+    "category": "landmarks",
+    "lat": 25.2355,
+    "lon": 55.3003,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-dubai-creek",
+    "name": "Dubai Creek",
+    "category": "landmarks",
+    "lat": 25.2697,
+    "lon": 55.3047,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-gold-souk",
+    "name": "Gold Souk",
+    "category": "food",
+    "lat": 25.2712,
+    "lon": 55.297,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-dubai-miracle-garden",
+    "name": "Dubai Miracle Garden",
+    "category": "nature",
+    "lat": 25.06,
+    "lon": 55.242,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-global-village",
+    "name": "Global Village",
+    "category": "other",
+    "lat": 25.071,
+    "lon": 55.308,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-souk-madinat-jumeirah",
+    "name": "Souk Madinat Jumeirah",
+    "category": "food",
+    "lat": 25.1316,
+    "lon": 55.1838,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-atlantis-aquaventure",
+    "name": "Atlantis Aquaventure",
+    "category": "other",
+    "lat": 25.1304,
+    "lon": 55.117,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-dubai-opera",
+    "name": "Dubai Opera",
+    "category": "landmarks",
+    "lat": 25.1972,
+    "lon": 55.2737,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-bluewaters-island",
+    "name": "Bluewaters Island",
+    "category": "landmarks",
+    "lat": 25.077,
+    "lon": 55.136,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-hatta-dam",
+    "name": "Hatta Dam",
+    "category": "nature",
+    "lat": 24.7937,
+    "lon": 56.1122,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-jebel-jais-viewpoint",
+    "name": "Jebel Jais Viewpoint",
+    "category": "nature",
+    "lat": 25.9448,
+    "lon": 56.131,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-yas-marina-circuit",
+    "name": "Yas Marina Circuit",
+    "category": "landmarks",
+    "lat": 24.4672,
+    "lon": 54.6031,
+    "source": "static",
+    "countryCode": "AE"
+  },
+  {
+    "id": "country-ae-yas-bay-waterfront",
+    "name": "Yas Bay Waterfront",
+    "category": "nightlife",
+    "lat": 24.466,
+    "lon": 54.602,
+    "source": "static",
+    "countryCode": "AE"
   }
 ]

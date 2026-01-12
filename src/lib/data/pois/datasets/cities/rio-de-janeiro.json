@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-rio-de-janeiro-arpoador-sunset-spot",
+    "name": "Arpoador Sunset Spot",
+    "category": "nature",
+    "lat": -22.9081,
+    "lon": -43.172,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-barra-da-tijuca",
+    "name": "Barra da Tijuca",
+    "category": "nature",
+    "lat": -22.9027,
+    "lon": -43.1692,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-ccbb-rio",
+    "name": "CCBB Rio",
+    "category": "museums",
+    "lat": -22.9098,
+    "lon": -43.1762,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-christ-the-redeemer",
+    "name": "Christ the Redeemer",
+    "category": "landmarks",
+    "lat": -22.9129,
+    "lon": -43.1539,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-copacabana-beach",
+    "name": "Copacabana Beach",
+    "category": "nature",
+    "lat": -22.8979,
+    "lon": -43.1585,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-copacabana-fort",
+    "name": "Copacabana Fort",
+    "category": "landmarks",
+    "lat": -22.9141,
+    "lon": -43.1848,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-feira-de-sao-cristovao",
+    "name": "Feira de Sao Cristovao",
+    "category": "food",
+    "lat": -22.9229,
+    "lon": -43.1617,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-flamengo-park",
+    "name": "Flamengo Park",
+    "category": "nature",
+    "lat": -22.894,
+    "lon": -43.1735,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-ipanema-beach",
+    "name": "Ipanema Beach",
+    "category": "nature",
+    "lat": -22.8977,
+    "lon": -43.1682,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-jardim-botanico",
+    "name": "Jardim Botanico",
+    "category": "nature",
+    "lat": -22.9226,
+    "lon": -43.1577,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-lapa-arches",
+    "name": "Lapa Arches",
+    "category": "landmarks",
+    "lat": -22.8927,
+    "lon": -43.1852,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-leblon",
+    "name": "Leblon",
+    "category": "food",
+    "lat": -22.9013,
+    "lon": -43.1838,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-maracana-stadium",
+    "name": "Maracana Stadium",
+    "category": "landmarks",
+    "lat": -22.9204,
+    "lon": -43.1858,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-metropolitan-cathedral",
+    "name": "Metropolitan Cathedral",
+    "category": "landmarks",
+    "lat": -22.9225,
+    "lon": -43.1602,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-museum-of-art-of-rio",
+    "name": "Museum of Art of Rio",
+    "category": "museums",
+    "lat": -22.913,
+    "lon": -43.1637,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-museum-of-tomorrow",
+    "name": "Museum of Tomorrow",
+    "category": "museums",
+    "lat": -22.8954,
+    "lon": -43.1885,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-pedra-do-sal",
+    "name": "Pedra do Sal",
+    "category": "nightlife",
+    "lat": -22.9039,
+    "lon": -43.1885,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-prainha-beach",
+    "name": "Prainha Beach",
+    "category": "nature",
+    "lat": -22.9226,
+    "lon": -43.1784,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-rio-scenarium",
+    "name": "Rio Scenarium",
+    "category": "nightlife",
+    "lat": -22.9219,
+    "lon": -43.1693,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-rodrigo-de-freitas-lagoon",
+    "name": "Rodrigo de Freitas Lagoon",
+    "category": "nature",
+    "lat": -22.9038,
+    "lon": -43.1879,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-sambadrome",
+    "name": "Sambadrome",
+    "category": "nightlife",
+    "lat": -22.8923,
+    "lon": -43.162,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-santa-teresa",
+    "name": "Santa Teresa",
+    "category": "food",
+    "lat": -22.9016,
+    "lon": -43.1672,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-selaron-steps",
+    "name": "Selaron Steps",
+    "category": "landmarks",
+    "lat": -22.911,
+    "lon": -43.1654,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-sugarloaf-mountain",
+    "name": "Sugarloaf Mountain",
+    "category": "nature",
+    "lat": -22.9024,
+    "lon": -43.1809,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  },
+  {
+    "id": "city-rio-de-janeiro-tijuca-national-park",
+    "name": "Tijuca National Park",
+    "category": "nature",
+    "lat": -22.9234,
+    "lon": -43.1821,
+    "source": "static",
+    "countryCode": "BR",
+    "cityId": "rio-de-janeiro"
+  }
+]

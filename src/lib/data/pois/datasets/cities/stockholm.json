@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-stockholm-abba-the-museum",
+    "name": "ABBA The Museum",
+    "category": "museums",
+    "lat": 59.3155,
+    "lon": 18.0591,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-avicii-arena-area",
+    "name": "Avicii Arena Area",
+    "category": "landmarks",
+    "lat": 59.3146,
+    "lon": 18.0666,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-djurgarden",
+    "name": "Djurgarden",
+    "category": "nature",
+    "lat": 59.3381,
+    "lon": 18.04,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-drottninggatan",
+    "name": "Drottninggatan",
+    "category": "food",
+    "lat": 59.3219,
+    "lon": 18.0519,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-fotografiska",
+    "name": "Fotografiska",
+    "category": "museums",
+    "lat": 59.3349,
+    "lon": 18.0788,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-gamla-stan",
+    "name": "Gamla Stan",
+    "category": "landmarks",
+    "lat": 59.3335,
+    "lon": 18.0908,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-grona-lund",
+    "name": "Grona Lund",
+    "category": "other",
+    "lat": 59.3295,
+    "lon": 18.0412,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-hammarby-sjostad-waterfront",
+    "name": "Hammarby Sjostad Waterfront",
+    "category": "nature",
+    "lat": 59.3295,
+    "lon": 18.0715,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-kungstradgarden",
+    "name": "Kungstradgarden",
+    "category": "nature",
+    "lat": 59.324,
+    "lon": 18.0432,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-moderna-museet",
+    "name": "Moderna Museet",
+    "category": "museums",
+    "lat": 59.3399,
+    "lon": 18.0798,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-monteliusvagen-viewpoint",
+    "name": "Monteliusvagen Viewpoint",
+    "category": "nature",
+    "lat": 59.34,
+    "lon": 18.0864,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-norrmalm",
+    "name": "Norrmalm",
+    "category": "food",
+    "lat": 59.3306,
+    "lon": 18.0624,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-ostermalm-food-hall",
+    "name": "Ostermalm Food Hall",
+    "category": "food",
+    "lat": 59.3199,
+    "lon": 18.0607,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-riddarholmen-church",
+    "name": "Riddarholmen Church",
+    "category": "landmarks",
+    "lat": 59.316,
+    "lon": 18.0458,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-royal-palace-stockholm",
+    "name": "Royal Palace Stockholm",
+    "category": "landmarks",
+    "lat": 59.3407,
+    "lon": 18.0549,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-skansen",
+    "name": "Skansen",
+    "category": "museums",
+    "lat": 59.3144,
+    "lon": 18.0643,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-skeppsholmen",
+    "name": "Skeppsholmen",
+    "category": "nature",
+    "lat": 59.3177,
+    "lon": 18.0864,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-sodermalm",
+    "name": "Sodermalm",
+    "category": "food",
+    "lat": 59.3345,
+    "lon": 18.0398,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-sodermalm-nightlife-streets",
+    "name": "Sodermalm Nightlife Streets",
+    "category": "nightlife",
+    "lat": 59.3403,
+    "lon": 18.0662,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-stockholm-city-hall",
+    "name": "Stockholm City Hall",
+    "category": "landmarks",
+    "lat": 59.322,
+    "lon": 18.0504,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-stockholm-metro-art",
+    "name": "Stockholm Metro Art",
+    "category": "museums",
+    "lat": 59.3373,
+    "lon": 18.07,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-strandvagen",
+    "name": "Strandvagen",
+    "category": "food",
+    "lat": 59.3288,
+    "lon": 18.0752,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-stureplan",
+    "name": "Stureplan",
+    "category": "nightlife",
+    "lat": 59.3146,
+    "lon": 18.0469,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-vasa-museum",
+    "name": "Vasa Museum",
+    "category": "museums",
+    "lat": 59.3292,
+    "lon": 18.0709,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  },
+  {
+    "id": "city-stockholm-vasaparken",
+    "name": "Vasaparken",
+    "category": "nature",
+    "lat": 59.3332,
+    "lon": 18.086,
+    "source": "static",
+    "countryCode": "SE",
+    "cityId": "stockholm"
+  }
+]

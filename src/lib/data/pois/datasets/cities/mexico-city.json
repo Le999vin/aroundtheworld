@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-mexico-city-alameda-central",
+    "name": "Alameda Central",
+    "category": "nature",
+    "lat": 19.4473,
+    "lon": -99.1336,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-angel-of-independence",
+    "name": "Angel of Independence",
+    "category": "landmarks",
+    "lat": 19.4379,
+    "lon": -99.1477,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-arena-mexico",
+    "name": "Arena Mexico",
+    "category": "nightlife",
+    "lat": 19.4387,
+    "lon": -99.1395,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-basilica-of-our-lady-of-guadalupe",
+    "name": "Basilica of Our Lady of Guadalupe",
+    "category": "landmarks",
+    "lat": 19.4475,
+    "lon": -99.1502,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-chapultepec-castle",
+    "name": "Chapultepec Castle",
+    "category": "landmarks",
+    "lat": 19.4355,
+    "lon": -99.1163,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-chapultepec-park",
+    "name": "Chapultepec Park",
+    "category": "nature",
+    "lat": 19.4498,
+    "lon": -99.1271,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-cineteca-nacional",
+    "name": "Cineteca Nacional",
+    "category": "museums",
+    "lat": 19.4175,
+    "lon": -99.1219,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-condesa",
+    "name": "Condesa",
+    "category": "nightlife",
+    "lat": 19.4489,
+    "lon": -99.128,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-coyoacan",
+    "name": "Coyoacan",
+    "category": "food",
+    "lat": 19.4208,
+    "lon": -99.1161,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-frida-kahlo-museum",
+    "name": "Frida Kahlo Museum",
+    "category": "museums",
+    "lat": 19.4399,
+    "lon": -99.1199,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-la-ciudadela-market",
+    "name": "La Ciudadela Market",
+    "category": "food",
+    "lat": 19.4465,
+    "lon": -99.1504,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-mercado-de-san-juan",
+    "name": "Mercado de San Juan",
+    "category": "food",
+    "lat": 19.4376,
+    "lon": -99.1228,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-metropolitan-cathedral",
+    "name": "Metropolitan Cathedral",
+    "category": "landmarks",
+    "lat": 19.4413,
+    "lon": -99.133,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-museo-soumaya",
+    "name": "Museo Soumaya",
+    "category": "museums",
+    "lat": 19.4333,
+    "lon": -99.1224,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-national-museum-of-anthropology",
+    "name": "National Museum of Anthropology",
+    "category": "museums",
+    "lat": 19.4378,
+    "lon": -99.1312,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-palacio-de-bellas-artes",
+    "name": "Palacio de Bellas Artes",
+    "category": "landmarks",
+    "lat": 19.4312,
+    "lon": -99.1426,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-paseo-de-la-reforma",
+    "name": "Paseo de la Reforma",
+    "category": "landmarks",
+    "lat": 19.4469,
+    "lon": -99.1453,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-plaza-garibaldi",
+    "name": "Plaza Garibaldi",
+    "category": "nightlife",
+    "lat": 19.4492,
+    "lon": -99.1216,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-polanco",
+    "name": "Polanco",
+    "category": "food",
+    "lat": 19.4172,
+    "lon": -99.126,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-roma-norte",
+    "name": "Roma Norte",
+    "category": "food",
+    "lat": 19.4324,
+    "lon": -99.1314,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-templo-mayor",
+    "name": "Templo Mayor",
+    "category": "museums",
+    "lat": 19.4317,
+    "lon": -99.1341,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-unam-central-library",
+    "name": "UNAM Central Library",
+    "category": "landmarks",
+    "lat": 19.4249,
+    "lon": -99.1422,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-xochimilco",
+    "name": "Xochimilco",
+    "category": "nature",
+    "lat": 19.4178,
+    "lon": -99.1248,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-zocalo",
+    "name": "Zocalo",
+    "category": "landmarks",
+    "lat": 19.4467,
+    "lon": -99.1475,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  },
+  {
+    "id": "city-mexico-city-zona-rosa",
+    "name": "Zona Rosa",
+    "category": "nightlife",
+    "lat": 19.4428,
+    "lon": -99.1232,
+    "source": "static",
+    "countryCode": "MX",
+    "cityId": "mexico-city"
+  }
+]

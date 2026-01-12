@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-nz-milford-sound",
+    "name": "Milford Sound",
+    "category": "nature",
+    "lat": -44.671,
+    "lon": 167.9259,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-queenstown",
+    "name": "Queenstown",
+    "category": "nature",
+    "lat": -45.0312,
+    "lon": 168.6626,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-lake-tekapo",
+    "name": "Lake Tekapo",
+    "category": "nature",
+    "lat": -44.005,
+    "lon": 170.477,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-aoraki-mount-cook",
+    "name": "Aoraki Mount Cook",
+    "category": "nature",
+    "lat": -43.595,
+    "lon": 170.141,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-tongariro-alpine-crossing",
+    "name": "Tongariro Alpine Crossing",
+    "category": "nature",
+    "lat": -39.136,
+    "lon": 175.641,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-rotorua-geothermal-parks",
+    "name": "Rotorua Geothermal Parks",
+    "category": "nature",
+    "lat": -38.1368,
+    "lon": 176.2497,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-waitomo-glowworm-caves",
+    "name": "Waitomo Glowworm Caves",
+    "category": "nature",
+    "lat": -38.26,
+    "lon": 175.1,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-auckland-sky-tower",
+    "name": "Auckland Sky Tower",
+    "category": "landmarks",
+    "lat": -36.8485,
+    "lon": 174.7633,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-wellington-te-papa-museum",
+    "name": "Wellington Te Papa Museum",
+    "category": "museums",
+    "lat": -41.2905,
+    "lon": 174.783,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-christchurch-botanic-gardens",
+    "name": "Christchurch Botanic Gardens",
+    "category": "nature",
+    "lat": -43.53,
+    "lon": 172.62,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-hobbiton-movie-set",
+    "name": "Hobbiton Movie Set",
+    "category": "other",
+    "lat": -37.8721,
+    "lon": 175.682,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-bay-of-islands",
+    "name": "Bay of Islands",
+    "category": "nature",
+    "lat": -35.25,
+    "lon": 174.1,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-franz-josef-glacier",
+    "name": "Franz Josef Glacier",
+    "category": "nature",
+    "lat": -43.387,
+    "lon": 170.182,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-kaikoura-whale-watching",
+    "name": "Kaikoura Whale Watching",
+    "category": "nature",
+    "lat": -42.4,
+    "lon": 173.68,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-abel-tasman-national-park",
+    "name": "Abel Tasman National Park",
+    "category": "nature",
+    "lat": -40.9,
+    "lon": 172.9,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-wellington-cuba-street",
+    "name": "Wellington Cuba Street",
+    "category": "food",
+    "lat": -41.292,
+    "lon": 174.776,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-auckland-britomart-eats",
+    "name": "Auckland Britomart Eats",
+    "category": "food",
+    "lat": -36.844,
+    "lon": 174.768,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-christchurch-riverside-market",
+    "name": "Christchurch Riverside Market",
+    "category": "food",
+    "lat": -43.532,
+    "lon": 172.636,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-auckland-viaduct-harbour",
+    "name": "Auckland Viaduct Harbour",
+    "category": "nightlife",
+    "lat": -36.842,
+    "lon": 174.76,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-queenstown-nightlife",
+    "name": "Queenstown Nightlife",
+    "category": "nightlife",
+    "lat": -45.0312,
+    "lon": 168.6626,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-wellington-courtenay-place",
+    "name": "Wellington Courtenay Place",
+    "category": "nightlife",
+    "lat": -41.293,
+    "lon": 174.783,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-fiordland-national-park",
+    "name": "Fiordland National Park",
+    "category": "nature",
+    "lat": -45.4,
+    "lon": 167.7,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-mount-maunganui-beach",
+    "name": "Mount Maunganui Beach",
+    "category": "nature",
+    "lat": -37.643,
+    "lon": 176.188,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-napier-art-deco-district",
+    "name": "Napier Art Deco District",
+    "category": "landmarks",
+    "lat": -39.49,
+    "lon": 176.917,
+    "source": "static",
+    "countryCode": "NZ"
+  },
+  {
+    "id": "country-nz-dunedin-railway-station",
+    "name": "Dunedin Railway Station",
+    "category": "landmarks",
+    "lat": -45.8788,
+    "lon": 170.5036,
+    "source": "static",
+    "countryCode": "NZ"
+  }
+]

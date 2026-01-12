@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-au-sydney-opera-house",
+    "name": "Sydney Opera House",
+    "category": "landmarks",
+    "lat": -33.8568,
+    "lon": 151.2153,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-sydney-harbour-bridge",
+    "name": "Sydney Harbour Bridge",
+    "category": "landmarks",
+    "lat": -33.8523,
+    "lon": 151.2108,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-bondi-beach",
+    "name": "Bondi Beach",
+    "category": "nature",
+    "lat": -33.8915,
+    "lon": 151.2767,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-blue-mountains-national-park",
+    "name": "Blue Mountains National Park",
+    "category": "nature",
+    "lat": -33.7182,
+    "lon": 150.309,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-great-barrier-reef",
+    "name": "Great Barrier Reef",
+    "category": "nature",
+    "lat": -18.2871,
+    "lon": 147.6992,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-uluru",
+    "name": "Uluru",
+    "category": "nature",
+    "lat": -25.3444,
+    "lon": 131.0369,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-kakadu-national-park",
+    "name": "Kakadu National Park",
+    "category": "nature",
+    "lat": -12.4259,
+    "lon": 132.5703,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-melbourne-laneways",
+    "name": "Melbourne Laneways",
+    "category": "landmarks",
+    "lat": -37.8136,
+    "lon": 144.9631,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-great-ocean-road",
+    "name": "Great Ocean Road",
+    "category": "nature",
+    "lat": -38.6833,
+    "lon": 143.3917,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-twelve-apostles",
+    "name": "Twelve Apostles",
+    "category": "nature",
+    "lat": -38.662,
+    "lon": 143.105,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-brisbane-south-bank",
+    "name": "Brisbane South Bank",
+    "category": "other",
+    "lat": -27.4766,
+    "lon": 153.017,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-gold-coast-surfers-paradise",
+    "name": "Gold Coast Surfers Paradise",
+    "category": "nature",
+    "lat": -28.002,
+    "lon": 153.431,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-perth-kings-park",
+    "name": "Perth Kings Park",
+    "category": "nature",
+    "lat": -31.9617,
+    "lon": 115.842,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-fremantle-markets",
+    "name": "Fremantle Markets",
+    "category": "food",
+    "lat": -32.056,
+    "lon": 115.748,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-tasmania-cradle-mountain",
+    "name": "Tasmania Cradle Mountain",
+    "category": "nature",
+    "lat": -41.65,
+    "lon": 145.95,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-australian-war-memorial-canberra",
+    "name": "Australian War Memorial Canberra",
+    "category": "museums",
+    "lat": -35.281,
+    "lon": 149.149,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-national-gallery-of-victoria",
+    "name": "National Gallery of Victoria",
+    "category": "museums",
+    "lat": -37.8226,
+    "lon": 144.9689,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-queensland-art-gallery",
+    "name": "Queensland Art Gallery",
+    "category": "museums",
+    "lat": -27.476,
+    "lon": 153.016,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-sydney-fish-market",
+    "name": "Sydney Fish Market",
+    "category": "food",
+    "lat": -33.8696,
+    "lon": 151.1957,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-melbourne-queen-victoria-market",
+    "name": "Melbourne Queen Victoria Market",
+    "category": "food",
+    "lat": -37.8076,
+    "lon": 144.9568,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-adelaide-central-market",
+    "name": "Adelaide Central Market",
+    "category": "food",
+    "lat": -34.9287,
+    "lon": 138.5986,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-kings-cross",
+    "name": "Kings Cross",
+    "category": "nightlife",
+    "lat": -33.8748,
+    "lon": 151.223,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-melbourne-chapel-street",
+    "name": "Melbourne Chapel Street",
+    "category": "nightlife",
+    "lat": -37.858,
+    "lon": 144.994,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-brisbane-fortitude-valley",
+    "name": "Brisbane Fortitude Valley",
+    "category": "nightlife",
+    "lat": -27.457,
+    "lon": 153.034,
+    "source": "static",
+    "countryCode": "AU"
+  },
+  {
+    "id": "country-au-darling-harbour-nightlife",
+    "name": "Darling Harbour Nightlife",
+    "category": "nightlife",
+    "lat": -33.874,
+    "lon": 151.2,
+    "source": "static",
+    "countryCode": "AU"
+  }
+]

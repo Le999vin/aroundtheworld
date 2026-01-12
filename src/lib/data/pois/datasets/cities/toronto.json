@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-toronto-aga-khan-museum",
+    "name": "Aga Khan Museum",
+    "category": "museums",
+    "lat": 43.6671,
+    "lon": -79.3818,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-art-gallery-of-ontario",
+    "name": "Art Gallery of Ontario",
+    "category": "museums",
+    "lat": 43.6428,
+    "lon": -79.3942,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-casa-loma",
+    "name": "Casa Loma",
+    "category": "landmarks",
+    "lat": 43.6653,
+    "lon": -79.3629,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-chinatown-spadina",
+    "name": "Chinatown (Spadina)",
+    "category": "food",
+    "lat": 43.6527,
+    "lon": -79.3981,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-cn-tower",
+    "name": "CN Tower",
+    "category": "landmarks",
+    "lat": 43.6583,
+    "lon": -79.3664,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-distillery-district",
+    "name": "Distillery District",
+    "category": "landmarks",
+    "lat": 43.6656,
+    "lon": -79.388,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-evergreen-brick-works",
+    "name": "Evergreen Brick Works",
+    "category": "nature",
+    "lat": 43.6596,
+    "lon": -79.3881,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-graffiti-alley",
+    "name": "Graffiti Alley",
+    "category": "landmarks",
+    "lat": 43.6459,
+    "lon": -79.3807,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-harbourfront-centre",
+    "name": "Harbourfront Centre",
+    "category": "nightlife",
+    "lat": 43.6699,
+    "lon": -79.3999,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-high-park",
+    "name": "High Park",
+    "category": "nature",
+    "lat": 43.6696,
+    "lon": -79.3722,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-hockey-hall-of-fame",
+    "name": "Hockey Hall of Fame",
+    "category": "museums",
+    "lat": 43.6506,
+    "lon": -79.3717,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-kensington-market",
+    "name": "Kensington Market",
+    "category": "food",
+    "lat": 43.6372,
+    "lon": -79.3826,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-little-italy",
+    "name": "Little Italy",
+    "category": "food",
+    "lat": 43.6583,
+    "lon": -79.3982,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-nathan-phillips-square",
+    "name": "Nathan Phillips Square",
+    "category": "landmarks",
+    "lat": 43.655,
+    "lon": -79.3638,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-ossington-strip",
+    "name": "Ossington Strip",
+    "category": "nightlife",
+    "lat": 43.6545,
+    "lon": -79.396,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-queen-street-west",
+    "name": "Queen Street West",
+    "category": "nightlife",
+    "lat": 43.639,
+    "lon": -79.3747,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-ripley-s-aquarium",
+    "name": "Ripley's Aquarium",
+    "category": "museums",
+    "lat": 43.6551,
+    "lon": -79.3908,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-royal-ontario-museum",
+    "name": "Royal Ontario Museum",
+    "category": "museums",
+    "lat": 43.6451,
+    "lon": -79.3753,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-scotiabank-arena-area",
+    "name": "Scotiabank Arena Area",
+    "category": "landmarks",
+    "lat": 43.6705,
+    "lon": -79.3627,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-st-lawrence-market",
+    "name": "St. Lawrence Market",
+    "category": "food",
+    "lat": 43.649,
+    "lon": -79.4014,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-stackt-market",
+    "name": "Stackt Market",
+    "category": "food",
+    "lat": 43.6369,
+    "lon": -79.3854,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-the-beaches",
+    "name": "The Beaches",
+    "category": "nature",
+    "lat": 43.6444,
+    "lon": -79.3895,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-toronto-islands",
+    "name": "Toronto Islands",
+    "category": "nature",
+    "lat": 43.6364,
+    "lon": -79.388,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-yonge-dundas-square",
+    "name": "Yonge-Dundas Square",
+    "category": "landmarks",
+    "lat": 43.639,
+    "lon": -79.3657,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  },
+  {
+    "id": "city-toronto-yorkville",
+    "name": "Yorkville",
+    "category": "food",
+    "lat": 43.6476,
+    "lon": -79.3673,
+    "source": "static",
+    "countryCode": "CA",
+    "cityId": "toronto"
+  }
+]

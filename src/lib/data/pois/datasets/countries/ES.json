@@ -88,5 +88,140 @@
     "lon": -8.5456,
     "source": "static",
     "countryCode": "ES"
+  },
+  {
+    "id": "country-es-madrid-retiro-park",
+    "name": "Madrid Retiro Park",
+    "category": "nature",
+    "lat": 40.4153,
+    "lon": -3.6844,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-gran-via-madrid",
+    "name": "Gran Vía (Madrid)",
+    "category": "landmarks",
+    "lat": 40.42,
+    "lon": -3.705,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-plaza-de-espana-seville",
+    "name": "Plaza de España (Seville)",
+    "category": "landmarks",
+    "lat": 37.3772,
+    "lon": -5.9869,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-city-of-arts-and-sciences-valencia",
+    "name": "City of Arts and Sciences (Valencia)",
+    "category": "museums",
+    "lat": 39.4542,
+    "lon": -0.3491,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-mallorca-cathedral-palma",
+    "name": "Mallorca Cathedral (Palma)",
+    "category": "landmarks",
+    "lat": 39.5671,
+    "lon": 2.6499,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-cala-d-or-mallorca",
+    "name": "Cala d'Or (Mallorca)",
+    "category": "nature",
+    "lat": 39.374,
+    "lon": 3.227,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-pintxos-in-parte-vieja-san-sebastian",
+    "name": "Pintxos in Parte Vieja (San Sebastián)",
+    "category": "food",
+    "lat": 43.3224,
+    "lon": -1.9857,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-bilbao-casco-viejo",
+    "name": "Bilbao Casco Viejo",
+    "category": "food",
+    "lat": 43.2572,
+    "lon": -2.9234,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-toledo-old-town",
+    "name": "Toledo Old Town",
+    "category": "landmarks",
+    "lat": 39.8628,
+    "lon": -4.0273,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-mezquita-cordoba",
+    "name": "Mezquita (Córdoba)",
+    "category": "landmarks",
+    "lat": 37.8789,
+    "lon": -4.7794,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-montserrat-monastery",
+    "name": "Montserrat Monastery",
+    "category": "nature",
+    "lat": 41.591,
+    "lon": 1.837,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-marbella-old-town",
+    "name": "Marbella Old Town",
+    "category": "food",
+    "lat": 36.509,
+    "lon": -4.885,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-mirador-de-san-nicolas-granada",
+    "name": "Mirador de San Nicolás (Granada)",
+    "category": "landmarks",
+    "lat": 37.181,
+    "lon": -3.592,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-ibiza-clubs-marina-area",
+    "name": "Ibiza Clubs (Marina Area)",
+    "category": "nightlife",
+    "lat": 38.9124,
+    "lon": 1.4468,
+    "source": "static",
+    "countryCode": "ES"
+  },
+  {
+    "id": "country-es-barcelona-gothic-quarter",
+    "name": "Barcelona Gothic Quarter",
+    "category": "landmarks",
+    "lat": 41.3838,
+    "lon": 2.1763,
+    "source": "static",
+    "countryCode": "ES"
   }
 ]

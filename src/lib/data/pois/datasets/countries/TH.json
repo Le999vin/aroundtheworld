@@ -88,5 +88,140 @@
     "lon": 100.497,
     "source": "static",
     "countryCode": "TH"
+  },
+  {
+    "id": "country-th-wat-arun",
+    "name": "Wat Arun",
+    "category": "landmarks",
+    "lat": 13.7437,
+    "lon": 100.4889,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-white-temple-chiang-rai",
+    "name": "White Temple (Chiang Rai)",
+    "category": "landmarks",
+    "lat": 19.824,
+    "lon": 99.763,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-phi-phi-islands",
+    "name": "Phi Phi Islands",
+    "category": "nature",
+    "lat": 7.74,
+    "lon": 98.778,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-koh-samui-fisherman-s-village",
+    "name": "Koh Samui Fisherman's Village",
+    "category": "food",
+    "lat": 9.571,
+    "lon": 100.032,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-koh-tao-sairee-beach",
+    "name": "Koh Tao (Sairee Beach)",
+    "category": "nature",
+    "lat": 10.082,
+    "lon": 99.824,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-koh-lanta-old-town",
+    "name": "Koh Lanta Old Town",
+    "category": "landmarks",
+    "lat": 7.533,
+    "lon": 99.083,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-khao-sok-national-park",
+    "name": "Khao Sok National Park",
+    "category": "nature",
+    "lat": 8.914,
+    "lon": 98.531,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-pai-walking-street",
+    "name": "Pai Walking Street",
+    "category": "food",
+    "lat": 19.36,
+    "lon": 98.439,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-sukhothai-historical-park",
+    "name": "Sukhothai Historical Park",
+    "category": "landmarks",
+    "lat": 17.016,
+    "lon": 99.703,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-yaowarat-chinatown",
+    "name": "Yaowarat Chinatown",
+    "category": "food",
+    "lat": 13.741,
+    "lon": 100.509,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-jodd-fairs-night-market",
+    "name": "Jodd Fairs Night Market",
+    "category": "food",
+    "lat": 13.758,
+    "lon": 100.566,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-bangla-road-patong-nightlife",
+    "name": "Bangla Road (Patong Nightlife)",
+    "category": "nightlife",
+    "lat": 7.894,
+    "lon": 98.295,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-full-moon-party-beach-haad-rin",
+    "name": "Full Moon Party Beach (Haad Rin)",
+    "category": "nightlife",
+    "lat": 9.676,
+    "lon": 100.067,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-erawan-falls",
+    "name": "Erawan Falls",
+    "category": "nature",
+    "lat": 14.368,
+    "lon": 99.152,
+    "source": "static",
+    "countryCode": "TH"
+  },
+  {
+    "id": "country-th-similan-islands",
+    "name": "Similan Islands",
+    "category": "nature",
+    "lat": 8.649,
+    "lon": 97.64,
+    "source": "static",
+    "countryCode": "TH"
   }
 ]

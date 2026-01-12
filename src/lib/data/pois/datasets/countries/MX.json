@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-mx-mexico-city-zocalo",
+    "name": "Mexico City Zocalo",
+    "category": "landmarks",
+    "lat": 19.4326,
+    "lon": -99.1332,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-palacio-de-bellas-artes",
+    "name": "Palacio de Bellas Artes",
+    "category": "museums",
+    "lat": 19.4352,
+    "lon": -99.1412,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-frida-kahlo-museum",
+    "name": "Frida Kahlo Museum",
+    "category": "museums",
+    "lat": 19.355,
+    "lon": -99.1626,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-teotihuacan-pyramids",
+    "name": "Teotihuacan Pyramids",
+    "category": "landmarks",
+    "lat": 19.6925,
+    "lon": -98.8438,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-chichen-itza",
+    "name": "Chichen Itza",
+    "category": "landmarks",
+    "lat": 20.6843,
+    "lon": -88.5678,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-tulum-ruins",
+    "name": "Tulum Ruins",
+    "category": "landmarks",
+    "lat": 20.2114,
+    "lon": -87.4654,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-cancun-hotel-zone-beaches",
+    "name": "Cancun Hotel Zone Beaches",
+    "category": "nature",
+    "lat": 21.1619,
+    "lon": -86.8515,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-cenote-ik-kil",
+    "name": "Cenote Ik Kil",
+    "category": "nature",
+    "lat": 20.6669,
+    "lon": -88.5686,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-oaxaca-historic-center",
+    "name": "Oaxaca Historic Center",
+    "category": "landmarks",
+    "lat": 17.0732,
+    "lon": -96.7266,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-san-miguel-de-allende",
+    "name": "San Miguel de Allende",
+    "category": "landmarks",
+    "lat": 20.9144,
+    "lon": -100.7453,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-guanajuato-old-town",
+    "name": "Guanajuato Old Town",
+    "category": "landmarks",
+    "lat": 21.019,
+    "lon": -101.2574,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-puebla-cathedral",
+    "name": "Puebla Cathedral",
+    "category": "landmarks",
+    "lat": 19.0433,
+    "lon": -98.198,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-copper-canyon",
+    "name": "Copper Canyon",
+    "category": "nature",
+    "lat": 27.5,
+    "lon": -107.9,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-isla-mujeres",
+    "name": "Isla Mujeres",
+    "category": "nature",
+    "lat": 21.232,
+    "lon": -86.732,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-los-cabos-arch",
+    "name": "Los Cabos Arch",
+    "category": "nature",
+    "lat": 22.881,
+    "lon": -109.916,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-sumidero-canyon",
+    "name": "Sumidero Canyon",
+    "category": "nature",
+    "lat": 16.8,
+    "lon": -93.1,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-mercado-de-la-merced",
+    "name": "Mercado de la Merced",
+    "category": "food",
+    "lat": 19.424,
+    "lon": -99.12,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-pujol-mexico-city",
+    "name": "Pujol (Mexico City)",
+    "category": "food",
+    "lat": 19.431,
+    "lon": -99.191,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-tacos-al-pastor-street-food",
+    "name": "Tacos al Pastor Street Food",
+    "category": "food",
+    "lat": 19.4326,
+    "lon": -99.1332,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-zona-rosa",
+    "name": "Zona Rosa",
+    "category": "nightlife",
+    "lat": 19.427,
+    "lon": -99.163,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-playa-del-carmen-nightlife",
+    "name": "Playa del Carmen Nightlife",
+    "category": "nightlife",
+    "lat": 20.6296,
+    "lon": -87.0739,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-guadalajara-chapultepec-ave",
+    "name": "Guadalajara Chapultepec Ave",
+    "category": "nightlife",
+    "lat": 20.6736,
+    "lon": -103.37,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-xcaret-park",
+    "name": "Xcaret Park",
+    "category": "other",
+    "lat": 20.58,
+    "lon": -87.12,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-bacalar-lagoon",
+    "name": "Bacalar Lagoon",
+    "category": "nature",
+    "lat": 18.679,
+    "lon": -88.393,
+    "source": "static",
+    "countryCode": "MX"
+  },
+  {
+    "id": "country-mx-hierve-el-agua",
+    "name": "Hierve el Agua",
+    "category": "nature",
+    "lat": 16.865,
+    "lon": -96.279,
+    "source": "static",
+    "countryCode": "MX"
+  }
+]

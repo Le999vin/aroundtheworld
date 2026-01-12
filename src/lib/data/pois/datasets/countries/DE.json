@@ -88,5 +88,140 @@
     "lon": 13.4019,
     "source": "static",
     "countryCode": "DE"
+  },
+  {
+    "id": "country-de-berlin-wall-memorial",
+    "name": "Berlin Wall Memorial",
+    "category": "landmarks",
+    "lat": 52.5351,
+    "lon": 13.3903,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-sanssouci-palace-potsdam",
+    "name": "Sanssouci Palace (Potsdam)",
+    "category": "landmarks",
+    "lat": 52.4044,
+    "lon": 13.0383,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-elbphilharmonie-hamburg",
+    "name": "Elbphilharmonie Hamburg",
+    "category": "landmarks",
+    "lat": 53.5413,
+    "lon": 9.9841,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-speicherstadt-hamburg",
+    "name": "Speicherstadt Hamburg",
+    "category": "landmarks",
+    "lat": 53.5436,
+    "lon": 9.9866,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-reeperbahn-hamburg",
+    "name": "Reeperbahn (Hamburg)",
+    "category": "nightlife",
+    "lat": 53.5497,
+    "lon": 9.9664,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-rothenburg-ob-der-tauber",
+    "name": "Rothenburg ob der Tauber",
+    "category": "landmarks",
+    "lat": 49.378,
+    "lon": 10.179,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-bastei-bridge-saxon-switzerland",
+    "name": "Bastei Bridge (Saxon Switzerland)",
+    "category": "nature",
+    "lat": 50.9654,
+    "lon": 14.0724,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-konigssee",
+    "name": "Königssee",
+    "category": "nature",
+    "lat": 47.5889,
+    "lon": 12.9876,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-nuremberg-old-town",
+    "name": "Nuremberg Old Town",
+    "category": "landmarks",
+    "lat": 49.4542,
+    "lon": 11.0775,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-frankfurt-skyline-viewpoints",
+    "name": "Frankfurt Skyline Viewpoints",
+    "category": "landmarks",
+    "lat": 50.1136,
+    "lon": 8.6726,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-mercedes-benz-museum-stuttgart",
+    "name": "Mercedes-Benz Museum (Stuttgart)",
+    "category": "museums",
+    "lat": 48.7884,
+    "lon": 9.232,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-dresden-zwinger",
+    "name": "Dresden Zwinger",
+    "category": "museums",
+    "lat": 51.0531,
+    "lon": 13.7341,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-dusseldorf-altstadt",
+    "name": "Düsseldorf Altstadt",
+    "category": "nightlife",
+    "lat": 51.228,
+    "lon": 6.773,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-markthalle-neun-berlin",
+    "name": "Markthalle Neun (Berlin)",
+    "category": "food",
+    "lat": 52.4996,
+    "lon": 13.4317,
+    "source": "static",
+    "countryCode": "DE"
+  },
+  {
+    "id": "country-de-berghain-berlin",
+    "name": "Berghain (Berlin)",
+    "category": "nightlife",
+    "lat": 52.5112,
+    "lon": 13.4436,
+    "source": "static",
+    "countryCode": "DE"
   }
 ]

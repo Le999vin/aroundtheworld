@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-at-vienna-historic-center",
+    "name": "Vienna Historic Center",
+    "category": "landmarks",
+    "lat": 48.2082,
+    "lon": 16.3738,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-schonbrunn-palace",
+    "name": "Schonbrunn Palace",
+    "category": "landmarks",
+    "lat": 48.1845,
+    "lon": 16.3122,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-st-stephens-cathedral",
+    "name": "St. Stephen's Cathedral",
+    "category": "landmarks",
+    "lat": 48.2085,
+    "lon": 16.3731,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-salzburg-old-town",
+    "name": "Salzburg Old Town",
+    "category": "landmarks",
+    "lat": 47.8095,
+    "lon": 13.055,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-hallstatt",
+    "name": "Hallstatt",
+    "category": "landmarks",
+    "lat": 47.5622,
+    "lon": 13.6493,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-innsbruck-golden-roof",
+    "name": "Innsbruck Golden Roof",
+    "category": "landmarks",
+    "lat": 47.2682,
+    "lon": 11.3923,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-graz-old-town",
+    "name": "Graz Old Town",
+    "category": "landmarks",
+    "lat": 47.0707,
+    "lon": 15.4395,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-melk-abbey",
+    "name": "Melk Abbey",
+    "category": "museums",
+    "lat": 48.227,
+    "lon": 15.331,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-belvedere-palace",
+    "name": "Belvedere Palace",
+    "category": "museums",
+    "lat": 48.1915,
+    "lon": 16.3807,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-kunsthistorisches-museum",
+    "name": "Kunsthistorisches Museum",
+    "category": "museums",
+    "lat": 48.2039,
+    "lon": 16.3618,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-grossglockner-high-alpine-road",
+    "name": "Grossglockner High Alpine Road",
+    "category": "nature",
+    "lat": 47.074,
+    "lon": 12.837,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-wachau-valley",
+    "name": "Wachau Valley",
+    "category": "nature",
+    "lat": 48.321,
+    "lon": 15.399,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-krimml-waterfalls",
+    "name": "Krimml Waterfalls",
+    "category": "nature",
+    "lat": 47.2068,
+    "lon": 12.1708,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-zell-am-see",
+    "name": "Zell am See",
+    "category": "nature",
+    "lat": 47.325,
+    "lon": 12.796,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-traunsee-lake",
+    "name": "Traunsee Lake",
+    "category": "nature",
+    "lat": 47.871,
+    "lon": 13.793,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-naschmarkt",
+    "name": "Naschmarkt",
+    "category": "food",
+    "lat": 48.1986,
+    "lon": 16.3612,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-heuriger-grinzing",
+    "name": "Heuriger Grinzing",
+    "category": "food",
+    "lat": 48.2617,
+    "lon": 16.3338,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-salzburg-getreidegasse",
+    "name": "Salzburg Getreidegasse",
+    "category": "food",
+    "lat": 47.8005,
+    "lon": 13.0426,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-flex-vienna",
+    "name": "Flex Vienna",
+    "category": "nightlife",
+    "lat": 48.2155,
+    "lon": 16.3736,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-pratersauna",
+    "name": "Pratersauna",
+    "category": "nightlife",
+    "lat": 48.216,
+    "lon": 16.4029,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-grelle-forelle",
+    "name": "Grelle Forelle",
+    "category": "nightlife",
+    "lat": 48.248,
+    "lon": 16.393,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-vienna-prater",
+    "name": "Vienna Prater",
+    "category": "other",
+    "lat": 48.2167,
+    "lon": 16.3958,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-eisriesenwelt-ice-cave",
+    "name": "Eisriesenwelt Ice Cave",
+    "category": "nature",
+    "lat": 47.5163,
+    "lon": 13.1891,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-semmering-railway",
+    "name": "Semmering Railway",
+    "category": "landmarks",
+    "lat": 47.635,
+    "lon": 15.831,
+    "source": "static",
+    "countryCode": "AT"
+  },
+  {
+    "id": "country-at-bregenz-lake-promenade",
+    "name": "Bregenz Lake Promenade",
+    "category": "nature",
+    "lat": 47.5031,
+    "lon": 9.7471,
+    "source": "static",
+    "countryCode": "AT"
+  }
+]

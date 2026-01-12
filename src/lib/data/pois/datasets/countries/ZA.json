@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-za-table-mountain",
+    "name": "Table Mountain",
+    "category": "nature",
+    "lat": -33.9628,
+    "lon": 18.4098,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-v-a-waterfront-cape-town",
+    "name": "V&A Waterfront Cape Town",
+    "category": "landmarks",
+    "lat": -33.9036,
+    "lon": 18.4208,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-cape-point",
+    "name": "Cape Point",
+    "category": "nature",
+    "lat": -34.3568,
+    "lon": 18.4983,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-boulders-beach-penguins",
+    "name": "Boulders Beach Penguins",
+    "category": "nature",
+    "lat": -34.196,
+    "lon": 18.451,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-robben-island",
+    "name": "Robben Island",
+    "category": "museums",
+    "lat": -33.8066,
+    "lon": 18.3662,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-kruger-national-park",
+    "name": "Kruger National Park",
+    "category": "nature",
+    "lat": -23.9884,
+    "lon": 31.5547,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-blyde-river-canyon",
+    "name": "Blyde River Canyon",
+    "category": "nature",
+    "lat": -24.577,
+    "lon": 30.807,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-garden-route-knysna",
+    "name": "Garden Route Knysna",
+    "category": "nature",
+    "lat": -34.0363,
+    "lon": 23.0471,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-tsitsikamma-national-park",
+    "name": "Tsitsikamma National Park",
+    "category": "nature",
+    "lat": -34.0,
+    "lon": 23.9,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-johannesburg-apartheid-museum",
+    "name": "Johannesburg Apartheid Museum",
+    "category": "museums",
+    "lat": -26.2389,
+    "lon": 27.9945,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-constitution-hill",
+    "name": "Constitution Hill",
+    "category": "museums",
+    "lat": -26.194,
+    "lon": 28.041,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-durban-golden-mile",
+    "name": "Durban Golden Mile",
+    "category": "nature",
+    "lat": -29.856,
+    "lon": 31.032,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-drakensberg-amphitheatre-viewpoints",
+    "name": "Drakensberg Amphitheatre Viewpoints",
+    "category": "nature",
+    "lat": -28.73,
+    "lon": 28.89,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-stellenbosch-wine-lands",
+    "name": "Stellenbosch Wine Lands",
+    "category": "food",
+    "lat": -33.9346,
+    "lon": 18.861,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-franschhoek-wine-tram-area",
+    "name": "Franschhoek Wine Tram Area",
+    "category": "food",
+    "lat": -33.914,
+    "lon": 19.12,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-cape-town-old-biscuit-mill-market",
+    "name": "Cape Town Old Biscuit Mill Market",
+    "category": "food",
+    "lat": -33.927,
+    "lon": 18.449,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-long-street-cape-town",
+    "name": "Long Street Cape Town",
+    "category": "nightlife",
+    "lat": -33.924,
+    "lon": 18.417,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-kloof-street-bars",
+    "name": "Kloof Street Bars",
+    "category": "nightlife",
+    "lat": -33.928,
+    "lon": 18.41,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-maboneng-precinct",
+    "name": "Maboneng Precinct",
+    "category": "nightlife",
+    "lat": -26.204,
+    "lon": 28.057,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-soweto-vilakazi-street",
+    "name": "Soweto Vilakazi Street",
+    "category": "landmarks",
+    "lat": -26.238,
+    "lon": 27.907,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-blyde-river-three-rondavels",
+    "name": "Blyde River Three Rondavels",
+    "category": "nature",
+    "lat": -24.57,
+    "lon": 30.788,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-hermanus-whale-watching",
+    "name": "Hermanus Whale Watching",
+    "category": "nature",
+    "lat": -34.418,
+    "lon": 19.241,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-addo-elephant-national-park",
+    "name": "Addo Elephant National Park",
+    "category": "nature",
+    "lat": -33.549,
+    "lon": 25.744,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-cape-winelands-scenic-drive",
+    "name": "Cape Winelands Scenic Drive",
+    "category": "other",
+    "lat": -33.9,
+    "lon": 19.0,
+    "source": "static",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "country-za-durban-moses-mabhida-stadium",
+    "name": "Durban Moses Mabhida Stadium",
+    "category": "landmarks",
+    "lat": -29.823,
+    "lon": 31.03,
+    "source": "static",
+    "countryCode": "ZA"
+  }
+]

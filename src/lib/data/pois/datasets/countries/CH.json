@@ -88,5 +88,140 @@
     "lon": 8.9511,
     "source": "static",
     "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-kaufleuten",
+    "name": "Kaufleuten",
+    "category": "nightlife",
+    "lat": 47.3707,
+    "lon": 8.5353,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-hive-club",
+    "name": "Hive Club",
+    "category": "nightlife",
+    "lat": 47.3873,
+    "lon": 8.5191,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-plaza-klub",
+    "name": "Plaza Klub",
+    "category": "nightlife",
+    "lat": 47.3753,
+    "lon": 8.5276,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-mascotte",
+    "name": "Mascotte",
+    "category": "nightlife",
+    "lat": 47.3669,
+    "lon": 8.5486,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-club-zukunft",
+    "name": "Club Zukunft",
+    "category": "nightlife",
+    "lat": 47.3772,
+    "lon": 8.5286,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-widder-bar",
+    "name": "Widder Bar",
+    "category": "nightlife",
+    "lat": 47.3715,
+    "lon": 8.5373,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-jules-verne",
+    "name": "Jules Verne Panorama Bar",
+    "category": "nightlife",
+    "lat": 47.3727,
+    "lon": 8.537,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-oliver-twist",
+    "name": "Oliver Twist Pub",
+    "category": "nightlife",
+    "lat": 47.3724,
+    "lon": 8.5447,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zurich-frau-gerolds-garten",
+    "name": "Frau Gerolds Garten",
+    "category": "nightlife",
+    "lat": 47.3878,
+    "lon": 8.5159,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-lucerne-old-town",
+    "name": "Lucerne Old Town",
+    "category": "landmarks",
+    "lat": 47.0502,
+    "lon": 8.3093,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-mount-pilatus",
+    "name": "Mount Pilatus",
+    "category": "nature",
+    "lat": 46.979,
+    "lon": 8.2533,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-interlaken",
+    "name": "Interlaken",
+    "category": "nature",
+    "lat": 46.6863,
+    "lon": 7.8632,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-zermatt-village",
+    "name": "Zermatt Village",
+    "category": "nature",
+    "lat": 46.0207,
+    "lon": 7.7491,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-basel-rhine-promenade",
+    "name": "Basel Rhine Promenade",
+    "category": "landmarks",
+    "lat": 47.5596,
+    "lon": 7.5886,
+    "source": "static",
+    "countryCode": "CH"
+  },
+  {
+    "id": "country-ch-geneva-lakefront-paquis",
+    "name": "Geneva Lakefront (Paquis)",
+    "category": "nightlife",
+    "lat": 46.212,
+    "lon": 6.153,
+    "source": "static",
+    "countryCode": "CH"
   }
 ]

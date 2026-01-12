@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-dk-copenhagen-nyhavn",
+    "name": "Copenhagen Nyhavn",
+    "category": "landmarks",
+    "lat": 55.6791,
+    "lon": 12.593,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-tivoli-gardens",
+    "name": "Tivoli Gardens",
+    "category": "other",
+    "lat": 55.6737,
+    "lon": 12.5681,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-the-little-mermaid",
+    "name": "The Little Mermaid",
+    "category": "landmarks",
+    "lat": 55.6929,
+    "lon": 12.5993,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-rosenborg-castle",
+    "name": "Rosenborg Castle",
+    "category": "landmarks",
+    "lat": 55.6854,
+    "lon": 12.577,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-christiansborg-palace",
+    "name": "Christiansborg Palace",
+    "category": "landmarks",
+    "lat": 55.6761,
+    "lon": 12.5777,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-frederiksborg-castle",
+    "name": "Frederiksborg Castle",
+    "category": "landmarks",
+    "lat": 55.9349,
+    "lon": 12.3,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-aarhus-latin-quarter",
+    "name": "Aarhus Latin Quarter",
+    "category": "landmarks",
+    "lat": 56.158,
+    "lon": 10.209,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-aros-aarhus-art-museum",
+    "name": "ARoS Aarhus Art Museum",
+    "category": "museums",
+    "lat": 56.1538,
+    "lon": 10.2005,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-louisiana-museum-of-modern-art",
+    "name": "Louisiana Museum of Modern Art",
+    "category": "museums",
+    "lat": 55.995,
+    "lon": 12.548,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-skagen-grenen",
+    "name": "Skagen Grenen",
+    "category": "nature",
+    "lat": 57.744,
+    "lon": 10.647,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-mols-bjerge-national-park",
+    "name": "Mols Bjerge National Park",
+    "category": "nature",
+    "lat": 56.27,
+    "lon": 10.6,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-bornholm-coastal-cliffs",
+    "name": "Bornholm Coastal Cliffs",
+    "category": "nature",
+    "lat": 55.1,
+    "lon": 14.9,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-legoland-billund",
+    "name": "Legoland Billund",
+    "category": "other",
+    "lat": 55.7351,
+    "lon": 9.1296,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-ribe-old-town",
+    "name": "Ribe Old Town",
+    "category": "landmarks",
+    "lat": 55.33,
+    "lon": 8.76,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-odense-hans-christian-andersen-quarter",
+    "name": "Odense Hans Christian Andersen Quarter",
+    "category": "landmarks",
+    "lat": 55.4038,
+    "lon": 10.4024,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-torvehallerne-market",
+    "name": "Torvehallerne Market",
+    "category": "food",
+    "lat": 55.6839,
+    "lon": 12.5707,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-reffen-street-food",
+    "name": "Reffen Street Food",
+    "category": "food",
+    "lat": 55.6802,
+    "lon": 12.6125,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-aarhus-street-food",
+    "name": "Aarhus Street Food",
+    "category": "food",
+    "lat": 56.155,
+    "lon": 10.214,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-k-dbyen-meatpacking-district",
+    "name": "Kødbyen Meatpacking District",
+    "category": "nightlife",
+    "lat": 55.6669,
+    "lon": 12.5552,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-culture-box",
+    "name": "Culture Box",
+    "category": "nightlife",
+    "lat": 55.6777,
+    "lon": 12.5717,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-aarhus-nightlife-fredensgade",
+    "name": "Aarhus Nightlife (Fredensgade)",
+    "category": "nightlife",
+    "lat": 56.1565,
+    "lon": 10.2095,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-christiana",
+    "name": "Christiana",
+    "category": "other",
+    "lat": 55.6739,
+    "lon": 12.6105,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-faroe-islands-viewpoint",
+    "name": "Faroe Islands Viewpoint",
+    "category": "nature",
+    "lat": 62.0,
+    "lon": -6.8,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-kronborg-castle",
+    "name": "Kronborg Castle",
+    "category": "landmarks",
+    "lat": 56.039,
+    "lon": 12.621,
+    "source": "static",
+    "countryCode": "DK"
+  },
+  {
+    "id": "country-dk-copenhagen-harbor-baths",
+    "name": "Copenhagen Harbor Baths",
+    "category": "nature",
+    "lat": 55.671,
+    "lon": 12.585,
+    "source": "static",
+    "countryCode": "DK"
+  }
+]

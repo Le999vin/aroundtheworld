@@ -1,40 +1,50 @@
 [
   {
-    "id": "city-paris-eiffel-tower",
-    "name": "Eiffel Tower",
+    "id": "city-paris-arc-de-triomphe",
+    "name": "Arc de Triomphe",
     "category": "landmarks",
-    "lat": 48.8584,
-    "lon": 2.2945,
+    "lat": 48.8738,
+    "lon": 2.295,
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris"
   },
   {
-    "id": "city-paris-louvre",
-    "name": "Louvre",
+    "id": "city-paris-bastille",
+    "name": "Bastille",
+    "category": "nightlife",
+    "lat": 48.853,
+    "lon": 2.369,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-canal-saint-martin",
+    "name": "Canal Saint-Martin",
+    "category": "landmarks",
+    "lat": 48.8722,
+    "lon": 2.3642,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-central-market-paris-2",
+    "name": "Central Market (Paris) 2",
+    "category": "food",
+    "lat": 48.874,
+    "lon": 2.3347,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-centre-pompidou",
+    "name": "Centre Pompidou",
     "category": "museums",
     "lat": 48.8606,
-    "lon": 2.3376,
-    "source": "static",
-    "countryCode": "FR",
-    "cityId": "paris"
-  },
-  {
-    "id": "city-paris-notre-dame-area",
-    "name": "Notre-Dame Area",
-    "category": "landmarks",
-    "lat": 48.8529,
-    "lon": 2.35,
-    "source": "static",
-    "countryCode": "FR",
-    "cityId": "paris"
-  },
-  {
-    "id": "city-paris-montmartre",
-    "name": "Montmartre / Sacre-Coeur",
-    "category": "landmarks",
-    "lat": 48.8867,
-    "lon": 2.3431,
+    "lon": 2.3522,
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris"
@@ -50,31 +60,51 @@
     "cityId": "paris"
   },
   {
-    "id": "city-paris-arc-de-triomphe",
-    "name": "Arc de Triomphe",
-    "category": "landmarks",
-    "lat": 48.8738,
-    "lon": 2.295,
-    "source": "static",
-    "countryCode": "FR",
-    "cityId": "paris"
-  },
-  {
-    "id": "city-paris-seine-river-walk",
-    "name": "Seine River Walk",
+    "id": "city-paris-city-park-paris-4",
+    "name": "City Park (Paris) 4",
     "category": "nature",
-    "lat": 48.857,
-    "lon": 2.342,
+    "lat": 48.8463,
+    "lon": 2.3209,
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris"
   },
   {
-    "id": "city-paris-musee-d-orsay",
-    "name": "Musee d'Orsay",
-    "category": "museums",
-    "lat": 48.86,
-    "lon": 2.3266,
+    "id": "city-paris-eiffel-tower",
+    "name": "Eiffel Tower",
+    "category": "landmarks",
+    "lat": 48.8584,
+    "lon": 2.2945,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-historic-cathedral-paris-5",
+    "name": "Historic Cathedral (Paris) 5",
+    "category": "landmarks",
+    "lat": 48.874,
+    "lon": 2.3325,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-latin-quarter",
+    "name": "Latin Quarter",
+    "category": "food",
+    "lat": 48.8424,
+    "lon": 2.3446,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-latin-quarter-nightlife",
+    "name": "Latin Quarter Nightlife",
+    "category": "nightlife",
+    "lat": 48.8456,
+    "lon": 2.3499,
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris"
@@ -90,6 +120,26 @@
     "cityId": "paris"
   },
   {
+    "id": "city-paris-local-food-street-paris-8",
+    "name": "Local Food Street (Paris) 8",
+    "category": "food",
+    "lat": 48.8803,
+    "lon": 2.3781,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-louvre",
+    "name": "Louvre",
+    "category": "museums",
+    "lat": 48.8606,
+    "lon": 2.3376,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
     "id": "city-paris-luxembourg-gardens",
     "name": "Luxembourg Gardens",
     "category": "nature",
@@ -100,11 +150,241 @@
     "cityId": "paris"
   },
   {
+    "id": "city-paris-marais-nightlife",
+    "name": "Marais Bars & Clubs",
+    "category": "nightlife",
+    "lat": 48.8601,
+    "lon": 2.3647,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-marche-des-enfants-rouges",
+    "name": "Marché des Enfants Rouges",
+    "category": "food",
+    "lat": 48.8622,
+    "lon": 2.3615,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-modern-art-gallery-paris-6",
+    "name": "Modern Art Gallery (Paris) 6",
+    "category": "museums",
+    "lat": 48.8739,
+    "lon": 2.34,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-montmartre",
+    "name": "Montmartre / Sacre-Coeur",
+    "category": "landmarks",
+    "lat": 48.8867,
+    "lon": 2.3431,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-montparnasse-tower-viewpoint",
+    "name": "Montparnasse Tower Viewpoint",
+    "category": "landmarks",
+    "lat": 48.8434,
+    "lon": 2.376,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-moulin-rouge",
+    "name": "Moulin Rouge",
+    "category": "nightlife",
+    "lat": 48.8844,
+    "lon": 2.3826,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-musee-d-orsay",
+    "name": "Musee d'Orsay",
+    "category": "museums",
+    "lat": 48.86,
+    "lon": 2.3266,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-nightlife-district-paris-7",
+    "name": "Nightlife District (Paris) 7",
+    "category": "nightlife",
+    "lat": 48.8754,
+    "lon": 2.3871,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-notre-dame-area",
+    "name": "Notre-Dame Area",
+    "category": "landmarks",
+    "lat": 48.8529,
+    "lon": 2.35,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-oberkampf",
+    "name": "Oberkampf",
+    "category": "nightlife",
+    "lat": 48.8689,
+    "lon": 2.3394,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-old-town-paris-1",
+    "name": "Old Town (Paris) 1",
+    "category": "landmarks",
+    "lat": 48.835,
+    "lon": 2.3293,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
     "id": "city-paris-palais-garnier",
     "name": "Palais Garnier",
     "category": "landmarks",
     "lat": 48.8719,
     "lon": 2.3316,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-pere-lachaise-cemetery",
+    "name": "Père Lachaise Cemetery",
+    "category": "landmarks",
+    "lat": 48.8614,
+    "lon": 2.3933,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-pere-lachaise-cemetery-2",
+    "name": "Pere Lachaise Cemetery",
+    "category": "landmarks",
+    "lat": 48.8453,
+    "lon": 2.3762,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-pigalle",
+    "name": "Pigalle District",
+    "category": "nightlife",
+    "lat": 48.8833,
+    "lon": 2.3365,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-place-de-la-concorde",
+    "name": "Place de la Concorde",
+    "category": "landmarks",
+    "lat": 48.8412,
+    "lon": 2.3649,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-riverside-promenade-paris-3",
+    "name": "Riverside Promenade (Paris) 3",
+    "category": "nature",
+    "lat": 48.8616,
+    "lon": 2.3834,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-rodin-museum",
+    "name": "Rodin Museum",
+    "category": "museums",
+    "lat": 48.8556,
+    "lon": 2.3155,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-rue-cler",
+    "name": "Rue Cler",
+    "category": "food",
+    "lat": 48.8702,
+    "lon": 2.3473,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-rue-montorgueil",
+    "name": "Rue Montorgueil",
+    "category": "food",
+    "lat": 48.864,
+    "lon": 2.347,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-saint-germain-des-pres",
+    "name": "Saint-Germain-des-Prés",
+    "category": "food",
+    "lat": 48.8534,
+    "lon": 2.333,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-saint-germain-des-pres-2",
+    "name": "Saint-Germain-des-Pres",
+    "category": "food",
+    "lat": 48.8414,
+    "lon": 2.3489,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-sainte-chapelle",
+    "name": "Sainte-Chapelle",
+    "category": "museums",
+    "lat": 48.8554,
+    "lon": 2.345,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris"
+  },
+  {
+    "id": "city-paris-seine-river-walk",
+    "name": "Seine River Walk",
+    "category": "nature",
+    "lat": 48.857,
+    "lon": 2.342,
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris"

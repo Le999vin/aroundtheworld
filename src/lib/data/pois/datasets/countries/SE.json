@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-se-stockholm-gamla-stan",
+    "name": "Stockholm Gamla Stan",
+    "category": "landmarks",
+    "lat": 59.325,
+    "lon": 18.071,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-vasa-museum",
+    "name": "Vasa Museum",
+    "category": "museums",
+    "lat": 59.327,
+    "lon": 18.091,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-skansen-open-air-museum",
+    "name": "Skansen Open-Air Museum",
+    "category": "museums",
+    "lat": 59.3253,
+    "lon": 18.1047,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-stockholm-city-hall",
+    "name": "Stockholm City Hall",
+    "category": "landmarks",
+    "lat": 59.3275,
+    "lon": 18.0547,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-drottningholm-palace",
+    "name": "Drottningholm Palace",
+    "category": "landmarks",
+    "lat": 59.3226,
+    "lon": 17.8867,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-gothenburg-haga-district",
+    "name": "Gothenburg Haga District",
+    "category": "landmarks",
+    "lat": 57.701,
+    "lon": 11.958,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-liseberg-amusement-park",
+    "name": "Liseberg Amusement Park",
+    "category": "other",
+    "lat": 57.695,
+    "lon": 11.992,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-malmo-turning-torso",
+    "name": "Malmo Turning Torso",
+    "category": "landmarks",
+    "lat": 55.613,
+    "lon": 12.976,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-kiruna-icehotel-area",
+    "name": "Kiruna Icehotel Area",
+    "category": "nature",
+    "lat": 67.852,
+    "lon": 20.226,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-abisko-national-park",
+    "name": "Abisko National Park",
+    "category": "nature",
+    "lat": 68.36,
+    "lon": 18.78,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-gotland-visby",
+    "name": "Gotland Visby",
+    "category": "landmarks",
+    "lat": 57.6348,
+    "lon": 18.2948,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-stockholm-archipelago",
+    "name": "Stockholm Archipelago",
+    "category": "nature",
+    "lat": 59.35,
+    "lon": 18.5,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-lake-siljan",
+    "name": "Lake Siljan",
+    "category": "nature",
+    "lat": 60.95,
+    "lon": 14.8,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-uppsala-cathedral",
+    "name": "Uppsala Cathedral",
+    "category": "landmarks",
+    "lat": 59.8586,
+    "lon": 17.6389,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-moderna-museet-stockholm",
+    "name": "Moderna Museet Stockholm",
+    "category": "museums",
+    "lat": 59.326,
+    "lon": 18.086,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-ostermalm-food-hall",
+    "name": "Ostermalm Food Hall",
+    "category": "food",
+    "lat": 59.3359,
+    "lon": 18.0763,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-fika-cafe-district-sodermalm",
+    "name": "Fika Cafe District Sodermalm",
+    "category": "food",
+    "lat": 59.3145,
+    "lon": 18.0706,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-gothenburg-fish-market-feskekorka",
+    "name": "Gothenburg Fish Market (Feskekorka)",
+    "category": "food",
+    "lat": 57.7048,
+    "lon": 11.9591,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-stureplan",
+    "name": "Stureplan",
+    "category": "nightlife",
+    "lat": 59.3347,
+    "lon": 18.072,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-sodermalm-bars",
+    "name": "Sodermalm Bars",
+    "category": "nightlife",
+    "lat": 59.3145,
+    "lon": 18.0706,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-tr-dg-rden-club",
+    "name": "Trädgården Club",
+    "category": "nightlife",
+    "lat": 59.316,
+    "lon": 18.08,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-royal-swedish-opera",
+    "name": "Royal Swedish Opera",
+    "category": "other",
+    "lat": 59.3302,
+    "lon": 18.0721,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-kungsleden-trail-access",
+    "name": "Kungsleden Trail Access",
+    "category": "nature",
+    "lat": 67.852,
+    "lon": 20.226,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-ales-stones",
+    "name": "Ales Stones",
+    "category": "landmarks",
+    "lat": 55.381,
+    "lon": 14.056,
+    "source": "static",
+    "countryCode": "SE"
+  },
+  {
+    "id": "country-se-high-coast-hoga-kusten",
+    "name": "High Coast (Hoga Kusten)",
+    "category": "nature",
+    "lat": 63.15,
+    "lon": 18.3,
+    "source": "static",
+    "countryCode": "SE"
+  }
+]

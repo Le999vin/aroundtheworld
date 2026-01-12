@@ -10,21 +10,21 @@
     "cityId": "london"
   },
   {
-    "id": "city-london-buckingham-palace",
-    "name": "Buckingham Palace",
-    "category": "landmarks",
-    "lat": 51.5014,
-    "lon": -0.1419,
+    "id": "city-london-borough-market",
+    "name": "Borough Market",
+    "category": "food",
+    "lat": 51.5055,
+    "lon": -0.0912,
     "source": "static",
     "countryCode": "GB",
     "cityId": "london"
   },
   {
-    "id": "city-london-tower-of-london",
-    "name": "Tower of London",
-    "category": "landmarks",
-    "lat": 51.5081,
-    "lon": -0.0759,
+    "id": "city-london-brick-lane",
+    "name": "Brick Lane",
+    "category": "food",
+    "lat": 51.5219,
+    "lon": -0.0716,
     "source": "static",
     "countryCode": "GB",
     "cityId": "london"
@@ -40,21 +40,11 @@
     "cityId": "london"
   },
   {
-    "id": "city-london-london-eye",
-    "name": "London Eye",
+    "id": "city-london-buckingham-palace",
+    "name": "Buckingham Palace",
     "category": "landmarks",
-    "lat": 51.5033,
-    "lon": -0.1195,
-    "source": "static",
-    "countryCode": "GB",
-    "cityId": "london"
-  },
-  {
-    "id": "city-london-borough-market",
-    "name": "Borough Market",
-    "category": "food",
-    "lat": 51.5055,
-    "lon": -0.0912,
+    "lat": 51.5014,
+    "lon": -0.1419,
     "source": "static",
     "countryCode": "GB",
     "cityId": "london"
@@ -70,11 +60,231 @@
     "cityId": "london"
   },
   {
+    "id": "city-london-central-market-london-12",
+    "name": "Central Market (London) 12",
+    "category": "food",
+    "lat": 51.5122,
+    "lon": -0.1401,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-central-market-london-2",
+    "name": "Central Market (London) 2",
+    "category": "food",
+    "lat": 51.502,
+    "lon": -0.1357,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-city-park-london-4",
+    "name": "City Park (London) 4",
+    "category": "nature",
+    "lat": 51.4878,
+    "lon": -0.1641,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-covent-garden",
+    "name": "Covent Garden",
+    "category": "food",
+    "lat": 51.5129,
+    "lon": -0.1247,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-fabric",
+    "name": "Fabric",
+    "category": "nightlife",
+    "lat": 51.5209,
+    "lon": -0.1042,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-greenwich-park",
+    "name": "Greenwich Park",
+    "category": "nature",
+    "lat": 51.4769,
+    "lon": 0.0005,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-historic-cathedral-london-5",
+    "name": "Historic Cathedral (London) 5",
+    "category": "landmarks",
+    "lat": 51.5138,
+    "lon": -0.1489,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
     "id": "city-london-hyde-park",
     "name": "Hyde Park",
     "category": "nature",
     "lat": 51.5073,
     "lon": -0.1657,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-local-food-street-london-8",
+    "name": "Local Food Street (London) 8",
+    "category": "food",
+    "lat": 51.4969,
+    "lon": -0.1004,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-london-eye",
+    "name": "London Eye",
+    "category": "landmarks",
+    "lat": 51.5033,
+    "lon": -0.1195,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-main-square-london-9",
+    "name": "Main Square (London) 9",
+    "category": "landmarks",
+    "lat": 51.5193,
+    "lon": -0.1163,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-ministry-of-sound",
+    "name": "Ministry of Sound",
+    "category": "nightlife",
+    "lat": 51.4987,
+    "lon": -0.0997,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-modern-art-gallery-london-6",
+    "name": "Modern Art Gallery (London) 6",
+    "category": "museums",
+    "lat": 51.5086,
+    "lon": -0.1098,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-natural-history-museum",
+    "name": "Natural History Museum",
+    "category": "museums",
+    "lat": 51.4967,
+    "lon": -0.1764,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-nightlife-district-london-7",
+    "name": "Nightlife District (London) 7",
+    "category": "nightlife",
+    "lat": 51.4902,
+    "lon": -0.1548,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-notting-hill",
+    "name": "Notting Hill",
+    "category": "food",
+    "lat": 51.509,
+    "lon": -0.205,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-old-town-london-1",
+    "name": "Old Town (London) 1",
+    "category": "landmarks",
+    "lat": 51.4996,
+    "lon": -0.1601,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-old-town-london-11",
+    "name": "Old Town (London) 11",
+    "category": "landmarks",
+    "lat": 51.5113,
+    "lon": -0.1459,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-regent-s-park",
+    "name": "Regent's Park",
+    "category": "nature",
+    "lat": 51.5032,
+    "lon": -0.1316,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-riverside-promenade-london-13",
+    "name": "Riverside Promenade (London) 13",
+    "category": "nature",
+    "lat": 51.5122,
+    "lon": -0.1588,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-riverside-promenade-london-3",
+    "name": "Riverside Promenade (London) 3",
+    "category": "nature",
+    "lat": 51.5208,
+    "lon": -0.1229,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-shoreditch",
+    "name": "Shoreditch",
+    "category": "nightlife",
+    "lat": 51.525,
+    "lon": -0.074,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-sky-garden",
+    "name": "Sky Garden",
+    "category": "landmarks",
+    "lat": 51.5116,
+    "lon": -0.0837,
     "source": "static",
     "countryCode": "GB",
     "cityId": "london"
@@ -90,11 +300,101 @@
     "cityId": "london"
   },
   {
+    "id": "city-london-south-bank-walk",
+    "name": "South Bank Walk",
+    "category": "landmarks",
+    "lat": 51.5075,
+    "lon": -0.116,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-st-paul-s-cathedral",
+    "name": "St Paul's Cathedral",
+    "category": "landmarks",
+    "lat": 51.5138,
+    "lon": -0.0984,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
     "id": "city-london-tate-modern",
     "name": "Tate Modern",
     "category": "museums",
     "lat": 51.5076,
     "lon": -0.0994,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-the-shard-viewpoint",
+    "name": "The Shard Viewpoint",
+    "category": "landmarks",
+    "lat": 51.5045,
+    "lon": -0.0865,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-tower-bridge",
+    "name": "Tower Bridge",
+    "category": "landmarks",
+    "lat": 51.5206,
+    "lon": -0.1064,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-tower-of-london",
+    "name": "Tower of London",
+    "category": "landmarks",
+    "lat": 51.5081,
+    "lon": -0.0759,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-trafalgar-square",
+    "name": "Trafalgar Square",
+    "category": "landmarks",
+    "lat": 51.508,
+    "lon": -0.1281,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-victoria-and-albert-museum",
+    "name": "Victoria and Albert Museum",
+    "category": "museums",
+    "lat": 51.4966,
+    "lon": -0.1722,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-waterfront-london-10",
+    "name": "Waterfront (London) 10",
+    "category": "nature",
+    "lat": 51.5056,
+    "lon": -0.1526,
+    "source": "static",
+    "countryCode": "GB",
+    "cityId": "london"
+  },
+  {
+    "id": "city-london-westminster-abbey",
+    "name": "Westminster Abbey",
+    "category": "landmarks",
+    "lat": 51.4993,
+    "lon": -0.1273,
     "source": "static",
     "countryCode": "GB",
     "cityId": "london"

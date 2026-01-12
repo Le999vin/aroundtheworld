@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-auckland-albert-park",
+    "name": "Albert Park",
+    "category": "nature",
+    "lat": -36.8588,
+    "lon": 174.7547,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-aotea-square",
+    "name": "Aotea Square",
+    "category": "landmarks",
+    "lat": -36.8638,
+    "lon": 174.7555,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-auckland-art-gallery",
+    "name": "Auckland Art Gallery",
+    "category": "museums",
+    "lat": -36.8405,
+    "lon": 174.7426,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-auckland-domain",
+    "name": "Auckland Domain",
+    "category": "nature",
+    "lat": -36.865,
+    "lon": 174.7801,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-auckland-war-memorial-museum",
+    "name": "Auckland War Memorial Museum",
+    "category": "museums",
+    "lat": -36.8607,
+    "lon": 174.7559,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-auckland-zoo",
+    "name": "Auckland Zoo",
+    "category": "nature",
+    "lat": -36.8556,
+    "lon": 174.7439,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-britomart",
+    "name": "Britomart",
+    "category": "food",
+    "lat": -36.8541,
+    "lon": 174.7817,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-devonport",
+    "name": "Devonport",
+    "category": "nature",
+    "lat": -36.8526,
+    "lon": 174.7695,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-karangahape-road-k-road",
+    "name": "Karangahape Road (K Road)",
+    "category": "nightlife",
+    "lat": -36.8573,
+    "lon": 174.7574,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-kelly-tarlton-s-aquarium",
+    "name": "Kelly Tarlton's Aquarium",
+    "category": "museums",
+    "lat": -36.8411,
+    "lon": 174.7647,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-la-cigale-french-market",
+    "name": "La Cigale French Market",
+    "category": "food",
+    "lat": -36.8634,
+    "lon": 174.7832,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-mission-bay",
+    "name": "Mission Bay",
+    "category": "nature",
+    "lat": -36.8487,
+    "lon": 174.7787,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-mount-eden",
+    "name": "Mount Eden",
+    "category": "nature",
+    "lat": -36.843,
+    "lon": 174.7811,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-mount-victoria-lookout",
+    "name": "Mount Victoria Lookout",
+    "category": "nature",
+    "lat": -36.8536,
+    "lon": 174.7671,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-one-tree-hill",
+    "name": "One Tree Hill",
+    "category": "nature",
+    "lat": -36.8608,
+    "lon": 174.7517,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-parnell-rose-gardens",
+    "name": "Parnell Rose Gardens",
+    "category": "nature",
+    "lat": -36.8549,
+    "lon": 174.7743,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-ponsonby",
+    "name": "Ponsonby",
+    "category": "food",
+    "lat": -36.8607,
+    "lon": 174.7618,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-rangitoto-island",
+    "name": "Rangitoto Island",
+    "category": "nature",
+    "lat": -36.8422,
+    "lon": 174.7523,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-silo-park",
+    "name": "Silo Park",
+    "category": "nightlife",
+    "lat": -36.8577,
+    "lon": 174.7542,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-sky-tower",
+    "name": "Sky Tower",
+    "category": "landmarks",
+    "lat": -36.8416,
+    "lon": 174.7851,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-skycity-nightlife",
+    "name": "SkyCity Nightlife",
+    "category": "nightlife",
+    "lat": -36.8607,
+    "lon": 174.7782,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-takapuna-beach",
+    "name": "Takapuna Beach",
+    "category": "nature",
+    "lat": -36.8367,
+    "lon": 174.7543,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-viaduct-harbour",
+    "name": "Viaduct Harbour",
+    "category": "landmarks",
+    "lat": -36.8578,
+    "lon": 174.7661,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-waiheke-island",
+    "name": "Waiheke Island",
+    "category": "nature",
+    "lat": -36.8397,
+    "lon": 174.7844,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  },
+  {
+    "id": "city-auckland-wynyard-quarter",
+    "name": "Wynyard Quarter",
+    "category": "food",
+    "lat": -36.8336,
+    "lon": 174.7416,
+    "source": "static",
+    "countryCode": "NZ",
+    "cityId": "auckland"
+  }
+]

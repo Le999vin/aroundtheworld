@@ -88,5 +88,140 @@
     "lon": 5.1222,
     "source": "static",
     "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-van-gogh-museum",
+    "name": "Van Gogh Museum",
+    "category": "museums",
+    "lat": 52.3584,
+    "lon": 4.8811,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-zaanse-schans",
+    "name": "Zaanse Schans",
+    "category": "landmarks",
+    "lat": 52.473,
+    "lon": 4.817,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-efteling-theme-park",
+    "name": "Efteling Theme Park",
+    "category": "other",
+    "lat": 51.65,
+    "lon": 5.05,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-delft-market-square",
+    "name": "Delft Market Square",
+    "category": "landmarks",
+    "lat": 52.0116,
+    "lon": 4.3571,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-haarlem-grote-markt",
+    "name": "Haarlem Grote Markt",
+    "category": "landmarks",
+    "lat": 52.381,
+    "lon": 4.636,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-leiden-canals",
+    "name": "Leiden Canals",
+    "category": "landmarks",
+    "lat": 52.1601,
+    "lon": 4.497,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-scheveningen-beach",
+    "name": "Scheveningen Beach",
+    "category": "nature",
+    "lat": 52.1076,
+    "lon": 4.28,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-erasmus-bridge",
+    "name": "Erasmus Bridge",
+    "category": "landmarks",
+    "lat": 51.909,
+    "lon": 4.484,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-rotterdam-cube-houses",
+    "name": "Rotterdam Cube Houses",
+    "category": "landmarks",
+    "lat": 51.92,
+    "lon": 4.488,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-maastricht-old-town",
+    "name": "Maastricht Old Town",
+    "category": "landmarks",
+    "lat": 50.851,
+    "lon": 5.691,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-texel-dunes",
+    "name": "Texel Dunes",
+    "category": "nature",
+    "lat": 53.047,
+    "lon": 4.797,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-de-hoge-veluwe-national-park",
+    "name": "De Hoge Veluwe National Park",
+    "category": "nature",
+    "lat": 52.078,
+    "lon": 5.819,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-albert-cuyp-market",
+    "name": "Albert Cuyp Market",
+    "category": "food",
+    "lat": 52.3547,
+    "lon": 4.8929,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-leidseplein-nightlife",
+    "name": "Leidseplein Nightlife",
+    "category": "nightlife",
+    "lat": 52.364,
+    "lon": 4.882,
+    "source": "static",
+    "countryCode": "NL"
+  },
+  {
+    "id": "country-nl-de-pijp-food-district",
+    "name": "De Pijp Food District",
+    "category": "food",
+    "lat": 52.353,
+    "lon": 4.89,
+    "source": "static",
+    "countryCode": "NL"
   }
 ]

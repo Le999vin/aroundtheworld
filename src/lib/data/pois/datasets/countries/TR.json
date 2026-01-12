@@ -88,5 +88,140 @@
     "lon": 38.74,
     "source": "static",
     "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-galata-tower",
+    "name": "Galata Tower",
+    "category": "landmarks",
+    "lat": 41.0256,
+    "lon": 28.9744,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-taksim-square",
+    "name": "Taksim Square",
+    "category": "landmarks",
+    "lat": 41.0369,
+    "lon": 28.9862,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-istiklal-avenue",
+    "name": "Istiklal Avenue",
+    "category": "food",
+    "lat": 41.0339,
+    "lon": 28.9776,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-kadikoy",
+    "name": "Kadikoy",
+    "category": "food",
+    "lat": 40.9909,
+    "lon": 29.0281,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-bodrum-marina",
+    "name": "Bodrum Marina",
+    "category": "nightlife",
+    "lat": 37.0344,
+    "lon": 27.4305,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-oludeniz-beach",
+    "name": "Ölüdeniz Beach",
+    "category": "nature",
+    "lat": 36.546,
+    "lon": 29.124,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-fethiye-old-town",
+    "name": "Fethiye Old Town",
+    "category": "landmarks",
+    "lat": 36.623,
+    "lon": 29.116,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-kas-old-town",
+    "name": "Kaş Old Town",
+    "category": "food",
+    "lat": 36.201,
+    "lon": 29.637,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-izmir-kordon",
+    "name": "İzmir Kordon",
+    "category": "landmarks",
+    "lat": 38.43,
+    "lon": 27.128,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-ankara-antkabir",
+    "name": "Ankara Anıtkabir",
+    "category": "landmarks",
+    "lat": 39.925,
+    "lon": 32.8369,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-sumela-monastery",
+    "name": "Sümela Monastery",
+    "category": "landmarks",
+    "lat": 40.6946,
+    "lon": 39.653,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-mardin-old-town",
+    "name": "Mardin Old Town",
+    "category": "landmarks",
+    "lat": 37.312,
+    "lon": 40.735,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-bursa-grand-mosque",
+    "name": "Bursa Grand Mosque",
+    "category": "landmarks",
+    "lat": 40.1844,
+    "lon": 29.0619,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-marmaris-bar-street",
+    "name": "Marmaris Bar Street",
+    "category": "nightlife",
+    "lat": 36.855,
+    "lon": 28.274,
+    "source": "static",
+    "countryCode": "TR"
+  },
+  {
+    "id": "country-tr-alacat-cesme",
+    "name": "Alaçatı (Çeşme)",
+    "category": "food",
+    "lat": 38.285,
+    "lon": 26.372,
+    "source": "static",
+    "countryCode": "TR"
   }
 ]

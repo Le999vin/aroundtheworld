@@ -10,21 +10,91 @@
     "cityId": "zurich"
   },
   {
-    "id": "city-zurich-lindenhof",
-    "name": "Lindenhof",
+    "id": "city-zurich-bellevueplatz",
+    "name": "Bellevueplatz",
     "category": "landmarks",
-    "lat": 47.3726,
-    "lon": 8.5393,
+    "lat": 47.39,
+    "lon": 8.5293,
     "source": "static",
     "countryCode": "CH",
     "cityId": "zurich"
   },
   {
-    "id": "city-zurich-grossmuenster",
-    "name": "Grossmuenster",
+    "id": "city-zurich-central-market-zurich-2",
+    "name": "Central Market (Zurich) 2",
+    "category": "food",
+    "lat": 47.3972,
+    "lon": 8.5543,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-chinese-garden",
+    "name": "Chinese Garden",
+    "category": "nature",
+    "lat": 47.3913,
+    "lon": 8.5475,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-city-park-zurich-4",
+    "name": "City Park (Zurich) 4",
+    "category": "nature",
+    "lat": 47.3638,
+    "lon": 8.5472,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-club-zukunft",
+    "name": "Club Zukunft",
+    "category": "nightlife",
+    "lat": 47.3772,
+    "lon": 8.5286,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-dante",
+    "name": "Dante Bar",
+    "category": "nightlife",
+    "lat": 47.3797,
+    "lon": 8.5288,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-eth-polyterrasse",
+    "name": "ETH Polyterrasse",
     "category": "landmarks",
-    "lat": 47.3705,
-    "lon": 8.5443,
+    "lat": 47.3769,
+    "lon": 8.548,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-fifa-museum",
+    "name": "FIFA Museum",
+    "category": "museums",
+    "lat": 47.3667,
+    "lon": 8.533,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-frau-gerolds-garten",
+    "name": "Frau Gerolds Garten",
+    "category": "nightlife",
+    "lat": 47.3878,
+    "lon": 8.5159,
     "source": "static",
     "countryCode": "CH",
     "cityId": "zurich"
@@ -40,6 +110,66 @@
     "cityId": "zurich"
   },
   {
+    "id": "city-zurich-grossmuenster",
+    "name": "Grossmuenster",
+    "category": "landmarks",
+    "lat": 47.3705,
+    "lon": 8.5443,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-historic-cathedral-zurich-5",
+    "name": "Historic Cathedral (Zurich) 5",
+    "category": "landmarks",
+    "lat": 47.3545,
+    "lon": 8.5441,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-hive",
+    "name": "Hive Club",
+    "category": "nightlife",
+    "lat": 47.3873,
+    "lon": 8.5191,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-im-viadukt",
+    "name": "Im Viadukt",
+    "category": "food",
+    "lat": 47.3853,
+    "lon": 8.519,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-jules-verne",
+    "name": "Jules Verne Panorama Bar",
+    "category": "nightlife",
+    "lat": 47.3727,
+    "lon": 8.537,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-kaufleuten",
+    "name": "Kaufleuten",
+    "category": "nightlife",
+    "lat": 47.3707,
+    "lon": 8.5353,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
     "id": "city-zurich-kunsthaus",
     "name": "Kunsthaus Zuerich",
     "category": "museums",
@@ -50,20 +180,70 @@
     "cityId": "zurich"
   },
   {
-    "id": "city-zurich-uetliberg",
-    "name": "Uetliberg",
+    "id": "city-zurich-lake-promenade",
+    "name": "Lake Zurich Promenade",
     "category": "nature",
-    "lat": 47.3499,
-    "lon": 8.4915,
+    "lat": 47.3665,
+    "lon": 8.5486,
     "source": "static",
     "countryCode": "CH",
     "cityId": "zurich"
   },
   {
-    "id": "city-zurich-lake-promenade",
-    "name": "Lake Zurich Promenade",
+    "id": "city-zurich-langstrasse",
+    "name": "Langstrasse",
+    "category": "nightlife",
+    "lat": 47.3698,
+    "lon": 8.5253,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-letten-river-area",
+    "name": "Letten River Area",
     "category": "nature",
-    "lat": 47.3665,
+    "lat": 47.3647,
+    "lon": 8.5336,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-limmatquai",
+    "name": "Limmatquai",
+    "category": "food",
+    "lat": 47.3716,
+    "lon": 8.5438,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-lindenhof",
+    "name": "Lindenhof",
+    "category": "landmarks",
+    "lat": 47.3726,
+    "lon": 8.5393,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-markthalle-im-viadukt",
+    "name": "Markthalle im Viadukt",
+    "category": "food",
+    "lat": 47.3772,
+    "lon": 8.5179,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-mascotte",
+    "name": "Mascotte",
+    "category": "nightlife",
+    "lat": 47.3669,
     "lon": 8.5486,
     "source": "static",
     "countryCode": "CH",
@@ -80,21 +260,21 @@
     "cityId": "zurich"
   },
   {
-    "id": "city-zurich-eth-polyterrasse",
-    "name": "ETH Polyterrasse",
+    "id": "city-zurich-old-town-zurich-1",
+    "name": "Old Town (Zurich) 1",
     "category": "landmarks",
-    "lat": 47.3769,
-    "lon": 8.548,
+    "lat": 47.3871,
+    "lon": 8.5678,
     "source": "static",
     "countryCode": "CH",
     "cityId": "zurich"
   },
   {
-    "id": "city-zurich-im-viadukt",
-    "name": "Im Viadukt",
-    "category": "food",
-    "lat": 47.3853,
-    "lon": 8.519,
+    "id": "city-zurich-oliver-twist",
+    "name": "Oliver Twist Pub",
+    "category": "nightlife",
+    "lat": 47.3724,
+    "lon": 8.5447,
     "source": "static",
     "countryCode": "CH",
     "cityId": "zurich"
@@ -110,11 +290,111 @@
     "cityId": "zurich"
   },
   {
+    "id": "city-zurich-plaza-klub",
+    "name": "Plaza Klub",
+    "category": "nightlife",
+    "lat": 47.3753,
+    "lon": 8.5276,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-polyterrasse-eth-viewpoint",
+    "name": "Polyterrasse ETH Viewpoint",
+    "category": "landmarks",
+    "lat": 47.3812,
+    "lon": 8.5558,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
     "id": "city-zurich-rietberg-museum",
     "name": "Rietberg Museum",
     "category": "museums",
     "lat": 47.3577,
     "lon": 8.5306,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-riverside-promenade-zurich-3",
+    "name": "Riverside Promenade (Zurich) 3",
+    "category": "nature",
+    "lat": 47.3541,
+    "lon": 8.5485,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-sechselautenplatz",
+    "name": "Sechselautenplatz",
+    "category": "landmarks",
+    "lat": 47.3727,
+    "lon": 8.5659,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-swiss-national-museum",
+    "name": "Swiss National Museum",
+    "category": "museums",
+    "lat": 47.3785,
+    "lon": 8.5403,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-technopark-zurich",
+    "name": "Technopark Zurich",
+    "category": "other",
+    "lat": 47.3863,
+    "lon": 8.5506,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-uetliberg",
+    "name": "Uetliberg",
+    "category": "nature",
+    "lat": 47.3499,
+    "lon": 8.4915,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-widder-bar",
+    "name": "Widder Bar",
+    "category": "nightlife",
+    "lat": 47.3715,
+    "lon": 8.5373,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-zurich-west",
+    "name": "Zurich West",
+    "category": "nightlife",
+    "lat": 47.3773,
+    "lon": 8.5634,
+    "source": "static",
+    "countryCode": "CH",
+    "cityId": "zurich"
+  },
+  {
+    "id": "city-zurich-zurichsee-promenade",
+    "name": "Zurichsee Promenade",
+    "category": "nature",
+    "lat": 47.3897,
+    "lon": 8.5197,
     "source": "static",
     "countryCode": "CH",
     "cityId": "zurich"

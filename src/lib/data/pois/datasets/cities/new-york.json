@@ -1,40 +1,40 @@
 [
   {
-    "id": "city-new-york-statue-of-liberty",
-    "name": "Statue of Liberty",
+    "id": "city-new-york-9-11-memorial",
+    "name": "9/11 Memorial",
     "category": "landmarks",
-    "lat": 40.6892,
-    "lon": -74.0445,
+    "lat": 40.7115,
+    "lon": -74.0134,
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york"
   },
   {
-    "id": "city-new-york-times-square",
-    "name": "Times Square",
-    "category": "landmarks",
-    "lat": 40.758,
-    "lon": -73.9855,
+    "id": "city-new-york-9-11-memorial-museum",
+    "name": "9/11 Memorial & Museum",
+    "category": "museums",
+    "lat": 40.721,
+    "lon": -74.0277,
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york"
   },
   {
-    "id": "city-new-york-central-park",
-    "name": "Central Park",
-    "category": "nature",
-    "lat": 40.7851,
-    "lon": -73.9683,
+    "id": "city-new-york-broadway-theater-district",
+    "name": "Broadway Theater District",
+    "category": "nightlife",
+    "lat": 40.7207,
+    "lon": -74.0176,
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york"
   },
   {
-    "id": "city-new-york-empire-state-building",
-    "name": "Empire State Building",
-    "category": "landmarks",
-    "lat": 40.7484,
-    "lon": -73.9857,
+    "id": "city-new-york-broadway-theatre-district",
+    "name": "Broadway Theatre District",
+    "category": "nightlife",
+    "lat": 40.759,
+    "lon": -73.9845,
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york"
@@ -50,31 +50,31 @@
     "cityId": "new-york"
   },
   {
-    "id": "city-new-york-metropolitan-museum",
-    "name": "Metropolitan Museum of Art",
-    "category": "museums",
-    "lat": 40.7794,
-    "lon": -73.9632,
-    "source": "static",
-    "countryCode": "US",
-    "cityId": "new-york"
-  },
-  {
-    "id": "city-new-york-moma",
-    "name": "Museum of Modern Art",
-    "category": "museums",
-    "lat": 40.7614,
-    "lon": -73.9776,
-    "source": "static",
-    "countryCode": "US",
-    "cityId": "new-york"
-  },
-  {
-    "id": "city-new-york-high-line",
-    "name": "High Line",
+    "id": "city-new-york-bryant-park",
+    "name": "Bryant Park",
     "category": "nature",
-    "lat": 40.748,
-    "lon": -74.0048,
+    "lat": 40.709,
+    "lon": -74.0263,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-central-market-new-york-2",
+    "name": "Central Market (New York) 2",
+    "category": "food",
+    "lat": 40.716,
+    "lon": -74.0348,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-central-park",
+    "name": "Central Park",
+    "category": "nature",
+    "lat": 40.7851,
+    "lon": -73.9683,
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york"
@@ -90,11 +90,311 @@
     "cityId": "new-york"
   },
   {
+    "id": "city-new-york-chinatown-little-italy",
+    "name": "Chinatown & Little Italy",
+    "category": "food",
+    "lat": 40.7181,
+    "lon": -73.996,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-city-park-new-york-4",
+    "name": "City Park (New York) 4",
+    "category": "nature",
+    "lat": 40.6916,
+    "lon": -73.9801,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-coney-island",
+    "name": "Coney Island",
+    "category": "nature",
+    "lat": 40.5749,
+    "lon": -73.985,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-dumbo",
+    "name": "DUMBO",
+    "category": "landmarks",
+    "lat": 40.7033,
+    "lon": -73.9881,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-empire-state-building",
+    "name": "Empire State Building",
+    "category": "landmarks",
+    "lat": 40.7484,
+    "lon": -73.9857,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-fifth-avenue",
+    "name": "Fifth Avenue",
+    "category": "food",
+    "lat": 40.7625,
+    "lon": -73.9738,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-grand-central-terminal",
+    "name": "Grand Central Terminal",
+    "category": "landmarks",
+    "lat": 40.7527,
+    "lon": -73.9772,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
     "id": "city-new-york-greenwich-village",
     "name": "Greenwich Village",
     "category": "nightlife",
     "lat": 40.7336,
     "lon": -74.0027,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-harlem-jazz-apollo-theater",
+    "name": "Harlem Jazz (Apollo Theater)",
+    "category": "nightlife",
+    "lat": 40.81,
+    "lon": -73.949,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-high-line",
+    "name": "High Line",
+    "category": "nature",
+    "lat": 40.748,
+    "lon": -74.0048,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-historic-cathedral-new-york-5",
+    "name": "Historic Cathedral (New York) 5",
+    "category": "landmarks",
+    "lat": 40.692,
+    "lon": -73.9901,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-hudson-yards-vessel",
+    "name": "Hudson Yards / Vessel",
+    "category": "landmarks",
+    "lat": 40.7537,
+    "lon": -74.0027,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-koreatown-32nd-street",
+    "name": "Koreatown (32nd Street)",
+    "category": "food",
+    "lat": 40.7479,
+    "lon": -73.9864,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-local-food-street-new-york-8",
+    "name": "Local Food Street (New York) 8",
+    "category": "food",
+    "lat": 40.6933,
+    "lon": -73.9841,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-lower-east-side",
+    "name": "Lower East Side",
+    "category": "nightlife",
+    "lat": 40.715,
+    "lon": -73.9843,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-metropolitan-museum",
+    "name": "Metropolitan Museum of Art",
+    "category": "museums",
+    "lat": 40.7794,
+    "lon": -73.9632,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-modern-art-gallery-new-york-6",
+    "name": "Modern Art Gallery (New York) 6",
+    "category": "museums",
+    "lat": 40.6936,
+    "lon": -73.9832,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-moma",
+    "name": "Museum of Modern Art",
+    "category": "museums",
+    "lat": 40.7614,
+    "lon": -73.9776,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-museum-of-modern-art-moma",
+    "name": "Museum of Modern Art (MoMA)",
+    "category": "museums",
+    "lat": 40.7284,
+    "lon": -74.0234,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-nightlife-district-new-york-7",
+    "name": "Nightlife District (New York) 7",
+    "category": "nightlife",
+    "lat": 40.7205,
+    "lon": -73.9805,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-old-town-new-york-1",
+    "name": "Old Town (New York) 1",
+    "category": "landmarks",
+    "lat": 40.7312,
+    "lon": -74.0348,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-one-world-observatory",
+    "name": "One World Observatory",
+    "category": "landmarks",
+    "lat": 40.713,
+    "lon": -74.0132,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-prospect-park",
+    "name": "Prospect Park",
+    "category": "nature",
+    "lat": 40.6602,
+    "lon": -73.969,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-riverside-promenade-new-york-3",
+    "name": "Riverside Promenade (New York) 3",
+    "category": "nature",
+    "lat": 40.7242,
+    "lon": -74.0109,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-rockefeller-center",
+    "name": "Rockefeller Center",
+    "category": "landmarks",
+    "lat": 40.7276,
+    "lon": -74.0033,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-statue-of-liberty",
+    "name": "Statue of Liberty",
+    "category": "landmarks",
+    "lat": 40.6892,
+    "lon": -74.0445,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-the-metropolitan-museum-of-art",
+    "name": "The Metropolitan Museum of Art",
+    "category": "museums",
+    "lat": 40.7175,
+    "lon": -74.0211,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-times-square",
+    "name": "Times Square",
+    "category": "landmarks",
+    "lat": 40.758,
+    "lon": -73.9855,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-top-of-the-rock",
+    "name": "Top of the Rock",
+    "category": "landmarks",
+    "lat": 40.7593,
+    "lon": -73.9795,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-west-village",
+    "name": "West Village",
+    "category": "food",
+    "lat": 40.7077,
+    "lon": -73.9993,
+    "source": "static",
+    "countryCode": "US",
+    "cityId": "new-york"
+  },
+  {
+    "id": "city-new-york-williamsburg",
+    "name": "Williamsburg",
+    "category": "nightlife",
+    "lat": 40.7081,
+    "lon": -73.9571,
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york"

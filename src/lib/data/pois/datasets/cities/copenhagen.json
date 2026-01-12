@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-copenhagen-amalienborg-palace",
+    "name": "Amalienborg Palace",
+    "category": "landmarks",
+    "lat": 55.671,
+    "lon": 12.549,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-carlsberg-brewery",
+    "name": "Carlsberg Brewery",
+    "category": "museums",
+    "lat": 55.6634,
+    "lon": 12.5777,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-christiansborg-palace",
+    "name": "Christiansborg Palace",
+    "category": "landmarks",
+    "lat": 55.674,
+    "lon": 12.5752,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-church-of-our-saviour",
+    "name": "Church of Our Saviour",
+    "category": "landmarks",
+    "lat": 55.6656,
+    "lon": 12.5699,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-copenhagen-botanical-garden",
+    "name": "Copenhagen Botanical Garden",
+    "category": "nature",
+    "lat": 55.6903,
+    "lon": 12.5753,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-designmuseum-denmark",
+    "name": "Designmuseum Denmark",
+    "category": "museums",
+    "lat": 55.6787,
+    "lon": 12.5632,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-frederiksberg-gardens",
+    "name": "Frederiksberg Gardens",
+    "category": "nature",
+    "lat": 55.6706,
+    "lon": 12.5427,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-freetown-christiania",
+    "name": "Freetown Christiania",
+    "category": "other",
+    "lat": 55.663,
+    "lon": 12.5535,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-glyptoteket",
+    "name": "Glyptoteket",
+    "category": "museums",
+    "lat": 55.6843,
+    "lon": 12.5935,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-islands-brygge-harbour-bath",
+    "name": "Islands Brygge Harbour Bath",
+    "category": "nature",
+    "lat": 55.6826,
+    "lon": 12.592,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-jazzhus-montmartre",
+    "name": "Jazzhus Montmartre",
+    "category": "nightlife",
+    "lat": 55.6902,
+    "lon": 12.5846,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-meatpacking-district",
+    "name": "Meatpacking District",
+    "category": "nightlife",
+    "lat": 55.6879,
+    "lon": 12.5529,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-norrebro",
+    "name": "Norrebro",
+    "category": "food",
+    "lat": 55.6893,
+    "lon": 12.5838,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-nyhavn",
+    "name": "Nyhavn",
+    "category": "landmarks",
+    "lat": 55.6775,
+    "lon": 12.5804,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-reffen-street-food",
+    "name": "Reffen Street Food",
+    "category": "food",
+    "lat": 55.6813,
+    "lon": 12.5877,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-rosenborg-castle",
+    "name": "Rosenborg Castle",
+    "category": "landmarks",
+    "lat": 55.6798,
+    "lon": 12.5678,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-rundetaarn-round-tower",
+    "name": "Rundetaarn (Round Tower)",
+    "category": "landmarks",
+    "lat": 55.6622,
+    "lon": 12.5727,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-smk-national-gallery",
+    "name": "SMK National Gallery",
+    "category": "museums",
+    "lat": 55.6832,
+    "lon": 12.568,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-stroget",
+    "name": "Stroget",
+    "category": "food",
+    "lat": 55.6863,
+    "lon": 12.5911,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-superkilen-park",
+    "name": "Superkilen Park",
+    "category": "nature",
+    "lat": 55.6847,
+    "lon": 12.5648,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-the-lakes",
+    "name": "The Lakes",
+    "category": "nature",
+    "lat": 55.6614,
+    "lon": 12.559,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-the-little-mermaid",
+    "name": "The Little Mermaid",
+    "category": "landmarks",
+    "lat": 55.6627,
+    "lon": 12.5769,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-tivoli-gardens",
+    "name": "Tivoli Gardens",
+    "category": "other",
+    "lat": 55.6666,
+    "lon": 12.5628,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-torvehallerne-market",
+    "name": "Torvehallerne Market",
+    "category": "food",
+    "lat": 55.6838,
+    "lon": 12.5449,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  },
+  {
+    "id": "city-copenhagen-vesterbro",
+    "name": "Vesterbro",
+    "category": "nightlife",
+    "lat": 55.672,
+    "lon": 12.5459,
+    "source": "static",
+    "countryCode": "DK",
+    "cityId": "copenhagen"
+  }
+]

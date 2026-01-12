@@ -1,0 +1,252 @@
+[
+  {
+    "id": "city-brussels-atomium",
+    "name": "Atomium",
+    "category": "landmarks",
+    "lat": 50.8561,
+    "lon": 4.3592,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-avenue-louise",
+    "name": "Avenue Louise",
+    "category": "food",
+    "lat": 50.8559,
+    "lon": 4.3362,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-basilica-of-the-sacred-heart",
+    "name": "Basilica of the Sacred Heart",
+    "category": "landmarks",
+    "lat": 50.8544,
+    "lon": 4.3558,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-belgian-comic-strip-center",
+    "name": "Belgian Comic Strip Center",
+    "category": "museums",
+    "lat": 50.8372,
+    "lon": 4.3438,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-bois-de-la-cambre",
+    "name": "Bois de la Cambre",
+    "category": "nature",
+    "lat": 50.8394,
+    "lon": 4.3453,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-cantillon-brewery",
+    "name": "Cantillon Brewery",
+    "category": "museums",
+    "lat": 50.855,
+    "lon": 4.3613,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-delirium-alley",
+    "name": "Delirium Alley",
+    "category": "nightlife",
+    "lat": 50.8441,
+    "lon": 4.3427,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-eu-quarter",
+    "name": "EU Quarter",
+    "category": "other",
+    "lat": 50.8566,
+    "lon": 4.3725,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-galeries-royales-saint-hubert",
+    "name": "Galeries Royales Saint-Hubert",
+    "category": "food",
+    "lat": 50.852,
+    "lon": 4.3437,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-grand-place",
+    "name": "Grand Place",
+    "category": "landmarks",
+    "lat": 50.8482,
+    "lon": 4.3598,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-ixelles-ponds",
+    "name": "Ixelles Ponds",
+    "category": "nature",
+    "lat": 50.8521,
+    "lon": 4.3318,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-magritte-museum",
+    "name": "Magritte Museum",
+    "category": "museums",
+    "lat": 50.8462,
+    "lon": 4.3537,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-manneken-pis",
+    "name": "Manneken Pis",
+    "category": "landmarks",
+    "lat": 50.8355,
+    "lon": 4.3554,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-mont-des-arts",
+    "name": "Mont des Arts",
+    "category": "landmarks",
+    "lat": 50.8419,
+    "lon": 4.3452,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-parc-de-bruxelles",
+    "name": "Parc de Bruxelles",
+    "category": "nature",
+    "lat": 50.8378,
+    "lon": 4.3478,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-parc-du-cinquantenaire",
+    "name": "Parc du Cinquantenaire",
+    "category": "nature",
+    "lat": 50.8616,
+    "lon": 4.3667,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-place-du-luxembourg",
+    "name": "Place du Luxembourg",
+    "category": "nightlife",
+    "lat": 50.8418,
+    "lon": 4.3703,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-place-flagey",
+    "name": "Place Flagey",
+    "category": "food",
+    "lat": 50.8533,
+    "lon": 4.3295,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-royal-museums-of-fine-arts",
+    "name": "Royal Museums of Fine Arts",
+    "category": "museums",
+    "lat": 50.8436,
+    "lon": 4.3727,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-royal-palace-of-brussels",
+    "name": "Royal Palace of Brussels",
+    "category": "landmarks",
+    "lat": 50.8396,
+    "lon": 4.3747,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-rue-des-bouchers",
+    "name": "Rue des Bouchers",
+    "category": "food",
+    "lat": 50.852,
+    "lon": 4.36,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-sablon-square",
+    "name": "Sablon Square",
+    "category": "food",
+    "lat": 50.8537,
+    "lon": 4.3571,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-saint-gery",
+    "name": "Saint-Gery",
+    "category": "nightlife",
+    "lat": 50.8587,
+    "lon": 4.331,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-tour-taxis",
+    "name": "Tour & Taxis",
+    "category": "other",
+    "lat": 50.848,
+    "lon": 4.3305,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  },
+  {
+    "id": "city-brussels-train-world",
+    "name": "Train World",
+    "category": "museums",
+    "lat": 50.8647,
+    "lon": 4.3581,
+    "source": "static",
+    "countryCode": "BE",
+    "cityId": "brussels"
+  }
+]

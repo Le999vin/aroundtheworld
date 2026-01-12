@@ -88,5 +88,140 @@
     "lon": 9.257,
     "source": "static",
     "countryCode": "IT"
+  },
+  {
+    "id": "country-it-rome-goa-club",
+    "name": "Goa Club (Rome)",
+    "category": "nightlife",
+    "lat": 41.9074,
+    "lon": 12.4779,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-rome-shari-vari",
+    "name": "Shari Vari (Rome)",
+    "category": "nightlife",
+    "lat": 41.8946,
+    "lon": 12.4785,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-milan-hollywood",
+    "name": "Hollywood Rythmoteque (Milan)",
+    "category": "nightlife",
+    "lat": 45.4813,
+    "lon": 9.1879,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-milan-alcatraz",
+    "name": "Alcatraz (Milan)",
+    "category": "nightlife",
+    "lat": 45.499,
+    "lon": 9.1843,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-naples-lanificio-25",
+    "name": "Lanificio 25 (Naples)",
+    "category": "nightlife",
+    "lat": 40.857,
+    "lon": 14.2468,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-florence-tenax",
+    "name": "Tenax (Florence)",
+    "category": "nightlife",
+    "lat": 43.8006,
+    "lon": 11.213,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-uffizi-gallery",
+    "name": "Uffizi Gallery",
+    "category": "museums",
+    "lat": 43.7687,
+    "lon": 11.255,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-st-mark-s-basilica",
+    "name": "St Mark's Basilica",
+    "category": "landmarks",
+    "lat": 45.4342,
+    "lon": 12.3397,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-trevi-fountain",
+    "name": "Trevi Fountain",
+    "category": "landmarks",
+    "lat": 41.9009,
+    "lon": 12.4833,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-pantheon",
+    "name": "Pantheon",
+    "category": "landmarks",
+    "lat": 41.8986,
+    "lon": 12.4769,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-piazza-navona",
+    "name": "Piazza Navona",
+    "category": "landmarks",
+    "lat": 41.8992,
+    "lon": 12.4731,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-trastevere-nightlife",
+    "name": "Trastevere Nightlife",
+    "category": "nightlife",
+    "lat": 41.8891,
+    "lon": 12.4701,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-bologna-quadrilatero",
+    "name": "Bologna Quadrilatero",
+    "category": "food",
+    "lat": 44.4949,
+    "lon": 11.3449,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-verona-arena",
+    "name": "Verona Arena",
+    "category": "landmarks",
+    "lat": 45.4386,
+    "lon": 10.9942,
+    "source": "static",
+    "countryCode": "IT"
+  },
+  {
+    "id": "country-it-matera-sassi",
+    "name": "Matera (Sassi)",
+    "category": "landmarks",
+    "lat": 40.6663,
+    "lon": 16.6043,
+    "source": "static",
+    "countryCode": "IT"
   }
 ]

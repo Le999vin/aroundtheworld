@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-ca-cn-tower",
+    "name": "CN Tower",
+    "category": "landmarks",
+    "lat": 43.6426,
+    "lon": -79.3871,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-niagara-falls",
+    "name": "Niagara Falls",
+    "category": "nature",
+    "lat": 43.0896,
+    "lon": -79.0849,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-banff-national-park",
+    "name": "Banff National Park",
+    "category": "nature",
+    "lat": 51.1784,
+    "lon": -115.5708,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-lake-louise",
+    "name": "Lake Louise",
+    "category": "nature",
+    "lat": 51.4254,
+    "lon": -116.1773,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-jasper-national-park",
+    "name": "Jasper National Park",
+    "category": "nature",
+    "lat": 52.8734,
+    "lon": -118.0814,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-vancouver-stanley-park",
+    "name": "Vancouver Stanley Park",
+    "category": "nature",
+    "lat": 49.3043,
+    "lon": -123.1443,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-capilano-suspension-bridge",
+    "name": "Capilano Suspension Bridge",
+    "category": "landmarks",
+    "lat": 49.3429,
+    "lon": -123.1146,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-old-montreal",
+    "name": "Old Montreal",
+    "category": "landmarks",
+    "lat": 45.5075,
+    "lon": -73.554,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-quebec-city-old-town",
+    "name": "Quebec City Old Town",
+    "category": "landmarks",
+    "lat": 46.8139,
+    "lon": -71.208,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-ottawa-parliament-hill",
+    "name": "Ottawa Parliament Hill",
+    "category": "landmarks",
+    "lat": 45.4236,
+    "lon": -75.7009,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-calgary-stampede-grounds",
+    "name": "Calgary Stampede Grounds",
+    "category": "other",
+    "lat": 51.0456,
+    "lon": -114.062,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-whistler-village",
+    "name": "Whistler Village",
+    "category": "nature",
+    "lat": 50.1163,
+    "lon": -122.9574,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-gros-morne-national-park",
+    "name": "Gros Morne National Park",
+    "category": "nature",
+    "lat": 49.644,
+    "lon": -57.758,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-peggys-cove",
+    "name": "Peggy's Cove",
+    "category": "nature",
+    "lat": 44.496,
+    "lon": -63.915,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-bay-of-fundy",
+    "name": "Bay of Fundy",
+    "category": "nature",
+    "lat": 45.3,
+    "lon": -64.8,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-royal-ontario-museum",
+    "name": "Royal Ontario Museum",
+    "category": "museums",
+    "lat": 43.6677,
+    "lon": -79.3948,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-montreal-museum-of-fine-arts",
+    "name": "Montreal Museum of Fine Arts",
+    "category": "museums",
+    "lat": 45.4986,
+    "lon": -73.578,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-canadian-museum-of-history",
+    "name": "Canadian Museum of History",
+    "category": "museums",
+    "lat": 45.429,
+    "lon": -75.712,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-st-lawrence-market",
+    "name": "St. Lawrence Market",
+    "category": "food",
+    "lat": 43.6487,
+    "lon": -79.3716,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-granville-island-public-market",
+    "name": "Granville Island Public Market",
+    "category": "food",
+    "lat": 49.2712,
+    "lon": -123.134,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-montreal-bagel-mile-end",
+    "name": "Montreal Bagel Mile End",
+    "category": "food",
+    "lat": 45.522,
+    "lon": -73.607,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-rebel-toronto",
+    "name": "Rebel Toronto",
+    "category": "nightlife",
+    "lat": 43.641,
+    "lon": -79.353,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-montreal-crescent-street",
+    "name": "Montreal Crescent Street",
+    "category": "nightlife",
+    "lat": 45.496,
+    "lon": -73.575,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-vancouver-gastown-nightlife",
+    "name": "Vancouver Gastown Nightlife",
+    "category": "nightlife",
+    "lat": 49.283,
+    "lon": -123.106,
+    "source": "static",
+    "countryCode": "CA"
+  },
+  {
+    "id": "country-ca-cabot-trail-viewpoints",
+    "name": "Cabot Trail Viewpoints",
+    "category": "nature",
+    "lat": 46.7,
+    "lon": -60.4,
+    "source": "static",
+    "countryCode": "CA"
+  }
+]

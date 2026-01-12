@@ -1,0 +1,227 @@
+[
+  {
+    "id": "country-sg-marina-bay-sands",
+    "name": "Marina Bay Sands",
+    "category": "landmarks",
+    "lat": 1.2834,
+    "lon": 103.8607,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-gardens-by-the-bay",
+    "name": "Gardens by the Bay",
+    "category": "nature",
+    "lat": 1.2816,
+    "lon": 103.8636,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-merlion-park",
+    "name": "Merlion Park",
+    "category": "landmarks",
+    "lat": 1.2868,
+    "lon": 103.8545,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-singapore-flyer",
+    "name": "Singapore Flyer",
+    "category": "landmarks",
+    "lat": 1.2893,
+    "lon": 103.8631,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-sentosa-island",
+    "name": "Sentosa Island",
+    "category": "nature",
+    "lat": 1.2494,
+    "lon": 103.8303,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-universal-studios-singapore",
+    "name": "Universal Studios Singapore",
+    "category": "other",
+    "lat": 1.254,
+    "lon": 103.8238,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-chinatown",
+    "name": "Chinatown",
+    "category": "landmarks",
+    "lat": 1.283,
+    "lon": 103.844,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-little-india",
+    "name": "Little India",
+    "category": "landmarks",
+    "lat": 1.306,
+    "lon": 103.851,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-kampong-glam",
+    "name": "Kampong Glam",
+    "category": "landmarks",
+    "lat": 1.301,
+    "lon": 103.859,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-haw-par-villa",
+    "name": "Haw Par Villa",
+    "category": "other",
+    "lat": 1.282,
+    "lon": 103.781,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-singapore-botanic-gardens",
+    "name": "Singapore Botanic Gardens",
+    "category": "nature",
+    "lat": 1.3138,
+    "lon": 103.8159,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-macritchie-reservoir",
+    "name": "MacRitchie Reservoir",
+    "category": "nature",
+    "lat": 1.343,
+    "lon": 103.833,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-east-coast-park",
+    "name": "East Coast Park",
+    "category": "nature",
+    "lat": 1.3,
+    "lon": 103.92,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-night-safari",
+    "name": "Night Safari",
+    "category": "other",
+    "lat": 1.404,
+    "lon": 103.793,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-national-gallery-singapore",
+    "name": "National Gallery Singapore",
+    "category": "museums",
+    "lat": 1.2906,
+    "lon": 103.8518,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-artscience-museum",
+    "name": "ArtScience Museum",
+    "category": "museums",
+    "lat": 1.2863,
+    "lon": 103.8593,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-asian-civilisations-museum",
+    "name": "Asian Civilisations Museum",
+    "category": "museums",
+    "lat": 1.287,
+    "lon": 103.851,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-maxwell-food-centre",
+    "name": "Maxwell Food Centre",
+    "category": "food",
+    "lat": 1.2801,
+    "lon": 103.8441,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-lau-pa-sat",
+    "name": "Lau Pa Sat",
+    "category": "food",
+    "lat": 1.2806,
+    "lon": 103.8507,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-newton-food-centre",
+    "name": "Newton Food Centre",
+    "category": "food",
+    "lat": 1.3123,
+    "lon": 103.8392,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-clarke-quay",
+    "name": "Clarke Quay",
+    "category": "nightlife",
+    "lat": 1.2906,
+    "lon": 103.8465,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-marina-bay-promenade-bars",
+    "name": "Marina Bay Promenade Bars",
+    "category": "nightlife",
+    "lat": 1.285,
+    "lon": 103.86,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-club-street",
+    "name": "Club Street",
+    "category": "nightlife",
+    "lat": 1.2815,
+    "lon": 103.846,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-haji-lane",
+    "name": "Haji Lane",
+    "category": "nightlife",
+    "lat": 1.3008,
+    "lon": 103.8586,
+    "source": "static",
+    "countryCode": "SG"
+  },
+  {
+    "id": "country-sg-jewel-changi-airport",
+    "name": "Jewel Changi Airport",
+    "category": "landmarks",
+    "lat": 1.3604,
+    "lon": 103.9894,
+    "source": "static",
+    "countryCode": "SG"
+  }
+]
