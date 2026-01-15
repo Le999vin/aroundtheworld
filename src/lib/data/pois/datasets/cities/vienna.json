@@ -7,7 +7,9 @@
     "lon": 16.3706,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna",
+    "address": "1 Walfischgasse"
   },
   {
     "id": "city-vienna-belvedere-palace",
@@ -17,7 +19,9 @@
     "lon": 16.3843,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna",
+    "address": "Jacquingasse"
   },
   {
     "id": "city-vienna-cafe-central",
@@ -27,7 +31,9 @@
     "lon": 16.3777,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna",
+    "address": "12 Karolinengasse"
   },
   {
     "id": "city-vienna-danube-canal",
@@ -37,7 +43,8 @@
     "lon": 16.3673,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-danube-island",
@@ -47,7 +54,8 @@
     "lon": 16.3824,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-figlmueller",
@@ -57,7 +65,8 @@
     "lon": 16.3983,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-flex-club",
@@ -67,7 +76,8 @@
     "lon": 16.3661,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-graben-kohlmarkt",
@@ -77,7 +87,8 @@
     "lon": 16.3656,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-guertel-nightlife",
@@ -87,7 +98,8 @@
     "lon": 16.3681,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-hofburg-palace",
@@ -97,7 +109,8 @@
     "lon": 16.3629,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-hundertwasserhaus",
@@ -107,7 +120,8 @@
     "lon": 16.3645,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-karlskirche",
@@ -117,7 +131,8 @@
     "lon": 16.3979,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-karlsplatz",
@@ -127,7 +142,8 @@
     "lon": 16.3556,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-kunsthistorisches-museum",
@@ -137,7 +153,8 @@
     "lon": 16.3995,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-museumsquartier",
@@ -147,7 +164,8 @@
     "lon": 16.3593,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-naschmarkt",
@@ -157,7 +175,8 @@
     "lon": 16.3732,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-prater-giant-ferris-wheel",
@@ -167,7 +186,8 @@
     "lon": 16.3499,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-prater-park",
@@ -177,7 +197,8 @@
     "lon": 16.3906,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-pratersauna",
@@ -187,7 +208,8 @@
     "lon": 16.3885,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-ringstrasse",
@@ -197,7 +219,8 @@
     "lon": 16.3521,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-schonbrunn-palace",
@@ -207,7 +230,8 @@
     "lon": 16.377,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-st-stephen-s-cathedral",
@@ -217,7 +241,8 @@
     "lon": 16.3766,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-stadtpark",
@@ -227,7 +252,8 @@
     "lon": 16.3758,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-vienna-state-opera",
@@ -237,7 +263,8 @@
     "lon": 16.3733,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   },
   {
     "id": "city-vienna-zentralfriedhof",
@@ -247,6 +274,7 @@
     "lon": 16.3536,
     "source": "static",
     "countryCode": "AT",
-    "cityId": "vienna"
+    "cityId": "vienna",
+    "city": "Vienna"
   }
 ]

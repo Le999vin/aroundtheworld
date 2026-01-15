@@ -6,7 +6,9 @@
     "lat": 25.1972,
     "lon": 55.2744,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "address": "1 Sheikh Mohammed bin Rashid Boulevard",
+    "city": "Dubai"
   },
   {
     "id": "country-ae-sheikh-zayed-mosque",
@@ -15,7 +17,9 @@
     "lat": 24.4129,
     "lon": 54.4749,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "address": "Grand Mosque Courtyard \"Sahan\"",
+    "city": "Abu Dhabi"
   },
   {
     "id": "country-ae-louvre-abu-dhabi",
@@ -24,7 +28,9 @@
     "lat": 24.5337,
     "lon": 54.3985,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "address": "Louvre Delivery Access",
+    "city": "Abu Dhabi"
   },
   {
     "id": "country-ae-palm-jumeirah",

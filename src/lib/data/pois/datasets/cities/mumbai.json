@@ -7,7 +7,9 @@
     "lon": 72.8629,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai",
+    "address": "Street 5"
   },
   {
     "id": "city-mumbai-bandra-fort",
@@ -17,7 +19,9 @@
     "lon": 72.8221,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai",
+    "address": "Rajiv Gandhi Sea Link"
   },
   {
     "id": "city-mumbai-bandra-linking-road",
@@ -27,7 +31,9 @@
     "lon": 72.8306,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai",
+    "address": "15 Padmashree Mohammed Rafi Marg (16th Road)"
   },
   {
     "id": "city-mumbai-bandra-worli-sea-link",
@@ -37,7 +43,8 @@
     "lon": 72.8173,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-bandra-worli-sea-link-2",
@@ -47,7 +54,8 @@
     "lon": 72.8833,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-banganga-tank",
@@ -57,7 +65,8 @@
     "lon": 72.8037,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-central-market-mumbai-2",
@@ -67,7 +76,8 @@
     "lon": 72.8635,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-chor-bazaar",
@@ -77,7 +87,8 @@
     "lon": 72.827,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-city-park-mumbai-4",
@@ -87,7 +98,8 @@
     "lon": 72.8605,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-colaba-causeway",
@@ -97,7 +109,8 @@
     "lon": 72.8327,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-crawford-market",
@@ -107,7 +120,8 @@
     "lon": 72.8343,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-csmvs-museum",
@@ -117,7 +131,8 @@
     "lon": 72.88,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-cst-terminus",
@@ -127,7 +142,8 @@
     "lon": 72.8355,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-dhobi-ghat-viewpoint",
@@ -137,7 +153,8 @@
     "lon": 72.8266,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-elephanta-caves",
@@ -147,7 +164,8 @@
     "lon": 72.9315,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-film-city-goregaon",
@@ -157,7 +175,8 @@
     "lon": 72.875,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-gateway-of-india",
@@ -167,7 +186,8 @@
     "lon": 72.8347,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-haji-ali-dargah",
@@ -177,7 +197,8 @@
     "lon": 72.8081,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-historic-cathedral-mumbai-5",
@@ -187,7 +208,8 @@
     "lon": 72.8587,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-juhu-beach",
@@ -197,7 +219,8 @@
     "lon": 72.8264,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-kala-ghoda-arts-district",
@@ -207,7 +230,8 @@
     "lon": 72.8326,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-kanheri-caves",
@@ -217,7 +241,8 @@
     "lon": 72.91,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-local-food-street-mumbai-8",
@@ -227,7 +252,8 @@
     "lon": 72.9019,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-lower-parel",
@@ -237,7 +263,8 @@
     "lon": 72.83,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-lower-parel-nightlife",
@@ -247,7 +274,8 @@
     "lon": 72.894,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-main-square-mumbai-9",
@@ -257,7 +285,8 @@
     "lon": 72.9005,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-marine-drive",
@@ -267,7 +296,8 @@
     "lon": 72.8238,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-modern-art-gallery-mumbai-6",
@@ -277,7 +307,8 @@
     "lon": 72.893,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-nariman-point",
@@ -287,7 +318,8 @@
     "lon": 72.823,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-nightlife-district-mumbai-7",
@@ -297,7 +329,8 @@
     "lon": 72.9012,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-old-town-mumbai-1",
@@ -307,7 +340,8 @@
     "lon": 72.8872,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-powai-lake",
@@ -317,7 +351,8 @@
     "lon": 72.909,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-riverside-promenade-mumbai-3",
@@ -327,7 +362,8 @@
     "lon": 72.8697,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-sanjay-gandhi-national-park",
@@ -337,7 +373,8 @@
     "lon": 72.9106,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-siddhivinayak-temple",
@@ -347,7 +384,8 @@
     "lon": 72.8304,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-taj-mahal-palace",
@@ -357,7 +395,8 @@
     "lon": 72.8331,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-versova-beach",
@@ -367,7 +406,8 @@
     "lon": 72.811,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-waterfront-mumbai-10",
@@ -377,7 +417,8 @@
     "lon": 72.8849,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-worli-fort",
@@ -387,7 +428,8 @@
     "lon": 72.8926,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-worli-sea-face",
@@ -397,6 +439,7 @@
     "lon": 72.815,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   }
 ]

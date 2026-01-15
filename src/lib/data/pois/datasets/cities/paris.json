@@ -7,7 +7,9 @@
     "lon": 2.295,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris",
+    "address": "Charles de Gaulle Square"
   },
   {
     "id": "city-paris-bastille",
@@ -17,7 +19,21 @@
     "lon": 2.369,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris",
+    "address": "Bastille Square"
+  },
+  {
+    "id": "city-paris-pachamama",
+    "name": "Pachamama",
+    "category": "nightlife",
+    "lat": 48.8528,
+    "lon": 2.3691,
+    "source": "static",
+    "countryCode": "FR",
+    "cityId": "paris",
+    "address": "46-48 Rue du Faubourg Saint-Antoine",
+    "city": "Paris"
   },
   {
     "id": "city-paris-canal-saint-martin",
@@ -27,7 +43,8 @@
     "lon": 2.3642,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-central-market-paris-2",
@@ -37,7 +54,8 @@
     "lon": 2.3347,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-centre-pompidou",
@@ -47,7 +65,8 @@
     "lon": 2.3522,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-champs-elysees",
@@ -57,7 +76,8 @@
     "lon": 2.3073,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-city-park-paris-4",
@@ -67,7 +87,8 @@
     "lon": 2.3209,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-eiffel-tower",
@@ -77,7 +98,8 @@
     "lon": 2.2945,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-historic-cathedral-paris-5",
@@ -87,7 +109,8 @@
     "lon": 2.3325,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-latin-quarter",
@@ -97,7 +120,8 @@
     "lon": 2.3446,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-latin-quarter-nightlife",
@@ -107,7 +131,8 @@
     "lon": 2.3499,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-le-marais",
@@ -117,7 +142,8 @@
     "lon": 2.3622,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-local-food-street-paris-8",
@@ -127,7 +153,8 @@
     "lon": 2.3781,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-louvre",
@@ -137,7 +164,8 @@
     "lon": 2.3376,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-luxembourg-gardens",
@@ -147,7 +175,8 @@
     "lon": 2.3372,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-marais-nightlife",
@@ -157,7 +186,8 @@
     "lon": 2.3647,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-marche-des-enfants-rouges",
@@ -167,7 +197,8 @@
     "lon": 2.3615,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-modern-art-gallery-paris-6",
@@ -177,7 +208,8 @@
     "lon": 2.34,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-montmartre",
@@ -187,7 +219,8 @@
     "lon": 2.3431,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-montparnasse-tower-viewpoint",
@@ -197,7 +230,8 @@
     "lon": 2.376,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-moulin-rouge",
@@ -207,7 +241,8 @@
     "lon": 2.3826,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-musee-d-orsay",
@@ -217,7 +252,8 @@
     "lon": 2.3266,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-nightlife-district-paris-7",
@@ -227,7 +263,8 @@
     "lon": 2.3871,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-notre-dame-area",
@@ -237,7 +274,8 @@
     "lon": 2.35,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-oberkampf",
@@ -247,7 +285,8 @@
     "lon": 2.3394,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-old-town-paris-1",
@@ -257,7 +296,8 @@
     "lon": 2.3293,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-palais-garnier",
@@ -267,7 +307,8 @@
     "lon": 2.3316,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-pere-lachaise-cemetery",
@@ -277,7 +318,8 @@
     "lon": 2.3933,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-pere-lachaise-cemetery-2",
@@ -287,7 +329,8 @@
     "lon": 2.3762,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-pigalle",
@@ -297,7 +340,8 @@
     "lon": 2.3365,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-place-de-la-concorde",
@@ -307,7 +351,8 @@
     "lon": 2.3649,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-riverside-promenade-paris-3",
@@ -317,7 +362,8 @@
     "lon": 2.3834,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-rodin-museum",
@@ -327,7 +373,8 @@
     "lon": 2.3155,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-rue-cler",
@@ -337,7 +384,8 @@
     "lon": 2.3473,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-rue-montorgueil",
@@ -347,7 +395,8 @@
     "lon": 2.347,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-saint-germain-des-pres",
@@ -357,7 +406,8 @@
     "lon": 2.333,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-saint-germain-des-pres-2",
@@ -367,7 +417,8 @@
     "lon": 2.3489,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-sainte-chapelle",
@@ -377,7 +428,8 @@
     "lon": 2.345,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-seine-river-walk",
@@ -387,7 +439,8 @@
     "lon": 2.342,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-trocadero",
@@ -397,6 +450,7 @@
     "lon": 2.287,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   }
 ]

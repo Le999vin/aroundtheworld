@@ -7,7 +7,9 @@
     "lon": 8.5366,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich",
+    "address": "5 Steinmühleplatz"
   },
   {
     "id": "city-zurich-bellevueplatz",
@@ -17,7 +19,9 @@
     "lon": 8.5293,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich",
+    "address": "144 Wasserwerkstrasse"
   },
   {
     "id": "city-zurich-central-market-zurich-2",
@@ -27,7 +31,9 @@
     "lon": 8.5543,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich",
+    "address": "Hubeggstrasse"
   },
   {
     "id": "city-zurich-chinese-garden",
@@ -37,7 +43,8 @@
     "lon": 8.5475,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-city-park-zurich-4",
@@ -47,7 +54,8 @@
     "lon": 8.5472,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-club-zukunft",
@@ -57,7 +65,8 @@
     "lon": 8.5286,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-dante",
@@ -67,7 +76,8 @@
     "lon": 8.5288,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-eth-polyterrasse",
@@ -77,7 +87,8 @@
     "lon": 8.548,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-fifa-museum",
@@ -87,7 +98,8 @@
     "lon": 8.533,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-frau-gerolds-garten",
@@ -97,7 +109,8 @@
     "lon": 8.5159,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-fraumuenster",
@@ -107,7 +120,8 @@
     "lon": 8.5411,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-grossmuenster",
@@ -117,7 +131,8 @@
     "lon": 8.5443,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-historic-cathedral-zurich-5",
@@ -127,7 +142,8 @@
     "lon": 8.5441,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-hive",
@@ -137,7 +153,8 @@
     "lon": 8.5191,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-im-viadukt",
@@ -147,7 +164,8 @@
     "lon": 8.519,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-jules-verne",
@@ -157,7 +175,8 @@
     "lon": 8.537,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-kaufleuten",
@@ -167,7 +186,8 @@
     "lon": 8.5353,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-kunsthaus",
@@ -177,7 +197,8 @@
     "lon": 8.5498,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-lake-promenade",
@@ -187,7 +208,8 @@
     "lon": 8.5486,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-langstrasse",
@@ -197,7 +219,8 @@
     "lon": 8.5253,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-letten-river-area",
@@ -207,7 +230,8 @@
     "lon": 8.5336,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-limmatquai",
@@ -217,7 +241,8 @@
     "lon": 8.5438,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-lindenhof",
@@ -227,7 +252,8 @@
     "lon": 8.5393,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-markthalle-im-viadukt",
@@ -237,7 +263,8 @@
     "lon": 8.5179,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-mascotte",
@@ -247,7 +274,8 @@
     "lon": 8.5486,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-niederdorf",
@@ -257,7 +285,8 @@
     "lon": 8.5446,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-old-town-zurich-1",
@@ -267,7 +296,8 @@
     "lon": 8.5678,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-oliver-twist",
@@ -277,7 +307,8 @@
     "lon": 8.5447,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-opernhaus",
@@ -287,7 +318,8 @@
     "lon": 8.5481,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-plaza-klub",
@@ -297,7 +329,8 @@
     "lon": 8.5276,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-polyterrasse-eth-viewpoint",
@@ -307,7 +340,8 @@
     "lon": 8.5558,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-rietberg-museum",
@@ -317,7 +351,8 @@
     "lon": 8.5306,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-riverside-promenade-zurich-3",
@@ -327,7 +362,8 @@
     "lon": 8.5485,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-sechselautenplatz",
@@ -337,7 +373,8 @@
     "lon": 8.5659,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-swiss-national-museum",
@@ -347,7 +384,8 @@
     "lon": 8.5403,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-technopark-zurich",
@@ -357,7 +395,8 @@
     "lon": 8.5506,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-uetliberg",
@@ -367,7 +406,8 @@
     "lon": 8.4915,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-widder-bar",
@@ -377,7 +417,8 @@
     "lon": 8.5373,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-zurich-west",
@@ -387,7 +428,8 @@
     "lon": 8.5634,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-zurichsee-promenade",
@@ -397,6 +439,7 @@
     "lon": 8.5197,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   }
 ]

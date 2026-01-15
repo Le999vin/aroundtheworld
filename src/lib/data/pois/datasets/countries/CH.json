@@ -6,7 +6,9 @@
     "lat": 47.3712,
     "lon": 8.5433,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Limmatquai 48, 8001 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-chapel-bridge",
@@ -15,7 +17,9 @@
     "lat": 47.0516,
     "lon": 8.3077,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Kapellbrücke, 6002 Luzern",
+    "city": "Luzern"
   },
   {
     "id": "country-ch-matterhorn-viewpoint",
@@ -24,7 +28,9 @@
     "lat": 45.9763,
     "lon": 7.6586,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Matterhorn, 3920 Zermatt",
+    "city": "Zermatt"
   },
   {
     "id": "country-ch-jungfraujoch",
@@ -33,7 +39,9 @@
     "lat": 46.5475,
     "lon": 7.9808,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Top of Europe, 3823 Lauterbrunnen",
+    "city": "Lauterbrunnen"
   },
   {
     "id": "country-ch-lake-geneva-promenade",
@@ -42,7 +50,9 @@
     "lat": 46.2106,
     "lon": 6.1424,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Quai du Mont-Blanc, 1201 Genève",
+    "city": "Genève"
   },
   {
     "id": "country-ch-bern-old-town",
@@ -51,7 +61,9 @@
     "lat": 46.948,
     "lon": 7.4474,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Kramgasse 40, 3011 Bern",
+    "city": "Bern"
   },
   {
     "id": "country-ch-rhine-falls",
@@ -60,7 +72,9 @@
     "lat": 47.6776,
     "lon": 8.6156,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Rheinfallquai 32, 8212 Neuhausen am Rheinfall",
+    "city": "Neuhausen am Rheinfall"
   },
   {
     "id": "country-ch-oeschinen-lake",
@@ -69,7 +83,9 @@
     "lat": 46.4983,
     "lon": 7.7266,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Oeschistrasse 50, 3718 Kandersteg",
+    "city": "Kandersteg"
   },
   {
     "id": "country-ch-chillon-castle",
@@ -78,7 +94,9 @@
     "lat": 46.4143,
     "lon": 6.9279,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Avenue de Chillon 21, 1820 Veytaux",
+    "city": "Veytaux"
   },
   {
     "id": "country-ch-lugano-lakefront",
@@ -87,7 +105,9 @@
     "lat": 46.0037,
     "lon": 8.9511,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Riva Vincenzo Vela, 6900 Lugano",
+    "city": "Lugano"
   },
   {
     "id": "country-ch-zurich-kaufleuten",
@@ -96,7 +116,9 @@
     "lat": 47.3707,
     "lon": 8.5353,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Pelikanplatz 18, 8001 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-zurich-hive-club",
@@ -105,7 +127,9 @@
     "lat": 47.3873,
     "lon": 8.5191,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Geroldstrasse 5, 8005 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-zurich-plaza-klub",
@@ -114,7 +138,9 @@
     "lat": 47.3753,
     "lon": 8.5276,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Badenerstrasse 109, 8004 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-zurich-mascotte",
@@ -123,7 +149,9 @@
     "lat": 47.3669,
     "lon": 8.5486,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Theaterstrasse 10, 8001 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-zurich-club-zukunft",
@@ -132,7 +160,9 @@
     "lat": 47.3772,
     "lon": 8.5286,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Dienerstrasse 33, 8004 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-zurich-widder-bar",
@@ -141,7 +171,9 @@
     "lat": 47.3715,
     "lon": 8.5373,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Widdergasse 6, 8001 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-zurich-jules-verne",
@@ -150,7 +182,9 @@
     "lat": 47.3727,
     "lon": 8.537,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Uraniastrasse 9, 8001 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-zurich-oliver-twist",
@@ -159,7 +193,9 @@
     "lat": 47.3724,
     "lon": 8.5447,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Rindermarkt 6, 8001 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-zurich-frau-gerolds-garten",
@@ -168,7 +204,9 @@
     "lat": 47.3878,
     "lon": 8.5159,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Geroldstrasse 23, 8005 Zürich",
+    "city": "Zürich"
   },
   {
     "id": "country-ch-lucerne-old-town",
@@ -177,7 +215,9 @@
     "lat": 47.0502,
     "lon": 8.3093,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Weinmarkt, 6004 Luzern",
+    "city": "Luzern"
   },
   {
     "id": "country-ch-mount-pilatus",
@@ -186,7 +226,9 @@
     "lat": 46.979,
     "lon": 8.2533,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Schlossweg 1, 6010 Kriens",
+    "city": "Kriens"
   },
   {
     "id": "country-ch-interlaken",
@@ -195,7 +237,9 @@
     "lat": 46.6863,
     "lon": 7.8632,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Marktgasse 1, 3800 Interlaken",
+    "city": "Interlaken"
   },
   {
     "id": "country-ch-zermatt-village",
@@ -204,7 +248,9 @@
     "lat": 46.0207,
     "lon": 7.7491,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Bahnhofplatz 5, 3920 Zermatt",
+    "city": "Zermatt"
   },
   {
     "id": "country-ch-basel-rhine-promenade",
@@ -213,7 +259,9 @@
     "lat": 47.5596,
     "lon": 7.5886,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Oberer Rheinweg, 4058 Basel",
+    "city": "Basel"
   },
   {
     "id": "country-ch-geneva-lakefront-paquis",
@@ -222,6 +270,1130 @@
     "lat": 46.212,
     "lon": 6.153,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Quai du Mont-Blanc 30, 1201 Genève",
+    "city": "Genève"
+  },
+  {
+    "id": "country-ch-zurich-bahnhofstrasse",
+    "name": "Bahnhofstrasse",
+    "category": "landmarks",
+    "lat": 47.374,
+    "lon": 8.5366,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "5 Steinmühleplatz",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-bellevueplatz",
+    "name": "Bellevueplatz",
+    "category": "landmarks",
+    "lat": 47.39,
+    "lon": 8.5293,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "144 Wasserwerkstrasse",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-central-market-zurich-2",
+    "name": "Central Market (Zurich) 2",
+    "category": "food",
+    "lat": 47.3972,
+    "lon": 8.5543,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Hubeggstrasse",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-chinese-garden",
+    "name": "Chinese Garden",
+    "category": "nature",
+    "lat": 47.3913,
+    "lon": 8.5475,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Schanzackerstrasse 21",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-city-park-zurich-4",
+    "name": "City Park (Zurich) 4",
+    "category": "nature",
+    "lat": 47.3638,
+    "lon": 8.5472,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Seehofstrasse",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-dante-bar",
+    "name": "Dante Bar",
+    "category": "nightlife",
+    "lat": 47.3797,
+    "lon": 8.5288,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Lagerstrasse",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-eth-polyterrasse",
+    "name": "ETH Polyterrasse",
+    "category": "landmarks",
+    "lat": 47.3769,
+    "lon": 8.548,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Rämistrasse",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-fifa-museum",
+    "name": "FIFA Museum",
+    "category": "museums",
+    "lat": 47.3667,
+    "lon": 8.533,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Freigutstrasse 2",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-fraumuenster",
+    "name": "Fraumuenster",
+    "category": "landmarks",
+    "lat": 47.3693,
+    "lon": 8.5411,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Stadthausquai 17",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-historic-cathedral-zurich-5",
+    "name": "Historic Cathedral (Zurich) 5",
+    "category": "landmarks",
+    "lat": 47.3545,
+    "lon": 8.5441,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Seefeldquai",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-im-viadukt",
+    "name": "Im Viadukt",
+    "category": "food",
+    "lat": 47.3853,
+    "lon": 8.519,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Geroldstrasse 23",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-kunsthaus-zuerich",
+    "name": "Kunsthaus Zuerich",
+    "category": "museums",
+    "lat": 47.3701,
+    "lon": 8.5498,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Hottingerstrasse 8",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-lake-zurich-promenade",
+    "name": "Lake Zurich Promenade",
+    "category": "nature",
+    "lat": 47.3665,
+    "lon": 8.5486,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Hochschulen",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-langstrasse",
+    "name": "Langstrasse",
+    "category": "nightlife",
+    "lat": 47.3698,
+    "lon": 8.5253,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Schimmelstrasse",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-letten-river-area",
+    "name": "Letten River Area",
+    "category": "nature",
+    "lat": 47.3647,
+    "lon": 8.5336,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Splügenstrasse 6",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-limmatquai",
+    "name": "Limmatquai",
+    "category": "food",
+    "lat": 47.3716,
+    "lon": 8.5438,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Münstergasse",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-lindenhof",
+    "name": "Lindenhof",
+    "category": "landmarks",
+    "lat": 47.3726,
+    "lon": 8.5393,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Rennweg 15",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-markthalle-im-viadukt",
+    "name": "Markthalle im Viadukt",
+    "category": "food",
+    "lat": 47.3772,
+    "lon": 8.5179,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Kanzleistrasse 151",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-niederdorf",
+    "name": "Niederdorf",
+    "category": "food",
+    "lat": 47.3729,
+    "lon": 8.5446,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Steinbockgasse 6",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-old-town-zurich-1",
+    "name": "Old Town (Zurich) 1",
+    "category": "landmarks",
+    "lat": 47.3871,
+    "lon": 8.5678,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Oberholzstrasse 41",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-opernhaus",
+    "name": "Opernhaus",
+    "category": "landmarks",
+    "lat": 47.3667,
+    "lon": 8.5481,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Stadelhoferstrasse 10",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-polyterrasse-eth-viewpoint",
+    "name": "Polyterrasse ETH Viewpoint",
+    "category": "landmarks",
+    "lat": 47.3812,
+    "lon": 8.5558,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Toblerstrasse 37",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-rietberg-museum",
+    "name": "Rietberg Museum",
+    "category": "museums",
+    "lat": 47.3577,
+    "lon": 8.5306,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Scheideggstrasse",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-riverside-promenade-zurich-3",
+    "name": "Riverside Promenade (Zurich) 3",
+    "category": "nature",
+    "lat": 47.3541,
+    "lon": 8.5485,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Seefeldquai",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-sechselautenplatz",
+    "name": "Sechselautenplatz",
+    "category": "landmarks",
+    "lat": 47.3727,
+    "lon": 8.5659,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Dolderstrasse 95",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-swiss-national-museum",
+    "name": "Swiss National Museum",
+    "category": "museums",
+    "lat": 47.3785,
+    "lon": 8.5403,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Halle Landesmuseum",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-technopark-zurich",
+    "name": "Technopark Zurich",
+    "category": "other",
+    "lat": 47.3863,
+    "lon": 8.5506,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Rigistrasse 41",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-uetliberg",
+    "name": "Uetliberg",
+    "category": "nature",
+    "lat": 47.3499,
+    "lon": 8.4915,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Uto Kulm 654",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-zurich-west",
+    "name": "Zurich West",
+    "category": "nightlife",
+    "lat": 47.3773,
+    "lon": 8.5634,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Neuhausstrasse 6",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-zurich-zurichsee-promenade",
+    "name": "Zurichsee Promenade",
+    "category": "nature",
+    "lat": 47.3897,
+    "lon": 8.5197,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Hardstrasse 303",
+    "city": "Zürich"
+  },
+  {
+    "id": "country-ch-st-moritz",
+    "name": "St. Moritz",
+    "category": "landmarks",
+    "lat": 46.498021,
+    "lon": 9.8459437,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Plazza da la Staziun",
+    "city": "St. Moritz"
+  },
+  {
+    "id": "country-ch-corviglia",
+    "name": "Corviglia",
+    "category": "nature",
+    "lat": 46.506942,
+    "lon": 9.8120432,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Sankt Moritz",
+    "city": "St. Moritz"
+  },
+  {
+    "id": "country-ch-sils-im-engadin",
+    "name": "Sils im Engadin",
+    "category": "landmarks",
+    "lat": 46.4285396,
+    "lon": 9.759277,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Sils (Alpenrose) - Fex Platta",
+    "city": "Sils im Engadin"
+  },
+  {
+    "id": "country-ch-arosa",
+    "name": "Arosa",
+    "category": "nature",
+    "lat": 46.783882,
+    "lon": 9.679442,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Oberseepromenade",
+    "city": "Arosa"
+  },
+  {
+    "id": "country-ch-zermatt",
+    "name": "Zermatt",
+    "category": "landmarks",
+    "lat": 46.0245732,
+    "lon": 7.7481294,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Bahnhofplatz",
+    "city": "Zermatt"
+  },
+  {
+    "id": "country-ch-gornergrat",
+    "name": "Gornergrat",
+    "category": "nature",
+    "lat": 45.9833098,
+    "lon": 7.78463,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Gornergrat - Hohtälli",
+    "city": "Zermatt"
+  },
+  {
+    "id": "country-ch-matterhorn-glacier-paradise",
+    "name": "Matterhorn Glacier Paradise",
+    "category": "nature",
+    "lat": 45.9383609,
+    "lon": 7.7293381,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Matterhorn Glacier Paradise",
+    "city": "Zermatt"
+  },
+  {
+    "id": "country-ch-saas-fee",
+    "name": "Saas-Fee",
+    "category": "nature",
+    "lat": 46.0837126,
+    "lon": 7.9054659,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Saas-Fee",
+    "city": "Saas-Fee"
+  },
+  {
+    "id": "country-ch-verbier",
+    "name": "Verbier",
+    "category": "nature",
+    "lat": 46.1037944,
+    "lon": 7.2248088,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Chemin de la Bergerie",
+    "city": "Verbier"
+  },
+  {
+    "id": "country-ch-crans-montana",
+    "name": "Crans-Montana",
+    "category": "nature",
+    "lat": 46.3069171,
+    "lon": 7.469015,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Crans",
+    "city": "Crans-Montana"
+  },
+  {
+    "id": "country-ch-grindelwald",
+    "name": "Grindelwald",
+    "category": "nature",
+    "lat": 46.6247933,
+    "lon": 8.0316244,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Grindelwald",
+    "city": "Grindelwald"
+  },
+  {
+    "id": "country-ch-first-cliff-walk",
+    "name": "First Cliff Walk",
+    "category": "landmarks",
+    "lat": 46.6593101,
+    "lon": 8.053271,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "First Cliff Walk by Tissot",
+    "city": "Grindelwald"
+  },
+  {
+    "id": "country-ch-bachalpsee",
+    "name": "Bachalpsee",
+    "category": "nature",
+    "lat": 46.6695806,
+    "lon": 8.0209533,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Grindelwald",
+    "city": "Grindelwald"
+  },
+  {
+    "id": "country-ch-muerren",
+    "name": "Mürren",
+    "category": "other",
+    "lat": 46.560988,
+    "lon": 7.8943192,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Mürren",
+    "city": "Mürren"
+  },
+  {
+    "id": "country-ch-schilthorn",
+    "name": "Schilthorn",
+    "category": "nature",
+    "lat": 46.5574443,
+    "lon": 7.8924325,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Beim Stadel 960g",
+    "city": "Mürren"
+  },
+  {
+    "id": "country-ch-wengen",
+    "name": "Wengen",
+    "category": "other",
+    "lat": 46.6048249,
+    "lon": 7.9210382,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Senggasse",
+    "city": "Wengen"
+  },
+  {
+    "id": "country-ch-harder-kulm",
+    "name": "Harder Kulm",
+    "category": "nature",
+    "lat": 46.6996822,
+    "lon": 7.8561411,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Interlaken",
+    "city": "Interlaken"
+  },
+  {
+    "id": "country-ch-spiez-castle",
+    "name": "Spiez Castle",
+    "category": "landmarks",
+    "lat": 46.689379,
+    "lon": 7.6874676,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Schlossstrasse 15",
+    "city": "Spiez"
+  },
+  {
+    "id": "country-ch-stanserhorn",
+    "name": "Stanserhorn",
+    "category": "nature",
+    "lat": 46.9300883,
+    "lon": 8.3425069,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Stanserhorn-Rinderalp",
+    "city": "Stans"
+  },
+  {
+    "id": "country-ch-lake-lucerne",
+    "name": "Lake Lucerne",
+    "category": "nature",
+    "lat": 46.9854161,
+    "lon": 8.4988048,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Vierwaldstättersee",
+    "city": "Luzern"
+  },
+  {
+    "id": "country-ch-lion-monument",
+    "name": "Lion Monument",
+    "category": "landmarks",
+    "lat": 47.0584443,
+    "lon": 8.310868,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Kreuzmattweg",
+    "city": "Luzern"
+  },
+  {
+    "id": "country-ch-swiss-museum-of-transport",
+    "name": "Swiss Museum of Transport",
+    "category": "museums",
+    "lat": 47.0527531,
+    "lon": 8.3366363,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Lidostrasse 5",
+    "city": "Luzern"
+  },
+  {
+    "id": "country-ch-engelberg",
+    "name": "Engelberg",
+    "category": "other",
+    "lat": 46.819526,
+    "lon": 8.4026245,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Bahnhofstrasse 9",
+    "city": "Engelberg"
+  },
+  {
+    "id": "country-ch-stoos",
+    "name": "Stoos",
+    "category": "nature",
+    "lat": 46.9748149,
+    "lon": 8.6695134,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Stoos",
+    "city": "Stoos"
+  },
+  {
+    "id": "country-ch-parco-ciani",
+    "name": "Parco Ciani",
+    "category": "nature",
+    "lat": 46.0039462,
+    "lon": 8.9598056,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Molino Nuovo",
+    "city": "Lugano"
+  },
+  {
+    "id": "country-ch-monte-bre",
+    "name": "Monte Brè",
+    "category": "nature",
+    "lat": 46.0090846,
+    "lon": 8.9874096,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Lugano",
+    "city": "Lugano"
+  },
+  {
+    "id": "country-ch-monte-san-salvatore",
+    "name": "Monte San Salvatore",
+    "category": "nature",
+    "lat": 45.977112,
+    "lon": 8.9473021,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Lugano",
+    "city": "Lugano"
+  },
+  {
+    "id": "country-ch-locarno",
+    "name": "Locarno",
+    "category": "other",
+    "lat": 46.1696272,
+    "lon": 8.7954943,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Piazza Grande",
+    "city": "Locarno"
+  },
+  {
+    "id": "country-ch-ascona",
+    "name": "Ascona",
+    "category": "other",
+    "lat": 46.1591356,
+    "lon": 8.7693006,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Via Signor in Croce 1",
+    "city": "Ascona"
+  },
+  {
+    "id": "country-ch-verzasca-valley",
+    "name": "Verzasca Valley",
+    "category": "nature",
+    "lat": 46.2638993,
+    "lon": 8.8242916,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Verzasca",
+    "city": "Verzasca"
+  },
+  {
+    "id": "country-ch-ponte-dei-salti",
+    "name": "Ponte dei Salti",
+    "category": "landmarks",
+    "lat": 46.2600085,
+    "lon": 8.8359177,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Römerbrücke",
+    "city": "Lavertezzo"
+  },
+  {
+    "id": "country-ch-lac-lugano-arte-e-cultura",
+    "name": "LAC Lugano Arte e Cultura",
+    "category": "museums",
+    "lat": 45.9994838,
+    "lon": 8.948078,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Piazza Bernardino Luini 6",
+    "city": "Lugano"
+  },
+  {
+    "id": "country-ch-lake-lugano",
+    "name": "Lake Lugano",
+    "category": "nature",
+    "lat": 46.0068084,
+    "lon": 8.9444429,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Via Coremmo",
+    "city": "Lugano"
+  },
+  {
+    "id": "country-ch-montreux",
+    "name": "Montreux",
+    "category": "other",
+    "lat": 46.4358597,
+    "lon": 6.9103688,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Avenue des Alpes",
+    "city": "Montreux"
+  },
+  {
+    "id": "country-ch-lavaux-vineyards",
+    "name": "Lavaux Vineyards",
+    "category": "landmarks",
+    "lat": 46.4954955,
+    "lon": 6.7401746,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Bourg-en-Lavaux",
+    "city": "Lavaux"
+  },
+  {
+    "id": "country-ch-jet-d-eau",
+    "name": "Jet d'Eau",
+    "category": "landmarks",
+    "lat": 46.2073807,
+    "lon": 6.1558891,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Quai Gustave-Ador",
+    "city": "Genève"
+  },
+  {
+    "id": "country-ch-gruyeres-castle",
+    "name": "Gruyères Castle",
+    "category": "landmarks",
+    "lat": 46.5848055,
+    "lon": 7.0840711,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Rue du Château",
+    "city": "Gruyères"
+  },
+  {
+    "id": "country-ch-creux-du-van",
+    "name": "Creux du Van",
+    "category": "nature",
+    "lat": 46.9386228,
+    "lon": 6.7188621,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Sentier des 14 Contours",
+    "city": "Noiraigue"
+  },
+  {
+    "id": "country-ch-cern",
+    "name": "CERN",
+    "category": "other",
+    "lat": 46.2334452,
+    "lon": 6.0555477,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Route de Meyrin",
+    "city": "Meyrin"
+  },
+  {
+    "id": "country-ch-glacier-3000",
+    "name": "Glacier 3000",
+    "category": "nature",
+    "lat": 46.3542396,
+    "lon": 7.2054783,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Route du Pillon 253",
+    "city": "Les Diablerets"
+  },
+  {
+    "id": "country-ch-bundeshaus",
+    "name": "Bundeshaus",
+    "category": "landmarks",
+    "lat": 46.9462017,
+    "lon": 7.4425372,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Bundesgasse 3",
+    "city": "Bern"
+  },
+  {
+    "id": "country-ch-bern-bear-park",
+    "name": "Bern Bear Park",
+    "category": "nature",
+    "lat": 46.9476826,
+    "lon": 7.4591848,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Nydeggbrücke",
+    "city": "Bern"
+  },
+  {
+    "id": "country-ch-fondation-beyeler",
+    "name": "Fondation Beyeler",
+    "category": "museums",
+    "lat": 47.5880473,
+    "lon": 7.6509932,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Baselstrasse",
+    "city": "Riehen"
+  },
+  {
+    "id": "country-ch-tinguely-museum",
+    "name": "Tinguely Museum",
+    "category": "museums",
+    "lat": 47.5598279,
+    "lon": 7.6118265,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Grenzacherstrasse",
+    "city": "Basel"
+  },
+  {
+    "id": "country-ch-appenzell-village",
+    "name": "Appenzell Village",
+    "category": "other",
+    "lat": 47.3460977,
+    "lon": 9.4298336,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Appenzell Meistersrüte",
+    "city": "Appenzell"
+  },
+  {
+    "id": "country-ch-neuchatel-castle",
+    "name": "Neuchâtel Castle",
+    "category": "landmarks",
+    "lat": 46.992245,
+    "lon": 6.926982,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Rue de la Collégiale",
+    "city": "Neuchâtel"
+  },
+  {
+    "id": "country-ch-patek-philippe-museum",
+    "name": "Patek Philippe Museum",
+    "category": "museums",
+    "lat": 46.1984004,
+    "lon": 6.1382674,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Rue des Vieux-Grenadiers 7",
+    "city": "Genève"
+  },
+  {
+    "id": "country-ch-lake-st-moritz",
+    "name": "Lake St. Moritz",
+    "category": "nature",
+    "lat": 46.4933246,
+    "lon": 9.8463627,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Sankt Moritz Bad",
+    "city": "St. Moritz"
+  },
+  {
+    "id": "country-ch-lake-silvaplana",
+    "name": "Lake Silvaplana",
+    "category": "nature",
+    "lat": 46.4482753,
+    "lon": 9.7944684,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Surlej",
+    "city": "Silvaplana"
+  },
+  {
+    "id": "country-ch-swiss-national-park",
+    "name": "Swiss National Park",
+    "category": "nature",
+    "lat": 46.6677556,
+    "lon": 10.0744274,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Tantermozza",
+    "city": "Zernez"
+  },
+  {
+    "id": "country-ch-chur-old-town",
+    "name": "Chur Old Town",
+    "category": "landmarks",
+    "lat": 46.8501699,
+    "lon": 9.5322095,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Poststrasse",
+    "city": "Chur"
+  },
+  {
+    "id": "country-ch-aletsch-glacier",
+    "name": "Aletsch Glacier",
+    "category": "nature",
+    "lat": 46.3962202,
+    "lon": 8.047834,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Panoramaweg",
+    "city": "Fiesch"
+  },
+  {
+    "id": "country-ch-leukerbad-thermal-baths",
+    "name": "Leukerbad Thermal Baths",
+    "category": "other",
+    "lat": 46.3779998,
+    "lon": 7.625502,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Thermenstrasse 32",
+    "city": "Leukerbad"
+  },
+  {
+    "id": "country-ch-lauterbrunnen-valley",
+    "name": "Lauterbrunnen Valley",
+    "category": "nature",
+    "lat": 46.5939043,
+    "lon": 7.9078016,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Lauterbrunnen",
+    "city": "Lauterbrunnen"
+  },
+  {
+    "id": "country-ch-staubbach-falls",
+    "name": "Staubbach Falls",
+    "category": "nature",
+    "lat": 46.589776,
+    "lon": 7.905429,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Alte Stechelbergstrasse",
+    "city": "Lauterbrunnen"
+  },
+  {
+    "id": "country-ch-trummelbach-falls",
+    "name": "Trummelbach Falls",
+    "category": "nature",
+    "lat": 46.5700065,
+    "lon": 7.9132073,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "222",
+    "city": "Lauterbrunnen"
+  },
+  {
+    "id": "country-ch-lake-thun",
+    "name": "Lake Thun",
+    "category": "nature",
+    "lat": 46.7055892,
+    "lon": 7.691442,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Thunersee",
+    "city": "Thun"
+  },
+  {
+    "id": "country-ch-mount-rigi",
+    "name": "Mount Rigi",
+    "category": "nature",
+    "lat": 47.0556891,
+    "lon": 8.4846999,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Kulmweg",
+    "city": "Vitznau"
+  },
+  {
+    "id": "country-ch-mount-titlis",
+    "name": "Mount Titlis",
+    "category": "nature",
+    "lat": 46.7706571,
+    "lon": 8.4230359,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Klein Titlis-Titlis",
+    "city": "Engelberg"
+  },
+  {
+    "id": "country-ch-brissago-islands",
+    "name": "Brissago Islands",
+    "category": "nature",
+    "lat": 46.1320403,
+    "lon": 8.7351825,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Brissago",
+    "city": "Brissago"
+  },
+  {
+    "id": "country-ch-bellinzona-castelgrande",
+    "name": "Bellinzona Castelgrande",
+    "category": "landmarks",
+    "lat": 46.1929023,
+    "lon": 9.0217456,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Salita al Castel Grande",
+    "city": "Bellinzona"
+  },
+  {
+    "id": "country-ch-lausanne-olympic-museum",
+    "name": "Lausanne Olympic Museum",
+    "category": "museums",
+    "lat": 46.5086895,
+    "lon": 6.6340686,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Quai d'Ouchy 1",
+    "city": "Lausanne"
+  },
+  {
+    "id": "country-ch-cailler-chocolate-factory",
+    "name": "Cailler Chocolate Factory",
+    "category": "food",
+    "lat": 46.6072547,
+    "lon": 7.109204,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Rue Jules-Bellet 7",
+    "city": "Broc"
+  },
+  {
+    "id": "country-ch-lausanne-cathedral",
+    "name": "Lausanne Cathedral",
+    "category": "landmarks",
+    "lat": 46.5225806,
+    "lon": 6.6353629,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Place de la Cathédrale",
+    "city": "Lausanne"
+  },
+  {
+    "id": "country-ch-basel-minster",
+    "name": "Basel Minster",
+    "category": "landmarks",
+    "lat": 47.5564238,
+    "lon": 7.5922413,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Münsterplatz 9",
+    "city": "Basel"
+  },
+  {
+    "id": "country-ch-basel-old-town",
+    "name": "Basel Old Town",
+    "category": "landmarks",
+    "lat": 47.5606996,
+    "lon": 7.5933825,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Altstadt Kleinbasel",
+    "city": "Basel"
+  },
+  {
+    "id": "country-ch-st-gallen-abbey",
+    "name": "St. Gallen Abbey",
+    "category": "landmarks",
+    "lat": 47.4232081,
+    "lon": 9.377521,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Zeughausgasse",
+    "city": "St. Gallen"
+  },
+  {
+    "id": "country-ch-fribourg-old-town",
+    "name": "Fribourg Old Town",
+    "category": "landmarks",
+    "lat": 46.7990811,
+    "lon": 7.1593219,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Promenade du Barrage",
+    "city": "Fribourg"
+  },
+  {
+    "id": "country-ch-geneva-old-town",
+    "name": "Geneva Old Town",
+    "category": "landmarks",
+    "lat": 46.1995078,
+    "lon": 6.148038,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Rue Julienne-Piachaud",
+    "city": "Genève"
+  },
+  {
+    "id": "country-ch-landwasser-viaduct",
+    "name": "Landwasser Viaduct",
+    "category": "landmarks",
+    "lat": 46.6792391,
+    "lon": 9.6761297,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Via Visura",
+    "city": "Filisur"
+  },
+  {
+    "id": "country-ch-lake-brienz",
+    "name": "Lake Brienz",
+    "category": "nature",
+    "lat": 46.72298,
+    "lon": 7.9650351,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Brienzersee",
+    "city": "Brienz"
+  },
+  {
+    "id": "country-ch-muottas-muragl",
+    "name": "Muottas Muragl",
+    "category": "nature",
+    "lat": 46.5239561,
+    "lon": 9.9098329,
+    "source": "static",
+    "countryCode": "CH",
+    "address": "Samaden",
+    "city": "Pontresina"
   }
 ]

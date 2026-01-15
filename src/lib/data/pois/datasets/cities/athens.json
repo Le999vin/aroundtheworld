@@ -7,7 +7,9 @@
     "lon": 23.7257,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens",
+    "address": "Περίπατος Ακρόπολης (Βόρεια κλιτύς)"
   },
   {
     "id": "city-athens-acropolis-museum",
@@ -17,7 +19,9 @@
     "lon": 23.7286,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens",
+    "address": "15 Διονυσίου Αρεοπαγίτου"
   },
   {
     "id": "city-athens-anafiotika",
@@ -27,7 +31,9 @@
     "lon": 23.7262,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens",
+    "address": "Περίπατος Ακρόπολης (Βόρεια κλιτύς)"
   },
   {
     "id": "city-athens-ancient-agora",
@@ -37,7 +43,8 @@
     "lon": 23.7218,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-athens-riviera-glyfada",
@@ -47,7 +54,8 @@
     "lon": 23.7071,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-benaki-museum",
@@ -57,7 +65,8 @@
     "lon": 23.7407,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-central-market-athens-2",
@@ -67,7 +76,8 @@
     "lon": 23.7343,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-city-park-athens-4",
@@ -77,7 +87,8 @@
     "lon": 23.7194,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-ermou-street",
@@ -87,7 +98,8 @@
     "lon": 23.7335,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-gazi-district",
@@ -97,7 +109,8 @@
     "lon": 23.7111,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-gazi-technopolis",
@@ -107,7 +120,8 @@
     "lon": 23.7435,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-historic-cathedral-athens-5",
@@ -117,7 +131,8 @@
     "lon": 23.6987,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-kallidromiou-farmers-market",
@@ -127,7 +142,8 @@
     "lon": 23.735,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-kerameikos",
@@ -137,7 +153,8 @@
     "lon": 23.7083,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-kolonaki",
@@ -147,7 +164,8 @@
     "lon": 23.7435,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-local-food-street-athens-8",
@@ -157,7 +175,8 @@
     "lon": 23.7186,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-lycabettus-hill",
@@ -167,7 +186,8 @@
     "lon": 23.7433,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-modern-art-gallery-athens-6",
@@ -177,7 +197,8 @@
     "lon": 23.7131,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-monastiraki",
@@ -187,7 +208,8 @@
     "lon": 23.725,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-monastiraki-flea-market",
@@ -197,7 +219,8 @@
     "lon": 23.7062,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-monastiraki-square",
@@ -207,7 +230,8 @@
     "lon": 23.7203,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-mount-lycabettus",
@@ -217,7 +241,8 @@
     "lon": 23.7356,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-national-archaeological-museum",
@@ -227,7 +252,8 @@
     "lon": 23.7336,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-national-garden",
@@ -237,7 +263,8 @@
     "lon": 23.7368,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-nightlife-district-athens-7",
@@ -247,7 +274,8 @@
     "lon": 23.7575,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-odeon-of-herodes-atticus",
@@ -257,7 +285,8 @@
     "lon": 23.7166,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-old-town-athens-1",
@@ -267,7 +296,8 @@
     "lon": 23.7069,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-panathenaic-stadium",
@@ -277,7 +307,8 @@
     "lon": 23.7411,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-panormou-ambelokipi-bars",
@@ -287,7 +318,8 @@
     "lon": 23.757,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-parthenon",
@@ -297,7 +329,8 @@
     "lon": 23.7267,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-philopappos-hill",
@@ -307,7 +340,8 @@
     "lon": 23.7216,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-plaka",
@@ -317,7 +351,8 @@
     "lon": 23.7261,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-psyrri",
@@ -327,7 +362,8 @@
     "lon": 23.7329,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-psyrri-district",
@@ -337,7 +373,8 @@
     "lon": 23.724,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-riverside-promenade-athens-3",
@@ -347,7 +384,8 @@
     "lon": 23.7159,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-stavros-niarchos-foundation-cultural-center",
@@ -357,7 +395,8 @@
     "lon": 23.6872,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-syntagma-square",
@@ -367,7 +406,8 @@
     "lon": 23.7348,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-temple-of-hephaestus",
@@ -377,7 +417,8 @@
     "lon": 23.7215,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-temple-of-olympian-zeus",
@@ -387,7 +428,8 @@
     "lon": 23.7325,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-varvakios-central-market",
@@ -397,6 +439,7 @@
     "lon": 23.7266,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   }
 ]

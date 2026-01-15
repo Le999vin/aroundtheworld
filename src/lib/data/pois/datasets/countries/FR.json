@@ -6,7 +6,9 @@
     "lat": 48.8584,
     "lon": 2.2945,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Champ de Mars, 5 Av. Anatole France",
+    "city": "Paris"
   },
   {
     "id": "country-fr-louvre-museum",
@@ -15,7 +17,9 @@
     "lat": 48.8606,
     "lon": 2.3376,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "99 Rue de Rivoli",
+    "city": "Paris"
   },
   {
     "id": "country-fr-mont-saint-michel",
@@ -24,7 +28,9 @@
     "lat": 48.6361,
     "lon": -1.5115,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "L'Abbaye (au sommet du village)",
+    "city": "Le Mont-Saint-Michel"
   },
   {
     "id": "country-fr-palace-of-versailles",
@@ -33,7 +39,9 @@
     "lat": 48.8049,
     "lon": 2.1204,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Place d'Armes",
+    "city": "Versailles"
   },
   {
     "id": "country-fr-promenade-des-anglais",
@@ -42,7 +50,9 @@
     "lat": 43.6955,
     "lon": 7.265,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Promenade des Anglais",
+    "city": "Nice"
   },
   {
     "id": "country-fr-vieux-lyon",
@@ -51,7 +61,9 @@
     "lat": 45.7633,
     "lon": 4.8271,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "1 Place Saint-Jean",
+    "city": "Lyon"
   },
   {
     "id": "country-fr-strasbourg-cathedral",
@@ -60,7 +72,9 @@
     "lat": 48.5818,
     "lon": 7.7509,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Place de la Cathédrale",
+    "city": "Strasbourg"
   },
   {
     "id": "country-fr-bordeaux-waterfront",
@@ -69,7 +83,9 @@
     "lat": 44.8412,
     "lon": -0.5706,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Quai des Chartrons",
+    "city": "Bordeaux"
   },
   {
     "id": "country-fr-annecy-old-town",
@@ -78,7 +94,9 @@
     "lat": 45.899,
     "lon": 6.1286,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "74000 Annecy",
+    "city": "Annecy"
   },
   {
     "id": "country-fr-dune-of-pilat",
@@ -87,7 +105,9 @@
     "lat": 44.5893,
     "lon": -1.2133,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Route de Biscarrosse (RD 218)",
+    "city": "La Teste-de-Buch"
   },
   {
     "id": "country-fr-notre-dame-cathedral",
@@ -96,7 +116,9 @@
     "lat": 48.853,
     "lon": 2.3499,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "6 Parvis Notre-Dame – Pl. Jean-Paul II",
+    "city": "Paris"
   },
   {
     "id": "country-fr-sacre-coeur",
@@ -105,7 +127,9 @@
     "lat": 48.8867,
     "lon": 2.3431,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "35 Rue du Chevalier de la Barre",
+    "city": "Paris"
   },
   {
     "id": "country-fr-arc-de-triomphe",
@@ -114,7 +138,9 @@
     "lat": 48.8738,
     "lon": 2.295,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Place Charles de Gaulle",
+    "city": "Paris"
   },
   {
     "id": "country-fr-musee-d-orsay",
@@ -123,7 +149,9 @@
     "lat": 48.8601,
     "lon": 2.3265,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "1 Rue de la Légion d'Honneur",
+    "city": "Paris"
   },
   {
     "id": "country-fr-lavender-fields-provence",
@@ -132,7 +160,9 @@
     "lat": 43.9359,
     "lon": 5.8081,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "RD8 (Plateau de Valensole)",
+    "city": "Valensole"
   },
   {
     "id": "country-fr-pigalle-district",
@@ -141,7 +171,9 @@
     "lat": 48.8829,
     "lon": 2.3323,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Place Pigalle",
+    "city": "Paris"
   },
   {
     "id": "country-fr-marais-nightlife",
@@ -150,16 +182,20 @@
     "lat": 48.8595,
     "lon": 2.3635,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Place des Vosges",
+    "city": "Paris"
   },
   {
     "id": "country-fr-bastille-clubs",
-    "name": "Bastille Clubs",
+    "name": "Pachamama",
     "category": "nightlife",
     "lat": 48.8528,
     "lon": 2.3691,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "46-48 Rue du Faubourg Saint-Antoine",
+    "city": "Paris"
   },
   {
     "id": "country-fr-canal-saint-martin",
@@ -168,7 +204,9 @@
     "lat": 48.8713,
     "lon": 2.364,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Quai de Jemmapes",
+    "city": "Paris"
   },
   {
     "id": "country-fr-pont-du-gard",
@@ -177,7 +215,9 @@
     "lat": 43.9475,
     "lon": 4.535,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "400 Route du Pont du Gard",
+    "city": "Vers-Pont-du-Gard"
   },
   {
     "id": "country-fr-loire-valley-chateaux",
@@ -186,7 +226,9 @@
     "lat": 47.325,
     "lon": 0.715,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "78-82 Rue de Bernard Palissy",
+    "city": "Tours"
   },
   {
     "id": "country-fr-chamonix-mont-blanc",
@@ -195,7 +237,9 @@
     "lat": 45.9237,
     "lon": 6.8694,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "85 Place du Triangle de l'Amitié",
+    "city": "Chamonix-Mont-Blanc"
   },
   {
     "id": "country-fr-calanques-national-park",
@@ -204,7 +248,9 @@
     "lat": 43.214,
     "lon": 5.435,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "141 Avenue du Prado, Bâtiment A",
+    "city": "Marseille"
   },
   {
     "id": "country-fr-reims-cathedral-champagne",
@@ -213,7 +259,9 @@
     "lat": 49.253,
     "lon": 4.034,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Place du Cardinal Luçon",
+    "city": "Reims"
   },
   {
     "id": "country-fr-carcassonne-citadel",
@@ -222,6 +270,8 @@
     "lat": 43.2067,
     "lon": 2.363,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "1 Rue Viollet-le-Duc",
+    "city": "Carcassonne"
   }
 ]

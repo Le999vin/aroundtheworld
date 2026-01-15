@@ -6,7 +6,9 @@
     "lat": 52.3725,
     "lon": 4.8936,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "address": "21 Dam",
+    "city": "Amsterdam"
   },
   {
     "id": "country-nl-rijksmuseum",
@@ -15,7 +17,9 @@
     "lat": 52.36,
     "lon": 4.8852,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "address": "19 Hobbemastraat",
+    "city": "Amsterdam"
   },
   {
     "id": "country-nl-keukenhof",
@@ -24,7 +28,9 @@
     "lat": 52.271,
     "lon": 4.546,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "address": "Stapstenen",
+    "city": "Lisse"
   },
   {
     "id": "country-nl-kinderdijk",

@@ -7,7 +7,9 @@
     "lon": -74.0134,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York",
+    "address": "180 Greenwich Street"
   },
   {
     "id": "city-new-york-9-11-memorial-museum",
@@ -17,7 +19,9 @@
     "lon": -74.0277,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York",
+    "address": "Hoboken Newport Walkway"
   },
   {
     "id": "city-new-york-broadway-theater-district",
@@ -27,7 +31,9 @@
     "lon": -74.0176,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York",
+    "address": "Pier 26 Tide Deck"
   },
   {
     "id": "city-new-york-broadway-theatre-district",
@@ -37,7 +43,8 @@
     "lon": -73.9845,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-brooklyn-bridge",
@@ -47,7 +54,8 @@
     "lon": -73.9969,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-bryant-park",
@@ -57,7 +65,8 @@
     "lon": -74.0263,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-central-market-new-york-2",
@@ -67,7 +76,8 @@
     "lon": -74.0348,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-central-park",
@@ -77,7 +87,8 @@
     "lon": -73.9683,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-chelsea-market",
@@ -87,7 +98,8 @@
     "lon": -74.006,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-chinatown-little-italy",
@@ -97,7 +109,8 @@
     "lon": -73.996,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-city-park-new-york-4",
@@ -107,7 +120,8 @@
     "lon": -73.9801,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-coney-island",
@@ -117,7 +131,8 @@
     "lon": -73.985,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-dumbo",
@@ -127,7 +142,8 @@
     "lon": -73.9881,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-empire-state-building",
@@ -137,7 +153,8 @@
     "lon": -73.9857,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-fifth-avenue",
@@ -147,7 +164,8 @@
     "lon": -73.9738,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-grand-central-terminal",
@@ -157,7 +175,8 @@
     "lon": -73.9772,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-greenwich-village",
@@ -167,7 +186,8 @@
     "lon": -74.0027,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-harlem-jazz-apollo-theater",
@@ -177,7 +197,8 @@
     "lon": -73.949,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-high-line",
@@ -187,7 +208,8 @@
     "lon": -74.0048,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-historic-cathedral-new-york-5",
@@ -197,7 +219,8 @@
     "lon": -73.9901,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-hudson-yards-vessel",
@@ -207,7 +230,8 @@
     "lon": -74.0027,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-koreatown-32nd-street",
@@ -217,7 +241,8 @@
     "lon": -73.9864,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-local-food-street-new-york-8",
@@ -227,7 +252,8 @@
     "lon": -73.9841,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-lower-east-side",
@@ -237,7 +263,8 @@
     "lon": -73.9843,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-metropolitan-museum",
@@ -247,7 +274,8 @@
     "lon": -73.9632,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-modern-art-gallery-new-york-6",
@@ -257,7 +285,8 @@
     "lon": -73.9832,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-moma",
@@ -267,7 +296,8 @@
     "lon": -73.9776,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-museum-of-modern-art-moma",
@@ -277,7 +307,8 @@
     "lon": -74.0234,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-nightlife-district-new-york-7",
@@ -287,7 +318,8 @@
     "lon": -73.9805,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-old-town-new-york-1",
@@ -297,7 +329,8 @@
     "lon": -74.0348,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-one-world-observatory",
@@ -307,7 +340,8 @@
     "lon": -74.0132,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-prospect-park",
@@ -317,7 +351,8 @@
     "lon": -73.969,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-riverside-promenade-new-york-3",
@@ -327,7 +362,8 @@
     "lon": -74.0109,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-rockefeller-center",
@@ -337,7 +373,8 @@
     "lon": -74.0033,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-statue-of-liberty",
@@ -347,7 +384,8 @@
     "lon": -74.0445,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-the-metropolitan-museum-of-art",
@@ -357,7 +395,8 @@
     "lon": -74.0211,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-times-square",
@@ -367,7 +406,8 @@
     "lon": -73.9855,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-top-of-the-rock",
@@ -377,7 +417,8 @@
     "lon": -73.9795,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-west-village",
@@ -387,7 +428,8 @@
     "lon": -73.9993,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-williamsburg",
@@ -397,6 +439,7 @@
     "lon": -73.9571,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   }
 ]

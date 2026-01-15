@@ -6,7 +6,9 @@
     "lat": 59.9076,
     "lon": 10.7532,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "address": "Operagata",
+    "city": "Oslo"
   },
   {
     "id": "country-no-vigeland-sculpture-park",
@@ -15,7 +17,9 @@
     "lat": 59.927,
     "lon": 10.7007,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "address": "Madserud allé",
+    "city": "Oslo"
   },
   {
     "id": "country-no-akershus-fortress",
@@ -24,7 +28,9 @@
     "lat": 59.9073,
     "lon": 10.7365,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "address": "Operatunnelen / Festningstunnelen",
+    "city": "Oslo"
   },
   {
     "id": "country-no-bergen-bryggen",

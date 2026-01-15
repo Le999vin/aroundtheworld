@@ -6,7 +6,9 @@
     "lat": 41.8902,
     "lon": 12.4922,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "address": "Municipio Roma I",
+    "city": "Rome"
   },
   {
     "id": "country-it-vatican-museums",
@@ -15,7 +17,8 @@
     "lat": 41.9065,
     "lon": 12.4536,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "address": "Viale della Zitella"
   },
   {
     "id": "country-it-grand-canal",
@@ -24,7 +27,9 @@
     "lat": 45.437,
     "lon": 12.3358,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "address": "Calle larga Mazzini",
+    "city": "Venice"
   },
   {
     "id": "country-it-florence-duomo",

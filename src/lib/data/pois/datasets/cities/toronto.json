@@ -7,7 +7,9 @@
     "lon": -79.3818,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto",
+    "address": "592,594 Church Street"
   },
   {
     "id": "city-toronto-art-gallery-of-ontario",
@@ -17,7 +19,9 @@
     "lon": -79.3942,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto",
+    "address": "Grand Atrium"
   },
   {
     "id": "city-toronto-casa-loma",
@@ -27,7 +31,9 @@
     "lon": -79.3629,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto",
+    "address": "Gildersleeve Place"
   },
   {
     "id": "city-toronto-chinatown-spadina",
@@ -37,7 +43,8 @@
     "lon": -79.3981,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-cn-tower",
@@ -47,7 +54,8 @@
     "lon": -79.3664,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-distillery-district",
@@ -57,7 +65,8 @@
     "lon": -79.388,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-evergreen-brick-works",
@@ -67,7 +76,8 @@
     "lon": -79.3881,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-graffiti-alley",
@@ -77,7 +87,8 @@
     "lon": -79.3807,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-harbourfront-centre",
@@ -87,7 +98,8 @@
     "lon": -79.3999,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-high-park",
@@ -97,7 +109,8 @@
     "lon": -79.3722,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-hockey-hall-of-fame",
@@ -107,7 +120,8 @@
     "lon": -79.3717,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-kensington-market",
@@ -117,7 +131,8 @@
     "lon": -79.3826,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-little-italy",
@@ -127,7 +142,8 @@
     "lon": -79.3982,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-nathan-phillips-square",
@@ -137,7 +153,8 @@
     "lon": -79.3638,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-ossington-strip",
@@ -147,7 +164,8 @@
     "lon": -79.396,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-queen-street-west",
@@ -157,7 +175,8 @@
     "lon": -79.3747,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-ripley-s-aquarium",
@@ -167,7 +186,8 @@
     "lon": -79.3908,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-royal-ontario-museum",
@@ -177,7 +197,8 @@
     "lon": -79.3753,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-scotiabank-arena-area",
@@ -187,7 +208,8 @@
     "lon": -79.3627,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-st-lawrence-market",
@@ -197,7 +219,8 @@
     "lon": -79.4014,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-stackt-market",
@@ -207,7 +230,8 @@
     "lon": -79.3854,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-the-beaches",
@@ -217,7 +241,8 @@
     "lon": -79.3895,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-toronto-islands",
@@ -227,7 +252,8 @@
     "lon": -79.388,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-yonge-dundas-square",
@@ -237,7 +263,8 @@
     "lon": -79.3657,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   },
   {
     "id": "city-toronto-yorkville",
@@ -247,6 +274,7 @@
     "lon": -79.3673,
     "source": "static",
     "countryCode": "CA",
-    "cityId": "toronto"
+    "cityId": "toronto",
+    "city": "Toronto"
   }
 ]

@@ -6,7 +6,9 @@
     "lat": 53.3455,
     "lon": -6.264,
     "source": "static",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "address": "47-48 Temple Bar",
+    "city": "Dublin"
   },
   {
     "id": "country-ie-trinity-college-and-book-of-kells",
@@ -15,7 +17,9 @@
     "lat": 53.3438,
     "lon": -6.2546,
     "source": "static",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "address": "New Square",
+    "city": "Dublin"
   },
   {
     "id": "country-ie-guinness-storehouse",
@@ -24,7 +28,9 @@
     "lat": 53.3419,
     "lon": -6.2863,
     "source": "static",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "address": "Market Street South",
+    "city": "Dublin"
   },
   {
     "id": "country-ie-dublin-castle",
@@ -57,7 +63,7 @@
     "id": "country-ie-ring-of-kerry-scenic-route",
     "name": "Ring of Kerry Scenic Route",
     "category": "nature",
-    "lat": 52.0,
+    "lat": 52,
     "lon": -9.6,
     "source": "static",
     "countryCode": "IE"

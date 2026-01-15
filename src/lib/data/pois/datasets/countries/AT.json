@@ -6,7 +6,9 @@
     "lat": 48.2082,
     "lon": 16.3738,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "address": "4 Stephansplatz",
+    "city": "Vienna"
   },
   {
     "id": "country-at-schonbrunn-palace",
@@ -15,7 +17,9 @@
     "lat": 48.1845,
     "lon": 16.3122,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "address": "Lichte Allee",
+    "city": "Vienna"
   },
   {
     "id": "country-at-st-stephens-cathedral",
@@ -24,7 +28,9 @@
     "lat": 48.2085,
     "lon": 16.3731,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "address": "3 Stephansplatz",
+    "city": "Vienna"
   },
   {
     "id": "country-at-salzburg-old-town",

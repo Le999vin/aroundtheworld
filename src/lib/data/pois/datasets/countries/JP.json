@@ -6,7 +6,9 @@
     "lat": 35.7101,
     "lon": 139.8107,
     "source": "static",
-    "countryCode": "JP"
+    "countryCode": "JP",
+    "address": "2 Oshiage 1",
+    "city": "Sumida"
   },
   {
     "id": "country-jp-fushimi-inari",
@@ -15,7 +17,9 @@
     "lat": 34.9671,
     "lon": 135.7727,
     "source": "static",
-    "countryCode": "JP"
+    "countryCode": "JP",
+    "address": "表参道",
+    "city": "Kyoto"
   },
   {
     "id": "country-jp-arashiyama-bamboo-grove",
@@ -24,7 +28,9 @@
     "lat": 35.0168,
     "lon": 135.6713,
     "source": "static",
-    "countryCode": "JP"
+    "countryCode": "JP",
+    "address": "Bamboo Groves",
+    "city": "Kyoto"
   },
   {
     "id": "country-jp-osaka-castle",

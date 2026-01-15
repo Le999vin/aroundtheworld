@@ -6,7 +6,9 @@
     "lat": 55.6791,
     "lon": 12.593,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "address": "Nyhavn",
+    "city": "Copenhagen"
   },
   {
     "id": "country-dk-tivoli-gardens",
@@ -15,7 +17,9 @@
     "lat": 55.6737,
     "lon": 12.5681,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "address": "H.C. Andersens Boulevard",
+    "city": "Copenhagen"
   },
   {
     "id": "country-dk-the-little-mermaid",
@@ -24,7 +28,9 @@
     "lat": 55.6929,
     "lon": 12.5993,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "address": "Langelinie",
+    "city": "Copenhagen"
   },
   {
     "id": "country-dk-rosenborg-castle",
@@ -201,7 +207,7 @@
     "id": "country-dk-faroe-islands-viewpoint",
     "name": "Faroe Islands Viewpoint",
     "category": "nature",
-    "lat": 62.0,
+    "lat": 62,
     "lon": -6.8,
     "source": "static",
     "countryCode": "DK"

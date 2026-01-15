@@ -7,7 +7,9 @@
     "lon": 139.773,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo",
+    "address": "JR秋葉原駅;1階"
   },
   {
     "id": "city-tokyo-akihabara-electric-town",
@@ -17,7 +19,9 @@
     "lon": 139.6559,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo",
+    "address": "Kōenji"
   },
   {
     "id": "city-tokyo-asakusa-nakamise-street",
@@ -27,7 +31,9 @@
     "lon": 139.7966,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo",
+    "address": "Nakamise Street"
   },
   {
     "id": "city-tokyo-central-market-tokyo-2",
@@ -37,7 +43,8 @@
     "lon": 139.6509,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-city-park-tokyo-4",
@@ -47,7 +54,8 @@
     "lon": 139.6767,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-ebisu-yokocho",
@@ -57,7 +65,8 @@
     "lon": 139.7086,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-ginza",
@@ -67,7 +76,8 @@
     "lon": 139.765,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-golden-gai",
@@ -77,7 +87,8 @@
     "lon": 139.7032,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-historic-cathedral-tokyo-5",
@@ -87,7 +98,8 @@
     "lon": 139.681,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-ikebukuro-sunshine-city",
@@ -97,7 +109,8 @@
     "lon": 139.7196,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-imperial-palace-east-gardens",
@@ -107,7 +120,8 @@
     "lon": 139.7528,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-kabukicho",
@@ -117,7 +131,8 @@
     "lon": 139.7026,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-kagurazaka",
@@ -127,7 +142,8 @@
     "lon": 139.7415,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-local-food-street-tokyo-8",
@@ -137,7 +153,8 @@
     "lon": 139.6702,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-main-square-tokyo-9",
@@ -147,7 +164,8 @@
     "lon": 139.6203,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-meiji-shrine",
@@ -157,7 +175,8 @@
     "lon": 139.6993,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-modern-art-gallery-tokyo-6",
@@ -167,7 +186,8 @@
     "lon": 139.6734,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-nakameguro",
@@ -177,7 +197,8 @@
     "lon": 139.6993,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-national-museum",
@@ -187,7 +208,8 @@
     "lon": 139.7765,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-nightlife-district-tokyo-7",
@@ -197,7 +219,8 @@
     "lon": 139.6765,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-odaiba",
@@ -207,7 +230,8 @@
     "lon": 139.6453,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-odaiba-seaside-park",
@@ -217,7 +241,8 @@
     "lon": 139.7766,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-old-town-tokyo-1",
@@ -227,7 +252,8 @@
     "lon": 139.671,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-omotesando",
@@ -237,7 +263,8 @@
     "lon": 139.6363,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-riverside-promenade-tokyo-3",
@@ -247,7 +274,8 @@
     "lon": 139.6613,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-roppongi-hills",
@@ -257,7 +285,8 @@
     "lon": 139.7294,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-senso-ji",
@@ -267,7 +296,8 @@
     "lon": 139.7967,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-shibuya-crossing",
@@ -277,7 +307,8 @@
     "lon": 139.7005,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-shimokitazawa",
@@ -287,7 +318,8 @@
     "lon": 139.6686,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-shinjuku-gyoen",
@@ -297,7 +329,8 @@
     "lon": 139.71,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-skytree",
@@ -307,7 +340,8 @@
     "lon": 139.8107,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-takeshita-street-harajuku",
@@ -317,7 +351,8 @@
     "lon": 139.7021,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-teamlab-planets",
@@ -327,7 +362,8 @@
     "lon": 139.789,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-teamlab-planets-2",
@@ -337,7 +373,8 @@
     "lon": 139.6687,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-tokyo-metropolitan-government-building",
@@ -347,7 +384,8 @@
     "lon": 139.6452,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-tokyo-station-marunouchi",
@@ -357,7 +395,8 @@
     "lon": 139.6328,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-tokyo-tower",
@@ -367,7 +406,8 @@
     "lon": 139.7454,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-toyosu-market",
@@ -377,7 +417,8 @@
     "lon": 139.7821,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-tsukiji-outer-market",
@@ -387,7 +428,8 @@
     "lon": 139.7708,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-ueno-park",
@@ -397,6 +439,7 @@
     "lon": 139.7741,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   }
 ]

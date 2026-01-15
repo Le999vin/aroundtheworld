@@ -6,7 +6,9 @@
     "lat": 52.5163,
     "lon": 13.3777,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "address": "Platz des 18. März",
+    "city": "Berlin"
   },
   {
     "id": "country-de-neuschwanstein-castle",
@@ -15,7 +17,9 @@
     "lat": 47.5576,
     "lon": 10.7498,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "address": "Neuschwansteinstraße",
+    "city": "Hohenschwangau"
   },
   {
     "id": "country-de-cologne-cathedral",
@@ -24,7 +28,9 @@
     "lat": 50.9413,
     "lon": 6.9583,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "address": "Domkloster",
+    "city": "Cologne"
   },
   {
     "id": "country-de-heidelberg-old-town",

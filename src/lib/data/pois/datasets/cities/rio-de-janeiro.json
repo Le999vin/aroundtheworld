@@ -7,7 +7,9 @@
     "lon": -43.172,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro",
+    "address": "Rua Santa Luzia"
   },
   {
     "id": "city-rio-de-janeiro-barra-da-tijuca",
@@ -17,7 +19,9 @@
     "lon": -43.1692,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro",
+    "address": "184 Praça Marechal Âncora"
   },
   {
     "id": "city-rio-de-janeiro-ccbb-rio",
@@ -27,7 +31,9 @@
     "lon": -43.1762,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro",
+    "address": "Praça Floriano Peixoto"
   },
   {
     "id": "city-rio-de-janeiro-christ-the-redeemer",
@@ -37,7 +43,8 @@
     "lon": -43.1539,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-copacabana-beach",
@@ -47,7 +54,8 @@
     "lon": -43.1585,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-copacabana-fort",
@@ -57,7 +65,8 @@
     "lon": -43.1848,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-feira-de-sao-cristovao",
@@ -67,7 +76,8 @@
     "lon": -43.1617,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-flamengo-park",
@@ -77,7 +87,8 @@
     "lon": -43.1735,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-ipanema-beach",
@@ -87,7 +98,8 @@
     "lon": -43.1682,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-jardim-botanico",
@@ -97,7 +109,8 @@
     "lon": -43.1577,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-lapa-arches",
@@ -107,7 +120,8 @@
     "lon": -43.1852,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-leblon",
@@ -117,7 +131,8 @@
     "lon": -43.1838,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-maracana-stadium",
@@ -127,7 +142,8 @@
     "lon": -43.1858,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-metropolitan-cathedral",
@@ -137,7 +153,8 @@
     "lon": -43.1602,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-museum-of-art-of-rio",
@@ -147,7 +164,8 @@
     "lon": -43.1637,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-museum-of-tomorrow",
@@ -157,7 +175,8 @@
     "lon": -43.1885,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-pedra-do-sal",
@@ -167,7 +186,8 @@
     "lon": -43.1885,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-prainha-beach",
@@ -177,7 +197,8 @@
     "lon": -43.1784,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-rio-scenarium",
@@ -187,7 +208,8 @@
     "lon": -43.1693,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-rodrigo-de-freitas-lagoon",
@@ -197,7 +219,8 @@
     "lon": -43.1879,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-sambadrome",
@@ -207,7 +230,8 @@
     "lon": -43.162,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-santa-teresa",
@@ -217,7 +241,8 @@
     "lon": -43.1672,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-selaron-steps",
@@ -227,7 +252,8 @@
     "lon": -43.1654,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-sugarloaf-mountain",
@@ -237,7 +263,8 @@
     "lon": -43.1809,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "city-rio-de-janeiro-tijuca-national-park",
@@ -247,6 +274,7 @@
     "lon": -43.1821,
     "source": "static",
     "countryCode": "BR",
-    "cityId": "rio-de-janeiro"
+    "cityId": "rio-de-janeiro",
+    "city": "Rio de Janeiro"
   }
 ]

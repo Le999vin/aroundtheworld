@@ -6,7 +6,9 @@
     "lat": 13.75,
     "lon": 100.4913,
     "source": "static",
-    "countryCode": "TH"
+    "countryCode": "TH",
+    "address": "สนามราชกิจ",
+    "city": "Bangkok"
   },
   {
     "id": "country-th-wat-pho",
@@ -15,7 +17,9 @@
     "lat": 13.7466,
     "lon": 100.493,
     "source": "static",
-    "countryCode": "TH"
+    "countryCode": "TH",
+    "address": "Thai Wang Road",
+    "city": "Bangkok"
   },
   {
     "id": "country-th-patong-beach",
@@ -24,7 +28,9 @@
     "lat": 7.8925,
     "lon": 98.2969,
     "source": "static",
-    "countryCode": "TH"
+    "countryCode": "TH",
+    "address": "Food Alley",
+    "city": "Patong"
   },
   {
     "id": "country-th-chiang-mai-old-city",

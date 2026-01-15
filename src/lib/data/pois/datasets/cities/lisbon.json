@@ -7,7 +7,9 @@
     "lon": -9.1527,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon",
+    "address": "216, 218, 222 Rua de São Bento"
   },
   {
     "id": "city-lisbon-bairro-alto",
@@ -17,7 +19,9 @@
     "lon": -9.1378,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon",
+    "address": "68 Rua da Escola do Exército"
   },
   {
     "id": "city-lisbon-belem-pastry-district",
@@ -27,7 +31,9 @@
     "lon": -9.1243,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon",
+    "address": "Calçada do Forte"
   },
   {
     "id": "city-lisbon-belem-tower",
@@ -37,7 +43,8 @@
     "lon": -9.135,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-cais-do-sodre",
@@ -47,7 +54,8 @@
     "lon": -9.1376,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-chiado",
@@ -57,7 +65,8 @@
     "lon": -9.1512,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-docas-de-santo-amaro",
@@ -67,7 +76,8 @@
     "lon": -9.1475,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-eduardo-vii-park",
@@ -77,7 +87,8 @@
     "lon": -9.1324,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-elevador-de-santa-justa",
@@ -87,7 +98,8 @@
     "lon": -9.1584,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-gulbenkian-museum",
@@ -97,7 +109,8 @@
     "lon": -9.1244,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-jeronimos-monastery",
@@ -107,7 +120,8 @@
     "lon": -9.1273,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-lisbon-cathedral",
@@ -117,7 +131,8 @@
     "lon": -9.1455,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-lx-factory",
@@ -127,7 +142,8 @@
     "lon": -9.1399,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-maat-museum",
@@ -137,7 +153,8 @@
     "lon": -9.1381,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-miradouro-da-senhora-do-monte",
@@ -147,7 +164,8 @@
     "lon": -9.1442,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-miradouro-das-portas-do-sol",
@@ -157,7 +175,8 @@
     "lon": -9.1295,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-miradouro-de-santa-catarina",
@@ -167,7 +186,8 @@
     "lon": -9.1236,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-oceanario-de-lisboa",
@@ -177,7 +197,8 @@
     "lon": -9.1256,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-parque-das-nacoes",
@@ -187,7 +208,8 @@
     "lon": -9.131,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-pink-street",
@@ -197,7 +219,8 @@
     "lon": -9.145,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-praca-do-comercio",
@@ -207,7 +230,8 @@
     "lon": -9.1349,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-rossio-square",
@@ -217,7 +241,8 @@
     "lon": -9.1321,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-sao-jorge-castle",
@@ -227,7 +252,8 @@
     "lon": -9.1388,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-time-out-market",
@@ -237,7 +263,8 @@
     "lon": -9.1247,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   },
   {
     "id": "city-lisbon-tram-28-route",
@@ -247,6 +274,7 @@
     "lon": -9.1235,
     "source": "static",
     "countryCode": "PT",
-    "cityId": "lisbon"
+    "cityId": "lisbon",
+    "city": "Lisbon"
   }
 ]

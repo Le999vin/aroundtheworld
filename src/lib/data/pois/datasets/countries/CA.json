@@ -6,7 +6,9 @@
     "lat": 43.6426,
     "lon": -79.3871,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "address": "290 Bremner Boulevard",
+    "city": "Toronto"
   },
   {
     "id": "country-ca-niagara-falls",
@@ -15,7 +17,9 @@
     "lat": 43.0896,
     "lon": -79.0849,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "address": "5830 Stanley Avenue",
+    "city": "Niagara Falls"
   },
   {
     "id": "country-ca-banff-national-park",
@@ -24,7 +28,9 @@
     "lat": 51.1784,
     "lon": -115.5708,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "address": "227 Banff Avenue",
+    "city": "Banff"
   },
   {
     "id": "country-ca-lake-louise",

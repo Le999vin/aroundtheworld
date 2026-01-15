@@ -6,7 +6,9 @@
     "lat": 37.9715,
     "lon": 23.7257,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "address": "Περίπατος Ακρόπολης (Βόρεια κλιτύς)",
+    "city": "Athens"
   },
   {
     "id": "country-gr-santorini-oia",
@@ -15,7 +17,9 @@
     "lat": 36.4618,
     "lon": 25.3753,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "address": "Αρμένιοι",
+    "city": "Ia Municipal Unit"
   },
   {
     "id": "country-gr-meteora",
@@ -24,7 +28,9 @@
     "lat": 39.7216,
     "lon": 21.63,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "address": "Μετέωρα - Καστράκι",
+    "city": "Kalabaka"
   },
   {
     "id": "country-gr-delphi",

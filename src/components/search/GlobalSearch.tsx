@@ -1,3 +1,4 @@
+// Suche nach Land/Stadt/Place (simple Suche)
 "use client";
 
 import { useMemo, useState } from "react";

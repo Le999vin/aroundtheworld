@@ -6,7 +6,9 @@
     "lat": -33.9628,
     "lon": 18.4098,
     "source": "static",
-    "countryCode": "ZA"
+    "countryCode": "ZA",
+    "address": "Platteklip Gorge",
+    "city": "Cape Town"
   },
   {
     "id": "country-za-v-a-waterfront-cape-town",
@@ -15,7 +17,9 @@
     "lat": -33.9036,
     "lon": 18.4208,
     "source": "static",
-    "countryCode": "ZA"
+    "countryCode": "ZA",
+    "address": "139 Breakwater Lane",
+    "city": "Cape Town"
   },
   {
     "id": "country-za-cape-point",
@@ -24,7 +28,9 @@
     "lat": -34.3568,
     "lon": 18.4983,
     "source": "static",
-    "countryCode": "ZA"
+    "countryCode": "ZA",
+    "address": "Lighthouse Keeper's Trail",
+    "city": "City of Cape Town"
   },
   {
     "id": "country-za-boulders-beach-penguins",
@@ -75,7 +81,7 @@
     "id": "country-za-tsitsikamma-national-park",
     "name": "Tsitsikamma National Park",
     "category": "nature",
-    "lat": -34.0,
+    "lat": -34,
     "lon": 23.9,
     "source": "static",
     "countryCode": "ZA"
@@ -211,7 +217,7 @@
     "name": "Cape Winelands Scenic Drive",
     "category": "other",
     "lat": -33.9,
-    "lon": 19.0,
+    "lon": 19,
     "source": "static",
     "countryCode": "ZA"
   },

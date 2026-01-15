@@ -6,7 +6,9 @@
     "lat": 19.4326,
     "lon": -99.1332,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "address": "Constitution Square",
+    "city": "Mexico City"
   },
   {
     "id": "country-mx-palacio-de-bellas-artes",
@@ -15,7 +17,9 @@
     "lat": 19.4352,
     "lon": -99.1412,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "address": "Avenida Juárez",
+    "city": "Mexico City"
   },
   {
     "id": "country-mx-frida-kahlo-museum",
@@ -24,7 +28,9 @@
     "lat": 19.355,
     "lon": -99.1626,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "address": "247 Calle Ignacio Allende",
+    "city": "Mexico City"
   },
   {
     "id": "country-mx-teotihuacan-pyramids",

@@ -6,7 +6,9 @@
     "lat": 60.1699,
     "lon": 24.9525,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "address": "Hallituskatu",
+    "city": "Helsinki"
   },
   {
     "id": "country-fi-helsinki-cathedral",
@@ -15,7 +17,9 @@
     "lat": 60.1694,
     "lon": 24.9522,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "address": "Kruununhaka",
+    "city": "Helsinki"
   },
   {
     "id": "country-fi-suomenlinna-sea-fortress",
@@ -24,7 +28,9 @@
     "lat": 60.1459,
     "lon": 24.9886,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "address": "Susisaaren silta",
+    "city": "Helsinki"
   },
   {
     "id": "country-fi-temppeliaukio-church",
@@ -102,8 +108,8 @@
     "id": "country-fi-lapland-aurora-viewpoints",
     "name": "Lapland Aurora Viewpoints",
     "category": "nature",
-    "lat": 67.0,
-    "lon": 26.0,
+    "lat": 67,
+    "lon": 26,
     "source": "static",
     "countryCode": "FI"
   },

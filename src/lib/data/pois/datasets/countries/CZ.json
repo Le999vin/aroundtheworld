@@ -6,7 +6,9 @@
     "lat": 50.0909,
     "lon": 14.4005,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "address": "38/4 Vikářská",
+    "city": "Prague"
   },
   {
     "id": "country-cz-charles-bridge",
@@ -15,7 +17,9 @@
     "lat": 50.0865,
     "lon": 14.4114,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "address": "Charles Bridge",
+    "city": "Prague"
   },
   {
     "id": "country-cz-old-town-square-prague",
@@ -24,7 +28,9 @@
     "lat": 50.0875,
     "lon": 14.4213,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "address": "Old Town",
+    "city": "Prague"
   },
   {
     "id": "country-cz-astronomical-clock",

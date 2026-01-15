@@ -6,7 +6,9 @@
     "lat": 59.325,
     "lon": 18.071,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "address": "7 Stortorget",
+    "city": "Stockholm"
   },
   {
     "id": "country-se-vasa-museum",
@@ -15,7 +17,9 @@
     "lat": 59.327,
     "lon": 18.091,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "address": "Djurgårdsstrand",
+    "city": "Stockholm"
   },
   {
     "id": "country-se-skansen-open-air-museum",
@@ -24,7 +28,9 @@
     "lat": 59.3253,
     "lon": 18.1047,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "address": "Sollidsbacken",
+    "city": "Stockholm"
   },
   {
     "id": "country-se-stockholm-city-hall",

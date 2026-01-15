@@ -174,7 +174,7 @@ export const cityDatasets: Record<string, CityDataset> = {
   },
   "paris": {
     id: "paris",
-    center: { lat: 48.8611, lon: 2.3458 },
+    center: { lat: 48.8609, lon: 2.3464 },
     bbox: { minLat: 48.785, minLon: 2.237, maxLat: 48.9367, maxLon: 2.4433 },
     loader: async () => (await import("./datasets/cities/paris.json")).default as POI[],
   },

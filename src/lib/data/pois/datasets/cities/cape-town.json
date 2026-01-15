@@ -7,7 +7,9 @@
     "lon": 18.4092,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town",
+    "address": "Military Road"
   },
   {
     "id": "city-cape-town-bree-street",
@@ -17,7 +19,9 @@
     "lon": 18.4135,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town",
+    "address": "Kloof Street"
   },
   {
     "id": "city-cape-town-camps-bay-beach",
@@ -27,7 +31,9 @@
     "lon": 18.4278,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town",
+    "address": "1 Heerengracht Boulevard"
   },
   {
     "id": "city-cape-town-cape-town-stadium",
@@ -37,7 +43,8 @@
     "lon": 18.4399,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-chapman-s-peak-drive",
@@ -47,7 +54,8 @@
     "lon": 18.4328,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-clifton-beaches",
@@ -57,7 +65,8 @@
     "lon": 18.4168,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-company-s-garden",
@@ -67,7 +76,8 @@
     "lon": 18.4092,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-district-six-museum",
@@ -77,7 +87,8 @@
     "lon": 18.4236,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-first-thursdays-art-walk",
@@ -87,7 +98,8 @@
     "lon": 18.4433,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-greenmarket-square",
@@ -97,7 +109,8 @@
     "lon": 18.4342,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-hout-bay",
@@ -107,7 +120,8 @@
     "lon": 18.44,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-kirstenbosch-gardens",
@@ -117,7 +131,8 @@
     "lon": 18.415,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-kloof-street",
@@ -127,7 +142,8 @@
     "lon": 18.4047,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-lion-s-head",
@@ -137,7 +153,8 @@
     "lon": 18.439,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-long-street",
@@ -147,7 +164,8 @@
     "lon": 18.4402,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-oranjezicht-city-farm-market",
@@ -157,7 +175,8 @@
     "lon": 18.4207,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-robben-island-ferry",
@@ -167,7 +186,8 @@
     "lon": 18.4167,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-sea-point-promenade",
@@ -177,7 +197,8 @@
     "lon": 18.4093,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-signal-hill",
@@ -187,7 +208,8 @@
     "lon": 18.4226,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-table-mountain",
@@ -197,7 +219,8 @@
     "lon": 18.4322,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-the-old-biscuit-mill",
@@ -207,7 +230,8 @@
     "lon": 18.4075,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-two-oceans-aquarium",
@@ -217,7 +241,8 @@
     "lon": 18.4139,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-v-a-waterfront",
@@ -227,7 +252,8 @@
     "lon": 18.4082,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-woodstock",
@@ -237,7 +263,8 @@
     "lon": 18.4107,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   },
   {
     "id": "city-cape-town-zeitz-mocaa",
@@ -247,6 +274,7 @@
     "lon": 18.4438,
     "source": "static",
     "countryCode": "ZA",
-    "cityId": "cape-town"
+    "cityId": "cape-town",
+    "city": "Cape Town"
   }
 ]

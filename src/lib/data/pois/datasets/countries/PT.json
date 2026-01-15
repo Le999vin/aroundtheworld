@@ -6,7 +6,9 @@
     "lat": 38.712,
     "lon": -9.13,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "address": "Portas do Sol",
+    "city": "Lisbon"
   },
   {
     "id": "country-pt-belem-tower",
@@ -15,7 +17,9 @@
     "lat": 38.6916,
     "lon": -9.2165,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "address": "Passeio João Jayme Faria Affonso",
+    "city": "Lisbon"
   },
   {
     "id": "country-pt-jer-nimos-monastery",
@@ -24,7 +28,9 @@
     "lat": 38.6977,
     "lon": -9.2066,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "address": "Praça do Império",
+    "city": "Lisbon"
   },
   {
     "id": "country-pt-porto-ribeira",

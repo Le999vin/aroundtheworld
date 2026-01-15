@@ -62,6 +62,14 @@ export type WeatherData = {
   };
 };
 
+export type PoiImageSource = "wikimedia" | "wikipedia";
+
+export type PoiImage = {
+  url: string;
+  source: PoiImageSource;
+  attribution?: string;
+};
+
 export type POI = Coordinates & {
   id: string;
   name: string;
@@ -69,11 +77,17 @@ export type POI = Coordinates & {
   source: "static" | "curated" | "opentripmap";
   countryCode?: string;
   cityId?: string;
+  city?: string;
+  googlePlaceId?: string;
   description?: string;
   address?: string;
   rating?: number;
   website?: string;
+  mapsUrl?: string;
   imageUrl?: string;
+  images?: PoiImage[];
+  openingHours?: string;
+  osm?: { type: "N" | "W" | "R"; id: number };
   tags?: string[];
 };
 

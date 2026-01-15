@@ -7,7 +7,9 @@
     "lon": 103.8067,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore",
+    "address": "Sime Road"
   },
   {
     "id": "city-singapore-boat-quay",
@@ -17,7 +19,9 @@
     "lon": 103.82,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore",
+    "address": "Lornie Highway"
   },
   {
     "id": "city-singapore-chinatown",
@@ -27,7 +31,9 @@
     "lon": 103.8081,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore",
+    "address": "Eng Neo Avenue"
   },
   {
     "id": "city-singapore-clarke-quay",
@@ -37,7 +43,8 @@
     "lon": 103.8189,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-east-coast-park",
@@ -47,7 +54,8 @@
     "lon": 103.8223,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-esplanade",
@@ -57,7 +65,8 @@
     "lon": 103.8284,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-gardens-by-the-bay",
@@ -67,7 +76,8 @@
     "lon": 103.8088,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-haji-lane",
@@ -77,7 +87,8 @@
     "lon": 103.8115,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-jewel-changi",
@@ -87,7 +98,8 @@
     "lon": 103.8166,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-kampong-glam",
@@ -97,7 +109,8 @@
     "lon": 103.8129,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-lau-pa-sat",
@@ -107,7 +120,8 @@
     "lon": 103.8355,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-little-india",
@@ -117,7 +131,8 @@
     "lon": 103.8056,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-marina-bay-sands",
@@ -127,7 +142,8 @@
     "lon": 103.8036,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-marina-bay-waterfront-promenade",
@@ -137,7 +153,8 @@
     "lon": 103.8291,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-maxwell-food-centre",
@@ -147,7 +164,8 @@
     "lon": 103.8031,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-merlion-park",
@@ -157,7 +175,8 @@
     "lon": 103.8096,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-national-gallery-singapore",
@@ -167,7 +186,8 @@
     "lon": 103.8096,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-orchard-road",
@@ -177,7 +197,8 @@
     "lon": 103.8327,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-sentosa-island",
@@ -187,7 +208,8 @@
     "lon": 103.8031,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-singapore-botanic-gardens",
@@ -197,7 +219,8 @@
     "lon": 103.8309,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-singapore-flyer",
@@ -207,7 +230,8 @@
     "lon": 103.8249,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-supertree-grove",
@@ -217,7 +241,8 @@
     "lon": 103.8259,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-tiong-bahru",
@@ -227,7 +252,8 @@
     "lon": 103.8301,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-universal-studios-singapore",
@@ -237,7 +263,8 @@
     "lon": 103.834,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   },
   {
     "id": "city-singapore-zouk-singapore",
@@ -247,6 +274,7 @@
     "lon": 103.8254,
     "source": "static",
     "countryCode": "SG",
-    "cityId": "singapore"
+    "cityId": "singapore",
+    "city": "Singapore"
   }
 ]

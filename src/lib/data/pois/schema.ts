@@ -39,6 +39,12 @@ const cityIdSchema = trimmedString
     message: "cityId is invalid.",
   });
 
+const poiImageSchema = z.object({
+  url: trimmedString,
+  source: z.enum(["wikimedia", "wikipedia"]),
+  attribution: trimmedString.optional(),
+});
+
 const poiSchema = z.object({
   id: trimmedString,
   name: trimmedString,
@@ -48,11 +54,22 @@ const poiSchema = z.object({
   source: z.literal("static"),
   countryCode: countryCodeSchema.optional(),
   cityId: cityIdSchema.optional(),
+  city: trimmedString.optional(),
+  googlePlaceId: trimmedString.optional(),
   description: trimmedString.optional(),
   address: trimmedString.optional(),
   rating: z.number().finite().optional(),
   website: trimmedString.optional(),
+  mapsUrl: trimmedString.optional(),
   imageUrl: trimmedString.optional(),
+  images: z.array(poiImageSchema).optional(),
+  openingHours: trimmedString.optional(),
+  osm: z
+    .object({
+      type: z.enum(["N", "W", "R"]),
+      id: z.number().int().positive(),
+    })
+    .optional(),
   tags: z.array(trimmedString).optional(),
 });
 

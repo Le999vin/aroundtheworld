@@ -6,7 +6,9 @@
     "lat": 40.6892,
     "lon": -74.0445,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "address": "Flagpole Plaza",
+    "city": "New York"
   },
   {
     "id": "country-us-grand-canyon",
@@ -15,7 +17,9 @@
     "lat": 36.1069,
     "lon": -112.1129,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "address": "Plateau Point",
+    "city": "Coconino County"
   },
   {
     "id": "country-us-golden-gate-bridge",
@@ -24,7 +28,9 @@
     "lat": 37.8199,
     "lon": -122.4783,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "address": "Presidio Parkway",
+    "city": "San Francisco"
   },
   {
     "id": "country-us-yosemite-valley",

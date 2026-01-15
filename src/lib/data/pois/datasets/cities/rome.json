@@ -7,7 +7,9 @@
     "lon": 12.487,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome",
+    "address": "Clivus Palatino"
   },
   {
     "id": "city-rome-baths-of-caracalla",
@@ -17,7 +19,9 @@
     "lon": 12.4922,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome",
+    "address": "Via Antonina"
   },
   {
     "id": "city-rome-borghese-gallery",
@@ -27,7 +31,9 @@
     "lon": 12.5019,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome",
+    "address": "Via Giovanni Giolitti"
   },
   {
     "id": "city-rome-campo-de-fiori",
@@ -37,7 +43,8 @@
     "lon": 12.4745,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-campo-de-fiori-market",
@@ -47,7 +54,8 @@
     "lon": 12.4722,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-capitoline-museums",
@@ -57,7 +65,8 @@
     "lon": 12.4827,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-castel-sant-angelo",
@@ -67,7 +76,8 @@
     "lon": 12.4663,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-central-market-rome-2",
@@ -77,7 +87,8 @@
     "lon": 12.5094,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-city-park-rome-4",
@@ -87,7 +98,8 @@
     "lon": 12.4974,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-colosseum",
@@ -97,7 +109,8 @@
     "lon": 12.4922,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-eataly-roma",
@@ -107,7 +120,8 @@
     "lon": 12.5173,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-gianicolo-hill",
@@ -117,7 +131,8 @@
     "lon": 12.5007,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-historic-cathedral-rome-5",
@@ -127,7 +142,8 @@
     "lon": 12.4992,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-janiculum-hill-viewpoint",
@@ -137,7 +153,8 @@
     "lon": 12.463,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-local-food-street-rome-8",
@@ -147,7 +164,8 @@
     "lon": 12.4901,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-maxxi-museum",
@@ -157,7 +175,8 @@
     "lon": 12.4942,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-modern-art-gallery-rome-6",
@@ -167,7 +186,8 @@
     "lon": 12.474,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-monti-district",
@@ -177,7 +197,8 @@
     "lon": 12.493,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-nightlife-district-rome-7",
@@ -187,7 +208,8 @@
     "lon": 12.508,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-old-town-rome-1",
@@ -197,7 +219,8 @@
     "lon": 12.498,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-ostia-antica",
@@ -207,7 +230,8 @@
     "lon": 12.2961,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-pantheon",
@@ -217,7 +241,8 @@
     "lon": 12.4768,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-piazza-del-popolo",
@@ -227,7 +252,8 @@
     "lon": 12.4768,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-piazza-navona",
@@ -237,7 +263,8 @@
     "lon": 12.4731,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-piazza-venezia",
@@ -247,7 +274,8 @@
     "lon": 12.4829,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-riverside-promenade-rome-3",
@@ -257,7 +285,8 @@
     "lon": 12.4773,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-roman-forum",
@@ -267,7 +296,8 @@
     "lon": 12.4853,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-spanish-steps",
@@ -277,7 +307,8 @@
     "lon": 12.4823,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-st-peters-basilica",
@@ -287,7 +318,8 @@
     "lon": 12.4539,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-testaccio-food-district",
@@ -297,7 +329,8 @@
     "lon": 12.4775,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-testaccio-market",
@@ -307,7 +340,8 @@
     "lon": 12.5144,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-trastevere",
@@ -317,7 +351,8 @@
     "lon": 12.4696,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-trastevere-bars",
@@ -327,7 +362,8 @@
     "lon": 12.4702,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-trevi-fountain",
@@ -337,7 +373,8 @@
     "lon": 12.4833,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-vatican-museums",
@@ -347,7 +384,8 @@
     "lon": 12.4536,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-via-appia-antica",
@@ -357,7 +395,8 @@
     "lon": 12.519,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-via-del-corso",
@@ -367,7 +406,8 @@
     "lon": 12.4795,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-villa-borghese",
@@ -377,7 +417,8 @@
     "lon": 12.4944,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-villa-borghese-gardens",
@@ -387,7 +428,8 @@
     "lon": 12.4923,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-villa-doria-pamphilj",
@@ -397,6 +439,7 @@
     "lon": 12.4503,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   }
 ]

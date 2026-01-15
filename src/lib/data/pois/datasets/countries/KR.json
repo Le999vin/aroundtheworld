@@ -6,7 +6,9 @@
     "lat": 37.5796,
     "lon": 126.977,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "address": "Samcheong-ro",
+    "city": "Seoul"
   },
   {
     "id": "country-kr-bukchon-hanok-village",
@@ -15,7 +17,9 @@
     "lat": 37.5826,
     "lon": 126.983,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "address": "북촌로11나길",
+    "city": "Seoul"
   },
   {
     "id": "country-kr-insadong",
@@ -24,7 +28,9 @@
     "lat": 37.574,
     "lon": 126.9849,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "address": "41-1 Insadong-gil",
+    "city": "Seoul"
   },
   {
     "id": "country-kr-n-seoul-tower",

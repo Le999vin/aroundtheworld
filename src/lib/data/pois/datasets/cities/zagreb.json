@@ -7,7 +7,9 @@
     "lon": 15.9634,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb",
+    "address": "Ulica grada Vukovara"
   },
   {
     "id": "city-zagreb-ban-jelacic-square",
@@ -17,7 +19,9 @@
     "lon": 15.987,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb",
+    "address": "Bijenička cesta"
   },
   {
     "id": "city-zagreb-branimirova-street-art",
@@ -27,7 +31,9 @@
     "lon": 15.9873,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb",
+    "address": "Ulica Ivana Vončine"
   },
   {
     "id": "city-zagreb-britanski-trg",
@@ -37,7 +43,8 @@
     "lon": 15.9666,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-croatian-national-theatre",
@@ -47,7 +54,8 @@
     "lon": 15.9821,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-cvjetni-square",
@@ -57,7 +65,8 @@
     "lon": 15.9654,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-dolac-market",
@@ -67,7 +76,8 @@
     "lon": 16.0013,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-jarun-lake",
@@ -77,7 +87,8 @@
     "lon": 15.9855,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-kaptol-district",
@@ -87,7 +98,8 @@
     "lon": 15.9936,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-lotrscak-tower",
@@ -97,7 +109,8 @@
     "lon": 15.9876,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-maksimir-park",
@@ -107,7 +120,8 @@
     "lon": 15.9874,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-medvednica-sljeme",
@@ -117,7 +131,8 @@
     "lon": 15.9978,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-mimara-museum",
@@ -127,7 +142,8 @@
     "lon": 15.9584,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-mirogoj-cemetery",
@@ -137,7 +153,8 @@
     "lon": 15.9993,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-museum-of-broken-relationships",
@@ -147,7 +164,8 @@
     "lon": 16.0014,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-park-ribnjak",
@@ -157,7 +175,8 @@
     "lon": 15.9788,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-stone-gate",
@@ -167,7 +186,8 @@
     "lon": 15.9577,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-tkalca-nightlife",
@@ -177,7 +197,8 @@
     "lon": 16.0068,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-tkalciceva-street",
@@ -187,7 +208,8 @@
     "lon": 15.9685,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-upper-town-gornji-grad",
@@ -197,7 +219,8 @@
     "lon": 15.97,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-vintage-industrial-bar",
@@ -207,7 +230,8 @@
     "lon": 15.9843,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-zagreb-360-viewpoint",
@@ -217,7 +241,8 @@
     "lon": 15.9882,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-zagreb-botanical-garden",
@@ -227,7 +252,8 @@
     "lon": 16.0042,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-zagreb-cathedral",
@@ -237,7 +263,8 @@
     "lon": 15.9991,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   },
   {
     "id": "city-zagreb-zrinjevac-park",
@@ -247,6 +274,7 @@
     "lon": 15.9642,
     "source": "static",
     "countryCode": "HR",
-    "cityId": "zagreb"
+    "cityId": "zagreb",
+    "city": "Zagreb"
   }
 ]

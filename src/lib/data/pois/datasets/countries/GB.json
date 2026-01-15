@@ -6,7 +6,9 @@
     "lat": 51.5007,
     "lon": -0.1246,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "address": "Bridge Street",
+    "city": "City of Westminster"
   },
   {
     "id": "country-gb-stonehenge",
@@ -15,7 +17,9 @@
     "lat": 51.1789,
     "lon": -1.8262,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "address": "A303",
+    "city": "West Amesbury"
   },
   {
     "id": "country-gb-edinburgh-castle",
@@ -24,7 +28,9 @@
     "lat": 55.9486,
     "lon": -3.1999,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "address": "Castlehill",
+    "city": "City of Edinburgh"
   },
   {
     "id": "country-gb-lake-district",

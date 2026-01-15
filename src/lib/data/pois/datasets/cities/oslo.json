@@ -7,7 +7,9 @@
     "lon": 10.729,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo",
+    "address": "Stranden"
   },
   {
     "id": "city-oslo-akerselva-river-walk",
@@ -17,7 +19,9 @@
     "lon": 10.7573,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo",
+    "address": "162;Ring 1"
   },
   {
     "id": "city-oslo-akershus-fortress",
@@ -27,7 +31,9 @@
     "lon": 10.737,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo",
+    "address": "Rådhusgata"
   },
   {
     "id": "city-oslo-barcode-project",
@@ -37,7 +43,8 @@
     "lon": 10.7544,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-bygdoy-peninsula",
@@ -47,7 +54,8 @@
     "lon": 10.7504,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-damstredet",
@@ -57,7 +65,8 @@
     "lon": 10.7391,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-ekebergparken",
@@ -67,7 +76,8 @@
     "lon": 10.7387,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-fram-museum",
@@ -77,7 +87,8 @@
     "lon": 10.7737,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-frogner-park",
@@ -87,7 +98,8 @@
     "lon": 10.7622,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-grunerlokka",
@@ -97,7 +109,8 @@
     "lon": 10.7422,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-holmenkollen-ski-jump",
@@ -107,7 +120,8 @@
     "lon": 10.7705,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-karl-johans-gate",
@@ -117,7 +131,8 @@
     "lon": 10.764,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-mathallen-oslo",
@@ -127,7 +142,8 @@
     "lon": 10.7706,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-munch-museum",
@@ -137,7 +153,8 @@
     "lon": 10.7272,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-national-museum-oslo",
@@ -147,7 +164,8 @@
     "lon": 10.7274,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-nobel-peace-center",
@@ -157,7 +175,8 @@
     "lon": 10.779,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-norwegian-folk-museum",
@@ -167,7 +186,8 @@
     "lon": 10.7263,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-oslo-opera-house",
@@ -177,7 +197,8 @@
     "lon": 10.7254,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-oslo-street-food",
@@ -187,7 +208,8 @@
     "lon": 10.7467,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-oslofjord-islands-ferry",
@@ -197,7 +219,8 @@
     "lon": 10.7479,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-sorenga-seawater-pool",
@@ -207,7 +230,8 @@
     "lon": 10.7444,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-tjuvholmen",
@@ -217,7 +241,8 @@
     "lon": 10.7512,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-torggata-bars",
@@ -227,7 +252,8 @@
     "lon": 10.7816,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-vigeland-sculpture-park",
@@ -237,7 +263,8 @@
     "lon": 10.7267,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   },
   {
     "id": "city-oslo-vulkan-area",
@@ -247,6 +274,7 @@
     "lon": 10.7431,
     "source": "static",
     "countryCode": "NO",
-    "cityId": "oslo"
+    "cityId": "oslo",
+    "city": "Oslo"
   }
 ]

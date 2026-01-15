@@ -7,7 +7,9 @@
     "lon": 4.3592,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels",
+    "address": "11 Place Charles Rogier - Karel Rogierplein"
   },
   {
     "id": "city-brussels-avenue-louise",
@@ -17,7 +19,9 @@
     "lon": 4.3362,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels",
+    "address": "11 Chaussée de Merchtem - Steenweg op Merchtem"
   },
   {
     "id": "city-brussels-basilica-of-the-sacred-heart",
@@ -27,7 +31,9 @@
     "lon": 4.3558,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels",
+    "address": "29 Rue de Malines - Mechelsestraat"
   },
   {
     "id": "city-brussels-belgian-comic-strip-center",
@@ -37,7 +43,8 @@
     "lon": 4.3438,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-bois-de-la-cambre",
@@ -47,7 +54,8 @@
     "lon": 4.3453,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-cantillon-brewery",
@@ -57,7 +65,8 @@
     "lon": 4.3613,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-delirium-alley",
@@ -67,7 +76,8 @@
     "lon": 4.3427,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-eu-quarter",
@@ -77,7 +87,8 @@
     "lon": 4.3725,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-galeries-royales-saint-hubert",
@@ -87,7 +98,8 @@
     "lon": 4.3437,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-grand-place",
@@ -97,7 +109,8 @@
     "lon": 4.3598,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-ixelles-ponds",
@@ -107,7 +120,8 @@
     "lon": 4.3318,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-magritte-museum",
@@ -117,7 +131,8 @@
     "lon": 4.3537,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-manneken-pis",
@@ -127,7 +142,8 @@
     "lon": 4.3554,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-mont-des-arts",
@@ -137,7 +153,8 @@
     "lon": 4.3452,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-parc-de-bruxelles",
@@ -147,7 +164,8 @@
     "lon": 4.3478,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-parc-du-cinquantenaire",
@@ -157,7 +175,8 @@
     "lon": 4.3667,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-place-du-luxembourg",
@@ -167,7 +186,8 @@
     "lon": 4.3703,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-place-flagey",
@@ -177,7 +197,8 @@
     "lon": 4.3295,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-royal-museums-of-fine-arts",
@@ -187,7 +208,8 @@
     "lon": 4.3727,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-royal-palace-of-brussels",
@@ -197,7 +219,8 @@
     "lon": 4.3747,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-rue-des-bouchers",
@@ -207,7 +230,8 @@
     "lon": 4.36,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-sablon-square",
@@ -217,7 +241,8 @@
     "lon": 4.3571,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-saint-gery",
@@ -227,7 +252,8 @@
     "lon": 4.331,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-tour-taxis",
@@ -237,7 +263,8 @@
     "lon": 4.3305,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   },
   {
     "id": "city-brussels-train-world",
@@ -247,6 +274,7 @@
     "lon": 4.3581,
     "source": "static",
     "countryCode": "BE",
-    "cityId": "brussels"
+    "cityId": "brussels",
+    "city": "Brussels"
   }
 ]

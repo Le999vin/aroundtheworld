@@ -6,7 +6,9 @@
     "lat": 50.8467,
     "lon": 4.3525,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "address": "29 Grand Place",
+    "city": "Brussels"
   },
   {
     "id": "country-be-atomium",
@@ -15,7 +17,9 @@
     "lat": 50.895,
     "lon": 4.3416,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "address": "Place de l'Atomium - Atomiumplein",
+    "city": "Brussels"
   },
   {
     "id": "country-be-bruges-canals",
@@ -24,7 +28,9 @@
     "lat": 51.2093,
     "lon": 3.2247,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "address": "35 Markt",
+    "city": "Bruges"
   },
   {
     "id": "country-be-belfry-of-bruges",
@@ -84,7 +90,7 @@
     "id": "country-be-hoge-kempen-national-park",
     "name": "Hoge Kempen National Park",
     "category": "nature",
-    "lat": 51.0,
+    "lat": 51,
     "lon": 5.6,
     "source": "static",
     "countryCode": "BE"

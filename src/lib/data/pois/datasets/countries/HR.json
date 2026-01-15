@@ -6,7 +6,9 @@
     "lat": 42.6409,
     "lon": 18.1086,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "address": "Nikole Božidarevića",
+    "city": "Dubrovnik"
   },
   {
     "id": "country-hr-city-walls-of-dubrovnik",
@@ -15,7 +17,9 @@
     "lat": 42.6412,
     "lon": 18.109,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "address": "20 Između Polača",
+    "city": "Dubrovnik"
   },
   {
     "id": "country-hr-split-diocletians-palace",
@@ -24,7 +28,9 @@
     "lat": 43.5081,
     "lon": 16.4402,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "address": "Peristil",
+    "city": "Split"
   },
   {
     "id": "country-hr-hvar-town",

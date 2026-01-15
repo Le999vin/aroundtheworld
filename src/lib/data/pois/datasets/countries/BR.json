@@ -6,7 +6,9 @@
     "lat": -22.9519,
     "lon": -43.2105,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "address": "Estrada do Corcovado",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "country-br-sugarloaf-mountain",
@@ -15,7 +17,9 @@
     "lat": -22.9486,
     "lon": -43.1566,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "address": "Escalada do Costão",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "country-br-copacabana-beach",
@@ -24,7 +28,9 @@
     "lat": -22.9711,
     "lon": -43.1822,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "address": "Orla Copacabana",
+    "city": "Rio de Janeiro"
   },
   {
     "id": "country-br-ipanema-beach",

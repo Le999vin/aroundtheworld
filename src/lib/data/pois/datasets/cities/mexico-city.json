@@ -7,7 +7,9 @@
     "lon": -99.1336,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City",
+    "address": "Calle Matamoros"
   },
   {
     "id": "city-mexico-city-angel-of-independence",
@@ -17,7 +19,9 @@
     "lon": -99.1477,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City",
+    "address": "115 Calle Héroes"
   },
   {
     "id": "city-mexico-city-arena-mexico",
@@ -27,7 +31,9 @@
     "lon": -99.1395,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City",
+    "address": "Calle Belisario Domínguez"
   },
   {
     "id": "city-mexico-city-basilica-of-our-lady-of-guadalupe",
@@ -37,7 +43,8 @@
     "lon": -99.1502,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-chapultepec-castle",
@@ -47,7 +54,8 @@
     "lon": -99.1163,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-chapultepec-park",
@@ -57,7 +65,8 @@
     "lon": -99.1271,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-cineteca-nacional",
@@ -67,7 +76,8 @@
     "lon": -99.1219,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-condesa",
@@ -77,7 +87,8 @@
     "lon": -99.128,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-coyoacan",
@@ -87,7 +98,8 @@
     "lon": -99.1161,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-frida-kahlo-museum",
@@ -97,7 +109,8 @@
     "lon": -99.1199,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-la-ciudadela-market",
@@ -107,7 +120,8 @@
     "lon": -99.1504,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-mercado-de-san-juan",
@@ -117,7 +131,8 @@
     "lon": -99.1228,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-metropolitan-cathedral",
@@ -127,7 +142,8 @@
     "lon": -99.133,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-museo-soumaya",
@@ -137,7 +153,8 @@
     "lon": -99.1224,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-national-museum-of-anthropology",
@@ -147,7 +164,8 @@
     "lon": -99.1312,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-palacio-de-bellas-artes",
@@ -157,7 +175,8 @@
     "lon": -99.1426,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-paseo-de-la-reforma",
@@ -167,7 +186,8 @@
     "lon": -99.1453,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-plaza-garibaldi",
@@ -177,7 +197,8 @@
     "lon": -99.1216,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-polanco",
@@ -187,7 +208,8 @@
     "lon": -99.126,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-roma-norte",
@@ -197,7 +219,8 @@
     "lon": -99.1314,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-templo-mayor",
@@ -207,7 +230,8 @@
     "lon": -99.1341,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-unam-central-library",
@@ -217,7 +241,8 @@
     "lon": -99.1422,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-xochimilco",
@@ -227,7 +252,8 @@
     "lon": -99.1248,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-zocalo",
@@ -237,7 +263,8 @@
     "lon": -99.1475,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   },
   {
     "id": "city-mexico-city-zona-rosa",
@@ -247,6 +274,7 @@
     "lon": -99.1232,
     "source": "static",
     "countryCode": "MX",
-    "cityId": "mexico-city"
+    "cityId": "mexico-city",
+    "city": "Mexico City"
   }
 ]

@@ -6,7 +6,9 @@
     "lat": 50.0619,
     "lon": 19.9368,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "address": "Main Market Square",
+    "city": "Krakow"
   },
   {
     "id": "country-pl-wawel-castle",
@@ -15,7 +17,9 @@
     "lat": 50.0545,
     "lon": 19.9352,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "address": "1 Old Town",
+    "city": "Krakow"
   },
   {
     "id": "country-pl-kazimierz-district",
@@ -24,7 +28,9 @@
     "lat": 50.049,
     "lon": 19.944,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "address": "1 Plac Wolnica",
+    "city": "Krakow"
   },
   {
     "id": "country-pl-auschwitz-birkenau-memorial",

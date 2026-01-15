@@ -1,3 +1,4 @@
+// rechte/untere Info-Karte mit Wetter + Places
 "use client";
 
 import { useEffect, useMemo, useState } from "react";

@@ -6,7 +6,9 @@
     "lat": -44.671,
     "lon": 167.9259,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "address": "Milford Sound Highway",
+    "city": "Fiordland Community"
   },
   {
     "id": "country-nz-queenstown",
@@ -15,7 +17,9 @@
     "lat": -45.0312,
     "lon": 168.6626,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "address": "45 Ballarat Street",
+    "city": "Queenstown-Lakes District"
   },
   {
     "id": "country-nz-lake-tekapo",
@@ -24,7 +28,9 @@
     "lat": -44.005,
     "lon": 170.477,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "address": "4 Roto Place",
+    "city": "Lake Tekapo"
   },
   {
     "id": "country-nz-aoraki-mount-cook",

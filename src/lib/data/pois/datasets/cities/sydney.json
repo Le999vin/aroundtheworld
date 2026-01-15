@@ -7,7 +7,9 @@
     "lon": 151.2007,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney",
+    "address": "Glebe to Ultimo cycleway"
   },
   {
     "id": "city-sydney-australian-museum",
@@ -17,7 +19,9 @@
     "lon": 151.2154,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney",
+    "address": "60 Riley Street"
   },
   {
     "id": "city-sydney-barangaroo-reserve",
@@ -27,7 +31,9 @@
     "lon": 151.2176,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney",
+    "address": "Darlinghurst Road"
   },
   {
     "id": "city-sydney-bondi-beach",
@@ -37,7 +43,8 @@
     "lon": 151.2146,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-carriageworks-farmers-market",
@@ -47,7 +54,8 @@
     "lon": 151.2039,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-circular-quay",
@@ -57,7 +65,8 @@
     "lon": 151.2151,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-darling-harbour",
@@ -67,7 +76,8 @@
     "lon": 151.2227,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-hyde-park-sydney",
@@ -77,7 +87,8 @@
     "lon": 151.2022,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-kings-cross",
@@ -87,7 +98,8 @@
     "lon": 151.207,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-luna-park",
@@ -97,7 +109,8 @@
     "lon": 151.23,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-manly-beach",
@@ -107,7 +120,8 @@
     "lon": 151.1902,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-mrs-macquarie-s-chair",
@@ -117,7 +131,8 @@
     "lon": 151.2088,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-newtown",
@@ -127,7 +142,8 @@
     "lon": 151.2239,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-opera-bar",
@@ -137,7 +153,8 @@
     "lon": 151.1917,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-paddington-markets",
@@ -147,7 +164,8 @@
     "lon": 151.1886,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-queen-victoria-building",
@@ -157,7 +175,8 @@
     "lon": 151.2152,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-royal-botanic-garden",
@@ -167,7 +186,8 @@
     "lon": 151.2128,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-surry-hills",
@@ -177,7 +197,8 @@
     "lon": 151.2148,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-sydney-fish-market",
@@ -187,7 +208,8 @@
     "lon": 151.2164,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-sydney-harbour-bridge",
@@ -197,7 +219,8 @@
     "lon": 151.2223,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-sydney-opera-house",
@@ -207,7 +230,8 @@
     "lon": 151.2269,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-sydney-tower-eye",
@@ -217,7 +241,8 @@
     "lon": 151.2288,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-taronga-zoo",
@@ -227,7 +252,8 @@
     "lon": 151.195,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-the-rocks",
@@ -237,7 +263,8 @@
     "lon": 151.2065,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   },
   {
     "id": "city-sydney-watsons-bay",
@@ -247,6 +274,7 @@
     "lon": 151.1982,
     "source": "static",
     "countryCode": "AU",
-    "cityId": "sydney"
+    "cityId": "sydney",
+    "city": "Sydney"
   }
 ]

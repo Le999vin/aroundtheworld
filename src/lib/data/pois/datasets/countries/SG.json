@@ -6,7 +6,9 @@
     "lat": 1.2834,
     "lon": 103.8607,
     "source": "static",
-    "countryCode": "SG"
+    "countryCode": "SG",
+    "address": "Bayfront Avenue",
+    "city": "Singapore"
   },
   {
     "id": "country-sg-gardens-by-the-bay",
@@ -15,7 +17,9 @@
     "lat": 1.2816,
     "lon": 103.8636,
     "source": "static",
-    "countryCode": "SG"
+    "countryCode": "SG",
+    "address": "OCBC Skyway",
+    "city": "Singapore"
   },
   {
     "id": "country-sg-merlion-park",
@@ -24,7 +28,9 @@
     "lat": 1.2868,
     "lon": 103.8545,
     "source": "static",
-    "countryCode": "SG"
+    "countryCode": "SG",
+    "address": "Fullerton Promenade",
+    "city": "Singapore"
   },
   {
     "id": "country-sg-singapore-flyer",

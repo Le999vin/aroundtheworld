@@ -6,7 +6,9 @@
     "lat": -33.8568,
     "lon": 151.2153,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "address": "Northern Broadwalk",
+    "city": "Sydney"
   },
   {
     "id": "country-au-sydney-harbour-bridge",
@@ -15,7 +17,9 @@
     "lat": -33.8523,
     "lon": 151.2108,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "address": "Cliff Top Walk",
+    "city": "Sydney"
   },
   {
     "id": "country-au-bondi-beach",
@@ -24,7 +28,9 @@
     "lat": -33.8915,
     "lon": 151.2767,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "address": "Eastern Beaches Coastal Walk",
+    "city": "Sydney"
   },
   {
     "id": "country-au-blue-mountains-national-park",

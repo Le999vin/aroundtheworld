@@ -7,7 +7,9 @@
     "lon": 4.9003,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam",
+    "address": "1 IJpromenade"
   },
   {
     "id": "city-amsterdam-albert-cuyp-market",
@@ -17,7 +19,9 @@
     "lon": 4.8929,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam",
+    "address": "Eerste Jan Steenstraat"
   },
   {
     "id": "city-amsterdam-amsterdam-centraal",
@@ -27,7 +31,9 @@
     "lon": 4.9223,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam",
+    "address": "26 Geschutswerf"
   },
   {
     "id": "city-amsterdam-anne-frank-house",
@@ -37,7 +43,8 @@
     "lon": 4.8839,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-artis-royal-zoo",
@@ -47,7 +54,8 @@
     "lon": 4.9161,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-begijnhof",
@@ -57,7 +65,8 @@
     "lon": 4.8924,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-bloemenmarkt",
@@ -67,7 +76,8 @@
     "lon": 4.8931,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-brouwerij-t-ij",
@@ -77,7 +87,8 @@
     "lon": 4.9295,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-canal-ring",
@@ -87,7 +98,8 @@
     "lon": 4.8936,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-central-market-amsterdam-2",
@@ -97,7 +109,8 @@
     "lon": 4.8669,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-city-park-amsterdam-4",
@@ -107,7 +120,8 @@
     "lon": 4.9063,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-dam-square",
@@ -117,7 +131,8 @@
     "lon": 4.8922,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-de-9-straatjes",
@@ -127,7 +142,8 @@
     "lon": 4.884,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-de-pijp",
@@ -137,7 +153,8 @@
     "lon": 4.89,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-de-wallen",
@@ -147,7 +164,8 @@
     "lon": 4.9151,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-de-wallen-red-light-district",
@@ -157,7 +175,8 @@
     "lon": 4.9003,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-foodhallen",
@@ -167,7 +186,8 @@
     "lon": 4.8975,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-foodhallen-de-hallen",
@@ -177,7 +197,8 @@
     "lon": 4.8699,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-heineken-experience",
@@ -187,7 +208,8 @@
     "lon": 4.8911,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-historic-cathedral-amsterdam-5",
@@ -197,7 +219,8 @@
     "lon": 4.9062,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-jordaan",
@@ -207,7 +230,8 @@
     "lon": 4.8794,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-leidseplein",
@@ -217,7 +241,8 @@
     "lon": 4.882,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-local-food-street-amsterdam-8",
@@ -227,7 +252,8 @@
     "lon": 4.8916,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-modern-art-gallery-amsterdam-6",
@@ -237,7 +263,8 @@
     "lon": 4.9107,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-museumplein",
@@ -247,7 +274,8 @@
     "lon": 4.8811,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-ndsm-wharf",
@@ -257,7 +285,8 @@
     "lon": 4.8923,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-nemo-science-museum",
@@ -267,7 +296,8 @@
     "lon": 4.9043,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-nightlife-district-amsterdam-7",
@@ -277,7 +307,8 @@
     "lon": 4.8962,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-old-town-amsterdam-1",
@@ -287,7 +318,8 @@
     "lon": 4.9131,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-oosterpark",
@@ -297,7 +329,8 @@
     "lon": 4.9207,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-oud-west-cafes",
@@ -307,7 +340,8 @@
     "lon": 4.8682,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-rembrandt-house-museum",
@@ -317,7 +351,8 @@
     "lon": 4.901,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-rembrandtplein",
@@ -327,7 +362,8 @@
     "lon": 4.8973,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-rijksmuseum",
@@ -337,7 +373,8 @@
     "lon": 4.8852,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-riverside-promenade-amsterdam-3",
@@ -347,7 +384,8 @@
     "lon": 4.8958,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-stedelijk-museum",
@@ -357,7 +395,8 @@
     "lon": 4.8796,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-van-gogh-museum",
@@ -367,7 +406,8 @@
     "lon": 4.8811,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-vondelpark",
@@ -377,7 +417,8 @@
     "lon": 4.8683,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-westerkerk",
@@ -387,7 +428,8 @@
     "lon": 4.8833,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-westerpark",
@@ -397,6 +439,7 @@
     "lon": 4.877,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   }
 ]

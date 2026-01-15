@@ -6,7 +6,9 @@
     "lat": 41.4036,
     "lon": 2.1744,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "address": "Carrer de Mallorca",
+    "city": "Barcelona"
   },
   {
     "id": "country-es-alhambra",
@@ -15,7 +17,9 @@
     "lat": 37.1761,
     "lon": -3.5881,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "address": "Calle Real Alta",
+    "city": "Granada"
   },
   {
     "id": "country-es-park-guell",
@@ -24,7 +28,9 @@
     "lat": 41.4145,
     "lon": 2.1527,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "address": "Viaducte del Mig",
+    "city": "Barcelona"
   },
   {
     "id": "country-es-prado-museum",

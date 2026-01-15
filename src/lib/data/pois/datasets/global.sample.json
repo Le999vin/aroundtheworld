@@ -7,7 +7,8 @@
     "lon": 4.8839,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-rijksmuseum",
@@ -17,7 +18,8 @@
     "lon": 4.8852,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-van-gogh-museum",
@@ -27,7 +29,8 @@
     "lon": 4.8811,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-dam-square",
@@ -37,7 +40,8 @@
     "lon": 4.8922,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-jordaan",
@@ -47,7 +51,8 @@
     "lon": 4.8794,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-vondelpark",
@@ -57,7 +62,8 @@
     "lon": 4.8683,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-heineken-experience",
@@ -67,7 +73,8 @@
     "lon": 4.8911,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-canal-ring",
@@ -77,7 +84,8 @@
     "lon": 4.8936,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-ndsm-wharf",
@@ -87,7 +95,8 @@
     "lon": 4.8923,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-amsterdam-bloemenmarkt",
@@ -97,7 +106,8 @@
     "lon": 4.8931,
     "source": "static",
     "countryCode": "NL",
-    "cityId": "amsterdam"
+    "cityId": "amsterdam",
+    "city": "Amsterdam"
   },
   {
     "id": "city-athens-acropolis",
@@ -107,7 +117,9 @@
     "lon": 23.7257,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens",
+    "address": "Περίπατος Ακρόπολης (Βόρεια κλιτύς)"
   },
   {
     "id": "city-athens-acropolis-museum",
@@ -117,7 +129,9 @@
     "lon": 23.7286,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens",
+    "address": "15 Διονυσίου Αρεοπαγίτου"
   },
   {
     "id": "city-athens-parthenon",
@@ -127,7 +141,8 @@
     "lon": 23.7267,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-plaka",
@@ -137,7 +152,8 @@
     "lon": 23.7261,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-syntagma-square",
@@ -147,7 +163,8 @@
     "lon": 23.7348,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-temple-of-olympian-zeus",
@@ -157,7 +174,8 @@
     "lon": 23.7325,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-panathenaic-stadium",
@@ -167,7 +185,8 @@
     "lon": 23.7411,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-lycabettus-hill",
@@ -177,7 +196,8 @@
     "lon": 23.7433,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-national-archaeological-museum",
@@ -187,7 +207,8 @@
     "lon": 23.7336,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-athens-monastiraki",
@@ -197,7 +218,8 @@
     "lon": 23.725,
     "source": "static",
     "countryCode": "GR",
-    "cityId": "athens"
+    "cityId": "athens",
+    "city": "Athens"
   },
   {
     "id": "city-bangkok-grand-palace",
@@ -207,7 +229,8 @@
     "lon": 100.4913,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-bangkok-wat-pho",
@@ -217,7 +240,8 @@
     "lon": 100.493,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-bangkok-wat-arun",
@@ -227,7 +251,8 @@
     "lon": 100.488,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-bangkok-chatuchak-market",
@@ -237,7 +262,8 @@
     "lon": 100.551,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-bangkok-khao-san-road",
@@ -247,7 +273,8 @@
     "lon": 100.497,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-bangkok-lumphini-park",
@@ -257,7 +284,8 @@
     "lon": 100.541,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-bangkok-jim-thompson-house",
@@ -267,7 +295,8 @@
     "lon": 100.5283,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-bangkok-asiatique-riverfront",
@@ -277,7 +306,9 @@
     "lon": 100.5046,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok",
+    "address": "Charoen Krung Road"
   },
   {
     "id": "city-bangkok-iconsiam",
@@ -287,7 +318,8 @@
     "lon": 100.5106,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-bangkok-erawan-shrine",
@@ -297,7 +329,8 @@
     "lon": 100.5405,
     "source": "static",
     "countryCode": "TH",
-    "cityId": "bangkok"
+    "cityId": "bangkok",
+    "city": "Bangkok"
   },
   {
     "id": "city-barcelona-sagrada-familia",
@@ -307,7 +340,8 @@
     "lon": 2.1744,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-barcelona-park-guell",
@@ -317,7 +351,8 @@
     "lon": 2.1527,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-barcelona-casa-batllo",
@@ -327,7 +362,8 @@
     "lon": 2.1649,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-barcelona-casa-mila",
@@ -337,7 +373,8 @@
     "lon": 2.1619,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-barcelona-la-rambla",
@@ -347,7 +384,8 @@
     "lon": 2.1736,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-barcelona-gothic-quarter",
@@ -357,7 +395,8 @@
     "lon": 2.1763,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-barcelona-barceloneta-beach",
@@ -367,7 +406,9 @@
     "lon": 2.1927,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona",
+    "address": "16 Passeig Marítim de la Barceloneta - Oriol Bohigas i Guardiola"
   },
   {
     "id": "city-barcelona-camp-nou",
@@ -377,7 +418,8 @@
     "lon": 2.1228,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-barcelona-picasso-museum",
@@ -387,7 +429,8 @@
     "lon": 2.1804,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-barcelona-montjuic-castle",
@@ -397,7 +440,8 @@
     "lon": 2.1653,
     "source": "static",
     "countryCode": "ES",
-    "cityId": "barcelona"
+    "cityId": "barcelona",
+    "city": "Barcelona"
   },
   {
     "id": "city-berlin-brandenburg-gate",
@@ -407,7 +451,8 @@
     "lon": 13.3777,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin"
   },
   {
     "id": "city-berlin-reichstag-building",
@@ -417,7 +462,8 @@
     "lon": 13.376,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin"
   },
   {
     "id": "city-berlin-museum-island",
@@ -427,7 +473,8 @@
     "lon": 13.4019,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin"
   },
   {
     "id": "city-berlin-berlin-cathedral",
@@ -437,7 +484,9 @@
     "lon": 13.401,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin",
+    "address": "Am Lustgarten"
   },
   {
     "id": "city-berlin-east-side-gallery",
@@ -447,7 +496,8 @@
     "lon": 13.439,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin"
   },
   {
     "id": "city-berlin-alexanderplatz",
@@ -457,7 +507,9 @@
     "lon": 13.4132,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin",
+    "address": "Mitte"
   },
   {
     "id": "city-berlin-tiergarten-park",
@@ -467,7 +519,8 @@
     "lon": 13.3501,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin"
   },
   {
     "id": "city-berlin-checkpoint-charlie",
@@ -477,7 +530,8 @@
     "lon": 13.3904,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin"
   },
   {
     "id": "city-berlin-hackescher-markt",
@@ -487,7 +541,8 @@
     "lon": 13.402,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin"
   },
   {
     "id": "city-berlin-philharmonie",
@@ -497,7 +552,8 @@
     "lon": 13.3694,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "berlin"
+    "cityId": "berlin",
+    "city": "Berlin"
   },
   {
     "id": "city-dubai-burj-khalifa",
@@ -507,7 +563,8 @@
     "lon": 55.2744,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-dubai-dubai-mall",
@@ -517,7 +574,8 @@
     "lon": 55.2773,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-dubai-palm-jumeirah-boardwalk",
@@ -527,7 +585,8 @@
     "lon": 55.1383,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-dubai-dubai-marina",
@@ -537,7 +596,8 @@
     "lon": 55.14,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-dubai-burj-al-arab-viewpoint",
@@ -547,7 +607,8 @@
     "lon": 55.1853,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-dubai-al-fahidi-district",
@@ -557,7 +618,9 @@
     "lon": 55.2963,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai",
+    "address": "Al Fahidi Street"
   },
   {
     "id": "city-dubai-jumeirah-beach",
@@ -567,7 +630,8 @@
     "lon": 55.2398,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-dubai-dubai-frame",
@@ -577,7 +641,8 @@
     "lon": 55.3003,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-dubai-gold-souk",
@@ -587,7 +652,8 @@
     "lon": 55.2963,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-dubai-museum-of-the-future",
@@ -597,7 +663,8 @@
     "lon": 55.2782,
     "source": "static",
     "countryCode": "AE",
-    "cityId": "dubai"
+    "cityId": "dubai",
+    "city": "Dubai"
   },
   {
     "id": "city-istanbul-hagia-sophia",
@@ -607,7 +674,8 @@
     "lon": 28.9802,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-blue-mosque",
@@ -617,7 +685,8 @@
     "lon": 28.9768,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-topkapi-palace",
@@ -627,7 +696,8 @@
     "lon": 28.9833,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-grand-bazaar",
@@ -637,7 +707,8 @@
     "lon": 28.9681,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-galata-tower",
@@ -647,7 +718,8 @@
     "lon": 28.9744,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-bosphorus-pier",
@@ -657,7 +729,8 @@
     "lon": 29.01,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-spice-bazaar",
@@ -667,7 +740,8 @@
     "lon": 28.9706,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-istiklal-avenue",
@@ -677,7 +751,8 @@
     "lon": 28.9776,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-basilica-cistern",
@@ -687,7 +762,8 @@
     "lon": 28.9779,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-istanbul-dolmabahce-palace",
@@ -697,7 +773,8 @@
     "lon": 29.0006,
     "source": "static",
     "countryCode": "TR",
-    "cityId": "istanbul"
+    "cityId": "istanbul",
+    "city": "Istanbul"
   },
   {
     "id": "city-london-big-ben",
@@ -707,7 +784,9 @@
     "lon": -0.1246,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London",
+    "address": "Bridge Street"
   },
   {
     "id": "city-london-buckingham-palace",
@@ -717,7 +796,8 @@
     "lon": -0.1419,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London"
   },
   {
     "id": "city-london-tower-of-london",
@@ -727,7 +807,8 @@
     "lon": -0.0759,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London"
   },
   {
     "id": "city-london-british-museum",
@@ -737,7 +818,8 @@
     "lon": -0.127,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London"
   },
   {
     "id": "city-london-london-eye",
@@ -747,7 +829,8 @@
     "lon": -0.1195,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London"
   },
   {
     "id": "city-london-borough-market",
@@ -757,7 +840,9 @@
     "lon": -0.0912,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London",
+    "address": "Green Dragon Court"
   },
   {
     "id": "city-london-camden-market",
@@ -767,7 +852,8 @@
     "lon": -0.146,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London"
   },
   {
     "id": "city-london-hyde-park",
@@ -777,7 +863,8 @@
     "lon": -0.1657,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London"
   },
   {
     "id": "city-london-soho",
@@ -787,7 +874,8 @@
     "lon": -0.1365,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London"
   },
   {
     "id": "city-london-tate-modern",
@@ -797,7 +885,8 @@
     "lon": -0.0994,
     "source": "static",
     "countryCode": "GB",
-    "cityId": "london"
+    "cityId": "london",
+    "city": "London"
   },
   {
     "id": "city-mumbai-gateway-of-india",
@@ -807,7 +896,8 @@
     "lon": 72.8347,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-taj-mahal-palace",
@@ -817,7 +907,8 @@
     "lon": 72.8331,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-marine-drive",
@@ -827,7 +918,8 @@
     "lon": 72.8238,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-cst-terminus",
@@ -837,7 +929,8 @@
     "lon": 72.8355,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-elephanta-caves",
@@ -847,7 +940,8 @@
     "lon": 72.9315,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-siddhivinayak-temple",
@@ -857,7 +951,8 @@
     "lon": 72.8304,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-haji-ali-dargah",
@@ -867,7 +962,8 @@
     "lon": 72.8081,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-juhu-beach",
@@ -877,7 +973,8 @@
     "lon": 72.8264,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-bandra-worli-sea-link",
@@ -887,7 +984,8 @@
     "lon": 72.8173,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-chor-bazaar",
@@ -897,7 +995,8 @@
     "lon": 72.827,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-sanjay-gandhi-national-park",
@@ -907,7 +1006,8 @@
     "lon": 72.9106,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-mumbai-kanheri-caves",
@@ -917,7 +1017,8 @@
     "lon": 72.91,
     "source": "static",
     "countryCode": "IN",
-    "cityId": "mumbai"
+    "cityId": "mumbai",
+    "city": "Mumbai"
   },
   {
     "id": "city-munich-marienplatz",
@@ -927,7 +1028,8 @@
     "lon": 11.5755,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-munich-english-garden",
@@ -937,7 +1039,8 @@
     "lon": 11.603,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-munich-nymphenburg-palace",
@@ -947,7 +1050,8 @@
     "lon": 11.503,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-munich-bmw-museum",
@@ -957,7 +1061,8 @@
     "lon": 11.5595,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-munich-viktualienmarkt",
@@ -967,7 +1072,8 @@
     "lon": 11.5761,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-munich-residenz",
@@ -977,7 +1083,8 @@
     "lon": 11.5796,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-munich-deutsches-museum",
@@ -987,7 +1094,8 @@
     "lon": 11.5836,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-munich-olympiapark",
@@ -997,7 +1105,8 @@
     "lon": 11.546,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-munich-allianz-arena",
@@ -1007,7 +1116,9 @@
     "lon": 11.6247,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich",
+    "address": "Hans-Jensen-Weg"
   },
   {
     "id": "city-munich-hofbrauhaus",
@@ -1017,7 +1128,8 @@
     "lon": 11.5795,
     "source": "static",
     "countryCode": "DE",
-    "cityId": "munich"
+    "cityId": "munich",
+    "city": "Munich"
   },
   {
     "id": "city-new-york-statue-of-liberty",
@@ -1027,7 +1139,8 @@
     "lon": -74.0445,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-times-square",
@@ -1037,7 +1150,8 @@
     "lon": -73.9855,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-central-park",
@@ -1047,7 +1161,8 @@
     "lon": -73.9683,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-empire-state-building",
@@ -1057,7 +1172,8 @@
     "lon": -73.9857,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-brooklyn-bridge",
@@ -1067,7 +1183,8 @@
     "lon": -73.9969,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-metropolitan-museum",
@@ -1077,7 +1194,8 @@
     "lon": -73.9632,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-moma",
@@ -1087,7 +1205,8 @@
     "lon": -73.9776,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-high-line",
@@ -1097,7 +1216,8 @@
     "lon": -74.0048,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-chelsea-market",
@@ -1107,7 +1227,8 @@
     "lon": -74.006,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-new-york-greenwich-village",
@@ -1117,7 +1238,8 @@
     "lon": -74.0027,
     "source": "static",
     "countryCode": "US",
-    "cityId": "new-york"
+    "cityId": "new-york",
+    "city": "New York"
   },
   {
     "id": "city-paris-eiffel-tower",
@@ -1127,7 +1249,8 @@
     "lon": 2.2945,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-louvre",
@@ -1137,7 +1260,8 @@
     "lon": 2.3376,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-notre-dame-area",
@@ -1147,7 +1271,8 @@
     "lon": 2.35,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-montmartre",
@@ -1157,7 +1282,8 @@
     "lon": 2.3431,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-champs-elysees",
@@ -1167,7 +1293,8 @@
     "lon": 2.3073,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-arc-de-triomphe",
@@ -1177,7 +1304,9 @@
     "lon": 2.295,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris",
+    "address": "Charles de Gaulle Square"
   },
   {
     "id": "city-paris-seine-river-walk",
@@ -1187,7 +1316,8 @@
     "lon": 2.342,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-musee-d-orsay",
@@ -1197,7 +1327,8 @@
     "lon": 2.3266,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-le-marais",
@@ -1207,7 +1338,8 @@
     "lon": 2.3622,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-luxembourg-gardens",
@@ -1217,7 +1349,8 @@
     "lon": 2.3372,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-palais-garnier",
@@ -1227,7 +1360,8 @@
     "lon": 2.3316,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-trocadero",
@@ -1237,7 +1371,8 @@
     "lon": 2.287,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-moulin-rouge",
@@ -1247,7 +1382,8 @@
     "lon": 2.3826,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-pigalle",
@@ -1257,7 +1393,8 @@
     "lon": 2.3365,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-marais-nightlife",
@@ -1267,7 +1404,8 @@
     "lon": 2.3647,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-paris-latin-quarter-nightlife",
@@ -1277,7 +1415,8 @@
     "lon": 2.3499,
     "source": "static",
     "countryCode": "FR",
-    "cityId": "paris"
+    "cityId": "paris",
+    "city": "Paris"
   },
   {
     "id": "city-rome-colosseum",
@@ -1287,7 +1426,8 @@
     "lon": 12.4922,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-roman-forum",
@@ -1297,7 +1437,8 @@
     "lon": 12.4853,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-trevi-fountain",
@@ -1307,7 +1448,8 @@
     "lon": 12.4833,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-pantheon",
@@ -1317,7 +1459,8 @@
     "lon": 12.4768,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-vatican-museums",
@@ -1327,7 +1470,8 @@
     "lon": 12.4536,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-st-peters-basilica",
@@ -1337,7 +1481,8 @@
     "lon": 12.4539,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-piazza-navona",
@@ -1347,7 +1492,8 @@
     "lon": 12.4731,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-spanish-steps",
@@ -1357,7 +1503,8 @@
     "lon": 12.4823,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-trastevere",
@@ -1367,7 +1514,8 @@
     "lon": 12.4696,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-rome-villa-borghese-gardens",
@@ -1377,7 +1525,8 @@
     "lon": 12.4923,
     "source": "static",
     "countryCode": "IT",
-    "cityId": "rome"
+    "cityId": "rome",
+    "city": "Rome"
   },
   {
     "id": "city-tokyo-senso-ji",
@@ -1387,7 +1536,8 @@
     "lon": 139.7967,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-skytree",
@@ -1397,7 +1547,8 @@
     "lon": 139.8107,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-shibuya-crossing",
@@ -1407,7 +1558,8 @@
     "lon": 139.7005,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-meiji-shrine",
@@ -1417,7 +1569,8 @@
     "lon": 139.6993,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-tsukiji-outer-market",
@@ -1427,7 +1580,8 @@
     "lon": 139.7708,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-national-museum",
@@ -1437,7 +1591,8 @@
     "lon": 139.7765,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-ueno-park",
@@ -1447,7 +1602,8 @@
     "lon": 139.7741,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-akihabara",
@@ -1457,7 +1613,9 @@
     "lon": 139.773,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo",
+    "address": "JR秋葉原駅;1階"
   },
   {
     "id": "city-tokyo-odaiba-seaside-park",
@@ -1467,7 +1625,8 @@
     "lon": 139.7766,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-tokyo-roppongi-hills",
@@ -1477,7 +1636,8 @@
     "lon": 139.7294,
     "source": "static",
     "countryCode": "JP",
-    "cityId": "tokyo"
+    "cityId": "tokyo",
+    "city": "Tokyo"
   },
   {
     "id": "city-zurich-bahnhofstrasse",
@@ -1487,7 +1647,9 @@
     "lon": 8.5366,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich",
+    "address": "5 Steinmühleplatz"
   },
   {
     "id": "city-zurich-lindenhof",
@@ -1497,7 +1659,8 @@
     "lon": 8.5393,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-grossmuenster",
@@ -1507,7 +1670,8 @@
     "lon": 8.5443,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-fraumuenster",
@@ -1517,7 +1681,8 @@
     "lon": 8.5411,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-kunsthaus",
@@ -1527,7 +1692,8 @@
     "lon": 8.5498,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-uetliberg",
@@ -1537,7 +1703,8 @@
     "lon": 8.4915,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-lake-promenade",
@@ -1547,7 +1714,8 @@
     "lon": 8.5486,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-niederdorf",
@@ -1557,7 +1725,8 @@
     "lon": 8.5446,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-eth-polyterrasse",
@@ -1567,7 +1736,8 @@
     "lon": 8.548,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-im-viadukt",
@@ -1577,7 +1747,8 @@
     "lon": 8.519,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-opernhaus",
@@ -1587,7 +1758,8 @@
     "lon": 8.5481,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-rietberg-museum",
@@ -1597,7 +1769,8 @@
     "lon": 8.5306,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-kaufleuten",
@@ -1607,7 +1780,8 @@
     "lon": 8.5353,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-hive",
@@ -1617,7 +1791,8 @@
     "lon": 8.5191,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-plaza-klub",
@@ -1627,7 +1802,8 @@
     "lon": 8.5276,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-mascotte",
@@ -1637,7 +1813,8 @@
     "lon": 8.5486,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-club-zukunft",
@@ -1647,7 +1824,8 @@
     "lon": 8.5286,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-widder-bar",
@@ -1657,7 +1835,8 @@
     "lon": 8.5373,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-jules-verne",
@@ -1667,7 +1846,8 @@
     "lon": 8.537,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-oliver-twist",
@@ -1677,7 +1857,8 @@
     "lon": 8.5447,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-dante",
@@ -1687,7 +1868,8 @@
     "lon": 8.5288,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "city-zurich-frau-gerolds-garten",
@@ -1697,7 +1879,8 @@
     "lon": 8.5159,
     "source": "static",
     "countryCode": "CH",
-    "cityId": "zurich"
+    "cityId": "zurich",
+    "city": "Zurich"
   },
   {
     "id": "country-ae-burj-khalifa",
@@ -1706,7 +1889,9 @@
     "lat": 25.1972,
     "lon": 55.2744,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "address": "1 Sheikh Mohammed bin Rashid Boulevard",
+    "city": "Dubai"
   },
   {
     "id": "country-ae-sheikh-zayed-mosque",
@@ -1715,7 +1900,9 @@
     "lat": 24.4129,
     "lon": 54.4749,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "address": "Grand Mosque Courtyard \"Sahan\"",
+    "city": "Abu Dhabi"
   },
   {
     "id": "country-ae-louvre-abu-dhabi",
@@ -1724,7 +1911,9 @@
     "lat": 24.5337,
     "lon": 54.3985,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "address": "Louvre Delivery Access",
+    "city": "Abu Dhabi"
   },
   {
     "id": "country-ae-palm-jumeirah",
@@ -1796,7 +1985,9 @@
     "lat": 47.3712,
     "lon": 8.5433,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "48 Limmatquai",
+    "city": "Zurich"
   },
   {
     "id": "country-ch-chapel-bridge",
@@ -1805,7 +1996,9 @@
     "lat": 47.0516,
     "lon": 8.3077,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Rathausquai",
+    "city": "Lucerne"
   },
   {
     "id": "country-ch-matterhorn-viewpoint",
@@ -1814,7 +2007,9 @@
     "lat": 45.9763,
     "lon": 7.6586,
     "source": "static",
-    "countryCode": "CH"
+    "countryCode": "CH",
+    "address": "Arbenbiwak",
+    "city": "Zermatt"
   },
   {
     "id": "country-ch-jungfraujoch",
@@ -1967,7 +2162,9 @@
     "lat": 52.5163,
     "lon": 13.3777,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "address": "Platz des 18. März",
+    "city": "Berlin"
   },
   {
     "id": "country-de-neuschwanstein-castle",
@@ -1976,7 +2173,9 @@
     "lat": 47.5576,
     "lon": 10.7498,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "address": "Neuschwansteinstraße",
+    "city": "Hohenschwangau"
   },
   {
     "id": "country-de-cologne-cathedral",
@@ -1985,7 +2184,9 @@
     "lat": 50.9413,
     "lon": 6.9583,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "address": "Domkloster",
+    "city": "Cologne"
   },
   {
     "id": "country-de-heidelberg-old-town",
@@ -2057,7 +2258,9 @@
     "lat": 41.4036,
     "lon": 2.1744,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "address": "Carrer de Mallorca",
+    "city": "Barcelona"
   },
   {
     "id": "country-es-alhambra",
@@ -2066,7 +2269,9 @@
     "lat": 37.1761,
     "lon": -3.5881,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "address": "Calle Real Alta",
+    "city": "Granada"
   },
   {
     "id": "country-es-park-guell",
@@ -2075,7 +2280,9 @@
     "lat": 41.4145,
     "lon": 2.1527,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "address": "Viaducte del Mig",
+    "city": "Barcelona"
   },
   {
     "id": "country-es-prado-museum",
@@ -2147,7 +2354,9 @@
     "lat": 48.8584,
     "lon": 2.2945,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Avenue Gustave Eiffel",
+    "city": "Paris"
   },
   {
     "id": "country-fr-louvre-museum",
@@ -2156,7 +2365,9 @@
     "lat": 48.8606,
     "lon": 2.3376,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Place du Musée du Louvre",
+    "city": "Paris"
   },
   {
     "id": "country-fr-mont-saint-michel",
@@ -2165,7 +2376,9 @@
     "lat": 48.6361,
     "lon": -1.5115,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "Terrasse de l'Abside",
+    "city": "Le Mont-Saint-Michel"
   },
   {
     "id": "country-fr-palace-of-versailles",
@@ -2295,12 +2508,14 @@
   },
   {
     "id": "country-fr-bastille-clubs",
-    "name": "Bastille Clubs",
+    "name": "Pachamama",
     "category": "nightlife",
-    "lat": 48.8528,
-    "lon": 2.3691,
+    "lat": 48.8528056,
+    "lon": 2.3691111,
     "source": "static",
-    "countryCode": "FR"
+    "countryCode": "FR",
+    "address": "46-48 Rue du Faubourg Saint-Antoine",
+    "city": "Paris"
   },
   {
     "id": "country-fr-canal-saint-martin",
@@ -2318,7 +2533,9 @@
     "lat": 51.5007,
     "lon": -0.1246,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "address": "Bridge Street",
+    "city": "City of Westminster"
   },
   {
     "id": "country-gb-stonehenge",
@@ -2327,7 +2544,9 @@
     "lat": 51.1789,
     "lon": -1.8262,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "address": "A303",
+    "city": "West Amesbury"
   },
   {
     "id": "country-gb-edinburgh-castle",
@@ -2336,7 +2555,9 @@
     "lat": 55.9486,
     "lon": -3.1999,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "address": "Castlehill",
+    "city": "City of Edinburgh"
   },
   {
     "id": "country-gb-lake-district",
@@ -2480,7 +2701,9 @@
     "lat": 37.9715,
     "lon": 23.7257,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "address": "Περίπατος Ακρόπολης (Βόρεια κλιτύς)",
+    "city": "Athens"
   },
   {
     "id": "country-gr-santorini-oia",
@@ -2489,7 +2712,9 @@
     "lat": 36.4618,
     "lon": 25.3753,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "address": "Αρμένιοι",
+    "city": "Ia Municipal Unit"
   },
   {
     "id": "country-gr-meteora",
@@ -2498,7 +2723,9 @@
     "lat": 39.7216,
     "lon": 21.63,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "address": "Μετέωρα - Καστράκι",
+    "city": "Kalabaka"
   },
   {
     "id": "country-gr-delphi",
@@ -2570,7 +2797,9 @@
     "lat": 41.8902,
     "lon": 12.4922,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "address": "Municipio Roma I",
+    "city": "Rome"
   },
   {
     "id": "country-it-vatican-museums",
@@ -2579,7 +2808,8 @@
     "lat": 41.9065,
     "lon": 12.4536,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "address": "Viale della Zitella"
   },
   {
     "id": "country-it-grand-canal",
@@ -2588,7 +2818,9 @@
     "lat": 45.437,
     "lon": 12.3358,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "address": "Calle larga Mazzini",
+    "city": "Venice"
   },
   {
     "id": "country-it-florence-duomo",
@@ -2714,7 +2946,9 @@
     "lat": 35.7101,
     "lon": 139.8107,
     "source": "static",
-    "countryCode": "JP"
+    "countryCode": "JP",
+    "address": "2 Oshiage 1",
+    "city": "Sumida"
   },
   {
     "id": "country-jp-fushimi-inari",
@@ -2723,7 +2957,9 @@
     "lat": 34.9671,
     "lon": 135.7727,
     "source": "static",
-    "countryCode": "JP"
+    "countryCode": "JP",
+    "address": "表参道",
+    "city": "Kyoto"
   },
   {
     "id": "country-jp-arashiyama-bamboo-grove",
@@ -2732,7 +2968,9 @@
     "lat": 35.0168,
     "lon": 135.6713,
     "source": "static",
-    "countryCode": "JP"
+    "countryCode": "JP",
+    "address": "Bamboo Groves",
+    "city": "Kyoto"
   },
   {
     "id": "country-jp-osaka-castle",
@@ -2867,7 +3105,9 @@
     "lat": 52.3725,
     "lon": 4.8936,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "address": "21 Dam",
+    "city": "Amsterdam"
   },
   {
     "id": "country-nl-rijksmuseum",
@@ -2876,7 +3116,9 @@
     "lat": 52.36,
     "lon": 4.8852,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "address": "19 Hobbemastraat",
+    "city": "Amsterdam"
   },
   {
     "id": "country-nl-keukenhof",
@@ -2885,7 +3127,9 @@
     "lat": 52.271,
     "lon": 4.546,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "address": "Stapstenen",
+    "city": "Lisse"
   },
   {
     "id": "country-nl-kinderdijk",
@@ -2957,7 +3201,9 @@
     "lat": 13.75,
     "lon": 100.4913,
     "source": "static",
-    "countryCode": "TH"
+    "countryCode": "TH",
+    "address": "สนามราชกิจ",
+    "city": "Bangkok"
   },
   {
     "id": "country-th-wat-pho",
@@ -2966,7 +3212,9 @@
     "lat": 13.7466,
     "lon": 100.493,
     "source": "static",
-    "countryCode": "TH"
+    "countryCode": "TH",
+    "address": "Thai Wang Road",
+    "city": "Bangkok"
   },
   {
     "id": "country-th-patong-beach",
@@ -2975,7 +3223,9 @@
     "lat": 7.8925,
     "lon": 98.2969,
     "source": "static",
-    "countryCode": "TH"
+    "countryCode": "TH",
+    "address": "Food Alley",
+    "city": "Patong"
   },
   {
     "id": "country-th-chiang-mai-old-city",
@@ -3047,7 +3297,9 @@
     "lat": 41.0086,
     "lon": 28.9802,
     "source": "static",
-    "countryCode": "TR"
+    "countryCode": "TR",
+    "address": "Sultanahmet Meydanı",
+    "city": "Istanbul"
   },
   {
     "id": "country-tr-cappadocia-goreme",
@@ -3056,7 +3308,9 @@
     "lat": 38.6431,
     "lon": 34.8307,
     "source": "static",
-    "countryCode": "TR"
+    "countryCode": "TR",
+    "address": "Müze Caddesi",
+    "city": "Göreme"
   },
   {
     "id": "country-tr-pamukkale",
@@ -3065,7 +3319,9 @@
     "lat": 37.9167,
     "lon": 29.1187,
     "source": "static",
-    "countryCode": "TR"
+    "countryCode": "TR",
+    "address": "Fatih Caddesi",
+    "city": "Pamukkale"
   },
   {
     "id": "country-tr-ephesus",
@@ -3137,7 +3393,9 @@
     "lat": 40.6892,
     "lon": -74.0445,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "address": "Flagpole Plaza",
+    "city": "New York"
   },
   {
     "id": "country-us-grand-canyon",
@@ -3146,7 +3404,9 @@
     "lat": 36.1069,
     "lon": -112.1129,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "address": "Plateau Point",
+    "city": "Coconino County"
   },
   {
     "id": "country-us-golden-gate-bridge",
@@ -3155,7 +3415,9 @@
     "lat": 37.8199,
     "lon": -122.4783,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "address": "Presidio Parkway",
+    "city": "San Francisco"
   },
   {
     "id": "country-us-yosemite-valley",
@@ -3718,8 +3980,8 @@
     "id": "fallback-country-af-nature",
     "name": "Scenic Nature Spot – Afghanistan",
     "category": "nature",
-    "lat": 33.0,
-    "lon": 65.0,
+    "lat": 33,
+    "lon": 65,
     "description": "Fallback nature POI in Afghanistan.",
     "source": "static",
     "countryCode": "AF",
@@ -3958,8 +4220,8 @@
     "id": "fallback-country-al-nature",
     "name": "Scenic Nature Spot – Albania",
     "category": "nature",
-    "lat": 41.0,
-    "lon": 20.0,
+    "lat": 41,
+    "lon": 20,
     "description": "Fallback nature POI in Albania.",
     "source": "static",
     "countryCode": "AL",
@@ -4078,8 +4340,8 @@
     "id": "fallback-country-ar-nature",
     "name": "Scenic Nature Spot – Argentina",
     "category": "nature",
-    "lat": -34.0,
-    "lon": -64.0,
+    "lat": -34,
+    "lon": -64,
     "description": "Fallback nature POI in Argentina.",
     "source": "static",
     "countryCode": "AR",
@@ -4138,8 +4400,8 @@
     "id": "fallback-country-am-nature",
     "name": "Scenic Nature Spot – Armenia",
     "category": "nature",
-    "lat": 40.0,
-    "lon": 45.0,
+    "lat": 40,
+    "lon": 45,
     "description": "Fallback nature POI in Armenia.",
     "source": "static",
     "countryCode": "AM",
@@ -4199,7 +4461,7 @@
     "name": "Scenic Nature Spot – American Samoa",
     "category": "nature",
     "lat": -14.333333,
-    "lon": -170.0,
+    "lon": -170,
     "description": "Fallback nature POI in American Samoa.",
     "source": "static",
     "countryCode": "AS",
@@ -4438,8 +4700,8 @@
     "id": "fallback-country-au-nature",
     "name": "Scenic Nature Spot – Australia",
     "category": "nature",
-    "lat": -27.0,
-    "lon": 133.0,
+    "lat": -27,
+    "lon": 133,
     "description": "Fallback nature POI in Australia.",
     "source": "static",
     "countryCode": "AU",
@@ -4619,7 +4881,7 @@
     "name": "Scenic Nature Spot – Burundi",
     "category": "nature",
     "lat": -3.5,
-    "lon": 30.0,
+    "lon": 30,
     "description": "Fallback nature POI in Burundi.",
     "source": "static",
     "countryCode": "BI",
@@ -4679,7 +4941,7 @@
     "name": "Scenic Nature Spot – Belgium",
     "category": "nature",
     "lat": 50.833333,
-    "lon": 4.0,
+    "lon": 4,
     "description": "Fallback nature POI in Belgium.",
     "source": "static",
     "countryCode": "BE",
@@ -4858,8 +5120,8 @@
     "id": "fallback-country-bf-nature",
     "name": "Scenic Nature Spot – Burkina Faso",
     "category": "nature",
-    "lat": 13.0,
-    "lon": -2.0,
+    "lat": 13,
+    "lon": -2,
     "description": "Fallback nature POI in Burkina Faso.",
     "source": "static",
     "countryCode": "BF",
@@ -4918,8 +5180,8 @@
     "id": "fallback-country-bd-nature",
     "name": "Scenic Nature Spot – Bangladesh",
     "category": "nature",
-    "lat": 24.0,
-    "lon": 90.0,
+    "lat": 24,
+    "lon": 90,
     "description": "Fallback nature POI in Bangladesh.",
     "source": "static",
     "countryCode": "BD",
@@ -4978,8 +5240,8 @@
     "id": "fallback-country-bg-nature",
     "name": "Scenic Nature Spot – Bulgaria",
     "category": "nature",
-    "lat": 43.0,
-    "lon": 25.0,
+    "lat": 43,
+    "lon": 25,
     "description": "Fallback nature POI in Bulgaria.",
     "source": "static",
     "countryCode": "BG",
@@ -5038,7 +5300,7 @@
     "id": "fallback-country-bh-nature",
     "name": "Scenic Nature Spot – Bahrain",
     "category": "nature",
-    "lat": 26.0,
+    "lat": 26,
     "lon": 50.55,
     "description": "Fallback nature POI in Bahrain.",
     "source": "static",
@@ -5099,7 +5361,7 @@
     "name": "Scenic Nature Spot – The Bahamas",
     "category": "nature",
     "lat": 24.25,
-    "lon": -76.0,
+    "lon": -76,
     "description": "Fallback nature POI in The Bahamas.",
     "source": "static",
     "countryCode": "BS",
@@ -5158,8 +5420,8 @@
     "id": "fallback-country-ba-nature",
     "name": "Scenic Nature Spot – Bosnia and Herzegovina",
     "category": "nature",
-    "lat": 44.0,
-    "lon": 18.0,
+    "lat": 44,
+    "lon": 18,
     "description": "Fallback nature POI in Bosnia and Herzegovina.",
     "source": "static",
     "countryCode": "BA",
@@ -5278,8 +5540,8 @@
     "id": "fallback-country-by-nature",
     "name": "Scenic Nature Spot – Belarus",
     "category": "nature",
-    "lat": 53.0,
-    "lon": 28.0,
+    "lat": 53,
+    "lon": 28,
     "description": "Fallback nature POI in Belarus.",
     "source": "static",
     "countryCode": "BY",
@@ -5458,8 +5720,8 @@
     "id": "fallback-country-bo-nature",
     "name": "Scenic Nature Spot – Bolivia",
     "category": "nature",
-    "lat": -17.0,
-    "lon": -65.0,
+    "lat": -17,
+    "lon": -65,
     "description": "Fallback nature POI in Bolivia.",
     "source": "static",
     "countryCode": "BO",
@@ -5518,8 +5780,8 @@
     "id": "fallback-country-br-nature",
     "name": "Scenic Nature Spot – Brazil",
     "category": "nature",
-    "lat": -10.0,
-    "lon": -55.0,
+    "lat": -10,
+    "lon": -55,
     "description": "Fallback nature POI in Brazil.",
     "source": "static",
     "countryCode": "BR",
@@ -5818,8 +6080,8 @@
     "id": "fallback-country-bw-nature",
     "name": "Scenic Nature Spot – Botswana",
     "category": "nature",
-    "lat": -22.0,
-    "lon": 24.0,
+    "lat": -22,
+    "lon": 24,
     "description": "Fallback nature POI in Botswana.",
     "source": "static",
     "countryCode": "BW",
@@ -5878,8 +6140,8 @@
     "id": "fallback-country-cf-nature",
     "name": "Scenic Nature Spot – Central African Republic",
     "category": "nature",
-    "lat": 7.0,
-    "lon": 21.0,
+    "lat": 7,
+    "lon": 21,
     "description": "Fallback nature POI in Central African Republic.",
     "source": "static",
     "countryCode": "CF",
@@ -5938,8 +6200,8 @@
     "id": "fallback-country-ca-nature",
     "name": "Scenic Nature Spot – Canada",
     "category": "nature",
-    "lat": 60.0,
-    "lon": -95.0,
+    "lat": 60,
+    "lon": -95,
     "description": "Fallback nature POI in Canada.",
     "source": "static",
     "countryCode": "CA",
@@ -6058,8 +6320,8 @@
     "id": "fallback-country-cl-nature",
     "name": "Scenic Nature Spot – Chile",
     "category": "nature",
-    "lat": -30.0,
-    "lon": -71.0,
+    "lat": -30,
+    "lon": -71,
     "description": "Fallback nature POI in Chile.",
     "source": "static",
     "countryCode": "CL",
@@ -6118,8 +6380,8 @@
     "id": "fallback-country-cn-nature",
     "name": "Scenic Nature Spot – China",
     "category": "nature",
-    "lat": 35.0,
-    "lon": 105.0,
+    "lat": 35,
+    "lon": 105,
     "description": "Fallback nature POI in China.",
     "source": "static",
     "countryCode": "CN",
@@ -6178,8 +6440,8 @@
     "id": "fallback-country-ci-nature",
     "name": "Scenic Nature Spot – Ivory Coast",
     "category": "nature",
-    "lat": 8.0,
-    "lon": -5.0,
+    "lat": 8,
+    "lon": -5,
     "description": "Fallback nature POI in Ivory Coast.",
     "source": "static",
     "countryCode": "CI",
@@ -6238,8 +6500,8 @@
     "id": "fallback-country-cm-nature",
     "name": "Scenic Nature Spot – Cameroon",
     "category": "nature",
-    "lat": 6.0,
-    "lon": 12.0,
+    "lat": 6,
+    "lon": 12,
     "description": "Fallback nature POI in Cameroon.",
     "source": "static",
     "countryCode": "CM",
@@ -6298,8 +6560,8 @@
     "id": "fallback-country-cd-nature",
     "name": "Scenic Nature Spot – Democratic Republic of the Congo",
     "category": "nature",
-    "lat": 0.0,
-    "lon": 25.0,
+    "lat": 0,
+    "lon": 25,
     "description": "Fallback nature POI in Democratic Republic of the Congo.",
     "source": "static",
     "countryCode": "CD",
@@ -6358,8 +6620,8 @@
     "id": "fallback-country-cg-nature",
     "name": "Scenic Nature Spot – Republic of the Congo",
     "category": "nature",
-    "lat": -1.0,
-    "lon": 15.0,
+    "lat": -1,
+    "lon": 15,
     "description": "Fallback nature POI in Republic of the Congo.",
     "source": "static",
     "countryCode": "CG",
@@ -6478,8 +6740,8 @@
     "id": "fallback-country-co-nature",
     "name": "Scenic Nature Spot – Colombia",
     "category": "nature",
-    "lat": 4.0,
-    "lon": -72.0,
+    "lat": 4,
+    "lon": -72,
     "description": "Fallback nature POI in Colombia.",
     "source": "static",
     "countryCode": "CO",
@@ -6598,8 +6860,8 @@
     "id": "fallback-country-cv-nature",
     "name": "Scenic Nature Spot – Cape Verde",
     "category": "nature",
-    "lat": 16.0,
-    "lon": -24.0,
+    "lat": 16,
+    "lon": -24,
     "description": "Fallback nature POI in Cape Verde.",
     "source": "static",
     "countryCode": "CV",
@@ -6658,8 +6920,8 @@
     "id": "fallback-country-cr-nature",
     "name": "Scenic Nature Spot – Costa Rica",
     "category": "nature",
-    "lat": 10.0,
-    "lon": -84.0,
+    "lat": 10,
+    "lon": -84,
     "description": "Fallback nature POI in Costa Rica.",
     "source": "static",
     "countryCode": "CR",
@@ -6719,7 +6981,7 @@
     "name": "Scenic Nature Spot – Cuba",
     "category": "nature",
     "lat": 21.5,
-    "lon": -80.0,
+    "lon": -80,
     "description": "Fallback nature POI in Cuba.",
     "source": "static",
     "countryCode": "CU",
@@ -6958,8 +7220,8 @@
     "id": "fallback-country-cy-nature",
     "name": "Scenic Nature Spot – Cyprus",
     "category": "nature",
-    "lat": 35.0,
-    "lon": 33.0,
+    "lat": 35,
+    "lon": 33,
     "description": "Fallback nature POI in Cyprus.",
     "source": "static",
     "countryCode": "CY",
@@ -7079,7 +7341,7 @@
     "name": "Scenic Nature Spot – Djibouti",
     "category": "nature",
     "lat": 11.5,
-    "lon": 43.0,
+    "lon": 43,
     "description": "Fallback nature POI in Djibouti.",
     "source": "static",
     "countryCode": "DJ",
@@ -7198,8 +7460,8 @@
     "id": "fallback-country-dk-nature",
     "name": "Scenic Nature Spot – Denmark",
     "category": "nature",
-    "lat": 56.0,
-    "lon": 10.0,
+    "lat": 56,
+    "lon": 10,
     "description": "Fallback nature POI in Denmark.",
     "source": "static",
     "countryCode": "DK",
@@ -7258,7 +7520,7 @@
     "id": "fallback-country-do-nature",
     "name": "Scenic Nature Spot – Dominican Republic",
     "category": "nature",
-    "lat": 19.0,
+    "lat": 19,
     "lon": -70.666667,
     "description": "Fallback nature POI in Dominican Republic.",
     "source": "static",
@@ -7318,8 +7580,8 @@
     "id": "fallback-country-dz-nature",
     "name": "Scenic Nature Spot – Algeria",
     "category": "nature",
-    "lat": 28.0,
-    "lon": 3.0,
+    "lat": 28,
+    "lon": 3,
     "description": "Fallback nature POI in Algeria.",
     "source": "static",
     "countryCode": "DZ",
@@ -7378,7 +7640,7 @@
     "id": "fallback-country-ec-nature",
     "name": "Scenic Nature Spot – Ecuador",
     "category": "nature",
-    "lat": -2.0,
+    "lat": -2,
     "lon": -77.5,
     "description": "Fallback nature POI in Ecuador.",
     "source": "static",
@@ -7438,8 +7700,8 @@
     "id": "fallback-country-eg-nature",
     "name": "Scenic Nature Spot – Egypt",
     "category": "nature",
-    "lat": 27.0,
-    "lon": 30.0,
+    "lat": 27,
+    "lon": 30,
     "description": "Fallback nature POI in Egypt.",
     "source": "static",
     "countryCode": "EG",
@@ -7498,8 +7760,8 @@
     "id": "fallback-country-er-nature",
     "name": "Scenic Nature Spot – Eritrea",
     "category": "nature",
-    "lat": 15.0,
-    "lon": 39.0,
+    "lat": 15,
+    "lon": 39,
     "description": "Fallback nature POI in Eritrea.",
     "source": "static",
     "countryCode": "ER",
@@ -7559,7 +7821,7 @@
     "name": "Scenic Nature Spot – Western Sahara",
     "category": "nature",
     "lat": 24.5,
-    "lon": -13.0,
+    "lon": -13,
     "description": "Fallback nature POI in Western Sahara.",
     "source": "static",
     "countryCode": "EH",
@@ -7618,8 +7880,8 @@
     "id": "fallback-country-ee-nature",
     "name": "Scenic Nature Spot – Estonia",
     "category": "nature",
-    "lat": 59.0,
-    "lon": 26.0,
+    "lat": 59,
+    "lon": 26,
     "description": "Fallback nature POI in Estonia.",
     "source": "static",
     "countryCode": "EE",
@@ -7678,8 +7940,8 @@
     "id": "fallback-country-et-nature",
     "name": "Scenic Nature Spot – Ethiopia",
     "category": "nature",
-    "lat": 8.0,
-    "lon": 38.0,
+    "lat": 8,
+    "lon": 38,
     "description": "Fallback nature POI in Ethiopia.",
     "source": "static",
     "countryCode": "ET",
@@ -7738,8 +8000,8 @@
     "id": "fallback-country-fi-nature",
     "name": "Scenic Nature Spot – Finland",
     "category": "nature",
-    "lat": 64.0,
-    "lon": 26.0,
+    "lat": 64,
+    "lon": 26,
     "description": "Fallback nature POI in Finland.",
     "source": "static",
     "countryCode": "FI",
@@ -7798,8 +8060,8 @@
     "id": "fallback-country-fj-nature",
     "name": "Scenic Nature Spot – Fiji",
     "category": "nature",
-    "lat": -18.0,
-    "lon": 175.0,
+    "lat": -18,
+    "lon": 175,
     "description": "Fallback nature POI in Fiji.",
     "source": "static",
     "countryCode": "FJ",
@@ -7859,7 +8121,7 @@
     "name": "Scenic Nature Spot – Falkland Islands",
     "category": "nature",
     "lat": -51.75,
-    "lon": -59.0,
+    "lon": -59,
     "description": "Fallback nature POI in Falkland Islands.",
     "source": "static",
     "countryCode": "FK",
@@ -7918,8 +8180,8 @@
     "id": "fallback-country-fo-nature",
     "name": "Scenic Nature Spot – Faroe Islands",
     "category": "nature",
-    "lat": 62.0,
-    "lon": -7.0,
+    "lat": 62,
+    "lon": -7,
     "description": "Fallback nature POI in Faroe Islands.",
     "source": "static",
     "countryCode": "FO",
@@ -8038,7 +8300,7 @@
     "id": "fallback-country-ga-nature",
     "name": "Scenic Nature Spot – Gabon",
     "category": "nature",
-    "lat": -1.0,
+    "lat": -1,
     "lon": 11.75,
     "description": "Fallback nature POI in Gabon.",
     "source": "static",
@@ -8098,7 +8360,7 @@
     "id": "fallback-country-ge-nature",
     "name": "Scenic Nature Spot – Georgia",
     "category": "nature",
-    "lat": 42.0,
+    "lat": 42,
     "lon": 43.5,
     "description": "Fallback nature POI in Georgia.",
     "source": "static",
@@ -8218,8 +8480,8 @@
     "id": "fallback-country-gh-nature",
     "name": "Scenic Nature Spot – Ghana",
     "category": "nature",
-    "lat": 8.0,
-    "lon": -2.0,
+    "lat": 8,
+    "lon": -2,
     "description": "Fallback nature POI in Ghana.",
     "source": "static",
     "countryCode": "GH",
@@ -8338,8 +8600,8 @@
     "id": "fallback-country-gn-nature",
     "name": "Scenic Nature Spot – Guinea",
     "category": "nature",
-    "lat": 11.0,
-    "lon": -10.0,
+    "lat": 11,
+    "lon": -10,
     "description": "Fallback nature POI in Guinea.",
     "source": "static",
     "countryCode": "GN",
@@ -8518,8 +8780,8 @@
     "id": "fallback-country-gw-nature",
     "name": "Scenic Nature Spot – Guinea-Bissau",
     "category": "nature",
-    "lat": 12.0,
-    "lon": -15.0,
+    "lat": 12,
+    "lon": -15,
     "description": "Fallback nature POI in Guinea-Bissau.",
     "source": "static",
     "countryCode": "GW",
@@ -8578,8 +8840,8 @@
     "id": "fallback-country-gq-nature",
     "name": "Scenic Nature Spot – Equatorial Guinea",
     "category": "nature",
-    "lat": 2.0,
-    "lon": 10.0,
+    "lat": 2,
+    "lon": 10,
     "description": "Fallback nature POI in Equatorial Guinea.",
     "source": "static",
     "countryCode": "GQ",
@@ -8698,8 +8960,8 @@
     "id": "fallback-country-gl-nature",
     "name": "Scenic Nature Spot – Greenland",
     "category": "nature",
-    "lat": 72.0,
-    "lon": -40.0,
+    "lat": 72,
+    "lon": -40,
     "description": "Fallback nature POI in Greenland.",
     "source": "static",
     "countryCode": "GL",
@@ -8818,8 +9080,8 @@
     "id": "fallback-country-gf-nature",
     "name": "Scenic Nature Spot – French Guiana",
     "category": "nature",
-    "lat": 4.0,
-    "lon": -53.0,
+    "lat": 4,
+    "lon": -53,
     "description": "Fallback nature POI in French Guiana.",
     "source": "static",
     "countryCode": "GF",
@@ -8938,8 +9200,8 @@
     "id": "fallback-country-gy-nature",
     "name": "Scenic Nature Spot – Guyana",
     "category": "nature",
-    "lat": 5.0,
-    "lon": -59.0,
+    "lat": 5,
+    "lon": -59,
     "description": "Fallback nature POI in Guyana.",
     "source": "static",
     "countryCode": "GY",
@@ -9118,7 +9380,7 @@
     "id": "fallback-country-hn-nature",
     "name": "Scenic Nature Spot – Honduras",
     "category": "nature",
-    "lat": 15.0,
+    "lat": 15,
     "lon": -86.5,
     "description": "Fallback nature POI in Honduras.",
     "source": "static",
@@ -9238,7 +9500,7 @@
     "id": "fallback-country-ht-nature",
     "name": "Scenic Nature Spot – Haiti",
     "category": "nature",
-    "lat": 19.0,
+    "lat": 19,
     "lon": -72.416667,
     "description": "Fallback nature POI in Haiti.",
     "source": "static",
@@ -9298,8 +9560,8 @@
     "id": "fallback-country-hu-nature",
     "name": "Scenic Nature Spot – Hungary",
     "category": "nature",
-    "lat": 47.0,
-    "lon": 20.0,
+    "lat": 47,
+    "lon": 20,
     "description": "Fallback nature POI in Hungary.",
     "source": "static",
     "countryCode": "HU",
@@ -9358,8 +9620,8 @@
     "id": "fallback-country-id-nature",
     "name": "Scenic Nature Spot – Indonesia",
     "category": "nature",
-    "lat": -5.0,
-    "lon": 120.0,
+    "lat": -5,
+    "lon": 120,
     "description": "Fallback nature POI in Indonesia.",
     "source": "static",
     "countryCode": "ID",
@@ -9478,8 +9740,8 @@
     "id": "fallback-country-in-nature",
     "name": "Scenic Nature Spot – India",
     "category": "nature",
-    "lat": 20.0,
-    "lon": 77.0,
+    "lat": 20,
+    "lon": 77,
     "description": "Fallback nature POI in India.",
     "source": "static",
     "countryCode": "IN",
@@ -9538,7 +9800,7 @@
     "id": "fallback-country-io-nature",
     "name": "Scenic Nature Spot – British Indian Ocean Territory",
     "category": "nature",
-    "lat": -6.0,
+    "lat": -6,
     "lon": 71.5,
     "description": "Fallback nature POI in British Indian Ocean Territory.",
     "source": "static",
@@ -9598,8 +9860,8 @@
     "id": "fallback-country-ie-nature",
     "name": "Scenic Nature Spot – Ireland",
     "category": "nature",
-    "lat": 53.0,
-    "lon": -8.0,
+    "lat": 53,
+    "lon": -8,
     "description": "Fallback nature POI in Ireland.",
     "source": "static",
     "countryCode": "IE",
@@ -9658,8 +9920,8 @@
     "id": "fallback-country-ir-nature",
     "name": "Scenic Nature Spot – Iran",
     "category": "nature",
-    "lat": 32.0,
-    "lon": 53.0,
+    "lat": 32,
+    "lon": 53,
     "description": "Fallback nature POI in Iran.",
     "source": "static",
     "countryCode": "IR",
@@ -9718,8 +9980,8 @@
     "id": "fallback-country-iq-nature",
     "name": "Scenic Nature Spot – Iraq",
     "category": "nature",
-    "lat": 33.0,
-    "lon": 44.0,
+    "lat": 33,
+    "lon": 44,
     "description": "Fallback nature POI in Iraq.",
     "source": "static",
     "countryCode": "IQ",
@@ -9778,8 +10040,8 @@
     "id": "fallback-country-is-nature",
     "name": "Scenic Nature Spot – Iceland",
     "category": "nature",
-    "lat": 65.0,
-    "lon": -18.0,
+    "lat": 65,
+    "lon": -18,
     "description": "Fallback nature POI in Iceland.",
     "source": "static",
     "countryCode": "IS",
@@ -10018,8 +10280,8 @@
     "id": "fallback-country-jo-nature",
     "name": "Scenic Nature Spot – Jordan",
     "category": "nature",
-    "lat": 31.0,
-    "lon": 36.0,
+    "lat": 31,
+    "lon": 36,
     "description": "Fallback nature POI in Jordan.",
     "source": "static",
     "countryCode": "JO",
@@ -10078,8 +10340,8 @@
     "id": "fallback-country-kz-nature",
     "name": "Scenic Nature Spot – Kazakhstan",
     "category": "nature",
-    "lat": 48.0,
-    "lon": 68.0,
+    "lat": 48,
+    "lon": 68,
     "description": "Fallback nature POI in Kazakhstan.",
     "source": "static",
     "countryCode": "KZ",
@@ -10138,8 +10400,8 @@
     "id": "fallback-country-ke-nature",
     "name": "Scenic Nature Spot – Kenya",
     "category": "nature",
-    "lat": 1.0,
-    "lon": 38.0,
+    "lat": 1,
+    "lon": 38,
     "description": "Fallback nature POI in Kenya.",
     "source": "static",
     "countryCode": "KE",
@@ -10198,8 +10460,8 @@
     "id": "fallback-country-kg-nature",
     "name": "Scenic Nature Spot – Kyrgyzstan",
     "category": "nature",
-    "lat": 41.0,
-    "lon": 75.0,
+    "lat": 41,
+    "lon": 75,
     "description": "Fallback nature POI in Kyrgyzstan.",
     "source": "static",
     "countryCode": "KG",
@@ -10258,8 +10520,8 @@
     "id": "fallback-country-kh-nature",
     "name": "Scenic Nature Spot – Cambodia",
     "category": "nature",
-    "lat": 13.0,
-    "lon": 105.0,
+    "lat": 13,
+    "lon": 105,
     "description": "Fallback nature POI in Cambodia.",
     "source": "static",
     "countryCode": "KH",
@@ -10319,7 +10581,7 @@
     "name": "Scenic Nature Spot – Kiribati",
     "category": "nature",
     "lat": 1.416667,
-    "lon": 173.0,
+    "lon": 173,
     "description": "Fallback nature POI in Kiribati.",
     "source": "static",
     "countryCode": "KI",
@@ -10438,7 +10700,7 @@
     "id": "fallback-country-kr-nature",
     "name": "Scenic Nature Spot – South Korea",
     "category": "nature",
-    "lat": 37.0,
+    "lat": 37,
     "lon": 127.5,
     "description": "Fallback nature POI in South Korea.",
     "source": "static",
@@ -10558,8 +10820,8 @@
     "id": "fallback-country-la-nature",
     "name": "Scenic Nature Spot – Laos",
     "category": "nature",
-    "lat": 18.0,
-    "lon": 105.0,
+    "lat": 18,
+    "lon": 105,
     "description": "Fallback nature POI in Laos.",
     "source": "static",
     "countryCode": "LA",
@@ -10738,8 +11000,8 @@
     "id": "fallback-country-ly-nature",
     "name": "Scenic Nature Spot – Libya",
     "category": "nature",
-    "lat": 25.0,
-    "lon": 17.0,
+    "lat": 25,
+    "lon": 17,
     "description": "Fallback nature POI in Libya.",
     "source": "static",
     "countryCode": "LY",
@@ -10918,8 +11180,8 @@
     "id": "fallback-country-lk-nature",
     "name": "Scenic Nature Spot – Sri Lanka",
     "category": "nature",
-    "lat": 7.0,
-    "lon": 81.0,
+    "lat": 7,
+    "lon": 81,
     "description": "Fallback nature POI in Sri Lanka.",
     "source": "static",
     "countryCode": "LK",
@@ -11038,8 +11300,8 @@
     "id": "fallback-country-lt-nature",
     "name": "Scenic Nature Spot – Lithuania",
     "category": "nature",
-    "lat": 56.0,
-    "lon": 24.0,
+    "lat": 56,
+    "lon": 24,
     "description": "Fallback nature POI in Lithuania.",
     "source": "static",
     "countryCode": "LT",
@@ -11158,8 +11420,8 @@
     "id": "fallback-country-lv-nature",
     "name": "Scenic Nature Spot – Latvia",
     "category": "nature",
-    "lat": 57.0,
-    "lon": 25.0,
+    "lat": 57,
+    "lon": 25,
     "description": "Fallback nature POI in Latvia.",
     "source": "static",
     "countryCode": "LV",
@@ -11338,8 +11600,8 @@
     "id": "fallback-country-ma-nature",
     "name": "Scenic Nature Spot – Morocco",
     "category": "nature",
-    "lat": 32.0,
-    "lon": -5.0,
+    "lat": 32,
+    "lon": -5,
     "description": "Fallback nature POI in Morocco.",
     "source": "static",
     "countryCode": "MA",
@@ -11458,8 +11720,8 @@
     "id": "fallback-country-md-nature",
     "name": "Scenic Nature Spot – Moldova",
     "category": "nature",
-    "lat": 47.0,
-    "lon": 29.0,
+    "lat": 47,
+    "lon": 29,
     "description": "Fallback nature POI in Moldova.",
     "source": "static",
     "countryCode": "MD",
@@ -11518,8 +11780,8 @@
     "id": "fallback-country-mg-nature",
     "name": "Scenic Nature Spot – Madagascar",
     "category": "nature",
-    "lat": -20.0,
-    "lon": 47.0,
+    "lat": -20,
+    "lon": 47,
     "description": "Fallback nature POI in Madagascar.",
     "source": "static",
     "countryCode": "MG",
@@ -11579,7 +11841,7 @@
     "name": "Scenic Nature Spot – Maldives",
     "category": "nature",
     "lat": 3.25,
-    "lon": 73.0,
+    "lon": 73,
     "description": "Fallback nature POI in Maldives.",
     "source": "static",
     "countryCode": "MV",
@@ -11638,8 +11900,8 @@
     "id": "fallback-country-mx-nature",
     "name": "Scenic Nature Spot – Mexico",
     "category": "nature",
-    "lat": 23.0,
-    "lon": -102.0,
+    "lat": 23,
+    "lon": -102,
     "description": "Fallback nature POI in Mexico.",
     "source": "static",
     "countryCode": "MX",
@@ -11698,8 +11960,8 @@
     "id": "fallback-country-mh-nature",
     "name": "Scenic Nature Spot – Marshall Islands",
     "category": "nature",
-    "lat": 9.0,
-    "lon": 168.0,
+    "lat": 9,
+    "lon": 168,
     "description": "Fallback nature POI in Marshall Islands.",
     "source": "static",
     "countryCode": "MH",
@@ -11759,7 +12021,7 @@
     "name": "Scenic Nature Spot – Republic of Macedonia",
     "category": "nature",
     "lat": 41.833333,
-    "lon": 22.0,
+    "lon": 22,
     "description": "Fallback nature POI in Republic of Macedonia.",
     "source": "static",
     "countryCode": "MK",
@@ -11818,8 +12080,8 @@
     "id": "fallback-country-ml-nature",
     "name": "Scenic Nature Spot – Mali",
     "category": "nature",
-    "lat": 17.0,
-    "lon": -4.0,
+    "lat": 17,
+    "lon": -4,
     "description": "Fallback nature POI in Mali.",
     "source": "static",
     "countryCode": "ML",
@@ -12058,8 +12320,8 @@
     "id": "fallback-country-mn-nature",
     "name": "Scenic Nature Spot – Mongolia",
     "category": "nature",
-    "lat": 46.0,
-    "lon": 105.0,
+    "lat": 46,
+    "lon": 105,
     "description": "Fallback nature POI in Mongolia.",
     "source": "static",
     "countryCode": "MN",
@@ -12179,7 +12441,7 @@
     "name": "Scenic Nature Spot – Mozambique",
     "category": "nature",
     "lat": -18.25,
-    "lon": 35.0,
+    "lon": 35,
     "description": "Fallback nature POI in Mozambique.",
     "source": "static",
     "countryCode": "MZ",
@@ -12238,8 +12500,8 @@
     "id": "fallback-country-mr-nature",
     "name": "Scenic Nature Spot – Mauritania",
     "category": "nature",
-    "lat": 20.0,
-    "lon": -12.0,
+    "lat": 20,
+    "lon": -12,
     "description": "Fallback nature POI in Mauritania.",
     "source": "static",
     "countryCode": "MR",
@@ -12359,7 +12621,7 @@
     "name": "Scenic Nature Spot – Martinique",
     "category": "nature",
     "lat": 14.666667,
-    "lon": -61.0,
+    "lon": -61,
     "description": "Fallback nature POI in Martinique.",
     "source": "static",
     "countryCode": "MQ",
@@ -12479,7 +12741,7 @@
     "name": "Scenic Nature Spot – Malawi",
     "category": "nature",
     "lat": -13.5,
-    "lon": 34.0,
+    "lon": 34,
     "description": "Fallback nature POI in Malawi.",
     "source": "static",
     "countryCode": "MW",
@@ -12658,8 +12920,8 @@
     "id": "fallback-country-na-nature",
     "name": "Scenic Nature Spot – Namibia",
     "category": "nature",
-    "lat": -22.0,
-    "lon": 17.0,
+    "lat": -22,
+    "lon": 17,
     "description": "Fallback nature POI in Namibia.",
     "source": "static",
     "countryCode": "NA",
@@ -12778,8 +13040,8 @@
     "id": "fallback-country-ne-nature",
     "name": "Scenic Nature Spot – Niger",
     "category": "nature",
-    "lat": 16.0,
-    "lon": 8.0,
+    "lat": 16,
+    "lon": 8,
     "description": "Fallback nature POI in Niger.",
     "source": "static",
     "countryCode": "NE",
@@ -12898,8 +13160,8 @@
     "id": "fallback-country-ng-nature",
     "name": "Scenic Nature Spot – Nigeria",
     "category": "nature",
-    "lat": 10.0,
-    "lon": 8.0,
+    "lat": 10,
+    "lon": 8,
     "description": "Fallback nature POI in Nigeria.",
     "source": "static",
     "countryCode": "NG",
@@ -12958,8 +13220,8 @@
     "id": "fallback-country-ni-nature",
     "name": "Scenic Nature Spot – Nicaragua",
     "category": "nature",
-    "lat": 13.0,
-    "lon": -85.0,
+    "lat": 13,
+    "lon": -85,
     "description": "Fallback nature POI in Nicaragua.",
     "source": "static",
     "countryCode": "NI",
@@ -13078,8 +13340,8 @@
     "id": "fallback-country-no-nature",
     "name": "Scenic Nature Spot – Norway",
     "category": "nature",
-    "lat": 62.0,
-    "lon": 10.0,
+    "lat": 62,
+    "lon": 10,
     "description": "Fallback nature POI in Norway.",
     "source": "static",
     "countryCode": "NO",
@@ -13138,8 +13400,8 @@
     "id": "fallback-country-np-nature",
     "name": "Scenic Nature Spot – Nepal",
     "category": "nature",
-    "lat": 28.0,
-    "lon": 84.0,
+    "lat": 28,
+    "lon": 84,
     "description": "Fallback nature POI in Nepal.",
     "source": "static",
     "countryCode": "NP",
@@ -13258,8 +13520,8 @@
     "id": "fallback-country-nz-nature",
     "name": "Scenic Nature Spot – New Zealand",
     "category": "nature",
-    "lat": -41.0,
-    "lon": 174.0,
+    "lat": -41,
+    "lon": 174,
     "description": "Fallback nature POI in New Zealand.",
     "source": "static",
     "countryCode": "NZ",
@@ -13318,8 +13580,8 @@
     "id": "fallback-country-om-nature",
     "name": "Scenic Nature Spot – Oman",
     "category": "nature",
-    "lat": 21.0,
-    "lon": 57.0,
+    "lat": 21,
+    "lon": 57,
     "description": "Fallback nature POI in Oman.",
     "source": "static",
     "countryCode": "OM",
@@ -13378,8 +13640,8 @@
     "id": "fallback-country-pk-nature",
     "name": "Scenic Nature Spot – Pakistan",
     "category": "nature",
-    "lat": 30.0,
-    "lon": 70.0,
+    "lat": 30,
+    "lon": 70,
     "description": "Fallback nature POI in Pakistan.",
     "source": "static",
     "countryCode": "PK",
@@ -13438,8 +13700,8 @@
     "id": "fallback-country-pa-nature",
     "name": "Scenic Nature Spot – Panama",
     "category": "nature",
-    "lat": 9.0,
-    "lon": -80.0,
+    "lat": 9,
+    "lon": -80,
     "description": "Fallback nature POI in Panama.",
     "source": "static",
     "countryCode": "PA",
@@ -13558,8 +13820,8 @@
     "id": "fallback-country-pe-nature",
     "name": "Scenic Nature Spot – Peru",
     "category": "nature",
-    "lat": -10.0,
-    "lon": -76.0,
+    "lat": -10,
+    "lon": -76,
     "description": "Fallback nature POI in Peru.",
     "source": "static",
     "countryCode": "PE",
@@ -13618,8 +13880,8 @@
     "id": "fallback-country-ph-nature",
     "name": "Scenic Nature Spot – Philippines",
     "category": "nature",
-    "lat": 13.0,
-    "lon": 122.0,
+    "lat": 13,
+    "lon": 122,
     "description": "Fallback nature POI in Philippines.",
     "source": "static",
     "countryCode": "PH",
@@ -13738,8 +14000,8 @@
     "id": "fallback-country-pg-nature",
     "name": "Scenic Nature Spot – Papua New Guinea",
     "category": "nature",
-    "lat": -6.0,
-    "lon": 147.0,
+    "lat": -6,
+    "lon": 147,
     "description": "Fallback nature POI in Papua New Guinea.",
     "source": "static",
     "countryCode": "PG",
@@ -13798,8 +14060,8 @@
     "id": "fallback-country-pl-nature",
     "name": "Scenic Nature Spot – Poland",
     "category": "nature",
-    "lat": 52.0,
-    "lon": 20.0,
+    "lat": 52,
+    "lon": 20,
     "description": "Fallback nature POI in Poland.",
     "source": "static",
     "countryCode": "PL",
@@ -13918,8 +14180,8 @@
     "id": "fallback-country-kp-nature",
     "name": "Scenic Nature Spot – North Korea",
     "category": "nature",
-    "lat": 40.0,
-    "lon": 127.0,
+    "lat": 40,
+    "lon": 127,
     "description": "Fallback nature POI in North Korea.",
     "source": "static",
     "countryCode": "KP",
@@ -13979,7 +14241,7 @@
     "name": "Scenic Nature Spot – Portugal",
     "category": "nature",
     "lat": 39.5,
-    "lon": -8.0,
+    "lon": -8,
     "description": "Fallback nature POI in Portugal.",
     "source": "static",
     "countryCode": "PT",
@@ -14038,8 +14300,8 @@
     "id": "fallback-country-py-nature",
     "name": "Scenic Nature Spot – Paraguay",
     "category": "nature",
-    "lat": -23.0,
-    "lon": -58.0,
+    "lat": -23,
+    "lon": -58,
     "description": "Fallback nature POI in Paraguay.",
     "source": "static",
     "countryCode": "PY",
@@ -14158,8 +14420,8 @@
     "id": "fallback-country-pf-nature",
     "name": "Scenic Nature Spot – French Polynesia",
     "category": "nature",
-    "lat": -15.0,
-    "lon": -140.0,
+    "lat": -15,
+    "lon": -140,
     "description": "Fallback nature POI in French Polynesia.",
     "source": "static",
     "countryCode": "PF",
@@ -14338,8 +14600,8 @@
     "id": "fallback-country-ro-nature",
     "name": "Scenic Nature Spot – Romania",
     "category": "nature",
-    "lat": 46.0,
-    "lon": 25.0,
+    "lat": 46,
+    "lon": 25,
     "description": "Fallback nature POI in Romania.",
     "source": "static",
     "countryCode": "RO",
@@ -14398,8 +14660,8 @@
     "id": "fallback-country-ru-nature",
     "name": "Scenic Nature Spot – Russia",
     "category": "nature",
-    "lat": 60.0,
-    "lon": 100.0,
+    "lat": 60,
+    "lon": 100,
     "description": "Fallback nature POI in Russia.",
     "source": "static",
     "countryCode": "RU",
@@ -14458,8 +14720,8 @@
     "id": "fallback-country-rw-nature",
     "name": "Scenic Nature Spot – Rwanda",
     "category": "nature",
-    "lat": -2.0,
-    "lon": 30.0,
+    "lat": -2,
+    "lon": 30,
     "description": "Fallback nature POI in Rwanda.",
     "source": "static",
     "countryCode": "RW",
@@ -14518,8 +14780,8 @@
     "id": "fallback-country-sa-nature",
     "name": "Scenic Nature Spot – Saudi Arabia",
     "category": "nature",
-    "lat": 25.0,
-    "lon": 45.0,
+    "lat": 25,
+    "lon": 45,
     "description": "Fallback nature POI in Saudi Arabia.",
     "source": "static",
     "countryCode": "SA",
@@ -14578,8 +14840,8 @@
     "id": "fallback-country-sd-nature",
     "name": "Scenic Nature Spot – Sudan",
     "category": "nature",
-    "lat": 15.0,
-    "lon": 30.0,
+    "lat": 15,
+    "lon": 30,
     "description": "Fallback nature POI in Sudan.",
     "source": "static",
     "countryCode": "SD",
@@ -14638,8 +14900,8 @@
     "id": "fallback-country-sn-nature",
     "name": "Scenic Nature Spot – Senegal",
     "category": "nature",
-    "lat": 14.0,
-    "lon": -14.0,
+    "lat": 14,
+    "lon": -14,
     "description": "Fallback nature POI in Senegal.",
     "source": "static",
     "countryCode": "SN",
@@ -14759,7 +15021,7 @@
     "name": "Scenic Nature Spot – South Georgia",
     "category": "nature",
     "lat": -54.5,
-    "lon": -37.0,
+    "lon": -37,
     "description": "Fallback nature POI in South Georgia.",
     "source": "static",
     "countryCode": "GS",
@@ -14878,8 +15140,8 @@
     "id": "fallback-country-sj-nature",
     "name": "Scenic Nature Spot – Svalbard and Jan Mayen",
     "category": "nature",
-    "lat": 78.0,
-    "lon": 20.0,
+    "lat": 78,
+    "lon": 20,
     "description": "Fallback nature POI in Svalbard and Jan Mayen.",
     "source": "static",
     "countryCode": "SJ",
@@ -14938,8 +15200,8 @@
     "id": "fallback-country-sb-nature",
     "name": "Scenic Nature Spot – Solomon Islands",
     "category": "nature",
-    "lat": -8.0,
-    "lon": 159.0,
+    "lat": -8,
+    "lon": 159,
     "description": "Fallback nature POI in Solomon Islands.",
     "source": "static",
     "countryCode": "SB",
@@ -15178,8 +15440,8 @@
     "id": "fallback-country-so-nature",
     "name": "Scenic Nature Spot – Somalia",
     "category": "nature",
-    "lat": 10.0,
-    "lon": 49.0,
+    "lat": 10,
+    "lon": 49,
     "description": "Fallback nature POI in Somalia.",
     "source": "static",
     "countryCode": "SO",
@@ -15358,8 +15620,8 @@
     "id": "fallback-country-ss-nature",
     "name": "Scenic Nature Spot – South Sudan",
     "category": "nature",
-    "lat": 7.0,
-    "lon": 30.0,
+    "lat": 7,
+    "lon": 30,
     "description": "Fallback nature POI in South Sudan.",
     "source": "static",
     "countryCode": "SS",
@@ -15418,8 +15680,8 @@
     "id": "fallback-country-st-nature",
     "name": "Scenic Nature Spot – São Tomé and Príncipe",
     "category": "nature",
-    "lat": 1.0,
-    "lon": 7.0,
+    "lat": 1,
+    "lon": 7,
     "description": "Fallback nature POI in São Tomé and Príncipe.",
     "source": "static",
     "countryCode": "ST",
@@ -15478,8 +15740,8 @@
     "id": "fallback-country-sr-nature",
     "name": "Scenic Nature Spot – Suriname",
     "category": "nature",
-    "lat": 4.0,
-    "lon": -56.0,
+    "lat": 4,
+    "lon": -56,
     "description": "Fallback nature POI in Suriname.",
     "source": "static",
     "countryCode": "SR",
@@ -15658,8 +15920,8 @@
     "id": "fallback-country-se-nature",
     "name": "Scenic Nature Spot – Sweden",
     "category": "nature",
-    "lat": 62.0,
-    "lon": 15.0,
+    "lat": 62,
+    "lon": 15,
     "description": "Fallback nature POI in Sweden.",
     "source": "static",
     "countryCode": "SE",
@@ -15898,8 +16160,8 @@
     "id": "fallback-country-sy-nature",
     "name": "Scenic Nature Spot – Syria",
     "category": "nature",
-    "lat": 35.0,
-    "lon": 38.0,
+    "lat": 35,
+    "lon": 38,
     "description": "Fallback nature POI in Syria.",
     "source": "static",
     "countryCode": "SY",
@@ -16018,8 +16280,8 @@
     "id": "fallback-country-td-nature",
     "name": "Scenic Nature Spot – Chad",
     "category": "nature",
-    "lat": 15.0,
-    "lon": 19.0,
+    "lat": 15,
+    "lon": 19,
     "description": "Fallback nature POI in Chad.",
     "source": "static",
     "countryCode": "TD",
@@ -16078,7 +16340,7 @@
     "id": "fallback-country-tg-nature",
     "name": "Scenic Nature Spot – Togo",
     "category": "nature",
-    "lat": 8.0,
+    "lat": 8,
     "lon": 1.166667,
     "description": "Fallback nature POI in Togo.",
     "source": "static",
@@ -16138,8 +16400,8 @@
     "id": "fallback-country-tj-nature",
     "name": "Scenic Nature Spot – Tajikistan",
     "category": "nature",
-    "lat": 39.0,
-    "lon": 71.0,
+    "lat": 39,
+    "lon": 71,
     "description": "Fallback nature POI in Tajikistan.",
     "source": "static",
     "countryCode": "TJ",
@@ -16198,8 +16460,8 @@
     "id": "fallback-country-tk-nature",
     "name": "Scenic Nature Spot – Tokelau",
     "category": "nature",
-    "lat": -9.0,
-    "lon": -172.0,
+    "lat": -9,
+    "lon": -172,
     "description": "Fallback nature POI in Tokelau.",
     "source": "static",
     "countryCode": "TK",
@@ -16258,8 +16520,8 @@
     "id": "fallback-country-tm-nature",
     "name": "Scenic Nature Spot – Turkmenistan",
     "category": "nature",
-    "lat": 40.0,
-    "lon": 60.0,
+    "lat": 40,
+    "lon": 60,
     "description": "Fallback nature POI in Turkmenistan.",
     "source": "static",
     "countryCode": "TM",
@@ -16378,8 +16640,8 @@
     "id": "fallback-country-to-nature",
     "name": "Scenic Nature Spot – Tonga",
     "category": "nature",
-    "lat": -20.0,
-    "lon": -175.0,
+    "lat": -20,
+    "lon": -175,
     "description": "Fallback nature POI in Tonga.",
     "source": "static",
     "countryCode": "TO",
@@ -16438,8 +16700,8 @@
     "id": "fallback-country-tt-nature",
     "name": "Scenic Nature Spot – Trinidad and Tobago",
     "category": "nature",
-    "lat": 11.0,
-    "lon": -61.0,
+    "lat": 11,
+    "lon": -61,
     "description": "Fallback nature POI in Trinidad and Tobago.",
     "source": "static",
     "countryCode": "TT",
@@ -16498,8 +16760,8 @@
     "id": "fallback-country-tn-nature",
     "name": "Scenic Nature Spot – Tunisia",
     "category": "nature",
-    "lat": 34.0,
-    "lon": 9.0,
+    "lat": 34,
+    "lon": 9,
     "description": "Fallback nature POI in Tunisia.",
     "source": "static",
     "countryCode": "TN",
@@ -16558,8 +16820,8 @@
     "id": "fallback-country-tv-nature",
     "name": "Scenic Nature Spot – Tuvalu",
     "category": "nature",
-    "lat": -8.0,
-    "lon": 178.0,
+    "lat": -8,
+    "lon": 178,
     "description": "Fallback nature POI in Tuvalu.",
     "source": "static",
     "countryCode": "TV",
@@ -16619,7 +16881,7 @@
     "name": "Scenic Nature Spot – Taiwan",
     "category": "nature",
     "lat": 23.5,
-    "lon": 121.0,
+    "lon": 121,
     "description": "Fallback nature POI in Taiwan.",
     "source": "static",
     "countryCode": "TW",
@@ -16678,8 +16940,8 @@
     "id": "fallback-country-tz-nature",
     "name": "Scenic Nature Spot – Tanzania",
     "category": "nature",
-    "lat": -6.0,
-    "lon": 35.0,
+    "lat": -6,
+    "lon": 35,
     "description": "Fallback nature POI in Tanzania.",
     "source": "static",
     "countryCode": "TZ",
@@ -16738,8 +17000,8 @@
     "id": "fallback-country-ug-nature",
     "name": "Scenic Nature Spot – Uganda",
     "category": "nature",
-    "lat": 1.0,
-    "lon": 32.0,
+    "lat": 1,
+    "lon": 32,
     "description": "Fallback nature POI in Uganda.",
     "source": "static",
     "countryCode": "UG",
@@ -16798,8 +17060,8 @@
     "id": "fallback-country-ua-nature",
     "name": "Scenic Nature Spot – Ukraine",
     "category": "nature",
-    "lat": 49.0,
-    "lon": 32.0,
+    "lat": 49,
+    "lon": 32,
     "description": "Fallback nature POI in Ukraine.",
     "source": "static",
     "countryCode": "UA",
@@ -16918,8 +17180,8 @@
     "id": "fallback-country-uy-nature",
     "name": "Scenic Nature Spot – Uruguay",
     "category": "nature",
-    "lat": -33.0,
-    "lon": -56.0,
+    "lat": -33,
+    "lon": -56,
     "description": "Fallback nature POI in Uruguay.",
     "source": "static",
     "countryCode": "UY",
@@ -16978,8 +17240,8 @@
     "id": "fallback-country-uz-nature",
     "name": "Scenic Nature Spot – Uzbekistan",
     "category": "nature",
-    "lat": 41.0,
-    "lon": 64.0,
+    "lat": 41,
+    "lon": 64,
     "description": "Fallback nature POI in Uzbekistan.",
     "source": "static",
     "countryCode": "UZ",
@@ -17158,8 +17420,8 @@
     "id": "fallback-country-ve-nature",
     "name": "Scenic Nature Spot – Venezuela",
     "category": "nature",
-    "lat": 8.0,
-    "lon": -66.0,
+    "lat": 8,
+    "lon": -66,
     "description": "Fallback nature POI in Venezuela.",
     "source": "static",
     "countryCode": "VE",
@@ -17398,8 +17660,8 @@
     "id": "fallback-country-vu-nature",
     "name": "Scenic Nature Spot – Vanuatu",
     "category": "nature",
-    "lat": -16.0,
-    "lon": 167.0,
+    "lat": -16,
+    "lon": 167,
     "description": "Fallback nature POI in Vanuatu.",
     "source": "static",
     "countryCode": "VU",
@@ -17578,8 +17840,8 @@
     "id": "fallback-country-ye-nature",
     "name": "Scenic Nature Spot – Yemen",
     "category": "nature",
-    "lat": 15.0,
-    "lon": 48.0,
+    "lat": 15,
+    "lon": 48,
     "description": "Fallback nature POI in Yemen.",
     "source": "static",
     "countryCode": "YE",
@@ -17638,8 +17900,8 @@
     "id": "fallback-country-za-nature",
     "name": "Scenic Nature Spot – South Africa",
     "category": "nature",
-    "lat": -29.0,
-    "lon": 24.0,
+    "lat": -29,
+    "lon": 24,
     "description": "Fallback nature POI in South Africa.",
     "source": "static",
     "countryCode": "ZA",
@@ -17698,8 +17960,8 @@
     "id": "fallback-country-zm-nature",
     "name": "Scenic Nature Spot – Zambia",
     "category": "nature",
-    "lat": -15.0,
-    "lon": 30.0,
+    "lat": -15,
+    "lon": 30,
     "description": "Fallback nature POI in Zambia.",
     "source": "static",
     "countryCode": "ZM",
@@ -17758,8 +18020,8 @@
     "id": "fallback-country-zw-nature",
     "name": "Scenic Nature Spot – Zimbabwe",
     "category": "nature",
-    "lat": -20.0,
-    "lon": 30.0,
+    "lat": -20,
+    "lon": 30,
     "description": "Fallback nature POI in Zimbabwe.",
     "source": "static",
     "countryCode": "ZW",
