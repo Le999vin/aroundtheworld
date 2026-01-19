@@ -161,30 +161,16 @@
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
   }
-  .hero-glow {
-    background-image:
-      radial-gradient(600px 360px at 20% 25%, oklch(0.78 0.08 220 / 0.25), transparent 60%),
-      radial-gradient(520px 320px at 75% 20%, oklch(0.7 0.08 200 / 0.2), transparent 60%),
-      radial-gradient(820px 480px at 50% 85%, oklch(0.6 0.06 220 / 0.18), transparent 65%);
-    background-repeat: no-repeat;
-  }
-  .dark .hero-glow {
-    background-image:
-      radial-gradient(600px 360px at 20% 25%, oklch(0.6 0.1 210 / 0.28), transparent 60%),
-      radial-gradient(520px 320px at 75% 20%, oklch(0.55 0.1 200 / 0.22), transparent 60%),
-      radial-gradient(820px 480px at 50% 85%, oklch(0.5 0.08 220 / 0.2), transparent 65%);
-    background-repeat: no-repeat;
-  }
   .bg-grid {
     background-image:
-      linear-gradient(to right, rgb(15 23 42 / 0.05) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(15 23 42 / 0.05) 1px, transparent 1px);
+      linear-gradient(to right, rgb(15 23 42 / 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(15 23 42 / 0.08) 1px, transparent 1px);
     background-size: 48px 48px;
   }
   .dark .bg-grid {
     background-image:
-      linear-gradient(to right, rgb(248 250 252 / 0.05) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(248 250 252 / 0.05) 1px, transparent 1px);
+      linear-gradient(to right, rgb(248 250 252 / 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(248 250 252 / 0.08) 1px, transparent 1px);
   }
   .text-gradient {
     @apply bg-gradient-to-r from-sky-500 via-cyan-400 to-emerald-400 bg-clip-text text-transparent;

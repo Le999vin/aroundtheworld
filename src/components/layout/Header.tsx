@@ -26,15 +26,19 @@ function isActive(pathname: string, href: string) {
 
 export function Header() {
   const pathname = usePathname();
-  const trimmedName = siteConfig.name.trim();
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
-      <Container className="flex h-16 items-center gap-4">
-        <Link href="/" className="shrink-0 text-sm font-semibold uppercase tracking-[0.2em] text-foreground transition-colors hover:text-cyan-400">
-          Portfolio
+      <Container className="flex h-16 items-center justify-between">
+        <Link href="/" className="flex items-center gap-2">
+          <span className="text-sm font-semibold uppercase tracking-[0.3em] text-muted-foreground">
+            {siteConfig.name.split(" ")[0]}
+          </span>
+          <span className="hidden text-sm font-semibold text-gradient sm:inline">
+            Portfolio
+          </span>
         </Link>
-        <nav className="hidden flex-1 items-center justify-center gap-8 md:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-6 md:flex" aria-label="Primary">
           {navigation.map((item) => {
             const active = isActive(pathname, item.href);
             return (
@@ -42,10 +46,10 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "border-b-2 border-transparent pb-1 text-sm font-medium transition-colors",
+                  "text-sm font-medium transition-colors",
                   active
-                    ? "border-foreground text-foreground"
-                    : "text-muted-foreground hover:border-foreground/40 hover:text-foreground"
+                    ? "text-foreground"
+                    : "text-muted-foreground hover:text-foreground"
                 )}
                 aria-current={active ? "page" : undefined}
               >
@@ -54,7 +58,7 @@ export function Header() {
             );
           })}
         </nav>
-        <div className="flex shrink-0 items-center gap-2">
+        <div className="flex items-center gap-2">
           <ThemeToggle />
           <Button asChild className="hidden md:inline-flex">
             <Link href="/contact">Contact</Link>
@@ -74,7 +78,7 @@ export function Header() {
               <div className="flex flex-col gap-6 pt-6">
                 <div>
                   <p className="text-sm font-semibold text-foreground">
-                    {trimmedName || "Portfolio"}
+                    {siteConfig.name}
                   </p>
                   <p className="text-xs text-muted-foreground">
                     {siteConfig.title}
