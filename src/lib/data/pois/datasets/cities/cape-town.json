@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Cape Town Stadium, Cape Town"
   },
   {
     "id": "city-cape-town-chapman-s-peak-drive",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Chapman's Peak Drive, Cape Town"
   },
   {
     "id": "city-cape-town-clifton-beaches",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Clifton Beaches, Cape Town"
   },
   {
     "id": "city-cape-town-company-s-garden",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Company's Garden, Cape Town"
   },
   {
     "id": "city-cape-town-district-six-museum",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "District Six Museum, Cape Town"
   },
   {
     "id": "city-cape-town-first-thursdays-art-walk",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "First Thursdays Art Walk, Cape Town"
   },
   {
     "id": "city-cape-town-greenmarket-square",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Greenmarket Square, Cape Town"
   },
   {
     "id": "city-cape-town-hout-bay",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Hout Bay, Cape Town"
   },
   {
     "id": "city-cape-town-kirstenbosch-gardens",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Kirstenbosch Gardens, Cape Town"
   },
   {
     "id": "city-cape-town-kloof-street",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Kloof Street, Cape Town"
   },
   {
     "id": "city-cape-town-lion-s-head",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Lion's Head, Cape Town"
   },
   {
     "id": "city-cape-town-long-street",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Long Street, Cape Town"
   },
   {
     "id": "city-cape-town-oranjezicht-city-farm-market",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Oranjezicht City Farm Market, Cape Town"
   },
   {
     "id": "city-cape-town-robben-island-ferry",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Robben Island Ferry, Cape Town"
   },
   {
     "id": "city-cape-town-sea-point-promenade",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Sea Point Promenade, Cape Town"
   },
   {
     "id": "city-cape-town-signal-hill",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Signal Hill, Cape Town"
   },
   {
     "id": "city-cape-town-table-mountain",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Table Mountain, Cape Town"
   },
   {
     "id": "city-cape-town-the-old-biscuit-mill",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "The Old Biscuit Mill, Cape Town"
   },
   {
     "id": "city-cape-town-two-oceans-aquarium",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Two Oceans Aquarium, Cape Town"
   },
   {
     "id": "city-cape-town-v-a-waterfront",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "V&A Waterfront, Cape Town"
   },
   {
     "id": "city-cape-town-woodstock",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Woodstock, Cape Town"
   },
   {
     "id": "city-cape-town-zeitz-mocaa",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "ZA",
     "cityId": "cape-town",
-    "city": "Cape Town"
+    "city": "Cape Town",
+    "address": "Zeitz MOCAA, Cape Town"
   }
 ]

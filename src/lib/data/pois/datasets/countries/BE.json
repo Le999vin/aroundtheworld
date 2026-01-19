@@ -7,8 +7,8 @@
     "lon": 4.3525,
     "source": "static",
     "countryCode": "BE",
-    "address": "29 Grand Place",
-    "city": "Brussels"
+    "city": "Brussels",
+    "address": "29 Grand Place"
   },
   {
     "id": "country-be-atomium",
@@ -18,8 +18,8 @@
     "lon": 4.3416,
     "source": "static",
     "countryCode": "BE",
-    "address": "Place de l'Atomium - Atomiumplein",
-    "city": "Brussels"
+    "city": "Brussels",
+    "address": "Place de l'Atomium - Atomiumplein"
   },
   {
     "id": "country-be-bruges-canals",
@@ -29,8 +29,8 @@
     "lon": 3.2247,
     "source": "static",
     "countryCode": "BE",
-    "address": "35 Markt",
-    "city": "Bruges"
+    "city": "Bruges",
+    "address": "35 Markt"
   },
   {
     "id": "country-be-belfry-of-bruges",
@@ -39,7 +39,9 @@
     "lat": 51.2089,
     "lon": 3.2244,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Belfry of Bruges, Unknown"
   },
   {
     "id": "country-be-ghent-gravensteen-castle",
@@ -48,7 +50,9 @@
     "lat": 51.0574,
     "lon": 3.7204,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Ghent Gravensteen Castle, Unknown"
   },
   {
     "id": "country-be-antwerp-cathedral-of-our-lady",
@@ -57,7 +61,9 @@
     "lat": 51.22,
     "lon": 4.3997,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Antwerp Cathedral of Our Lady, Unknown"
   },
   {
     "id": "country-be-manneken-pis",
@@ -66,7 +72,9 @@
     "lat": 50.8449,
     "lon": 4.3499,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Manneken Pis, Brussels"
   },
   {
     "id": "country-be-royal-palace-of-brussels",
@@ -75,7 +83,9 @@
     "lat": 50.8429,
     "lon": 4.361,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Royal Palace of Brussels, Brussels"
   },
   {
     "id": "country-be-ardennes-forest",
@@ -84,7 +94,9 @@
     "lat": 50.25,
     "lon": 5.6,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Ardennes Forest, Unknown"
   },
   {
     "id": "country-be-hoge-kempen-national-park",
@@ -93,7 +105,9 @@
     "lat": 51,
     "lon": 5.6,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Hoge Kempen National Park, Unknown"
   },
   {
     "id": "country-be-dinant-citadel",
@@ -102,7 +116,9 @@
     "lat": 50.26,
     "lon": 4.912,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Dinant Citadel, Unknown"
   },
   {
     "id": "country-be-waterloo-battlefield",
@@ -111,7 +127,9 @@
     "lat": 50.6806,
     "lon": 4.4066,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Waterloo Battlefield, Unknown"
   },
   {
     "id": "country-be-magritte-museum",
@@ -120,7 +138,9 @@
     "lat": 50.845,
     "lon": 4.355,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Magritte Museum, Brussels"
   },
   {
     "id": "country-be-mas-museum-antwerp",
@@ -129,7 +149,9 @@
     "lat": 51.2289,
     "lon": 4.4041,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "MAS Museum Antwerp, Unknown"
   },
   {
     "id": "country-be-royal-museums-of-fine-arts",
@@ -138,7 +160,9 @@
     "lat": 50.8428,
     "lon": 4.3572,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Royal Museums of Fine Arts, Brussels"
   },
   {
     "id": "country-be-sablon-chocolate-district",
@@ -147,7 +171,9 @@
     "lat": 50.842,
     "lon": 4.3557,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Sablon Chocolate District, Unknown"
   },
   {
     "id": "country-be-frites-stand-place-jourdan",
@@ -156,7 +182,9 @@
     "lat": 50.8379,
     "lon": 4.3809,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Frites Stand (Place Jourdan), Unknown"
   },
   {
     "id": "country-be-belgian-beer-cafe-delirium",
@@ -165,7 +193,9 @@
     "lat": 50.8484,
     "lon": 4.3527,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Belgian Beer Cafe Delirium, Unknown"
   },
   {
     "id": "country-be-fuse-club-brussels",
@@ -174,7 +204,9 @@
     "lat": 50.8415,
     "lon": 4.369,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Fuse Club Brussels, Brussels"
   },
   {
     "id": "country-be-leuven-oude-markt",
@@ -183,7 +215,9 @@
     "lat": 50.8798,
     "lon": 4.7005,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Leuven Oude Markt, Unknown"
   },
   {
     "id": "country-be-antwerp-het-eilandje-bars",
@@ -192,7 +226,9 @@
     "lat": 51.229,
     "lon": 4.404,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Antwerp Het Eilandje Bars, Unknown"
   },
   {
     "id": "country-be-brussels-comic-strip-route",
@@ -201,7 +237,9 @@
     "lat": 50.848,
     "lon": 4.3517,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Brussels Comic Strip Route, Unknown"
   },
   {
     "id": "country-be-pairi-daiza",
@@ -210,7 +248,9 @@
     "lat": 50.581,
     "lon": 3.901,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Pairi Daiza, Unknown"
   },
   {
     "id": "country-be-ostend-beach-promenade",
@@ -219,7 +259,9 @@
     "lat": 51.231,
     "lon": 2.912,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Ostend Beach Promenade, Unknown"
   },
   {
     "id": "country-be-meuse-valley-viewpoints",
@@ -228,6 +270,217 @@
     "lat": 50.36,
     "lon": 4.9,
     "source": "static",
-    "countryCode": "BE"
+    "countryCode": "BE",
+    "city": "Unknown",
+    "address": "Meuse Valley Viewpoints, Unknown"
+  },
+  {
+    "id": "country-be-brussels-avenu-louise",
+    "name": "Avenue Louise",
+    "category": "food",
+    "lat": 50.8559,
+    "lon": 4.3362,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "11 Chaussée de Merchtem - Steenweg op Merchtem"
+  },
+  {
+    "id": "country-be-brussels-basilica-of-the-sacred-heart",
+    "name": "Basilica of the Sacred Heart",
+    "category": "landmarks",
+    "lat": 50.8544,
+    "lon": 4.3558,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "29 Rue de Malines - Mechelsestraat"
+  },
+  {
+    "id": "country-be-brussels-belgian-comic-strip-center",
+    "name": "Belgian Comic Strip Center",
+    "category": "museums",
+    "lat": 50.8372,
+    "lon": 4.3438,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Belgian Comic Strip Center, Brussels"
+  },
+  {
+    "id": "country-be-brussels-bois-de-la-cambre",
+    "name": "Bois de la Cambre",
+    "category": "nature",
+    "lat": 50.8394,
+    "lon": 4.3453,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Bois de la Cambre, Brussels"
+  },
+  {
+    "id": "country-be-brussels-cantillon-brewery",
+    "name": "Cantillon Brewery",
+    "category": "museums",
+    "lat": 50.855,
+    "lon": 4.3613,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Cantillon Brewery, Brussels"
+  },
+  {
+    "id": "country-be-brussels-delirium-alley",
+    "name": "Delirium Alley",
+    "category": "nightlife",
+    "lat": 50.8441,
+    "lon": 4.3427,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Delirium Alley, Brussels"
+  },
+  {
+    "id": "country-be-brussels-eu-quarter",
+    "name": "EU Quarter",
+    "category": "other",
+    "lat": 50.8566,
+    "lon": 4.3725,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "EU Quarter, Brussels"
+  },
+  {
+    "id": "country-be-brussels-galeries-royales-saint-hubert",
+    "name": "Galeries Royales Saint-Hubert",
+    "category": "food",
+    "lat": 50.852,
+    "lon": 4.3437,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Galeries Royales Saint-Hubert, Brussels"
+  },
+  {
+    "id": "country-be-brussels-grand-place",
+    "name": "Grand Place",
+    "category": "landmarks",
+    "lat": 50.8482,
+    "lon": 4.3598,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Grand Place, Brussels"
+  },
+  {
+    "id": "country-be-brussels-ixelles-ponds",
+    "name": "Ixelles Ponds",
+    "category": "nature",
+    "lat": 50.8521,
+    "lon": 4.3318,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Ixelles Ponds, Brussels"
+  },
+  {
+    "id": "country-be-brussels-mont-des-arts",
+    "name": "Mont des Arts",
+    "category": "landmarks",
+    "lat": 50.8419,
+    "lon": 4.3452,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Mont des Arts, Brussels"
+  },
+  {
+    "id": "country-be-brussels-parc-de-bruxelles",
+    "name": "Parc de Bruxelles",
+    "category": "nature",
+    "lat": 50.8378,
+    "lon": 4.3478,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Parc de Bruxelles, Brussels"
+  },
+  {
+    "id": "country-be-brussels-parc-du-cinquantenaire",
+    "name": "Parc du Cinquantenaire",
+    "category": "nature",
+    "lat": 50.8616,
+    "lon": 4.3667,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Parc du Cinquantenaire, Brussels"
+  },
+  {
+    "id": "country-be-brussels-place-flagey",
+    "name": "Place Flagey",
+    "category": "food",
+    "lat": 50.8533,
+    "lon": 4.3295,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Place Flagey, Brussels"
+  },
+  {
+    "id": "country-be-brussels-ru-des-bouchers",
+    "name": "Rue des Bouchers",
+    "category": "food",
+    "lat": 50.852,
+    "lon": 4.36,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Rue des Bouchers, Brussels"
+  },
+  {
+    "id": "country-be-brussels-sablon-square",
+    "name": "Sablon Square",
+    "category": "food",
+    "lat": 50.8537,
+    "lon": 4.3571,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Sablon Square, Brussels"
+  },
+  {
+    "id": "country-be-brussels-saint-gery",
+    "name": "Saint-Gery",
+    "category": "nightlife",
+    "lat": 50.8587,
+    "lon": 4.331,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Saint-Gery, Brussels"
+  },
+  {
+    "id": "country-be-brussels-tour-taxis",
+    "name": "Tour & Taxis",
+    "category": "other",
+    "lat": 50.848,
+    "lon": 4.3305,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Tour & Taxis, Brussels"
+  },
+  {
+    "id": "country-be-brussels-train-world",
+    "name": "Train World",
+    "category": "museums",
+    "lat": 50.8647,
+    "lon": 4.3581,
+    "source": "static",
+    "countryCode": "BE",
+    "city": "Brussels",
+    "address": "Train World, Brussels"
   }
 ]

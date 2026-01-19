@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Barcode Project, Oslo"
   },
   {
     "id": "city-oslo-bygdoy-peninsula",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Bygdoy Peninsula, Oslo"
   },
   {
     "id": "city-oslo-damstredet",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Damstredet, Oslo"
   },
   {
     "id": "city-oslo-ekebergparken",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Ekebergparken, Oslo"
   },
   {
     "id": "city-oslo-fram-museum",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Fram Museum, Oslo"
   },
   {
     "id": "city-oslo-frogner-park",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Frogner Park, Oslo"
   },
   {
     "id": "city-oslo-grunerlokka",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Grunerlokka, Oslo"
   },
   {
     "id": "city-oslo-holmenkollen-ski-jump",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Holmenkollen Ski Jump, Oslo"
   },
   {
     "id": "city-oslo-karl-johans-gate",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Karl Johans gate, Oslo"
   },
   {
     "id": "city-oslo-mathallen-oslo",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Mathallen Oslo, Oslo"
   },
   {
     "id": "city-oslo-munch-museum",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Munch Museum, Oslo"
   },
   {
     "id": "city-oslo-national-museum-oslo",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "National Museum Oslo, Oslo"
   },
   {
     "id": "city-oslo-nobel-peace-center",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Nobel Peace Center, Oslo"
   },
   {
     "id": "city-oslo-norwegian-folk-museum",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Norwegian Folk Museum, Oslo"
   },
   {
     "id": "city-oslo-oslo-opera-house",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Oslo Opera House, Oslo"
   },
   {
     "id": "city-oslo-oslo-street-food",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Oslo Street Food, Oslo"
   },
   {
     "id": "city-oslo-oslofjord-islands-ferry",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Oslofjord Islands Ferry, Oslo"
   },
   {
     "id": "city-oslo-sorenga-seawater-pool",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Sorenga Seawater Pool, Oslo"
   },
   {
     "id": "city-oslo-tjuvholmen",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Tjuvholmen, Oslo"
   },
   {
     "id": "city-oslo-torggata-bars",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Torggata Bars, Oslo"
   },
   {
     "id": "city-oslo-vigeland-sculpture-park",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Vigeland Sculpture Park, Oslo"
   },
   {
     "id": "city-oslo-vulkan-area",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "NO",
     "cityId": "oslo",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Vulkan Area, Oslo"
   }
 ]

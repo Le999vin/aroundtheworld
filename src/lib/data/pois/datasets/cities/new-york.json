@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Broadway Theatre District, New York"
   },
   {
     "id": "city-new-york-brooklyn-bridge",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Brooklyn Bridge, New York"
   },
   {
     "id": "city-new-york-bryant-park",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Bryant Park, New York"
   },
   {
     "id": "city-new-york-central-market-new-york-2",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Central Market (New York) 2, New York"
   },
   {
     "id": "city-new-york-central-park",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Central Park, New York"
   },
   {
     "id": "city-new-york-chelsea-market",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Chelsea Market, New York"
   },
   {
     "id": "city-new-york-chinatown-little-italy",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Chinatown & Little Italy, New York"
   },
   {
     "id": "city-new-york-city-park-new-york-4",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "City Park (New York) 4, New York"
   },
   {
     "id": "city-new-york-coney-island",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Coney Island, New York"
   },
   {
     "id": "city-new-york-dumbo",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "DUMBO, New York"
   },
   {
     "id": "city-new-york-empire-state-building",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Empire State Building, New York"
   },
   {
     "id": "city-new-york-fifth-avenue",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Fifth Avenue, New York"
   },
   {
     "id": "city-new-york-grand-central-terminal",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Grand Central Terminal, New York"
   },
   {
     "id": "city-new-york-greenwich-village",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Greenwich Village, New York"
   },
   {
     "id": "city-new-york-harlem-jazz-apollo-theater",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Harlem Jazz (Apollo Theater), New York"
   },
   {
     "id": "city-new-york-high-line",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "High Line, New York"
   },
   {
     "id": "city-new-york-historic-cathedral-new-york-5",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Historic Cathedral (New York) 5, New York"
   },
   {
     "id": "city-new-york-hudson-yards-vessel",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Hudson Yards / Vessel, New York"
   },
   {
     "id": "city-new-york-koreatown-32nd-street",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Koreatown (32nd Street), New York"
   },
   {
     "id": "city-new-york-local-food-street-new-york-8",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Local Food Street (New York) 8, New York"
   },
   {
     "id": "city-new-york-lower-east-side",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Lower East Side, New York"
   },
   {
     "id": "city-new-york-metropolitan-museum",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Metropolitan Museum of Art, New York"
   },
   {
     "id": "city-new-york-modern-art-gallery-new-york-6",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Modern Art Gallery (New York) 6, New York"
   },
   {
     "id": "city-new-york-moma",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Museum of Modern Art, New York"
   },
   {
     "id": "city-new-york-museum-of-modern-art-moma",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Museum of Modern Art (MoMA), New York"
   },
   {
     "id": "city-new-york-nightlife-district-new-york-7",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Nightlife District (New York) 7, New York"
   },
   {
     "id": "city-new-york-old-town-new-york-1",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Old Town (New York) 1, New York"
   },
   {
     "id": "city-new-york-one-world-observatory",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "One World Observatory, New York"
   },
   {
     "id": "city-new-york-prospect-park",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Prospect Park, New York"
   },
   {
     "id": "city-new-york-riverside-promenade-new-york-3",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Riverside Promenade (New York) 3, New York"
   },
   {
     "id": "city-new-york-rockefeller-center",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Rockefeller Center, New York"
   },
   {
     "id": "city-new-york-statue-of-liberty",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Statue of Liberty, New York"
   },
   {
     "id": "city-new-york-the-metropolitan-museum-of-art",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "The Metropolitan Museum of Art, New York"
   },
   {
     "id": "city-new-york-times-square",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Times Square, New York"
   },
   {
     "id": "city-new-york-top-of-the-rock",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Top of the Rock, New York"
   },
   {
     "id": "city-new-york-west-village",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "West Village, New York"
   },
   {
     "id": "city-new-york-williamsburg",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "US",
     "cityId": "new-york",
-    "city": "New York"
+    "city": "New York",
+    "address": "Williamsburg, New York"
   }
 ]

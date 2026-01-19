@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Drottninggatan, Stockholm"
   },
   {
     "id": "city-stockholm-fotografiska",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Fotografiska, Stockholm"
   },
   {
     "id": "city-stockholm-gamla-stan",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Gamla Stan, Stockholm"
   },
   {
     "id": "city-stockholm-grona-lund",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Grona Lund, Stockholm"
   },
   {
     "id": "city-stockholm-hammarby-sjostad-waterfront",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Hammarby Sjostad Waterfront, Stockholm"
   },
   {
     "id": "city-stockholm-kungstradgarden",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Kungstradgarden, Stockholm"
   },
   {
     "id": "city-stockholm-moderna-museet",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Moderna Museet, Stockholm"
   },
   {
     "id": "city-stockholm-monteliusvagen-viewpoint",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Monteliusvagen Viewpoint, Stockholm"
   },
   {
     "id": "city-stockholm-norrmalm",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Norrmalm, Stockholm"
   },
   {
     "id": "city-stockholm-ostermalm-food-hall",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Ostermalm Food Hall, Stockholm"
   },
   {
     "id": "city-stockholm-riddarholmen-church",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Riddarholmen Church, Stockholm"
   },
   {
     "id": "city-stockholm-royal-palace-stockholm",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Royal Palace Stockholm, Stockholm"
   },
   {
     "id": "city-stockholm-skansen",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Skansen, Stockholm"
   },
   {
     "id": "city-stockholm-skeppsholmen",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Skeppsholmen, Stockholm"
   },
   {
     "id": "city-stockholm-sodermalm",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Sodermalm, Stockholm"
   },
   {
     "id": "city-stockholm-sodermalm-nightlife-streets",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Sodermalm Nightlife Streets, Stockholm"
   },
   {
     "id": "city-stockholm-stockholm-city-hall",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Stockholm City Hall, Stockholm"
   },
   {
     "id": "city-stockholm-stockholm-metro-art",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Stockholm Metro Art, Stockholm"
   },
   {
     "id": "city-stockholm-strandvagen",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Strandvagen, Stockholm"
   },
   {
     "id": "city-stockholm-stureplan",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Stureplan, Stockholm"
   },
   {
     "id": "city-stockholm-vasa-museum",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Vasa Museum, Stockholm"
   },
   {
     "id": "city-stockholm-vasaparken",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "SE",
     "cityId": "stockholm",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Vasaparken, Stockholm"
   }
 ]

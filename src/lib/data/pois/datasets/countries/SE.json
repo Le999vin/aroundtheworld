@@ -7,8 +7,8 @@
     "lon": 18.071,
     "source": "static",
     "countryCode": "SE",
-    "address": "7 Stortorget",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "7 Stortorget"
   },
   {
     "id": "country-se-vasa-museum",
@@ -18,8 +18,8 @@
     "lon": 18.091,
     "source": "static",
     "countryCode": "SE",
-    "address": "Djurgårdsstrand",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Djurgårdsstrand"
   },
   {
     "id": "country-se-skansen-open-air-museum",
@@ -29,8 +29,8 @@
     "lon": 18.1047,
     "source": "static",
     "countryCode": "SE",
-    "address": "Sollidsbacken",
-    "city": "Stockholm"
+    "city": "Stockholm",
+    "address": "Sollidsbacken"
   },
   {
     "id": "country-se-stockholm-city-hall",
@@ -39,7 +39,9 @@
     "lat": 59.3275,
     "lon": 18.0547,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Stockholm City Hall, Stockholm"
   },
   {
     "id": "country-se-drottningholm-palace",
@@ -48,7 +50,9 @@
     "lat": 59.3226,
     "lon": 17.8867,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Drottningholm Palace, Unknown"
   },
   {
     "id": "country-se-gothenburg-haga-district",
@@ -57,7 +61,9 @@
     "lat": 57.701,
     "lon": 11.958,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Gothenburg Haga District, Unknown"
   },
   {
     "id": "country-se-liseberg-amusement-park",
@@ -66,7 +72,9 @@
     "lat": 57.695,
     "lon": 11.992,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Liseberg Amusement Park, Unknown"
   },
   {
     "id": "country-se-malmo-turning-torso",
@@ -75,7 +83,9 @@
     "lat": 55.613,
     "lon": 12.976,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Malmo Turning Torso, Unknown"
   },
   {
     "id": "country-se-kiruna-icehotel-area",
@@ -84,7 +94,9 @@
     "lat": 67.852,
     "lon": 20.226,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Kiruna Icehotel Area, Unknown"
   },
   {
     "id": "country-se-abisko-national-park",
@@ -93,7 +105,9 @@
     "lat": 68.36,
     "lon": 18.78,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Abisko National Park, Unknown"
   },
   {
     "id": "country-se-gotland-visby",
@@ -102,7 +116,9 @@
     "lat": 57.6348,
     "lon": 18.2948,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Gotland Visby, Unknown"
   },
   {
     "id": "country-se-stockholm-archipelago",
@@ -111,7 +127,9 @@
     "lat": 59.35,
     "lon": 18.5,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Stockholm Archipelago, Unknown"
   },
   {
     "id": "country-se-lake-siljan",
@@ -120,7 +138,9 @@
     "lat": 60.95,
     "lon": 14.8,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Lake Siljan, Unknown"
   },
   {
     "id": "country-se-uppsala-cathedral",
@@ -129,7 +149,9 @@
     "lat": 59.8586,
     "lon": 17.6389,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Uppsala Cathedral, Unknown"
   },
   {
     "id": "country-se-moderna-museet-stockholm",
@@ -138,7 +160,9 @@
     "lat": 59.326,
     "lon": 18.086,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Moderna Museet Stockholm, Unknown"
   },
   {
     "id": "country-se-ostermalm-food-hall",
@@ -147,7 +171,9 @@
     "lat": 59.3359,
     "lon": 18.0763,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Ostermalm Food Hall, Stockholm"
   },
   {
     "id": "country-se-fika-cafe-district-sodermalm",
@@ -156,7 +182,9 @@
     "lat": 59.3145,
     "lon": 18.0706,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Fika Cafe District Sodermalm, Unknown"
   },
   {
     "id": "country-se-gothenburg-fish-market-feskekorka",
@@ -165,7 +193,9 @@
     "lat": 57.7048,
     "lon": 11.9591,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Gothenburg Fish Market (Feskekorka), Unknown"
   },
   {
     "id": "country-se-stureplan",
@@ -174,7 +204,9 @@
     "lat": 59.3347,
     "lon": 18.072,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Stureplan, Stockholm"
   },
   {
     "id": "country-se-sodermalm-bars",
@@ -183,7 +215,9 @@
     "lat": 59.3145,
     "lon": 18.0706,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Sodermalm Bars, Unknown"
   },
   {
     "id": "country-se-tr-dg-rden-club",
@@ -192,7 +226,9 @@
     "lat": 59.316,
     "lon": 18.08,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Trädgården Club, Unknown"
   },
   {
     "id": "country-se-royal-swedish-opera",
@@ -201,7 +237,9 @@
     "lat": 59.3302,
     "lon": 18.0721,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Royal Swedish Opera, Unknown"
   },
   {
     "id": "country-se-kungsleden-trail-access",
@@ -210,7 +248,9 @@
     "lat": 67.852,
     "lon": 20.226,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Kungsleden Trail Access, Unknown"
   },
   {
     "id": "country-se-ales-stones",
@@ -219,7 +259,9 @@
     "lat": 55.381,
     "lon": 14.056,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "Ales Stones, Unknown"
   },
   {
     "id": "country-se-high-coast-hoga-kusten",
@@ -228,6 +270,239 @@
     "lat": 63.15,
     "lon": 18.3,
     "source": "static",
-    "countryCode": "SE"
+    "countryCode": "SE",
+    "city": "Unknown",
+    "address": "High Coast (Hoga Kusten), Unknown"
+  },
+  {
+    "id": "country-se-stockholm-abba-the-museum",
+    "name": "ABBA The Museum",
+    "category": "museums",
+    "lat": 59.3155,
+    "lon": 18.0591,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "31A-D Maria Prästgårdsgata"
+  },
+  {
+    "id": "country-se-stockholm-avicii-arena-area",
+    "name": "Avicii Arena Area",
+    "category": "landmarks",
+    "lat": 59.3146,
+    "lon": 18.0666,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Bangårdsgången"
+  },
+  {
+    "id": "country-se-stockholm-djurgarden",
+    "name": "Djurgarden",
+    "category": "nature",
+    "lat": 59.3381,
+    "lon": 18.04,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "2B Atlasgatan"
+  },
+  {
+    "id": "country-se-stockholm-drottninggatan",
+    "name": "Drottninggatan",
+    "category": "food",
+    "lat": 59.3219,
+    "lon": 18.0519,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Drottninggatan, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-fotografiska",
+    "name": "Fotografiska",
+    "category": "museums",
+    "lat": 59.3349,
+    "lon": 18.0788,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Fotografiska, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-gamla-stan-2",
+    "name": "Gamla Stan",
+    "category": "landmarks",
+    "lat": 59.3335,
+    "lon": 18.0908,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Gamla Stan, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-grona-lund",
+    "name": "Grona Lund",
+    "category": "other",
+    "lat": 59.3295,
+    "lon": 18.0412,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Grona Lund, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-hammarby-sjostad-waterfront",
+    "name": "Hammarby Sjostad Waterfront",
+    "category": "nature",
+    "lat": 59.3295,
+    "lon": 18.0715,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Hammarby Sjostad Waterfront, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-kungstradgarden",
+    "name": "Kungstradgarden",
+    "category": "nature",
+    "lat": 59.324,
+    "lon": 18.0432,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Kungstradgarden, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-moderna-museet",
+    "name": "Moderna Museet",
+    "category": "museums",
+    "lat": 59.3399,
+    "lon": 18.0798,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Moderna Museet, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-monteliusvagen-viewpoint",
+    "name": "Monteliusvagen Viewpoint",
+    "category": "nature",
+    "lat": 59.34,
+    "lon": 18.0864,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Monteliusvagen Viewpoint, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-norrmalm",
+    "name": "Norrmalm",
+    "category": "food",
+    "lat": 59.3306,
+    "lon": 18.0624,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Norrmalm, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-riddarholmen-church",
+    "name": "Riddarholmen Church",
+    "category": "landmarks",
+    "lat": 59.316,
+    "lon": 18.0458,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Riddarholmen Church, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-royal-palace-stockholm",
+    "name": "Royal Palace Stockholm",
+    "category": "landmarks",
+    "lat": 59.3407,
+    "lon": 18.0549,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Royal Palace Stockholm, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-skansen",
+    "name": "Skansen",
+    "category": "museums",
+    "lat": 59.3144,
+    "lon": 18.0643,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Skansen, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-skeppsholmen",
+    "name": "Skeppsholmen",
+    "category": "nature",
+    "lat": 59.3177,
+    "lon": 18.0864,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Skeppsholmen, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-sodermalm",
+    "name": "Sodermalm",
+    "category": "food",
+    "lat": 59.3345,
+    "lon": 18.0398,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Sodermalm, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-sodermalm-nightlife-streets",
+    "name": "Sodermalm Nightlife Streets",
+    "category": "nightlife",
+    "lat": 59.3403,
+    "lon": 18.0662,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Sodermalm Nightlife Streets, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-stockholm-metro-art",
+    "name": "Stockholm Metro Art",
+    "category": "museums",
+    "lat": 59.3373,
+    "lon": 18.07,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Stockholm Metro Art, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-strandvagen",
+    "name": "Strandvagen",
+    "category": "food",
+    "lat": 59.3288,
+    "lon": 18.0752,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Strandvagen, Stockholm"
+  },
+  {
+    "id": "country-se-stockholm-vasaparken",
+    "name": "Vasaparken",
+    "category": "nature",
+    "lat": 59.3332,
+    "lon": 18.086,
+    "source": "static",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Vasaparken, Stockholm"
   }
 ]

@@ -32,8 +32,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "address": "46-48 Rue du Faubourg Saint-Antoine",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "46-48 Rue du Faubourg Saint-Antoine"
   },
   {
     "id": "city-paris-canal-saint-martin",
@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Canal Saint-Martin, Paris"
   },
   {
     "id": "city-paris-central-market-paris-2",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Central Market (Paris) 2, Paris"
   },
   {
     "id": "city-paris-centre-pompidou",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Centre Pompidou, Paris"
   },
   {
     "id": "city-paris-champs-elysees",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Champs-Elysees, Paris"
   },
   {
     "id": "city-paris-city-park-paris-4",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "City Park (Paris) 4, Paris"
   },
   {
     "id": "city-paris-eiffel-tower",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Eiffel Tower, Paris"
   },
   {
     "id": "city-paris-historic-cathedral-paris-5",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Historic Cathedral (Paris) 5, Paris"
   },
   {
     "id": "city-paris-latin-quarter",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Latin Quarter, Paris"
   },
   {
     "id": "city-paris-latin-quarter-nightlife",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Latin Quarter Nightlife, Paris"
   },
   {
     "id": "city-paris-le-marais",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Le Marais, Paris"
   },
   {
     "id": "city-paris-local-food-street-paris-8",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Local Food Street (Paris) 8, Paris"
   },
   {
     "id": "city-paris-louvre",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Louvre, Paris"
   },
   {
     "id": "city-paris-luxembourg-gardens",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Luxembourg Gardens, Paris"
   },
   {
     "id": "city-paris-marais-nightlife",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Marais Bars & Clubs, Paris"
   },
   {
     "id": "city-paris-marche-des-enfants-rouges",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Marché des Enfants Rouges, Paris"
   },
   {
     "id": "city-paris-modern-art-gallery-paris-6",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Modern Art Gallery (Paris) 6, Paris"
   },
   {
     "id": "city-paris-montmartre",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Montmartre / Sacre-Coeur, Paris"
   },
   {
     "id": "city-paris-montparnasse-tower-viewpoint",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Montparnasse Tower Viewpoint, Paris"
   },
   {
     "id": "city-paris-moulin-rouge",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Moulin Rouge, Paris"
   },
   {
     "id": "city-paris-musee-d-orsay",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Musee d'Orsay, Paris"
   },
   {
     "id": "city-paris-nightlife-district-paris-7",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Nightlife District (Paris) 7, Paris"
   },
   {
     "id": "city-paris-notre-dame-area",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Notre-Dame Area, Paris"
   },
   {
     "id": "city-paris-oberkampf",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Oberkampf, Paris"
   },
   {
     "id": "city-paris-old-town-paris-1",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Old Town (Paris) 1, Paris"
   },
   {
     "id": "city-paris-palais-garnier",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Palais Garnier, Paris"
   },
   {
     "id": "city-paris-pere-lachaise-cemetery",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Père Lachaise Cemetery, Paris"
   },
   {
     "id": "city-paris-pere-lachaise-cemetery-2",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Pere Lachaise Cemetery, Paris"
   },
   {
     "id": "city-paris-pigalle",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Pigalle District, Paris"
   },
   {
     "id": "city-paris-place-de-la-concorde",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Place de la Concorde, Paris"
   },
   {
     "id": "city-paris-riverside-promenade-paris-3",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Riverside Promenade (Paris) 3, Paris"
   },
   {
     "id": "city-paris-rodin-museum",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Rodin Museum, Paris"
   },
   {
     "id": "city-paris-rue-cler",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Rue Cler, Paris"
   },
   {
     "id": "city-paris-rue-montorgueil",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Rue Montorgueil, Paris"
   },
   {
     "id": "city-paris-saint-germain-des-pres",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Saint-Germain-des-Prés, Paris"
   },
   {
     "id": "city-paris-saint-germain-des-pres-2",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Saint-Germain-des-Pres, Paris"
   },
   {
     "id": "city-paris-sainte-chapelle",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Sainte-Chapelle, Paris"
   },
   {
     "id": "city-paris-seine-river-walk",
@@ -440,7 +476,8 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Seine River Walk, Paris"
   },
   {
     "id": "city-paris-trocadero",
@@ -451,6 +488,7 @@
     "source": "static",
     "countryCode": "FR",
     "cityId": "paris",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Trocadero, Paris"
   }
 ]

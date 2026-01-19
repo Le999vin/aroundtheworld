@@ -7,8 +7,8 @@
     "lon": 10.7532,
     "source": "static",
     "countryCode": "NO",
-    "address": "Operagata",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Operagata"
   },
   {
     "id": "country-no-vigeland-sculpture-park",
@@ -18,8 +18,8 @@
     "lon": 10.7007,
     "source": "static",
     "countryCode": "NO",
-    "address": "Madserud allé",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Madserud allé"
   },
   {
     "id": "country-no-akershus-fortress",
@@ -29,8 +29,8 @@
     "lon": 10.7365,
     "source": "static",
     "countryCode": "NO",
-    "address": "Operatunnelen / Festningstunnelen",
-    "city": "Oslo"
+    "city": "Oslo",
+    "address": "Operatunnelen / Festningstunnelen"
   },
   {
     "id": "country-no-bergen-bryggen",
@@ -39,7 +39,9 @@
     "lat": 60.3971,
     "lon": 5.3244,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Bergen Bryggen, Unknown"
   },
   {
     "id": "country-no-flam-railway",
@@ -48,7 +50,9 @@
     "lat": 60.863,
     "lon": 7.113,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Flam Railway, Unknown"
   },
   {
     "id": "country-no-geirangerfjord",
@@ -57,7 +61,9 @@
     "lat": 62.1015,
     "lon": 7.2056,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Geirangerfjord, Unknown"
   },
   {
     "id": "country-no-n-r-yfjord-viewpoints",
@@ -66,7 +72,9 @@
     "lat": 60.923,
     "lon": 6.848,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Nærøyfjord Viewpoints, Unknown"
   },
   {
     "id": "country-no-trolltunga",
@@ -75,7 +83,9 @@
     "lat": 60.124,
     "lon": 6.74,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Trolltunga, Unknown"
   },
   {
     "id": "country-no-preikestolen",
@@ -84,7 +94,9 @@
     "lat": 58.986,
     "lon": 6.19,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Preikestolen, Unknown"
   },
   {
     "id": "country-no-lofoten-islands",
@@ -93,7 +105,9 @@
     "lat": 68.154,
     "lon": 13.586,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Lofoten Islands, Unknown"
   },
   {
     "id": "country-no-tromso-arctic-cathedral",
@@ -102,7 +116,9 @@
     "lat": 69.6489,
     "lon": 18.9873,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Tromso Arctic Cathedral, Unknown"
   },
   {
     "id": "country-no-north-cape",
@@ -111,7 +127,9 @@
     "lat": 71.171,
     "lon": 25.784,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "North Cape, Unknown"
   },
   {
     "id": "country-no-stavanger-old-town",
@@ -120,7 +138,9 @@
     "lat": 58.972,
     "lon": 5.733,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Stavanger Old Town, Unknown"
   },
   {
     "id": "country-no-kjeragbolten",
@@ -129,7 +149,9 @@
     "lat": 59.04,
     "lon": 6.59,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Kjeragbolten, Unknown"
   },
   {
     "id": "country-no-munch-museum",
@@ -138,7 +160,9 @@
     "lat": 59.91,
     "lon": 10.76,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Munch Museum, Oslo"
   },
   {
     "id": "country-no-viking-ship-museum-area",
@@ -147,7 +171,9 @@
     "lat": 59.9048,
     "lon": 10.6846,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Viking Ship Museum Area, Unknown"
   },
   {
     "id": "country-no-mathallen-oslo",
@@ -156,7 +182,9 @@
     "lat": 59.9229,
     "lon": 10.7506,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Mathallen Oslo, Oslo"
   },
   {
     "id": "country-no-bergen-fish-market",
@@ -165,7 +193,9 @@
     "lat": 60.3946,
     "lon": 5.3233,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Bergen Fish Market, Unknown"
   },
   {
     "id": "country-no-trondheim-bakklandet",
@@ -174,7 +204,9 @@
     "lat": 63.4306,
     "lon": 10.3951,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Trondheim Bakklandet, Unknown"
   },
   {
     "id": "country-no-aker-brygge",
@@ -183,7 +215,9 @@
     "lat": 59.911,
     "lon": 10.727,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Aker Brygge, Unknown"
   },
   {
     "id": "country-no-the-villa-oslo",
@@ -192,7 +226,9 @@
     "lat": 59.914,
     "lon": 10.752,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "The Villa Oslo, Unknown"
   },
   {
     "id": "country-no-bergen-nightlife-district",
@@ -201,7 +237,9 @@
     "lat": 60.3946,
     "lon": 5.324,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Bergen Nightlife District, Unknown"
   },
   {
     "id": "country-no-sognefjord-scenic-route",
@@ -210,7 +248,9 @@
     "lat": 61.2,
     "lon": 7.2,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Sognefjord Scenic Route, Unknown"
   },
   {
     "id": "country-no-jotunheimen-national-park",
@@ -219,7 +259,9 @@
     "lat": 61.6,
     "lon": 8.3,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Jotunheimen National Park, Unknown"
   },
   {
     "id": "country-no-roros-historic-town",
@@ -228,6 +270,228 @@
     "lat": 62.574,
     "lon": 11.385,
     "source": "static",
-    "countryCode": "NO"
+    "countryCode": "NO",
+    "city": "Unknown",
+    "address": "Roros Historic Town, Unknown"
+  },
+  {
+    "id": "country-no-oslo-aker-brygge",
+    "name": "Aker Brygge",
+    "category": "food",
+    "lat": 59.9088,
+    "lon": 10.729,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Stranden"
+  },
+  {
+    "id": "country-no-oslo-akerselva-river-walk",
+    "name": "Akerselva River Walk",
+    "category": "nature",
+    "lat": 59.9118,
+    "lon": 10.7573,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "162;Ring 1"
+  },
+  {
+    "id": "country-no-oslo-bygdoy-peninsula",
+    "name": "Bygdoy Peninsula",
+    "category": "nature",
+    "lat": 59.9033,
+    "lon": 10.7504,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Bygdoy Peninsula, Oslo"
+  },
+  {
+    "id": "country-no-oslo-damstredet",
+    "name": "Damstredet",
+    "category": "landmarks",
+    "lat": 59.9273,
+    "lon": 10.7391,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Damstredet, Oslo"
+  },
+  {
+    "id": "country-no-oslo-ekebergparken",
+    "name": "Ekebergparken",
+    "category": "nature",
+    "lat": 59.9076,
+    "lon": 10.7387,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Ekebergparken, Oslo"
+  },
+  {
+    "id": "country-no-oslo-fram-museum",
+    "name": "Fram Museum",
+    "category": "museums",
+    "lat": 59.8996,
+    "lon": 10.7737,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Fram Museum, Oslo"
+  },
+  {
+    "id": "country-no-oslo-frogner-park",
+    "name": "Frogner Park",
+    "category": "nature",
+    "lat": 59.9078,
+    "lon": 10.7622,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Frogner Park, Oslo"
+  },
+  {
+    "id": "country-no-oslo-grunerlokka",
+    "name": "Grunerlokka",
+    "category": "nightlife",
+    "lat": 59.9195,
+    "lon": 10.7422,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Grunerlokka, Oslo"
+  },
+  {
+    "id": "country-no-oslo-holmenkollen-ski-jump",
+    "name": "Holmenkollen Ski Jump",
+    "category": "landmarks",
+    "lat": 59.9179,
+    "lon": 10.7705,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Holmenkollen Ski Jump, Oslo"
+  },
+  {
+    "id": "country-no-oslo-karl-johans-gate",
+    "name": "Karl Johans gate",
+    "category": "food",
+    "lat": 59.9057,
+    "lon": 10.764,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Karl Johans gate, Oslo"
+  },
+  {
+    "id": "country-no-oslo-national-museum-oslo",
+    "name": "National Museum Oslo",
+    "category": "museums",
+    "lat": 59.9054,
+    "lon": 10.7274,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "National Museum Oslo, Oslo"
+  },
+  {
+    "id": "country-no-oslo-nobel-peace-center",
+    "name": "Nobel Peace Center",
+    "category": "museums",
+    "lat": 59.9202,
+    "lon": 10.779,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Nobel Peace Center, Oslo"
+  },
+  {
+    "id": "country-no-oslo-norwegian-folk-museum",
+    "name": "Norwegian Folk Museum",
+    "category": "museums",
+    "lat": 59.915,
+    "lon": 10.7263,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Norwegian Folk Museum, Oslo"
+  },
+  {
+    "id": "country-no-oslo-oslo-street-food",
+    "name": "Oslo Street Food",
+    "category": "food",
+    "lat": 59.9178,
+    "lon": 10.7467,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Oslo Street Food, Oslo"
+  },
+  {
+    "id": "country-no-oslo-oslofjord-islands-ferry",
+    "name": "Oslofjord Islands Ferry",
+    "category": "nature",
+    "lat": 59.9094,
+    "lon": 10.7479,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Oslofjord Islands Ferry, Oslo"
+  },
+  {
+    "id": "country-no-oslo-sorenga-seawater-pool",
+    "name": "Sorenga Seawater Pool",
+    "category": "nature",
+    "lat": 59.8997,
+    "lon": 10.7444,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Sorenga Seawater Pool, Oslo"
+  },
+  {
+    "id": "country-no-oslo-tjuvholmen",
+    "name": "Tjuvholmen",
+    "category": "food",
+    "lat": 59.9257,
+    "lon": 10.7512,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Tjuvholmen, Oslo"
+  },
+  {
+    "id": "country-no-oslo-torggata-bars",
+    "name": "Torggata Bars",
+    "category": "nightlife",
+    "lat": 59.9282,
+    "lon": 10.7816,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Torggata Bars, Oslo"
+  },
+  {
+    "id": "country-no-oslo-vigeland-sculpture-park",
+    "name": "Vigeland Sculpture Park",
+    "category": "nature",
+    "lat": 59.9072,
+    "lon": 10.7267,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Vigeland Sculpture Park, Oslo"
+  },
+  {
+    "id": "country-no-oslo-vulkan-area",
+    "name": "Vulkan Area",
+    "category": "nightlife",
+    "lat": 59.9133,
+    "lon": 10.7431,
+    "source": "static",
+    "countryCode": "NO",
+    "city": "Oslo",
+    "address": "Vulkan Area, Oslo"
   }
 ]

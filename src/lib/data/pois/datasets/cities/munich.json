@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "BMW Museum, Munich"
   },
   {
     "id": "city-munich-central-market-munich-2",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Central Market (Munich) 2, Munich"
   },
   {
     "id": "city-munich-chinesischer-turm-beer-garden",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Chinesischer Turm Beer Garden, Munich"
   },
   {
     "id": "city-munich-city-park-munich-4",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "City Park (Munich) 4, Munich"
   },
   {
     "id": "city-munich-deutsches-museum",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Deutsches Museum, Munich"
   },
   {
     "id": "city-munich-eisbach-wave",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Eisbach Wave, Munich"
   },
   {
     "id": "city-munich-eisbachwelle",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Eisbachwelle, Munich"
   },
   {
     "id": "city-munich-english-garden",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "English Garden, Munich"
   },
   {
     "id": "city-munich-frauenkirche",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Frauenkirche, Munich"
   },
   {
     "id": "city-munich-gartnerplatz",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Gärtnerplatz, Munich"
   },
   {
     "id": "city-munich-gasteig-cultural-center",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Gasteig Cultural Center, Munich"
   },
   {
     "id": "city-munich-giesing-neighborhood",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Giesing Neighborhood, Munich"
   },
   {
     "id": "city-munich-glockenbachviertel",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Glockenbachviertel, Munich"
   },
   {
     "id": "city-munich-hellabrunn-zoo",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Hellabrunn Zoo, Munich"
   },
   {
     "id": "city-munich-hirschgarten",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Hirschgarten, Munich"
   },
   {
     "id": "city-munich-historic-cathedral-munich-5",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Historic Cathedral (Munich) 5, Munich"
   },
   {
     "id": "city-munich-hofbraeuhaus",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Hofbraeuhaus, Munich"
   },
   {
     "id": "city-munich-hofbrauhaus",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Hofbrauhaus, Munich"
   },
   {
     "id": "city-munich-isar-river-flaucher",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Isar River (Flaucher), Munich"
   },
   {
     "id": "city-munich-isar-river-walks",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Isar River Walks, Munich"
   },
   {
     "id": "city-munich-karlsplatz-stachus",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Karlsplatz (Stachus), Munich"
   },
   {
     "id": "city-munich-marienplatz",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Marienplatz, Munich"
   },
   {
     "id": "city-munich-maximilianstrasse",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Maximilianstrasse, Munich"
   },
   {
     "id": "city-munich-modern-art-gallery-munich-6",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Modern Art Gallery (Munich) 6, Munich"
   },
   {
     "id": "city-munich-nightlife-district-munich-7",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Nightlife District (Munich) 7, Munich"
   },
   {
     "id": "city-munich-nymphenburg-palace",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Nymphenburg Palace, Munich"
   },
   {
     "id": "city-munich-odeonsplatz",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Odeonsplatz, Munich"
   },
   {
     "id": "city-munich-old-town-munich-1",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Old Town (Munich) 1, Munich"
   },
   {
     "id": "city-munich-olympiapark",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Olympiapark, Munich"
   },
   {
     "id": "city-munich-olympiaturm-viewpoint",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Olympiaturm Viewpoint, Munich"
   },
   {
     "id": "city-munich-olympic-tower",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Olympic Tower, Munich"
   },
   {
     "id": "city-munich-pinakothek-der-moderne",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Pinakothek der Moderne, Munich"
   },
   {
     "id": "city-munich-residenz",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Munich Residenz, Munich"
   },
   {
     "id": "city-munich-riverside-promenade-munich-3",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Riverside Promenade (Munich) 3, Munich"
   },
   {
     "id": "city-munich-sendlinger-tor",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Sendlinger Tor, Munich"
   },
   {
     "id": "city-munich-theresienwiese",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Theresienwiese, Munich"
   },
   {
     "id": "city-munich-viktualienmarkt",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "munich",
-    "city": "Munich"
+    "city": "Munich",
+    "address": "Viktualienmarkt, Munich"
   }
 ]

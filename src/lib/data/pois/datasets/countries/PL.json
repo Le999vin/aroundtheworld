@@ -7,8 +7,8 @@
     "lon": 19.9368,
     "source": "static",
     "countryCode": "PL",
-    "address": "Main Market Square",
-    "city": "Krakow"
+    "city": "Krakow",
+    "address": "Main Market Square"
   },
   {
     "id": "country-pl-wawel-castle",
@@ -18,8 +18,8 @@
     "lon": 19.9352,
     "source": "static",
     "countryCode": "PL",
-    "address": "1 Old Town",
-    "city": "Krakow"
+    "city": "Krakow",
+    "address": "1 Old Town"
   },
   {
     "id": "country-pl-kazimierz-district",
@@ -29,8 +29,8 @@
     "lon": 19.944,
     "source": "static",
     "countryCode": "PL",
-    "address": "1 Plac Wolnica",
-    "city": "Krakow"
+    "city": "Krakow",
+    "address": "1 Plac Wolnica"
   },
   {
     "id": "country-pl-auschwitz-birkenau-memorial",
@@ -39,7 +39,9 @@
     "lat": 50.0359,
     "lon": 19.1783,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Auschwitz-Birkenau Memorial, Unknown"
   },
   {
     "id": "country-pl-warsaw-old-town",
@@ -48,7 +50,9 @@
     "lat": 52.2498,
     "lon": 21.0122,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Warsaw Old Town, Unknown"
   },
   {
     "id": "country-pl-palace-of-culture-and-science",
@@ -57,7 +61,9 @@
     "lat": 52.2318,
     "lon": 21.0067,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Palace of Culture and Science, Warsaw"
   },
   {
     "id": "country-pl-lazienki-park",
@@ -66,7 +72,9 @@
     "lat": 52.2147,
     "lon": 21.0339,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Lazienki Park, Warsaw"
   },
   {
     "id": "country-pl-gdansk-main-town",
@@ -75,7 +83,9 @@
     "lat": 54.352,
     "lon": 18.6466,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Gdansk Main Town, Unknown"
   },
   {
     "id": "country-pl-sopot-pier",
@@ -84,7 +94,9 @@
     "lat": 54.4416,
     "lon": 18.5601,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Sopot Pier, Unknown"
   },
   {
     "id": "country-pl-wroclaw-market-square",
@@ -93,7 +105,9 @@
     "lat": 51.109,
     "lon": 17.0325,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Wroclaw Market Square, Unknown"
   },
   {
     "id": "country-pl-poznan-old-town",
@@ -102,7 +116,9 @@
     "lat": 52.408,
     "lon": 16.9335,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Poznan Old Town, Unknown"
   },
   {
     "id": "country-pl-zakopane-tatra-gateway",
@@ -111,7 +127,9 @@
     "lat": 49.2992,
     "lon": 19.9496,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Zakopane Tatra Gateway, Unknown"
   },
   {
     "id": "country-pl-tatra-national-park",
@@ -120,7 +138,9 @@
     "lat": 49.25,
     "lon": 19.98,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Tatra National Park, Unknown"
   },
   {
     "id": "country-pl-bialowieza-forest",
@@ -129,7 +149,9 @@
     "lat": 52.7,
     "lon": 23.9,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Bialowieza Forest, Unknown"
   },
   {
     "id": "country-pl-malbork-castle",
@@ -138,7 +160,9 @@
     "lat": 54.04,
     "lon": 19.03,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Malbork Castle, Unknown"
   },
   {
     "id": "country-pl-wieliczka-salt-mine",
@@ -147,7 +171,9 @@
     "lat": 49.983,
     "lon": 20.055,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Wieliczka Salt Mine, Unknown"
   },
   {
     "id": "country-pl-copernicus-science-centre",
@@ -156,7 +182,9 @@
     "lat": 52.241,
     "lon": 21.028,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "1 Plac Powstańców Warszawy"
   },
   {
     "id": "country-pl-polin-museum-of-polish-jews",
@@ -165,7 +193,9 @@
     "lat": 52.249,
     "lon": 20.993,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "POLIN Museum of Polish Jews, Unknown"
   },
   {
     "id": "country-pl-st-marys-basilica-krakow",
@@ -174,7 +204,9 @@
     "lat": 50.0616,
     "lon": 19.939,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "St. Mary's Basilica Krakow, Unknown"
   },
   {
     "id": "country-pl-hala-koszyki-food-hall",
@@ -183,7 +215,9 @@
     "lat": 52.2224,
     "lon": 21.0126,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Hala Koszyki Food Hall, Unknown"
   },
   {
     "id": "country-pl-warsaw-pawilony",
@@ -192,7 +226,9 @@
     "lat": 52.234,
     "lon": 21.012,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Warsaw Pawilony, Unknown"
   },
   {
     "id": "country-pl-krakow-club-district",
@@ -201,7 +237,9 @@
     "lat": 50.0619,
     "lon": 19.9368,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Krakow Club District, Unknown"
   },
   {
     "id": "country-pl-gdansk-nightlife-dluga-street",
@@ -210,7 +248,9 @@
     "lat": 54.3522,
     "lon": 18.6464,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Gdansk Nightlife (Dluga Street), Unknown"
   },
   {
     "id": "country-pl-masurian-lake-district",
@@ -219,7 +259,9 @@
     "lat": 53.8,
     "lon": 21.5,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Masurian Lake District, Unknown"
   },
   {
     "id": "country-pl-slowinski-national-park-dunes",
@@ -228,6 +270,250 @@
     "lat": 54.745,
     "lon": 17.247,
     "source": "static",
-    "countryCode": "PL"
+    "countryCode": "PL",
+    "city": "Unknown",
+    "address": "Slowinski National Park Dunes, Unknown"
+  },
+  {
+    "id": "country-pl-warsaw-chopin-museum",
+    "name": "Chopin Museum",
+    "category": "museums",
+    "lat": 52.2368,
+    "lon": 20.9958,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "23 Aleja Jana Pawła II"
+  },
+  {
+    "id": "country-pl-warsaw-hala-koszyki",
+    "name": "Hala Koszyki",
+    "category": "food",
+    "lat": 52.2267,
+    "lon": 21.0314,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Aleja Tadeusza Konwickiego"
+  },
+  {
+    "id": "country-pl-warsaw-krakowskie-przedmiescie",
+    "name": "Krakowskie Przedmiescie",
+    "category": "landmarks",
+    "lat": 52.2378,
+    "lon": 21.0084,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Krakowskie Przedmiescie, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-multimedia-fountain-park",
+    "name": "Multimedia Fountain Park",
+    "category": "nature",
+    "lat": 52.2232,
+    "lon": 21.0243,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Multimedia Fountain Park, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-museum-of-modern-art-warsaw",
+    "name": "Museum of Modern Art Warsaw",
+    "category": "museums",
+    "lat": 52.2444,
+    "lon": 21.0061,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Museum of Modern Art Warsaw, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-neon-museum",
+    "name": "Neon Museum",
+    "category": "museums",
+    "lat": 52.2166,
+    "lon": 20.996,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Neon Museum, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-nowy-swiat-street",
+    "name": "Nowy Swiat Street",
+    "category": "food",
+    "lat": 52.2358,
+    "lon": 21.0356,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Nowy Swiat Street, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-old-town-2",
+    "name": "Old Town",
+    "category": "landmarks",
+    "lat": 52.2268,
+    "lon": 21.0301,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Old Town, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-pawilony-nowy-swiat",
+    "name": "Pawilony Nowy Swiat",
+    "category": "nightlife",
+    "lat": 52.239,
+    "lon": 21.0015,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Pawilony Nowy Swiat, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-pge-narodowy",
+    "name": "PGE Narodowy",
+    "category": "landmarks",
+    "lat": 52.2269,
+    "lon": 21.0012,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "PGE Narodowy, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-plac-bankowy",
+    "name": "Plac Bankowy",
+    "category": "landmarks",
+    "lat": 52.2162,
+    "lon": 21.0287,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Plac Bankowy, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-plac-zbawiciela",
+    "name": "Plac Zbawiciela",
+    "category": "nightlife",
+    "lat": 52.2195,
+    "lon": 20.9957,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Plac Zbawiciela, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-polin-museum",
+    "name": "POLIN Museum",
+    "category": "museums",
+    "lat": 52.229,
+    "lon": 21.0214,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "POLIN Museum, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-powazki-cemetery",
+    "name": "Powazki Cemetery",
+    "category": "landmarks",
+    "lat": 52.2279,
+    "lon": 20.9979,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Powazki Cemetery, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-praga-district",
+    "name": "Praga District",
+    "category": "nightlife",
+    "lat": 52.2299,
+    "lon": 20.9904,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Praga District, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-royal-castle",
+    "name": "Royal Castle",
+    "category": "landmarks",
+    "lat": 52.2304,
+    "lon": 20.9974,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Royal Castle, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-saxon-garden",
+    "name": "Saxon Garden",
+    "category": "nature",
+    "lat": 52.2187,
+    "lon": 20.9916,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Saxon Garden, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-vistula-boulevards",
+    "name": "Vistula Boulevards",
+    "category": "nature",
+    "lat": 52.2362,
+    "lon": 21.0122,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Vistula Boulevards, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-warsaw-barbican",
+    "name": "Warsaw Barbican",
+    "category": "landmarks",
+    "lat": 52.2152,
+    "lon": 21.0223,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Warsaw Barbican, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-warsaw-river-beaches",
+    "name": "Warsaw River Beaches",
+    "category": "nature",
+    "lat": 52.2397,
+    "lon": 21.0044,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Warsaw River Beaches, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-warsaw-uprising-museum",
+    "name": "Warsaw Uprising Museum",
+    "category": "museums",
+    "lat": 52.2177,
+    "lon": 21.0069,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Warsaw Uprising Museum, Warsaw"
+  },
+  {
+    "id": "country-pl-warsaw-wilanow-palace",
+    "name": "Wilanow Palace",
+    "category": "landmarks",
+    "lat": 52.2179,
+    "lon": 21.0218,
+    "source": "static",
+    "countryCode": "PL",
+    "city": "Warsaw",
+    "address": "Wilanow Palace, Warsaw"
   }
 ]

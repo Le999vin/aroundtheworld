@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Dancing House, Prague"
   },
   {
     "id": "city-prague-havelske-market",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Havelske Market, Prague"
   },
   {
     "id": "city-prague-jewish-quarter",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Jewish Quarter, Prague"
   },
   {
     "id": "city-prague-kampa-island",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Kampa Island, Prague"
   },
   {
     "id": "city-prague-lennon-wall",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Lennon Wall, Prague"
   },
   {
     "id": "city-prague-letna-park-viewpoint",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Letna Park Viewpoint, Prague"
   },
   {
     "id": "city-prague-mala-strana",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Mala Strana, Prague"
   },
   {
     "id": "city-prague-municipal-house",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Municipal House, Prague"
   },
   {
     "id": "city-prague-naplavka-riverfront",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Naplavka Riverfront, Prague"
   },
   {
     "id": "city-prague-national-museum-prague",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "National Museum Prague, Prague"
   },
   {
     "id": "city-prague-old-town-pubs",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Old Town Pubs, Prague"
   },
   {
     "id": "city-prague-old-town-square",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Old Town Square, Prague"
   },
   {
     "id": "city-prague-petrin-hill-tower",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Petrin Hill & Tower, Prague"
   },
   {
     "id": "city-prague-prague-beer-gardens",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Prague Beer Gardens, Prague"
   },
   {
     "id": "city-prague-prague-castle",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Prague Castle, Prague"
   },
   {
     "id": "city-prague-rudolfinum",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Rudolfinum, Prague"
   },
   {
     "id": "city-prague-st-vitus-cathedral",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "St. Vitus Cathedral, Prague"
   },
   {
     "id": "city-prague-strahov-library",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Strahov Library, Prague"
   },
   {
     "id": "city-prague-stromovka-park",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Stromovka Park, Prague"
   },
   {
     "id": "city-prague-vysehrad",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Vysehrad, Prague"
   },
   {
     "id": "city-prague-wenceslas-square",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Wenceslas Square, Prague"
   },
   {
     "id": "city-prague-zizkov-bars",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "CZ",
     "cityId": "prague",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Zizkov Bars, Prague"
   }
 ]

@@ -7,8 +7,8 @@
     "lon": 12.593,
     "source": "static",
     "countryCode": "DK",
-    "address": "Nyhavn",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Nyhavn"
   },
   {
     "id": "country-dk-tivoli-gardens",
@@ -18,8 +18,8 @@
     "lon": 12.5681,
     "source": "static",
     "countryCode": "DK",
-    "address": "H.C. Andersens Boulevard",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "H.C. Andersens Boulevard"
   },
   {
     "id": "country-dk-the-little-mermaid",
@@ -29,8 +29,8 @@
     "lon": 12.5993,
     "source": "static",
     "countryCode": "DK",
-    "address": "Langelinie",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Langelinie"
   },
   {
     "id": "country-dk-rosenborg-castle",
@@ -39,7 +39,9 @@
     "lat": 55.6854,
     "lon": 12.577,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Rosenborg Castle, Copenhagen"
   },
   {
     "id": "country-dk-christiansborg-palace",
@@ -48,7 +50,9 @@
     "lat": 55.6761,
     "lon": 12.5777,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "13 Ny Vestergade"
   },
   {
     "id": "country-dk-frederiksborg-castle",
@@ -57,7 +61,9 @@
     "lat": 55.9349,
     "lon": 12.3,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Frederiksborg Castle, Unknown"
   },
   {
     "id": "country-dk-aarhus-latin-quarter",
@@ -66,7 +72,9 @@
     "lat": 56.158,
     "lon": 10.209,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Aarhus Latin Quarter, Unknown"
   },
   {
     "id": "country-dk-aros-aarhus-art-museum",
@@ -75,7 +83,9 @@
     "lat": 56.1538,
     "lon": 10.2005,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "ARoS Aarhus Art Museum, Unknown"
   },
   {
     "id": "country-dk-louisiana-museum-of-modern-art",
@@ -84,7 +94,9 @@
     "lat": 55.995,
     "lon": 12.548,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Louisiana Museum of Modern Art, Unknown"
   },
   {
     "id": "country-dk-skagen-grenen",
@@ -93,7 +105,9 @@
     "lat": 57.744,
     "lon": 10.647,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Skagen Grenen, Unknown"
   },
   {
     "id": "country-dk-mols-bjerge-national-park",
@@ -102,7 +116,9 @@
     "lat": 56.27,
     "lon": 10.6,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Mols Bjerge National Park, Unknown"
   },
   {
     "id": "country-dk-bornholm-coastal-cliffs",
@@ -111,7 +127,9 @@
     "lat": 55.1,
     "lon": 14.9,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Bornholm Coastal Cliffs, Unknown"
   },
   {
     "id": "country-dk-legoland-billund",
@@ -120,7 +138,9 @@
     "lat": 55.7351,
     "lon": 9.1296,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Legoland Billund, Unknown"
   },
   {
     "id": "country-dk-ribe-old-town",
@@ -129,7 +149,9 @@
     "lat": 55.33,
     "lon": 8.76,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Ribe Old Town, Unknown"
   },
   {
     "id": "country-dk-odense-hans-christian-andersen-quarter",
@@ -138,7 +160,9 @@
     "lat": 55.4038,
     "lon": 10.4024,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Odense Hans Christian Andersen Quarter, Unknown"
   },
   {
     "id": "country-dk-torvehallerne-market",
@@ -147,7 +171,9 @@
     "lat": 55.6839,
     "lon": 12.5707,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Torvehallerne Market, Copenhagen"
   },
   {
     "id": "country-dk-reffen-street-food",
@@ -156,7 +182,9 @@
     "lat": 55.6802,
     "lon": 12.6125,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Reffen Street Food, Copenhagen"
   },
   {
     "id": "country-dk-aarhus-street-food",
@@ -165,7 +193,9 @@
     "lat": 56.155,
     "lon": 10.214,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Aarhus Street Food, Unknown"
   },
   {
     "id": "country-dk-k-dbyen-meatpacking-district",
@@ -174,7 +204,9 @@
     "lat": 55.6669,
     "lon": 12.5552,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Kødbyen Meatpacking District, Unknown"
   },
   {
     "id": "country-dk-culture-box",
@@ -183,7 +215,9 @@
     "lat": 55.6777,
     "lon": 12.5717,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Culture Box, Unknown"
   },
   {
     "id": "country-dk-aarhus-nightlife-fredensgade",
@@ -192,7 +226,9 @@
     "lat": 56.1565,
     "lon": 10.2095,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Aarhus Nightlife (Fredensgade), Unknown"
   },
   {
     "id": "country-dk-christiana",
@@ -201,7 +237,9 @@
     "lat": 55.6739,
     "lon": 12.6105,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Christiana, Unknown"
   },
   {
     "id": "country-dk-faroe-islands-viewpoint",
@@ -210,7 +248,9 @@
     "lat": 62,
     "lon": -6.8,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Faroe Islands Viewpoint, Unknown"
   },
   {
     "id": "country-dk-kronborg-castle",
@@ -219,7 +259,9 @@
     "lat": 56.039,
     "lon": 12.621,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Kronborg Castle, Unknown"
   },
   {
     "id": "country-dk-copenhagen-harbor-baths",
@@ -228,6 +270,217 @@
     "lat": 55.671,
     "lon": 12.585,
     "source": "static",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "city": "Unknown",
+    "address": "Copenhagen Harbor Baths, Unknown"
+  },
+  {
+    "id": "country-dk-copenhagen-amalienborg-palace",
+    "name": "Amalienborg Palace",
+    "category": "landmarks",
+    "lat": 55.671,
+    "lon": 12.549,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Valdemarsgade"
+  },
+  {
+    "id": "country-dk-copenhagen-carlsberg-brewery",
+    "name": "Carlsberg Brewery",
+    "category": "museums",
+    "lat": 55.6634,
+    "lon": 12.5777,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Leifsgade"
+  },
+  {
+    "id": "country-dk-copenhagen-church-of-our-saviour",
+    "name": "Church of Our Saviour",
+    "category": "landmarks",
+    "lat": 55.6656,
+    "lon": 12.5699,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Church of Our Saviour, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-copenhagen-botanical-garden",
+    "name": "Copenhagen Botanical Garden",
+    "category": "nature",
+    "lat": 55.6903,
+    "lon": 12.5753,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Copenhagen Botanical Garden, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-designmuseum-denmark",
+    "name": "Designmuseum Denmark",
+    "category": "museums",
+    "lat": 55.6787,
+    "lon": 12.5632,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Designmuseum Denmark, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-frederiksberg-gardens",
+    "name": "Frederiksberg Gardens",
+    "category": "nature",
+    "lat": 55.6706,
+    "lon": 12.5427,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Frederiksberg Gardens, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-freetown-christiania",
+    "name": "Freetown Christiania",
+    "category": "other",
+    "lat": 55.663,
+    "lon": 12.5535,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Freetown Christiania, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-glyptoteket",
+    "name": "Glyptoteket",
+    "category": "museums",
+    "lat": 55.6843,
+    "lon": 12.5935,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Glyptoteket, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-islands-brygge-harbour-bath",
+    "name": "Islands Brygge Harbour Bath",
+    "category": "nature",
+    "lat": 55.6826,
+    "lon": 12.592,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Islands Brygge Harbour Bath, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-jazzhus-montmartre",
+    "name": "Jazzhus Montmartre",
+    "category": "nightlife",
+    "lat": 55.6902,
+    "lon": 12.5846,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Jazzhus Montmartre, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-meatpacking-district",
+    "name": "Meatpacking District",
+    "category": "nightlife",
+    "lat": 55.6879,
+    "lon": 12.5529,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Meatpacking District, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-norrebro",
+    "name": "Norrebro",
+    "category": "food",
+    "lat": 55.6893,
+    "lon": 12.5838,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Norrebro, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-nyhavn-2",
+    "name": "Nyhavn",
+    "category": "landmarks",
+    "lat": 55.6775,
+    "lon": 12.5804,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Nyhavn, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-rundetaarn-round-tower",
+    "name": "Rundetaarn (Round Tower)",
+    "category": "landmarks",
+    "lat": 55.6622,
+    "lon": 12.5727,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Rundetaarn (Round Tower), Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-smk-national-gallery",
+    "name": "SMK National Gallery",
+    "category": "museums",
+    "lat": 55.6832,
+    "lon": 12.568,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "SMK National Gallery, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-stroget",
+    "name": "Stroget",
+    "category": "food",
+    "lat": 55.6863,
+    "lon": 12.5911,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Stroget, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-superkilen-park",
+    "name": "Superkilen Park",
+    "category": "nature",
+    "lat": 55.6847,
+    "lon": 12.5648,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Superkilen Park, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-the-lakes",
+    "name": "The Lakes",
+    "category": "nature",
+    "lat": 55.6614,
+    "lon": 12.559,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "The Lakes, Copenhagen"
+  },
+  {
+    "id": "country-dk-copenhagen-vesterbro",
+    "name": "Vesterbro",
+    "category": "nightlife",
+    "lat": 55.672,
+    "lon": 12.5459,
+    "source": "static",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "Vesterbro, Copenhagen"
   }
 ]

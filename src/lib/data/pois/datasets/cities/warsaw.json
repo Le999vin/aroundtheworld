@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Krakowskie Przedmiescie, Warsaw"
   },
   {
     "id": "city-warsaw-lazienki-park",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Lazienki Park, Warsaw"
   },
   {
     "id": "city-warsaw-multimedia-fountain-park",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Multimedia Fountain Park, Warsaw"
   },
   {
     "id": "city-warsaw-museum-of-modern-art-warsaw",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Museum of Modern Art Warsaw, Warsaw"
   },
   {
     "id": "city-warsaw-neon-museum",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Neon Museum, Warsaw"
   },
   {
     "id": "city-warsaw-nowy-swiat-street",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Nowy Swiat Street, Warsaw"
   },
   {
     "id": "city-warsaw-old-town",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Old Town, Warsaw"
   },
   {
     "id": "city-warsaw-palace-of-culture-and-science",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Palace of Culture and Science, Warsaw"
   },
   {
     "id": "city-warsaw-pawilony-nowy-swiat",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Pawilony Nowy Swiat, Warsaw"
   },
   {
     "id": "city-warsaw-pge-narodowy",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "PGE Narodowy, Warsaw"
   },
   {
     "id": "city-warsaw-plac-bankowy",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Plac Bankowy, Warsaw"
   },
   {
     "id": "city-warsaw-plac-zbawiciela",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Plac Zbawiciela, Warsaw"
   },
   {
     "id": "city-warsaw-polin-museum",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "POLIN Museum, Warsaw"
   },
   {
     "id": "city-warsaw-powazki-cemetery",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Powazki Cemetery, Warsaw"
   },
   {
     "id": "city-warsaw-praga-district",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Praga District, Warsaw"
   },
   {
     "id": "city-warsaw-royal-castle",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Royal Castle, Warsaw"
   },
   {
     "id": "city-warsaw-saxon-garden",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Saxon Garden, Warsaw"
   },
   {
     "id": "city-warsaw-vistula-boulevards",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Vistula Boulevards, Warsaw"
   },
   {
     "id": "city-warsaw-warsaw-barbican",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Warsaw Barbican, Warsaw"
   },
   {
     "id": "city-warsaw-warsaw-river-beaches",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Warsaw River Beaches, Warsaw"
   },
   {
     "id": "city-warsaw-warsaw-uprising-museum",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Warsaw Uprising Museum, Warsaw"
   },
   {
     "id": "city-warsaw-wilanow-palace",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "PL",
     "cityId": "warsaw",
-    "city": "Warsaw"
+    "city": "Warsaw",
+    "address": "Wilanow Palace, Warsaw"
   }
 ]

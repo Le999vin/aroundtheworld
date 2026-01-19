@@ -7,8 +7,8 @@
     "lon": -0.1246,
     "source": "static",
     "countryCode": "GB",
-    "address": "Bridge Street",
-    "city": "City of Westminster"
+    "city": "City of Westminster",
+    "address": "Bridge Street"
   },
   {
     "id": "country-gb-stonehenge",
@@ -18,8 +18,8 @@
     "lon": -1.8262,
     "source": "static",
     "countryCode": "GB",
-    "address": "A303",
-    "city": "West Amesbury"
+    "city": "West Amesbury",
+    "address": "A303"
   },
   {
     "id": "country-gb-edinburgh-castle",
@@ -29,8 +29,8 @@
     "lon": -3.1999,
     "source": "static",
     "countryCode": "GB",
-    "address": "Castlehill",
-    "city": "City of Edinburgh"
+    "city": "City of Edinburgh",
+    "address": "Castlehill"
   },
   {
     "id": "country-gb-lake-district",
@@ -39,7 +39,9 @@
     "lat": 54.3781,
     "lon": -2.9077,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Lake District, Unknown"
   },
   {
     "id": "country-gb-tower-of-london",
@@ -48,7 +50,9 @@
     "lat": 51.5081,
     "lon": -0.0759,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Tower of London, London"
   },
   {
     "id": "country-gb-british-museum",
@@ -57,7 +61,9 @@
     "lat": 51.5194,
     "lon": -0.127,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "London",
+    "address": "British Museum, London"
   },
   {
     "id": "country-gb-roman-baths",
@@ -66,7 +72,9 @@
     "lat": 51.3811,
     "lon": -2.359,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Roman Baths, Unknown"
   },
   {
     "id": "country-gb-giants-causeway",
@@ -75,7 +83,9 @@
     "lat": 55.2408,
     "lon": -6.5116,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Giants Causeway, Unknown"
   },
   {
     "id": "country-gb-albert-dock",
@@ -84,7 +94,9 @@
     "lat": 53.4009,
     "lon": -2.9953,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Albert Dock, Unknown"
   },
   {
     "id": "country-gb-cardiff-castle",
@@ -93,7 +105,9 @@
     "lat": 51.4839,
     "lon": -3.1815,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Cardiff Castle, Unknown"
   },
   {
     "id": "country-gb-london-fabric",
@@ -102,7 +116,9 @@
     "lat": 51.5199,
     "lon": -0.1023,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "London",
+    "address": "fabric, London"
   },
   {
     "id": "country-gb-london-ministry-of-sound",
@@ -111,7 +127,9 @@
     "lat": 51.4982,
     "lon": -0.1004,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Ministry of Sound, London"
   },
   {
     "id": "country-gb-london-printworks",
@@ -120,7 +138,9 @@
     "lat": 51.4965,
     "lon": -0.0503,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Printworks London, Unknown"
   },
   {
     "id": "country-gb-london-corsica-studios",
@@ -129,7 +149,9 @@
     "lat": 51.496,
     "lon": -0.1009,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Corsica Studios, Unknown"
   },
   {
     "id": "country-gb-manchester-the-warehouse-project",
@@ -138,7 +160,9 @@
     "lat": 53.4806,
     "lon": -2.2374,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "The Warehouse Project, Unknown"
   },
   {
     "id": "country-gb-manchester-factory-international",
@@ -147,7 +171,9 @@
     "lat": 53.479,
     "lon": -2.2592,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Factory International (Aviva Studios), Unknown"
   },
   {
     "id": "country-gb-liverpool-concert-square",
@@ -156,7 +182,9 @@
     "lat": 53.4046,
     "lon": -2.9836,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Concert Square, Unknown"
   },
   {
     "id": "country-gb-edinburgh-the-bongo-club",
@@ -165,7 +193,9 @@
     "lat": 55.9542,
     "lon": -3.1855,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "The Bongo Club, Unknown"
   },
   {
     "id": "country-gb-west-end-theatre-district",
@@ -174,7 +204,9 @@
     "lat": 51.512,
     "lon": -0.128,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "West End Theatre District, Unknown"
   },
   {
     "id": "country-gb-brighton-pier",
@@ -183,7 +215,9 @@
     "lat": 50.819,
     "lon": -0.1372,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Brighton Pier, Unknown"
   },
   {
     "id": "country-gb-snowdonia-eryri-national-park",
@@ -192,7 +226,9 @@
     "lat": 53.0685,
     "lon": -4.0761,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Snowdonia (Eryri) National Park, Unknown"
   },
   {
     "id": "country-gb-isle-of-skye-fairy-pools-area",
@@ -201,7 +237,9 @@
     "lat": 57.246,
     "lon": -6.275,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Isle of Skye (Fairy Pools Area), Unknown"
   },
   {
     "id": "country-gb-oxford-university",
@@ -210,7 +248,9 @@
     "lat": 51.7548,
     "lon": -1.2544,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Oxford University, Unknown"
   },
   {
     "id": "country-gb-cotswolds-villages",
@@ -219,7 +259,9 @@
     "lat": 51.833,
     "lon": -1.8,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Cotswolds Villages, Unknown"
   },
   {
     "id": "country-gb-liverpool-cavern-quarter",
@@ -228,6 +270,393 @@
     "lat": 53.4058,
     "lon": -2.9812,
     "source": "static",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "city": "Unknown",
+    "address": "Liverpool Cavern Quarter, Unknown"
+  },
+  {
+    "id": "country-gb-london-borough-market",
+    "name": "Borough Market",
+    "category": "food",
+    "lat": 51.5055,
+    "lon": -0.0912,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Green Dragon Court"
+  },
+  {
+    "id": "country-gb-london-brick-lane",
+    "name": "Brick Lane",
+    "category": "food",
+    "lat": 51.5219,
+    "lon": -0.0716,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "152 Brick Lane"
+  },
+  {
+    "id": "country-gb-london-buckingham-palace",
+    "name": "Buckingham Palace",
+    "category": "landmarks",
+    "lat": 51.5014,
+    "lon": -0.1419,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Buckingham Palace, London"
+  },
+  {
+    "id": "country-gb-london-camden-market",
+    "name": "Camden Market",
+    "category": "food",
+    "lat": 51.5413,
+    "lon": -0.146,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Camden Market, London"
+  },
+  {
+    "id": "country-gb-london-central-market-london-12",
+    "name": "Central Market (London) 12",
+    "category": "food",
+    "lat": 51.5122,
+    "lon": -0.1401,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Central Market (London) 12, London"
+  },
+  {
+    "id": "country-gb-london-central-market-london-2",
+    "name": "Central Market (London) 2",
+    "category": "food",
+    "lat": 51.502,
+    "lon": -0.1357,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Central Market (London) 2, London"
+  },
+  {
+    "id": "country-gb-london-city-park-london-4",
+    "name": "City Park (London) 4",
+    "category": "nature",
+    "lat": 51.4878,
+    "lon": -0.1641,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "City Park (London) 4, London"
+  },
+  {
+    "id": "country-gb-london-covent-garden",
+    "name": "Covent Garden",
+    "category": "food",
+    "lat": 51.5129,
+    "lon": -0.1247,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Covent Garden, London"
+  },
+  {
+    "id": "country-gb-london-greenwich-park",
+    "name": "Greenwich Park",
+    "category": "nature",
+    "lat": 51.4769,
+    "lon": 0.0005,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Greenwich Park, London"
+  },
+  {
+    "id": "country-gb-london-historic-cathedral-london-5",
+    "name": "Historic Cathedral (London) 5",
+    "category": "landmarks",
+    "lat": 51.5138,
+    "lon": -0.1489,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Historic Cathedral (London) 5, London"
+  },
+  {
+    "id": "country-gb-london-hyde-park",
+    "name": "Hyde Park",
+    "category": "nature",
+    "lat": 51.5073,
+    "lon": -0.1657,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Hyde Park, London"
+  },
+  {
+    "id": "country-gb-london-local-food-street-london-8",
+    "name": "Local Food Street (London) 8",
+    "category": "food",
+    "lat": 51.4969,
+    "lon": -0.1004,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Local Food Street (London) 8, London"
+  },
+  {
+    "id": "country-gb-london-london-eye",
+    "name": "London Eye",
+    "category": "landmarks",
+    "lat": 51.5033,
+    "lon": -0.1195,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "London Eye, London"
+  },
+  {
+    "id": "country-gb-london-main-square-london-9",
+    "name": "Main Square (London) 9",
+    "category": "landmarks",
+    "lat": 51.5193,
+    "lon": -0.1163,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Main Square (London) 9, London"
+  },
+  {
+    "id": "country-gb-london-modern-art-gallery-london-6",
+    "name": "Modern Art Gallery (London) 6",
+    "category": "museums",
+    "lat": 51.5086,
+    "lon": -0.1098,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Modern Art Gallery (London) 6, London"
+  },
+  {
+    "id": "country-gb-london-natural-history-museum",
+    "name": "Natural History Museum",
+    "category": "museums",
+    "lat": 51.4967,
+    "lon": -0.1764,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Natural History Museum, London"
+  },
+  {
+    "id": "country-gb-london-nightlife-district-london-7",
+    "name": "Nightlife District (London) 7",
+    "category": "nightlife",
+    "lat": 51.4902,
+    "lon": -0.1548,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Nightlife District (London) 7, London"
+  },
+  {
+    "id": "country-gb-london-notting-hill",
+    "name": "Notting Hill",
+    "category": "food",
+    "lat": 51.509,
+    "lon": -0.205,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Notting Hill, London"
+  },
+  {
+    "id": "country-gb-london-old-town-london-1",
+    "name": "Old Town (London) 1",
+    "category": "landmarks",
+    "lat": 51.4996,
+    "lon": -0.1601,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Old Town (London) 1, London"
+  },
+  {
+    "id": "country-gb-london-old-town-london-11",
+    "name": "Old Town (London) 11",
+    "category": "landmarks",
+    "lat": 51.5113,
+    "lon": -0.1459,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Old Town (London) 11, London"
+  },
+  {
+    "id": "country-gb-london-regent-s-park",
+    "name": "Regent's Park",
+    "category": "nature",
+    "lat": 51.5032,
+    "lon": -0.1316,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Regent's Park, London"
+  },
+  {
+    "id": "country-gb-london-riverside-promenade-london-13",
+    "name": "Riverside Promenade (London) 13",
+    "category": "nature",
+    "lat": 51.5122,
+    "lon": -0.1588,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Riverside Promenade (London) 13, London"
+  },
+  {
+    "id": "country-gb-london-riverside-promenade-london-3",
+    "name": "Riverside Promenade (London) 3",
+    "category": "nature",
+    "lat": 51.5208,
+    "lon": -0.1229,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Riverside Promenade (London) 3, London"
+  },
+  {
+    "id": "country-gb-london-shoreditch",
+    "name": "Shoreditch",
+    "category": "nightlife",
+    "lat": 51.525,
+    "lon": -0.074,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Shoreditch, London"
+  },
+  {
+    "id": "country-gb-london-sky-garden",
+    "name": "Sky Garden",
+    "category": "landmarks",
+    "lat": 51.5116,
+    "lon": -0.0837,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Sky Garden, London"
+  },
+  {
+    "id": "country-gb-london-soho",
+    "name": "Soho",
+    "category": "nightlife",
+    "lat": 51.5137,
+    "lon": -0.1365,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Soho, London"
+  },
+  {
+    "id": "country-gb-london-south-bank-walk",
+    "name": "South Bank Walk",
+    "category": "landmarks",
+    "lat": 51.5075,
+    "lon": -0.116,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "South Bank Walk, London"
+  },
+  {
+    "id": "country-gb-london-st-paul-s-cathedral",
+    "name": "St Paul's Cathedral",
+    "category": "landmarks",
+    "lat": 51.5138,
+    "lon": -0.0984,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "St Paul's Cathedral, London"
+  },
+  {
+    "id": "country-gb-london-tate-modern",
+    "name": "Tate Modern",
+    "category": "museums",
+    "lat": 51.5076,
+    "lon": -0.0994,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Tate Modern, London"
+  },
+  {
+    "id": "country-gb-london-the-shard-viewpoint",
+    "name": "The Shard Viewpoint",
+    "category": "landmarks",
+    "lat": 51.5045,
+    "lon": -0.0865,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "The Shard Viewpoint, London"
+  },
+  {
+    "id": "country-gb-london-tower-bridge",
+    "name": "Tower Bridge",
+    "category": "landmarks",
+    "lat": 51.5206,
+    "lon": -0.1064,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Tower Bridge, London"
+  },
+  {
+    "id": "country-gb-london-trafalgar-square",
+    "name": "Trafalgar Square",
+    "category": "landmarks",
+    "lat": 51.508,
+    "lon": -0.1281,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Trafalgar Square, London"
+  },
+  {
+    "id": "country-gb-london-victoria-and-albert-museum",
+    "name": "Victoria and Albert Museum",
+    "category": "museums",
+    "lat": 51.4966,
+    "lon": -0.1722,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Victoria and Albert Museum, London"
+  },
+  {
+    "id": "country-gb-london-waterfront-london-10",
+    "name": "Waterfront (London) 10",
+    "category": "nature",
+    "lat": 51.5056,
+    "lon": -0.1526,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Waterfront (London) 10, London"
+  },
+  {
+    "id": "country-gb-london-westminster-abbey",
+    "name": "Westminster Abbey",
+    "category": "landmarks",
+    "lat": 51.4993,
+    "lon": -0.1273,
+    "source": "static",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Westminster Abbey, London"
   }
 ]

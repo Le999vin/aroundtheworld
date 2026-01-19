@@ -7,8 +7,8 @@
     "lon": 19.0457,
     "source": "static",
     "countryCode": "HU",
-    "address": "1-3 Kossuth Lajos Square",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "1-3 Kossuth Lajos Square"
   },
   {
     "id": "country-hu-buda-castle",
@@ -18,8 +18,8 @@
     "lon": 19.0399,
     "source": "static",
     "countryCode": "HU",
-    "address": "Buda",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Buda"
   },
   {
     "id": "country-hu-fishermans-bastion",
@@ -29,8 +29,8 @@
     "lon": 19.0345,
     "source": "static",
     "countryCode": "HU",
-    "address": "Gimnázium utca",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Gimnázium utca"
   },
   {
     "id": "country-hu-st-stephens-basilica-budapest",
@@ -39,7 +39,9 @@
     "lat": 47.5009,
     "lon": 19.0536,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "St. Stephen's Basilica Budapest, Unknown"
   },
   {
     "id": "country-hu-sz-chenyi-thermal-bath",
@@ -48,7 +50,9 @@
     "lat": 47.5189,
     "lon": 19.0825,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Széchenyi Thermal Bath, Unknown"
   },
   {
     "id": "country-hu-chain-bridge",
@@ -57,7 +61,9 @@
     "lat": 47.498,
     "lon": 19.044,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Chain Bridge, Budapest"
   },
   {
     "id": "country-hu-heroes-square",
@@ -66,7 +72,9 @@
     "lat": 47.5149,
     "lon": 19.077,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Heroes' Square, Budapest"
   },
   {
     "id": "country-hu-lake-balaton",
@@ -75,7 +83,9 @@
     "lat": 46.75,
     "lon": 17.7,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Lake Balaton, Unknown"
   },
   {
     "id": "country-hu-hortobagy-national-park",
@@ -84,7 +94,9 @@
     "lat": 47.58,
     "lon": 21.15,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Hortobagy National Park, Unknown"
   },
   {
     "id": "country-hu-aggtelek-national-park-caves",
@@ -93,7 +105,9 @@
     "lat": 48.47,
     "lon": 20.5,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Aggtelek National Park Caves, Unknown"
   },
   {
     "id": "country-hu-danube-bend-viewpoints",
@@ -102,7 +116,9 @@
     "lat": 47.785,
     "lon": 18.97,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Danube Bend Viewpoints, Unknown"
   },
   {
     "id": "country-hu-eger-castle",
@@ -111,7 +127,9 @@
     "lat": 47.9025,
     "lon": 20.3772,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Eger Castle, Unknown"
   },
   {
     "id": "country-hu-pecs-old-town",
@@ -120,7 +138,9 @@
     "lat": 46.0727,
     "lon": 18.2323,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Pecs Old Town, Unknown"
   },
   {
     "id": "country-hu-szentendre",
@@ -129,7 +149,9 @@
     "lat": 47.669,
     "lon": 19.075,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Szentendre, Unknown"
   },
   {
     "id": "country-hu-hungarian-national-museum",
@@ -138,7 +160,9 @@
     "lat": 47.4917,
     "lon": 19.061,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Hungarian National Museum, Budapest"
   },
   {
     "id": "country-hu-house-of-terror-museum",
@@ -147,7 +171,9 @@
     "lat": 47.5072,
     "lon": 19.0658,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "House of Terror Museum, Budapest"
   },
   {
     "id": "country-hu-museum-of-fine-arts-budapest",
@@ -156,7 +182,9 @@
     "lat": 47.516,
     "lon": 19.0776,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Museum of Fine Arts Budapest, Unknown"
   },
   {
     "id": "country-hu-great-market-hall",
@@ -165,7 +193,9 @@
     "lat": 47.4865,
     "lon": 19.0583,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Great Market Hall, Budapest"
   },
   {
     "id": "country-hu-gozsdu-courtyard-food",
@@ -174,7 +204,9 @@
     "lat": 47.4976,
     "lon": 19.0622,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Gozsdu Courtyard Food, Unknown"
   },
   {
     "id": "country-hu-ruin-bar-szimpla-kert",
@@ -183,7 +215,9 @@
     "lat": 47.4978,
     "lon": 19.0651,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Ruin Bar Szimpla Kert, Unknown"
   },
   {
     "id": "country-hu-instant-fogas-complex",
@@ -192,7 +226,9 @@
     "lat": 47.4986,
     "lon": 19.0599,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Instant-Fogas Complex, Unknown"
   },
   {
     "id": "country-hu-budapest-river-cruise-night",
@@ -201,7 +237,9 @@
     "lat": 47.498,
     "lon": 19.044,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Budapest River Cruise Night, Unknown"
   },
   {
     "id": "country-hu-tokaj-wine-region",
@@ -210,7 +248,9 @@
     "lat": 48.117,
     "lon": 21.408,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Tokaj Wine Region, Unknown"
   },
   {
     "id": "country-hu-sopron-old-town",
@@ -219,7 +259,9 @@
     "lat": 47.684,
     "lon": 16.584,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Sopron Old Town, Unknown"
   },
   {
     "id": "country-hu-balaton-uplands-national-park",
@@ -228,6 +270,206 @@
     "lat": 46.9,
     "lon": 17.7,
     "source": "static",
-    "countryCode": "HU"
+    "countryCode": "HU",
+    "city": "Unknown",
+    "address": "Balaton Uplands National Park, Unknown"
+  },
+  {
+    "id": "country-hu-budapest-a38-ship",
+    "name": "A38 Ship",
+    "category": "nightlife",
+    "lat": 47.5114,
+    "lon": 19.031,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "6 Keleti Károly utca"
+  },
+  {
+    "id": "country-hu-budapest-andrassy-avenu",
+    "name": "Andrassy Avenue",
+    "category": "food",
+    "lat": 47.4886,
+    "lon": 19.0604,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "6 Calvin Square"
+  },
+  {
+    "id": "country-hu-budapest-city-park",
+    "name": "City Park",
+    "category": "nature",
+    "lat": 47.4822,
+    "lon": 19.0261,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "City Park, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-danube-promenade",
+    "name": "Danube Promenade",
+    "category": "nature",
+    "lat": 47.4901,
+    "lon": 19.0194,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Danube Promenade, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-dohany-street-synagogu",
+    "name": "Dohany Street Synagogue",
+    "category": "landmarks",
+    "lat": 47.5074,
+    "lon": 19.0571,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Dohany Street Synagogue, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-gellert-baths",
+    "name": "Gellert Baths",
+    "category": "landmarks",
+    "lat": 47.5088,
+    "lon": 19.064,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Gellert Baths, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-gellert-hill-citadella",
+    "name": "Gellert Hill Citadella",
+    "category": "nature",
+    "lat": 47.491,
+    "lon": 19.0421,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Gellert Hill Citadella, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-hungarian-parliament",
+    "name": "Hungarian Parliament",
+    "category": "landmarks",
+    "lat": 47.5026,
+    "lon": 19.0244,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Hungarian Parliament, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-instant-fogas",
+    "name": "Instant-Fogas",
+    "category": "nightlife",
+    "lat": 47.5072,
+    "lon": 19.0447,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Instant-Fogas, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-jewish-quarter-bars",
+    "name": "Jewish Quarter Bars",
+    "category": "nightlife",
+    "lat": 47.491,
+    "lon": 19.0405,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Jewish Quarter Bars, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-kossuth-lajos-square",
+    "name": "Kossuth Lajos Square",
+    "category": "landmarks",
+    "lat": 47.5077,
+    "lon": 19.0306,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Kossuth Lajos Square, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-margaret-island",
+    "name": "Margaret Island",
+    "category": "nature",
+    "lat": 47.5097,
+    "lon": 19.0518,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Margaret Island, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-matthias-church",
+    "name": "Matthias Church",
+    "category": "landmarks",
+    "lat": 47.5061,
+    "lon": 19.0607,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Matthias Church, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-new-york-cafe",
+    "name": "New York Cafe",
+    "category": "food",
+    "lat": 47.487,
+    "lon": 19.0234,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "New York Cafe, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-st-stephen-s-basilica",
+    "name": "St. Stephen's Basilica",
+    "category": "landmarks",
+    "lat": 47.4831,
+    "lon": 19.0595,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "St. Stephen's Basilica, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-szechenyi-thermal-bath",
+    "name": "Szechenyi Thermal Bath",
+    "category": "landmarks",
+    "lat": 47.4917,
+    "lon": 19.0338,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Szechenyi Thermal Bath, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-szimpla-kert-ruin-bar",
+    "name": "Szimpla Kert Ruin Bar",
+    "category": "nightlife",
+    "lat": 47.5058,
+    "lon": 19.0418,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Szimpla Kert Ruin Bar, Budapest"
+  },
+  {
+    "id": "country-hu-budapest-vajdahunyad-castle",
+    "name": "Vajdahunyad Castle",
+    "category": "landmarks",
+    "lat": 47.503,
+    "lon": 19.0396,
+    "source": "static",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Vajdahunyad Castle, Budapest"
   }
 ]

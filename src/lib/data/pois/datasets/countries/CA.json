@@ -7,8 +7,8 @@
     "lon": -79.3871,
     "source": "static",
     "countryCode": "CA",
-    "address": "290 Bremner Boulevard",
-    "city": "Toronto"
+    "city": "Toronto",
+    "address": "290 Bremner Boulevard"
   },
   {
     "id": "country-ca-niagara-falls",
@@ -18,8 +18,8 @@
     "lon": -79.0849,
     "source": "static",
     "countryCode": "CA",
-    "address": "5830 Stanley Avenue",
-    "city": "Niagara Falls"
+    "city": "Niagara Falls",
+    "address": "5830 Stanley Avenue"
   },
   {
     "id": "country-ca-banff-national-park",
@@ -29,8 +29,8 @@
     "lon": -115.5708,
     "source": "static",
     "countryCode": "CA",
-    "address": "227 Banff Avenue",
-    "city": "Banff"
+    "city": "Banff",
+    "address": "227 Banff Avenue"
   },
   {
     "id": "country-ca-lake-louise",
@@ -39,7 +39,9 @@
     "lat": 51.4254,
     "lon": -116.1773,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Lake Louise, Unknown"
   },
   {
     "id": "country-ca-jasper-national-park",
@@ -48,7 +50,9 @@
     "lat": 52.8734,
     "lon": -118.0814,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Jasper National Park, Unknown"
   },
   {
     "id": "country-ca-vancouver-stanley-park",
@@ -57,7 +61,9 @@
     "lat": 49.3043,
     "lon": -123.1443,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Vancouver Stanley Park, Unknown"
   },
   {
     "id": "country-ca-capilano-suspension-bridge",
@@ -66,7 +72,9 @@
     "lat": 49.3429,
     "lon": -123.1146,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Capilano Suspension Bridge, Unknown"
   },
   {
     "id": "country-ca-old-montreal",
@@ -75,7 +83,9 @@
     "lat": 45.5075,
     "lon": -73.554,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Old Montreal, Unknown"
   },
   {
     "id": "country-ca-quebec-city-old-town",
@@ -84,7 +94,9 @@
     "lat": 46.8139,
     "lon": -71.208,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Quebec City Old Town, Unknown"
   },
   {
     "id": "country-ca-ottawa-parliament-hill",
@@ -93,7 +105,9 @@
     "lat": 45.4236,
     "lon": -75.7009,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Ottawa Parliament Hill, Unknown"
   },
   {
     "id": "country-ca-calgary-stampede-grounds",
@@ -102,7 +116,9 @@
     "lat": 51.0456,
     "lon": -114.062,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Calgary Stampede Grounds, Unknown"
   },
   {
     "id": "country-ca-whistler-village",
@@ -111,7 +127,9 @@
     "lat": 50.1163,
     "lon": -122.9574,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Whistler Village, Unknown"
   },
   {
     "id": "country-ca-gros-morne-national-park",
@@ -120,7 +138,9 @@
     "lat": 49.644,
     "lon": -57.758,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Gros Morne National Park, Unknown"
   },
   {
     "id": "country-ca-peggys-cove",
@@ -129,7 +149,9 @@
     "lat": 44.496,
     "lon": -63.915,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Peggy's Cove, Unknown"
   },
   {
     "id": "country-ca-bay-of-fundy",
@@ -138,7 +160,9 @@
     "lat": 45.3,
     "lon": -64.8,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Bay of Fundy, Unknown"
   },
   {
     "id": "country-ca-royal-ontario-museum",
@@ -147,7 +171,9 @@
     "lat": 43.6677,
     "lon": -79.3948,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Royal Ontario Museum, Toronto"
   },
   {
     "id": "country-ca-montreal-museum-of-fine-arts",
@@ -156,7 +182,9 @@
     "lat": 45.4986,
     "lon": -73.578,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Montreal Museum of Fine Arts, Unknown"
   },
   {
     "id": "country-ca-canadian-museum-of-history",
@@ -165,7 +193,9 @@
     "lat": 45.429,
     "lon": -75.712,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Canadian Museum of History, Unknown"
   },
   {
     "id": "country-ca-st-lawrence-market",
@@ -174,7 +204,9 @@
     "lat": 43.6487,
     "lon": -79.3716,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "St. Lawrence Market, Toronto"
   },
   {
     "id": "country-ca-granville-island-public-market",
@@ -183,7 +215,9 @@
     "lat": 49.2712,
     "lon": -123.134,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Granville Island Public Market, Unknown"
   },
   {
     "id": "country-ca-montreal-bagel-mile-end",
@@ -192,7 +226,9 @@
     "lat": 45.522,
     "lon": -73.607,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Montreal Bagel Mile End, Unknown"
   },
   {
     "id": "country-ca-rebel-toronto",
@@ -201,7 +237,9 @@
     "lat": 43.641,
     "lon": -79.353,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Rebel Toronto, Unknown"
   },
   {
     "id": "country-ca-montreal-crescent-street",
@@ -210,7 +248,9 @@
     "lat": 45.496,
     "lon": -73.575,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Montreal Crescent Street, Unknown"
   },
   {
     "id": "country-ca-vancouver-gastown-nightlife",
@@ -219,7 +259,9 @@
     "lat": 49.283,
     "lon": -123.106,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Vancouver Gastown Nightlife, Unknown"
   },
   {
     "id": "country-ca-cabot-trail-viewpoints",
@@ -228,6 +270,250 @@
     "lat": 46.7,
     "lon": -60.4,
     "source": "static",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "city": "Unknown",
+    "address": "Cabot Trail Viewpoints, Unknown"
+  },
+  {
+    "id": "country-ca-toronto-aga-khan-museum",
+    "name": "Aga Khan Museum",
+    "category": "museums",
+    "lat": 43.6671,
+    "lon": -79.3818,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "592,594 Church Street"
+  },
+  {
+    "id": "country-ca-toronto-art-gallery-of-ontario",
+    "name": "Art Gallery of Ontario",
+    "category": "museums",
+    "lat": 43.6428,
+    "lon": -79.3942,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Grand Atrium"
+  },
+  {
+    "id": "country-ca-toronto-casa-loma",
+    "name": "Casa Loma",
+    "category": "landmarks",
+    "lat": 43.6653,
+    "lon": -79.3629,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Gildersleeve Place"
+  },
+  {
+    "id": "country-ca-toronto-chinatown-spadina",
+    "name": "Chinatown (Spadina)",
+    "category": "food",
+    "lat": 43.6527,
+    "lon": -79.3981,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Chinatown (Spadina), Toronto"
+  },
+  {
+    "id": "country-ca-toronto-distillery-district",
+    "name": "Distillery District",
+    "category": "landmarks",
+    "lat": 43.6656,
+    "lon": -79.388,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Distillery District, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-evergreen-brick-works",
+    "name": "Evergreen Brick Works",
+    "category": "nature",
+    "lat": 43.6596,
+    "lon": -79.3881,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Evergreen Brick Works, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-graffiti-alley",
+    "name": "Graffiti Alley",
+    "category": "landmarks",
+    "lat": 43.6459,
+    "lon": -79.3807,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Graffiti Alley, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-harbourfront-centre",
+    "name": "Harbourfront Centre",
+    "category": "nightlife",
+    "lat": 43.6699,
+    "lon": -79.3999,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Harbourfront Centre, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-high-park",
+    "name": "High Park",
+    "category": "nature",
+    "lat": 43.6696,
+    "lon": -79.3722,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "High Park, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-hockey-hall-of-fame",
+    "name": "Hockey Hall of Fame",
+    "category": "museums",
+    "lat": 43.6506,
+    "lon": -79.3717,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Hockey Hall of Fame, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-kensington-market",
+    "name": "Kensington Market",
+    "category": "food",
+    "lat": 43.6372,
+    "lon": -79.3826,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Kensington Market, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-little-italy",
+    "name": "Little Italy",
+    "category": "food",
+    "lat": 43.6583,
+    "lon": -79.3982,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Little Italy, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-nathan-phillips-square",
+    "name": "Nathan Phillips Square",
+    "category": "landmarks",
+    "lat": 43.655,
+    "lon": -79.3638,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Nathan Phillips Square, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-ossington-strip",
+    "name": "Ossington Strip",
+    "category": "nightlife",
+    "lat": 43.6545,
+    "lon": -79.396,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Ossington Strip, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-quen-street-west",
+    "name": "Queen Street West",
+    "category": "nightlife",
+    "lat": 43.639,
+    "lon": -79.3747,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Queen Street West, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-ripley-s-aquarium",
+    "name": "Ripley's Aquarium",
+    "category": "museums",
+    "lat": 43.6551,
+    "lon": -79.3908,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Ripley's Aquarium, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-scotiabank-arena-area",
+    "name": "Scotiabank Arena Area",
+    "category": "landmarks",
+    "lat": 43.6705,
+    "lon": -79.3627,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Scotiabank Arena Area, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-stackt-market",
+    "name": "Stackt Market",
+    "category": "food",
+    "lat": 43.6369,
+    "lon": -79.3854,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Stackt Market, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-the-beaches",
+    "name": "The Beaches",
+    "category": "nature",
+    "lat": 43.6444,
+    "lon": -79.3895,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "The Beaches, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-toronto-islands",
+    "name": "Toronto Islands",
+    "category": "nature",
+    "lat": 43.6364,
+    "lon": -79.388,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Toronto Islands, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-yonge-dundas-square",
+    "name": "Yonge-Dundas Square",
+    "category": "landmarks",
+    "lat": 43.639,
+    "lon": -79.3657,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Yonge-Dundas Square, Toronto"
+  },
+  {
+    "id": "country-ca-toronto-yorkville",
+    "name": "Yorkville",
+    "category": "food",
+    "lat": 43.6476,
+    "lon": -79.3673,
+    "source": "static",
+    "countryCode": "CA",
+    "city": "Toronto",
+    "address": "Yorkville, Toronto"
   }
 ]

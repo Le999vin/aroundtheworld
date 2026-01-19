@@ -7,8 +7,8 @@
     "lon": 55.2744,
     "source": "static",
     "countryCode": "AE",
-    "address": "1 Sheikh Mohammed bin Rashid Boulevard",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "1 Sheikh Mohammed bin Rashid Boulevard"
   },
   {
     "id": "country-ae-sheikh-zayed-mosque",
@@ -18,8 +18,8 @@
     "lon": 54.4749,
     "source": "static",
     "countryCode": "AE",
-    "address": "Grand Mosque Courtyard \"Sahan\"",
-    "city": "Abu Dhabi"
+    "city": "Abu Dhabi",
+    "address": "Grand Mosque Courtyard \"Sahan\""
   },
   {
     "id": "country-ae-louvre-abu-dhabi",
@@ -29,8 +29,8 @@
     "lon": 54.3985,
     "source": "static",
     "countryCode": "AE",
-    "address": "Louvre Delivery Access",
-    "city": "Abu Dhabi"
+    "city": "Abu Dhabi",
+    "address": "Louvre Delivery Access"
   },
   {
     "id": "country-ae-palm-jumeirah",
@@ -39,7 +39,9 @@
     "lat": 25.1124,
     "lon": 55.1383,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Palm Jumeirah, Dubai"
   },
   {
     "id": "country-ae-dubai-mall",
@@ -48,7 +50,9 @@
     "lat": 25.1995,
     "lon": 55.2773,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Mall, Dubai"
   },
   {
     "id": "country-ae-al-fahidi-district",
@@ -57,7 +61,9 @@
     "lat": 25.2632,
     "lon": 55.2963,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Al Fahidi Street"
   },
   {
     "id": "country-ae-jbr-beach",
@@ -66,7 +72,9 @@
     "lat": 25.078,
     "lon": 55.1333,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Unknown",
+    "address": "JBR Beach, Unknown"
   },
   {
     "id": "country-ae-dubai-marina",
@@ -75,7 +83,9 @@
     "lat": 25.0773,
     "lon": 55.14,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Marina, Dubai"
   },
   {
     "id": "country-ae-desert-safari",
@@ -84,7 +94,9 @@
     "lat": 24.9343,
     "lon": 55.2474,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Unknown",
+    "address": "Desert Safari, Unknown"
   },
   {
     "id": "country-ae-qasr-al-watan",
@@ -93,7 +105,9 @@
     "lat": 24.4624,
     "lon": 54.3186,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Unknown",
+    "address": "Qasr Al Watan, Unknown"
   },
   {
     "id": "country-ae-burj-al-arab-viewpoint",
@@ -102,7 +116,9 @@
     "lat": 25.1412,
     "lon": 55.1853,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Burj Al Arab Viewpoint, Dubai"
   },
   {
     "id": "country-ae-museum-of-the-future",
@@ -111,7 +127,9 @@
     "lat": 25.2184,
     "lon": 55.2809,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Museum of the Future, Dubai"
   },
   {
     "id": "country-ae-dubai-frame",
@@ -120,7 +138,9 @@
     "lat": 25.2355,
     "lon": 55.3003,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Frame, Dubai"
   },
   {
     "id": "country-ae-dubai-creek",
@@ -129,7 +149,9 @@
     "lat": 25.2697,
     "lon": 55.3047,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Creek, Dubai"
   },
   {
     "id": "country-ae-gold-souk",
@@ -138,7 +160,9 @@
     "lat": 25.2712,
     "lon": 55.297,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Unknown",
+    "address": "Gold Souk, Unknown"
   },
   {
     "id": "country-ae-dubai-miracle-garden",
@@ -147,7 +171,9 @@
     "lat": 25.06,
     "lon": 55.242,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Miracle Garden, Dubai"
   },
   {
     "id": "country-ae-global-village",
@@ -156,7 +182,9 @@
     "lat": 25.071,
     "lon": 55.308,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Global Village, Dubai"
   },
   {
     "id": "country-ae-souk-madinat-jumeirah",
@@ -165,7 +193,9 @@
     "lat": 25.1316,
     "lon": 55.1838,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Souk Madinat Jumeirah, Dubai"
   },
   {
     "id": "country-ae-atlantis-aquaventure",
@@ -174,7 +204,9 @@
     "lat": 25.1304,
     "lon": 55.117,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Atlantis Aquaventure, Dubai"
   },
   {
     "id": "country-ae-dubai-opera",
@@ -183,7 +215,9 @@
     "lat": 25.1972,
     "lon": 55.2737,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Opera, Dubai"
   },
   {
     "id": "country-ae-bluewaters-island",
@@ -192,7 +226,9 @@
     "lat": 25.077,
     "lon": 55.136,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Bluewaters Island, Dubai"
   },
   {
     "id": "country-ae-hatta-dam",
@@ -201,7 +237,9 @@
     "lat": 24.7937,
     "lon": 56.1122,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Unknown",
+    "address": "Hatta Dam, Unknown"
   },
   {
     "id": "country-ae-jebel-jais-viewpoint",
@@ -210,7 +248,9 @@
     "lat": 25.9448,
     "lon": 56.131,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Unknown",
+    "address": "Jebel Jais Viewpoint, Unknown"
   },
   {
     "id": "country-ae-yas-marina-circuit",
@@ -219,7 +259,9 @@
     "lat": 24.4672,
     "lon": 54.6031,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Unknown",
+    "address": "Yas Marina Circuit, Unknown"
   },
   {
     "id": "country-ae-yas-bay-waterfront",
@@ -228,6 +270,272 @@
     "lat": 24.466,
     "lon": 54.602,
     "source": "static",
-    "countryCode": "AE"
+    "countryCode": "AE",
+    "city": "Unknown",
+    "address": "Yas Bay Waterfront, Unknown"
+  },
+  {
+    "id": "country-ae-dubai-ain-dubai-bluwaters",
+    "name": "Ain Dubai (Bluewaters)",
+    "category": "landmarks",
+    "lat": 25.0776,
+    "lon": 55.132,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "JBR Jogging Track"
+  },
+  {
+    "id": "country-ae-dubai-al-fahidi-historical-neighbourhood",
+    "name": "Al Fahidi Historical Neighbourhood",
+    "category": "landmarks",
+    "lat": 25.1894,
+    "lon": 55.2519,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "47c Street"
+  },
+  {
+    "id": "country-ae-dubai-atlantis-the-palm",
+    "name": "Atlantis The Palm",
+    "category": "landmarks",
+    "lat": 25.1897,
+    "lon": 55.2869,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Atlantis The Palm, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-central-market-dubai-2",
+    "name": "Central Market (Dubai) 2",
+    "category": "food",
+    "lat": 25.2257,
+    "lon": 55.2667,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Central Market (Dubai) 2, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-city-park-dubai-4",
+    "name": "City Park (Dubai) 4",
+    "category": "nature",
+    "lat": 25.1909,
+    "lon": 55.2901,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "City Park (Dubai) 4, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-city-walk-dubai",
+    "name": "City Walk Dubai",
+    "category": "food",
+    "lat": 25.2042,
+    "lon": 55.2617,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "City Walk Dubai, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-difc-gate-village",
+    "name": "DIFC Gate Village",
+    "category": "food",
+    "lat": 25.214,
+    "lon": 55.2803,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "DIFC Gate Village, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-dubai-creek-al-seef",
+    "name": "Dubai Creek / Al Seef",
+    "category": "landmarks",
+    "lat": 25.1884,
+    "lon": 55.2627,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Creek / Al Seef, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-dubai-fountain-lake",
+    "name": "Dubai Fountain Lake",
+    "category": "landmarks",
+    "lat": 25.2148,
+    "lon": 55.2539,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Fountain Lake, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-dubai-garden-glow",
+    "name": "Dubai Garden Glow",
+    "category": "other",
+    "lat": 25.233,
+    "lon": 55.3,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Garden Glow, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-gold-souk",
+    "name": "Gold Souk",
+    "category": "other",
+    "lat": 25.2695,
+    "lon": 55.2963,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Gold Souk, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-historic-cathedral-dubai-5",
+    "name": "Historic Cathedral (Dubai) 5",
+    "category": "landmarks",
+    "lat": 25.2166,
+    "lon": 55.2581,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Historic Cathedral (Dubai) 5, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-jbr-the-walk",
+    "name": "JBR The Walk",
+    "category": "food",
+    "lat": 25.0765,
+    "lon": 55.133,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "JBR The Walk, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-jumeirah-beach",
+    "name": "Jumeirah Beach",
+    "category": "nature",
+    "lat": 25.2007,
+    "lon": 55.2398,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Jumeirah Beach, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-kite-beach",
+    "name": "Kite Beach",
+    "category": "nature",
+    "lat": 25.2081,
+    "lon": 55.269,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Kite Beach, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-la-mer",
+    "name": "La Mer",
+    "category": "nightlife",
+    "lat": 25.2191,
+    "lon": 55.2896,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "La Mer, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-la-mer-beach",
+    "name": "La Mer Beach",
+    "category": "nature",
+    "lat": 25.238,
+    "lon": 55.258,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "La Mer Beach, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-local-food-street-dubai-8",
+    "name": "Local Food Street (Dubai) 8",
+    "category": "food",
+    "lat": 25.216,
+    "lon": 55.2612,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Local Food Street (Dubai) 8, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-modern-art-gallery-dubai-6",
+    "name": "Modern Art Gallery (Dubai) 6",
+    "category": "museums",
+    "lat": 25.2058,
+    "lon": 55.2973,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Modern Art Gallery (Dubai) 6, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-nightlife-district-dubai-7",
+    "name": "Nightlife District (Dubai) 7",
+    "category": "nightlife",
+    "lat": 25.2264,
+    "lon": 55.2792,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Nightlife District (Dubai) 7, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-old-town-dubai-1",
+    "name": "Old Town (Dubai) 1",
+    "category": "landmarks",
+    "lat": 25.1989,
+    "lon": 55.2686,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Old Town (Dubai) 1, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-riverside-promenade-dubai-3",
+    "name": "Riverside Promenade (Dubai) 3",
+    "category": "nature",
+    "lat": 25.2072,
+    "lon": 55.2759,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Riverside Promenade (Dubai) 3, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-ski-dubai",
+    "name": "Ski Dubai",
+    "category": "other",
+    "lat": 25.118,
+    "lon": 55.2,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Ski Dubai, Dubai"
+  },
+  {
+    "id": "country-ae-dubai-spice-souk",
+    "name": "Spice Souk",
+    "category": "food",
+    "lat": 25.2039,
+    "lon": 55.2588,
+    "source": "static",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Spice Souk, Dubai"
   }
 ]

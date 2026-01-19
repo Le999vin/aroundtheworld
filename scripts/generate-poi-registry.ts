@@ -1,5 +1,5 @@
-const fs = require("node:fs/promises");
-const path = require("node:path");
+import fs from "node:fs/promises";
+import path from "node:path";
 
 type PoiRecord = {
   lat: number;
@@ -99,22 +99,22 @@ const writeRegistry = async () => {
   ]);
 
   const countryCodes = countryFiles
-    .filter((file) => file.toLowerCase().endsWith(".json"))
-    .map((file) => file.replace(/\.json$/i, ""))
-    .map((code) => code.toUpperCase())
-    .sort((a, b) => a.localeCompare(b));
+    .filter((file: string) => file.toLowerCase().endsWith(".json"))
+    .map((file: string) => file.replace(/\.json$/i, ""))
+    .map((code: string) => code.toUpperCase())
+    .sort((a: string, b: string) => a.localeCompare(b));
 
   const cityMetaList = await Promise.all(
     cityFiles
-      .filter((file) => file.toLowerCase().endsWith(".json"))
-      .map((file) => loadCityMeta(path.join(citiesDir, file)))
+      .filter((file: string) => file.toLowerCase().endsWith(".json"))
+      .map((file: string) => loadCityMeta(path.join(citiesDir, file)))
   );
 
   cityMetaList.sort((a, b) => a.id.localeCompare(b.id));
 
   const countryEntries = countryCodes
     .map(
-      (code) =>
+      (code: string) =>
         `  ${code}: async () => (await import("./datasets/countries/${code}.json")).default as POI[],`
     )
     .join("\n");

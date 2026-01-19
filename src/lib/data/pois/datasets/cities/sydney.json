@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Bondi Beach, Sydney"
   },
   {
     "id": "city-sydney-carriageworks-farmers-market",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Carriageworks Farmers Market, Sydney"
   },
   {
     "id": "city-sydney-circular-quay",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Circular Quay, Sydney"
   },
   {
     "id": "city-sydney-darling-harbour",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Darling Harbour, Sydney"
   },
   {
     "id": "city-sydney-hyde-park-sydney",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Hyde Park Sydney, Sydney"
   },
   {
     "id": "city-sydney-kings-cross",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Kings Cross, Sydney"
   },
   {
     "id": "city-sydney-luna-park",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Luna Park, Sydney"
   },
   {
     "id": "city-sydney-manly-beach",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Manly Beach, Sydney"
   },
   {
     "id": "city-sydney-mrs-macquarie-s-chair",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Mrs Macquarie's Chair, Sydney"
   },
   {
     "id": "city-sydney-newtown",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Newtown, Sydney"
   },
   {
     "id": "city-sydney-opera-bar",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Opera Bar, Sydney"
   },
   {
     "id": "city-sydney-paddington-markets",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Paddington Markets, Sydney"
   },
   {
     "id": "city-sydney-queen-victoria-building",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Queen Victoria Building, Sydney"
   },
   {
     "id": "city-sydney-royal-botanic-garden",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Royal Botanic Garden, Sydney"
   },
   {
     "id": "city-sydney-surry-hills",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Surry Hills, Sydney"
   },
   {
     "id": "city-sydney-sydney-fish-market",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Sydney Fish Market, Sydney"
   },
   {
     "id": "city-sydney-sydney-harbour-bridge",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Sydney Harbour Bridge, Sydney"
   },
   {
     "id": "city-sydney-sydney-opera-house",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Sydney Opera House, Sydney"
   },
   {
     "id": "city-sydney-sydney-tower-eye",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Sydney Tower Eye, Sydney"
   },
   {
     "id": "city-sydney-taronga-zoo",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Taronga Zoo, Sydney"
   },
   {
     "id": "city-sydney-the-rocks",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "The Rocks, Sydney"
   },
   {
     "id": "city-sydney-watsons-bay",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "AU",
     "cityId": "sydney",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Watsons Bay, Sydney"
   }
 ]

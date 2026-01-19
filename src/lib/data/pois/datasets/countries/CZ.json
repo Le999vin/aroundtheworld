@@ -7,8 +7,8 @@
     "lon": 14.4005,
     "source": "static",
     "countryCode": "CZ",
-    "address": "38/4 Vikářská",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "38/4 Vikářská"
   },
   {
     "id": "country-cz-charles-bridge",
@@ -18,8 +18,8 @@
     "lon": 14.4114,
     "source": "static",
     "countryCode": "CZ",
-    "address": "Charles Bridge",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Charles Bridge"
   },
   {
     "id": "country-cz-old-town-square-prague",
@@ -29,8 +29,8 @@
     "lon": 14.4213,
     "source": "static",
     "countryCode": "CZ",
-    "address": "Old Town",
-    "city": "Prague"
+    "city": "Prague",
+    "address": "Old Town"
   },
   {
     "id": "country-cz-astronomical-clock",
@@ -39,7 +39,9 @@
     "lat": 50.087,
     "lon": 14.42,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "promenáda Pawla Adamowicze"
   },
   {
     "id": "country-cz-st-vitus-cathedral",
@@ -48,7 +50,9 @@
     "lat": 50.0906,
     "lon": 14.4005,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "St. Vitus Cathedral, Prague"
   },
   {
     "id": "country-cz-jewish-quarter-josefov",
@@ -57,7 +61,9 @@
     "lat": 50.09,
     "lon": 14.418,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Jewish Quarter Josefov, Unknown"
   },
   {
     "id": "country-cz-vysehrad",
@@ -66,7 +72,9 @@
     "lat": 50.0645,
     "lon": 14.4207,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Vysehrad, Prague"
   },
   {
     "id": "country-cz-cesky-krumlov",
@@ -75,7 +83,9 @@
     "lat": 48.8127,
     "lon": 14.3175,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Cesky Krumlov, Unknown"
   },
   {
     "id": "country-cz-kutna-hora-sedlec-ossuary",
@@ -84,7 +94,9 @@
     "lat": 49.953,
     "lon": 15.288,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Kutna Hora Sedlec Ossuary, Unknown"
   },
   {
     "id": "country-cz-karlovy-vary",
@@ -93,7 +105,9 @@
     "lat": 50.231,
     "lon": 12.871,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Karlovy Vary, Unknown"
   },
   {
     "id": "country-cz-brno-old-town",
@@ -102,7 +116,9 @@
     "lat": 49.1951,
     "lon": 16.6068,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Brno Old Town, Unknown"
   },
   {
     "id": "country-cz-moravian-karst",
@@ -111,7 +127,9 @@
     "lat": 49.363,
     "lon": 16.722,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Moravian Karst, Unknown"
   },
   {
     "id": "country-cz-bohemian-switzerland-national-park",
@@ -120,7 +138,9 @@
     "lat": 50.882,
     "lon": 14.307,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Bohemian Switzerland National Park, Unknown"
   },
   {
     "id": "country-cz-sumava-national-park",
@@ -129,7 +149,9 @@
     "lat": 49.1,
     "lon": 13.5,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Sumava National Park, Unknown"
   },
   {
     "id": "country-cz-lipno-lake",
@@ -138,7 +160,9 @@
     "lat": 48.64,
     "lon": 14.23,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Lipno Lake, Unknown"
   },
   {
     "id": "country-cz-national-museum-prague",
@@ -147,7 +171,9 @@
     "lat": 50.0796,
     "lon": 14.4306,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "National Museum Prague, Prague"
   },
   {
     "id": "country-cz-dox-centre-for-contemporary-art",
@@ -156,7 +182,9 @@
     "lat": 50.107,
     "lon": 14.452,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "DOX Centre for Contemporary Art, Unknown"
   },
   {
     "id": "country-cz-havelske-trziste-market",
@@ -165,7 +193,9 @@
     "lat": 50.0862,
     "lon": 14.4202,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Havelske Trziste Market, Unknown"
   },
   {
     "id": "country-cz-lok-l-dlouh-czech-pub-food",
@@ -174,7 +204,9 @@
     "lat": 50.09,
     "lon": 14.424,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Lokál Dlouhááá (Czech Pub Food), Unknown"
   },
   {
     "id": "country-cz-brno-zeln-trh",
@@ -183,7 +215,9 @@
     "lat": 49.1935,
     "lon": 16.609,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Brno Zelný trh, Unknown"
   },
   {
     "id": "country-cz-roxy-prague",
@@ -192,7 +226,9 @@
     "lat": 50.0885,
     "lon": 14.4247,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Roxy Prague, Unknown"
   },
   {
     "id": "country-cz-cross-club",
@@ -201,7 +237,9 @@
     "lat": 50.109,
     "lon": 14.446,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Cross Club, Unknown"
   },
   {
     "id": "country-cz-karlovy-lazne",
@@ -210,7 +248,9 @@
     "lat": 50.0863,
     "lon": 14.4157,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Karlovy Lazne, Unknown"
   },
   {
     "id": "country-cz-pilsner-urquell-brewery-pilsen",
@@ -219,7 +259,9 @@
     "lat": 49.746,
     "lon": 13.377,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Pilsner Urquell Brewery Pilsen, Unknown"
   },
   {
     "id": "country-cz-telc-historic-center",
@@ -228,6 +270,217 @@
     "lat": 49.184,
     "lon": 15.454,
     "source": "static",
-    "countryCode": "CZ"
+    "countryCode": "CZ",
+    "city": "Unknown",
+    "address": "Telc Historic Center, Unknown"
+  },
+  {
+    "id": "country-cz-pragu-andel",
+    "name": "Andel",
+    "category": "food",
+    "lat": 50.0854,
+    "lon": 14.455,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "112/4 Havlíčkovo náměstí"
+  },
+  {
+    "id": "country-cz-pragu-dancing-house",
+    "name": "Dancing House",
+    "category": "landmarks",
+    "lat": 50.077,
+    "lon": 14.4205,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Dancing House, Prague"
+  },
+  {
+    "id": "country-cz-pragu-havelske-market",
+    "name": "Havelske Market",
+    "category": "food",
+    "lat": 50.0633,
+    "lon": 14.4475,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Havelske Market, Prague"
+  },
+  {
+    "id": "country-cz-pragu-jewish-quarter",
+    "name": "Jewish Quarter",
+    "category": "museums",
+    "lat": 50.0842,
+    "lon": 14.4361,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Jewish Quarter, Prague"
+  },
+  {
+    "id": "country-cz-pragu-kampa-island",
+    "name": "Kampa Island",
+    "category": "nature",
+    "lat": 50.0811,
+    "lon": 14.4216,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Kampa Island, Prague"
+  },
+  {
+    "id": "country-cz-pragu-lennon-wall",
+    "name": "Lennon Wall",
+    "category": "landmarks",
+    "lat": 50.0655,
+    "lon": 14.4154,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Lennon Wall, Prague"
+  },
+  {
+    "id": "country-cz-pragu-letna-park-viewpoint",
+    "name": "Letna Park Viewpoint",
+    "category": "nature",
+    "lat": 50.0823,
+    "lon": 14.452,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Letna Park Viewpoint, Prague"
+  },
+  {
+    "id": "country-cz-pragu-mala-strana",
+    "name": "Mala Strana",
+    "category": "food",
+    "lat": 50.0676,
+    "lon": 14.4534,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Mala Strana, Prague"
+  },
+  {
+    "id": "country-cz-pragu-municipal-house",
+    "name": "Municipal House",
+    "category": "landmarks",
+    "lat": 50.0808,
+    "lon": 14.4506,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Municipal House, Prague"
+  },
+  {
+    "id": "country-cz-pragu-naplavka-riverfront",
+    "name": "Naplavka Riverfront",
+    "category": "food",
+    "lat": 50.074,
+    "lon": 14.4362,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Naplavka Riverfront, Prague"
+  },
+  {
+    "id": "country-cz-pragu-old-town-pubs",
+    "name": "Old Town Pubs",
+    "category": "nightlife",
+    "lat": 50.0667,
+    "lon": 14.4417,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Old Town Pubs, Prague"
+  },
+  {
+    "id": "country-cz-pragu-old-town-square",
+    "name": "Old Town Square",
+    "category": "landmarks",
+    "lat": 50.089,
+    "lon": 14.4285,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Old Town Square, Prague"
+  },
+  {
+    "id": "country-cz-pragu-petrin-hill-tower",
+    "name": "Petrin Hill & Tower",
+    "category": "nature",
+    "lat": 50.0619,
+    "lon": 14.4399,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Petrin Hill & Tower, Prague"
+  },
+  {
+    "id": "country-cz-pragu-pragu-beer-gardens",
+    "name": "Prague Beer Gardens",
+    "category": "nightlife",
+    "lat": 50.0743,
+    "lon": 14.4412,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Prague Beer Gardens, Prague"
+  },
+  {
+    "id": "country-cz-pragu-rudolfinum",
+    "name": "Rudolfinum",
+    "category": "museums",
+    "lat": 50.0854,
+    "lon": 14.4211,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Rudolfinum, Prague"
+  },
+  {
+    "id": "country-cz-pragu-strahov-library",
+    "name": "Strahov Library",
+    "category": "museums",
+    "lat": 50.0622,
+    "lon": 14.46,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Strahov Library, Prague"
+  },
+  {
+    "id": "country-cz-pragu-stromovka-park",
+    "name": "Stromovka Park",
+    "category": "nature",
+    "lat": 50.089,
+    "lon": 14.4299,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Stromovka Park, Prague"
+  },
+  {
+    "id": "country-cz-pragu-wenceslas-square",
+    "name": "Wenceslas Square",
+    "category": "landmarks",
+    "lat": 50.0648,
+    "lon": 14.418,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Wenceslas Square, Prague"
+  },
+  {
+    "id": "country-cz-pragu-zizkov-bars",
+    "name": "Zizkov Bars",
+    "category": "nightlife",
+    "lat": 50.0658,
+    "lon": 14.4317,
+    "source": "static",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Zizkov Bars, Prague"
   }
 ]

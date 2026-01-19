@@ -1,0 +1,27 @@
+{
+  "CH": [
+    { "name": "Aletsch Glacier", "category": "nature", "city": "Fiesch" },
+    { "name": "Verzasca Valley", "category": "nature", "city": "Lavertezzo" },
+    { "name": "Saas-Fee", "category": "nature", "city": "Saas-Fee" }
+  ],
+  "TR": [
+    { "name": "Maiden's Tower", "category": "landmarks", "city": "Istanbul" },
+    { "name": "Oludeniz Lagoon", "category": "nature", "city": "Fethiye" },
+    { "name": "Perge Ancient City", "category": "landmarks", "city": "Antalya" }
+  ],
+  "FR": [
+    { "name": "Mont Saint Michel", "category": "landmarks", "city": "Le Mont-Saint-Michel" },
+    { "name": "Verdon Gorge", "category": "nature", "city": "Castellane" },
+    { "name": "Palace of Versailles", "category": "landmarks", "city": "Versailles" }
+  ],
+  "DE": [
+    { "name": "Neuschwanstein Castle", "category": "landmarks", "city": "Schwangau" },
+    { "name": "Zugspitze", "category": "nature", "city": "Garmisch-Partenkirchen" },
+    { "name": "Heidelberg Castle", "category": "landmarks", "city": "Heidelberg" }
+  ],
+  "US": [
+    { "name": "Grand Canyon National Park", "category": "nature", "city": "Grand Canyon Village" },
+    { "name": "Yosemite National Park", "category": "nature", "city": "Yosemite Valley" },
+    { "name": "Golden Gate Bridge", "category": "landmarks", "city": "San Francisco" }
+  ]
+}

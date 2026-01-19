@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Atlantis Aquaventure, Dubai"
   },
   {
     "id": "city-dubai-atlantis-the-palm",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Atlantis The Palm, Dubai"
   },
   {
     "id": "city-dubai-bluewaters-island",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Bluewaters Island, Dubai"
   },
   {
     "id": "city-dubai-burj-al-arab-viewpoint",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Burj Al Arab Viewpoint, Dubai"
   },
   {
     "id": "city-dubai-burj-khalifa",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Burj Khalifa, Dubai"
   },
   {
     "id": "city-dubai-central-market-dubai-2",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Central Market (Dubai) 2, Dubai"
   },
   {
     "id": "city-dubai-city-park-dubai-4",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "City Park (Dubai) 4, Dubai"
   },
   {
     "id": "city-dubai-city-walk-dubai",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "City Walk Dubai, Dubai"
   },
   {
     "id": "city-dubai-difc-gate-village",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "DIFC Gate Village, Dubai"
   },
   {
     "id": "city-dubai-dubai-creek-abra-ride",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Creek Abra Ride, Dubai"
   },
   {
     "id": "city-dubai-dubai-creek-al-seef",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Creek / Al Seef, Dubai"
   },
   {
     "id": "city-dubai-dubai-fountain-lake",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Fountain Lake, Dubai"
   },
   {
     "id": "city-dubai-dubai-frame",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Frame, Dubai"
   },
   {
     "id": "city-dubai-dubai-garden-glow",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Garden Glow, Dubai"
   },
   {
     "id": "city-dubai-dubai-mall",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Mall, Dubai"
   },
   {
     "id": "city-dubai-dubai-marina",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Marina, Dubai"
   },
   {
     "id": "city-dubai-dubai-miracle-garden",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Miracle Garden, Dubai"
   },
   {
     "id": "city-dubai-dubai-opera",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Dubai Opera, Dubai"
   },
   {
     "id": "city-dubai-global-village",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Global Village, Dubai"
   },
   {
     "id": "city-dubai-gold-souk",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Gold Souk, Dubai"
   },
   {
     "id": "city-dubai-historic-cathedral-dubai-5",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Historic Cathedral (Dubai) 5, Dubai"
   },
   {
     "id": "city-dubai-jbr-the-walk",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "JBR The Walk, Dubai"
   },
   {
     "id": "city-dubai-jumeirah-beach",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Jumeirah Beach, Dubai"
   },
   {
     "id": "city-dubai-kite-beach",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Kite Beach, Dubai"
   },
   {
     "id": "city-dubai-la-mer",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "La Mer, Dubai"
   },
   {
     "id": "city-dubai-la-mer-beach",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "La Mer Beach, Dubai"
   },
   {
     "id": "city-dubai-local-food-street-dubai-8",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Local Food Street (Dubai) 8, Dubai"
   },
   {
     "id": "city-dubai-modern-art-gallery-dubai-6",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Modern Art Gallery (Dubai) 6, Dubai"
   },
   {
     "id": "city-dubai-museum-of-the-future",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Museum of the Future, Dubai"
   },
   {
     "id": "city-dubai-nightlife-district-dubai-7",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Nightlife District (Dubai) 7, Dubai"
   },
   {
     "id": "city-dubai-old-town-dubai-1",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Old Town (Dubai) 1, Dubai"
   },
   {
     "id": "city-dubai-palm-jumeirah-boardwalk",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Palm Jumeirah Boardwalk, Dubai"
   },
   {
     "id": "city-dubai-pier-7-dubai-marina",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Pier 7 (Dubai Marina), Dubai"
   },
   {
     "id": "city-dubai-riverside-promenade-dubai-3",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Riverside Promenade (Dubai) 3, Dubai"
   },
   {
     "id": "city-dubai-ski-dubai",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Ski Dubai, Dubai"
   },
   {
     "id": "city-dubai-souk-madinat-jumeirah",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Souk Madinat Jumeirah, Dubai"
   },
   {
     "id": "city-dubai-spice-souk",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "AE",
     "cityId": "dubai",
-    "city": "Dubai"
+    "city": "Dubai",
+    "address": "Spice Souk, Dubai"
   }
 ]

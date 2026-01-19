@@ -7,8 +7,8 @@
     "lon": 2.2945,
     "source": "static",
     "countryCode": "FR",
-    "address": "Champ de Mars, 5 Av. Anatole France",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Champ de Mars, 5 Av. Anatole France"
   },
   {
     "id": "country-fr-louvre-museum",
@@ -18,8 +18,8 @@
     "lon": 2.3376,
     "source": "static",
     "countryCode": "FR",
-    "address": "99 Rue de Rivoli",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "99 Rue de Rivoli"
   },
   {
     "id": "country-fr-mont-saint-michel",
@@ -29,8 +29,8 @@
     "lon": -1.5115,
     "source": "static",
     "countryCode": "FR",
-    "address": "L'Abbaye (au sommet du village)",
-    "city": "Le Mont-Saint-Michel"
+    "city": "Le Mont-Saint-Michel",
+    "address": "L'Abbaye (au sommet du village)"
   },
   {
     "id": "country-fr-palace-of-versailles",
@@ -40,8 +40,8 @@
     "lon": 2.1204,
     "source": "static",
     "countryCode": "FR",
-    "address": "Place d'Armes",
-    "city": "Versailles"
+    "city": "Versailles",
+    "address": "Place d'Armes"
   },
   {
     "id": "country-fr-promenade-des-anglais",
@@ -51,8 +51,8 @@
     "lon": 7.265,
     "source": "static",
     "countryCode": "FR",
-    "address": "Promenade des Anglais",
-    "city": "Nice"
+    "city": "Nice",
+    "address": "Promenade des Anglais"
   },
   {
     "id": "country-fr-vieux-lyon",
@@ -62,8 +62,8 @@
     "lon": 4.8271,
     "source": "static",
     "countryCode": "FR",
-    "address": "1 Place Saint-Jean",
-    "city": "Lyon"
+    "city": "Lyon",
+    "address": "1 Place Saint-Jean"
   },
   {
     "id": "country-fr-strasbourg-cathedral",
@@ -73,8 +73,8 @@
     "lon": 7.7509,
     "source": "static",
     "countryCode": "FR",
-    "address": "Place de la Cathédrale",
-    "city": "Strasbourg"
+    "city": "Strasbourg",
+    "address": "Place de la Cathédrale"
   },
   {
     "id": "country-fr-bordeaux-waterfront",
@@ -84,8 +84,8 @@
     "lon": -0.5706,
     "source": "static",
     "countryCode": "FR",
-    "address": "Quai des Chartrons",
-    "city": "Bordeaux"
+    "city": "Bordeaux",
+    "address": "Quai des Chartrons"
   },
   {
     "id": "country-fr-annecy-old-town",
@@ -95,8 +95,8 @@
     "lon": 6.1286,
     "source": "static",
     "countryCode": "FR",
-    "address": "74000 Annecy",
-    "city": "Annecy"
+    "city": "Annecy",
+    "address": "74000 Annecy"
   },
   {
     "id": "country-fr-dune-of-pilat",
@@ -106,8 +106,8 @@
     "lon": -1.2133,
     "source": "static",
     "countryCode": "FR",
-    "address": "Route de Biscarrosse (RD 218)",
-    "city": "La Teste-de-Buch"
+    "city": "La Teste-de-Buch",
+    "address": "Route de Biscarrosse (RD 218)"
   },
   {
     "id": "country-fr-notre-dame-cathedral",
@@ -117,8 +117,8 @@
     "lon": 2.3499,
     "source": "static",
     "countryCode": "FR",
-    "address": "6 Parvis Notre-Dame – Pl. Jean-Paul II",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "6 Parvis Notre-Dame – Pl. Jean-Paul II"
   },
   {
     "id": "country-fr-sacre-coeur",
@@ -128,8 +128,8 @@
     "lon": 2.3431,
     "source": "static",
     "countryCode": "FR",
-    "address": "35 Rue du Chevalier de la Barre",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "35 Rue du Chevalier de la Barre"
   },
   {
     "id": "country-fr-arc-de-triomphe",
@@ -139,8 +139,8 @@
     "lon": 2.295,
     "source": "static",
     "countryCode": "FR",
-    "address": "Place Charles de Gaulle",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Place Charles de Gaulle"
   },
   {
     "id": "country-fr-musee-d-orsay",
@@ -150,8 +150,8 @@
     "lon": 2.3265,
     "source": "static",
     "countryCode": "FR",
-    "address": "1 Rue de la Légion d'Honneur",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "1 Rue de la Légion d'Honneur"
   },
   {
     "id": "country-fr-lavender-fields-provence",
@@ -161,8 +161,8 @@
     "lon": 5.8081,
     "source": "static",
     "countryCode": "FR",
-    "address": "RD8 (Plateau de Valensole)",
-    "city": "Valensole"
+    "city": "Valensole",
+    "address": "RD8 (Plateau de Valensole)"
   },
   {
     "id": "country-fr-pigalle-district",
@@ -172,8 +172,8 @@
     "lon": 2.3323,
     "source": "static",
     "countryCode": "FR",
-    "address": "Place Pigalle",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Place Pigalle"
   },
   {
     "id": "country-fr-marais-nightlife",
@@ -183,8 +183,8 @@
     "lon": 2.3635,
     "source": "static",
     "countryCode": "FR",
-    "address": "Place des Vosges",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Place des Vosges"
   },
   {
     "id": "country-fr-bastille-clubs",
@@ -194,8 +194,8 @@
     "lon": 2.3691,
     "source": "static",
     "countryCode": "FR",
-    "address": "46-48 Rue du Faubourg Saint-Antoine",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "46-48 Rue du Faubourg Saint-Antoine"
   },
   {
     "id": "country-fr-canal-saint-martin",
@@ -205,8 +205,8 @@
     "lon": 2.364,
     "source": "static",
     "countryCode": "FR",
-    "address": "Quai de Jemmapes",
-    "city": "Paris"
+    "city": "Paris",
+    "address": "Quai de Jemmapes"
   },
   {
     "id": "country-fr-pont-du-gard",
@@ -216,8 +216,8 @@
     "lon": 4.535,
     "source": "static",
     "countryCode": "FR",
-    "address": "400 Route du Pont du Gard",
-    "city": "Vers-Pont-du-Gard"
+    "city": "Vers-Pont-du-Gard",
+    "address": "400 Route du Pont du Gard"
   },
   {
     "id": "country-fr-loire-valley-chateaux",
@@ -227,8 +227,8 @@
     "lon": 0.715,
     "source": "static",
     "countryCode": "FR",
-    "address": "78-82 Rue de Bernard Palissy",
-    "city": "Tours"
+    "city": "Tours",
+    "address": "78-82 Rue de Bernard Palissy"
   },
   {
     "id": "country-fr-chamonix-mont-blanc",
@@ -238,8 +238,8 @@
     "lon": 6.8694,
     "source": "static",
     "countryCode": "FR",
-    "address": "85 Place du Triangle de l'Amitié",
-    "city": "Chamonix-Mont-Blanc"
+    "city": "Chamonix-Mont-Blanc",
+    "address": "85 Place du Triangle de l'Amitié"
   },
   {
     "id": "country-fr-calanques-national-park",
@@ -249,8 +249,8 @@
     "lon": 5.435,
     "source": "static",
     "countryCode": "FR",
-    "address": "141 Avenue du Prado, Bâtiment A",
-    "city": "Marseille"
+    "city": "Marseille",
+    "address": "141 Avenue du Prado, Bâtiment A"
   },
   {
     "id": "country-fr-reims-cathedral-champagne",
@@ -260,8 +260,8 @@
     "lon": 4.034,
     "source": "static",
     "countryCode": "FR",
-    "address": "Place du Cardinal Luçon",
-    "city": "Reims"
+    "city": "Reims",
+    "address": "Place du Cardinal Luçon"
   },
   {
     "id": "country-fr-carcassonne-citadel",
@@ -271,7 +271,337 @@
     "lon": 2.363,
     "source": "static",
     "countryCode": "FR",
-    "address": "1 Rue Viollet-le-Duc",
-    "city": "Carcassonne"
+    "city": "Carcassonne",
+    "address": "1 Rue Viollet-le-Duc"
+  },
+  {
+    "id": "country-fr-paris-canal-saint-martin",
+    "name": "Canal Saint-Martin",
+    "category": "landmarks",
+    "lat": 48.8722,
+    "lon": 2.3642,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Canal Saint-Martin, Paris"
+  },
+  {
+    "id": "country-fr-paris-central-market-paris-2",
+    "name": "Central Market (Paris) 2",
+    "category": "food",
+    "lat": 48.874,
+    "lon": 2.3347,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Central Market (Paris) 2, Paris"
+  },
+  {
+    "id": "country-fr-paris-centre-pompidou",
+    "name": "Centre Pompidou",
+    "category": "museums",
+    "lat": 48.8606,
+    "lon": 2.3522,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Centre Pompidou, Paris"
+  },
+  {
+    "id": "country-fr-paris-champs-elysees",
+    "name": "Champs-Elysees",
+    "category": "landmarks",
+    "lat": 48.8698,
+    "lon": 2.3073,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Champs-Elysees, Paris"
+  },
+  {
+    "id": "country-fr-paris-city-park-paris-4",
+    "name": "City Park (Paris) 4",
+    "category": "nature",
+    "lat": 48.8463,
+    "lon": 2.3209,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "City Park (Paris) 4, Paris"
+  },
+  {
+    "id": "country-fr-paris-historic-cathedral-paris-5",
+    "name": "Historic Cathedral (Paris) 5",
+    "category": "landmarks",
+    "lat": 48.874,
+    "lon": 2.3325,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Historic Cathedral (Paris) 5, Paris"
+  },
+  {
+    "id": "country-fr-paris-latin-quarter",
+    "name": "Latin Quarter",
+    "category": "food",
+    "lat": 48.8424,
+    "lon": 2.3446,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Latin Quarter, Paris"
+  },
+  {
+    "id": "country-fr-paris-latin-quarter-nightlife",
+    "name": "Latin Quarter Nightlife",
+    "category": "nightlife",
+    "lat": 48.8456,
+    "lon": 2.3499,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Latin Quarter Nightlife, Paris"
+  },
+  {
+    "id": "country-fr-paris-le-marais",
+    "name": "Le Marais",
+    "category": "food",
+    "lat": 48.8589,
+    "lon": 2.3622,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Le Marais, Paris"
+  },
+  {
+    "id": "country-fr-paris-local-food-street-paris-8",
+    "name": "Local Food Street (Paris) 8",
+    "category": "food",
+    "lat": 48.8803,
+    "lon": 2.3781,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Local Food Street (Paris) 8, Paris"
+  },
+  {
+    "id": "country-fr-paris-luxembourg-gardens",
+    "name": "Luxembourg Gardens",
+    "category": "nature",
+    "lat": 48.8462,
+    "lon": 2.3372,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Luxembourg Gardens, Paris"
+  },
+  {
+    "id": "country-fr-paris-marche-des-enfants-rouges",
+    "name": "Marché des Enfants Rouges",
+    "category": "food",
+    "lat": 48.8622,
+    "lon": 2.3615,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Marché des Enfants Rouges, Paris"
+  },
+  {
+    "id": "country-fr-paris-modern-art-gallery-paris-6",
+    "name": "Modern Art Gallery (Paris) 6",
+    "category": "museums",
+    "lat": 48.8739,
+    "lon": 2.34,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Modern Art Gallery (Paris) 6, Paris"
+  },
+  {
+    "id": "country-fr-paris-montparnasse-tower-viewpoint",
+    "name": "Montparnasse Tower Viewpoint",
+    "category": "landmarks",
+    "lat": 48.8434,
+    "lon": 2.376,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Montparnasse Tower Viewpoint, Paris"
+  },
+  {
+    "id": "country-fr-paris-moulin-rouge",
+    "name": "Moulin Rouge",
+    "category": "nightlife",
+    "lat": 48.8844,
+    "lon": 2.3826,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Moulin Rouge, Paris"
+  },
+  {
+    "id": "country-fr-paris-nightlife-district-paris-7",
+    "name": "Nightlife District (Paris) 7",
+    "category": "nightlife",
+    "lat": 48.8754,
+    "lon": 2.3871,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Nightlife District (Paris) 7, Paris"
+  },
+  {
+    "id": "country-fr-paris-oberkampf",
+    "name": "Oberkampf",
+    "category": "nightlife",
+    "lat": 48.8689,
+    "lon": 2.3394,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Oberkampf, Paris"
+  },
+  {
+    "id": "country-fr-paris-old-town-paris-1",
+    "name": "Old Town (Paris) 1",
+    "category": "landmarks",
+    "lat": 48.835,
+    "lon": 2.3293,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Old Town (Paris) 1, Paris"
+  },
+  {
+    "id": "country-fr-paris-palais-garnier",
+    "name": "Palais Garnier",
+    "category": "landmarks",
+    "lat": 48.8719,
+    "lon": 2.3316,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Palais Garnier, Paris"
+  },
+  {
+    "id": "country-fr-paris-pere-lachaise-cemetery",
+    "name": "Père Lachaise Cemetery",
+    "category": "landmarks",
+    "lat": 48.8614,
+    "lon": 2.3933,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Père Lachaise Cemetery, Paris"
+  },
+  {
+    "id": "country-fr-paris-place-de-la-concorde",
+    "name": "Place de la Concorde",
+    "category": "landmarks",
+    "lat": 48.8412,
+    "lon": 2.3649,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place de la Concorde, Paris"
+  },
+  {
+    "id": "country-fr-paris-riverside-promenade-paris-3",
+    "name": "Riverside Promenade (Paris) 3",
+    "category": "nature",
+    "lat": 48.8616,
+    "lon": 2.3834,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Riverside Promenade (Paris) 3, Paris"
+  },
+  {
+    "id": "country-fr-paris-rodin-museum",
+    "name": "Rodin Museum",
+    "category": "museums",
+    "lat": 48.8556,
+    "lon": 2.3155,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Rodin Museum, Paris"
+  },
+  {
+    "id": "country-fr-paris-ru-cler",
+    "name": "Rue Cler",
+    "category": "food",
+    "lat": 48.8702,
+    "lon": 2.3473,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Rue Cler, Paris"
+  },
+  {
+    "id": "country-fr-paris-ru-montorguil",
+    "name": "Rue Montorgueil",
+    "category": "food",
+    "lat": 48.864,
+    "lon": 2.347,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Rue Montorgueil, Paris"
+  },
+  {
+    "id": "country-fr-paris-saint-germain-des-pres",
+    "name": "Saint-Germain-des-Prés",
+    "category": "food",
+    "lat": 48.8534,
+    "lon": 2.333,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Saint-Germain-des-Prés, Paris"
+  },
+  {
+    "id": "country-fr-paris-sainte-chapelle",
+    "name": "Sainte-Chapelle",
+    "category": "museums",
+    "lat": 48.8554,
+    "lon": 2.345,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Sainte-Chapelle, Paris"
+  },
+  {
+    "id": "country-fr-paris-seine-river-walk",
+    "name": "Seine River Walk",
+    "category": "nature",
+    "lat": 48.857,
+    "lon": 2.342,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Seine River Walk, Paris"
+  },
+  {
+    "id": "country-fr-paris-trocadero",
+    "name": "Trocadero",
+    "category": "landmarks",
+    "lat": 48.8629,
+    "lon": 2.287,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Trocadero, Paris"
+  },
+  {
+    "id": "country-fr-castellane-verdon-gorge",
+    "name": "Verdon Gorge",
+    "category": "nature",
+    "lat": 43.7496562,
+    "lon": 6.3285616,
+    "source": "static",
+    "countryCode": "FR",
+    "city": "Castellane",
+    "address": "Route de la Maline"
   }
 ]

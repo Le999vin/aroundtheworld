@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Dublin Castle, Dublin"
   },
   {
     "id": "city-dublin-epic-the-irish-emigration-museum",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "EPIC The Irish Emigration Museum, Dublin"
   },
   {
     "id": "city-dublin-george-s-street-arcade",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "George's Street Arcade, Dublin"
   },
   {
     "id": "city-dublin-grafton-street",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Grafton Street, Dublin"
   },
   {
     "id": "city-dublin-grand-canal-dock",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Grand Canal Dock, Dublin"
   },
   {
     "id": "city-dublin-guinness-storehouse",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Guinness Storehouse, Dublin"
   },
   {
     "id": "city-dublin-ha-penny-bridge",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Ha'penny Bridge, Dublin"
   },
   {
     "id": "city-dublin-howth-cliff-walk",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Howth Cliff Walk, Dublin"
   },
   {
     "id": "city-dublin-iveagh-gardens",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Iveagh Gardens, Dublin"
   },
   {
     "id": "city-dublin-kilmainham-gaol",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Kilmainham Gaol, Dublin"
   },
   {
     "id": "city-dublin-merrion-square",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Merrion Square, Dublin"
   },
   {
     "id": "city-dublin-national-gallery-of-ireland",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "National Gallery of Ireland, Dublin"
   },
   {
     "id": "city-dublin-national-museum-of-ireland",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "National Museum of Ireland, Dublin"
   },
   {
     "id": "city-dublin-o-connell-street",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "O'Connell Street, Dublin"
   },
   {
     "id": "city-dublin-phoenix-park",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Phoenix Park, Dublin"
   },
   {
     "id": "city-dublin-smithfield-square",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Smithfield Square, Dublin"
   },
   {
     "id": "city-dublin-st-patrick-s-cathedral",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "St Patrick's Cathedral, Dublin"
   },
   {
     "id": "city-dublin-st-stephen-s-green",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "St. Stephen's Green, Dublin"
   },
   {
     "id": "city-dublin-stoneybatter",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Stoneybatter, Dublin"
   },
   {
     "id": "city-dublin-temple-bar",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Temple Bar, Dublin"
   },
   {
     "id": "city-dublin-the-brazen-head",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "The Brazen Head, Dublin"
   },
   {
     "id": "city-dublin-trinity-college-book-of-kells",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "IE",
     "cityId": "dublin",
-    "city": "Dublin"
+    "city": "Dublin",
+    "address": "Trinity College & Book of Kells, Dublin"
   }
 ]

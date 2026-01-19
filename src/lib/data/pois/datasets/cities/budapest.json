@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Chain Bridge, Budapest"
   },
   {
     "id": "city-budapest-city-park",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "City Park, Budapest"
   },
   {
     "id": "city-budapest-danube-promenade",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Danube Promenade, Budapest"
   },
   {
     "id": "city-budapest-dohany-street-synagogue",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Dohany Street Synagogue, Budapest"
   },
   {
     "id": "city-budapest-fisherman-s-bastion",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Fisherman's Bastion, Budapest"
   },
   {
     "id": "city-budapest-gellert-baths",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Gellert Baths, Budapest"
   },
   {
     "id": "city-budapest-gellert-hill-citadella",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Gellert Hill Citadella, Budapest"
   },
   {
     "id": "city-budapest-great-market-hall",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Great Market Hall, Budapest"
   },
   {
     "id": "city-budapest-heroes-square",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Heroes' Square, Budapest"
   },
   {
     "id": "city-budapest-house-of-terror-museum",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "House of Terror Museum, Budapest"
   },
   {
     "id": "city-budapest-hungarian-national-museum",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Hungarian National Museum, Budapest"
   },
   {
     "id": "city-budapest-hungarian-parliament",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Hungarian Parliament, Budapest"
   },
   {
     "id": "city-budapest-instant-fogas",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Instant-Fogas, Budapest"
   },
   {
     "id": "city-budapest-jewish-quarter-bars",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Jewish Quarter Bars, Budapest"
   },
   {
     "id": "city-budapest-kossuth-lajos-square",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Kossuth Lajos Square, Budapest"
   },
   {
     "id": "city-budapest-margaret-island",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Margaret Island, Budapest"
   },
   {
     "id": "city-budapest-matthias-church",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Matthias Church, Budapest"
   },
   {
     "id": "city-budapest-new-york-cafe",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "New York Cafe, Budapest"
   },
   {
     "id": "city-budapest-st-stephen-s-basilica",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "St. Stephen's Basilica, Budapest"
   },
   {
     "id": "city-budapest-szechenyi-thermal-bath",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Szechenyi Thermal Bath, Budapest"
   },
   {
     "id": "city-budapest-szimpla-kert-ruin-bar",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Szimpla Kert Ruin Bar, Budapest"
   },
   {
     "id": "city-budapest-vajdahunyad-castle",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "HU",
     "cityId": "budapest",
-    "city": "Budapest"
+    "city": "Budapest",
+    "address": "Vajdahunyad Castle, Budapest"
   }
 ]

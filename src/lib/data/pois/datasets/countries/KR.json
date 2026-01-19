@@ -7,8 +7,8 @@
     "lon": 126.977,
     "source": "static",
     "countryCode": "KR",
-    "address": "Samcheong-ro",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Samcheong-ro"
   },
   {
     "id": "country-kr-bukchon-hanok-village",
@@ -18,8 +18,8 @@
     "lon": 126.983,
     "source": "static",
     "countryCode": "KR",
-    "address": "북촌로11나길",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "북촌로11나길"
   },
   {
     "id": "country-kr-insadong",
@@ -29,8 +29,8 @@
     "lon": 126.9849,
     "source": "static",
     "countryCode": "KR",
-    "address": "41-1 Insadong-gil",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "41-1 Insadong-gil"
   },
   {
     "id": "country-kr-n-seoul-tower",
@@ -39,7 +39,9 @@
     "lat": 37.5512,
     "lon": 126.9882,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "N Seoul Tower, Seoul"
   },
   {
     "id": "country-kr-myeongdong-shopping-streets",
@@ -48,7 +50,9 @@
     "lat": 37.5636,
     "lon": 126.985,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Myeongdong Shopping Streets, Unknown"
   },
   {
     "id": "country-kr-dongdaemun-design-plaza",
@@ -57,7 +61,9 @@
     "lat": 37.5663,
     "lon": 127.0095,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Dongdaemun Design Plaza, Seoul"
   },
   {
     "id": "country-kr-coex-mall-and-starfield-library",
@@ -66,7 +72,9 @@
     "lat": 37.5125,
     "lon": 127.0585,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "COEX Mall and Starfield Library, Unknown"
   },
   {
     "id": "country-kr-changdeokgung-palace",
@@ -75,7 +83,9 @@
     "lat": 37.5794,
     "lon": 126.991,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "75 Yulgok-ro"
   },
   {
     "id": "country-kr-dmz-observation-area",
@@ -84,7 +94,9 @@
     "lat": 37.914,
     "lon": 126.91,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "DMZ Observation Area, Unknown"
   },
   {
     "id": "country-kr-jeju-hallasan-national-park",
@@ -93,7 +105,9 @@
     "lat": 33.3617,
     "lon": 126.5292,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Jeju Hallasan National Park, Unknown"
   },
   {
     "id": "country-kr-jeju-seongsan-ilchulbong",
@@ -102,7 +116,9 @@
     "lat": 33.458,
     "lon": 126.942,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Jeju Seongsan Ilchulbong, Unknown"
   },
   {
     "id": "country-kr-busan-haeundae-beach",
@@ -111,7 +127,9 @@
     "lat": 35.1587,
     "lon": 129.1604,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Busan Haeundae Beach, Unknown"
   },
   {
     "id": "country-kr-gamcheon-culture-village",
@@ -120,7 +138,9 @@
     "lat": 35.097,
     "lon": 129.01,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Gamcheon Culture Village, Unknown"
   },
   {
     "id": "country-kr-gyeongju-bulguksa-temple",
@@ -129,7 +149,9 @@
     "lat": 35.79,
     "lon": 129.332,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Gyeongju Bulguksa Temple, Unknown"
   },
   {
     "id": "country-kr-seoraksan-national-park",
@@ -138,7 +160,9 @@
     "lat": 38.119,
     "lon": 128.465,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Seoraksan National Park, Unknown"
   },
   {
     "id": "country-kr-bukhansan-national-park",
@@ -147,7 +171,9 @@
     "lat": 37.658,
     "lon": 126.995,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Bukhansan National Park, Unknown"
   },
   {
     "id": "country-kr-national-museum-of-korea",
@@ -156,7 +182,9 @@
     "lat": 37.523,
     "lon": 126.98,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "National Museum of Korea, Seoul"
   },
   {
     "id": "country-kr-leeum-samsung-museum-of-art",
@@ -165,7 +193,9 @@
     "lat": 37.5385,
     "lon": 126.999,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Leeum Samsung Museum of Art, Unknown"
   },
   {
     "id": "country-kr-busan-cinema-center",
@@ -174,7 +204,9 @@
     "lat": 35.171,
     "lon": 129.127,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Busan Cinema Center, Unknown"
   },
   {
     "id": "country-kr-gwangjang-market",
@@ -183,7 +215,9 @@
     "lat": 37.57,
     "lon": 126.999,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Gwangjang Market, Seoul"
   },
   {
     "id": "country-kr-myeongdong-street-food",
@@ -192,7 +226,9 @@
     "lat": 37.5636,
     "lon": 126.985,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Myeongdong Street Food, Unknown"
   },
   {
     "id": "country-kr-jagalchi-fish-market",
@@ -201,7 +237,9 @@
     "lat": 35.0965,
     "lon": 129.03,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Jagalchi Fish Market, Unknown"
   },
   {
     "id": "country-kr-hongdae",
@@ -210,7 +248,9 @@
     "lat": 37.5563,
     "lon": 126.9237,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Hongdae, Seoul"
   },
   {
     "id": "country-kr-itaewon",
@@ -219,7 +259,9 @@
     "lat": 37.5345,
     "lon": 126.994,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Itaewon, Seoul"
   },
   {
     "id": "country-kr-gangnam-nightlife-district",
@@ -228,6 +270,184 @@
     "lat": 37.5172,
     "lon": 127.0473,
     "source": "static",
-    "countryCode": "KR"
+    "countryCode": "KR",
+    "city": "Unknown",
+    "address": "Gangnam Nightlife District, Unknown"
+  },
+  {
+    "id": "country-kr-seoul-banpo-bridge-rainbow-fountain",
+    "name": "Banpo Bridge Rainbow Fountain",
+    "category": "landmarks",
+    "lat": 37.5651,
+    "lon": 126.9727,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Fortress Wall of Seoul Trail4 -Inwangsan Course"
+  },
+  {
+    "id": "country-kr-seoul-cheonggyecheon-stream",
+    "name": "Cheonggyecheon Stream",
+    "category": "nature",
+    "lat": 37.5837,
+    "lon": 126.97,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Cheonggyecheon Stream, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-cox-mall",
+    "name": "COEX Mall",
+    "category": "other",
+    "lat": 37.5557,
+    "lon": 126.9613,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "COEX Mall, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-gangnam",
+    "name": "Gangnam",
+    "category": "nightlife",
+    "lat": 37.554,
+    "lon": 126.9914,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Gangnam, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-gwanghwamun-square",
+    "name": "Gwanghwamun Square",
+    "category": "landmarks",
+    "lat": 37.5501,
+    "lon": 126.9627,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Gwanghwamun Square, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-han-river-parks",
+    "name": "Han River Parks",
+    "category": "nature",
+    "lat": 37.5757,
+    "lon": 126.9644,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Han River Parks, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-ikseon-dong",
+    "name": "Ikseon-dong",
+    "category": "food",
+    "lat": 37.5689,
+    "lon": 126.9889,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Ikseon-dong, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-insadong",
+    "name": "Insadong",
+    "category": "food",
+    "lat": 37.5585,
+    "lon": 126.9861,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Insadong, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-jamsil",
+    "name": "Jamsil",
+    "category": "nightlife",
+    "lat": 37.5775,
+    "lon": 126.9647,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Jamsil, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-lotte-world-tower",
+    "name": "Lotte World Tower",
+    "category": "landmarks",
+    "lat": 37.5687,
+    "lon": 126.9707,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Lotte World Tower, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-myeongdong",
+    "name": "Myeongdong",
+    "category": "food",
+    "lat": 37.5759,
+    "lon": 126.9978,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Myeongdong, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-namdamun-market",
+    "name": "Namdaemun Market",
+    "category": "food",
+    "lat": 37.5827,
+    "lon": 126.9846,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Namdaemun Market, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-olympic-park",
+    "name": "Olympic Park",
+    "category": "nature",
+    "lat": 37.5792,
+    "lon": 126.9915,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Olympic Park, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-seongsu-dong",
+    "name": "Seongsu-dong",
+    "category": "food",
+    "lat": 37.5786,
+    "lon": 126.9919,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Seongsu-dong, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-seoul-forest",
+    "name": "Seoul Forest",
+    "category": "nature",
+    "lat": 37.5582,
+    "lon": 126.9899,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Seoul Forest, Seoul"
+  },
+  {
+    "id": "country-kr-seoul-war-memorial-of-korea",
+    "name": "War Memorial of Korea",
+    "category": "museums",
+    "lat": 37.5745,
+    "lon": 126.9799,
+    "source": "static",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "War Memorial of Korea, Seoul"
   }
 ]

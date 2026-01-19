@@ -3,6 +3,7 @@ import { ServiceError } from "@/lib/services/errors";
 import type { POI, PlaceCategory } from "@/lib/types";
 import { PLACE_CATEGORIES } from "@/lib/data/pois/constants";
 import { normalizeCityId, normalizeCountryCode } from "@/lib/data/pois/utils";
+import { sanitizePoi, type PoiSanitizeOptions } from "./sanitize";
 
 export type { PlaceCategory } from "@/lib/types";
 export { PLACE_CATEGORIES } from "@/lib/data/pois/constants";
@@ -84,17 +85,106 @@ const formatIssuePath = (path: (string | number)[]) => {
     : `[${index}${suffix}]`;
 };
 
-export const parsePoisDataset = (data: unknown, context: string): POI[] => {
-  const parsed = poiDatasetSchema.safeParse(data);
-  if (parsed.success) return parsed.data as POI[];
+export type PoisDatasetParseMeta = {
+  total: number;
+  invalidCount: number;
+};
 
-  const issue = parsed.error.issues[0];
-  const location = issue ? formatIssuePath(issue.path) : "";
-  const detail = issue?.message ?? "invalid data";
-  const suffix = location ? ` ${location}` : "";
+export type PoisDatasetParseResult = {
+  pois: POI[];
+  meta: PoisDatasetParseMeta;
+};
 
-  throw new ServiceError(`Invalid POI dataset ${context}${suffix}: ${detail}`, {
-    status: 500,
-    code: "unexpected",
+const resolveContextDefaults = (
+  data: unknown[],
+  context: string
+): PoiSanitizeOptions => {
+  const defaults: PoiSanitizeOptions = {};
+  const isCountry = context.startsWith("country:");
+  const isCity = context.startsWith("city:");
+
+  if (isCountry) {
+    defaults.defaultCountryCode =
+      normalizeCountryCode(context.slice("country:".length)) ?? undefined;
+  }
+  if (isCity) {
+    defaults.defaultCityId =
+      normalizeCityId(context.slice("city:".length)) ?? undefined;
+  }
+
+  if (!defaults.defaultCountryCode && (isCountry || isCity)) {
+    for (const item of data) {
+      if (!item || typeof item !== "object") continue;
+      const raw = (item as Record<string, unknown>).countryCode;
+      const normalized =
+        typeof raw === "string" ? normalizeCountryCode(raw) : null;
+      if (normalized) {
+        defaults.defaultCountryCode = normalized;
+        break;
+      }
+    }
+  }
+
+  if (!defaults.defaultCityId && isCity) {
+    for (const item of data) {
+      if (!item || typeof item !== "object") continue;
+      const raw = (item as Record<string, unknown>).cityId;
+      const normalized = typeof raw === "string" ? normalizeCityId(raw) : null;
+      if (normalized) {
+        defaults.defaultCityId = normalized;
+        break;
+      }
+    }
+  }
+
+  return defaults;
+};
+
+export const parsePoisDataset = (
+  data: unknown,
+  context: string
+): PoisDatasetParseResult => {
+  if (!Array.isArray(data)) {
+    throw new ServiceError(`Invalid POI dataset ${context}: expected array.`, {
+      status: 500,
+      code: "unexpected",
+    });
+  }
+
+  const defaults = resolveContextDefaults(data, context);
+  const pois: POI[] = [];
+  let invalidCount = 0;
+
+  data.forEach((entry, index) => {
+    const { poi } = sanitizePoi(entry, defaults);
+    if (!poi) {
+      invalidCount += 1;
+      console.warn(
+        `[pois] Invalid POI dataset ${context} [${index}]: entry is not an object.`
+      );
+      return;
+    }
+
+    const parsed = poiSchema.safeParse(poi);
+    if (parsed.success) {
+      pois.push(parsed.data as POI);
+      return;
+    }
+
+    invalidCount += 1;
+    for (const issue of parsed.error.issues) {
+      const location = formatIssuePath([index, ...issue.path]);
+      console.warn(
+        `[pois] Invalid POI dataset ${context} ${location}: ${issue.message}`
+      );
+    }
   });
+
+  return {
+    pois,
+    meta: {
+      total: data.length,
+      invalidCount,
+    },
+  };
 };

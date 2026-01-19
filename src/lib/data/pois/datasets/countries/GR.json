@@ -7,8 +7,8 @@
     "lon": 23.7257,
     "source": "static",
     "countryCode": "GR",
-    "address": "Περίπατος Ακρόπολης (Βόρεια κλιτύς)",
-    "city": "Athens"
+    "city": "Athens",
+    "address": "Περίπατος Ακρόπολης (Βόρεια κλιτύς)"
   },
   {
     "id": "country-gr-santorini-oia",
@@ -18,8 +18,8 @@
     "lon": 25.3753,
     "source": "static",
     "countryCode": "GR",
-    "address": "Αρμένιοι",
-    "city": "Ia Municipal Unit"
+    "city": "Ia Municipal Unit",
+    "address": "Αρμένιοι"
   },
   {
     "id": "country-gr-meteora",
@@ -29,8 +29,8 @@
     "lon": 21.63,
     "source": "static",
     "countryCode": "GR",
-    "address": "Μετέωρα - Καστράκι",
-    "city": "Kalabaka"
+    "city": "Kalabaka",
+    "address": "Μετέωρα - Καστράκι"
   },
   {
     "id": "country-gr-delphi",
@@ -39,7 +39,9 @@
     "lat": 38.4827,
     "lon": 22.501,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Delphi, Unknown"
   },
   {
     "id": "country-gr-mykonos-little-venice",
@@ -48,7 +50,9 @@
     "lat": 37.4467,
     "lon": 25.3289,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Mykonos Little Venice, Unknown"
   },
   {
     "id": "country-gr-palace-of-knossos",
@@ -57,7 +61,9 @@
     "lat": 35.2989,
     "lon": 25.1634,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Palace of Knossos, Unknown"
   },
   {
     "id": "country-gr-acropolis-museum",
@@ -66,7 +72,9 @@
     "lat": 37.9681,
     "lon": 23.7286,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "15 Διονυσίου Αρεοπαγίτου"
   },
   {
     "id": "country-gr-navagio-beach",
@@ -75,7 +83,9 @@
     "lat": 37.8597,
     "lon": 20.624,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Navagio Beach, Unknown"
   },
   {
     "id": "country-gr-white-tower",
@@ -84,7 +94,9 @@
     "lat": 40.6264,
     "lon": 22.9485,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "White Tower of Thessaloniki, Unknown"
   },
   {
     "id": "country-gr-monastiraki",
@@ -93,7 +105,9 @@
     "lat": 37.976,
     "lon": 23.725,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Monastiraki, Unknown"
   },
   {
     "id": "country-gr-plaka-athens",
@@ -102,7 +116,9 @@
     "lat": 37.973,
     "lon": 23.7285,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Plaka (Athens), Unknown"
   },
   {
     "id": "country-gr-syntagma-square",
@@ -111,7 +127,9 @@
     "lat": 37.9755,
     "lon": 23.7347,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Syntagma Square, Athens"
   },
   {
     "id": "country-gr-rhodes-old-town",
@@ -120,7 +138,9 @@
     "lat": 36.4467,
     "lon": 28.227,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Rhodes Old Town, Unknown"
   },
   {
     "id": "country-gr-corfu-old-town",
@@ -129,7 +149,9 @@
     "lat": 39.6243,
     "lon": 19.9217,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Corfu Old Town, Unknown"
   },
   {
     "id": "country-gr-naxos-chora",
@@ -138,7 +160,9 @@
     "lat": 37.1045,
     "lon": 25.3773,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Naxos Chora, Unknown"
   },
   {
     "id": "country-gr-laganas-strip-zakynthos",
@@ -147,7 +171,9 @@
     "lat": 37.728,
     "lon": 20.868,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Laganas Strip (Zakynthos), Unknown"
   },
   {
     "id": "country-gr-elafonissi-beach-crete",
@@ -156,7 +182,9 @@
     "lat": 35.2715,
     "lon": 23.5413,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Elafonissi Beach (Crete), Unknown"
   },
   {
     "id": "country-gr-ladadika-thessaloniki",
@@ -165,7 +193,9 @@
     "lat": 40.633,
     "lon": 22.936,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Ladadika (Thessaloniki), Unknown"
   },
   {
     "id": "country-gr-mount-olympus-litochoro",
@@ -174,7 +204,9 @@
     "lat": 40.1,
     "lon": 22.497,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Mount Olympus (Litochoro), Unknown"
   },
   {
     "id": "country-gr-hydra-port",
@@ -183,7 +215,9 @@
     "lat": 37.3495,
     "lon": 23.465,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Hydra Port, Unknown"
   },
   {
     "id": "country-gr-nafplio-old-town",
@@ -192,7 +226,9 @@
     "lat": 37.5686,
     "lon": 22.8062,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Nafplio Old Town, Unknown"
   },
   {
     "id": "country-gr-athens-central-market",
@@ -201,7 +237,9 @@
     "lat": 37.9802,
     "lon": 23.7266,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Athens Central Market, Athens"
   },
   {
     "id": "country-gr-ancient-agora-athens",
@@ -210,7 +248,9 @@
     "lat": 37.9755,
     "lon": 23.7218,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Ancient Agora (Athens), Athens"
   },
   {
     "id": "country-gr-mykonos-beach-clubs-paradise-beach",
@@ -219,7 +259,9 @@
     "lat": 37.4012,
     "lon": 25.3477,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Mykonos Beach Clubs (Paradise Beach), Unknown"
   },
   {
     "id": "country-gr-piraeus-port-marina-zeas",
@@ -228,6 +270,349 @@
     "lat": 37.94,
     "lon": 23.647,
     "source": "static",
-    "countryCode": "GR"
+    "countryCode": "GR",
+    "city": "Unknown",
+    "address": "Piraeus Port & Marina Zeas, Unknown"
+  },
+  {
+    "id": "country-gr-athens-athens-riviera-glyfada",
+    "name": "Athens Riviera (Glyfada)",
+    "category": "nature",
+    "lat": 37.9996,
+    "lon": 23.7071,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Athens Riviera (Glyfada), Athens"
+  },
+  {
+    "id": "country-gr-athens-benaki-museum",
+    "name": "Benaki Museum",
+    "category": "museums",
+    "lat": 37.9749,
+    "lon": 23.7407,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Benaki Museum, Athens"
+  },
+  {
+    "id": "country-gr-athens-central-market-athens-2",
+    "name": "Central Market (Athens) 2",
+    "category": "food",
+    "lat": 37.9898,
+    "lon": 23.7343,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Central Market (Athens) 2, Athens"
+  },
+  {
+    "id": "country-gr-athens-city-park-athens-4",
+    "name": "City Park (Athens) 4",
+    "category": "nature",
+    "lat": 37.9797,
+    "lon": 23.7194,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "City Park (Athens) 4, Athens"
+  },
+  {
+    "id": "country-gr-athens-ermou-street",
+    "name": "Ermou Street",
+    "category": "food",
+    "lat": 37.9752,
+    "lon": 23.7335,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Ermou Street, Athens"
+  },
+  {
+    "id": "country-gr-athens-gazi-district",
+    "name": "Gazi District",
+    "category": "nightlife",
+    "lat": 37.9776,
+    "lon": 23.7111,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Gazi District, Athens"
+  },
+  {
+    "id": "country-gr-athens-gazi-technopolis",
+    "name": "Gazi / Technopolis",
+    "category": "nightlife",
+    "lat": 37.9707,
+    "lon": 23.7435,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Gazi / Technopolis, Athens"
+  },
+  {
+    "id": "country-gr-athens-historic-cathedral-athens-5",
+    "name": "Historic Cathedral (Athens) 5",
+    "category": "landmarks",
+    "lat": 37.9676,
+    "lon": 23.6987,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Historic Cathedral (Athens) 5, Athens"
+  },
+  {
+    "id": "country-gr-athens-kerameikos",
+    "name": "Kerameikos",
+    "category": "landmarks",
+    "lat": 37.9787,
+    "lon": 23.7083,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Kerameikos, Athens"
+  },
+  {
+    "id": "country-gr-athens-kolonaki",
+    "name": "Kolonaki",
+    "category": "food",
+    "lat": 37.9778,
+    "lon": 23.7435,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Kolonaki, Athens"
+  },
+  {
+    "id": "country-gr-athens-local-food-street-athens-8",
+    "name": "Local Food Street (Athens) 8",
+    "category": "food",
+    "lat": 37.9795,
+    "lon": 23.7186,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Local Food Street (Athens) 8, Athens"
+  },
+  {
+    "id": "country-gr-athens-lycabettus-hill",
+    "name": "Lycabettus Hill",
+    "category": "nature",
+    "lat": 37.9838,
+    "lon": 23.7433,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Lycabettus Hill, Athens"
+  },
+  {
+    "id": "country-gr-athens-modern-art-gallery-athens-6",
+    "name": "Modern Art Gallery (Athens) 6",
+    "category": "museums",
+    "lat": 38.0021,
+    "lon": 23.7131,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Modern Art Gallery (Athens) 6, Athens"
+  },
+  {
+    "id": "country-gr-athens-monastiraki",
+    "name": "Monastiraki",
+    "category": "nightlife",
+    "lat": 37.976,
+    "lon": 23.725,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Monastiraki, Athens"
+  },
+  {
+    "id": "country-gr-athens-monastiraki-flea-market",
+    "name": "Monastiraki Flea Market",
+    "category": "food",
+    "lat": 37.9686,
+    "lon": 23.7062,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Monastiraki Flea Market, Athens"
+  },
+  {
+    "id": "country-gr-athens-monastiraki-square",
+    "name": "Monastiraki Square",
+    "category": "food",
+    "lat": 37.9759,
+    "lon": 23.7203,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Monastiraki Square, Athens"
+  },
+  {
+    "id": "country-gr-athens-mount-lycabettus",
+    "name": "Mount Lycabettus",
+    "category": "nature",
+    "lat": 37.9834,
+    "lon": 23.7356,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Mount Lycabettus, Athens"
+  },
+  {
+    "id": "country-gr-athens-national-archaological-museum",
+    "name": "National Archaeological Museum",
+    "category": "museums",
+    "lat": 37.99,
+    "lon": 23.7336,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "National Archaeological Museum, Athens"
+  },
+  {
+    "id": "country-gr-athens-national-garden",
+    "name": "National Garden",
+    "category": "nature",
+    "lat": 37.9733,
+    "lon": 23.7368,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "National Garden, Athens"
+  },
+  {
+    "id": "country-gr-athens-nightlife-district-athens-7",
+    "name": "Nightlife District (Athens) 7",
+    "category": "nightlife",
+    "lat": 37.9591,
+    "lon": 23.7575,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Nightlife District (Athens) 7, Athens"
+  },
+  {
+    "id": "country-gr-athens-odeon-of-herodes-atticus",
+    "name": "Odeon of Herodes Atticus",
+    "category": "landmarks",
+    "lat": 37.9683,
+    "lon": 23.7166,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Odeon of Herodes Atticus, Athens"
+  },
+  {
+    "id": "country-gr-athens-old-town-athens-1",
+    "name": "Old Town (Athens) 1",
+    "category": "landmarks",
+    "lat": 37.9713,
+    "lon": 23.7069,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Old Town (Athens) 1, Athens"
+  },
+  {
+    "id": "country-gr-athens-panathenaic-stadium",
+    "name": "Panathenaic Stadium",
+    "category": "landmarks",
+    "lat": 37.9683,
+    "lon": 23.7411,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Panathenaic Stadium, Athens"
+  },
+  {
+    "id": "country-gr-athens-panormou-ambelokipi-bars",
+    "name": "Panormou / Ambelokipi Bars",
+    "category": "nightlife",
+    "lat": 37.989,
+    "lon": 23.757,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Panormou / Ambelokipi Bars, Athens"
+  },
+  {
+    "id": "country-gr-athens-philopappos-hill",
+    "name": "Philopappos Hill",
+    "category": "nature",
+    "lat": 37.9707,
+    "lon": 23.7216,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Philopappos Hill, Athens"
+  },
+  {
+    "id": "country-gr-athens-plaka",
+    "name": "Plaka",
+    "category": "food",
+    "lat": 37.9737,
+    "lon": 23.7261,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Plaka, Athens"
+  },
+  {
+    "id": "country-gr-athens-psyrri",
+    "name": "Psyrri",
+    "category": "nightlife",
+    "lat": 37.9686,
+    "lon": 23.7329,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Psyrri, Athens"
+  },
+  {
+    "id": "country-gr-athens-psyrri-district",
+    "name": "Psyrri District",
+    "category": "nightlife",
+    "lat": 37.9789,
+    "lon": 23.724,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Psyrri District, Athens"
+  },
+  {
+    "id": "country-gr-athens-riverside-promenade-athens-3",
+    "name": "Riverside Promenade (Athens) 3",
+    "category": "nature",
+    "lat": 37.9594,
+    "lon": 23.7159,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Riverside Promenade (Athens) 3, Athens"
+  },
+  {
+    "id": "country-gr-athens-stavros-niarchos-foundation-cultural-center",
+    "name": "Stavros Niarchos Foundation Cultural Center",
+    "category": "museums",
+    "lat": 37.9399,
+    "lon": 23.6872,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Stavros Niarchos Foundation Cultural Center, Athens"
+  },
+  {
+    "id": "country-gr-athens-temple-of-olympian-zeus",
+    "name": "Temple of Olympian Zeus",
+    "category": "landmarks",
+    "lat": 37.9693,
+    "lon": 23.7325,
+    "source": "static",
+    "countryCode": "GR",
+    "city": "Athens",
+    "address": "Temple of Olympian Zeus, Athens"
   }
 ]

@@ -7,8 +7,8 @@
     "lon": 2.1744,
     "source": "static",
     "countryCode": "ES",
-    "address": "Carrer de Mallorca",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Carrer de Mallorca"
   },
   {
     "id": "country-es-alhambra",
@@ -18,8 +18,8 @@
     "lon": -3.5881,
     "source": "static",
     "countryCode": "ES",
-    "address": "Calle Real Alta",
-    "city": "Granada"
+    "city": "Granada",
+    "address": "Calle Real Alta"
   },
   {
     "id": "country-es-park-guell",
@@ -29,8 +29,8 @@
     "lon": 2.1527,
     "source": "static",
     "countryCode": "ES",
-    "address": "Viaducte del Mig",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Viaducte del Mig"
   },
   {
     "id": "country-es-prado-museum",
@@ -39,7 +39,9 @@
     "lat": 40.4138,
     "lon": -3.6921,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Prado Museum, Unknown"
   },
   {
     "id": "country-es-plaza-mayor",
@@ -48,7 +50,9 @@
     "lat": 40.4154,
     "lon": -3.7074,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Plaza Mayor, Unknown"
   },
   {
     "id": "country-es-alcazar-seville",
@@ -57,7 +61,9 @@
     "lat": 37.3831,
     "lon": -5.9903,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Alcazar of Seville, Unknown"
   },
   {
     "id": "country-es-guggenheim-bilbao",
@@ -66,7 +72,9 @@
     "lat": 43.2686,
     "lon": -2.934,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Guggenheim Museum Bilbao, Unknown"
   },
   {
     "id": "country-es-ibiza-old-town",
@@ -75,7 +83,9 @@
     "lat": 38.9089,
     "lon": 1.4325,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Ibiza Old Town, Unknown"
   },
   {
     "id": "country-es-la-boqueria-market",
@@ -84,7 +94,9 @@
     "lat": 41.3826,
     "lon": 2.1722,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "La Boqueria Market, Barcelona"
   },
   {
     "id": "country-es-santiago-cathedral",
@@ -93,7 +105,9 @@
     "lat": 42.8806,
     "lon": -8.5456,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Santiago Cathedral, Unknown"
   },
   {
     "id": "country-es-madrid-retiro-park",
@@ -102,7 +116,9 @@
     "lat": 40.4153,
     "lon": -3.6844,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Madrid Retiro Park, Unknown"
   },
   {
     "id": "country-es-gran-via-madrid",
@@ -111,7 +127,9 @@
     "lat": 40.42,
     "lon": -3.705,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Gran Vía (Madrid), Unknown"
   },
   {
     "id": "country-es-plaza-de-espana-seville",
@@ -120,7 +138,9 @@
     "lat": 37.3772,
     "lon": -5.9869,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Plaza de España (Seville), Unknown"
   },
   {
     "id": "country-es-city-of-arts-and-sciences-valencia",
@@ -129,7 +149,9 @@
     "lat": 39.4542,
     "lon": -0.3491,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "City of Arts and Sciences (Valencia), Unknown"
   },
   {
     "id": "country-es-mallorca-cathedral-palma",
@@ -138,7 +160,9 @@
     "lat": 39.5671,
     "lon": 2.6499,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Mallorca Cathedral (Palma), Unknown"
   },
   {
     "id": "country-es-cala-d-or-mallorca",
@@ -147,7 +171,9 @@
     "lat": 39.374,
     "lon": 3.227,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Cala d'Or (Mallorca), Unknown"
   },
   {
     "id": "country-es-pintxos-in-parte-vieja-san-sebastian",
@@ -156,7 +182,9 @@
     "lat": 43.3224,
     "lon": -1.9857,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Pintxos in Parte Vieja (San Sebastián), Unknown"
   },
   {
     "id": "country-es-bilbao-casco-viejo",
@@ -165,7 +193,9 @@
     "lat": 43.2572,
     "lon": -2.9234,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Bilbao Casco Viejo, Unknown"
   },
   {
     "id": "country-es-toledo-old-town",
@@ -174,7 +204,9 @@
     "lat": 39.8628,
     "lon": -4.0273,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Toledo Old Town, Unknown"
   },
   {
     "id": "country-es-mezquita-cordoba",
@@ -183,7 +215,9 @@
     "lat": 37.8789,
     "lon": -4.7794,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Mezquita (Córdoba), Unknown"
   },
   {
     "id": "country-es-montserrat-monastery",
@@ -192,7 +226,9 @@
     "lat": 41.591,
     "lon": 1.837,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Montserrat Monastery, Unknown"
   },
   {
     "id": "country-es-marbella-old-town",
@@ -201,7 +237,9 @@
     "lat": 36.509,
     "lon": -4.885,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Marbella Old Town, Unknown"
   },
   {
     "id": "country-es-mirador-de-san-nicolas-granada",
@@ -210,7 +248,9 @@
     "lat": 37.181,
     "lon": -3.592,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Mirador de San Nicolás (Granada), Unknown"
   },
   {
     "id": "country-es-ibiza-clubs-marina-area",
@@ -219,7 +259,9 @@
     "lat": 38.9124,
     "lon": 1.4468,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Unknown",
+    "address": "Ibiza Clubs (Marina Area), Unknown"
   },
   {
     "id": "country-es-barcelona-gothic-quarter",
@@ -228,6 +270,371 @@
     "lat": 41.3838,
     "lon": 2.1763,
     "source": "static",
-    "countryCode": "ES"
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Barcelona Gothic Quarter, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-barceloneta-beach",
+    "name": "Barceloneta Beach",
+    "category": "nature",
+    "lat": 41.3795,
+    "lon": 2.1927,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "16 Passeig Marítim de la Barceloneta - Oriol Bohigas i Guardiola"
+  },
+  {
+    "id": "country-es-barcelona-barceloneta-seafood-strip",
+    "name": "Barceloneta Seafood Strip",
+    "category": "food",
+    "lat": 41.379,
+    "lon": 2.189,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Carrer de Felícia Fuster i Viladecans"
+  },
+  {
+    "id": "country-es-barcelona-bunkers-del-carmel-viewpoint",
+    "name": "Bunkers del Carmel Viewpoint",
+    "category": "nature",
+    "lat": 41.4183,
+    "lon": 2.1634,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Túnel de la Rovira"
+  },
+  {
+    "id": "country-es-barcelona-camp-nou",
+    "name": "Camp Nou",
+    "category": "landmarks",
+    "lat": 41.3809,
+    "lon": 2.1228,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Camp Nou, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-casa-batllo",
+    "name": "Casa Batllo",
+    "category": "landmarks",
+    "lat": 41.3917,
+    "lon": 2.1649,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Casa Batllo, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-casa-mila",
+    "name": "Casa Mila",
+    "category": "landmarks",
+    "lat": 41.3954,
+    "lon": 2.1619,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Casa Mila, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-central-market-barcelona-2",
+    "name": "Central Market (Barcelona) 2",
+    "category": "food",
+    "lat": 41.3898,
+    "lon": 2.1407,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Central Market (Barcelona) 2, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-city-park-barcelona-4",
+    "name": "City Park (Barcelona) 4",
+    "category": "nature",
+    "lat": 41.4087,
+    "lon": 2.1988,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "City Park (Barcelona) 4, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-el-born",
+    "name": "El Born",
+    "category": "food",
+    "lat": 41.3851,
+    "lon": 2.181,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "El Born, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-gracia",
+    "name": "Gracia",
+    "category": "food",
+    "lat": 41.3922,
+    "lon": 2.1494,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Gracia, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-gracia-district",
+    "name": "Gràcia District",
+    "category": "food",
+    "lat": 41.4,
+    "lon": 2.158,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Gràcia District, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-historic-cathedral-barcelona-5",
+    "name": "Historic Cathedral (Barcelona) 5",
+    "category": "landmarks",
+    "lat": 41.408,
+    "lon": 2.161,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Historic Cathedral (Barcelona) 5, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-la-rambla",
+    "name": "La Rambla",
+    "category": "food",
+    "lat": 41.3809,
+    "lon": 2.1736,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "La Rambla, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-local-food-street-barcelona-8",
+    "name": "Local Food Street (Barcelona) 8",
+    "category": "food",
+    "lat": 41.3918,
+    "lon": 2.1586,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Local Food Street (Barcelona) 8, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-magic-fountain-of-montjuic",
+    "name": "Magic Fountain of Montjuïc",
+    "category": "landmarks",
+    "lat": 41.3712,
+    "lon": 2.1519,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Magic Fountain of Montjuïc, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-main-square-barcelona-9",
+    "name": "Main Square (Barcelona) 9",
+    "category": "landmarks",
+    "lat": 41.3673,
+    "lon": 2.1802,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Main Square (Barcelona) 9, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-mnac-museu-nacional-d-art-de-catalunya",
+    "name": "MNAC (Museu Nacional d'Art de Catalunya)",
+    "category": "museums",
+    "lat": 41.3688,
+    "lon": 2.153,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "MNAC (Museu Nacional d'Art de Catalunya), Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-modern-art-gallery-barcelona-6",
+    "name": "Modern Art Gallery (Barcelona) 6",
+    "category": "museums",
+    "lat": 41.3884,
+    "lon": 2.162,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Modern Art Gallery (Barcelona) 6, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-montjuic-cable-car",
+    "name": "Montjuïc Cable Car",
+    "category": "landmarks",
+    "lat": 41.3633,
+    "lon": 2.165,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Montjuïc Cable Car, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-montjuic-castle",
+    "name": "Montjuic Castle",
+    "category": "landmarks",
+    "lat": 41.3649,
+    "lon": 2.1653,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Montjuic Castle, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-nightlife-district-barcelona-7",
+    "name": "Nightlife District (Barcelona) 7",
+    "category": "nightlife",
+    "lat": 41.3867,
+    "lon": 2.1883,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Nightlife District (Barcelona) 7, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-old-town-barcelona-1",
+    "name": "Old Town (Barcelona) 1",
+    "category": "landmarks",
+    "lat": 41.3839,
+    "lon": 2.1499,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Old Town (Barcelona) 1, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-palau-de-la-musica-catalana",
+    "name": "Palau de la Música Catalana",
+    "category": "museums",
+    "lat": 41.3873,
+    "lon": 2.1751,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Palau de la Música Catalana, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-parc-de-la-ciutadella",
+    "name": "Parc de la Ciutadella",
+    "category": "nature",
+    "lat": 41.3993,
+    "lon": 2.1463,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Parc de la Ciutadella, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-picasso-museum",
+    "name": "Picasso Museum",
+    "category": "museums",
+    "lat": 41.3852,
+    "lon": 2.1804,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Picasso Museum, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-poble-espanyol",
+    "name": "Poble Espanyol",
+    "category": "museums",
+    "lat": 41.3698,
+    "lon": 2.1483,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Poble Espanyol, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-poble-sec-tapas-streets",
+    "name": "Poble Sec Tapas Streets",
+    "category": "food",
+    "lat": 41.3716,
+    "lon": 2.1597,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Poble Sec Tapas Streets, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-port-olimpic-nightlife",
+    "name": "Port Olímpic Nightlife",
+    "category": "nightlife",
+    "lat": 41.3899,
+    "lon": 2.1964,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Port Olímpic Nightlife, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-port-vell",
+    "name": "Port Vell",
+    "category": "landmarks",
+    "lat": 41.3791,
+    "lon": 2.185,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Port Vell, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-razzmatazz",
+    "name": "Razzmatazz",
+    "category": "nightlife",
+    "lat": 41.3972,
+    "lon": 2.1915,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Razzmatazz, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-razzmatazz-club",
+    "name": "Razzmatazz Club",
+    "category": "nightlife",
+    "lat": 41.4024,
+    "lon": 2.1482,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Razzmatazz Club, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-riverside-promenade-barcelona-3",
+    "name": "Riverside Promenade (Barcelona) 3",
+    "category": "nature",
+    "lat": 41.3659,
+    "lon": 2.1816,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Riverside Promenade (Barcelona) 3, Barcelona"
+  },
+  {
+    "id": "country-es-barcelona-tibidabo",
+    "name": "Tibidabo",
+    "category": "nature",
+    "lat": 41.4226,
+    "lon": 2.1189,
+    "source": "static",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "Tibidabo, Barcelona"
   }
 ]

@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Church of Our Saviour, Copenhagen"
   },
   {
     "id": "city-copenhagen-copenhagen-botanical-garden",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Copenhagen Botanical Garden, Copenhagen"
   },
   {
     "id": "city-copenhagen-designmuseum-denmark",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Designmuseum Denmark, Copenhagen"
   },
   {
     "id": "city-copenhagen-frederiksberg-gardens",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Frederiksberg Gardens, Copenhagen"
   },
   {
     "id": "city-copenhagen-freetown-christiania",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Freetown Christiania, Copenhagen"
   },
   {
     "id": "city-copenhagen-glyptoteket",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Glyptoteket, Copenhagen"
   },
   {
     "id": "city-copenhagen-islands-brygge-harbour-bath",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Islands Brygge Harbour Bath, Copenhagen"
   },
   {
     "id": "city-copenhagen-jazzhus-montmartre",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Jazzhus Montmartre, Copenhagen"
   },
   {
     "id": "city-copenhagen-meatpacking-district",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Meatpacking District, Copenhagen"
   },
   {
     "id": "city-copenhagen-norrebro",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Norrebro, Copenhagen"
   },
   {
     "id": "city-copenhagen-nyhavn",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Nyhavn, Copenhagen"
   },
   {
     "id": "city-copenhagen-reffen-street-food",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Reffen Street Food, Copenhagen"
   },
   {
     "id": "city-copenhagen-rosenborg-castle",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Rosenborg Castle, Copenhagen"
   },
   {
     "id": "city-copenhagen-rundetaarn-round-tower",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Rundetaarn (Round Tower), Copenhagen"
   },
   {
     "id": "city-copenhagen-smk-national-gallery",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "SMK National Gallery, Copenhagen"
   },
   {
     "id": "city-copenhagen-stroget",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Stroget, Copenhagen"
   },
   {
     "id": "city-copenhagen-superkilen-park",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Superkilen Park, Copenhagen"
   },
   {
     "id": "city-copenhagen-the-lakes",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "The Lakes, Copenhagen"
   },
   {
     "id": "city-copenhagen-the-little-mermaid",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "The Little Mermaid, Copenhagen"
   },
   {
     "id": "city-copenhagen-tivoli-gardens",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Tivoli Gardens, Copenhagen"
   },
   {
     "id": "city-copenhagen-torvehallerne-market",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Torvehallerne Market, Copenhagen"
   },
   {
     "id": "city-copenhagen-vesterbro",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "DK",
     "cityId": "copenhagen",
-    "city": "Copenhagen"
+    "city": "Copenhagen",
+    "address": "Vesterbro, Copenhagen"
   }
 ]

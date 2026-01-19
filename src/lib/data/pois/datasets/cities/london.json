@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "British Museum, London"
   },
   {
     "id": "city-london-buckingham-palace",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Buckingham Palace, London"
   },
   {
     "id": "city-london-camden-market",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Camden Market, London"
   },
   {
     "id": "city-london-central-market-london-12",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Central Market (London) 12, London"
   },
   {
     "id": "city-london-central-market-london-2",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Central Market (London) 2, London"
   },
   {
     "id": "city-london-city-park-london-4",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "City Park (London) 4, London"
   },
   {
     "id": "city-london-covent-garden",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Covent Garden, London"
   },
   {
     "id": "city-london-fabric",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Fabric, London"
   },
   {
     "id": "city-london-greenwich-park",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Greenwich Park, London"
   },
   {
     "id": "city-london-historic-cathedral-london-5",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Historic Cathedral (London) 5, London"
   },
   {
     "id": "city-london-hyde-park",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Hyde Park, London"
   },
   {
     "id": "city-london-local-food-street-london-8",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Local Food Street (London) 8, London"
   },
   {
     "id": "city-london-london-eye",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "London Eye, London"
   },
   {
     "id": "city-london-main-square-london-9",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Main Square (London) 9, London"
   },
   {
     "id": "city-london-ministry-of-sound",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Ministry of Sound, London"
   },
   {
     "id": "city-london-modern-art-gallery-london-6",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Modern Art Gallery (London) 6, London"
   },
   {
     "id": "city-london-natural-history-museum",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Natural History Museum, London"
   },
   {
     "id": "city-london-nightlife-district-london-7",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Nightlife District (London) 7, London"
   },
   {
     "id": "city-london-notting-hill",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Notting Hill, London"
   },
   {
     "id": "city-london-old-town-london-1",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Old Town (London) 1, London"
   },
   {
     "id": "city-london-old-town-london-11",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Old Town (London) 11, London"
   },
   {
     "id": "city-london-regent-s-park",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Regent's Park, London"
   },
   {
     "id": "city-london-riverside-promenade-london-13",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Riverside Promenade (London) 13, London"
   },
   {
     "id": "city-london-riverside-promenade-london-3",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Riverside Promenade (London) 3, London"
   },
   {
     "id": "city-london-shoreditch",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Shoreditch, London"
   },
   {
     "id": "city-london-sky-garden",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Sky Garden, London"
   },
   {
     "id": "city-london-soho",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Soho, London"
   },
   {
     "id": "city-london-south-bank-walk",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "South Bank Walk, London"
   },
   {
     "id": "city-london-st-paul-s-cathedral",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "St Paul's Cathedral, London"
   },
   {
     "id": "city-london-tate-modern",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Tate Modern, London"
   },
   {
     "id": "city-london-the-shard-viewpoint",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "The Shard Viewpoint, London"
   },
   {
     "id": "city-london-tower-bridge",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Tower Bridge, London"
   },
   {
     "id": "city-london-tower-of-london",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Tower of London, London"
   },
   {
     "id": "city-london-trafalgar-square",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Trafalgar Square, London"
   },
   {
     "id": "city-london-victoria-and-albert-museum",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Victoria and Albert Museum, London"
   },
   {
     "id": "city-london-waterfront-london-10",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Waterfront (London) 10, London"
   },
   {
     "id": "city-london-westminster-abbey",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "GB",
     "cityId": "london",
-    "city": "London"
+    "city": "London",
+    "address": "Westminster Abbey, London"
   }
 ]

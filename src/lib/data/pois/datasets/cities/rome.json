@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Campo de' Fiori, Rome"
   },
   {
     "id": "city-rome-campo-de-fiori-market",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Campo de' Fiori Market, Rome"
   },
   {
     "id": "city-rome-capitoline-museums",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Capitoline Museums, Rome"
   },
   {
     "id": "city-rome-castel-sant-angelo",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Castel Sant'Angelo, Rome"
   },
   {
     "id": "city-rome-central-market-rome-2",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Central Market (Rome) 2, Rome"
   },
   {
     "id": "city-rome-city-park-rome-4",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "City Park (Rome) 4, Rome"
   },
   {
     "id": "city-rome-colosseum",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Colosseum, Rome"
   },
   {
     "id": "city-rome-eataly-roma",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Eataly Roma, Rome"
   },
   {
     "id": "city-rome-gianicolo-hill",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Gianicolo Hill, Rome"
   },
   {
     "id": "city-rome-historic-cathedral-rome-5",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Historic Cathedral (Rome) 5, Rome"
   },
   {
     "id": "city-rome-janiculum-hill-viewpoint",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Janiculum Hill Viewpoint, Rome"
   },
   {
     "id": "city-rome-local-food-street-rome-8",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Local Food Street (Rome) 8, Rome"
   },
   {
     "id": "city-rome-maxxi-museum",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "MAXXI Museum, Rome"
   },
   {
     "id": "city-rome-modern-art-gallery-rome-6",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Modern Art Gallery (Rome) 6, Rome"
   },
   {
     "id": "city-rome-monti-district",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Monti District, Rome"
   },
   {
     "id": "city-rome-nightlife-district-rome-7",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Nightlife District (Rome) 7, Rome"
   },
   {
     "id": "city-rome-old-town-rome-1",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Old Town (Rome) 1, Rome"
   },
   {
     "id": "city-rome-ostia-antica",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Ostia Antica, Rome"
   },
   {
     "id": "city-rome-pantheon",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Pantheon, Rome"
   },
   {
     "id": "city-rome-piazza-del-popolo",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Piazza del Popolo, Rome"
   },
   {
     "id": "city-rome-piazza-navona",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Piazza Navona, Rome"
   },
   {
     "id": "city-rome-piazza-venezia",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Piazza Venezia, Rome"
   },
   {
     "id": "city-rome-riverside-promenade-rome-3",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Riverside Promenade (Rome) 3, Rome"
   },
   {
     "id": "city-rome-roman-forum",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Roman Forum, Rome"
   },
   {
     "id": "city-rome-spanish-steps",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Spanish Steps, Rome"
   },
   {
     "id": "city-rome-st-peters-basilica",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "St. Peter's Basilica, Rome"
   },
   {
     "id": "city-rome-testaccio-food-district",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Testaccio Food District, Rome"
   },
   {
     "id": "city-rome-testaccio-market",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Testaccio Market, Rome"
   },
   {
     "id": "city-rome-trastevere",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Trastevere, Rome"
   },
   {
     "id": "city-rome-trastevere-bars",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Trastevere Bars, Rome"
   },
   {
     "id": "city-rome-trevi-fountain",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Trevi Fountain, Rome"
   },
   {
     "id": "city-rome-vatican-museums",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Vatican Museums, Rome"
   },
   {
     "id": "city-rome-via-appia-antica",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Via Appia Antica, Rome"
   },
   {
     "id": "city-rome-via-del-corso",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Via del Corso, Rome"
   },
   {
     "id": "city-rome-villa-borghese",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Villa Borghese, Rome"
   },
   {
     "id": "city-rome-villa-borghese-gardens",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Villa Borghese Gardens, Rome"
   },
   {
     "id": "city-rome-villa-doria-pamphilj",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "IT",
     "cityId": "rome",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Villa Doria Pamphilj, Rome"
   }
 ]

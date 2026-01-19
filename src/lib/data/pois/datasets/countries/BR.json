@@ -7,8 +7,8 @@
     "lon": -43.2105,
     "source": "static",
     "countryCode": "BR",
-    "address": "Estrada do Corcovado",
-    "city": "Rio de Janeiro"
+    "city": "Rio de Janeiro",
+    "address": "Estrada do Corcovado"
   },
   {
     "id": "country-br-sugarloaf-mountain",
@@ -18,8 +18,8 @@
     "lon": -43.1566,
     "source": "static",
     "countryCode": "BR",
-    "address": "Escalada do Costão",
-    "city": "Rio de Janeiro"
+    "city": "Rio de Janeiro",
+    "address": "Escalada do Costão"
   },
   {
     "id": "country-br-copacabana-beach",
@@ -29,8 +29,8 @@
     "lon": -43.1822,
     "source": "static",
     "countryCode": "BR",
-    "address": "Orla Copacabana",
-    "city": "Rio de Janeiro"
+    "city": "Rio de Janeiro",
+    "address": "Orla Copacabana"
   },
   {
     "id": "country-br-ipanema-beach",
@@ -39,7 +39,9 @@
     "lat": -22.9846,
     "lon": -43.2048,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Ipanema Beach, Rio de Janeiro"
   },
   {
     "id": "country-br-iguazu-falls",
@@ -48,7 +50,9 @@
     "lat": -25.6953,
     "lon": -54.4367,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Iguazu Falls, Unknown"
   },
   {
     "id": "country-br-amazon-theatre-manaus",
@@ -57,7 +61,9 @@
     "lat": -3.13,
     "lon": -60.023,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Amazon Theatre Manaus, Unknown"
   },
   {
     "id": "country-br-amazon-rainforest-gateway-manaus",
@@ -66,7 +72,9 @@
     "lat": -3.119,
     "lon": -60.0217,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Amazon Rainforest Gateway Manaus, Unknown"
   },
   {
     "id": "country-br-salvador-pelourinho",
@@ -75,7 +83,9 @@
     "lat": -12.9718,
     "lon": -38.5011,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Salvador Pelourinho, Unknown"
   },
   {
     "id": "country-br-brasilia-cathedral",
@@ -84,7 +94,9 @@
     "lat": -15.7982,
     "lon": -47.875,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Brasilia Cathedral, Unknown"
   },
   {
     "id": "country-br-sao-paulo-paulista-avenue",
@@ -93,7 +105,9 @@
     "lat": -23.5614,
     "lon": -46.6559,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Sao Paulo Paulista Avenue, Unknown"
   },
   {
     "id": "country-br-rio-lapa-arches",
@@ -102,7 +116,9 @@
     "lat": -22.9136,
     "lon": -43.1816,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Rio Lapa Arches, Unknown"
   },
   {
     "id": "country-br-fernando-de-noronha",
@@ -111,7 +127,9 @@
     "lat": -3.854,
     "lon": -32.429,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Fernando de Noronha, Unknown"
   },
   {
     "id": "country-br-len-is-maranhenses",
@@ -120,7 +138,9 @@
     "lat": -2.53,
     "lon": -43.129,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Lençóis Maranhenses, Unknown"
   },
   {
     "id": "country-br-pantanal-wetlands",
@@ -129,7 +149,9 @@
     "lat": -16.5,
     "lon": -56.7,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Pantanal Wetlands, Unknown"
   },
   {
     "id": "country-br-ouro-preto-historic-center",
@@ -138,7 +160,9 @@
     "lat": -20.385,
     "lon": -43.503,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Ouro Preto Historic Center, Unknown"
   },
   {
     "id": "country-br-masp-sao-paulo",
@@ -147,7 +171,9 @@
     "lat": -23.5614,
     "lon": -46.6559,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "MASP Sao Paulo, Unknown"
   },
   {
     "id": "country-br-museum-of-tomorrow-rio",
@@ -156,7 +182,9 @@
     "lat": -22.894,
     "lon": -43.18,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Museum of Tomorrow Rio, Unknown"
   },
   {
     "id": "country-br-inhotim-contemporary-art-museum",
@@ -165,7 +193,9 @@
     "lat": -20.125,
     "lon": -44.219,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Inhotim Contemporary Art Museum, Unknown"
   },
   {
     "id": "country-br-mercado-municipal-sao-paulo",
@@ -174,7 +204,9 @@
     "lat": -23.541,
     "lon": -46.628,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Mercado Municipal Sao Paulo, Unknown"
   },
   {
     "id": "country-br-rio-street-food-copacabana",
@@ -183,7 +215,9 @@
     "lat": -22.9711,
     "lon": -43.1822,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Rio Street Food (Copacabana), Unknown"
   },
   {
     "id": "country-br-salvador-seafood-market",
@@ -192,7 +226,9 @@
     "lat": -12.9718,
     "lon": -38.5011,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Salvador Seafood Market, Unknown"
   },
   {
     "id": "country-br-lapa-nightlife-rio",
@@ -201,7 +237,9 @@
     "lat": -22.9136,
     "lon": -43.1816,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Lapa Nightlife Rio, Unknown"
   },
   {
     "id": "country-br-vila-madalena-sao-paulo",
@@ -210,7 +248,9 @@
     "lat": -23.556,
     "lon": -46.691,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Vila Madalena Sao Paulo, Unknown"
   },
   {
     "id": "country-br-belo-horizonte-nightlife-savassi",
@@ -219,7 +259,9 @@
     "lat": -19.937,
     "lon": -43.938,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Belo Horizonte Nightlife Savassi, Unknown"
   },
   {
     "id": "country-br-chapada-diamantina",
@@ -228,6 +270,239 @@
     "lat": -12.9,
     "lon": -41.4,
     "source": "static",
-    "countryCode": "BR"
+    "countryCode": "BR",
+    "city": "Unknown",
+    "address": "Chapada Diamantina, Unknown"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-arpoador-sunset-spot",
+    "name": "Arpoador Sunset Spot",
+    "category": "nature",
+    "lat": -22.9081,
+    "lon": -43.172,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Rua Santa Luzia"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-barra-da-tijuca",
+    "name": "Barra da Tijuca",
+    "category": "nature",
+    "lat": -22.9027,
+    "lon": -43.1692,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "184 Praça Marechal Âncora"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-ccbb-rio",
+    "name": "CCBB Rio",
+    "category": "museums",
+    "lat": -22.9098,
+    "lon": -43.1762,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Praça Floriano Peixoto"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-copacabana-fort",
+    "name": "Copacabana Fort",
+    "category": "landmarks",
+    "lat": -22.9141,
+    "lon": -43.1848,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Copacabana Fort, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-feira-de-sao-cristovao",
+    "name": "Feira de Sao Cristovao",
+    "category": "food",
+    "lat": -22.9229,
+    "lon": -43.1617,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Feira de Sao Cristovao, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-flamengo-park",
+    "name": "Flamengo Park",
+    "category": "nature",
+    "lat": -22.894,
+    "lon": -43.1735,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Flamengo Park, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-jardim-botanico",
+    "name": "Jardim Botanico",
+    "category": "nature",
+    "lat": -22.9226,
+    "lon": -43.1577,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Jardim Botanico, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-lapa-arches",
+    "name": "Lapa Arches",
+    "category": "landmarks",
+    "lat": -22.8927,
+    "lon": -43.1852,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Lapa Arches, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-leblon",
+    "name": "Leblon",
+    "category": "food",
+    "lat": -22.9013,
+    "lon": -43.1838,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Leblon, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-maracana-stadium",
+    "name": "Maracana Stadium",
+    "category": "landmarks",
+    "lat": -22.9204,
+    "lon": -43.1858,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Maracana Stadium, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-metropolitan-cathedral",
+    "name": "Metropolitan Cathedral",
+    "category": "landmarks",
+    "lat": -22.9225,
+    "lon": -43.1602,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Metropolitan Cathedral, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-museum-of-art-of-rio",
+    "name": "Museum of Art of Rio",
+    "category": "museums",
+    "lat": -22.913,
+    "lon": -43.1637,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Museum of Art of Rio, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-museum-of-tomorrow",
+    "name": "Museum of Tomorrow",
+    "category": "museums",
+    "lat": -22.8954,
+    "lon": -43.1885,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Museum of Tomorrow, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-pedra-do-sal",
+    "name": "Pedra do Sal",
+    "category": "nightlife",
+    "lat": -22.9039,
+    "lon": -43.1885,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Pedra do Sal, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-prainha-beach",
+    "name": "Prainha Beach",
+    "category": "nature",
+    "lat": -22.9226,
+    "lon": -43.1784,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Prainha Beach, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-rio-scenarium",
+    "name": "Rio Scenarium",
+    "category": "nightlife",
+    "lat": -22.9219,
+    "lon": -43.1693,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Rio Scenarium, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-rodrigo-de-freitas-lagoon",
+    "name": "Rodrigo de Freitas Lagoon",
+    "category": "nature",
+    "lat": -22.9038,
+    "lon": -43.1879,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Rodrigo de Freitas Lagoon, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-sambadrome",
+    "name": "Sambadrome",
+    "category": "nightlife",
+    "lat": -22.8923,
+    "lon": -43.162,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Sambadrome, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-santa-teresa",
+    "name": "Santa Teresa",
+    "category": "food",
+    "lat": -22.9016,
+    "lon": -43.1672,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Santa Teresa, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-selaron-steps",
+    "name": "Selaron Steps",
+    "category": "landmarks",
+    "lat": -22.911,
+    "lon": -43.1654,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Selaron Steps, Rio de Janeiro"
+  },
+  {
+    "id": "country-br-rio-de-janeiro-tijuca-national-park",
+    "name": "Tijuca National Park",
+    "category": "nature",
+    "lat": -22.9234,
+    "lon": -43.1821,
+    "source": "static",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Tijuca National Park, Rio de Janeiro"
   }
 ]

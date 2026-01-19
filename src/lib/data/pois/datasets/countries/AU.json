@@ -7,8 +7,8 @@
     "lon": 151.2153,
     "source": "static",
     "countryCode": "AU",
-    "address": "Northern Broadwalk",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Northern Broadwalk"
   },
   {
     "id": "country-au-sydney-harbour-bridge",
@@ -18,8 +18,8 @@
     "lon": 151.2108,
     "source": "static",
     "countryCode": "AU",
-    "address": "Cliff Top Walk",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Cliff Top Walk"
   },
   {
     "id": "country-au-bondi-beach",
@@ -29,8 +29,8 @@
     "lon": 151.2767,
     "source": "static",
     "countryCode": "AU",
-    "address": "Eastern Beaches Coastal Walk",
-    "city": "Sydney"
+    "city": "Sydney",
+    "address": "Eastern Beaches Coastal Walk"
   },
   {
     "id": "country-au-blue-mountains-national-park",
@@ -39,7 +39,9 @@
     "lat": -33.7182,
     "lon": 150.309,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Blue Mountains National Park, Unknown"
   },
   {
     "id": "country-au-great-barrier-reef",
@@ -48,7 +50,9 @@
     "lat": -18.2871,
     "lon": 147.6992,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Great Barrier Reef, Unknown"
   },
   {
     "id": "country-au-uluru",
@@ -57,7 +61,9 @@
     "lat": -25.3444,
     "lon": 131.0369,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Uluru, Unknown"
   },
   {
     "id": "country-au-kakadu-national-park",
@@ -66,7 +72,9 @@
     "lat": -12.4259,
     "lon": 132.5703,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Kakadu National Park, Unknown"
   },
   {
     "id": "country-au-melbourne-laneways",
@@ -75,7 +83,9 @@
     "lat": -37.8136,
     "lon": 144.9631,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Melbourne Laneways, Unknown"
   },
   {
     "id": "country-au-great-ocean-road",
@@ -84,7 +94,9 @@
     "lat": -38.6833,
     "lon": 143.3917,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Great Ocean Road, Unknown"
   },
   {
     "id": "country-au-twelve-apostles",
@@ -93,7 +105,9 @@
     "lat": -38.662,
     "lon": 143.105,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Twelve Apostles, Unknown"
   },
   {
     "id": "country-au-brisbane-south-bank",
@@ -102,7 +116,9 @@
     "lat": -27.4766,
     "lon": 153.017,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Brisbane South Bank, Unknown"
   },
   {
     "id": "country-au-gold-coast-surfers-paradise",
@@ -111,7 +127,9 @@
     "lat": -28.002,
     "lon": 153.431,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Gold Coast Surfers Paradise, Unknown"
   },
   {
     "id": "country-au-perth-kings-park",
@@ -120,7 +138,9 @@
     "lat": -31.9617,
     "lon": 115.842,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Perth Kings Park, Unknown"
   },
   {
     "id": "country-au-fremantle-markets",
@@ -129,7 +149,9 @@
     "lat": -32.056,
     "lon": 115.748,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Fremantle Markets, Unknown"
   },
   {
     "id": "country-au-tasmania-cradle-mountain",
@@ -138,7 +160,9 @@
     "lat": -41.65,
     "lon": 145.95,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Tasmania Cradle Mountain, Unknown"
   },
   {
     "id": "country-au-australian-war-memorial-canberra",
@@ -147,7 +171,9 @@
     "lat": -35.281,
     "lon": 149.149,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Australian War Memorial Canberra, Unknown"
   },
   {
     "id": "country-au-national-gallery-of-victoria",
@@ -156,7 +182,9 @@
     "lat": -37.8226,
     "lon": 144.9689,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "National Gallery of Victoria, Unknown"
   },
   {
     "id": "country-au-queensland-art-gallery",
@@ -165,7 +193,9 @@
     "lat": -27.476,
     "lon": 153.016,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Queensland Art Gallery, Unknown"
   },
   {
     "id": "country-au-sydney-fish-market",
@@ -174,7 +204,9 @@
     "lat": -33.8696,
     "lon": 151.1957,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Sydney Fish Market, Sydney"
   },
   {
     "id": "country-au-melbourne-queen-victoria-market",
@@ -183,7 +215,9 @@
     "lat": -37.8076,
     "lon": 144.9568,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Melbourne Queen Victoria Market, Unknown"
   },
   {
     "id": "country-au-adelaide-central-market",
@@ -192,7 +226,9 @@
     "lat": -34.9287,
     "lon": 138.5986,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Adelaide Central Market, Unknown"
   },
   {
     "id": "country-au-kings-cross",
@@ -201,7 +237,9 @@
     "lat": -33.8748,
     "lon": 151.223,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Kings Cross, Sydney"
   },
   {
     "id": "country-au-melbourne-chapel-street",
@@ -210,7 +248,9 @@
     "lat": -37.858,
     "lon": 144.994,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Melbourne Chapel Street, Unknown"
   },
   {
     "id": "country-au-brisbane-fortitude-valley",
@@ -219,7 +259,9 @@
     "lat": -27.457,
     "lon": 153.034,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Brisbane Fortitude Valley, Unknown"
   },
   {
     "id": "country-au-darling-harbour-nightlife",
@@ -228,6 +270,217 @@
     "lat": -33.874,
     "lon": 151.2,
     "source": "static",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "city": "Unknown",
+    "address": "Darling Harbour Nightlife, Unknown"
+  },
+  {
+    "id": "country-au-sydney-art-gallery-of-nsw",
+    "name": "Art Gallery of NSW",
+    "category": "museums",
+    "lat": -33.8802,
+    "lon": 151.2007,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Glebe to Ultimo cycleway"
+  },
+  {
+    "id": "country-au-sydney-australian-museum",
+    "name": "Australian Museum",
+    "category": "museums",
+    "lat": -33.8749,
+    "lon": 151.2154,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "60 Riley Street"
+  },
+  {
+    "id": "country-au-sydney-barangaroo-reserve",
+    "name": "Barangaroo Reserve",
+    "category": "nature",
+    "lat": -33.8805,
+    "lon": 151.2176,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Darlinghurst Road"
+  },
+  {
+    "id": "country-au-sydney-carriageworks-farmers-market",
+    "name": "Carriageworks Farmers Market",
+    "category": "food",
+    "lat": -33.8693,
+    "lon": 151.2039,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Carriageworks Farmers Market, Sydney"
+  },
+  {
+    "id": "country-au-sydney-circular-quay",
+    "name": "Circular Quay",
+    "category": "landmarks",
+    "lat": -33.86,
+    "lon": 151.2151,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Circular Quay, Sydney"
+  },
+  {
+    "id": "country-au-sydney-darling-harbour",
+    "name": "Darling Harbour",
+    "category": "nightlife",
+    "lat": -33.8588,
+    "lon": 151.2227,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Darling Harbour, Sydney"
+  },
+  {
+    "id": "country-au-sydney-hyde-park-sydney",
+    "name": "Hyde Park Sydney",
+    "category": "nature",
+    "lat": -33.853,
+    "lon": 151.2022,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Hyde Park Sydney, Sydney"
+  },
+  {
+    "id": "country-au-sydney-luna-park",
+    "name": "Luna Park",
+    "category": "other",
+    "lat": -33.8609,
+    "lon": 151.23,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Luna Park, Sydney"
+  },
+  {
+    "id": "country-au-sydney-manly-beach",
+    "name": "Manly Beach",
+    "category": "nature",
+    "lat": -33.8594,
+    "lon": 151.1902,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Manly Beach, Sydney"
+  },
+  {
+    "id": "country-au-sydney-mrs-macquarie-s-chair",
+    "name": "Mrs Macquarie's Chair",
+    "category": "landmarks",
+    "lat": -33.8555,
+    "lon": 151.2088,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Mrs Macquarie's Chair, Sydney"
+  },
+  {
+    "id": "country-au-sydney-newtown",
+    "name": "Newtown",
+    "category": "nightlife",
+    "lat": -33.8844,
+    "lon": 151.2239,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Newtown, Sydney"
+  },
+  {
+    "id": "country-au-sydney-opera-bar",
+    "name": "Opera Bar",
+    "category": "nightlife",
+    "lat": -33.8545,
+    "lon": 151.1917,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Opera Bar, Sydney"
+  },
+  {
+    "id": "country-au-sydney-paddington-markets",
+    "name": "Paddington Markets",
+    "category": "food",
+    "lat": -33.8854,
+    "lon": 151.1886,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Paddington Markets, Sydney"
+  },
+  {
+    "id": "country-au-sydney-royal-botanic-garden",
+    "name": "Royal Botanic Garden",
+    "category": "nature",
+    "lat": -33.863,
+    "lon": 151.2128,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Royal Botanic Garden, Sydney"
+  },
+  {
+    "id": "country-au-sydney-surry-hills",
+    "name": "Surry Hills",
+    "category": "food",
+    "lat": -33.8559,
+    "lon": 151.2148,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Surry Hills, Sydney"
+  },
+  {
+    "id": "country-au-sydney-sydney-tower-eye",
+    "name": "Sydney Tower Eye",
+    "category": "landmarks",
+    "lat": -33.8683,
+    "lon": 151.2288,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Sydney Tower Eye, Sydney"
+  },
+  {
+    "id": "country-au-sydney-taronga-zoo",
+    "name": "Taronga Zoo",
+    "category": "nature",
+    "lat": -33.8653,
+    "lon": 151.195,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Taronga Zoo, Sydney"
+  },
+  {
+    "id": "country-au-sydney-the-rocks",
+    "name": "The Rocks",
+    "category": "landmarks",
+    "lat": -33.8516,
+    "lon": 151.2065,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "The Rocks, Sydney"
+  },
+  {
+    "id": "country-au-sydney-watsons-bay",
+    "name": "Watsons Bay",
+    "category": "nature",
+    "lat": -33.8841,
+    "lon": 151.1982,
+    "source": "static",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Watsons Bay, Sydney"
   }
 ]

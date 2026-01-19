@@ -7,8 +7,8 @@
     "lon": 28.9802,
     "source": "static",
     "countryCode": "TR",
-    "address": "Sultanahmet Meydanı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Sultanahmet Meydanı"
   },
   {
     "id": "country-tr-cappadocia-goreme",
@@ -18,8 +18,8 @@
     "lon": 34.8307,
     "source": "static",
     "countryCode": "TR",
-    "address": "Müze Caddesi",
-    "city": "Göreme"
+    "city": "Göreme",
+    "address": "Müze Caddesi"
   },
   {
     "id": "country-tr-pamukkale",
@@ -29,8 +29,8 @@
     "lon": 29.1187,
     "source": "static",
     "countryCode": "TR",
-    "address": "Fatih Caddesi",
-    "city": "Pamukkale"
+    "city": "Pamukkale",
+    "address": "Fatih Caddesi"
   },
   {
     "id": "country-tr-ephesus",
@@ -40,8 +40,8 @@
     "lon": 27.341,
     "source": "static",
     "countryCode": "TR",
-    "address": "Mermer Cadde",
-    "city": "Selçuk"
+    "city": "Selçuk",
+    "address": "Mermer Cadde"
   },
   {
     "id": "country-tr-blue-mosque",
@@ -51,8 +51,8 @@
     "lon": 28.9768,
     "source": "static",
     "countryCode": "TR",
-    "address": "Atmeydanı Caddesi 7",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Atmeydanı Caddesi 7"
   },
   {
     "id": "country-tr-grand-bazaar",
@@ -62,8 +62,8 @@
     "lon": 28.9681,
     "source": "static",
     "countryCode": "TR",
-    "address": "Halıcılar Caddesi 61-63",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Halıcılar Caddesi 61-63"
   },
   {
     "id": "country-tr-bosphorus-bridge-viewpoint",
@@ -73,8 +73,8 @@
     "lon": 29.036,
     "source": "static",
     "countryCode": "TR",
-    "address": "Beylerbeyi Mah.",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Beylerbeyi Mah."
   },
   {
     "id": "country-tr-topkapi-palace",
@@ -84,8 +84,8 @@
     "lon": 28.9833,
     "source": "static",
     "countryCode": "TR",
-    "address": "Harem Ağaları Taşlığı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Harem Ağaları Taşlığı"
   },
   {
     "id": "country-tr-antalya-old-town",
@@ -95,8 +95,8 @@
     "lon": 30.7056,
     "source": "static",
     "countryCode": "TR",
-    "address": "Zafer Sokak",
-    "city": "Antalya"
+    "city": "Antalya",
+    "address": "Zafer Sokak"
   },
   {
     "id": "country-tr-mount-nemrut",
@@ -106,8 +106,8 @@
     "lon": 38.74,
     "source": "static",
     "countryCode": "TR",
-    "address": "West terrace",
-    "city": "Kâhta"
+    "city": "Kâhta",
+    "address": "West terrace"
   },
   {
     "id": "country-tr-galata-tower",
@@ -117,8 +117,8 @@
     "lon": 28.9744,
     "source": "static",
     "countryCode": "TR",
-    "address": "Bereketzade Mahallesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Bereketzade Mahallesi"
   },
   {
     "id": "country-tr-taksim-square",
@@ -128,8 +128,8 @@
     "lon": 28.9862,
     "source": "static",
     "countryCode": "TR",
-    "address": "Taksim Meydanı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Taksim Meydanı"
   },
   {
     "id": "country-tr-istiklal-avenue",
@@ -139,8 +139,8 @@
     "lon": 28.9776,
     "source": "static",
     "countryCode": "TR",
-    "address": "İstiklal caddesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "İstiklal caddesi"
   },
   {
     "id": "country-tr-kadikoy",
@@ -150,8 +150,8 @@
     "lon": 29.0281,
     "source": "static",
     "countryCode": "TR",
-    "address": "Nal Sokağı 11",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Nal Sokağı 11"
   },
   {
     "id": "country-tr-bodrum-marina",
@@ -161,8 +161,8 @@
     "lon": 27.4305,
     "source": "static",
     "countryCode": "TR",
-    "address": "Cevat Şakir Caddesi",
-    "city": "Bodrum"
+    "city": "Bodrum",
+    "address": "Cevat Şakir Caddesi"
   },
   {
     "id": "country-tr-oludeniz-beach",
@@ -172,8 +172,8 @@
     "lon": 29.124,
     "source": "static",
     "countryCode": "TR",
-    "address": "Denizpark Caddesi",
-    "city": "Fethiye"
+    "city": "Fethiye",
+    "address": "Denizpark Caddesi"
   },
   {
     "id": "country-tr-fethiye-old-town",
@@ -183,8 +183,8 @@
     "lon": 29.116,
     "source": "static",
     "countryCode": "TR",
-    "address": "505. Sokak",
-    "city": "Fethiye"
+    "city": "Fethiye",
+    "address": "505. Sokak"
   },
   {
     "id": "country-tr-kas-old-town",
@@ -194,8 +194,8 @@
     "lon": 29.637,
     "source": "static",
     "countryCode": "TR",
-    "address": "Uğur Mumcu Caddesi",
-    "city": "Kaş"
+    "city": "Kaş",
+    "address": "Uğur Mumcu Caddesi"
   },
   {
     "id": "country-tr-izmir-kordon",
@@ -205,8 +205,8 @@
     "lon": 27.128,
     "source": "static",
     "countryCode": "TR",
-    "address": "Atatürk Caddesi",
-    "city": "İzmir"
+    "city": "İzmir",
+    "address": "Atatürk Caddesi"
   },
   {
     "id": "country-tr-ankara-antkabir",
@@ -216,8 +216,8 @@
     "lon": 32.8369,
     "source": "static",
     "countryCode": "TR",
-    "address": "Akdeniz Caddesi 31",
-    "city": "Ankara"
+    "city": "Ankara",
+    "address": "Akdeniz Caddesi 31"
   },
   {
     "id": "country-tr-sumela-monastery",
@@ -227,8 +227,8 @@
     "lon": 39.653,
     "source": "static",
     "countryCode": "TR",
-    "address": "61-53",
-    "city": "Maçka"
+    "city": "Maçka",
+    "address": "61-53"
   },
   {
     "id": "country-tr-mardin-old-town",
@@ -238,8 +238,8 @@
     "lon": 40.735,
     "source": "static",
     "countryCode": "TR",
-    "address": "Necmettin Mahallesi",
-    "city": "Mardin"
+    "city": "Mardin",
+    "address": "Necmettin Mahallesi"
   },
   {
     "id": "country-tr-bursa-grand-mosque",
@@ -249,8 +249,8 @@
     "lon": 29.0619,
     "source": "static",
     "countryCode": "TR",
-    "address": "Eski Sahaflar Çarşısı Sokak",
-    "city": "Osmangazi"
+    "city": "Osmangazi",
+    "address": "Eski Sahaflar Çarşısı Sokak"
   },
   {
     "id": "country-tr-marmaris-bar-street",
@@ -260,8 +260,8 @@
     "lon": 28.274,
     "source": "static",
     "countryCode": "TR",
-    "address": "27 Sokak",
-    "city": "Marmaris"
+    "city": "Marmaris",
+    "address": "27 Sokak"
   },
   {
     "id": "country-tr-alacat-cesme",
@@ -271,8 +271,8 @@
     "lon": 26.372,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kemalpaşa Caddesi 10",
-    "city": "Çeşme"
+    "city": "Çeşme",
+    "address": "Kemalpaşa Caddesi 10"
   },
   {
     "id": "country-tr-istanbul-arnavutkoy-nightlife",
@@ -282,8 +282,8 @@
     "lon": 29.042,
     "source": "static",
     "countryCode": "TR",
-    "address": "Arnavutköy Mahallesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Arnavutköy Mahallesi"
   },
   {
     "id": "country-tr-istanbul-balat",
@@ -293,8 +293,8 @@
     "lon": 28.9569,
     "source": "static",
     "countryCode": "TR",
-    "address": "Alişan Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Alişan Sokağı"
   },
   {
     "id": "country-tr-istanbul-balat-colorful-streets",
@@ -304,8 +304,8 @@
     "lon": 28.948,
     "source": "static",
     "countryCode": "TR",
-    "address": "Atgeçmez Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Atgeçmez Sokağı"
   },
   {
     "id": "country-tr-istanbul-basilica-cistern",
@@ -315,8 +315,8 @@
     "lon": 28.9779,
     "source": "static",
     "countryCode": "TR",
-    "address": "Yerebatan Caddesi 1",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Yerebatan Caddesi 1"
   },
   {
     "id": "country-tr-istanbul-bebek-waterfront",
@@ -326,8 +326,8 @@
     "lon": 29.044,
     "source": "static",
     "countryCode": "TR",
-    "address": "Cevdetpaşa Caddesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Cevdetpaşa Caddesi"
   },
   {
     "id": "country-tr-istanbul-bosphorus-cruise-pier",
@@ -337,8 +337,8 @@
     "lon": 28.9681,
     "source": "static",
     "countryCode": "TR",
-    "address": "Halıcılar Caddesi 61-63",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Halıcılar Caddesi 61-63"
   },
   {
     "id": "country-tr-istanbul-bosphorus-pier",
@@ -348,8 +348,8 @@
     "lon": 29.01,
     "source": "static",
     "countryCode": "TR",
-    "address": "Sinanpaşa Kuyu Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Sinanpaşa Kuyu Sokağı"
   },
   {
     "id": "country-tr-istanbul-central-market-istanbul-2",
@@ -359,8 +359,8 @@
     "lon": 28.9457,
     "source": "static",
     "countryCode": "TR",
-    "address": "Cerrahpaşa Mahallesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Cerrahpaşa Mahallesi"
   },
   {
     "id": "country-tr-istanbul-chora-church-kariye",
@@ -370,8 +370,8 @@
     "lon": 28.94,
     "source": "static",
     "countryCode": "TR",
-    "address": "Çakırağa Yokuşu Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Çakırağa Yokuşu Sokağı"
   },
   {
     "id": "country-tr-istanbul-city-park-istanbul-4",
@@ -381,8 +381,8 @@
     "lon": 29.0054,
     "source": "static",
     "countryCode": "TR",
-    "address": "Avrasya Tüneli",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Avrasya Tüneli"
   },
   {
     "id": "country-tr-istanbul-dolmabahce-palace",
@@ -392,8 +392,8 @@
     "lon": 29.0006,
     "source": "static",
     "countryCode": "TR",
-    "address": "Dolmabahçe Caddesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Dolmabahçe Caddesi"
   },
   {
     "id": "country-tr-istanbul-galata-bridge",
@@ -403,8 +403,8 @@
     "lon": 28.9582,
     "source": "static",
     "countryCode": "TR",
-    "address": "Atatürk Bulvarı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Atatürk Bulvarı"
   },
   {
     "id": "country-tr-istanbul-historic-cathedral-istanbul-5",
@@ -414,8 +414,8 @@
     "lon": 29.0081,
     "source": "static",
     "countryCode": "TR",
-    "address": "Avrasya Tüneli",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Avrasya Tüneli"
   },
   {
     "id": "country-tr-istanbul-istanbul-archaeology-museums",
@@ -425,8 +425,8 @@
     "lon": 28.9935,
     "source": "static",
     "countryCode": "TR",
-    "address": "Avrasya Tüneli",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Avrasya Tüneli"
   },
   {
     "id": "country-tr-istanbul-istanbul-modern",
@@ -436,8 +436,8 @@
     "lon": 28.9848,
     "source": "static",
     "countryCode": "TR",
-    "address": "Enli Yokuşu",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Enli Yokuşu"
   },
   {
     "id": "country-tr-istanbul-istiklal-avenue",
@@ -447,8 +447,8 @@
     "lon": 28.9776,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kameriye Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Kameriye Sokağı"
   },
   {
     "id": "country-tr-istanbul-istiklal-street",
@@ -458,8 +458,8 @@
     "lon": 28.9956,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kemankeş Karamustafa Paşa",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Kemankeş Karamustafa Paşa"
   },
   {
     "id": "country-tr-istanbul-kadikoy-moda",
@@ -469,8 +469,8 @@
     "lon": 28.9959,
     "source": "static",
     "countryCode": "TR",
-    "address": "Doğuş Meydanı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Doğuş Meydanı"
   },
   {
     "id": "country-tr-istanbul-karakoy",
@@ -480,8 +480,8 @@
     "lon": 28.977,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kemeraltı Caddesi 11",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Kemeraltı Caddesi 11"
   },
   {
     "id": "country-tr-istanbul-maiden-s-tower-viewpoint",
@@ -491,8 +491,8 @@
     "lon": 29.0041,
     "source": "static",
     "countryCode": "TR",
-    "address": "Üsküdar Harem Sahil Yolu",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Üsküdar Harem Sahil Yolu"
   },
   {
     "id": "country-tr-istanbul-moda-coast",
@@ -502,8 +502,8 @@
     "lon": 29.0235,
     "source": "static",
     "countryCode": "TR",
-    "address": "Hünkar Sokağı 5",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Hünkar Sokağı 5"
   },
   {
     "id": "country-tr-istanbul-modern-art-gallery-istanbul-6",
@@ -513,8 +513,8 @@
     "lon": 28.9652,
     "source": "static",
     "countryCode": "TR",
-    "address": "Peron 11",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Peron 11"
   },
   {
     "id": "country-tr-istanbul-nisantasi",
@@ -524,8 +524,8 @@
     "lon": 28.994,
     "source": "static",
     "countryCode": "TR",
-    "address": "Teşvikiye Caddesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Teşvikiye Caddesi"
   },
   {
     "id": "country-tr-istanbul-old-town-istanbul-1",
@@ -535,8 +535,8 @@
     "lon": 28.9922,
     "source": "static",
     "countryCode": "TR",
-    "address": "Ateşpare Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Ateşpare Sokağı"
   },
   {
     "id": "country-tr-istanbul-ortakoy-mosque",
@@ -546,8 +546,8 @@
     "lon": 28.9907,
     "source": "static",
     "countryCode": "TR",
-    "address": "Cankurtaran Meydanı Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Cankurtaran Meydanı Sokağı"
   },
   {
     "id": "country-tr-istanbul-ortakoy-waterfront",
@@ -557,8 +557,8 @@
     "lon": 29.0273,
     "source": "static",
     "countryCode": "TR",
-    "address": "Mecidiye Köprüsü Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Mecidiye Köprüsü Sokağı"
   },
   {
     "id": "country-tr-istanbul-princes-islands",
@@ -568,8 +568,8 @@
     "lon": 28.9731,
     "source": "static",
     "countryCode": "TR",
-    "address": "Bankalar Caddesi 16",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Bankalar Caddesi 16"
   },
   {
     "id": "country-tr-istanbul-princes-islands-buyukada",
@@ -579,8 +579,8 @@
     "lon": 29.125,
     "source": "static",
     "countryCode": "TR",
-    "address": "Yirmiüç Nisan Caddesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Yirmiüç Nisan Caddesi"
   },
   {
     "id": "country-tr-istanbul-riverside-promenade-istanbul-3",
@@ -590,8 +590,8 @@
     "lon": 29.0085,
     "source": "static",
     "countryCode": "TR",
-    "address": "Rıhtım Meydanı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Rıhtım Meydanı"
   },
   {
     "id": "country-tr-istanbul-spice-bazaar",
@@ -601,8 +601,8 @@
     "lon": 28.9706,
     "source": "static",
     "countryCode": "TR",
-    "address": "Tahmis Sokağı",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Tahmis Sokağı"
   },
   {
     "id": "country-tr-istanbul-suleymaniye-mosque",
@@ -612,8 +612,8 @@
     "lon": 28.9639,
     "source": "static",
     "countryCode": "TR",
-    "address": "Profesör Doktor Sıddık Sami Onar Caddesi 1",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Profesör Doktor Sıddık Sami Onar Caddesi 1"
   },
   {
     "id": "country-tr-pera-museum",
@@ -623,8 +623,8 @@
     "lon": 28.9752038,
     "source": "static",
     "countryCode": "TR",
-    "address": "Meşrutiyet Caddesi 141",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Meşrutiyet Caddesi 141"
   },
   {
     "id": "country-tr-rahmi-m-koc-museum",
@@ -634,8 +634,8 @@
     "lon": 28.9485686,
     "source": "static",
     "countryCode": "TR",
-    "address": "Hasköy Caddesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Hasköy Caddesi"
   },
   {
     "id": "country-tr-emirgan-park",
@@ -645,8 +645,8 @@
     "lon": 29.0525172,
     "source": "static",
     "countryCode": "TR",
-    "address": "Emirgan Mahallesi",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Emirgan Mahallesi"
   },
   {
     "id": "country-tr-galataport-istanbul",
@@ -656,8 +656,8 @@
     "lon": 28.9827435,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kılıçali Paşa",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Kılıçali Paşa"
   },
   {
     "id": "country-tr-ankara-castle",
@@ -667,8 +667,8 @@
     "lon": 32.865427,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kağnı Sokak",
-    "city": "Ankara"
+    "city": "Ankara",
+    "address": "Kağnı Sokak"
   },
   {
     "id": "country-tr-museum-of-anatolian-civilizations",
@@ -678,8 +678,8 @@
     "lon": 32.8617618,
     "source": "static",
     "countryCode": "TR",
-    "address": "Gözcü Sokak 2",
-    "city": "Ankara"
+    "city": "Ankara",
+    "address": "Gözcü Sokak 2"
   },
   {
     "id": "country-tr-konak-square",
@@ -689,8 +689,8 @@
     "lon": 27.1286316,
     "source": "static",
     "countryCode": "TR",
-    "address": "Konak Meydanı",
-    "city": "Izmir"
+    "city": "Izmir",
+    "address": "Konak Meydanı"
   },
   {
     "id": "country-tr-alsancak",
@@ -700,8 +700,8 @@
     "lon": 27.1437836,
     "source": "static",
     "countryCode": "TR",
-    "address": "Alsancak Mahallesi",
-    "city": "Izmir"
+    "city": "Izmir",
+    "address": "Alsancak Mahallesi"
   },
   {
     "id": "country-tr-duden-waterfalls",
@@ -711,8 +711,8 @@
     "lon": 30.7269123,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kepez",
-    "city": "Antalya"
+    "city": "Antalya",
+    "address": "Kepez"
   },
   {
     "id": "country-tr-konyaalti-beach",
@@ -722,8 +722,8 @@
     "lon": 30.6769565,
     "source": "static",
     "countryCode": "TR",
-    "address": "Meltem Mahallesi",
-    "city": "Antalya"
+    "city": "Antalya",
+    "address": "Meltem Mahallesi"
   },
   {
     "id": "country-tr-lara-beach",
@@ -733,8 +733,8 @@
     "lon": 30.832076,
     "source": "static",
     "countryCode": "TR",
-    "address": "Güzeloba Mahallesi",
-    "city": "Antalya"
+    "city": "Antalya",
+    "address": "Güzeloba Mahallesi"
   },
   {
     "id": "country-tr-antalya-museum",
@@ -744,8 +744,8 @@
     "lon": 30.6797586,
     "source": "static",
     "countryCode": "TR",
-    "address": "Konyaaltı Caddesi 88",
-    "city": "Antalya"
+    "city": "Antalya",
+    "address": "Konyaaltı Caddesi 88"
   },
   {
     "id": "country-tr-hadrian-s-gate",
@@ -755,8 +755,8 @@
     "lon": 30.7085481,
     "source": "static",
     "countryCode": "TR",
-    "address": "Hesapçı Sokak",
-    "city": "Antalya"
+    "city": "Antalya",
+    "address": "Hesapçı Sokak"
   },
   {
     "id": "country-tr-aspendos-theatre",
@@ -766,8 +766,8 @@
     "lon": 31.1669016,
     "source": "static",
     "countryCode": "TR",
-    "address": "07-04",
-    "city": "Serik"
+    "city": "Serik",
+    "address": "07-04"
   },
   {
     "id": "country-tr-olympos",
@@ -777,8 +777,8 @@
     "lon": 30.4735644,
     "source": "static",
     "countryCode": "TR",
-    "address": "Likya Yolu 10.02",
-    "city": "Kumluca"
+    "city": "Kumluca",
+    "address": "Likya Yolu 10.02"
   },
   {
     "id": "country-tr-cirali-beach",
@@ -788,8 +788,8 @@
     "lon": 30.4801295,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kemer",
-    "city": "Kumluca"
+    "city": "Kumluca",
+    "address": "Kemer"
   },
   {
     "id": "country-tr-goreme-open-air-museum",
@@ -799,8 +799,8 @@
     "lon": 34.8455787,
     "source": "static",
     "countryCode": "TR",
-    "address": "Müze Caddesi",
-    "city": "Goreme"
+    "city": "Goreme",
+    "address": "Müze Caddesi"
   },
   {
     "id": "country-tr-uchisar-castle",
@@ -810,8 +810,8 @@
     "lon": 34.805323,
     "source": "static",
     "countryCode": "TR",
-    "address": "Sunset & sunrise trail",
-    "city": "Uchisar"
+    "city": "Uchisar",
+    "address": "Sunset & sunrise trail"
   },
   {
     "id": "country-tr-pigeon-valley",
@@ -821,8 +821,8 @@
     "lon": 34.8130694,
     "source": "static",
     "countryCode": "TR",
-    "address": "Uçhisar Beldesi",
-    "city": "Goreme"
+    "city": "Goreme",
+    "address": "Uçhisar Beldesi"
   },
   {
     "id": "country-tr-love-valley",
@@ -832,8 +832,8 @@
     "lon": 34.8231515,
     "source": "static",
     "countryCode": "TR",
-    "address": "Göreme Beldesi",
-    "city": "Goreme"
+    "city": "Goreme",
+    "address": "Göreme Beldesi"
   },
   {
     "id": "country-tr-devrent-valley",
@@ -843,8 +843,8 @@
     "lon": 34.884337,
     "source": "static",
     "countryCode": "TR",
-    "address": "Aktepe",
-    "city": "Urgup"
+    "city": "Urgup",
+    "address": "Aktepe"
   },
   {
     "id": "country-tr-derinkuyu-underground-city",
@@ -854,8 +854,8 @@
     "lon": 34.7351222,
     "source": "static",
     "countryCode": "TR",
-    "address": "Eski Cami Sokağı",
-    "city": "Derinkuyu"
+    "city": "Derinkuyu",
+    "address": "Eski Cami Sokağı"
   },
   {
     "id": "country-tr-kaymakli-underground-city",
@@ -865,8 +865,8 @@
     "lon": 34.7524882,
     "source": "static",
     "countryCode": "TR",
-    "address": "Eşref Ayhan Caddesi",
-    "city": "Kaymakli"
+    "city": "Kaymakli",
+    "address": "Eşref Ayhan Caddesi"
   },
   {
     "id": "country-tr-avanos",
@@ -876,8 +876,8 @@
     "lon": 34.8468663,
     "source": "static",
     "countryCode": "TR",
-    "address": "Avanos İlçe Merkezi",
-    "city": "Avanos"
+    "city": "Avanos",
+    "address": "Avanos İlçe Merkezi"
   },
   {
     "id": "country-tr-red-valley",
@@ -887,8 +887,8 @@
     "lon": 34.8596572,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kızılçukur Vadisi",
-    "city": "Urgup"
+    "city": "Urgup",
+    "address": "Kızılçukur Vadisi"
   },
   {
     "id": "country-tr-hierapolis",
@@ -898,8 +898,8 @@
     "lon": 29.1263634,
     "source": "static",
     "countryCode": "TR",
-    "address": "Traverten Yolu",
-    "city": "Pamukkale"
+    "city": "Pamukkale",
+    "address": "Traverten Yolu"
   },
   {
     "id": "country-tr-pamukkale-travertines",
@@ -909,8 +909,8 @@
     "lon": 29.1190121,
     "source": "static",
     "countryCode": "TR",
-    "address": "Traverten Yolu",
-    "city": "Pamukkale"
+    "city": "Pamukkale",
+    "address": "Traverten Yolu"
   },
   {
     "id": "country-tr-temple-of-artemis",
@@ -920,8 +920,8 @@
     "lon": 27.3636333,
     "source": "static",
     "countryCode": "TR",
-    "address": "Artemis Tapinagi",
-    "city": "Selcuk"
+    "city": "Selcuk",
+    "address": "Artemis Tapinagi"
   },
   {
     "id": "country-tr-selcuk-castle",
@@ -931,8 +931,8 @@
     "lon": 27.3675029,
     "source": "static",
     "countryCode": "TR",
-    "address": "Atatürk Caddesi",
-    "city": "Selcuk"
+    "city": "Selcuk",
+    "address": "Atatürk Caddesi"
   },
   {
     "id": "country-tr-bodrum-castle",
@@ -942,8 +942,8 @@
     "lon": 27.4291029,
     "source": "static",
     "countryCode": "TR",
-    "address": "Müftü Yakup Önes Caddesi",
-    "city": "Bodrum"
+    "city": "Bodrum",
+    "address": "Müftü Yakup Önes Caddesi"
   },
   {
     "id": "country-tr-mausoleum-at-halicarnassus",
@@ -953,8 +953,8 @@
     "lon": 27.4241455,
     "source": "static",
     "countryCode": "TR",
-    "address": "Saray Sokak",
-    "city": "Bodrum"
+    "city": "Bodrum",
+    "address": "Saray Sokak"
   },
   {
     "id": "country-tr-gumusluk",
@@ -964,8 +964,8 @@
     "lon": 27.2366323,
     "source": "static",
     "countryCode": "TR",
-    "address": "Gümüşlük",
-    "city": "Bodrum"
+    "city": "Bodrum",
+    "address": "Gümüşlük"
   },
   {
     "id": "country-tr-marmaris-marina",
@@ -975,8 +975,8 @@
     "lon": 28.2846628,
     "source": "static",
     "countryCode": "TR",
-    "address": "Mustafa Münir Elgin Bulvarı",
-    "city": "Marmaris"
+    "city": "Marmaris",
+    "address": "Mustafa Münir Elgin Bulvarı"
   },
   {
     "id": "country-tr-icmeler-beach",
@@ -986,8 +986,8 @@
     "lon": 28.2344506,
     "source": "static",
     "countryCode": "TR",
-    "address": "Gezi Yolu Caddesi",
-    "city": "Marmaris"
+    "city": "Marmaris",
+    "address": "Gezi Yolu Caddesi"
   },
   {
     "id": "country-tr-turunc",
@@ -997,8 +997,8 @@
     "lon": 28.2467298,
     "source": "static",
     "countryCode": "TR",
-    "address": "Turunç",
-    "city": "Marmaris"
+    "city": "Marmaris",
+    "address": "Turunç"
   },
   {
     "id": "country-tr-marmaris-castle",
@@ -1008,8 +1008,8 @@
     "lon": 28.2740862,
     "source": "static",
     "countryCode": "TR",
-    "address": "Barbaros Caddesi",
-    "city": "Marmaris"
+    "city": "Marmaris",
+    "address": "Barbaros Caddesi"
   },
   {
     "id": "country-tr-butterfly-valley",
@@ -1019,8 +1019,8 @@
     "lon": 29.1271717,
     "source": "static",
     "countryCode": "TR",
-    "address": "faralya-Aktaş Beach",
-    "city": "Fethiye"
+    "city": "Fethiye",
+    "address": "faralya-Aktaş Beach"
   },
   {
     "id": "country-tr-kayakoy-ghost-town",
@@ -1030,8 +1030,8 @@
     "lon": 29.1152471,
     "source": "static",
     "countryCode": "TR",
-    "address": "97. Sokak",
-    "city": "Fethiye"
+    "city": "Fethiye",
+    "address": "97. Sokak"
   },
   {
     "id": "country-tr-calis-beach",
@@ -1041,8 +1041,8 @@
     "lon": 29.1054533,
     "source": "static",
     "countryCode": "TR",
-    "address": "Foça",
-    "city": "Fethiye"
+    "city": "Fethiye",
+    "address": "Foça"
   },
   {
     "id": "country-tr-fethiye-marina",
@@ -1052,8 +1052,8 @@
     "lon": 29.1043551,
     "source": "static",
     "countryCode": "TR",
-    "address": "Fevzi Çakmak Caddesi",
-    "city": "Fethiye"
+    "city": "Fethiye",
+    "address": "Fevzi Çakmak Caddesi"
   },
   {
     "id": "country-tr-kaputas-beach",
@@ -1063,8 +1063,8 @@
     "lon": 29.4491601,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kaş",
-    "city": "Kas"
+    "city": "Kas",
+    "address": "Kaş"
   },
   {
     "id": "country-tr-patara-beach",
@@ -1074,8 +1074,8 @@
     "lon": 29.2895922,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kaş",
-    "city": "Kas"
+    "city": "Kas",
+    "address": "Kaş"
   },
   {
     "id": "country-tr-mevlana-museum",
@@ -1085,8 +1085,8 @@
     "lon": 32.5057106,
     "source": "static",
     "countryCode": "TR",
-    "address": "Mevlâna Meydanı",
-    "city": "Konya"
+    "city": "Konya",
+    "address": "Mevlâna Meydanı"
   },
   {
     "id": "country-tr-uludag",
@@ -1096,8 +1096,8 @@
     "lon": 29.2220098,
     "source": "static",
     "countryCode": "TR",
-    "address": "Osmangazi",
-    "city": "Bursa"
+    "city": "Bursa",
+    "address": "Osmangazi"
   },
   {
     "id": "country-tr-cumalikizik-village",
@@ -1107,8 +1107,8 @@
     "lon": 29.1726885,
     "source": "static",
     "countryCode": "TR",
-    "address": "Cumalıkızık",
-    "city": "Bursa"
+    "city": "Bursa",
+    "address": "Cumalıkızık"
   },
   {
     "id": "country-tr-green-mosque",
@@ -1118,8 +1118,8 @@
     "lon": 29.0746465,
     "source": "static",
     "countryCode": "TR",
-    "address": "Akyokuş Sokak",
-    "city": "Bursa"
+    "city": "Bursa",
+    "address": "Akyokuş Sokak"
   },
   {
     "id": "country-tr-kozahan-bazaar",
@@ -1129,8 +1129,8 @@
     "lon": 29.063243,
     "source": "static",
     "countryCode": "TR",
-    "address": "Uzun Çarşı Caddeai",
-    "city": "Bursa"
+    "city": "Bursa",
+    "address": "Uzun Çarşı Caddeai"
   },
   {
     "id": "country-tr-uzungol",
@@ -1140,8 +1140,8 @@
     "lon": 40.2948099,
     "source": "static",
     "countryCode": "TR",
-    "address": "Uzungöl",
-    "city": "Trabzon"
+    "city": "Trabzon",
+    "address": "Uzungöl"
   },
   {
     "id": "country-tr-sera-lake",
@@ -1151,8 +1151,8 @@
     "lon": 39.6135514,
     "source": "static",
     "countryCode": "TR",
-    "address": "Mavra Caddesi 209",
-    "city": "Trabzon"
+    "city": "Trabzon",
+    "address": "Mavra Caddesi 209"
   },
   {
     "id": "country-tr-boztepe",
@@ -1162,8 +1162,8 @@
     "lon": 39.7269013,
     "source": "static",
     "countryCode": "TR",
-    "address": "Boztepe Mahallesi",
-    "city": "Trabzon"
+    "city": "Trabzon",
+    "address": "Boztepe Mahallesi"
   },
   {
     "id": "country-tr-zil-kale",
@@ -1173,8 +1173,8 @@
     "lon": 40.9632024,
     "source": "static",
     "countryCode": "TR",
-    "address": "Amukta Köprüsü",
-    "city": "Rize"
+    "city": "Rize",
+    "address": "Amukta Köprüsü"
   },
   {
     "id": "country-tr-camlihemsin",
@@ -1184,8 +1184,8 @@
     "lon": 41.0056974,
     "source": "static",
     "countryCode": "TR",
-    "address": "Çamlıhemşin",
-    "city": "Rize"
+    "city": "Rize",
+    "address": "Çamlıhemşin"
   },
   {
     "id": "country-tr-amasra",
@@ -1195,8 +1195,8 @@
     "lon": 32.3838002,
     "source": "static",
     "countryCode": "TR",
-    "address": "Boztepe Mahallesi",
-    "city": "Amasra"
+    "city": "Amasra",
+    "address": "Boztepe Mahallesi"
   },
   {
     "id": "country-tr-amasya-castle",
@@ -1206,8 +1206,8 @@
     "lon": 35.8274515,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kale yolu",
-    "city": "Amasya"
+    "city": "Amasya",
+    "address": "Kale yolu"
   },
   {
     "id": "country-tr-ordu-boztepe",
@@ -1217,8 +1217,8 @@
     "lon": 37.8712324,
     "source": "static",
     "countryCode": "TR",
-    "address": "Ulukonak Cadde",
-    "city": "Ordu"
+    "city": "Ordu",
+    "address": "Ulukonak Cadde"
   },
   {
     "id": "country-tr-giresun-island",
@@ -1228,8 +1228,8 @@
     "lon": 38.4365584,
     "source": "static",
     "countryCode": "TR",
-    "address": "Giresun Merkez",
-    "city": "Giresun"
+    "city": "Giresun",
+    "address": "Giresun Merkez"
   },
   {
     "id": "country-tr-akdamar-island",
@@ -1239,8 +1239,8 @@
     "lon": 43.0345757,
     "source": "static",
     "countryCode": "TR",
-    "address": "Gevaş",
-    "city": "Van"
+    "city": "Van",
+    "address": "Gevaş"
   },
   {
     "id": "country-tr-van-castle",
@@ -1250,8 +1250,8 @@
     "lon": 43.3384997,
     "source": "static",
     "countryCode": "TR",
-    "address": "Melen Caddesi",
-    "city": "Van"
+    "city": "Van",
+    "address": "Melen Caddesi"
   },
   {
     "id": "country-tr-ani-ruins",
@@ -1261,8 +1261,8 @@
     "lon": 43.5729059,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kars - Ani Antik Kenti Yolu",
-    "city": "Kars"
+    "city": "Kars",
+    "address": "Kars - Ani Antik Kenti Yolu"
   },
   {
     "id": "country-tr-mount-ararat",
@@ -1272,8 +1272,8 @@
     "lon": 44.4138156,
     "source": "static",
     "countryCode": "TR",
-    "address": "Doğubayazıt",
-    "city": "Agri"
+    "city": "Agri",
+    "address": "Doğubayazıt"
   },
   {
     "id": "country-tr-ishak-pasha-palace",
@@ -1283,8 +1283,8 @@
     "lon": 44.1286023,
     "source": "static",
     "countryCode": "TR",
-    "address": "İshak Paşa Sarayı yolu",
-    "city": "Dogubayazit"
+    "city": "Dogubayazit",
+    "address": "İshak Paşa Sarayı yolu"
   },
   {
     "id": "country-tr-nemrut-crater-lake",
@@ -1294,8 +1294,8 @@
     "lon": 42.2240728,
     "source": "static",
     "countryCode": "TR",
-    "address": "Nemrut Krater Gölü Yolu",
-    "city": "Tatvan"
+    "city": "Tatvan",
+    "address": "Nemrut Krater Gölü Yolu"
   },
   {
     "id": "country-tr-tortum-waterfall",
@@ -1305,8 +1305,8 @@
     "lon": 41.6684361,
     "source": "static",
     "countryCode": "TR",
-    "address": "Uzundere",
-    "city": "Erzurum"
+    "city": "Erzurum",
+    "address": "Uzundere"
   },
   {
     "id": "country-tr-hasankeyf",
@@ -1316,8 +1316,8 @@
     "lon": 41.4160863,
     "source": "static",
     "countryCode": "TR",
-    "address": "Hasankeyf",
-    "city": "Batman"
+    "city": "Batman",
+    "address": "Hasankeyf"
   },
   {
     "id": "country-tr-zeugma-mosaic-museum",
@@ -1327,8 +1327,8 @@
     "lon": 37.3856062,
     "source": "static",
     "countryCode": "TR",
-    "address": "Sani Konukoğlu Bulvarı",
-    "city": "Gaziantep"
+    "city": "Gaziantep",
+    "address": "Sani Konukoğlu Bulvarı"
   },
   {
     "id": "country-tr-gaziantep-castle",
@@ -1338,8 +1338,8 @@
     "lon": 37.3832064,
     "source": "static",
     "countryCode": "TR",
-    "address": "Hamdi Kutlar Caddesi",
-    "city": "Gaziantep"
+    "city": "Gaziantep",
+    "address": "Hamdi Kutlar Caddesi"
   },
   {
     "id": "country-tr-halfeti",
@@ -1349,8 +1349,8 @@
     "lon": 37.945736,
     "source": "static",
     "countryCode": "TR",
-    "address": "Halfeti",
-    "city": "Sanliurfa"
+    "city": "Sanliurfa",
+    "address": "Halfeti"
   },
   {
     "id": "country-tr-balikligol",
@@ -1360,8 +1360,8 @@
     "lon": 38.7845787,
     "source": "static",
     "countryCode": "TR",
-    "address": "Göl Mahallesi",
-    "city": "Sanliurfa"
+    "city": "Sanliurfa",
+    "address": "Göl Mahallesi"
   },
   {
     "id": "country-tr-gobekli-tepe",
@@ -1371,8 +1371,8 @@
     "lon": 38.9220886,
     "source": "static",
     "countryCode": "TR",
-    "address": "Göbeklitepe A B C Tapınak alanı",
-    "city": "Sanliurfa"
+    "city": "Sanliurfa",
+    "address": "Göbeklitepe A B C Tapınak alanı"
   },
   {
     "id": "country-tr-harran",
@@ -1382,8 +1382,8 @@
     "lon": 39.0251364,
     "source": "static",
     "countryCode": "TR",
-    "address": "Harran",
-    "city": "Sanliurfa"
+    "city": "Sanliurfa",
+    "address": "Harran"
   },
   {
     "id": "country-tr-pergamon-acropolis",
@@ -1393,8 +1393,8 @@
     "lon": 27.1840184,
     "source": "static",
     "countryCode": "TR",
-    "address": "Akropol Caddesi",
-    "city": "Bergama"
+    "city": "Bergama",
+    "address": "Akropol Caddesi"
   },
   {
     "id": "country-tr-troy",
@@ -1404,8 +1404,8 @@
     "lon": 26.2380175,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kalafat",
-    "city": "Canakkale"
+    "city": "Canakkale",
+    "address": "Kalafat"
   },
   {
     "id": "country-tr-kusadasi",
@@ -1415,8 +1415,8 @@
     "lon": 27.2649304,
     "source": "static",
     "countryCode": "TR",
-    "address": "Atatürk Bulvarı",
-    "city": "Kusadasi"
+    "city": "Kusadasi",
+    "address": "Atatürk Bulvarı"
   },
   {
     "id": "country-tr-bozcaada",
@@ -1426,8 +1426,8 @@
     "lon": 26.0395466,
     "source": "static",
     "countryCode": "TR",
-    "address": "Bozcaada",
-    "city": "Bozcaada"
+    "city": "Bozcaada",
+    "address": "Bozcaada"
   },
   {
     "id": "country-tr-eskisehir-odunpazari",
@@ -1437,8 +1437,8 @@
     "lon": 30.519116,
     "source": "static",
     "countryCode": "TR",
-    "address": "Odunpazarı",
-    "city": "Eskisehir"
+    "city": "Eskisehir",
+    "address": "Odunpazarı"
   },
   {
     "id": "country-tr-erciyes-mountain",
@@ -1448,8 +1448,8 @@
     "lon": 35.5287374,
     "source": "static",
     "countryCode": "TR",
-    "address": "Develi - Kayseri Yolu",
-    "city": "Kayseri"
+    "city": "Kayseri",
+    "address": "Develi - Kayseri Yolu"
   },
   {
     "id": "country-tr-kizkalesi",
@@ -1459,8 +1459,8 @@
     "lon": 34.1439682,
     "source": "static",
     "countryCode": "TR",
-    "address": "Kızkalesi",
-    "city": "Mersin"
+    "city": "Mersin",
+    "address": "Kızkalesi"
   },
   {
     "id": "country-tr-tarsus",
@@ -1470,8 +1470,8 @@
     "lon": 34.8959891,
     "source": "static",
     "countryCode": "TR",
-    "address": "2114. Sokak",
-    "city": "Tarsus"
+    "city": "Tarsus",
+    "address": "2114. Sokak"
   },
   {
     "id": "country-tr-hatay-archaeology-museum",
@@ -1481,7 +1481,7 @@
     "lon": 36.1840223,
     "source": "static",
     "countryCode": "TR",
-    "address": "Antakya-Reyhanlı 1 Sokak",
-    "city": "Antakya"
+    "city": "Antakya",
+    "address": "Antakya-Reyhanlı 1 Sokak"
   }
 ]

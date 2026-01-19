@@ -7,8 +7,8 @@
     "lon": 4.8936,
     "source": "static",
     "countryCode": "NL",
-    "address": "21 Dam",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "address": "21 Dam"
   },
   {
     "id": "country-nl-rijksmuseum",
@@ -18,8 +18,8 @@
     "lon": 4.8852,
     "source": "static",
     "countryCode": "NL",
-    "address": "19 Hobbemastraat",
-    "city": "Amsterdam"
+    "city": "Amsterdam",
+    "address": "19 Hobbemastraat"
   },
   {
     "id": "country-nl-keukenhof",
@@ -29,8 +29,8 @@
     "lon": 4.546,
     "source": "static",
     "countryCode": "NL",
-    "address": "Stapstenen",
-    "city": "Lisse"
+    "city": "Lisse",
+    "address": "Stapstenen"
   },
   {
     "id": "country-nl-kinderdijk",
@@ -39,7 +39,9 @@
     "lat": 51.884,
     "lon": 4.638,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Kinderdijk Windmills, Unknown"
   },
   {
     "id": "country-nl-giethoorn",
@@ -48,7 +50,9 @@
     "lat": 52.7425,
     "lon": 6.0836,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Giethoorn, Unknown"
   },
   {
     "id": "country-nl-vrijthof",
@@ -57,7 +61,9 @@
     "lat": 50.8514,
     "lon": 5.69,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Vrijthof Square, Unknown"
   },
   {
     "id": "country-nl-markthal",
@@ -66,7 +72,9 @@
     "lat": 51.9203,
     "lon": 4.4867,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Rotterdam Markthal, Unknown"
   },
   {
     "id": "country-nl-binnenhof",
@@ -75,7 +83,9 @@
     "lat": 52.079,
     "lon": 4.3125,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Binnenhof, Unknown"
   },
   {
     "id": "country-nl-anne-frank-house",
@@ -84,7 +94,9 @@
     "lat": 52.3752,
     "lon": 4.8839,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Anne Frank House, Amsterdam"
   },
   {
     "id": "country-nl-utrecht-dom-tower",
@@ -93,7 +105,9 @@
     "lat": 52.0908,
     "lon": 5.1222,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Utrecht Dom Tower, Unknown"
   },
   {
     "id": "country-nl-van-gogh-museum",
@@ -102,7 +116,9 @@
     "lat": 52.3584,
     "lon": 4.8811,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Van Gogh Museum, Amsterdam"
   },
   {
     "id": "country-nl-zaanse-schans",
@@ -111,7 +127,9 @@
     "lat": 52.473,
     "lon": 4.817,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Zaanse Schans, Unknown"
   },
   {
     "id": "country-nl-efteling-theme-park",
@@ -120,7 +138,9 @@
     "lat": 51.65,
     "lon": 5.05,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Efteling Theme Park, Unknown"
   },
   {
     "id": "country-nl-delft-market-square",
@@ -129,7 +149,9 @@
     "lat": 52.0116,
     "lon": 4.3571,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Delft Market Square, Unknown"
   },
   {
     "id": "country-nl-haarlem-grote-markt",
@@ -138,7 +160,9 @@
     "lat": 52.381,
     "lon": 4.636,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Haarlem Grote Markt, Unknown"
   },
   {
     "id": "country-nl-leiden-canals",
@@ -147,7 +171,9 @@
     "lat": 52.1601,
     "lon": 4.497,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Leiden Canals, Unknown"
   },
   {
     "id": "country-nl-scheveningen-beach",
@@ -156,7 +182,9 @@
     "lat": 52.1076,
     "lon": 4.28,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Scheveningen Beach, Unknown"
   },
   {
     "id": "country-nl-erasmus-bridge",
@@ -165,7 +193,9 @@
     "lat": 51.909,
     "lon": 4.484,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Erasmus Bridge, Unknown"
   },
   {
     "id": "country-nl-rotterdam-cube-houses",
@@ -174,7 +204,9 @@
     "lat": 51.92,
     "lon": 4.488,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Rotterdam Cube Houses, Unknown"
   },
   {
     "id": "country-nl-maastricht-old-town",
@@ -183,7 +215,9 @@
     "lat": 50.851,
     "lon": 5.691,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Maastricht Old Town, Unknown"
   },
   {
     "id": "country-nl-texel-dunes",
@@ -192,7 +226,9 @@
     "lat": 53.047,
     "lon": 4.797,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "Texel Dunes, Unknown"
   },
   {
     "id": "country-nl-de-hoge-veluwe-national-park",
@@ -201,7 +237,9 @@
     "lat": 52.078,
     "lon": 5.819,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Unknown",
+    "address": "De Hoge Veluwe National Park, Unknown"
   },
   {
     "id": "country-nl-albert-cuyp-market",
@@ -210,7 +248,9 @@
     "lat": 52.3547,
     "lon": 4.8929,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Eerste Jan Steenstraat"
   },
   {
     "id": "country-nl-leidseplein-nightlife",
@@ -219,7 +259,9 @@
     "lat": 52.364,
     "lon": 4.882,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Leidseplein Nightlife, Amsterdam"
   },
   {
     "id": "country-nl-de-pijp-food-district",
@@ -228,6 +270,327 @@
     "lat": 52.353,
     "lon": 4.89,
     "source": "static",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "De Pijp Food District, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-a-dam-lookout",
+    "name": "A'DAM Lookout",
+    "category": "landmarks",
+    "lat": 52.3841,
+    "lon": 4.9003,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "1 IJpromenade"
+  },
+  {
+    "id": "country-nl-amsterdam-amsterdam-centraal",
+    "name": "Amsterdam Centraal",
+    "category": "landmarks",
+    "lat": 52.3663,
+    "lon": 4.9223,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "26 Geschutswerf"
+  },
+  {
+    "id": "country-nl-amsterdam-artis-royal-zoo",
+    "name": "Artis Royal Zoo",
+    "category": "nature",
+    "lat": 52.3663,
+    "lon": 4.9161,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Artis Royal Zoo, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-begijnhof",
+    "name": "Begijnhof",
+    "category": "landmarks",
+    "lat": 52.3804,
+    "lon": 4.8924,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Begijnhof, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-blomenmarkt",
+    "name": "Bloemenmarkt",
+    "category": "food",
+    "lat": 52.3667,
+    "lon": 4.8931,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Bloemenmarkt, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-brouwerij-t-ij",
+    "name": "Brouwerij 't IJ",
+    "category": "food",
+    "lat": 52.3661,
+    "lon": 4.9295,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Brouwerij 't IJ, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-central-market-amsterdam-2",
+    "name": "Central Market (Amsterdam) 2",
+    "category": "food",
+    "lat": 52.3604,
+    "lon": 4.8669,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Central Market (Amsterdam) 2, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-city-park-amsterdam-4",
+    "name": "City Park (Amsterdam) 4",
+    "category": "nature",
+    "lat": 52.3486,
+    "lon": 4.9063,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "City Park (Amsterdam) 4, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-de-9-straatjes",
+    "name": "De 9 Straatjes",
+    "category": "food",
+    "lat": 52.3704,
+    "lon": 4.884,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "De 9 Straatjes, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-de-wallen",
+    "name": "De Wallen",
+    "category": "nightlife",
+    "lat": 52.379,
+    "lon": 4.9151,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "De Wallen, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-de-wallen-red-light-district",
+    "name": "De Wallen (Red Light District)",
+    "category": "nightlife",
+    "lat": 52.3728,
+    "lon": 4.9003,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "De Wallen (Red Light District), Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-foodhallen",
+    "name": "Foodhallen",
+    "category": "food",
+    "lat": 52.3566,
+    "lon": 4.8975,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Foodhallen, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-foodhallen-de-hallen",
+    "name": "Foodhallen (De Hallen)",
+    "category": "food",
+    "lat": 52.3656,
+    "lon": 4.8699,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Foodhallen (De Hallen), Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-heineken-experience",
+    "name": "Heineken Experience",
+    "category": "food",
+    "lat": 52.3578,
+    "lon": 4.8911,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Heineken Experience, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-historic-cathedral-amsterdam-5",
+    "name": "Historic Cathedral (Amsterdam) 5",
+    "category": "landmarks",
+    "lat": 52.3537,
+    "lon": 4.9062,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Historic Cathedral (Amsterdam) 5, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-jordaan",
+    "name": "Jordaan",
+    "category": "food",
+    "lat": 52.3735,
+    "lon": 4.8794,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Jordaan, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-modern-art-gallery-amsterdam-6",
+    "name": "Modern Art Gallery (Amsterdam) 6",
+    "category": "museums",
+    "lat": 52.3821,
+    "lon": 4.9107,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Modern Art Gallery (Amsterdam) 6, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-museumplein",
+    "name": "Museumplein",
+    "category": "landmarks",
+    "lat": 52.3584,
+    "lon": 4.8811,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Museumplein, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-ndsm-wharf",
+    "name": "NDSM Wharf",
+    "category": "nightlife",
+    "lat": 52.4017,
+    "lon": 4.8923,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "NDSM Wharf, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-nemo-science-museum",
+    "name": "NEMO Science Museum",
+    "category": "museums",
+    "lat": 52.3792,
+    "lon": 4.9043,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "NEMO Science Museum, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-nightlife-district-amsterdam-7",
+    "name": "Nightlife District (Amsterdam) 7",
+    "category": "nightlife",
+    "lat": 52.3514,
+    "lon": 4.8962,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Nightlife District (Amsterdam) 7, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-old-town-amsterdam-1",
+    "name": "Old Town (Amsterdam) 1",
+    "category": "landmarks",
+    "lat": 52.3719,
+    "lon": 4.9131,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Old Town (Amsterdam) 1, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-oosterpark",
+    "name": "Oosterpark",
+    "category": "nature",
+    "lat": 52.3712,
+    "lon": 4.9207,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Oosterpark, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-rembrandt-house-museum",
+    "name": "Rembrandt House Museum",
+    "category": "museums",
+    "lat": 52.369,
+    "lon": 4.901,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Rembrandt House Museum, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-rembrandtplein",
+    "name": "Rembrandtplein",
+    "category": "nightlife",
+    "lat": 52.3664,
+    "lon": 4.8973,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Rembrandtplein, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-riverside-promenade-amsterdam-3",
+    "name": "Riverside Promenade (Amsterdam) 3",
+    "category": "nature",
+    "lat": 52.3878,
+    "lon": 4.8958,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Riverside Promenade (Amsterdam) 3, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-vondelpark",
+    "name": "Vondelpark",
+    "category": "nature",
+    "lat": 52.3581,
+    "lon": 4.8683,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Vondelpark, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-westerkerk",
+    "name": "Westerkerk",
+    "category": "landmarks",
+    "lat": 52.3791,
+    "lon": 4.8833,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Westerkerk, Amsterdam"
+  },
+  {
+    "id": "country-nl-amsterdam-westerpark",
+    "name": "Westerpark",
+    "category": "nature",
+    "lat": 52.387,
+    "lon": 4.877,
+    "source": "static",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "Westerpark, Amsterdam"
   }
 ]

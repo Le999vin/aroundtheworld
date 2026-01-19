@@ -7,8 +7,8 @@
     "lon": 16.3738,
     "source": "static",
     "countryCode": "AT",
-    "address": "4 Stephansplatz",
-    "city": "Vienna"
+    "city": "Vienna",
+    "address": "4 Stephansplatz"
   },
   {
     "id": "country-at-schonbrunn-palace",
@@ -18,8 +18,8 @@
     "lon": 16.3122,
     "source": "static",
     "countryCode": "AT",
-    "address": "Lichte Allee",
-    "city": "Vienna"
+    "city": "Vienna",
+    "address": "Lichte Allee"
   },
   {
     "id": "country-at-st-stephens-cathedral",
@@ -29,8 +29,8 @@
     "lon": 16.3731,
     "source": "static",
     "countryCode": "AT",
-    "address": "3 Stephansplatz",
-    "city": "Vienna"
+    "city": "Vienna",
+    "address": "3 Stephansplatz"
   },
   {
     "id": "country-at-salzburg-old-town",
@@ -39,7 +39,9 @@
     "lat": 47.8095,
     "lon": 13.055,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Salzburg Old Town, Unknown"
   },
   {
     "id": "country-at-hallstatt",
@@ -48,7 +50,9 @@
     "lat": 47.5622,
     "lon": 13.6493,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Hallstatt, Unknown"
   },
   {
     "id": "country-at-innsbruck-golden-roof",
@@ -57,7 +61,9 @@
     "lat": 47.2682,
     "lon": 11.3923,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Innsbruck Golden Roof, Unknown"
   },
   {
     "id": "country-at-graz-old-town",
@@ -66,7 +72,9 @@
     "lat": 47.0707,
     "lon": 15.4395,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Graz Old Town, Unknown"
   },
   {
     "id": "country-at-melk-abbey",
@@ -75,7 +83,9 @@
     "lat": 48.227,
     "lon": 15.331,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Melk Abbey, Unknown"
   },
   {
     "id": "country-at-belvedere-palace",
@@ -84,7 +94,9 @@
     "lat": 48.1915,
     "lon": 16.3807,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Jacquingasse"
   },
   {
     "id": "country-at-kunsthistorisches-museum",
@@ -93,7 +105,9 @@
     "lat": 48.2039,
     "lon": 16.3618,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Kunsthistorisches Museum, Vienna"
   },
   {
     "id": "country-at-grossglockner-high-alpine-road",
@@ -102,7 +116,9 @@
     "lat": 47.074,
     "lon": 12.837,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Grossglockner High Alpine Road, Unknown"
   },
   {
     "id": "country-at-wachau-valley",
@@ -111,7 +127,9 @@
     "lat": 48.321,
     "lon": 15.399,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Wachau Valley, Unknown"
   },
   {
     "id": "country-at-krimml-waterfalls",
@@ -120,7 +138,9 @@
     "lat": 47.2068,
     "lon": 12.1708,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Krimml Waterfalls, Unknown"
   },
   {
     "id": "country-at-zell-am-see",
@@ -129,7 +149,9 @@
     "lat": 47.325,
     "lon": 12.796,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Zell am See, Unknown"
   },
   {
     "id": "country-at-traunsee-lake",
@@ -138,7 +160,9 @@
     "lat": 47.871,
     "lon": 13.793,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Traunsee Lake, Unknown"
   },
   {
     "id": "country-at-naschmarkt",
@@ -147,7 +171,9 @@
     "lat": 48.1986,
     "lon": 16.3612,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Naschmarkt, Vienna"
   },
   {
     "id": "country-at-heuriger-grinzing",
@@ -156,7 +182,9 @@
     "lat": 48.2617,
     "lon": 16.3338,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Heuriger Grinzing, Unknown"
   },
   {
     "id": "country-at-salzburg-getreidegasse",
@@ -165,7 +193,9 @@
     "lat": 47.8005,
     "lon": 13.0426,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Salzburg Getreidegasse, Unknown"
   },
   {
     "id": "country-at-flex-vienna",
@@ -174,7 +204,9 @@
     "lat": 48.2155,
     "lon": 16.3736,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Flex Vienna, Unknown"
   },
   {
     "id": "country-at-pratersauna",
@@ -183,7 +215,9 @@
     "lat": 48.216,
     "lon": 16.4029,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Pratersauna, Vienna"
   },
   {
     "id": "country-at-grelle-forelle",
@@ -192,7 +226,9 @@
     "lat": 48.248,
     "lon": 16.393,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Grelle Forelle, Unknown"
   },
   {
     "id": "country-at-vienna-prater",
@@ -201,7 +237,9 @@
     "lat": 48.2167,
     "lon": 16.3958,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Vienna Prater, Unknown"
   },
   {
     "id": "country-at-eisriesenwelt-ice-cave",
@@ -210,7 +248,9 @@
     "lat": 47.5163,
     "lon": 13.1891,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Eisriesenwelt Ice Cave, Unknown"
   },
   {
     "id": "country-at-semmering-railway",
@@ -219,7 +259,9 @@
     "lat": 47.635,
     "lon": 15.831,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Semmering Railway, Unknown"
   },
   {
     "id": "country-at-bregenz-lake-promenade",
@@ -228,6 +270,217 @@
     "lat": 47.5031,
     "lon": 9.7471,
     "source": "static",
-    "countryCode": "AT"
+    "countryCode": "AT",
+    "city": "Unknown",
+    "address": "Bregenz Lake Promenade, Unknown"
+  },
+  {
+    "id": "country-at-vienna-albertina-museum",
+    "name": "Albertina Museum",
+    "category": "museums",
+    "lat": 48.2036,
+    "lon": 16.3706,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "1 Walfischgasse"
+  },
+  {
+    "id": "country-at-vienna-cafe-central",
+    "name": "Cafe Central",
+    "category": "food",
+    "lat": 48.1911,
+    "lon": 16.3777,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "12 Karolinengasse"
+  },
+  {
+    "id": "country-at-vienna-danube-canal",
+    "name": "Danube Canal",
+    "category": "nightlife",
+    "lat": 48.1967,
+    "lon": 16.3673,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Danube Canal, Vienna"
+  },
+  {
+    "id": "country-at-vienna-danube-island",
+    "name": "Danube Island",
+    "category": "nature",
+    "lat": 48.2083,
+    "lon": 16.3824,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Danube Island, Vienna"
+  },
+  {
+    "id": "country-at-vienna-figlmuller",
+    "name": "Figlmueller",
+    "category": "food",
+    "lat": 48.1926,
+    "lon": 16.3983,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Figlmueller, Vienna"
+  },
+  {
+    "id": "country-at-vienna-flex-club",
+    "name": "Flex Club",
+    "category": "nightlife",
+    "lat": 48.1923,
+    "lon": 16.3661,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Flex Club, Vienna"
+  },
+  {
+    "id": "country-at-vienna-graben-kohlmarkt",
+    "name": "Graben & Kohlmarkt",
+    "category": "food",
+    "lat": 48.214,
+    "lon": 16.3656,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Graben & Kohlmarkt, Vienna"
+  },
+  {
+    "id": "country-at-vienna-gurtel-nightlife",
+    "name": "Guertel Nightlife",
+    "category": "nightlife",
+    "lat": 48.2179,
+    "lon": 16.3681,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Guertel Nightlife, Vienna"
+  },
+  {
+    "id": "country-at-vienna-hofburg-palace",
+    "name": "Hofburg Palace",
+    "category": "landmarks",
+    "lat": 48.2195,
+    "lon": 16.3629,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Hofburg Palace, Vienna"
+  },
+  {
+    "id": "country-at-vienna-hundertwasserhaus",
+    "name": "Hundertwasserhaus",
+    "category": "landmarks",
+    "lat": 48.2033,
+    "lon": 16.3645,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Hundertwasserhaus, Vienna"
+  },
+  {
+    "id": "country-at-vienna-karlskirche",
+    "name": "Karlskirche",
+    "category": "landmarks",
+    "lat": 48.1994,
+    "lon": 16.3979,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Karlskirche, Vienna"
+  },
+  {
+    "id": "country-at-vienna-karlsplatz",
+    "name": "Karlsplatz",
+    "category": "landmarks",
+    "lat": 48.1926,
+    "lon": 16.3556,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Karlsplatz, Vienna"
+  },
+  {
+    "id": "country-at-vienna-museumsquartier",
+    "name": "MuseumsQuartier",
+    "category": "museums",
+    "lat": 48.2057,
+    "lon": 16.3593,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "MuseumsQuartier, Vienna"
+  },
+  {
+    "id": "country-at-vienna-prater-giant-ferris-wheel",
+    "name": "Prater Giant Ferris Wheel",
+    "category": "landmarks",
+    "lat": 48.1983,
+    "lon": 16.3499,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Prater Giant Ferris Wheel, Vienna"
+  },
+  {
+    "id": "country-at-vienna-prater-park",
+    "name": "Prater Park",
+    "category": "nature",
+    "lat": 48.2169,
+    "lon": 16.3906,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Prater Park, Vienna"
+  },
+  {
+    "id": "country-at-vienna-ringstrasse",
+    "name": "Ringstrasse",
+    "category": "landmarks",
+    "lat": 48.2204,
+    "lon": 16.3521,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Ringstrasse, Vienna"
+  },
+  {
+    "id": "country-at-vienna-stadtpark",
+    "name": "Stadtpark",
+    "category": "nature",
+    "lat": 48.2038,
+    "lon": 16.3758,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Stadtpark, Vienna"
+  },
+  {
+    "id": "country-at-vienna-vienna-state-opera",
+    "name": "Vienna State Opera",
+    "category": "landmarks",
+    "lat": 48.2256,
+    "lon": 16.3733,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Vienna State Opera, Vienna"
+  },
+  {
+    "id": "country-at-vienna-zentralfriedhof",
+    "name": "Zentralfriedhof",
+    "category": "landmarks",
+    "lat": 48.2146,
+    "lon": 16.3536,
+    "source": "static",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Zentralfriedhof, Vienna"
   }
 ]

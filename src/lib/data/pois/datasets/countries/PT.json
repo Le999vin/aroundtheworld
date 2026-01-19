@@ -7,8 +7,8 @@
     "lon": -9.13,
     "source": "static",
     "countryCode": "PT",
-    "address": "Portas do Sol",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Portas do Sol"
   },
   {
     "id": "country-pt-belem-tower",
@@ -18,8 +18,8 @@
     "lon": -9.2165,
     "source": "static",
     "countryCode": "PT",
-    "address": "Passeio João Jayme Faria Affonso",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Passeio João Jayme Faria Affonso"
   },
   {
     "id": "country-pt-jer-nimos-monastery",
@@ -29,8 +29,8 @@
     "lon": -9.2066,
     "source": "static",
     "countryCode": "PT",
-    "address": "Praça do Império",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Praça do Império"
   },
   {
     "id": "country-pt-porto-ribeira",
@@ -39,7 +39,9 @@
     "lat": 41.1406,
     "lon": -8.611,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Porto Ribeira, Unknown"
   },
   {
     "id": "country-pt-dom-luis-i-bridge",
@@ -48,7 +50,9 @@
     "lat": 41.1402,
     "lon": -8.6113,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Dom Luis I Bridge, Unknown"
   },
   {
     "id": "country-pt-sintra-pena-palace",
@@ -57,7 +61,9 @@
     "lat": 38.7879,
     "lon": -9.3906,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Sintra Pena Palace, Unknown"
   },
   {
     "id": "country-pt-quinta-da-regaleira",
@@ -66,7 +72,9 @@
     "lat": 38.7973,
     "lon": -9.394,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Quinta da Regaleira, Unknown"
   },
   {
     "id": "country-pt-douro-valley",
@@ -75,7 +83,9 @@
     "lat": 41.156,
     "lon": -7.811,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Douro Valley, Unknown"
   },
   {
     "id": "country-pt-madeira-funchal-viewpoints",
@@ -84,7 +94,9 @@
     "lat": 32.6669,
     "lon": -16.9241,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Madeira Funchal Viewpoints, Unknown"
   },
   {
     "id": "country-pt-azores-sete-cidades",
@@ -93,7 +105,9 @@
     "lat": 37.865,
     "lon": -25.787,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Azores Sete Cidades, Unknown"
   },
   {
     "id": "country-pt-benagil-cave",
@@ -102,7 +116,9 @@
     "lat": 37.0902,
     "lon": -8.4233,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Benagil Cave, Unknown"
   },
   {
     "id": "country-pt-praia-da-marinha",
@@ -111,7 +127,9 @@
     "lat": 37.09,
     "lon": -8.409,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Praia da Marinha, Unknown"
   },
   {
     "id": "country-pt-coimbra-university",
@@ -120,7 +138,9 @@
     "lat": 40.2074,
     "lon": -8.4265,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Coimbra University, Unknown"
   },
   {
     "id": "country-pt-museu-nacional-do-azulejo",
@@ -129,7 +149,9 @@
     "lat": 38.7229,
     "lon": -9.1127,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Museu Nacional do Azulejo, Unknown"
   },
   {
     "id": "country-pt-time-out-market-lisbon",
@@ -138,7 +160,9 @@
     "lat": 38.7078,
     "lon": -9.144,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Time Out Market Lisbon, Unknown"
   },
   {
     "id": "country-pt-pastel-de-belem",
@@ -147,7 +171,9 @@
     "lat": 38.6972,
     "lon": -9.2065,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Pastel de Belem, Unknown"
   },
   {
     "id": "country-pt-mercado-do-bolhao",
@@ -156,7 +182,9 @@
     "lat": 41.1498,
     "lon": -8.6069,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Mercado do Bolhao, Unknown"
   },
   {
     "id": "country-pt-bairro-alto",
@@ -165,7 +193,9 @@
     "lat": 38.7145,
     "lon": -9.1445,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "68 Rua da Escola do Exército"
   },
   {
     "id": "country-pt-lux-fr-gil",
@@ -174,7 +204,9 @@
     "lat": 38.711,
     "lon": -9.122,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Lux Frágil, Unknown"
   },
   {
     "id": "country-pt-cais-do-sodre",
@@ -183,7 +215,9 @@
     "lat": 38.7076,
     "lon": -9.1457,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Cais do Sodre, Lisbon"
   },
   {
     "id": "country-pt-cascais-seafront",
@@ -192,7 +226,9 @@
     "lat": 38.6968,
     "lon": -9.4209,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Cascais Seafront, Unknown"
   },
   {
     "id": "country-pt-obidos-medieval-town",
@@ -201,7 +237,9 @@
     "lat": 39.3607,
     "lon": -9.1579,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Obidos Medieval Town, Unknown"
   },
   {
     "id": "country-pt-evora-roman-temple",
@@ -210,7 +248,9 @@
     "lat": 38.5719,
     "lon": -7.9097,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Evora Roman Temple, Unknown"
   },
   {
     "id": "country-pt-nazare-viewpoint",
@@ -219,7 +259,9 @@
     "lat": 39.6027,
     "lon": -9.0699,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Nazare Viewpoint, Unknown"
   },
   {
     "id": "country-pt-peniche-surf-spots",
@@ -228,6 +270,250 @@
     "lat": 39.356,
     "lon": -9.381,
     "source": "static",
-    "countryCode": "PT"
+    "countryCode": "PT",
+    "city": "Unknown",
+    "address": "Peniche Surf Spots, Unknown"
+  },
+  {
+    "id": "country-pt-lisbon-alfama-2",
+    "name": "Alfama",
+    "category": "food",
+    "lat": 38.7134,
+    "lon": -9.1527,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "216, 218, 222 Rua de São Bento"
+  },
+  {
+    "id": "country-pt-lisbon-belem-pastry-district",
+    "name": "Belem Pastry District",
+    "category": "food",
+    "lat": 38.7101,
+    "lon": -9.1243,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Calçada do Forte"
+  },
+  {
+    "id": "country-pt-lisbon-chiado",
+    "name": "Chiado",
+    "category": "food",
+    "lat": 38.7126,
+    "lon": -9.1512,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Chiado, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-docas-de-santo-amaro",
+    "name": "Docas de Santo Amaro",
+    "category": "nightlife",
+    "lat": 38.7158,
+    "lon": -9.1475,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Docas de Santo Amaro, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-eduardo-vii-park",
+    "name": "Eduardo VII Park",
+    "category": "nature",
+    "lat": 38.7222,
+    "lon": -9.1324,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Eduardo VII Park, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-elevador-de-santa-justa",
+    "name": "Elevador de Santa Justa",
+    "category": "landmarks",
+    "lat": 38.7276,
+    "lon": -9.1584,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Elevador de Santa Justa, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-gulbenkian-museum",
+    "name": "Gulbenkian Museum",
+    "category": "museums",
+    "lat": 38.7166,
+    "lon": -9.1244,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Gulbenkian Museum, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-jeronimos-monastery",
+    "name": "Jeronimos Monastery",
+    "category": "landmarks",
+    "lat": 38.7302,
+    "lon": -9.1273,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Jeronimos Monastery, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-lisbon-cathedral",
+    "name": "Lisbon Cathedral",
+    "category": "landmarks",
+    "lat": 38.7367,
+    "lon": -9.1455,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Lisbon Cathedral, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-lx-factory",
+    "name": "LX Factory",
+    "category": "food",
+    "lat": 38.7128,
+    "lon": -9.1399,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "LX Factory, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-maat-museum",
+    "name": "MAAT Museum",
+    "category": "museums",
+    "lat": 38.7085,
+    "lon": -9.1381,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "MAAT Museum, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-miradouro-da-senhora-do-monte",
+    "name": "Miradouro da Senhora do Monte",
+    "category": "nature",
+    "lat": 38.7186,
+    "lon": -9.1442,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Miradouro da Senhora do Monte, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-miradouro-das-portas-do-sol",
+    "name": "Miradouro das Portas do Sol",
+    "category": "nature",
+    "lat": 38.7286,
+    "lon": -9.1295,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Miradouro das Portas do Sol, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-miradouro-de-santa-catarina",
+    "name": "Miradouro de Santa Catarina",
+    "category": "nature",
+    "lat": 38.7335,
+    "lon": -9.1236,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Miradouro de Santa Catarina, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-oceanario-de-lisboa",
+    "name": "Oceanario de Lisboa",
+    "category": "museums",
+    "lat": 38.7156,
+    "lon": -9.1256,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Oceanario de Lisboa, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-parqu-das-nacos",
+    "name": "Parque das Nacoes",
+    "category": "nature",
+    "lat": 38.7332,
+    "lon": -9.131,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Parque das Nacoes, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-pink-street",
+    "name": "Pink Street",
+    "category": "nightlife",
+    "lat": 38.7102,
+    "lon": -9.145,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Pink Street, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-praca-do-comercio",
+    "name": "Praca do Comercio",
+    "category": "landmarks",
+    "lat": 38.7164,
+    "lon": -9.1349,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Praca do Comercio, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-rossio-square",
+    "name": "Rossio Square",
+    "category": "landmarks",
+    "lat": 38.7083,
+    "lon": -9.1321,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Rossio Square, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-sao-jorge-castle",
+    "name": "Sao Jorge Castle",
+    "category": "landmarks",
+    "lat": 38.7242,
+    "lon": -9.1388,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Sao Jorge Castle, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-time-out-market",
+    "name": "Time Out Market",
+    "category": "food",
+    "lat": 38.7338,
+    "lon": -9.1247,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Time Out Market, Lisbon"
+  },
+  {
+    "id": "country-pt-lisbon-tram-28-route",
+    "name": "Tram 28 Route",
+    "category": "landmarks",
+    "lat": 38.7372,
+    "lon": -9.1235,
+    "source": "static",
+    "countryCode": "PT",
+    "city": "Lisbon",
+    "address": "Tram 28 Route, Lisbon"
   }
 ]

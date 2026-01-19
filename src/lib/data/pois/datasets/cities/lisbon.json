@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Belem Tower, Lisbon"
   },
   {
     "id": "city-lisbon-cais-do-sodre",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Cais do Sodre, Lisbon"
   },
   {
     "id": "city-lisbon-chiado",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Chiado, Lisbon"
   },
   {
     "id": "city-lisbon-docas-de-santo-amaro",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Docas de Santo Amaro, Lisbon"
   },
   {
     "id": "city-lisbon-eduardo-vii-park",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Eduardo VII Park, Lisbon"
   },
   {
     "id": "city-lisbon-elevador-de-santa-justa",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Elevador de Santa Justa, Lisbon"
   },
   {
     "id": "city-lisbon-gulbenkian-museum",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Gulbenkian Museum, Lisbon"
   },
   {
     "id": "city-lisbon-jeronimos-monastery",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Jeronimos Monastery, Lisbon"
   },
   {
     "id": "city-lisbon-lisbon-cathedral",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Lisbon Cathedral, Lisbon"
   },
   {
     "id": "city-lisbon-lx-factory",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "LX Factory, Lisbon"
   },
   {
     "id": "city-lisbon-maat-museum",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "MAAT Museum, Lisbon"
   },
   {
     "id": "city-lisbon-miradouro-da-senhora-do-monte",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Miradouro da Senhora do Monte, Lisbon"
   },
   {
     "id": "city-lisbon-miradouro-das-portas-do-sol",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Miradouro das Portas do Sol, Lisbon"
   },
   {
     "id": "city-lisbon-miradouro-de-santa-catarina",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Miradouro de Santa Catarina, Lisbon"
   },
   {
     "id": "city-lisbon-oceanario-de-lisboa",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Oceanario de Lisboa, Lisbon"
   },
   {
     "id": "city-lisbon-parque-das-nacoes",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Parque das Nacoes, Lisbon"
   },
   {
     "id": "city-lisbon-pink-street",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Pink Street, Lisbon"
   },
   {
     "id": "city-lisbon-praca-do-comercio",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Praca do Comercio, Lisbon"
   },
   {
     "id": "city-lisbon-rossio-square",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Rossio Square, Lisbon"
   },
   {
     "id": "city-lisbon-sao-jorge-castle",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Sao Jorge Castle, Lisbon"
   },
   {
     "id": "city-lisbon-time-out-market",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Time Out Market, Lisbon"
   },
   {
     "id": "city-lisbon-tram-28-route",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "PT",
     "cityId": "lisbon",
-    "city": "Lisbon"
+    "city": "Lisbon",
+    "address": "Tram 28 Route, Lisbon"
   }
 ]

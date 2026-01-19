@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Central Market (Tokyo) 2, Tokyo"
   },
   {
     "id": "city-tokyo-city-park-tokyo-4",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "City Park (Tokyo) 4, Tokyo"
   },
   {
     "id": "city-tokyo-ebisu-yokocho",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Ebisu Yokocho, Tokyo"
   },
   {
     "id": "city-tokyo-ginza",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Ginza, Tokyo"
   },
   {
     "id": "city-tokyo-golden-gai",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Golden Gai, Tokyo"
   },
   {
     "id": "city-tokyo-historic-cathedral-tokyo-5",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Historic Cathedral (Tokyo) 5, Tokyo"
   },
   {
     "id": "city-tokyo-ikebukuro-sunshine-city",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Ikebukuro Sunshine City, Tokyo"
   },
   {
     "id": "city-tokyo-imperial-palace-east-gardens",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Imperial Palace East Gardens, Tokyo"
   },
   {
     "id": "city-tokyo-kabukicho",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Kabukicho, Tokyo"
   },
   {
     "id": "city-tokyo-kagurazaka",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Kagurazaka, Tokyo"
   },
   {
     "id": "city-tokyo-local-food-street-tokyo-8",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Local Food Street (Tokyo) 8, Tokyo"
   },
   {
     "id": "city-tokyo-main-square-tokyo-9",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Main Square (Tokyo) 9, Tokyo"
   },
   {
     "id": "city-tokyo-meiji-shrine",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Meiji Shrine, Tokyo"
   },
   {
     "id": "city-tokyo-modern-art-gallery-tokyo-6",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Modern Art Gallery (Tokyo) 6, Tokyo"
   },
   {
     "id": "city-tokyo-nakameguro",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Nakameguro, Tokyo"
   },
   {
     "id": "city-tokyo-national-museum",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Tokyo National Museum, Tokyo"
   },
   {
     "id": "city-tokyo-nightlife-district-tokyo-7",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Nightlife District (Tokyo) 7, Tokyo"
   },
   {
     "id": "city-tokyo-odaiba",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Odaiba, Tokyo"
   },
   {
     "id": "city-tokyo-odaiba-seaside-park",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Odaiba Seaside Park, Tokyo"
   },
   {
     "id": "city-tokyo-old-town-tokyo-1",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Old Town (Tokyo) 1, Tokyo"
   },
   {
     "id": "city-tokyo-omotesando",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Omotesando, Tokyo"
   },
   {
     "id": "city-tokyo-riverside-promenade-tokyo-3",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Riverside Promenade (Tokyo) 3, Tokyo"
   },
   {
     "id": "city-tokyo-roppongi-hills",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Roppongi Hills, Tokyo"
   },
   {
     "id": "city-tokyo-senso-ji",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Senso-ji, Tokyo"
   },
   {
     "id": "city-tokyo-shibuya-crossing",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Shibuya Crossing, Tokyo"
   },
   {
     "id": "city-tokyo-shimokitazawa",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Shimokitazawa, Tokyo"
   },
   {
     "id": "city-tokyo-shinjuku-gyoen",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Shinjuku Gyoen, Tokyo"
   },
   {
     "id": "city-tokyo-skytree",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Tokyo Skytree, Tokyo"
   },
   {
     "id": "city-tokyo-takeshita-street-harajuku",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Takeshita Street (Harajuku), Tokyo"
   },
   {
     "id": "city-tokyo-teamlab-planets",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "TeamLab Planets, Tokyo"
   },
   {
     "id": "city-tokyo-teamlab-planets-2",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "teamLab Planets, Tokyo"
   },
   {
     "id": "city-tokyo-tokyo-metropolitan-government-building",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Tokyo Metropolitan Government Building, Tokyo"
   },
   {
     "id": "city-tokyo-tokyo-station-marunouchi",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Tokyo Station (Marunouchi), Tokyo"
   },
   {
     "id": "city-tokyo-tokyo-tower",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Tokyo Tower, Tokyo"
   },
   {
     "id": "city-tokyo-toyosu-market",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Toyosu Market, Tokyo"
   },
   {
     "id": "city-tokyo-tsukiji-outer-market",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Tsukiji Outer Market, Tokyo"
   },
   {
     "id": "city-tokyo-ueno-park",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "JP",
     "cityId": "tokyo",
-    "city": "Tokyo"
+    "city": "Tokyo",
+    "address": "Ueno Park, Tokyo"
   }
 ]

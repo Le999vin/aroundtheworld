@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Clarke Quay, Singapore"
   },
   {
     "id": "city-singapore-east-coast-park",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "East Coast Park, Singapore"
   },
   {
     "id": "city-singapore-esplanade",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Esplanade, Singapore"
   },
   {
     "id": "city-singapore-gardens-by-the-bay",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Gardens by the Bay, Singapore"
   },
   {
     "id": "city-singapore-haji-lane",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Haji Lane, Singapore"
   },
   {
     "id": "city-singapore-jewel-changi",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Jewel Changi, Singapore"
   },
   {
     "id": "city-singapore-kampong-glam",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Kampong Glam, Singapore"
   },
   {
     "id": "city-singapore-lau-pa-sat",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Lau Pa Sat, Singapore"
   },
   {
     "id": "city-singapore-little-india",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Little India, Singapore"
   },
   {
     "id": "city-singapore-marina-bay-sands",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Marina Bay Sands, Singapore"
   },
   {
     "id": "city-singapore-marina-bay-waterfront-promenade",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Marina Bay Waterfront Promenade, Singapore"
   },
   {
     "id": "city-singapore-maxwell-food-centre",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Maxwell Food Centre, Singapore"
   },
   {
     "id": "city-singapore-merlion-park",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Merlion Park, Singapore"
   },
   {
     "id": "city-singapore-national-gallery-singapore",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "National Gallery Singapore, Singapore"
   },
   {
     "id": "city-singapore-orchard-road",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Orchard Road, Singapore"
   },
   {
     "id": "city-singapore-sentosa-island",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Sentosa Island, Singapore"
   },
   {
     "id": "city-singapore-singapore-botanic-gardens",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Singapore Botanic Gardens, Singapore"
   },
   {
     "id": "city-singapore-singapore-flyer",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Singapore Flyer, Singapore"
   },
   {
     "id": "city-singapore-supertree-grove",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Supertree Grove, Singapore"
   },
   {
     "id": "city-singapore-tiong-bahru",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Tiong Bahru, Singapore"
   },
   {
     "id": "city-singapore-universal-studios-singapore",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Universal Studios Singapore, Singapore"
   },
   {
     "id": "city-singapore-zouk-singapore",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "SG",
     "cityId": "singapore",
-    "city": "Singapore"
+    "city": "Singapore",
+    "address": "Zouk Singapore, Singapore"
   }
 ]

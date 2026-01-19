@@ -7,8 +7,8 @@
     "lon": 18.1086,
     "source": "static",
     "countryCode": "HR",
-    "address": "Nikole Božidarevića",
-    "city": "Dubrovnik"
+    "city": "Dubrovnik",
+    "address": "Nikole Božidarevića"
   },
   {
     "id": "country-hr-city-walls-of-dubrovnik",
@@ -18,8 +18,8 @@
     "lon": 18.109,
     "source": "static",
     "countryCode": "HR",
-    "address": "20 Između Polača",
-    "city": "Dubrovnik"
+    "city": "Dubrovnik",
+    "address": "20 Između Polača"
   },
   {
     "id": "country-hr-split-diocletians-palace",
@@ -29,8 +29,8 @@
     "lon": 16.4402,
     "source": "static",
     "countryCode": "HR",
-    "address": "Peristil",
-    "city": "Split"
+    "city": "Split",
+    "address": "Peristil"
   },
   {
     "id": "country-hr-hvar-town",
@@ -39,7 +39,9 @@
     "lat": 43.1729,
     "lon": 16.4425,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Hvar Town, Unknown"
   },
   {
     "id": "country-hr-zagreb-upper-town",
@@ -48,7 +50,9 @@
     "lat": 45.815,
     "lon": 15.975,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Zagreb Upper Town, Unknown"
   },
   {
     "id": "country-hr-plitvice-lakes-national-park",
@@ -57,7 +61,9 @@
     "lat": 44.8802,
     "lon": 15.6164,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Plitvice Lakes National Park, Unknown"
   },
   {
     "id": "country-hr-krka-national-park",
@@ -66,7 +72,9 @@
     "lat": 43.801,
     "lon": 15.972,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Krka National Park, Unknown"
   },
   {
     "id": "country-hr-istria-rovinj-old-town",
@@ -75,7 +83,9 @@
     "lat": 45.0812,
     "lon": 13.6387,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Istria Rovinj Old Town, Unknown"
   },
   {
     "id": "country-hr-pula-arena",
@@ -84,7 +94,9 @@
     "lat": 44.873,
     "lon": 13.8496,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Pula Arena, Unknown"
   },
   {
     "id": "country-hr-zadar-sea-organ",
@@ -93,7 +105,9 @@
     "lat": 44.1194,
     "lon": 15.2314,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Zadar Sea Organ, Unknown"
   },
   {
     "id": "country-hr-korcula-old-town",
@@ -102,7 +116,9 @@
     "lat": 42.959,
     "lon": 17.135,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Korcula Old Town, Unknown"
   },
   {
     "id": "country-hr-brijuni-national-park",
@@ -111,7 +127,9 @@
     "lat": 44.913,
     "lon": 13.767,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Brijuni National Park, Unknown"
   },
   {
     "id": "country-hr-paklenica-national-park",
@@ -120,7 +138,9 @@
     "lat": 44.3,
     "lon": 15.45,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Paklenica National Park, Unknown"
   },
   {
     "id": "country-hr-mljet-national-park",
@@ -129,7 +149,9 @@
     "lat": 42.744,
     "lon": 17.535,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Mljet National Park, Unknown"
   },
   {
     "id": "country-hr-museum-of-broken-relationships",
@@ -138,7 +160,9 @@
     "lat": 45.814,
     "lon": 15.974,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Museum of Broken Relationships, Zagreb"
   },
   {
     "id": "country-hr-dubrovnik-city-museum",
@@ -147,7 +171,9 @@
     "lat": 42.6409,
     "lon": 18.11,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Dubrovnik City Museum, Unknown"
   },
   {
     "id": "country-hr-zagreb-dolac-market",
@@ -156,7 +182,9 @@
     "lat": 45.8144,
     "lon": 15.977,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Zagreb Dolac Market, Unknown"
   },
   {
     "id": "country-hr-split-green-market-pazar",
@@ -165,7 +193,9 @@
     "lat": 43.508,
     "lon": 16.441,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Split Green Market (Pazar), Unknown"
   },
   {
     "id": "country-hr-istrian-truffle-region-motovun",
@@ -174,7 +204,9 @@
     "lat": 45.337,
     "lon": 13.829,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Istrian Truffle Region Motovun, Unknown"
   },
   {
     "id": "country-hr-carpe-diem-beach-club-hvar",
@@ -183,7 +215,9 @@
     "lat": 43.176,
     "lon": 16.453,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Carpe Diem Beach Club Hvar, Unknown"
   },
   {
     "id": "country-hr-central-club-split",
@@ -192,7 +226,9 @@
     "lat": 43.509,
     "lon": 16.439,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Central Club Split, Unknown"
   },
   {
     "id": "country-hr-dubrovnik-old-port-bars",
@@ -201,7 +237,9 @@
     "lat": 42.641,
     "lon": 18.11,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Dubrovnik Old Port Bars, Unknown"
   },
   {
     "id": "country-hr-makarska-riviera-beaches",
@@ -210,7 +248,9 @@
     "lat": 43.3,
     "lon": 17.02,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Makarska Riviera Beaches, Unknown"
   },
   {
     "id": "country-hr-trogir-old-town",
@@ -219,7 +259,9 @@
     "lat": 43.517,
     "lon": 16.251,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Trogir Old Town, Unknown"
   },
   {
     "id": "country-hr-opatija-seafront",
@@ -228,6 +270,250 @@
     "lat": 45.337,
     "lon": 14.305,
     "source": "static",
-    "countryCode": "HR"
+    "countryCode": "HR",
+    "city": "Unknown",
+    "address": "Opatija Seafront, Unknown"
+  },
+  {
+    "id": "country-hr-zagreb-art-pavilion",
+    "name": "Art Pavilion",
+    "category": "museums",
+    "lat": 45.7992,
+    "lon": 15.9634,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Ulica grada Vukovara"
+  },
+  {
+    "id": "country-hr-zagreb-ban-jelacic-square",
+    "name": "Ban Jelacic Square",
+    "category": "landmarks",
+    "lat": 45.8318,
+    "lon": 15.987,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Bijenička cesta"
+  },
+  {
+    "id": "country-hr-zagreb-branimirova-street-art",
+    "name": "Branimirova Street Art",
+    "category": "other",
+    "lat": 45.8207,
+    "lon": 15.9873,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Ulica Ivana Vončine"
+  },
+  {
+    "id": "country-hr-zagreb-britanski-trg",
+    "name": "Britanski Trg",
+    "category": "food",
+    "lat": 45.815,
+    "lon": 15.9666,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Britanski Trg, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-croatian-national-theatre",
+    "name": "Croatian National Theatre",
+    "category": "landmarks",
+    "lat": 45.8076,
+    "lon": 15.9821,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Croatian National Theatre, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-cvjetni-square",
+    "name": "Cvjetni Square",
+    "category": "food",
+    "lat": 45.8116,
+    "lon": 15.9654,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Cvjetni Square, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-dolac-market-2",
+    "name": "Dolac Market",
+    "category": "food",
+    "lat": 45.8186,
+    "lon": 16.0013,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Dolac Market, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-jarun-lake",
+    "name": "Jarun Lake",
+    "category": "nature",
+    "lat": 45.8059,
+    "lon": 15.9855,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Jarun Lake, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-kaptol-district",
+    "name": "Kaptol District",
+    "category": "food",
+    "lat": 45.8068,
+    "lon": 15.9936,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Kaptol District, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-maksimir-park",
+    "name": "Maksimir Park",
+    "category": "nature",
+    "lat": 45.8305,
+    "lon": 15.9874,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Maksimir Park, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-medvednica-sljeme",
+    "name": "Medvednica / Sljeme",
+    "category": "nature",
+    "lat": 45.8153,
+    "lon": 15.9978,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Medvednica / Sljeme, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-mimara-museum",
+    "name": "Mimara Museum",
+    "category": "museums",
+    "lat": 45.8044,
+    "lon": 15.9584,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Mimara Museum, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-mirogoj-cemetery",
+    "name": "Mirogoj Cemetery",
+    "category": "landmarks",
+    "lat": 45.8313,
+    "lon": 15.9993,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Mirogoj Cemetery, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-park-ribnjak",
+    "name": "Park Ribnjak",
+    "category": "nature",
+    "lat": 45.8031,
+    "lon": 15.9788,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Park Ribnjak, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-stone-gate",
+    "name": "Stone Gate",
+    "category": "landmarks",
+    "lat": 45.8053,
+    "lon": 15.9577,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Stone Gate, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-tkalca-nightlife",
+    "name": "Tkalca Nightlife",
+    "category": "nightlife",
+    "lat": 45.8109,
+    "lon": 16.0068,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Tkalca Nightlife, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-tkalciceva-street",
+    "name": "Tkalciceva Street",
+    "category": "food",
+    "lat": 45.8213,
+    "lon": 15.9685,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Tkalciceva Street, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-upper-town-gornji-grad",
+    "name": "Upper Town (Gornji Grad)",
+    "category": "landmarks",
+    "lat": 45.8212,
+    "lon": 15.97,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Upper Town (Gornji Grad), Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-vintage-industrial-bar",
+    "name": "Vintage Industrial Bar",
+    "category": "nightlife",
+    "lat": 45.8007,
+    "lon": 15.9843,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Vintage Industrial Bar, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-zagreb-360-viewpoint",
+    "name": "Zagreb 360 Viewpoint",
+    "category": "landmarks",
+    "lat": 45.8047,
+    "lon": 15.9882,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Zagreb 360 Viewpoint, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-zagreb-botanical-garden",
+    "name": "Zagreb Botanical Garden",
+    "category": "nature",
+    "lat": 45.8247,
+    "lon": 16.0042,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Zagreb Botanical Garden, Zagreb"
+  },
+  {
+    "id": "country-hr-zagreb-zrinjevac-park",
+    "name": "Zrinjevac Park",
+    "category": "nature",
+    "lat": 45.827,
+    "lon": 15.9642,
+    "source": "static",
+    "countryCode": "HR",
+    "city": "Zagreb",
+    "address": "Zrinjevac Park, Zagreb"
   }
 ]

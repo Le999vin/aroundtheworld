@@ -7,8 +7,8 @@
     "lon": -74.0445,
     "source": "static",
     "countryCode": "US",
-    "address": "Flagpole Plaza",
-    "city": "New York"
+    "city": "New York",
+    "address": "Flagpole Plaza"
   },
   {
     "id": "country-us-grand-canyon",
@@ -18,8 +18,8 @@
     "lon": -112.1129,
     "source": "static",
     "countryCode": "US",
-    "address": "Plateau Point",
-    "city": "Coconino County"
+    "city": "Coconino County",
+    "address": "Plateau Point"
   },
   {
     "id": "country-us-golden-gate-bridge",
@@ -29,8 +29,8 @@
     "lon": -122.4783,
     "source": "static",
     "countryCode": "US",
-    "address": "Presidio Parkway",
-    "city": "San Francisco"
+    "city": "San Francisco",
+    "address": "Presidio Parkway"
   },
   {
     "id": "country-us-yosemite-valley",
@@ -39,7 +39,9 @@
     "lat": 37.7429,
     "lon": -119.5744,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Yosemite Valley, Unknown"
   },
   {
     "id": "country-us-walt-disney-world",
@@ -48,7 +50,9 @@
     "lat": 28.3852,
     "lon": -81.5639,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Walt Disney World, Unknown"
   },
   {
     "id": "country-us-national-mall",
@@ -57,7 +61,9 @@
     "lat": 38.8895,
     "lon": -77.0353,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "National Mall, Unknown"
   },
   {
     "id": "country-us-las-vegas-strip",
@@ -66,7 +72,9 @@
     "lat": 36.1147,
     "lon": -115.1728,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Las Vegas Strip, Unknown"
   },
   {
     "id": "country-us-air-and-space-museum",
@@ -75,7 +83,9 @@
     "lat": 38.8882,
     "lon": -77.0199,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "National Air and Space Museum, Unknown"
   },
   {
     "id": "country-us-bourbon-street",
@@ -84,7 +94,9 @@
     "lat": 29.9584,
     "lon": -90.064,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Bourbon Street, Unknown"
   },
   {
     "id": "country-us-old-faithful",
@@ -93,7 +105,9 @@
     "lat": 44.4605,
     "lon": -110.8281,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Old Faithful, Unknown"
   },
   {
     "id": "country-us-central-park",
@@ -102,7 +116,9 @@
     "lat": 40.7829,
     "lon": -73.9654,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Central Park, New York"
   },
   {
     "id": "country-us-times-square",
@@ -111,7 +127,9 @@
     "lat": 40.758,
     "lon": -73.9855,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Times Square, New York"
   },
   {
     "id": "country-us-niagara-falls",
@@ -120,7 +138,9 @@
     "lat": 43.0828,
     "lon": -79.0742,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Niagara Falls, Unknown"
   },
   {
     "id": "country-us-zion-national-park",
@@ -129,7 +149,9 @@
     "lat": 37.2982,
     "lon": -113.0263,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Zion National Park, Unknown"
   },
   {
     "id": "country-us-bryce-canyon",
@@ -138,7 +160,9 @@
     "lat": 37.593,
     "lon": -112.1871,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Bryce Canyon, Unknown"
   },
   {
     "id": "country-us-glacier-national-park",
@@ -147,7 +171,9 @@
     "lat": 48.6967,
     "lon": -113.7183,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Glacier National Park, Unknown"
   },
   {
     "id": "country-us-waikiki-beach",
@@ -156,7 +182,9 @@
     "lat": 21.2767,
     "lon": -157.8289,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Waikiki Beach, Unknown"
   },
   {
     "id": "country-us-south-beach-miami",
@@ -165,7 +193,9 @@
     "lat": 25.7826,
     "lon": -80.1341,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "South Beach (Miami), Unknown"
   },
   {
     "id": "country-us-millennium-park-chicago",
@@ -174,7 +204,9 @@
     "lat": 41.8826,
     "lon": -87.6226,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Millennium Park (Chicago), Unknown"
   },
   {
     "id": "country-us-pike-place-market-seattle",
@@ -183,7 +215,9 @@
     "lat": 47.6097,
     "lon": -122.3425,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Pike Place Market (Seattle), Unknown"
   },
   {
     "id": "country-us-freedom-trail-boston",
@@ -192,7 +226,9 @@
     "lat": 42.3601,
     "lon": -71.0589,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Freedom Trail (Boston), Unknown"
   },
   {
     "id": "country-us-broadway-nashville",
@@ -201,7 +237,9 @@
     "lat": 36.1612,
     "lon": -86.7785,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Broadway (Nashville), Unknown"
   },
   {
     "id": "country-us-sixth-street-austin",
@@ -210,7 +248,9 @@
     "lat": 30.2676,
     "lon": -97.7396,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Sixth Street (Austin), Unknown"
   },
   {
     "id": "country-us-frenchmen-street-new-orleans",
@@ -219,7 +259,9 @@
     "lat": 29.9637,
     "lon": -90.0566,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Frenchmen Street (New Orleans), Unknown"
   },
   {
     "id": "country-us-griffith-observatory-la",
@@ -228,6 +270,415 @@
     "lat": 34.1184,
     "lon": -118.3004,
     "source": "static",
-    "countryCode": "US"
+    "countryCode": "US",
+    "city": "Unknown",
+    "address": "Griffith Observatory (LA), Unknown"
+  },
+  {
+    "id": "country-us-new-york-9-11-memorial",
+    "name": "9/11 Memorial",
+    "category": "landmarks",
+    "lat": 40.7115,
+    "lon": -74.0134,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "180 Greenwich Street"
+  },
+  {
+    "id": "country-us-new-york-9-11-memorial-museum",
+    "name": "9/11 Memorial & Museum",
+    "category": "museums",
+    "lat": 40.721,
+    "lon": -74.0277,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Hoboken Newport Walkway"
+  },
+  {
+    "id": "country-us-new-york-broadway-theater-district",
+    "name": "Broadway Theater District",
+    "category": "nightlife",
+    "lat": 40.7207,
+    "lon": -74.0176,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Pier 26 Tide Deck"
+  },
+  {
+    "id": "country-us-new-york-broadway-theatre-district",
+    "name": "Broadway Theatre District",
+    "category": "nightlife",
+    "lat": 40.759,
+    "lon": -73.9845,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Broadway Theatre District, New York"
+  },
+  {
+    "id": "country-us-new-york-brooklyn-bridge",
+    "name": "Brooklyn Bridge",
+    "category": "landmarks",
+    "lat": 40.7061,
+    "lon": -73.9969,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Brooklyn Bridge, New York"
+  },
+  {
+    "id": "country-us-new-york-bryant-park",
+    "name": "Bryant Park",
+    "category": "nature",
+    "lat": 40.709,
+    "lon": -74.0263,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Bryant Park, New York"
+  },
+  {
+    "id": "country-us-new-york-central-market-new-york-2",
+    "name": "Central Market (New York) 2",
+    "category": "food",
+    "lat": 40.716,
+    "lon": -74.0348,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Central Market (New York) 2, New York"
+  },
+  {
+    "id": "country-us-new-york-chelsea-market",
+    "name": "Chelsea Market",
+    "category": "food",
+    "lat": 40.7424,
+    "lon": -74.006,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Chelsea Market, New York"
+  },
+  {
+    "id": "country-us-new-york-chinatown-little-italy",
+    "name": "Chinatown & Little Italy",
+    "category": "food",
+    "lat": 40.7181,
+    "lon": -73.996,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Chinatown & Little Italy, New York"
+  },
+  {
+    "id": "country-us-new-york-city-park-new-york-4",
+    "name": "City Park (New York) 4",
+    "category": "nature",
+    "lat": 40.6916,
+    "lon": -73.9801,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "City Park (New York) 4, New York"
+  },
+  {
+    "id": "country-us-new-york-coney-island",
+    "name": "Coney Island",
+    "category": "nature",
+    "lat": 40.5749,
+    "lon": -73.985,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Coney Island, New York"
+  },
+  {
+    "id": "country-us-new-york-dumbo",
+    "name": "DUMBO",
+    "category": "landmarks",
+    "lat": 40.7033,
+    "lon": -73.9881,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "DUMBO, New York"
+  },
+  {
+    "id": "country-us-new-york-empire-state-building",
+    "name": "Empire State Building",
+    "category": "landmarks",
+    "lat": 40.7484,
+    "lon": -73.9857,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Empire State Building, New York"
+  },
+  {
+    "id": "country-us-new-york-fifth-avenu",
+    "name": "Fifth Avenue",
+    "category": "food",
+    "lat": 40.7625,
+    "lon": -73.9738,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Fifth Avenue, New York"
+  },
+  {
+    "id": "country-us-new-york-grand-central-terminal",
+    "name": "Grand Central Terminal",
+    "category": "landmarks",
+    "lat": 40.7527,
+    "lon": -73.9772,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Grand Central Terminal, New York"
+  },
+  {
+    "id": "country-us-new-york-greenwich-village",
+    "name": "Greenwich Village",
+    "category": "nightlife",
+    "lat": 40.7336,
+    "lon": -74.0027,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Greenwich Village, New York"
+  },
+  {
+    "id": "country-us-new-york-harlem-jazz-apollo-theater",
+    "name": "Harlem Jazz (Apollo Theater)",
+    "category": "nightlife",
+    "lat": 40.81,
+    "lon": -73.949,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Harlem Jazz (Apollo Theater), New York"
+  },
+  {
+    "id": "country-us-new-york-high-line",
+    "name": "High Line",
+    "category": "nature",
+    "lat": 40.748,
+    "lon": -74.0048,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "High Line, New York"
+  },
+  {
+    "id": "country-us-new-york-historic-cathedral-new-york-5",
+    "name": "Historic Cathedral (New York) 5",
+    "category": "landmarks",
+    "lat": 40.692,
+    "lon": -73.9901,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Historic Cathedral (New York) 5, New York"
+  },
+  {
+    "id": "country-us-new-york-hudson-yards-vessel",
+    "name": "Hudson Yards / Vessel",
+    "category": "landmarks",
+    "lat": 40.7537,
+    "lon": -74.0027,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Hudson Yards / Vessel, New York"
+  },
+  {
+    "id": "country-us-new-york-koreatown-32nd-street",
+    "name": "Koreatown (32nd Street)",
+    "category": "food",
+    "lat": 40.7479,
+    "lon": -73.9864,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Koreatown (32nd Street), New York"
+  },
+  {
+    "id": "country-us-new-york-local-food-street-new-york-8",
+    "name": "Local Food Street (New York) 8",
+    "category": "food",
+    "lat": 40.6933,
+    "lon": -73.9841,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Local Food Street (New York) 8, New York"
+  },
+  {
+    "id": "country-us-new-york-lower-east-side",
+    "name": "Lower East Side",
+    "category": "nightlife",
+    "lat": 40.715,
+    "lon": -73.9843,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Lower East Side, New York"
+  },
+  {
+    "id": "country-us-new-york-metropolitan-museum-of-art",
+    "name": "Metropolitan Museum of Art",
+    "category": "museums",
+    "lat": 40.7794,
+    "lon": -73.9632,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Metropolitan Museum of Art, New York"
+  },
+  {
+    "id": "country-us-new-york-modern-art-gallery-new-york-6",
+    "name": "Modern Art Gallery (New York) 6",
+    "category": "museums",
+    "lat": 40.6936,
+    "lon": -73.9832,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Modern Art Gallery (New York) 6, New York"
+  },
+  {
+    "id": "country-us-new-york-museum-of-modern-art",
+    "name": "Museum of Modern Art",
+    "category": "museums",
+    "lat": 40.7614,
+    "lon": -73.9776,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Museum of Modern Art, New York"
+  },
+  {
+    "id": "country-us-new-york-museum-of-modern-art-moma",
+    "name": "Museum of Modern Art (MoMA)",
+    "category": "museums",
+    "lat": 40.7284,
+    "lon": -74.0234,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Museum of Modern Art (MoMA), New York"
+  },
+  {
+    "id": "country-us-new-york-nightlife-district-new-york-7",
+    "name": "Nightlife District (New York) 7",
+    "category": "nightlife",
+    "lat": 40.7205,
+    "lon": -73.9805,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Nightlife District (New York) 7, New York"
+  },
+  {
+    "id": "country-us-new-york-old-town-new-york-1",
+    "name": "Old Town (New York) 1",
+    "category": "landmarks",
+    "lat": 40.7312,
+    "lon": -74.0348,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Old Town (New York) 1, New York"
+  },
+  {
+    "id": "country-us-new-york-one-world-observatory",
+    "name": "One World Observatory",
+    "category": "landmarks",
+    "lat": 40.713,
+    "lon": -74.0132,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "One World Observatory, New York"
+  },
+  {
+    "id": "country-us-new-york-prospect-park",
+    "name": "Prospect Park",
+    "category": "nature",
+    "lat": 40.6602,
+    "lon": -73.969,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Prospect Park, New York"
+  },
+  {
+    "id": "country-us-new-york-riverside-promenade-new-york-3",
+    "name": "Riverside Promenade (New York) 3",
+    "category": "nature",
+    "lat": 40.7242,
+    "lon": -74.0109,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Riverside Promenade (New York) 3, New York"
+  },
+  {
+    "id": "country-us-new-york-rockefeller-center",
+    "name": "Rockefeller Center",
+    "category": "landmarks",
+    "lat": 40.7276,
+    "lon": -74.0033,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Rockefeller Center, New York"
+  },
+  {
+    "id": "country-us-new-york-the-metropolitan-museum-of-art",
+    "name": "The Metropolitan Museum of Art",
+    "category": "museums",
+    "lat": 40.7175,
+    "lon": -74.0211,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "The Metropolitan Museum of Art, New York"
+  },
+  {
+    "id": "country-us-new-york-top-of-the-rock",
+    "name": "Top of the Rock",
+    "category": "landmarks",
+    "lat": 40.7593,
+    "lon": -73.9795,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Top of the Rock, New York"
+  },
+  {
+    "id": "country-us-new-york-west-village",
+    "name": "West Village",
+    "category": "food",
+    "lat": 40.7077,
+    "lon": -73.9993,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "West Village, New York"
+  },
+  {
+    "id": "country-us-new-york-williamsburg",
+    "name": "Williamsburg",
+    "category": "nightlife",
+    "lat": 40.7081,
+    "lon": -73.9571,
+    "source": "static",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Williamsburg, New York"
   }
 ]

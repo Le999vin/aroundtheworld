@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Camp Nou, Barcelona"
   },
   {
     "id": "city-barcelona-casa-batllo",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Casa Batllo, Barcelona"
   },
   {
     "id": "city-barcelona-casa-mila",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Casa Mila, Barcelona"
   },
   {
     "id": "city-barcelona-central-market-barcelona-2",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Central Market (Barcelona) 2, Barcelona"
   },
   {
     "id": "city-barcelona-city-park-barcelona-4",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "City Park (Barcelona) 4, Barcelona"
   },
   {
     "id": "city-barcelona-el-born",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "El Born, Barcelona"
   },
   {
     "id": "city-barcelona-gothic-quarter",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Gothic Quarter, Barcelona"
   },
   {
     "id": "city-barcelona-gracia",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Gracia, Barcelona"
   },
   {
     "id": "city-barcelona-gracia-district",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Gràcia District, Barcelona"
   },
   {
     "id": "city-barcelona-historic-cathedral-barcelona-5",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Historic Cathedral (Barcelona) 5, Barcelona"
   },
   {
     "id": "city-barcelona-la-boqueria-market",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "La Boqueria Market, Barcelona"
   },
   {
     "id": "city-barcelona-la-rambla",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "La Rambla, Barcelona"
   },
   {
     "id": "city-barcelona-local-food-street-barcelona-8",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Local Food Street (Barcelona) 8, Barcelona"
   },
   {
     "id": "city-barcelona-magic-fountain-of-montjuic",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Magic Fountain of Montjuïc, Barcelona"
   },
   {
     "id": "city-barcelona-magic-fountain-of-montjuic-2",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Magic Fountain of Montjuic, Barcelona"
   },
   {
     "id": "city-barcelona-main-square-barcelona-9",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Main Square (Barcelona) 9, Barcelona"
   },
   {
     "id": "city-barcelona-mnac-museu-nacional-d-art-de-catalunya",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "MNAC (Museu Nacional d'Art de Catalunya), Barcelona"
   },
   {
     "id": "city-barcelona-modern-art-gallery-barcelona-6",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Modern Art Gallery (Barcelona) 6, Barcelona"
   },
   {
     "id": "city-barcelona-montjuic-cable-car",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Montjuïc Cable Car, Barcelona"
   },
   {
     "id": "city-barcelona-montjuic-castle",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Montjuic Castle, Barcelona"
   },
   {
     "id": "city-barcelona-nightlife-district-barcelona-7",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Nightlife District (Barcelona) 7, Barcelona"
   },
   {
     "id": "city-barcelona-old-town-barcelona-1",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Old Town (Barcelona) 1, Barcelona"
   },
   {
     "id": "city-barcelona-palau-de-la-musica-catalana",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Palau de la Música Catalana, Barcelona"
   },
   {
     "id": "city-barcelona-palau-de-la-musica-catalana-2",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Palau de la Musica Catalana, Barcelona"
   },
   {
     "id": "city-barcelona-parc-de-la-ciutadella",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Parc de la Ciutadella, Barcelona"
   },
   {
     "id": "city-barcelona-park-guell",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Park Guell, Barcelona"
   },
   {
     "id": "city-barcelona-passeig-de-gracia",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Passeig de Gracia, Barcelona"
   },
   {
     "id": "city-barcelona-picasso-museum",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Picasso Museum, Barcelona"
   },
   {
     "id": "city-barcelona-poble-espanyol",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Poble Espanyol, Barcelona"
   },
   {
     "id": "city-barcelona-poble-sec-tapas-streets",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Poble Sec Tapas Streets, Barcelona"
   },
   {
     "id": "city-barcelona-port-olimpic-nightlife",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Port Olímpic Nightlife, Barcelona"
   },
   {
     "id": "city-barcelona-port-vell",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Port Vell, Barcelona"
   },
   {
     "id": "city-barcelona-razzmatazz",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Razzmatazz, Barcelona"
   },
   {
     "id": "city-barcelona-razzmatazz-club",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Razzmatazz Club, Barcelona"
   },
   {
     "id": "city-barcelona-riverside-promenade-barcelona-3",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Riverside Promenade (Barcelona) 3, Barcelona"
   },
   {
     "id": "city-barcelona-sagrada-familia",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Sagrada Familia, Barcelona"
   },
   {
     "id": "city-barcelona-tibidabo",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "ES",
     "cityId": "barcelona",
-    "city": "Barcelona"
+    "city": "Barcelona",
+    "address": "Tibidabo, Barcelona"
   }
 ]

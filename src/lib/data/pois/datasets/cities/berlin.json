@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Berlin TV Tower, Berlin"
   },
   {
     "id": "city-berlin-brandenburg-gate",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Brandenburg Gate, Berlin"
   },
   {
     "id": "city-berlin-central-market-berlin-2",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Central Market (Berlin) 2, Berlin"
   },
   {
     "id": "city-berlin-charlottenburg-palace",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Charlottenburg Palace, Berlin"
   },
   {
     "id": "city-berlin-checkpoint-charlie",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Checkpoint Charlie, Berlin"
   },
   {
     "id": "city-berlin-city-park-berlin-4",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "City Park (Berlin) 4, Berlin"
   },
   {
     "id": "city-berlin-east-side-gallery",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "East Side Gallery, Berlin"
   },
   {
     "id": "city-berlin-fernsehturm-berlin",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Fernsehturm Berlin, Berlin"
   },
   {
     "id": "city-berlin-friedrichshain",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Friedrichshain, Berlin"
   },
   {
     "id": "city-berlin-gendarmenmarkt",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Gendarmenmarkt, Berlin"
   },
   {
     "id": "city-berlin-hackescher-markt",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Hackescher Markt, Berlin"
   },
   {
     "id": "city-berlin-historic-cathedral-berlin-5",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Historic Cathedral (Berlin) 5, Berlin"
   },
   {
     "id": "city-berlin-holocaust-memorial",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Holocaust Memorial, Berlin"
   },
   {
     "id": "city-berlin-jewish-museum-berlin",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Jewish Museum Berlin, Berlin"
   },
   {
     "id": "city-berlin-kadewe-food-hall",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "KaDeWe Food Hall, Berlin"
   },
   {
     "id": "city-berlin-kitkatclub",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "KitKatClub, Berlin"
   },
   {
     "id": "city-berlin-kreuzberg",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Kreuzberg, Berlin"
   },
   {
     "id": "city-berlin-kurfuerstendamm",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Kurfuerstendamm, Berlin"
   },
   {
     "id": "city-berlin-kurfurstendamm",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Kurfürstendamm, Berlin"
   },
   {
     "id": "city-berlin-local-food-street-berlin-8",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Local Food Street (Berlin) 8, Berlin"
   },
   {
     "id": "city-berlin-main-square-berlin-9",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Main Square (Berlin) 9, Berlin"
   },
   {
     "id": "city-berlin-markthalle-neun",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Markthalle Neun, Berlin"
   },
   {
     "id": "city-berlin-mauerpark",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Mauerpark, Berlin"
   },
   {
     "id": "city-berlin-modern-art-gallery-berlin-6",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Modern Art Gallery (Berlin) 6, Berlin"
   },
   {
     "id": "city-berlin-museum-island",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Museum Island, Berlin"
   },
   {
     "id": "city-berlin-nightlife-district-berlin-7",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Nightlife District (Berlin) 7, Berlin"
   },
   {
     "id": "city-berlin-old-town-berlin-1",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Old Town (Berlin) 1, Berlin"
   },
   {
     "id": "city-berlin-philharmonie",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Berlin Philharmonie, Berlin"
   },
   {
     "id": "city-berlin-potsdamer-platz",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Potsdamer Platz, Berlin"
   },
   {
     "id": "city-berlin-prenzlauer-berg",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Prenzlauer Berg, Berlin"
   },
   {
     "id": "city-berlin-reichstag-building",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Reichstag Building, Berlin"
   },
   {
     "id": "city-berlin-riverside-promenade-berlin-3",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Riverside Promenade (Berlin) 3, Berlin"
   },
   {
     "id": "city-berlin-tempelhofer-feld",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Tempelhofer Feld, Berlin"
   },
   {
     "id": "city-berlin-tiergarten",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Tiergarten, Berlin"
   },
   {
     "id": "city-berlin-tiergarten-park",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Tiergarten Park, Berlin"
   },
   {
     "id": "city-berlin-topography-of-terror",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Topography of Terror, Berlin"
   },
   {
     "id": "city-berlin-tresor-club",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "DE",
     "cityId": "berlin",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Tresor Club, Berlin"
   }
 ]

@@ -1,8 +1,8 @@
 import fs from "node:fs";
+import https from "node:https";
 import type { WeatherData, WeatherError } from "@/lib/types";
 import {
   ServiceError,
-  readResponseBody,
   requireEnv,
   toServiceError,
 } from "@/lib/services/errors";
@@ -12,6 +12,7 @@ type TlsState = {
   mode: "default" | "custom_ca" | "insecure";
   caPath?: string;
   caError?: { name: string; message: string };
+  agent?: https.Agent;
 };
 
 let tlsState: TlsState | null = null;
@@ -29,11 +30,16 @@ const resolveTlsState = (): TlsState => {
   if (tlsState) return tlsState;
 
   const isDev = process.env.NODE_ENV !== "production";
-  const allowInsecure = process.env.ALLOW_INSECURE_SSL === "true";
-  if (isDev && allowInsecure) {
-    // WARNING: Dev-only fallback. Do NOT enable in production.
-    process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-    tlsState = { mode: "insecure" };
+  const allowInsecure =
+    isDev &&
+    (process.env.ALLOW_INSECURE_TLS === "1" ||
+      process.env.ALLOW_INSECURE_TLS === "true" ||
+      process.env.ALLOW_INSECURE_SSL === "true");
+  if (allowInsecure) {
+    tlsState = {
+      mode: "insecure",
+      agent: new https.Agent({ rejectUnauthorized: false }),
+    };
     return tlsState;
   }
 
@@ -70,14 +76,95 @@ const toWeatherError = (error: unknown): WeatherError => {
   };
 };
 
-const fetchWithTimeout = async (url: URL, label: string) => {
+type HttpResponse = {
+  ok: boolean;
+  status: number;
+  url: string;
+  body: string;
+};
+
+const TLS_HINT =
+  "Set NODE_EXTRA_CA_CERTS=... or ALLOW_INSECURE_TLS=1 (dev only).";
+
+const requestWithHttps = (
+  url: URL,
+  signal: AbortSignal,
+  agent: https.Agent
+): Promise<HttpResponse> =>
+  new Promise((resolve, reject) => {
+    const request = https.request(
+      {
+        method: "GET",
+        hostname: url.hostname,
+        port: url.port || 443,
+        path: `${url.pathname}${url.search}`,
+        agent,
+      },
+      (response) => {
+        let body = "";
+        response.setEncoding("utf8");
+        response.on("data", (chunk) => {
+          body += chunk;
+        });
+        response.on("end", () => {
+          cleanup();
+          const status = response.statusCode ?? 0;
+          resolve({
+            ok: status >= 200 && status < 300,
+            status,
+            url: url.toString(),
+            body,
+          });
+        });
+      }
+    );
+
+    const abort = () => {
+      const abortError = new Error("AbortError");
+      abortError.name = "AbortError";
+      request.destroy(abortError);
+    };
+
+    const cleanup = () => {
+      signal.removeEventListener("abort", abort);
+    };
+
+    if (signal.aborted) {
+      abort();
+      return;
+    }
+
+    signal.addEventListener("abort", abort, { once: true });
+
+    request.on("error", (error) => {
+      cleanup();
+      reject(error);
+    });
+
+    request.end();
+  });
+
+const requestWithTimeout = async (
+  url: URL,
+  label: string
+): Promise<HttpResponse> => {
   const timeoutMs = resolveTimeoutMs();
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
   const tlsInfo = resolveTlsState();
 
   try {
-    return await fetch(url.toString(), { signal: controller.signal });
+    if (tlsInfo.mode === "insecure" && tlsInfo.agent) {
+      return await requestWithHttps(url, controller.signal, tlsInfo.agent);
+    }
+    const response = await fetch(url.toString(), { signal: controller.signal });
+    const body = await response.text();
+    return {
+      ok: response.ok,
+      status: response.status,
+      url: response.url || url.toString(),
+      body,
+    };
   } catch (error) {
     const err = error as {
       name?: string;
@@ -87,6 +174,13 @@ const fetchWithTimeout = async (url: URL, label: string) => {
     };
     const isTimeout = err.name === "AbortError";
     const code = err.code ?? (isTimeout ? "ETIMEDOUT" : undefined);
+    const tlsCode = err.code ?? err.cause?.code;
+    const isTlsError =
+      tlsCode === "UNABLE_TO_GET_ISSUER_CERT_LOCALLY" ||
+      tlsCode === "SELF_SIGNED_CERT_IN_CHAIN" ||
+      tlsCode === "DEPTH_ZERO_SELF_SIGNED_CERT" ||
+      tlsCode === "ERR_TLS_CERT_ALTNAME_INVALID";
+    const hint = isTlsError ? TLS_HINT : undefined;
     throw new ServiceError(
       isTimeout
         ? `Weather provider request timed out (${label})`
@@ -102,6 +196,7 @@ const fetchWithTimeout = async (url: URL, label: string) => {
           tlsMode: tlsInfo.mode,
           caPath: tlsInfo.caPath,
           caError: tlsInfo.caError,
+          hint,
           target: `${url.origin}${url.pathname}`,
           timeoutMs,
         },
@@ -113,8 +208,8 @@ const fetchWithTimeout = async (url: URL, label: string) => {
   }
 };
 
-const buildProviderError = async (response: Response, label: string) => {
-  const body = await readResponseBody(response);
+const buildProviderError = (response: HttpResponse, label: string) => {
+  const body = response.body;
   const status = response.status;
   const target = response.url ? new URL(response.url).pathname : undefined;
   let message = `Weather provider error (${label})`;
@@ -172,11 +267,11 @@ export class OpenWeatherService implements WeatherService {
     forecastUrl.searchParams.set("appid", apiKey);
 
     const fetchCurrent = async () => {
-      const response = await fetchWithTimeout(currentUrl, "current");
+      const response = await requestWithTimeout(currentUrl, "current");
       if (!response.ok) {
-        await buildProviderError(response, "current");
+        buildProviderError(response, "current");
       }
-      return (await response.json()) as {
+      return JSON.parse(response.body) as {
         main: { temp: number; humidity: number };
         wind?: { speed?: number };
         weather?: { description: string; icon: string }[];
@@ -184,11 +279,11 @@ export class OpenWeatherService implements WeatherService {
     };
 
     const fetchForecast = async () => {
-      const response = await fetchWithTimeout(forecastUrl, "forecast");
+      const response = await requestWithTimeout(forecastUrl, "forecast");
       if (!response.ok) {
-        await buildProviderError(response, "forecast");
+        buildProviderError(response, "forecast");
       }
-      return (await response.json()) as {
+      return JSON.parse(response.body) as {
         list: {
           dt: number;
           main: { temp_min: number; temp_max: number };

@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Auckland Domain, Auckland"
   },
   {
     "id": "city-auckland-auckland-war-memorial-museum",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Auckland War Memorial Museum, Auckland"
   },
   {
     "id": "city-auckland-auckland-zoo",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Auckland Zoo, Auckland"
   },
   {
     "id": "city-auckland-britomart",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Britomart, Auckland"
   },
   {
     "id": "city-auckland-devonport",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Devonport, Auckland"
   },
   {
     "id": "city-auckland-karangahape-road-k-road",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Karangahape Road (K Road), Auckland"
   },
   {
     "id": "city-auckland-kelly-tarlton-s-aquarium",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Kelly Tarlton's Aquarium, Auckland"
   },
   {
     "id": "city-auckland-la-cigale-french-market",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "La Cigale French Market, Auckland"
   },
   {
     "id": "city-auckland-mission-bay",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Mission Bay, Auckland"
   },
   {
     "id": "city-auckland-mount-eden",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Mount Eden, Auckland"
   },
   {
     "id": "city-auckland-mount-victoria-lookout",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Mount Victoria Lookout, Auckland"
   },
   {
     "id": "city-auckland-one-tree-hill",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "One Tree Hill, Auckland"
   },
   {
     "id": "city-auckland-parnell-rose-gardens",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Parnell Rose Gardens, Auckland"
   },
   {
     "id": "city-auckland-ponsonby",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Ponsonby, Auckland"
   },
   {
     "id": "city-auckland-rangitoto-island",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Rangitoto Island, Auckland"
   },
   {
     "id": "city-auckland-silo-park",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Silo Park, Auckland"
   },
   {
     "id": "city-auckland-sky-tower",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Sky Tower, Auckland"
   },
   {
     "id": "city-auckland-skycity-nightlife",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "SkyCity Nightlife, Auckland"
   },
   {
     "id": "city-auckland-takapuna-beach",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Takapuna Beach, Auckland"
   },
   {
     "id": "city-auckland-viaduct-harbour",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Viaduct Harbour, Auckland"
   },
   {
     "id": "city-auckland-waiheke-island",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Waiheke Island, Auckland"
   },
   {
     "id": "city-auckland-wynyard-quarter",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "NZ",
     "cityId": "auckland",
-    "city": "Auckland"
+    "city": "Auckland",
+    "address": "Wynyard Quarter, Auckland"
   }
 ]

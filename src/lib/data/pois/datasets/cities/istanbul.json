@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Basilica Cistern, Istanbul"
   },
   {
     "id": "city-istanbul-bebek-waterfront",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Bebek Waterfront, Istanbul"
   },
   {
     "id": "city-istanbul-blue-mosque",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Blue Mosque, Istanbul"
   },
   {
     "id": "city-istanbul-bosphorus-cruise-pier",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Bosphorus Cruise Pier, Istanbul"
   },
   {
     "id": "city-istanbul-bosphorus-pier",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Bosphorus Pier, Istanbul"
   },
   {
     "id": "city-istanbul-central-market-istanbul-2",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Central Market (Istanbul) 2, Istanbul"
   },
   {
     "id": "city-istanbul-chora-church-kariye",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Chora Church (Kariye), Istanbul"
   },
   {
     "id": "city-istanbul-city-park-istanbul-4",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "City Park (Istanbul) 4, Istanbul"
   },
   {
     "id": "city-istanbul-dolmabahce-palace",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Dolmabahce Palace, Istanbul"
   },
   {
     "id": "city-istanbul-galata-bridge",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Galata Bridge, Istanbul"
   },
   {
     "id": "city-istanbul-galata-tower",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Galata Tower, Istanbul"
   },
   {
     "id": "city-istanbul-grand-bazaar",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Grand Bazaar, Istanbul"
   },
   {
     "id": "city-istanbul-hagia-sophia",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Hagia Sophia, Istanbul"
   },
   {
     "id": "city-istanbul-historic-cathedral-istanbul-5",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Historic Cathedral (Istanbul) 5, Istanbul"
   },
   {
     "id": "city-istanbul-istanbul-archaeology-museums",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Istanbul Archaeology Museums, Istanbul"
   },
   {
     "id": "city-istanbul-istanbul-modern",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Istanbul Modern, Istanbul"
   },
   {
     "id": "city-istanbul-istiklal-avenue",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Istiklal Avenue, Istanbul"
   },
   {
     "id": "city-istanbul-istiklal-street",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Istiklal Street, Istanbul"
   },
   {
     "id": "city-istanbul-kadikoy-market",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Kadikoy Market, Istanbul"
   },
   {
     "id": "city-istanbul-kadikoy-moda",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Kadikoy (Moda), Istanbul"
   },
   {
     "id": "city-istanbul-karakoy",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Karakoy, Istanbul"
   },
   {
     "id": "city-istanbul-kariye-mosque-chora",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Kariye Mosque (Chora), Istanbul"
   },
   {
     "id": "city-istanbul-maiden-s-tower-viewpoint",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Maiden's Tower Viewpoint, Istanbul"
   },
   {
     "id": "city-istanbul-moda-coast",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Moda Coast, Istanbul"
   },
   {
     "id": "city-istanbul-modern-art-gallery-istanbul-6",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Modern Art Gallery (Istanbul) 6, Istanbul"
   },
   {
     "id": "city-istanbul-nevizade-street",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Nevizade Street, Istanbul"
   },
   {
     "id": "city-istanbul-nisantasi",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Nisantasi, Istanbul"
   },
   {
     "id": "city-istanbul-old-town-istanbul-1",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Old Town (Istanbul) 1, Istanbul"
   },
   {
     "id": "city-istanbul-ortakoy-mosque",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Ortakoy Mosque, Istanbul"
   },
   {
     "id": "city-istanbul-ortakoy-waterfront",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Ortakoy Waterfront, Istanbul"
   },
   {
     "id": "city-istanbul-princes-islands",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Princes' Islands, Istanbul"
   },
   {
     "id": "city-istanbul-princes-islands-buyukada",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Princes' Islands (Büyükada), Istanbul"
   },
   {
     "id": "city-istanbul-riverside-promenade-istanbul-3",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Riverside Promenade (Istanbul) 3, Istanbul"
   },
   {
     "id": "city-istanbul-spice-bazaar",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Spice Bazaar, Istanbul"
   },
   {
     "id": "city-istanbul-suleymaniye-mosque",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Suleymaniye Mosque, Istanbul"
   },
   {
     "id": "city-istanbul-taksim-square",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Taksim Square, Istanbul"
   },
   {
     "id": "city-istanbul-topkapi-palace",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "TR",
     "cityId": "istanbul",
-    "city": "Istanbul"
+    "city": "Istanbul",
+    "address": "Topkapi Palace, Istanbul"
   }
 ]

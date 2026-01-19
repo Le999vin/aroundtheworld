@@ -7,8 +7,8 @@
     "lon": 13.3777,
     "source": "static",
     "countryCode": "DE",
-    "address": "Platz des 18. März",
-    "city": "Berlin"
+    "city": "Berlin",
+    "address": "Platz des 18. März"
   },
   {
     "id": "country-de-neuschwanstein-castle",
@@ -18,8 +18,8 @@
     "lon": 10.7498,
     "source": "static",
     "countryCode": "DE",
-    "address": "Neuschwansteinstraße",
-    "city": "Hohenschwangau"
+    "city": "Hohenschwangau",
+    "address": "Neuschwansteinstraße"
   },
   {
     "id": "country-de-cologne-cathedral",
@@ -29,8 +29,8 @@
     "lon": 6.9583,
     "source": "static",
     "countryCode": "DE",
-    "address": "Domkloster",
-    "city": "Cologne"
+    "city": "Cologne",
+    "address": "Domkloster"
   },
   {
     "id": "country-de-heidelberg-old-town",
@@ -39,7 +39,9 @@
     "lat": 49.3988,
     "lon": 8.6724,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Heidelberg Old Town, Unknown"
   },
   {
     "id": "country-de-black-forest",
@@ -48,7 +50,9 @@
     "lat": 48.1313,
     "lon": 8.232,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Black Forest, Unknown"
   },
   {
     "id": "country-de-zugspitze-summit",
@@ -57,7 +61,9 @@
     "lat": 47.421,
     "lon": 10.9855,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Zugspitze Summit, Unknown"
   },
   {
     "id": "country-de-miniatur-wunderland",
@@ -66,7 +72,9 @@
     "lat": 53.5436,
     "lon": 9.9888,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Miniatur Wunderland, Unknown"
   },
   {
     "id": "country-de-frauenkirche-dresden",
@@ -75,7 +83,9 @@
     "lat": 51.051,
     "lon": 13.7414,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Frauenkirche Dresden, Unknown"
   },
   {
     "id": "country-de-oktoberfest-theresienwiese",
@@ -84,7 +94,9 @@
     "lat": 48.1319,
     "lon": 11.5496,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Oktoberfest Theresienwiese, Unknown"
   },
   {
     "id": "country-de-museum-island",
@@ -93,7 +105,9 @@
     "lat": 52.5169,
     "lon": 13.4019,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Museum Island, Berlin"
   },
   {
     "id": "country-de-berlin-wall-memorial",
@@ -102,7 +116,9 @@
     "lat": 52.5351,
     "lon": 13.3903,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Berlin Wall Memorial, Unknown"
   },
   {
     "id": "country-de-sanssouci-palace-potsdam",
@@ -111,7 +127,9 @@
     "lat": 52.4044,
     "lon": 13.0383,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Sanssouci Palace (Potsdam), Unknown"
   },
   {
     "id": "country-de-elbphilharmonie-hamburg",
@@ -120,7 +138,9 @@
     "lat": 53.5413,
     "lon": 9.9841,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Elbphilharmonie Hamburg, Unknown"
   },
   {
     "id": "country-de-speicherstadt-hamburg",
@@ -129,7 +149,9 @@
     "lat": 53.5436,
     "lon": 9.9866,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Speicherstadt Hamburg, Unknown"
   },
   {
     "id": "country-de-reeperbahn-hamburg",
@@ -138,7 +160,9 @@
     "lat": 53.5497,
     "lon": 9.9664,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Reeperbahn (Hamburg), Unknown"
   },
   {
     "id": "country-de-rothenburg-ob-der-tauber",
@@ -147,7 +171,9 @@
     "lat": 49.378,
     "lon": 10.179,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Rothenburg ob der Tauber, Unknown"
   },
   {
     "id": "country-de-bastei-bridge-saxon-switzerland",
@@ -156,7 +182,9 @@
     "lat": 50.9654,
     "lon": 14.0724,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Bastei Bridge (Saxon Switzerland), Unknown"
   },
   {
     "id": "country-de-konigssee",
@@ -165,7 +193,9 @@
     "lat": 47.5889,
     "lon": 12.9876,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Königssee, Unknown"
   },
   {
     "id": "country-de-nuremberg-old-town",
@@ -174,7 +204,9 @@
     "lat": 49.4542,
     "lon": 11.0775,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Nuremberg Old Town, Unknown"
   },
   {
     "id": "country-de-frankfurt-skyline-viewpoints",
@@ -183,7 +215,9 @@
     "lat": 50.1136,
     "lon": 8.6726,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Frankfurt Skyline Viewpoints, Unknown"
   },
   {
     "id": "country-de-mercedes-benz-museum-stuttgart",
@@ -192,7 +226,9 @@
     "lat": 48.7884,
     "lon": 9.232,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Mercedes-Benz Museum (Stuttgart), Unknown"
   },
   {
     "id": "country-de-dresden-zwinger",
@@ -201,7 +237,9 @@
     "lat": 51.0531,
     "lon": 13.7341,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Dresden Zwinger, Unknown"
   },
   {
     "id": "country-de-dusseldorf-altstadt",
@@ -210,7 +248,9 @@
     "lat": 51.228,
     "lon": 6.773,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Unknown",
+    "address": "Düsseldorf Altstadt, Unknown"
   },
   {
     "id": "country-de-markthalle-neun-berlin",
@@ -219,7 +259,9 @@
     "lat": 52.4996,
     "lon": 13.4317,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Markthalle Neun (Berlin), Berlin"
   },
   {
     "id": "country-de-berghain-berlin",
@@ -228,6 +270,844 @@
     "lat": 52.5112,
     "lon": 13.4436,
     "source": "static",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "70 Rüdersdorfer Straße"
+  },
+  {
+    "id": "country-de-berlin-alexanderplatz",
+    "name": "Alexanderplatz",
+    "category": "landmarks",
+    "lat": 52.5219,
+    "lon": 13.4132,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Mitte"
+  },
+  {
+    "id": "country-de-berlin-berlin-cathedral",
+    "name": "Berlin Cathedral",
+    "category": "landmarks",
+    "lat": 52.5192,
+    "lon": 13.401,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Am Lustgarten"
+  },
+  {
+    "id": "country-de-berlin-berlin-tv-tower",
+    "name": "Berlin TV Tower",
+    "category": "landmarks",
+    "lat": 52.5208,
+    "lon": 13.4095,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Berlin TV Tower, Berlin"
+  },
+  {
+    "id": "country-de-berlin-central-market-berlin-2",
+    "name": "Central Market (Berlin) 2",
+    "category": "food",
+    "lat": 52.5384,
+    "lon": 13.3696,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Central Market (Berlin) 2, Berlin"
+  },
+  {
+    "id": "country-de-berlin-charlottenburg-palace",
+    "name": "Charlottenburg Palace",
+    "category": "landmarks",
+    "lat": 52.5208,
+    "lon": 13.295,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Charlottenburg Palace, Berlin"
+  },
+  {
+    "id": "country-de-berlin-checkpoint-charlie",
+    "name": "Checkpoint Charlie",
+    "category": "landmarks",
+    "lat": 52.5076,
+    "lon": 13.3904,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Checkpoint Charlie, Berlin"
+  },
+  {
+    "id": "country-de-berlin-city-park-berlin-4",
+    "name": "City Park (Berlin) 4",
+    "category": "nature",
+    "lat": 52.5337,
+    "lon": 13.4211,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "City Park (Berlin) 4, Berlin"
+  },
+  {
+    "id": "country-de-berlin-east-side-gallery",
+    "name": "East Side Gallery",
+    "category": "landmarks",
+    "lat": 52.505,
+    "lon": 13.439,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "East Side Gallery, Berlin"
+  },
+  {
+    "id": "country-de-berlin-fernsehturm-berlin",
+    "name": "Fernsehturm Berlin",
+    "category": "landmarks",
+    "lat": 52.5164,
+    "lon": 13.3875,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Fernsehturm Berlin, Berlin"
+  },
+  {
+    "id": "country-de-berlin-friedrichshain",
+    "name": "Friedrichshain",
+    "category": "nightlife",
+    "lat": 52.5288,
+    "lon": 13.4036,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Friedrichshain, Berlin"
+  },
+  {
+    "id": "country-de-berlin-gendarmenmarkt",
+    "name": "Gendarmenmarkt",
+    "category": "landmarks",
+    "lat": 52.5138,
+    "lon": 13.3929,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Gendarmenmarkt, Berlin"
+  },
+  {
+    "id": "country-de-berlin-hackescher-markt",
+    "name": "Hackescher Markt",
+    "category": "food",
+    "lat": 52.5229,
+    "lon": 13.402,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Hackescher Markt, Berlin"
+  },
+  {
+    "id": "country-de-berlin-historic-cathedral-berlin-5",
+    "name": "Historic Cathedral (Berlin) 5",
+    "category": "landmarks",
+    "lat": 52.5009,
+    "lon": 13.4199,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Historic Cathedral (Berlin) 5, Berlin"
+  },
+  {
+    "id": "country-de-berlin-holocaust-memorial",
+    "name": "Holocaust Memorial",
+    "category": "landmarks",
+    "lat": 52.5139,
+    "lon": 13.3777,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Holocaust Memorial, Berlin"
+  },
+  {
+    "id": "country-de-berlin-jewish-museum-berlin",
+    "name": "Jewish Museum Berlin",
+    "category": "museums",
+    "lat": 52.5147,
+    "lon": 13.3961,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Jewish Museum Berlin, Berlin"
+  },
+  {
+    "id": "country-de-berlin-kadewe-food-hall",
+    "name": "KaDeWe Food Hall",
+    "category": "food",
+    "lat": 52.5009,
+    "lon": 13.343,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "KaDeWe Food Hall, Berlin"
+  },
+  {
+    "id": "country-de-berlin-kitkatclub",
+    "name": "KitKatClub",
+    "category": "nightlife",
+    "lat": 52.5055,
+    "lon": 13.411,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "KitKatClub, Berlin"
+  },
+  {
+    "id": "country-de-berlin-kreuzberg",
+    "name": "Kreuzberg",
+    "category": "food",
+    "lat": 52.497,
+    "lon": 13.403,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Kreuzberg, Berlin"
+  },
+  {
+    "id": "country-de-berlin-kurfurstendamm",
+    "name": "Kurfuerstendamm",
+    "category": "food",
+    "lat": 52.5087,
+    "lon": 13.4237,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Kurfuerstendamm, Berlin"
+  },
+  {
+    "id": "country-de-berlin-local-food-street-berlin-8",
+    "name": "Local Food Street (Berlin) 8",
+    "category": "food",
+    "lat": 52.5346,
+    "lon": 13.3644,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Local Food Street (Berlin) 8, Berlin"
+  },
+  {
+    "id": "country-de-berlin-main-square-berlin-9",
+    "name": "Main Square (Berlin) 9",
+    "category": "landmarks",
+    "lat": 52.5025,
+    "lon": 13.4218,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Main Square (Berlin) 9, Berlin"
+  },
+  {
+    "id": "country-de-berlin-maurpark",
+    "name": "Mauerpark",
+    "category": "nature",
+    "lat": 52.543,
+    "lon": 13.403,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Mauerpark, Berlin"
+  },
+  {
+    "id": "country-de-berlin-modern-art-gallery-berlin-6",
+    "name": "Modern Art Gallery (Berlin) 6",
+    "category": "museums",
+    "lat": 52.5199,
+    "lon": 13.401,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Modern Art Gallery (Berlin) 6, Berlin"
+  },
+  {
+    "id": "country-de-berlin-nightlife-district-berlin-7",
+    "name": "Nightlife District (Berlin) 7",
+    "category": "nightlife",
+    "lat": 52.5256,
+    "lon": 13.4221,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Nightlife District (Berlin) 7, Berlin"
+  },
+  {
+    "id": "country-de-berlin-old-town-berlin-1",
+    "name": "Old Town (Berlin) 1",
+    "category": "landmarks",
+    "lat": 52.51,
+    "lon": 13.4114,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Old Town (Berlin) 1, Berlin"
+  },
+  {
+    "id": "country-de-berlin-berlin-philharmonie",
+    "name": "Berlin Philharmonie",
+    "category": "museums",
+    "lat": 52.5095,
+    "lon": 13.3694,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Berlin Philharmonie, Berlin"
+  },
+  {
+    "id": "country-de-berlin-potsdamer-platz",
+    "name": "Potsdamer Platz",
+    "category": "landmarks",
+    "lat": 52.5096,
+    "lon": 13.375,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Potsdamer Platz, Berlin"
+  },
+  {
+    "id": "country-de-berlin-prenzlaur-berg",
+    "name": "Prenzlauer Berg",
+    "category": "food",
+    "lat": 52.538,
+    "lon": 13.424,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Prenzlauer Berg, Berlin"
+  },
+  {
+    "id": "country-de-berlin-reichstag-building",
+    "name": "Reichstag Building",
+    "category": "landmarks",
+    "lat": 52.5186,
+    "lon": 13.376,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Reichstag Building, Berlin"
+  },
+  {
+    "id": "country-de-berlin-riverside-promenade-berlin-3",
+    "name": "Riverside Promenade (Berlin) 3",
+    "category": "nature",
+    "lat": 52.5136,
+    "lon": 13.3877,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Riverside Promenade (Berlin) 3, Berlin"
+  },
+  {
+    "id": "country-de-berlin-tempelhofer-feld",
+    "name": "Tempelhofer Feld",
+    "category": "nature",
+    "lat": 52.473,
+    "lon": 13.403,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Tempelhofer Feld, Berlin"
+  },
+  {
+    "id": "country-de-berlin-tiergarten",
+    "name": "Tiergarten",
+    "category": "nature",
+    "lat": 52.5303,
+    "lon": 13.4149,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Tiergarten, Berlin"
+  },
+  {
+    "id": "country-de-berlin-tiergarten-park",
+    "name": "Tiergarten Park",
+    "category": "nature",
+    "lat": 52.5145,
+    "lon": 13.3501,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Tiergarten Park, Berlin"
+  },
+  {
+    "id": "country-de-berlin-topography-of-terror",
+    "name": "Topography of Terror",
+    "category": "museums",
+    "lat": 52.5238,
+    "lon": 13.387,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Topography of Terror, Berlin"
+  },
+  {
+    "id": "country-de-berlin-tresor-club",
+    "name": "Tresor Club",
+    "category": "nightlife",
+    "lat": 52.502,
+    "lon": 13.3709,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "Tresor Club, Berlin"
+  },
+  {
+    "id": "country-de-munich-allianz-arena",
+    "name": "Allianz Arena",
+    "category": "landmarks",
+    "lat": 48.2188,
+    "lon": 11.6247,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Hans-Jensen-Weg"
+  },
+  {
+    "id": "country-de-munich-alte-pinakothek",
+    "name": "Alte Pinakothek",
+    "category": "museums",
+    "lat": 48.1483,
+    "lon": 11.5708,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "27 Barer Straße"
+  },
+  {
+    "id": "country-de-munich-augustiner-keller",
+    "name": "Augustiner-Keller",
+    "category": "food",
+    "lat": 48.1456,
+    "lon": 11.5556,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "46-48 Marsstraße"
+  },
+  {
+    "id": "country-de-munich-bmw-museum",
+    "name": "BMW Museum",
+    "category": "museums",
+    "lat": 48.1767,
+    "lon": 11.5595,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "BMW Museum, Munich"
+  },
+  {
+    "id": "country-de-munich-central-market-munich-2",
+    "name": "Central Market (Munich) 2",
+    "category": "food",
+    "lat": 48.1476,
+    "lon": 11.6189,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Central Market (Munich) 2, Munich"
+  },
+  {
+    "id": "country-de-munich-chinesischer-turm-beer-garden",
+    "name": "Chinesischer Turm Beer Garden",
+    "category": "food",
+    "lat": 48.1504,
+    "lon": 11.5913,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Chinesischer Turm Beer Garden, Munich"
+  },
+  {
+    "id": "country-de-munich-city-park-munich-4",
+    "name": "City Park (Munich) 4",
+    "category": "nature",
+    "lat": 48.1567,
+    "lon": 11.5478,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "City Park (Munich) 4, Munich"
+  },
+  {
+    "id": "country-de-munich-deutsches-museum",
+    "name": "Deutsches Museum",
+    "category": "museums",
+    "lat": 48.1303,
+    "lon": 11.5836,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Deutsches Museum, Munich"
+  },
+  {
+    "id": "country-de-munich-eisbach-wave",
+    "name": "Eisbach Wave",
+    "category": "nature",
+    "lat": 48.142,
+    "lon": 11.5887,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Eisbach Wave, Munich"
+  },
+  {
+    "id": "country-de-munich-eisbachwelle",
+    "name": "Eisbachwelle",
+    "category": "nature",
+    "lat": 48.1327,
+    "lon": 11.556,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Eisbachwelle, Munich"
+  },
+  {
+    "id": "country-de-munich-english-garden",
+    "name": "English Garden",
+    "category": "nature",
+    "lat": 48.159,
+    "lon": 11.603,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "English Garden, Munich"
+  },
+  {
+    "id": "country-de-munich-fraunkirche",
+    "name": "Frauenkirche",
+    "category": "landmarks",
+    "lat": 48.1386,
+    "lon": 11.5736,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Frauenkirche, Munich"
+  },
+  {
+    "id": "country-de-munich-gartnerplatz",
+    "name": "Gärtnerplatz",
+    "category": "nightlife",
+    "lat": 48.1309,
+    "lon": 11.575,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Gärtnerplatz, Munich"
+  },
+  {
+    "id": "country-de-munich-gasteig-cultural-center",
+    "name": "Gasteig Cultural Center",
+    "category": "museums",
+    "lat": 48.1355,
+    "lon": 11.5602,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Gasteig Cultural Center, Munich"
+  },
+  {
+    "id": "country-de-munich-giesing-neighborhood",
+    "name": "Giesing Neighborhood",
+    "category": "food",
+    "lat": 48.112,
+    "lon": 11.581,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Giesing Neighborhood, Munich"
+  },
+  {
+    "id": "country-de-munich-glockenbachviertel",
+    "name": "Glockenbachviertel",
+    "category": "nightlife",
+    "lat": 48.127,
+    "lon": 11.574,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Glockenbachviertel, Munich"
+  },
+  {
+    "id": "country-de-munich-hellabrunn-zoo",
+    "name": "Hellabrunn Zoo",
+    "category": "nature",
+    "lat": 48.1451,
+    "lon": 11.6059,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Hellabrunn Zoo, Munich"
+  },
+  {
+    "id": "country-de-munich-hirschgarten",
+    "name": "Hirschgarten",
+    "category": "nature",
+    "lat": 48.153,
+    "lon": 11.5295,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Hirschgarten, Munich"
+  },
+  {
+    "id": "country-de-munich-historic-cathedral-munich-5",
+    "name": "Historic Cathedral (Munich) 5",
+    "category": "landmarks",
+    "lat": 48.1508,
+    "lon": 11.6054,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Historic Cathedral (Munich) 5, Munich"
+  },
+  {
+    "id": "country-de-munich-hofbrauhaus",
+    "name": "Hofbraeuhaus",
+    "category": "nightlife",
+    "lat": 48.1508,
+    "lon": 11.5859,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Hofbraeuhaus, Munich"
+  },
+  {
+    "id": "country-de-munich-isar-river-flaucher",
+    "name": "Isar River (Flaucher)",
+    "category": "nature",
+    "lat": 48.102,
+    "lon": 11.544,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Isar River (Flaucher), Munich"
+  },
+  {
+    "id": "country-de-munich-isar-river-walks",
+    "name": "Isar River Walks",
+    "category": "nature",
+    "lat": 48.1439,
+    "lon": 11.5615,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Isar River Walks, Munich"
+  },
+  {
+    "id": "country-de-munich-karlsplatz-stachus",
+    "name": "Karlsplatz (Stachus)",
+    "category": "landmarks",
+    "lat": 48.1405,
+    "lon": 11.5657,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Karlsplatz (Stachus), Munich"
+  },
+  {
+    "id": "country-de-munich-marienplatz",
+    "name": "Marienplatz",
+    "category": "landmarks",
+    "lat": 48.1374,
+    "lon": 11.5755,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Marienplatz, Munich"
+  },
+  {
+    "id": "country-de-munich-maximilianstrasse",
+    "name": "Maximilianstrasse",
+    "category": "food",
+    "lat": 48.1203,
+    "lon": 11.5936,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Maximilianstrasse, Munich"
+  },
+  {
+    "id": "country-de-munich-modern-art-gallery-munich-6",
+    "name": "Modern Art Gallery (Munich) 6",
+    "category": "museums",
+    "lat": 48.1141,
+    "lon": 11.6118,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Modern Art Gallery (Munich) 6, Munich"
+  },
+  {
+    "id": "country-de-munich-nightlife-district-munich-7",
+    "name": "Nightlife District (Munich) 7",
+    "category": "nightlife",
+    "lat": 48.136,
+    "lon": 11.5596,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Nightlife District (Munich) 7, Munich"
+  },
+  {
+    "id": "country-de-munich-nymphenburg-palace",
+    "name": "Nymphenburg Palace",
+    "category": "landmarks",
+    "lat": 48.158,
+    "lon": 11.503,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Nymphenburg Palace, Munich"
+  },
+  {
+    "id": "country-de-munich-odeonsplatz",
+    "name": "Odeonsplatz",
+    "category": "landmarks",
+    "lat": 48.1505,
+    "lon": 11.5792,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Odeonsplatz, Munich"
+  },
+  {
+    "id": "country-de-munich-old-town-munich-1",
+    "name": "Old Town (Munich) 1",
+    "category": "landmarks",
+    "lat": 48.1443,
+    "lon": 11.5693,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Old Town (Munich) 1, Munich"
+  },
+  {
+    "id": "country-de-munich-olympiapark",
+    "name": "Olympiapark",
+    "category": "nature",
+    "lat": 48.1735,
+    "lon": 11.546,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Olympiapark, Munich"
+  },
+  {
+    "id": "country-de-munich-olympiaturm-viewpoint",
+    "name": "Olympiaturm Viewpoint",
+    "category": "landmarks",
+    "lat": 48.1753,
+    "lon": 11.552,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Olympiaturm Viewpoint, Munich"
+  },
+  {
+    "id": "country-de-munich-olympic-tower",
+    "name": "Olympic Tower",
+    "category": "landmarks",
+    "lat": 48.1363,
+    "lon": 11.5948,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Olympic Tower, Munich"
+  },
+  {
+    "id": "country-de-munich-pinakothek-der-moderne",
+    "name": "Pinakothek der Moderne",
+    "category": "museums",
+    "lat": 48.1471,
+    "lon": 11.5722,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Pinakothek der Moderne, Munich"
+  },
+  {
+    "id": "country-de-munich-munich-residenz",
+    "name": "Munich Residenz",
+    "category": "landmarks",
+    "lat": 48.1391,
+    "lon": 11.5796,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Munich Residenz, Munich"
+  },
+  {
+    "id": "country-de-munich-riverside-promenade-munich-3",
+    "name": "Riverside Promenade (Munich) 3",
+    "category": "nature",
+    "lat": 48.1533,
+    "lon": 11.5896,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Riverside Promenade (Munich) 3, Munich"
+  },
+  {
+    "id": "country-de-munich-sendlinger-tor",
+    "name": "Sendlinger Tor",
+    "category": "landmarks",
+    "lat": 48.1334,
+    "lon": 11.5683,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Sendlinger Tor, Munich"
+  },
+  {
+    "id": "country-de-munich-theresienwiese",
+    "name": "Theresienwiese",
+    "category": "landmarks",
+    "lat": 48.1319,
+    "lon": 11.5498,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Theresienwiese, Munich"
+  },
+  {
+    "id": "country-de-munich-viktualienmarkt",
+    "name": "Viktualienmarkt",
+    "category": "food",
+    "lat": 48.1351,
+    "lon": 11.5761,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Viktualienmarkt, Munich"
+  },
+  {
+    "id": "country-de-garmisch-partenkirchen-zugspitze",
+    "name": "Zugspitze",
+    "category": "nature",
+    "lat": 47.4128319,
+    "lon": 10.978503,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Garmisch-Partenkirchen",
+    "address": "Gletscherrundweg"
+  },
+  {
+    "id": "country-de-heidelberg-heidelberg-castle",
+    "name": "Heidelberg Castle",
+    "category": "landmarks",
+    "lat": 49.4104729,
+    "lon": 8.7151965,
+    "source": "static",
+    "countryCode": "DE",
+    "city": "Heidelberg",
+    "address": "Molkenkurweg"
   }
 ]

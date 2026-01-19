@@ -7,8 +7,8 @@
     "lon": 167.9259,
     "source": "static",
     "countryCode": "NZ",
-    "address": "Milford Sound Highway",
-    "city": "Fiordland Community"
+    "city": "Fiordland Community",
+    "address": "Milford Sound Highway"
   },
   {
     "id": "country-nz-queenstown",
@@ -18,8 +18,8 @@
     "lon": 168.6626,
     "source": "static",
     "countryCode": "NZ",
-    "address": "45 Ballarat Street",
-    "city": "Queenstown-Lakes District"
+    "city": "Queenstown-Lakes District",
+    "address": "45 Ballarat Street"
   },
   {
     "id": "country-nz-lake-tekapo",
@@ -29,8 +29,8 @@
     "lon": 170.477,
     "source": "static",
     "countryCode": "NZ",
-    "address": "4 Roto Place",
-    "city": "Lake Tekapo"
+    "city": "Lake Tekapo",
+    "address": "4 Roto Place"
   },
   {
     "id": "country-nz-aoraki-mount-cook",
@@ -39,7 +39,9 @@
     "lat": -43.595,
     "lon": 170.141,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Aoraki Mount Cook, Unknown"
   },
   {
     "id": "country-nz-tongariro-alpine-crossing",
@@ -48,7 +50,9 @@
     "lat": -39.136,
     "lon": 175.641,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Tongariro Alpine Crossing, Unknown"
   },
   {
     "id": "country-nz-rotorua-geothermal-parks",
@@ -57,7 +61,9 @@
     "lat": -38.1368,
     "lon": 176.2497,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Rotorua Geothermal Parks, Unknown"
   },
   {
     "id": "country-nz-waitomo-glowworm-caves",
@@ -66,7 +72,9 @@
     "lat": -38.26,
     "lon": 175.1,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Waitomo Glowworm Caves, Unknown"
   },
   {
     "id": "country-nz-auckland-sky-tower",
@@ -75,7 +83,9 @@
     "lat": -36.8485,
     "lon": 174.7633,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Auckland Sky Tower, Unknown"
   },
   {
     "id": "country-nz-wellington-te-papa-museum",
@@ -84,7 +94,9 @@
     "lat": -41.2905,
     "lon": 174.783,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Wellington Te Papa Museum, Unknown"
   },
   {
     "id": "country-nz-christchurch-botanic-gardens",
@@ -93,7 +105,9 @@
     "lat": -43.53,
     "lon": 172.62,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Christchurch Botanic Gardens, Unknown"
   },
   {
     "id": "country-nz-hobbiton-movie-set",
@@ -102,7 +116,9 @@
     "lat": -37.8721,
     "lon": 175.682,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Hobbiton Movie Set, Unknown"
   },
   {
     "id": "country-nz-bay-of-islands",
@@ -111,7 +127,9 @@
     "lat": -35.25,
     "lon": 174.1,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Bay of Islands, Unknown"
   },
   {
     "id": "country-nz-franz-josef-glacier",
@@ -120,7 +138,9 @@
     "lat": -43.387,
     "lon": 170.182,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Franz Josef Glacier, Unknown"
   },
   {
     "id": "country-nz-kaikoura-whale-watching",
@@ -129,7 +149,9 @@
     "lat": -42.4,
     "lon": 173.68,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Kaikoura Whale Watching, Unknown"
   },
   {
     "id": "country-nz-abel-tasman-national-park",
@@ -138,7 +160,9 @@
     "lat": -40.9,
     "lon": 172.9,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Abel Tasman National Park, Unknown"
   },
   {
     "id": "country-nz-wellington-cuba-street",
@@ -147,7 +171,9 @@
     "lat": -41.292,
     "lon": 174.776,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Wellington Cuba Street, Unknown"
   },
   {
     "id": "country-nz-auckland-britomart-eats",
@@ -156,7 +182,9 @@
     "lat": -36.844,
     "lon": 174.768,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Auckland Britomart Eats, Unknown"
   },
   {
     "id": "country-nz-christchurch-riverside-market",
@@ -165,7 +193,9 @@
     "lat": -43.532,
     "lon": 172.636,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Christchurch Riverside Market, Unknown"
   },
   {
     "id": "country-nz-auckland-viaduct-harbour",
@@ -174,7 +204,9 @@
     "lat": -36.842,
     "lon": 174.76,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Auckland Viaduct Harbour, Unknown"
   },
   {
     "id": "country-nz-queenstown-nightlife",
@@ -183,7 +215,9 @@
     "lat": -45.0312,
     "lon": 168.6626,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Queenstown Nightlife, Unknown"
   },
   {
     "id": "country-nz-wellington-courtenay-place",
@@ -192,7 +226,9 @@
     "lat": -41.293,
     "lon": 174.783,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Wellington Courtenay Place, Unknown"
   },
   {
     "id": "country-nz-fiordland-national-park",
@@ -201,7 +237,9 @@
     "lat": -45.4,
     "lon": 167.7,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Fiordland National Park, Unknown"
   },
   {
     "id": "country-nz-mount-maunganui-beach",
@@ -210,7 +248,9 @@
     "lat": -37.643,
     "lon": 176.188,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Mount Maunganui Beach, Unknown"
   },
   {
     "id": "country-nz-napier-art-deco-district",
@@ -219,7 +259,9 @@
     "lat": -39.49,
     "lon": 176.917,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Napier Art Deco District, Unknown"
   },
   {
     "id": "country-nz-dunedin-railway-station",
@@ -228,6 +270,283 @@
     "lat": -45.8788,
     "lon": 170.5036,
     "source": "static",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "city": "Unknown",
+    "address": "Dunedin Railway Station, Unknown"
+  },
+  {
+    "id": "country-nz-auckland-albert-park",
+    "name": "Albert Park",
+    "category": "nature",
+    "lat": -36.8588,
+    "lon": 174.7547,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Karangahape Road Cycleway"
+  },
+  {
+    "id": "country-nz-auckland-aotea-square",
+    "name": "Aotea Square",
+    "category": "landmarks",
+    "lat": -36.8638,
+    "lon": 174.7555,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Pīwakawaka Street"
+  },
+  {
+    "id": "country-nz-auckland-auckland-art-gallery",
+    "name": "Auckland Art Gallery",
+    "category": "museums",
+    "lat": -36.8405,
+    "lon": 174.7426,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "3/101 Shelly Beach Road"
+  },
+  {
+    "id": "country-nz-auckland-auckland-domain",
+    "name": "Auckland Domain",
+    "category": "nature",
+    "lat": -36.865,
+    "lon": 174.7801,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Auckland Domain, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-auckland-war-memorial-museum",
+    "name": "Auckland War Memorial Museum",
+    "category": "museums",
+    "lat": -36.8607,
+    "lon": 174.7559,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Auckland War Memorial Museum, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-auckland-zoo",
+    "name": "Auckland Zoo",
+    "category": "nature",
+    "lat": -36.8556,
+    "lon": 174.7439,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Auckland Zoo, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-britomart",
+    "name": "Britomart",
+    "category": "food",
+    "lat": -36.8541,
+    "lon": 174.7817,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Britomart, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-devonport",
+    "name": "Devonport",
+    "category": "nature",
+    "lat": -36.8526,
+    "lon": 174.7695,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Devonport, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-karangahape-road-k-road",
+    "name": "Karangahape Road (K Road)",
+    "category": "nightlife",
+    "lat": -36.8573,
+    "lon": 174.7574,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Karangahape Road (K Road), Auckland"
+  },
+  {
+    "id": "country-nz-auckland-kelly-tarlton-s-aquarium",
+    "name": "Kelly Tarlton's Aquarium",
+    "category": "museums",
+    "lat": -36.8411,
+    "lon": 174.7647,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Kelly Tarlton's Aquarium, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-la-cigale-french-market",
+    "name": "La Cigale French Market",
+    "category": "food",
+    "lat": -36.8634,
+    "lon": 174.7832,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "La Cigale French Market, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-mission-bay",
+    "name": "Mission Bay",
+    "category": "nature",
+    "lat": -36.8487,
+    "lon": 174.7787,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Mission Bay, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-mount-eden",
+    "name": "Mount Eden",
+    "category": "nature",
+    "lat": -36.843,
+    "lon": 174.7811,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Mount Eden, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-mount-victoria-lookout",
+    "name": "Mount Victoria Lookout",
+    "category": "nature",
+    "lat": -36.8536,
+    "lon": 174.7671,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Mount Victoria Lookout, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-one-tree-hill",
+    "name": "One Tree Hill",
+    "category": "nature",
+    "lat": -36.8608,
+    "lon": 174.7517,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "One Tree Hill, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-parnell-rose-gardens",
+    "name": "Parnell Rose Gardens",
+    "category": "nature",
+    "lat": -36.8549,
+    "lon": 174.7743,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Parnell Rose Gardens, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-ponsonby",
+    "name": "Ponsonby",
+    "category": "food",
+    "lat": -36.8607,
+    "lon": 174.7618,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Ponsonby, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-rangitoto-island",
+    "name": "Rangitoto Island",
+    "category": "nature",
+    "lat": -36.8422,
+    "lon": 174.7523,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Rangitoto Island, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-silo-park",
+    "name": "Silo Park",
+    "category": "nightlife",
+    "lat": -36.8577,
+    "lon": 174.7542,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Silo Park, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-sky-tower-2",
+    "name": "Sky Tower",
+    "category": "landmarks",
+    "lat": -36.8416,
+    "lon": 174.7851,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Sky Tower, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-skycity-nightlife",
+    "name": "SkyCity Nightlife",
+    "category": "nightlife",
+    "lat": -36.8607,
+    "lon": 174.7782,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "SkyCity Nightlife, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-takapuna-beach",
+    "name": "Takapuna Beach",
+    "category": "nature",
+    "lat": -36.8367,
+    "lon": 174.7543,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Takapuna Beach, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-viaduct-harbour-2",
+    "name": "Viaduct Harbour",
+    "category": "landmarks",
+    "lat": -36.8578,
+    "lon": 174.7661,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Viaduct Harbour, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-waiheke-island",
+    "name": "Waiheke Island",
+    "category": "nature",
+    "lat": -36.8397,
+    "lon": 174.7844,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Waiheke Island, Auckland"
+  },
+  {
+    "id": "country-nz-auckland-wynyard-quarter",
+    "name": "Wynyard Quarter",
+    "category": "food",
+    "lat": -36.8336,
+    "lon": 174.7416,
+    "source": "static",
+    "countryCode": "NZ",
+    "city": "Auckland",
+    "address": "Wynyard Quarter, Auckland"
   }
 ]

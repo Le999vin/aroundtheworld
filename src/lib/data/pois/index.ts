@@ -50,7 +50,13 @@ const ensureLimit = (limit?: number) => {
 const loadDataset = async (loader: () => Promise<unknown>, context: string) => {
   try {
     const raw = await loader();
-    return parsePoisDataset(raw, context);
+    const { pois, meta } = parsePoisDataset(raw, context);
+    if (meta.invalidCount > 0) {
+      console.warn(
+        `[pois] Filtered ${meta.invalidCount} invalid POIs from ${context}.`
+      );
+    }
+    return pois;
   } catch (error) {
     if (error instanceof ServiceError) throw error;
     throw new ServiceError(`Failed to load POI dataset ${context}`, {

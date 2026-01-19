@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Cheonggyecheon Stream, Seoul"
   },
   {
     "id": "city-seoul-coex-mall",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "COEX Mall, Seoul"
   },
   {
     "id": "city-seoul-dongdaemun-design-plaza",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Dongdaemun Design Plaza, Seoul"
   },
   {
     "id": "city-seoul-gangnam",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Gangnam, Seoul"
   },
   {
     "id": "city-seoul-gwanghwamun-square",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Gwanghwamun Square, Seoul"
   },
   {
     "id": "city-seoul-gwangjang-market",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Gwangjang Market, Seoul"
   },
   {
     "id": "city-seoul-gyeongbokgung-palace",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Gyeongbokgung Palace, Seoul"
   },
   {
     "id": "city-seoul-han-river-parks",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Han River Parks, Seoul"
   },
   {
     "id": "city-seoul-hongdae",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Hongdae, Seoul"
   },
   {
     "id": "city-seoul-ikseon-dong",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Ikseon-dong, Seoul"
   },
   {
     "id": "city-seoul-insadong",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Insadong, Seoul"
   },
   {
     "id": "city-seoul-itaewon",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Itaewon, Seoul"
   },
   {
     "id": "city-seoul-jamsil",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Jamsil, Seoul"
   },
   {
     "id": "city-seoul-lotte-world-tower",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Lotte World Tower, Seoul"
   },
   {
     "id": "city-seoul-myeongdong",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Myeongdong, Seoul"
   },
   {
     "id": "city-seoul-n-seoul-tower",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "N Seoul Tower, Seoul"
   },
   {
     "id": "city-seoul-namdaemun-market",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Namdaemun Market, Seoul"
   },
   {
     "id": "city-seoul-national-museum-of-korea",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "National Museum of Korea, Seoul"
   },
   {
     "id": "city-seoul-olympic-park",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Olympic Park, Seoul"
   },
   {
     "id": "city-seoul-seongsu-dong",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Seongsu-dong, Seoul"
   },
   {
     "id": "city-seoul-seoul-forest",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "Seoul Forest, Seoul"
   },
   {
     "id": "city-seoul-war-memorial-of-korea",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "KR",
     "cityId": "seoul",
-    "city": "Seoul"
+    "city": "Seoul",
+    "address": "War Memorial of Korea, Seoul"
   }
 ]

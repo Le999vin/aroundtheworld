@@ -7,8 +7,8 @@
     "lon": 12.4922,
     "source": "static",
     "countryCode": "IT",
-    "address": "Municipio Roma I",
-    "city": "Rome"
+    "city": "Rome",
+    "address": "Municipio Roma I"
   },
   {
     "id": "country-it-vatican-museums",
@@ -18,6 +18,7 @@
     "lon": 12.4536,
     "source": "static",
     "countryCode": "IT",
+    "city": "Rome",
     "address": "Viale della Zitella"
   },
   {
@@ -28,8 +29,8 @@
     "lon": 12.3358,
     "source": "static",
     "countryCode": "IT",
-    "address": "Calle larga Mazzini",
-    "city": "Venice"
+    "city": "Venice",
+    "address": "Calle larga Mazzini"
   },
   {
     "id": "country-it-florence-duomo",
@@ -38,7 +39,9 @@
     "lat": 43.7731,
     "lon": 11.256,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Florence Duomo, Unknown"
   },
   {
     "id": "country-it-leaning-tower-of-pisa",
@@ -47,7 +50,9 @@
     "lat": 43.7229,
     "lon": 10.3966,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Leaning Tower of Pisa, Unknown"
   },
   {
     "id": "country-it-amalfi-coast",
@@ -56,7 +61,9 @@
     "lat": 40.6281,
     "lon": 14.485,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Amalfi Coast, Unknown"
   },
   {
     "id": "country-it-milan-cathedral",
@@ -65,7 +72,9 @@
     "lat": 45.4642,
     "lon": 9.1916,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Milan Cathedral, Unknown"
   },
   {
     "id": "country-it-cinque-terre",
@@ -74,7 +83,9 @@
     "lat": 44.1461,
     "lon": 9.6549,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Cinque Terre, Unknown"
   },
   {
     "id": "country-it-pompeii",
@@ -83,7 +94,9 @@
     "lat": 40.7497,
     "lon": 14.4869,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Pompeii, Unknown"
   },
   {
     "id": "country-it-lake-como",
@@ -92,7 +105,9 @@
     "lat": 46.016,
     "lon": 9.257,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Lake Como, Unknown"
   },
   {
     "id": "country-it-rome-goa-club",
@@ -101,7 +116,9 @@
     "lat": 41.9074,
     "lon": 12.4779,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Goa Club (Rome), Unknown"
   },
   {
     "id": "country-it-rome-shari-vari",
@@ -110,7 +127,9 @@
     "lat": 41.8946,
     "lon": 12.4785,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Shari Vari (Rome), Unknown"
   },
   {
     "id": "country-it-milan-hollywood",
@@ -119,7 +138,9 @@
     "lat": 45.4813,
     "lon": 9.1879,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Hollywood Rythmoteque (Milan), Unknown"
   },
   {
     "id": "country-it-milan-alcatraz",
@@ -128,7 +149,9 @@
     "lat": 45.499,
     "lon": 9.1843,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Alcatraz (Milan), Unknown"
   },
   {
     "id": "country-it-naples-lanificio-25",
@@ -137,7 +160,9 @@
     "lat": 40.857,
     "lon": 14.2468,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Lanificio 25 (Naples), Unknown"
   },
   {
     "id": "country-it-florence-tenax",
@@ -146,7 +171,9 @@
     "lat": 43.8006,
     "lon": 11.213,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Tenax (Florence), Unknown"
   },
   {
     "id": "country-it-uffizi-gallery",
@@ -155,7 +182,9 @@
     "lat": 43.7687,
     "lon": 11.255,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Uffizi Gallery, Unknown"
   },
   {
     "id": "country-it-st-mark-s-basilica",
@@ -164,7 +193,9 @@
     "lat": 45.4342,
     "lon": 12.3397,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "St Mark's Basilica, Unknown"
   },
   {
     "id": "country-it-trevi-fountain",
@@ -173,7 +204,9 @@
     "lat": 41.9009,
     "lon": 12.4833,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Trevi Fountain, Rome"
   },
   {
     "id": "country-it-pantheon",
@@ -182,7 +215,9 @@
     "lat": 41.8986,
     "lon": 12.4769,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Pantheon, Rome"
   },
   {
     "id": "country-it-piazza-navona",
@@ -191,7 +226,9 @@
     "lat": 41.8992,
     "lon": 12.4731,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Piazza Navona, Unknown"
   },
   {
     "id": "country-it-trastevere-nightlife",
@@ -200,7 +237,9 @@
     "lat": 41.8891,
     "lon": 12.4701,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Trastevere Nightlife, Rome"
   },
   {
     "id": "country-it-bologna-quadrilatero",
@@ -209,7 +248,9 @@
     "lat": 44.4949,
     "lon": 11.3449,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Bologna Quadrilatero, Unknown"
   },
   {
     "id": "country-it-verona-arena",
@@ -218,7 +259,9 @@
     "lat": 45.4386,
     "lon": 10.9942,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Verona Arena, Unknown"
   },
   {
     "id": "country-it-matera-sassi",
@@ -227,6 +270,382 @@
     "lat": 40.6663,
     "lon": 16.6043,
     "source": "static",
-    "countryCode": "IT"
+    "countryCode": "IT",
+    "city": "Unknown",
+    "address": "Matera (Sassi), Unknown"
+  },
+  {
+    "id": "country-it-rome-appian-way",
+    "name": "Appian Way",
+    "category": "nature",
+    "lat": 41.8905,
+    "lon": 12.487,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Clivus Palatino"
+  },
+  {
+    "id": "country-it-rome-baths-of-caracalla",
+    "name": "Baths of Caracalla",
+    "category": "landmarks",
+    "lat": 41.879,
+    "lon": 12.4922,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Via Antonina"
+  },
+  {
+    "id": "country-it-rome-borghese-gallery",
+    "name": "Borghese Gallery",
+    "category": "museums",
+    "lat": 41.9001,
+    "lon": 12.5019,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Via Giovanni Giolitti"
+  },
+  {
+    "id": "country-it-rome-campo-de-fiori",
+    "name": "Campo de' Fiori",
+    "category": "food",
+    "lat": 41.9161,
+    "lon": 12.4745,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Campo de' Fiori, Rome"
+  },
+  {
+    "id": "country-it-rome-campo-de-fiori-market",
+    "name": "Campo de' Fiori Market",
+    "category": "food",
+    "lat": 41.8955,
+    "lon": 12.4722,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Campo de' Fiori Market, Rome"
+  },
+  {
+    "id": "country-it-rome-capitoline-museums",
+    "name": "Capitoline Museums",
+    "category": "museums",
+    "lat": 41.8929,
+    "lon": 12.4827,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Capitoline Museums, Rome"
+  },
+  {
+    "id": "country-it-rome-castel-sant-angelo",
+    "name": "Castel Sant'Angelo",
+    "category": "landmarks",
+    "lat": 41.9031,
+    "lon": 12.4663,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Castel Sant'Angelo, Rome"
+  },
+  {
+    "id": "country-it-rome-central-market-rome-2",
+    "name": "Central Market (Rome) 2",
+    "category": "food",
+    "lat": 41.8798,
+    "lon": 12.5094,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Central Market (Rome) 2, Rome"
+  },
+  {
+    "id": "country-it-rome-city-park-rome-4",
+    "name": "City Park (Rome) 4",
+    "category": "nature",
+    "lat": 41.9035,
+    "lon": 12.4974,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "City Park (Rome) 4, Rome"
+  },
+  {
+    "id": "country-it-rome-eataly-roma",
+    "name": "Eataly Roma",
+    "category": "food",
+    "lat": 41.8796,
+    "lon": 12.5173,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Eataly Roma, Rome"
+  },
+  {
+    "id": "country-it-rome-gianicolo-hill",
+    "name": "Gianicolo Hill",
+    "category": "nature",
+    "lat": 41.8946,
+    "lon": 12.5007,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Gianicolo Hill, Rome"
+  },
+  {
+    "id": "country-it-rome-historic-cathedral-rome-5",
+    "name": "Historic Cathedral (Rome) 5",
+    "category": "landmarks",
+    "lat": 41.9049,
+    "lon": 12.4992,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Historic Cathedral (Rome) 5, Rome"
+  },
+  {
+    "id": "country-it-rome-janiculum-hill-viewpoint",
+    "name": "Janiculum Hill Viewpoint",
+    "category": "nature",
+    "lat": 41.8896,
+    "lon": 12.463,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Janiculum Hill Viewpoint, Rome"
+  },
+  {
+    "id": "country-it-rome-local-food-street-rome-8",
+    "name": "Local Food Street (Rome) 8",
+    "category": "food",
+    "lat": 41.9278,
+    "lon": 12.4901,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Local Food Street (Rome) 8, Rome"
+  },
+  {
+    "id": "country-it-rome-maxxi-museum",
+    "name": "MAXXI Museum",
+    "category": "museums",
+    "lat": 41.8869,
+    "lon": 12.4942,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "MAXXI Museum, Rome"
+  },
+  {
+    "id": "country-it-rome-modern-art-gallery-rome-6",
+    "name": "Modern Art Gallery (Rome) 6",
+    "category": "museums",
+    "lat": 41.9225,
+    "lon": 12.474,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Modern Art Gallery (Rome) 6, Rome"
+  },
+  {
+    "id": "country-it-rome-monti-district",
+    "name": "Monti District",
+    "category": "nightlife",
+    "lat": 41.8947,
+    "lon": 12.493,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Monti District, Rome"
+  },
+  {
+    "id": "country-it-rome-nightlife-district-rome-7",
+    "name": "Nightlife District (Rome) 7",
+    "category": "nightlife",
+    "lat": 41.9256,
+    "lon": 12.508,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Nightlife District (Rome) 7, Rome"
+  },
+  {
+    "id": "country-it-rome-old-town-rome-1",
+    "name": "Old Town (Rome) 1",
+    "category": "landmarks",
+    "lat": 41.919,
+    "lon": 12.498,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Old Town (Rome) 1, Rome"
+  },
+  {
+    "id": "country-it-rome-ostia-antica",
+    "name": "Ostia Antica",
+    "category": "landmarks",
+    "lat": 41.7532,
+    "lon": 12.2961,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Ostia Antica, Rome"
+  },
+  {
+    "id": "country-it-rome-piazza-del-popolo",
+    "name": "Piazza del Popolo",
+    "category": "landmarks",
+    "lat": 41.9109,
+    "lon": 12.4768,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Piazza del Popolo, Rome"
+  },
+  {
+    "id": "country-it-rome-piazza-navona",
+    "name": "Piazza Navona",
+    "category": "food",
+    "lat": 41.8992,
+    "lon": 12.4731,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Piazza Navona, Rome"
+  },
+  {
+    "id": "country-it-rome-piazza-venezia",
+    "name": "Piazza Venezia",
+    "category": "landmarks",
+    "lat": 41.8963,
+    "lon": 12.4829,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Piazza Venezia, Rome"
+  },
+  {
+    "id": "country-it-rome-riverside-promenade-rome-3",
+    "name": "Riverside Promenade (Rome) 3",
+    "category": "nature",
+    "lat": 41.9077,
+    "lon": 12.4773,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Riverside Promenade (Rome) 3, Rome"
+  },
+  {
+    "id": "country-it-rome-roman-forum",
+    "name": "Roman Forum",
+    "category": "landmarks",
+    "lat": 41.8925,
+    "lon": 12.4853,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Roman Forum, Rome"
+  },
+  {
+    "id": "country-it-rome-spanish-steps",
+    "name": "Spanish Steps",
+    "category": "landmarks",
+    "lat": 41.9059,
+    "lon": 12.4823,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Spanish Steps, Rome"
+  },
+  {
+    "id": "country-it-rome-st-peter-s-basilica",
+    "name": "St. Peter's Basilica",
+    "category": "landmarks",
+    "lat": 41.9022,
+    "lon": 12.4539,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "St. Peter's Basilica, Rome"
+  },
+  {
+    "id": "country-it-rome-testaccio-food-district",
+    "name": "Testaccio Food District",
+    "category": "food",
+    "lat": 41.8806,
+    "lon": 12.4775,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Testaccio Food District, Rome"
+  },
+  {
+    "id": "country-it-rome-testaccio-market",
+    "name": "Testaccio Market",
+    "category": "food",
+    "lat": 41.9032,
+    "lon": 12.5144,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Testaccio Market, Rome"
+  },
+  {
+    "id": "country-it-rome-via-appia-antica",
+    "name": "Via Appia Antica",
+    "category": "nature",
+    "lat": 41.857,
+    "lon": 12.519,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Via Appia Antica, Rome"
+  },
+  {
+    "id": "country-it-rome-via-del-corso",
+    "name": "Via del Corso",
+    "category": "food",
+    "lat": 41.904,
+    "lon": 12.4795,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Via del Corso, Rome"
+  },
+  {
+    "id": "country-it-rome-villa-borghese",
+    "name": "Villa Borghese",
+    "category": "nature",
+    "lat": 41.9106,
+    "lon": 12.4944,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Villa Borghese, Rome"
+  },
+  {
+    "id": "country-it-rome-villa-borghese-gardens",
+    "name": "Villa Borghese Gardens",
+    "category": "nature",
+    "lat": 41.9142,
+    "lon": 12.4923,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Villa Borghese Gardens, Rome"
+  },
+  {
+    "id": "country-it-rome-villa-doria-pamphilj",
+    "name": "Villa Doria Pamphilj",
+    "category": "nature",
+    "lat": 41.8823,
+    "lon": 12.4503,
+    "source": "static",
+    "countryCode": "IT",
+    "city": "Rome",
+    "address": "Villa Doria Pamphilj, Rome"
   }
 ]

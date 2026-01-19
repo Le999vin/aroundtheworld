@@ -7,8 +7,8 @@
     "lon": 24.9525,
     "source": "static",
     "countryCode": "FI",
-    "address": "Hallituskatu",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Hallituskatu"
   },
   {
     "id": "country-fi-helsinki-cathedral",
@@ -18,8 +18,8 @@
     "lon": 24.9522,
     "source": "static",
     "countryCode": "FI",
-    "address": "Kruununhaka",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Kruununhaka"
   },
   {
     "id": "country-fi-suomenlinna-sea-fortress",
@@ -29,8 +29,8 @@
     "lon": 24.9886,
     "source": "static",
     "countryCode": "FI",
-    "address": "Susisaaren silta",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Susisaaren silta"
   },
   {
     "id": "country-fi-temppeliaukio-church",
@@ -39,7 +39,9 @@
     "lat": 60.1738,
     "lon": 24.925,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Temppeliaukio Church, Helsinki"
   },
   {
     "id": "country-fi-design-district-helsinki",
@@ -48,7 +50,9 @@
     "lat": 60.163,
     "lon": 24.941,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Design District Helsinki, Unknown"
   },
   {
     "id": "country-fi-turku-castle",
@@ -57,7 +61,9 @@
     "lat": 60.435,
     "lon": 22.231,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Turku Castle, Unknown"
   },
   {
     "id": "country-fi-tampere-cathedral",
@@ -66,7 +72,9 @@
     "lat": 61.4978,
     "lon": 23.7609,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Tampere Cathedral, Unknown"
   },
   {
     "id": "country-fi-rovaniemi-santa-claus-village",
@@ -75,7 +83,9 @@
     "lat": 66.543,
     "lon": 25.847,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Rovaniemi Santa Claus Village, Unknown"
   },
   {
     "id": "country-fi-oulanka-national-park",
@@ -84,7 +94,9 @@
     "lat": 66.363,
     "lon": 29.315,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Oulanka National Park, Unknown"
   },
   {
     "id": "country-fi-nuuksio-national-park",
@@ -93,7 +105,9 @@
     "lat": 60.283,
     "lon": 24.565,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Nuuksio National Park, Unknown"
   },
   {
     "id": "country-fi-lake-saimaa",
@@ -102,7 +116,9 @@
     "lat": 61.2,
     "lon": 28.8,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Lake Saimaa, Unknown"
   },
   {
     "id": "country-fi-lapland-aurora-viewpoints",
@@ -111,7 +127,9 @@
     "lat": 67,
     "lon": 26,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Lapland Aurora Viewpoints, Unknown"
   },
   {
     "id": "country-fi-koli-national-park",
@@ -120,7 +138,9 @@
     "lat": 63.093,
     "lon": 29.819,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Koli National Park, Unknown"
   },
   {
     "id": "country-fi-ateneum-art-museum",
@@ -129,7 +149,9 @@
     "lat": 60.1709,
     "lon": 24.9445,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Birger Käcklundin raitti"
   },
   {
     "id": "country-fi-kiasma-museum-of-contemporary-art",
@@ -138,7 +160,9 @@
     "lat": 60.1721,
     "lon": 24.9355,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Kiasma Museum of Contemporary Art, Unknown"
   },
   {
     "id": "country-fi-seurasaari-open-air-museum",
@@ -147,7 +171,9 @@
     "lat": 60.1875,
     "lon": 24.8845,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Seurasaari Open-Air Museum, Helsinki"
   },
   {
     "id": "country-fi-old-market-hall-helsinki",
@@ -156,7 +182,9 @@
     "lat": 60.1674,
     "lon": 24.9548,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Old Market Hall Helsinki, Unknown"
   },
   {
     "id": "country-fi-hakaniemi-market-hall",
@@ -165,7 +193,9 @@
     "lat": 60.179,
     "lon": 24.9502,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Hakaniemi Market Hall, Helsinki"
   },
   {
     "id": "country-fi-tampere-market-hall",
@@ -174,7 +204,9 @@
     "lat": 61.4985,
     "lon": 23.7645,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Tampere Market Hall, Unknown"
   },
   {
     "id": "country-fi-kallio-bars-district",
@@ -183,7 +215,9 @@
     "lat": 60.184,
     "lon": 24.95,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Kallio Bars District, Unknown"
   },
   {
     "id": "country-fi-tavastia-club",
@@ -192,7 +226,9 @@
     "lat": 60.17,
     "lon": 24.9385,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Tavastia Club, Unknown"
   },
   {
     "id": "country-fi-helsinki-waterfront-nightlife",
@@ -201,7 +237,9 @@
     "lat": 60.1674,
     "lon": 24.9548,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Helsinki Waterfront Nightlife, Unknown"
   },
   {
     "id": "country-fi-sibelius-monument",
@@ -210,7 +248,9 @@
     "lat": 60.1827,
     "lon": 24.914,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Sibelius Monument, Helsinki"
   },
   {
     "id": "country-fi-alvar-aalto-paimio-sanatorium",
@@ -219,7 +259,9 @@
     "lat": 60.454,
     "lon": 22.69,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Alvar Aalto Paimio Sanatorium, Unknown"
   },
   {
     "id": "country-fi-porvoo-old-town",
@@ -228,6 +270,206 @@
     "lat": 60.3931,
     "lon": 25.6645,
     "source": "static",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "city": "Unknown",
+    "address": "Porvoo Old Town, Unknown"
+  },
+  {
+    "id": "country-fi-helsinki-allas-sea-pool",
+    "name": "Allas Sea Pool",
+    "category": "nature",
+    "lat": 60.1795,
+    "lon": 24.9645,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Konttisatamankatu"
+  },
+  {
+    "id": "country-fi-helsinki-design-district",
+    "name": "Design District",
+    "category": "food",
+    "lat": 60.1806,
+    "lon": 24.9589,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "15 Sörnäisten rantatie"
+  },
+  {
+    "id": "country-fi-helsinki-esplanadi-park",
+    "name": "Esplanadi Park",
+    "category": "nature",
+    "lat": 60.1823,
+    "lon": 24.9468,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Esplanadi Park, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-helsinki-central-station",
+    "name": "Helsinki Central Station",
+    "category": "landmarks",
+    "lat": 60.1813,
+    "lon": 24.9517,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Helsinki Central Station, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-hietaniemi-beach",
+    "name": "Hietaniemi Beach",
+    "category": "nature",
+    "lat": 60.1674,
+    "lon": 24.9406,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Hietaniemi Beach, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-kaivopuisto-park",
+    "name": "Kaivopuisto Park",
+    "category": "nature",
+    "lat": 60.1702,
+    "lon": 24.9132,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Kaivopuisto Park, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-kallio",
+    "name": "Kallio",
+    "category": "nightlife",
+    "lat": 60.1771,
+    "lon": 24.9366,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Kallio, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-kamppi-chapel",
+    "name": "Kamppi Chapel",
+    "category": "landmarks",
+    "lat": 60.1739,
+    "lon": 24.952,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Kamppi Chapel, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-kiasma-museum",
+    "name": "Kiasma Museum",
+    "category": "museums",
+    "lat": 60.1772,
+    "lon": 24.9393,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Kiasma Museum, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-linnanmaki",
+    "name": "Linnanmaki",
+    "category": "other",
+    "lat": 60.1652,
+    "lon": 24.9425,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Linnanmaki, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-lonna-island",
+    "name": "Lonna Island",
+    "category": "nature",
+    "lat": 60.1569,
+    "lon": 24.9376,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Lonna Island, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-loyly-sauna",
+    "name": "Loyly Sauna",
+    "category": "nightlife",
+    "lat": 60.1819,
+    "lon": 24.9199,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Loyly Sauna, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-market-square",
+    "name": "Market Square",
+    "category": "food",
+    "lat": 60.1754,
+    "lon": 24.9214,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Market Square, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-old-market-hall",
+    "name": "Old Market Hall",
+    "category": "food",
+    "lat": 60.1604,
+    "lon": 24.9397,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Old Market Hall, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-oodi-library",
+    "name": "Oodi Library",
+    "category": "other",
+    "lat": 60.1765,
+    "lon": 24.9623,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Oodi Library, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-punavuori",
+    "name": "Punavuori",
+    "category": "food",
+    "lat": 60.1822,
+    "lon": 24.9125,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Punavuori, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-senate-square-2",
+    "name": "Senate Square",
+    "category": "landmarks",
+    "lat": 60.1695,
+    "lon": 24.9661,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Senate Square, Helsinki"
+  },
+  {
+    "id": "country-fi-helsinki-sornainen",
+    "name": "Sornainen",
+    "category": "nightlife",
+    "lat": 60.1578,
+    "lon": 24.9586,
+    "source": "static",
+    "countryCode": "FI",
+    "city": "Helsinki",
+    "address": "Sornainen, Helsinki"
   }
 ]

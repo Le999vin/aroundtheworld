@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Esplanadi Park, Helsinki"
   },
   {
     "id": "city-helsinki-hakaniemi-market-hall",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Hakaniemi Market Hall, Helsinki"
   },
   {
     "id": "city-helsinki-helsinki-cathedral",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Helsinki Cathedral, Helsinki"
   },
   {
     "id": "city-helsinki-helsinki-central-station",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Helsinki Central Station, Helsinki"
   },
   {
     "id": "city-helsinki-hietaniemi-beach",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Hietaniemi Beach, Helsinki"
   },
   {
     "id": "city-helsinki-kaivopuisto-park",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Kaivopuisto Park, Helsinki"
   },
   {
     "id": "city-helsinki-kallio",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Kallio, Helsinki"
   },
   {
     "id": "city-helsinki-kamppi-chapel",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Kamppi Chapel, Helsinki"
   },
   {
     "id": "city-helsinki-kiasma-museum",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Kiasma Museum, Helsinki"
   },
   {
     "id": "city-helsinki-linnanmaki",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Linnanmaki, Helsinki"
   },
   {
     "id": "city-helsinki-lonna-island",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Lonna Island, Helsinki"
   },
   {
     "id": "city-helsinki-loyly-sauna",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Loyly Sauna, Helsinki"
   },
   {
     "id": "city-helsinki-market-square",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Market Square, Helsinki"
   },
   {
     "id": "city-helsinki-old-market-hall",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Old Market Hall, Helsinki"
   },
   {
     "id": "city-helsinki-oodi-library",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Oodi Library, Helsinki"
   },
   {
     "id": "city-helsinki-punavuori",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Punavuori, Helsinki"
   },
   {
     "id": "city-helsinki-senate-square",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Senate Square, Helsinki"
   },
   {
     "id": "city-helsinki-seurasaari-open-air-museum",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Seurasaari Open-Air Museum, Helsinki"
   },
   {
     "id": "city-helsinki-sibelius-monument",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Sibelius Monument, Helsinki"
   },
   {
     "id": "city-helsinki-sornainen",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Sornainen, Helsinki"
   },
   {
     "id": "city-helsinki-suomenlinna-sea-fortress",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Suomenlinna Sea Fortress, Helsinki"
   },
   {
     "id": "city-helsinki-temppeliaukio-church",
@@ -275,6 +296,7 @@
     "source": "static",
     "countryCode": "FI",
     "cityId": "helsinki",
-    "city": "Helsinki"
+    "city": "Helsinki",
+    "address": "Temppeliaukio Church, Helsinki"
   }
 ]

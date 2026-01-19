@@ -7,8 +7,8 @@
     "lon": -99.1332,
     "source": "static",
     "countryCode": "MX",
-    "address": "Constitution Square",
-    "city": "Mexico City"
+    "city": "Mexico City",
+    "address": "Constitution Square"
   },
   {
     "id": "country-mx-palacio-de-bellas-artes",
@@ -18,8 +18,8 @@
     "lon": -99.1412,
     "source": "static",
     "countryCode": "MX",
-    "address": "Avenida Juárez",
-    "city": "Mexico City"
+    "city": "Mexico City",
+    "address": "Avenida Juárez"
   },
   {
     "id": "country-mx-frida-kahlo-museum",
@@ -29,8 +29,8 @@
     "lon": -99.1626,
     "source": "static",
     "countryCode": "MX",
-    "address": "247 Calle Ignacio Allende",
-    "city": "Mexico City"
+    "city": "Mexico City",
+    "address": "247 Calle Ignacio Allende"
   },
   {
     "id": "country-mx-teotihuacan-pyramids",
@@ -39,7 +39,9 @@
     "lat": 19.6925,
     "lon": -98.8438,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Teotihuacan Pyramids, Unknown"
   },
   {
     "id": "country-mx-chichen-itza",
@@ -48,7 +50,9 @@
     "lat": 20.6843,
     "lon": -88.5678,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Chichen Itza, Unknown"
   },
   {
     "id": "country-mx-tulum-ruins",
@@ -57,7 +61,9 @@
     "lat": 20.2114,
     "lon": -87.4654,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Tulum Ruins, Unknown"
   },
   {
     "id": "country-mx-cancun-hotel-zone-beaches",
@@ -66,7 +72,9 @@
     "lat": 21.1619,
     "lon": -86.8515,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Cancun Hotel Zone Beaches, Unknown"
   },
   {
     "id": "country-mx-cenote-ik-kil",
@@ -75,7 +83,9 @@
     "lat": 20.6669,
     "lon": -88.5686,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Cenote Ik Kil, Unknown"
   },
   {
     "id": "country-mx-oaxaca-historic-center",
@@ -84,7 +94,9 @@
     "lat": 17.0732,
     "lon": -96.7266,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Oaxaca Historic Center, Unknown"
   },
   {
     "id": "country-mx-san-miguel-de-allende",
@@ -93,7 +105,9 @@
     "lat": 20.9144,
     "lon": -100.7453,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "San Miguel de Allende, Unknown"
   },
   {
     "id": "country-mx-guanajuato-old-town",
@@ -102,7 +116,9 @@
     "lat": 21.019,
     "lon": -101.2574,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Guanajuato Old Town, Unknown"
   },
   {
     "id": "country-mx-puebla-cathedral",
@@ -111,7 +127,9 @@
     "lat": 19.0433,
     "lon": -98.198,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Puebla Cathedral, Unknown"
   },
   {
     "id": "country-mx-copper-canyon",
@@ -120,7 +138,9 @@
     "lat": 27.5,
     "lon": -107.9,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Copper Canyon, Unknown"
   },
   {
     "id": "country-mx-isla-mujeres",
@@ -129,7 +149,9 @@
     "lat": 21.232,
     "lon": -86.732,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Isla Mujeres, Unknown"
   },
   {
     "id": "country-mx-los-cabos-arch",
@@ -138,7 +160,9 @@
     "lat": 22.881,
     "lon": -109.916,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Los Cabos Arch, Unknown"
   },
   {
     "id": "country-mx-sumidero-canyon",
@@ -147,7 +171,9 @@
     "lat": 16.8,
     "lon": -93.1,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Sumidero Canyon, Unknown"
   },
   {
     "id": "country-mx-mercado-de-la-merced",
@@ -156,7 +182,9 @@
     "lat": 19.424,
     "lon": -99.12,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Mercado de la Merced, Unknown"
   },
   {
     "id": "country-mx-pujol-mexico-city",
@@ -165,7 +193,9 @@
     "lat": 19.431,
     "lon": -99.191,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Pujol (Mexico City), Unknown"
   },
   {
     "id": "country-mx-tacos-al-pastor-street-food",
@@ -174,7 +204,9 @@
     "lat": 19.4326,
     "lon": -99.1332,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Tacos al Pastor Street Food, Unknown"
   },
   {
     "id": "country-mx-zona-rosa",
@@ -183,7 +215,9 @@
     "lat": 19.427,
     "lon": -99.163,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Zona Rosa, Mexico City"
   },
   {
     "id": "country-mx-playa-del-carmen-nightlife",
@@ -192,7 +226,9 @@
     "lat": 20.6296,
     "lon": -87.0739,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Playa del Carmen Nightlife, Unknown"
   },
   {
     "id": "country-mx-guadalajara-chapultepec-ave",
@@ -201,7 +237,9 @@
     "lat": 20.6736,
     "lon": -103.37,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Guadalajara Chapultepec Ave, Unknown"
   },
   {
     "id": "country-mx-xcaret-park",
@@ -210,7 +248,9 @@
     "lat": 20.58,
     "lon": -87.12,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Xcaret Park, Unknown"
   },
   {
     "id": "country-mx-bacalar-lagoon",
@@ -219,7 +259,9 @@
     "lat": 18.679,
     "lon": -88.393,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Bacalar Lagoon, Unknown"
   },
   {
     "id": "country-mx-hierve-el-agua",
@@ -228,6 +270,261 @@
     "lat": 16.865,
     "lon": -96.279,
     "source": "static",
-    "countryCode": "MX"
+    "countryCode": "MX",
+    "city": "Unknown",
+    "address": "Hierve el Agua, Unknown"
+  },
+  {
+    "id": "country-mx-mexico-city-alameda-central",
+    "name": "Alameda Central",
+    "category": "nature",
+    "lat": 19.4473,
+    "lon": -99.1336,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Calle Matamoros"
+  },
+  {
+    "id": "country-mx-mexico-city-angel-of-independence",
+    "name": "Angel of Independence",
+    "category": "landmarks",
+    "lat": 19.4379,
+    "lon": -99.1477,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "115 Calle Héroes"
+  },
+  {
+    "id": "country-mx-mexico-city-arena-mexico",
+    "name": "Arena Mexico",
+    "category": "nightlife",
+    "lat": 19.4387,
+    "lon": -99.1395,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Calle Belisario Domínguez"
+  },
+  {
+    "id": "country-mx-mexico-city-basilica-of-our-lady-of-guadalupe",
+    "name": "Basilica of Our Lady of Guadalupe",
+    "category": "landmarks",
+    "lat": 19.4475,
+    "lon": -99.1502,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Basilica of Our Lady of Guadalupe, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-chapultepec-castle",
+    "name": "Chapultepec Castle",
+    "category": "landmarks",
+    "lat": 19.4355,
+    "lon": -99.1163,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Chapultepec Castle, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-chapultepec-park",
+    "name": "Chapultepec Park",
+    "category": "nature",
+    "lat": 19.4498,
+    "lon": -99.1271,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Chapultepec Park, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-cineteca-nacional",
+    "name": "Cineteca Nacional",
+    "category": "museums",
+    "lat": 19.4175,
+    "lon": -99.1219,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Cineteca Nacional, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-condesa",
+    "name": "Condesa",
+    "category": "nightlife",
+    "lat": 19.4489,
+    "lon": -99.128,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Condesa, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-coyoacan",
+    "name": "Coyoacan",
+    "category": "food",
+    "lat": 19.4208,
+    "lon": -99.1161,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Coyoacan, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-la-ciudadela-market",
+    "name": "La Ciudadela Market",
+    "category": "food",
+    "lat": 19.4465,
+    "lon": -99.1504,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "La Ciudadela Market, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-mercado-de-san-juan",
+    "name": "Mercado de San Juan",
+    "category": "food",
+    "lat": 19.4376,
+    "lon": -99.1228,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Mercado de San Juan, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-metropolitan-cathedral",
+    "name": "Metropolitan Cathedral",
+    "category": "landmarks",
+    "lat": 19.4413,
+    "lon": -99.133,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Metropolitan Cathedral, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-museo-soumaya",
+    "name": "Museo Soumaya",
+    "category": "museums",
+    "lat": 19.4333,
+    "lon": -99.1224,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Museo Soumaya, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-national-museum-of-anthropology",
+    "name": "National Museum of Anthropology",
+    "category": "museums",
+    "lat": 19.4378,
+    "lon": -99.1312,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "National Museum of Anthropology, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-palacio-de-bellas-artes",
+    "name": "Palacio de Bellas Artes",
+    "category": "landmarks",
+    "lat": 19.4312,
+    "lon": -99.1426,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Palacio de Bellas Artes, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-paseo-de-la-reforma",
+    "name": "Paseo de la Reforma",
+    "category": "landmarks",
+    "lat": 19.4469,
+    "lon": -99.1453,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Paseo de la Reforma, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-plaza-garibaldi",
+    "name": "Plaza Garibaldi",
+    "category": "nightlife",
+    "lat": 19.4492,
+    "lon": -99.1216,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Plaza Garibaldi, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-polanco",
+    "name": "Polanco",
+    "category": "food",
+    "lat": 19.4172,
+    "lon": -99.126,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Polanco, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-roma-norte",
+    "name": "Roma Norte",
+    "category": "food",
+    "lat": 19.4324,
+    "lon": -99.1314,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Roma Norte, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-templo-mayor",
+    "name": "Templo Mayor",
+    "category": "museums",
+    "lat": 19.4317,
+    "lon": -99.1341,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Templo Mayor, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-unam-central-library",
+    "name": "UNAM Central Library",
+    "category": "landmarks",
+    "lat": 19.4249,
+    "lon": -99.1422,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "UNAM Central Library, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-xochimilco",
+    "name": "Xochimilco",
+    "category": "nature",
+    "lat": 19.4178,
+    "lon": -99.1248,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Xochimilco, Mexico City"
+  },
+  {
+    "id": "country-mx-mexico-city-zocalo-2",
+    "name": "Zocalo",
+    "category": "landmarks",
+    "lat": 19.4467,
+    "lon": -99.1475,
+    "source": "static",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Zocalo, Mexico City"
   }
 ]

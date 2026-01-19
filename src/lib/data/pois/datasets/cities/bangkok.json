@@ -44,7 +44,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Benjakitti Park, Bangkok"
   },
   {
     "id": "city-bangkok-central-market-bangkok-2",
@@ -55,7 +56,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Central Market (Bangkok) 2, Bangkok"
   },
   {
     "id": "city-bangkok-chao-phraya-riverside-promenade",
@@ -66,7 +68,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Chao Phraya Riverside Promenade, Bangkok"
   },
   {
     "id": "city-bangkok-chao-phraya-riverside-walk",
@@ -77,7 +80,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Chao Phraya Riverside Walk, Bangkok"
   },
   {
     "id": "city-bangkok-chatuchak-market",
@@ -88,7 +92,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Chatuchak Market, Bangkok"
   },
   {
     "id": "city-bangkok-chinatown-yaowarat-road",
@@ -99,7 +104,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Chinatown (Yaowarat Road), Bangkok"
   },
   {
     "id": "city-bangkok-city-park-bangkok-4",
@@ -110,7 +116,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "City Park (Bangkok) 4, Bangkok"
   },
   {
     "id": "city-bangkok-ekkamai",
@@ -121,7 +128,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Ekkamai, Bangkok"
   },
   {
     "id": "city-bangkok-erawan-shrine",
@@ -132,7 +140,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Erawan Shrine, Bangkok"
   },
   {
     "id": "city-bangkok-grand-palace",
@@ -143,7 +152,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Grand Palace, Bangkok"
   },
   {
     "id": "city-bangkok-historic-cathedral-bangkok-5",
@@ -154,7 +164,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Historic Cathedral (Bangkok) 5, Bangkok"
   },
   {
     "id": "city-bangkok-iconsiam",
@@ -165,7 +176,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Iconsiam, Bangkok"
   },
   {
     "id": "city-bangkok-iconsiam-2",
@@ -176,7 +188,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "ICONSIAM, Bangkok"
   },
   {
     "id": "city-bangkok-jim-thompson-house",
@@ -187,7 +200,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Jim Thompson House, Bangkok"
   },
   {
     "id": "city-bangkok-jodd-fairs-night-market",
@@ -198,7 +212,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Jodd Fairs Night Market, Bangkok"
   },
   {
     "id": "city-bangkok-khao-san-road",
@@ -209,7 +224,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Khao San Road, Bangkok"
   },
   {
     "id": "city-bangkok-lumphini-park",
@@ -220,7 +236,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Lumphini Park, Bangkok"
   },
   {
     "id": "city-bangkok-lumpini-park",
@@ -231,7 +248,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Lumpini Park, Bangkok"
   },
   {
     "id": "city-bangkok-mbk-center",
@@ -242,7 +260,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "MBK Center, Bangkok"
   },
   {
     "id": "city-bangkok-modern-art-gallery-bangkok-6",
@@ -253,7 +272,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Modern Art Gallery (Bangkok) 6, Bangkok"
   },
   {
     "id": "city-bangkok-nightlife-district-bangkok-7",
@@ -264,7 +284,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Nightlife District (Bangkok) 7, Bangkok"
   },
   {
     "id": "city-bangkok-old-town-bangkok-1",
@@ -275,7 +296,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Old Town (Bangkok) 1, Bangkok"
   },
   {
     "id": "city-bangkok-pak-khlong-talat-flower-market",
@@ -286,7 +308,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Pak Khlong Talat Flower Market, Bangkok"
   },
   {
     "id": "city-bangkok-pak-khlong-talat-flower-market-2",
@@ -297,7 +320,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Pak Khlong Talat (Flower Market), Bangkok"
   },
   {
     "id": "city-bangkok-riverside-promenade-bangkok-3",
@@ -308,7 +332,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Riverside Promenade (Bangkok) 3, Bangkok"
   },
   {
     "id": "city-bangkok-siam-paragon",
@@ -319,7 +344,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Siam Paragon, Bangkok"
   },
   {
     "id": "city-bangkok-silom-patpong",
@@ -330,7 +356,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Silom / Patpong, Bangkok"
   },
   {
     "id": "city-bangkok-sukhumvit-soi-11",
@@ -341,7 +368,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Sukhumvit Soi 11, Bangkok"
   },
   {
     "id": "city-bangkok-talad-rot-fai-night-market",
@@ -352,7 +380,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Talad Rot Fai Night Market, Bangkok"
   },
   {
     "id": "city-bangkok-terminal-21",
@@ -363,7 +392,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Terminal 21, Bangkok"
   },
   {
     "id": "city-bangkok-terminal-21-asok",
@@ -374,7 +404,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Terminal 21 Asok, Bangkok"
   },
   {
     "id": "city-bangkok-thonglor",
@@ -385,7 +416,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Thonglor, Bangkok"
   },
   {
     "id": "city-bangkok-wat-arun",
@@ -396,7 +428,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Wat Arun, Bangkok"
   },
   {
     "id": "city-bangkok-wat-pho",
@@ -407,7 +440,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Wat Pho, Bangkok"
   },
   {
     "id": "city-bangkok-wat-saket-golden-mount",
@@ -418,7 +452,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Wat Saket (Golden Mount), Bangkok"
   },
   {
     "id": "city-bangkok-wat-traimit-golden-buddha",
@@ -429,7 +464,8 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Wat Traimit (Golden Buddha), Bangkok"
   },
   {
     "id": "city-bangkok-yaowarat-chinatown",
@@ -440,6 +476,7 @@
     "source": "static",
     "countryCode": "TH",
     "cityId": "bangkok",
-    "city": "Bangkok"
+    "city": "Bangkok",
+    "address": "Yaowarat (Chinatown), Bangkok"
   }
 ]
