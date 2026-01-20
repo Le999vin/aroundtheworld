@@ -22,7 +22,12 @@ const BASE_GLOBE_COLOR = "#0b1220";
 const EARTH_TEXTURE_URL = "/textures/earth-blue-marble.jpg";
 const EARTH_BUMP_URL = "/textures/earth-topology.png";
 const MAX_DPR = 2;
-const POLYGON_ALTITUDE = 0.005;
+const DEBUG_POLYGON_UPDATES = false;
+const POLYGON_ALTITUDE = 0.012;
+const POLYGONS_TRANSITION_MS = 0;
+const POLYGON_OFFSET_FACTOR = 1;
+const POLYGON_OFFSET_UNITS = 1;
+const POLYGON_STROKE_RENDER_ORDER = 2;
 const CAMERA_ALTITUDE = 2.1;
 const CAMERA_ANIMATION_MS = 900;
 
@@ -38,6 +43,109 @@ const loadTexture = (
   new Promise((resolve, reject) => {
     loader.load(url, resolve, undefined, reject);
   });
+
+const clampOpacity = (value: number) => Math.min(1, Math.max(0, value));
+
+const parseColorWithOpacity = (value: string) => {
+  const trimmed = value.trim();
+  const rgbaMatch = trimmed.match(/^rgba?\((.+)\)$/i);
+  if (rgbaMatch) {
+    const parts = rgbaMatch[1].split(",").map((part) => part.trim());
+    const [r, g, b, a] = parts;
+    const rNum = Number.parseFloat(r);
+    const gNum = Number.parseFloat(g);
+    const bNum = Number.parseFloat(b);
+    const rawOpacity =
+      a === undefined ? 1 : Number.parseFloat(a);
+    const opacity = Number.isFinite(rawOpacity)
+      ? clampOpacity(rawOpacity)
+      : 1;
+    if (
+      Number.isFinite(rNum) &&
+      Number.isFinite(gNum) &&
+      Number.isFinite(bNum)
+    ) {
+      return {
+        color: new THREE.Color(`rgb(${rNum}, ${gNum}, ${bNum})`),
+        opacity,
+        transparent: opacity < 1,
+      };
+    }
+  }
+  return { color: new THREE.Color(trimmed), opacity: 1, transparent: false };
+};
+
+const createPolygonMaterial = (
+  colorValue: string,
+  {
+    polygonOffsetFactor = POLYGON_OFFSET_FACTOR,
+    polygonOffsetUnits = POLYGON_OFFSET_UNITS,
+  }: {
+    polygonOffsetFactor?: number;
+    polygonOffsetUnits?: number;
+  } = {}
+) => {
+  const { color, opacity, transparent } = parseColorWithOpacity(colorValue);
+  const material = new THREE.MeshBasicMaterial({
+    color,
+    transparent,
+    opacity,
+    depthTest: true,
+    depthWrite: !transparent,
+    polygonOffset: true,
+    polygonOffsetFactor,
+    polygonOffsetUnits,
+  });
+  material.alphaTest = 0;
+  return material;
+};
+
+const getGlobeObjectType = (object: THREE.Object3D) => {
+  let current: THREE.Object3D | null = object;
+  while (
+    current &&
+    !Object.prototype.hasOwnProperty.call(current, "__globeObjType")
+  ) {
+    current = current.parent;
+  }
+  const type = (current as { __globeObjType?: string } | null)?.__globeObjType;
+  return typeof type === "string" ? type : null;
+};
+
+const configurePolygonStrokeMaterials = (
+  scene: THREE.Scene,
+  colorValue: string
+) => {
+  const { color, opacity, transparent } = parseColorWithOpacity(colorValue);
+  scene.traverse((obj) => {
+    const isLine =
+      (obj as THREE.Line).isLine || (obj as THREE.LineSegments).isLineSegments;
+    if (!isLine) return;
+    if (getGlobeObjectType(obj) !== "polygon") return;
+    const materials = Array.isArray((obj as THREE.Line).material)
+      ? (obj as THREE.Line).material
+      : [(obj as THREE.Line).material];
+    const materialList = Array.isArray(materials) ? materials : [materials];
+    materialList.forEach((material) => {
+      if (!material || Array.isArray(material)) return;
+      const materialWithColor = material as THREE.Material & {
+        color?: THREE.Color;
+      };
+      if (materialWithColor.color) {
+        materialWithColor.color.copy(color);
+      }
+      material.transparent = transparent;
+      material.opacity = opacity;
+      material.depthTest = true;
+      material.depthWrite = false;
+      material.polygonOffset = false;
+      material.polygonOffsetFactor = 0;
+      material.polygonOffsetUnits = 0;
+      material.needsUpdate = true;
+    });
+    obj.renderOrder = POLYGON_STROKE_RENDER_ORDER;
+  });
+};
 
 const normalizeCountryCodeCandidate = (
   value: string | number | null | undefined
@@ -76,12 +184,16 @@ export default function GlobeGL({
 }: GlobeGLProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const globeRef = useRef<InstanceType<typeof Globe> | null>(null);
+  const capMaterialCacheRef =
+    useRef<Map<string, THREE.MeshBasicMaterial> | null>(null);
+  const sideMaterialRef = useRef<THREE.MeshBasicMaterial | null>(null);
   const hoveredCodeRef = useRef<string | null>(null);
   const selectedCodeRef = useRef<string | null>(selectedCountryCode ?? null);
   const lastFocusRef = useRef<string | null>(null);
   const selectedCountryRef = useRef<{ lat: number; lon: number } | null>(
     selectedCountry ?? null
   );
+  const polygonUpdateCountRef = useRef(0);
   const selectedLat = selectedCountry?.lat;
   const selectedLon = selectedCountry?.lon;
   const hasSelection =
@@ -100,6 +212,16 @@ export default function GlobeGL({
     callbacksRef.current = { onSelectCountry, onHoverCountry };
   }, [onSelectCountry, onHoverCountry]);
 
+  useEffect(() => {
+    if (!DEBUG_POLYGON_UPDATES) return;
+    const interval = window.setInterval(() => {
+      const count = polygonUpdateCountRef.current;
+      polygonUpdateCountRef.current = 0;
+      console.info(`[globe] updatePolygonColors: ${count}/s`);
+    }, 1000);
+    return () => window.clearInterval(interval);
+  }, []);
+
   const resolveCapColor = useCallback((poly: object) => {
     const feature = poly as CountryFeature;
     const code = getResolvedCountryCode(feature);
@@ -108,10 +230,29 @@ export default function GlobeGL({
     return DEFAULT_FILL;
   }, []);
 
+  const getCapMaterial = useCallback(
+    (poly: object) => {
+      const color = resolveCapColor(poly);
+      if (!capMaterialCacheRef.current) {
+        capMaterialCacheRef.current = new Map();
+      }
+      const cache = capMaterialCacheRef.current;
+      const cached = cache.get(color);
+      if (cached) return cached;
+      const material = createPolygonMaterial(color);
+      cache.set(color, material);
+      return material;
+    },
+    [resolveCapColor]
+  );
+
   const updatePolygonColors = useCallback(() => {
     if (!globeRef.current) return;
-    globeRef.current.polygonCapColor(resolveCapColor);
-  }, [resolveCapColor]);
+    if (DEBUG_POLYGON_UPDATES) {
+      polygonUpdateCountRef.current += 1;
+    }
+    globeRef.current.polygonCapMaterial(getCapMaterial);
+  }, [getCapMaterial]);
 
   useEffect(() => {
     selectedCodeRef.current = selectedCountryCode ?? null;
@@ -184,20 +325,32 @@ export default function GlobeGL({
     globeMaterial.emissive = new THREE.Color("#020617");
     globeMaterial.emissiveIntensity = 0.2;
 
+    capMaterialCacheRef.current = new Map();
+    const sideMaterial =
+      sideMaterialRef.current ?? createPolygonMaterial(SIDE_COLOR);
+    sideMaterialRef.current = sideMaterial;
+
     g.polygonsData(features)
       .polygonAltitude(POLYGON_ALTITUDE)
-      .polygonCapColor(resolveCapColor)
-      .polygonSideColor(() => SIDE_COLOR)
+      .polygonCapMaterial(getCapMaterial)
+      .polygonSideMaterial(sideMaterial)
       .polygonStrokeColor(() => STROKE_COLOR)
-      .polygonsTransitionDuration(250);
+      .polygonsTransitionDuration(POLYGONS_TRANSITION_MS);
+
+    requestAnimationFrame(() => {
+      if (cancelled) return;
+      configurePolygonStrokeMaterials(g.scene(), STROKE_COLOR);
+    });
 
     g.onPolygonHover((poly: object | null) => {
       const feature = poly as CountryFeature | null;
       const code = feature ? getResolvedCountryCode(feature) : null;
       const name = feature ? getCountryName(feature) : null;
-      hoveredCodeRef.current = code ?? null;
+      const nextCode = code ?? null;
+      if (hoveredCodeRef.current === nextCode) return;
+      hoveredCodeRef.current = nextCode;
       setHoveredName(name ?? null);
-      callbacksRef.current.onHoverCountry?.(code ?? null);
+      callbacksRef.current.onHoverCountry?.(nextCode);
       updatePolygonColors();
     });
 
@@ -317,18 +470,32 @@ export default function GlobeGL({
       }
       globeMaterial.map = null;
       globeMaterial.bumpMap = null;
+      if (capMaterialCacheRef.current) {
+        capMaterialCacheRef.current.forEach((material) => material.dispose());
+        capMaterialCacheRef.current.clear();
+        capMaterialCacheRef.current = null;
+      }
+      if (sideMaterialRef.current) {
+        sideMaterialRef.current.dispose();
+        sideMaterialRef.current = null;
+      }
       const controls = g.controls();
       controls.dispose();
       renderer.dispose();
       globeRef.current = null;
       node.innerHTML = "";
     };
-  }, [features, resolveCapColor, updatePolygonColors]);
+  }, [features, getCapMaterial, updatePolygonColors]);
 
   useEffect(() => {
-    if (!globeRef.current) return;
-    globeRef.current.polygonsData(features);
+    const globe = globeRef.current;
+    if (!globe) return;
+    globe.polygonsData(features);
     updatePolygonColors();
+    requestAnimationFrame(() => {
+      if (globeRef.current !== globe) return;
+      configurePolygonStrokeMaterials(globe.scene(), STROKE_COLOR);
+    });
   }, [features, updatePolygonColors]);
 
   return (

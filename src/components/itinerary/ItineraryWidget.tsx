@@ -6,6 +6,7 @@ import { buildGoogleDirectionsUrl } from "@/lib/maps/googleDirections";
 import { encodeItinerary } from "@/lib/itinerary/share";
 import type { Itinerary } from "@/lib/itinerary/types";
 import { useItinerary } from "@/lib/itinerary/store";
+import { estimateEtaMinutes, sumRouteKm } from "@/lib/map/distance";
 
 type ItineraryWidgetProps = {
   getMapCenter?: () => { lat: number; lon: number } | undefined;
@@ -29,6 +30,15 @@ const copyToClipboard = async (text: string) => {
   return ok;
 };
 
+const formatDuration = (minutes: number) => {
+  if (!Number.isFinite(minutes) || minutes <= 0) return "0 min";
+  const rounded = Math.round(minutes);
+  if (rounded < 60) return `${rounded} min`;
+  const hours = Math.floor(rounded / 60);
+  const remaining = rounded % 60;
+  return remaining ? `${hours} h ${remaining} min` : `${hours} h`;
+};
+
 export const ItineraryWidget = ({ getMapCenter }: ItineraryWidgetProps) => {
   const {
     selectedStops,
@@ -44,6 +54,14 @@ export const ItineraryWidget = ({ getMapCenter }: ItineraryWidgetProps) => {
 
   const canCreatePlan = selectedStops.length >= 2;
   const hasPlan = Boolean(optimizedStops?.length);
+  const distanceKm = useMemo(
+    () => (optimizedStops ? sumRouteKm(optimizedStops) : 0),
+    [optimizedStops]
+  );
+  const etaMin = useMemo(
+    () => (distanceKm ? estimateEtaMinutes(distanceKm, mode) : 0),
+    [distanceKm, mode]
+  );
 
   const directionsUrl = useMemo(
     () =>
@@ -152,6 +170,12 @@ export const ItineraryWidget = ({ getMapCenter }: ItineraryWidgetProps) => {
             <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
               Optimierte Route
             </p>
+            {distanceKm > 0 ? (
+              <div className="mt-3 flex items-center justify-between text-xs text-slate-300">
+                <span>Distanz: {distanceKm.toFixed(1)} km</span>
+                <span>Zeit: {formatDuration(etaMin)}</span>
+              </div>
+            ) : null}
             <ol className="mt-3 space-y-2 text-sm text-slate-200">
               {optimizedStops?.map((stop, index) => (
                 <li key={stop.id} className="flex items-start gap-3">
