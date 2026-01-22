@@ -322,7 +322,7 @@ export const ItineraryWidget = ({ getMapCenter }: ItineraryWidgetProps) => {
             onClick={reset}
             className="flex-1 text-slate-200 hover:bg-white/10"
           >
-            Zuruecksetzen
+            Zurücksetzen
           </Button>
         </div>
 

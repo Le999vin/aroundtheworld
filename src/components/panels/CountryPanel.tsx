@@ -454,12 +454,14 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
   if (!country || !focus) {
     return (
       <div className="fixed inset-x-4 bottom-6 z-20 flex justify-center md:right-6 md:top-20 md:bottom-6 md:left-auto md:w-[380px]">
-        <div className="w-full rounded-3xl border border-white/10 bg-white/5 p-6 text-center text-sm text-slate-200 backdrop-blur-lg md:text-left">
-          <p className="font-display text-2xl text-white">Select a country</p>
-          <p className="mt-2 text-slate-300">
-            Hover to preview. Click to focus and load weather plus highlights.
-          </p>
-          <div className="mt-5 h-[520px] max-h-[60vh] overflow-hidden text-left">
+        <div className="flex h-full min-h-0 w-full flex-col rounded-3xl border border-white/10 bg-white/5 p-6 text-center text-sm text-slate-200 backdrop-blur-lg md:text-left">
+          <div className="shrink-0">
+            <p className="font-display text-2xl text-white">Select a country</p>
+            <p className="mt-2 text-slate-300">
+              Hover to preview. Click to focus and load weather plus highlights.
+            </p>
+          </div>
+          <div className="mt-5 flex-1 min-h-0 flex flex-col text-left">
             <AtlasChat
               variant="panel"
               threadKey="global"
@@ -479,7 +481,7 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
       className="fixed inset-x-4 bottom-6 z-20 md:right-6 md:top-20 md:bottom-6 md:left-auto md:w-[380px]"
       aria-live="polite"
     >
-      <div className="flex h-full max-h-[72vh] flex-col gap-5 overflow-hidden rounded-[32px] border border-white/10 bg-white/10 p-6 text-white shadow-2xl backdrop-blur-xl md:max-h-full">
+      <div className="flex h-full min-h-0 max-h-[72vh] flex-col gap-5 overflow-hidden rounded-[32px] border border-white/10 bg-white/10 p-6 text-white shadow-2xl backdrop-blur-xl md:max-h-full">
         <div className="flex items-start justify-between gap-4">
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
@@ -694,7 +696,7 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
           </div>
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 min-h-0">
           <div className="flex items-center justify-between">
             <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
               Places to Visit

@@ -19,6 +19,9 @@ let tlsState: TlsState | null = null;
 
 const DEFAULT_TIMEOUT_MS = 8000;
 
+const isTruthyEnv = (value?: string) =>
+  value === "1" || value === "true" || value === "TRUE";
+
 const resolveTimeoutMs = () => {
   const raw = process.env.OPENWEATHER_TIMEOUT_MS;
   if (!raw) return DEFAULT_TIMEOUT_MS;
@@ -32,9 +35,9 @@ const resolveTlsState = (): TlsState => {
   const isDev = process.env.NODE_ENV !== "production";
   const allowInsecure =
     isDev &&
-    (process.env.ALLOW_INSECURE_TLS === "1" ||
-      process.env.ALLOW_INSECURE_TLS === "true" ||
-      process.env.ALLOW_INSECURE_SSL === "true");
+    (isTruthyEnv(process.env.ALLOW_INSECURE_TLS_FOR_DEV) ||
+      isTruthyEnv(process.env.ALLOW_INSECURE_TLS) ||
+      isTruthyEnv(process.env.ALLOW_INSECURE_SSL));
   if (allowInsecure) {
     tlsState = {
       mode: "insecure",
@@ -84,7 +87,7 @@ type HttpResponse = {
 };
 
 const TLS_HINT =
-  "Set NODE_EXTRA_CA_CERTS=... or ALLOW_INSECURE_TLS=1 (dev only).";
+  "Set NODE_EXTRA_CA_CERTS=... or ALLOW_INSECURE_TLS_FOR_DEV=1 (dev only).";
 
 const requestWithHttps = (
   url: URL,

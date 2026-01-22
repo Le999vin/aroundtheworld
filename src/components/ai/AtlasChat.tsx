@@ -353,13 +353,12 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
   return (
     <div
       className={cn(
-        "flex h-full flex-col rounded-3xl border border-white/10",
-        variant === "panel" ? "bg-white/5 p-4" : "bg-white/5 p-4"
+        "flex h-full min-h-0 flex-col overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-4"
       )}
     >
       <div
         className={cn(
-          "flex gap-3",
+          "flex shrink-0 gap-3",
           variant === "panel" ? "items-start justify-between" : "items-center justify-end"
         )}
       >
@@ -384,13 +383,13 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
         </Button>
       </div>
 
-      <div className="mt-4 flex-1 overflow-y-auto pr-1">
+      <div className="mt-4 flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-1">
         {messages.length === 0 ? (
           <div className="space-y-3 text-sm text-slate-300">
             <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
               Starter Prompts
             </p>
-            <div className="grid gap-2 sm:grid-cols-2">
+            <div className="grid grid-cols-2 gap-2">
               {prompts.map((prompt) => (
                 <Button
                   key={prompt}
@@ -399,7 +398,7 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
                   variant="outline"
                   onClick={() => handleSend(prompt)}
                   disabled={isStreaming}
-                  className="h-auto justify-start border-white/10 bg-white/5 text-left text-xs text-slate-100 hover:bg-white/10"
+                  className="min-w-0 w-full h-auto justify-start rounded-xl border-white/10 bg-white/5 px-3 py-2 text-left text-xs leading-snug text-slate-100 whitespace-normal break-words hover:bg-white/5"
                 >
                   {prompt}
                 </Button>
@@ -418,13 +417,13 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
               >
                 <div
                   className={cn(
-                    "max-w-[85%] rounded-2xl px-3 py-2 text-sm leading-relaxed",
+                    "min-w-0 max-w-[85%] break-words rounded-2xl px-3 py-2 text-sm leading-relaxed",
                     message.role === "user"
                       ? "bg-cyan-300/20 text-cyan-50"
                       : "bg-white/10 text-slate-100"
                   )}
                 >
-                  <p className="whitespace-pre-wrap">{message.content}</p>
+                  <p className="whitespace-pre-wrap break-words">{message.content}</p>
                 </div>
               </div>
             ))}
@@ -434,7 +433,7 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
       </div>
 
       {error ? (
-        <div className="mt-3 rounded-2xl border border-rose-300/30 bg-rose-500/10 px-3 py-2 text-xs text-rose-200">
+        <div className="mt-3 shrink-0 rounded-2xl border border-rose-300/30 bg-rose-500/10 px-3 py-2 text-xs text-rose-200">
           <p>{error}</p>
           <Button
             type="button"
@@ -448,34 +447,36 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
         </div>
       ) : null}
 
-      <div className="mt-4 rounded-2xl border border-white/10 bg-white/5 p-2">
-        <textarea
-          rows={2}
-          value={input}
-          onChange={(event) => setInput(event.target.value)}
-          onKeyDown={(event) => {
-            if (event.key === "Enter" && !event.shiftKey) {
-              event.preventDefault();
-              handleSend();
-            }
-          }}
-          placeholder="Frag den Atlas Assistant..."
-          disabled={isStreaming}
-          className="w-full resize-none rounded-xl border border-white/10 bg-transparent px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30 disabled:cursor-not-allowed disabled:opacity-60"
-        />
-        <div className="mt-2 flex items-center justify-between">
-          <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-            {isStreaming ? "Antwort wird geladen..." : "Enter zum Senden"}
-          </p>
-          <Button
-            type="button"
-            size="sm"
-            variant="secondary"
-            onClick={() => handleSend()}
-            disabled={isStreaming || input.trim().length === 0}
-          >
-            Send
-          </Button>
+      <div className="mt-4 shrink-0 border-t border-white/10 pt-4">
+        <div className="rounded-2xl border border-white/10 bg-white/5 p-2">
+          <textarea
+            rows={2}
+            value={input}
+            onChange={(event) => setInput(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" && !event.shiftKey) {
+                event.preventDefault();
+                handleSend();
+              }
+            }}
+            placeholder="Frag den Atlas Assistant..."
+            disabled={isStreaming}
+            className="w-full resize-none rounded-xl border border-white/10 bg-transparent px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30 disabled:cursor-not-allowed disabled:opacity-60"
+          />
+          <div className="mt-2 flex items-center justify-between">
+            <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
+              {isStreaming ? "Antwort wird geladen..." : "Enter zum Senden"}
+            </p>
+            <Button
+              type="button"
+              size="sm"
+              variant="secondary"
+              onClick={() => handleSend()}
+              disabled={isStreaming || input.trim().length === 0}
+            >
+              Send
+            </Button>
+          </div>
         </div>
       </div>
     </div>

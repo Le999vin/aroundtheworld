@@ -11,6 +11,7 @@ type IncomingBody = {
 
 type OllamaChatChunk = {
   message?: { role?: string; content?: string };
+  response?: string;
   done?: boolean;
   error?: string;
 };
@@ -34,6 +35,43 @@ const buildContextSummary = (context?: AiChatContext) => {
   // Keep it short, avoid huge JSON
   const safe = JSON.stringify(context).slice(0, 1600);
   return `Context:\n${safe}`;
+};
+
+const getErrorCode = (error: unknown) => {
+  if (!error || typeof error !== "object") return undefined;
+  const record = error as { code?: string; cause?: { code?: string } };
+  return record.code ?? record.cause?.code;
+};
+
+const isOllamaUnavailable = (error: unknown) => {
+  const code = getErrorCode(error);
+  if (!code) {
+    const message = error instanceof Error ? error.message : String(error ?? "");
+    return message.includes("ECONNREFUSED") || message.includes("connect ECONNREFUSED");
+  }
+  return (
+    code === "ECONNREFUSED" ||
+    code === "ENOTFOUND" ||
+    code === "EAI_AGAIN" ||
+    code === "EHOSTUNREACH"
+  );
+};
+
+const extractOllamaText = (raw: string) => {
+  if (!raw) return "";
+  try {
+    const parsed = JSON.parse(raw) as {
+      message?: { content?: string };
+      response?: string;
+      content?: string;
+    };
+    if (isNonEmptyString(parsed?.message?.content)) return parsed.message.content;
+    if (isNonEmptyString(parsed?.response)) return parsed.response;
+    if (isNonEmptyString(parsed?.content)) return parsed.content;
+  } catch {
+    // fall through
+  }
+  return raw;
 };
 
 export async function POST(request: Request) {
@@ -99,9 +137,32 @@ export async function POST(request: Request) {
           cache: "no-store",
         });
 
-        if (!upstream.ok || !upstream.body) {
+        if (!upstream.ok) {
           const text = await upstream.text().catch(() => "");
           send("error", `Ollama upstream failed (${upstream.status}). ${text.slice(0, 200)}`);
+          controller.close();
+          return;
+        }
+
+        const contentType = upstream.headers.get("content-type") ?? "";
+        const isNdjson = contentType.includes("application/x-ndjson");
+        const isJson = contentType.includes("application/json");
+
+        if (!upstream.body) {
+          send("error", "Ollama response was empty.");
+          controller.close();
+          return;
+        }
+
+        if (!isNdjson && isJson) {
+          const raw = await upstream.text().catch(() => "");
+          const fallbackText = extractOllamaText(raw);
+          if (isNonEmptyString(fallbackText)) {
+            send("delta", fallbackText);
+            send("done", "[DONE]");
+          } else {
+            send("error", "Ollama response was empty.");
+          }
           controller.close();
           return;
         }
@@ -109,6 +170,13 @@ export async function POST(request: Request) {
         const reader = upstream.body.getReader();
         const dec = new TextDecoder();
         let buffer = "";
+        let hadDelta = false;
+
+        const emitDelta = (value?: string) => {
+          if (!isNonEmptyString(value)) return;
+          hadDelta = true;
+          send("delta", value);
+        };
 
         while (true) {
           const { value, done } = await reader.read();
@@ -138,15 +206,24 @@ export async function POST(request: Request) {
               return;
             }
 
-            const delta = chunk?.message?.content;
-            if (isNonEmptyString(delta)) {
-              send("delta", delta);
-            }
+            emitDelta(chunk?.message?.content ?? chunk?.response);
 
             if (chunk?.done) {
               send("done", "[DONE]");
               controller.close();
               return;
+            }
+          }
+        }
+
+        const trimmed = buffer.trim();
+        if (trimmed.length) {
+          try {
+            const parsed = JSON.parse(trimmed) as OllamaChatChunk;
+            emitDelta(parsed?.message?.content ?? parsed?.response);
+          } catch {
+            if (!hadDelta) {
+              emitDelta(trimmed);
             }
           }
         }
@@ -158,6 +235,11 @@ export async function POST(request: Request) {
         const msg = e instanceof Error ? e.message : String(e);
         if (abort.signal.aborted) {
           send("error", "Ollama timeout (keine Daten).");
+        } else if (isOllamaUnavailable(e)) {
+          send(
+            "error",
+            "Ollama laeuft nicht. Starte Ollama und stelle sicher, dass http://127.0.0.1:11434 erreichbar ist."
+          );
         } else {
           send("error", `Ollama request failed: ${msg}`);
         }

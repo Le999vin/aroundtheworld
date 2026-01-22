@@ -50,6 +50,9 @@ Die Datei `.env.local` ist in `.gitignore` und darf nie committed werden.
 # Providers
 WEATHER_PROVIDER=openweather
 GEOCODING_PROVIDER=photon
+AI_PROVIDER=ollama
+OLLAMA_BASE_URL=http://127.0.0.1:11434
+OLLAMA_MODEL=llama3.1:8b
 
 # Keys
 OPENWEATHER_API_KEY=YOUR_OPENWEATHER_API_KEY
@@ -67,7 +70,7 @@ NEXT_PUBLIC_MAP_STYLE_URL=https://demotiles.maplibre.org/style.json
 NODE_EXTRA_CA_CERTS=C:\\path\\to\\corp-root.pem
 
 # Optional: Dev-only TLS fallback (NICHT in Produktion)
-ALLOW_INSECURE_TLS=1
+ALLOW_INSECURE_TLS_FOR_DEV=1
 ```
 
 ### Warum diese Variablen
@@ -77,7 +80,8 @@ ALLOW_INSECURE_TLS=1
 - `NEXT_PUBLIC_DEFAULT_UNITS`, `NEXT_PUBLIC_DEFAULT_LANG`: Wetter Einheiten und Sprache.
 - `NEXT_PUBLIC_MAP_STYLE_URL`: optionaler MapLibre Style.
 - `NODE_EXTRA_CA_CERTS`: Pfad zu einem PEM mit zusaetzlichen Root CAs (z.B. Firmen-Proxy).
-- `ALLOW_INSECURE_TLS`: Dev-only Toggle fuer TLS Workaround. Nie in Produktion aktivieren.
+- `AI_PROVIDER`, `OLLAMA_BASE_URL`, `OLLAMA_MODEL`: Lokaler AI Provider (Ollama).
+- `ALLOW_INSECURE_TLS_FOR_DEV`: Dev-only Toggle fuer TLS Workaround. Nie in Produktion aktivieren.
 
 ### Vercel Setup
 1. Project in Vercel importieren.
@@ -308,7 +312,7 @@ Ein POI ist ein JSON Objekt mit stabiler ID, Kategorie und Koordinaten.
   - Exportiere das Firmen-Root-Zertifikat als PEM.
   - Setze `NODE_EXTRA_CA_CERTS=C:\path\to\corp-root.pem`.
   - Terminal neu starten und `npm run dev` erneut starten.
-  - `ALLOW_INSECURE_TLS=1` ist nur fuer lokale Entwicklung und nicht empfohlen.
+  - `ALLOW_INSECURE_TLS_FOR_DEV=1` ist nur fuer lokale Entwicklung und nicht empfohlen.
   - Kurztest: ueber Handy-Hotspot pruefen, ob der Proxy/CA das Problem ist.
 - **Windows curl.exe Fehler (Schannel):** Verwende Browser oder PowerShell `irm` statt `curl.exe`.
 - **/map Search Params:** In Next.js App Router kann `searchParams` ein Promise sein. Immer via `await Promise.resolve(searchParams ?? {})` lesen.

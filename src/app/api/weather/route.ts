@@ -53,7 +53,9 @@ const getUpstreamHint = (serviceError: ServiceError): string | null => {
   const code = findErrorCode(serviceError.details);
   if (
     code === "UNABLE_TO_GET_ISSUER_CERT_LOCALLY" ||
-    code === "SELF_SIGNED_CERT_IN_CHAIN"
+    code === "SELF_SIGNED_CERT_IN_CHAIN" ||
+    code === "DEPTH_ZERO_SELF_SIGNED_CERT" ||
+    code === "ERR_TLS_CERT_ALTNAME_INVALID"
   ) {
     return "ssl_error";
   }
@@ -68,7 +70,13 @@ const getUpstreamHint = (serviceError: ServiceError): string | null => {
   return "upstream_error";
 };
 
-const getFriendlyMessage = (serviceError: ServiceError) => {
+const getFriendlyMessage = (
+  serviceError: ServiceError,
+  upstreamHint: string | null
+) => {
+  if (upstreamHint === "ssl_error") {
+    return "TLS Zertifikat nicht vertrauenswuerdig. Bitte Proxy/CA konfigurieren.";
+  }
   switch (serviceError.code) {
     case "bad_request":
       return "Invalid or missing lat/lon";
@@ -97,14 +105,15 @@ const mapStatus = (serviceError: ServiceError) => {
 
 const buildWeatherErrorBody = (
   serviceError: ServiceError,
-  debugId: string
+  debugId: string,
+  upstreamHint = getUpstreamHint(serviceError)
 ): WeatherErrorBody => {
-  const message = getFriendlyMessage(serviceError);
+  const message = getFriendlyMessage(serviceError, upstreamHint);
   return {
     error: message,
     message,
     code: serviceError.code,
-    upstreamHint: getUpstreamHint(serviceError),
+    upstreamHint,
     debugId,
   };
 };
@@ -170,6 +179,7 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     const serviceError = toServiceError(error);
     const debugId = randomUUID();
+    const upstreamHint = getUpstreamHint(serviceError);
     const fallback = weatherFallbackCache.get(cacheKey);
     if (fallback) {
       const now = Date.now();
@@ -178,13 +188,21 @@ export async function GET(request: NextRequest) {
         console.warn("[api/weather] using stale cache", {
           debugId,
           code: serviceError.code,
-          hint: getUpstreamHint(serviceError),
+          hint: upstreamHint,
         });
         weatherFailureLog.set(cacheKey, now);
       }
       return NextResponse.json(fallback);
     }
 
+    if (process.env.NODE_ENV !== "production" && upstreamHint === "ssl_error") {
+      console.warn(
+        "[api/weather] TLS Zertifikat nicht vertrauenswuerdig (UNABLE_TO_GET_ISSUER_CERT_LOCALLY). Ursache oft: Proxy/Antivirus/Corporate MITM."
+      );
+      console.warn(
+        "[api/weather] Hinweis: Setze NODE_EXTRA_CA_CERTS oder ALLOW_INSECURE_TLS_FOR_DEV=1 (nur lokal)."
+      );
+    }
     logServiceError("api/weather", serviceError);
     if (serviceError.details) {
       console.error("[api/weather] details", {
@@ -192,7 +210,7 @@ export async function GET(request: NextRequest) {
         details: serviceError.details,
       });
     }
-    const body = buildWeatherErrorBody(serviceError, debugId);
+    const body = buildWeatherErrorBody(serviceError, debugId, upstreamHint);
     const status = mapStatus(serviceError);
     return NextResponse.json(body, { status });
   }
