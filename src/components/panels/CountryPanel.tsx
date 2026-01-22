@@ -1,15 +1,41 @@
 // rechte/untere Info-Karte mit Wetter + Places
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { AtlasChat } from "@/components/ai/AtlasChat";
+import { ChatFab } from "@/components/ai/ChatFab";
+import { ChatSheet } from "@/components/ai/ChatSheet";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from "@/components/ui/sheet";
 import { Skeleton } from "@/components/ui/skeleton";
-import type { Country, Focus, POI, WeatherData } from "@/lib/types";
+import { AIRPORTS } from "@/lib/flights/airports";
+import { buildGoogleFlightsUrl } from "@/lib/flights/links";
+import { requestDeviceLocation } from "@/lib/flights/location";
+import { resolveDeparture } from "@/lib/flights/resolveAirport";
+import {
+  defaultOrigin,
+  loadOrigin,
+  saveOrigin,
+} from "@/lib/flights/originStore";
+import type { TravelOrigin } from "@/lib/flights/types";
+import type { AiChatContext } from "@/lib/ai/types";
+import type {
+  Country,
+  Focus,
+  GeocodeResult,
+  POI,
+  WeatherData,
+} from "@/lib/types";
 
 const formatPopulation = (value?: number) => {
   if (!value) return "-";
@@ -203,6 +229,19 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
   const reduceMotion = useReducedMotion();
   const weatherState = useCountryWeather(focus);
   const placesState = useCountryPlaces(country, focus);
+  const [origin, setOrigin] = useState<TravelOrigin>(() => loadOrigin() ?? defaultOrigin());
+  const [originStatus, setOriginStatus] = useState<"idle" | "loading" | "error">("idle");
+  const [originHint, setOriginHint] = useState<string | null>(null);
+  const [isOriginSheetOpen, setIsOriginSheetOpen] = useState(false);
+  const [geocodeQuery, setGeocodeQuery] = useState("");
+  const [geocodeResults, setGeocodeResults] = useState<GeocodeResult[]>([]);
+  const [geocodeStatus, setGeocodeStatus] = useState<"idle" | "loading" | "error">("idle");
+  const [departDate, setDepartDate] = useState("");
+  const [returnDate, setReturnDate] = useState("");
+  const [roundTrip, setRoundTrip] = useState(false);
+  const [airportSelection, setAirportSelection] = useState("");
+  const [chatOpen, setChatOpen] = useState(false);
+  const deviceAttemptedRef = useRef(false);
 
   const poiCards = useMemo<POI[]>(
     () => placesState.data?.slice(0, 5) ?? [],
@@ -214,14 +253,219 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
     return placesState.data.some((poi) => poi.cityId) ? "Local" : "Curated";
   }, [placesState.data]);
 
+  const originHasCoords = useMemo(
+    () => isValidLatLon(origin.lat, origin.lon),
+    [origin.lat, origin.lon]
+  );
+
+  const departure = useMemo(() => resolveDeparture(origin), [origin]);
+
+  const destinations = useMemo(() => {
+    if (!country || !focus) return [];
+    const candidates: string[] = [];
+    if (focus.kind === "city" && focus.name) {
+      candidates.push(focus.name);
+    }
+    if (country.capital) {
+      candidates.push(country.capital);
+    }
+    if (country.topCities?.length) {
+      candidates.push(...country.topCities.map((city) => city.name));
+    }
+    const seen = new Set<string>();
+    const unique: string[] = [];
+    for (const name of candidates) {
+      const trimmed = name.trim();
+      if (!trimmed) continue;
+      const key = trimmed.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      unique.push(trimmed);
+      if (unique.length >= 6) break;
+    }
+    return unique;
+  }, [country, focus]);
+
+  const threadKey = useMemo(
+    () => country?.code || country?.name || "global",
+    [country]
+  );
+
+  const aiContext = useMemo<AiChatContext>(() => {
+    if (!country) {
+      return { mode: "explore" };
+    }
+    return {
+      mode: "country",
+      country: {
+        code: country.code,
+        name: country.name,
+        capital: country.capital,
+        topCities: country.topCities?.slice(0, 6),
+      },
+      weather: weatherState.data ?? null,
+      flights: {
+        departureLabel: departure.label,
+        departureIata: departure.iata,
+        destinations,
+      },
+    };
+  }, [country, departure.iata, departure.label, destinations, weatherState.data]);
+
+  const showGeocodeEmpty =
+    geocodeQuery.trim().length >= 2 &&
+    geocodeStatus === "idle" &&
+    geocodeResults.length === 0;
+
+  const attemptDeviceLocation = useCallback(async (force = false) => {
+    if (!force && deviceAttemptedRef.current) return;
+    deviceAttemptedRef.current = true;
+    setOriginStatus("loading");
+    setOriginHint(null);
+    try {
+      const coords = await requestDeviceLocation();
+      const nextOrigin: TravelOrigin = {
+        mode: "device",
+        label: "Mein Standort",
+        lat: coords.lat,
+        lon: coords.lon,
+        accuracy: coords.accuracy,
+        updatedAt: Date.now(),
+      };
+      setOrigin(nextOrigin);
+      saveOrigin(nextOrigin);
+      setOriginStatus("idle");
+    } catch {
+      setOriginStatus("error");
+      setOriginHint("Standort nicht verfuegbar - Standard: ZRH (aenderbar)");
+    }
+  }, []);
+
+  const applyCustomOrigin = useCallback((nextOrigin: TravelOrigin) => {
+    setOrigin(nextOrigin);
+    saveOrigin(nextOrigin);
+    setOriginStatus("idle");
+    setOriginHint(null);
+  }, []);
+
+  const handleUseDeviceOrigin = useCallback(() => {
+    const nextOrigin: TravelOrigin = {
+      mode: "device",
+      label: "Mein Standort",
+      updatedAt: Date.now(),
+    };
+    setOrigin(nextOrigin);
+    saveOrigin(nextOrigin);
+    setOriginStatus("idle");
+    setOriginHint(null);
+    deviceAttemptedRef.current = false;
+    attemptDeviceLocation(true);
+    setIsOriginSheetOpen(false);
+  }, [attemptDeviceLocation]);
+
+  const handleGeocodeSearch = useCallback(async () => {
+    const query = geocodeQuery.trim();
+    if (query.length < 2) {
+      setGeocodeResults([]);
+      setGeocodeStatus("idle");
+      return;
+    }
+    setGeocodeStatus("loading");
+    try {
+      const response = await fetch(`/api/geocode?q=${encodeURIComponent(query)}`);
+      if (!response.ok) throw new Error("Geocode failed");
+      const data = (await response.json()) as GeocodeResult[];
+      setGeocodeResults(Array.isArray(data) ? data : []);
+      setGeocodeStatus("idle");
+    } catch {
+      setGeocodeResults([]);
+      setGeocodeStatus("error");
+    }
+  }, [geocodeQuery]);
+
+  const handleSelectGeocodeResult = useCallback(
+    (result: GeocodeResult) => {
+      const label = result.country
+        ? `${result.name}, ${result.country}`
+        : result.name;
+      const nextOrigin: TravelOrigin = {
+        mode: "custom",
+        label,
+        lat: result.lat,
+        lon: result.lon,
+        updatedAt: Date.now(),
+      };
+      applyCustomOrigin(nextOrigin);
+      setGeocodeResults([]);
+      setGeocodeStatus("idle");
+      setGeocodeQuery(label);
+      setAirportSelection("");
+      setIsOriginSheetOpen(false);
+    },
+    [applyCustomOrigin]
+  );
+
+  const handleAirportSelect = useCallback(
+    (iata: string) => {
+      if (!iata) return;
+      const selected = AIRPORTS.find((airport) => airport.iata === iata);
+      if (!selected) return;
+      const nextOrigin: TravelOrigin = {
+        mode: "custom",
+        label: `${selected.iata} (${selected.city})`,
+        lat: selected.lat,
+        lon: selected.lon,
+        updatedAt: Date.now(),
+      };
+      applyCustomOrigin(nextOrigin);
+      setAirportSelection(iata);
+      setIsOriginSheetOpen(false);
+    },
+    [applyCustomOrigin]
+  );
+
+  const handleOpenFlights = useCallback(
+    (destination: string) => {
+      const departDateValue = departDate.trim() || undefined;
+      const returnDateValue =
+        roundTrip && returnDate.trim().length > 0 ? returnDate.trim() : undefined;
+      const url = buildGoogleFlightsUrl({
+        fromLabelOrIata: departure.iata,
+        toLabelOrIata: destination,
+        departDate: departDateValue,
+        returnDate: returnDateValue,
+      });
+      window.open(url, "_blank", "noopener,noreferrer");
+    },
+    [departDate, departure.iata, returnDate, roundTrip]
+  );
+
+  useEffect(() => {
+    if (!roundTrip) {
+      setReturnDate("");
+    }
+  }, [roundTrip]);
+
+  useEffect(() => {
+    if (origin.mode !== "device" || originHasCoords) return;
+    attemptDeviceLocation(false);
+  }, [attemptDeviceLocation, origin.mode, originHasCoords]);
+
   if (!country || !focus) {
     return (
-      <div className="pointer-events-none fixed inset-x-4 bottom-6 z-20 flex justify-center md:right-6 md:top-20 md:bottom-6 md:left-auto md:w-[380px]">
+      <div className="fixed inset-x-4 bottom-6 z-20 flex justify-center md:right-6 md:top-20 md:bottom-6 md:left-auto md:w-[380px]">
         <div className="w-full rounded-3xl border border-white/10 bg-white/5 p-6 text-center text-sm text-slate-200 backdrop-blur-lg md:text-left">
           <p className="font-display text-2xl text-white">Select a country</p>
           <p className="mt-2 text-slate-300">
             Hover to preview. Click to focus and load weather plus highlights.
           </p>
+          <div className="mt-5 h-[520px] max-h-[60vh] overflow-hidden text-left">
+            <AtlasChat
+              variant="panel"
+              threadKey="global"
+              context={{ mode: "explore" }}
+            />
+          </div>
         </div>
       </div>
     );
@@ -251,6 +495,7 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
               </Badge>
             </div>
           </div>
+          <ChatFab onClick={() => setChatOpen(true)} />
         </div>
 
         <Card className="border-white/10 bg-white/5 p-4">
@@ -337,6 +582,105 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
           )}
         </Card>
 
+        <Card className="border-white/10 bg-white/5 p-4">
+          <div className="flex items-center justify-between">
+            <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
+              Fluege
+            </p>
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              onClick={() => setIsOriginSheetOpen(true)}
+              className="border-white/15 bg-white/5 text-white hover:bg-white/10"
+            >
+              ändern
+            </Button>
+          </div>
+
+          <div className="mt-3 rounded-2xl border border-white/10 bg-white/5 px-3 py-2">
+            <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
+              Von
+            </p>
+            {originStatus === "loading" ? (
+              <div className="mt-2 space-y-2">
+                <Skeleton className="h-4 w-32 bg-white/10" />
+                <Skeleton className="h-3 w-24 bg-white/10" />
+              </div>
+            ) : (
+              <>
+                <p className="mt-1 text-sm text-slate-100">{departure.label}</p>
+                {origin.mode === "device" ? (
+                  <p className="mt-1 text-[10px] text-slate-400">
+                    Quelle: {origin.label}
+                  </p>
+                ) : null}
+              </>
+            )}
+            {originHint ? (
+              <p className="mt-2 text-xs text-amber-200">{originHint}</p>
+            ) : null}
+          </div>
+
+          <div className="mt-3 grid gap-3 text-xs text-slate-200">
+            <label className="grid gap-2">
+              <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
+                Hinflug
+              </span>
+              <input
+                type="date"
+                value={departDate}
+                onChange={(event) => setDepartDate(event.target.value)}
+                className="rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
+              />
+            </label>
+            <label className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-3 py-2">
+              <span>Rueckflug</span>
+              <input
+                type="checkbox"
+                checked={roundTrip}
+                onChange={(event) => setRoundTrip(event.target.checked)}
+                className="h-4 w-4 accent-cyan-300"
+              />
+            </label>
+            <label className="grid gap-2">
+              <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
+                Rueckflug Datum
+              </span>
+              <input
+                type="date"
+                value={returnDate}
+                onChange={(event) => setReturnDate(event.target.value)}
+                disabled={!roundTrip}
+                className="rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30 disabled:cursor-not-allowed disabled:opacity-60"
+              />
+            </label>
+          </div>
+
+          <div className="mt-4">
+            <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
+              Ziele
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {destinations.length ? (
+                destinations.map((destination) => (
+                  <Button
+                    key={`flight-${destination}`}
+                    type="button"
+                    size="sm"
+                    variant="secondary"
+                    onClick={() => handleOpenFlights(destination)}
+                  >
+                    {destination}
+                  </Button>
+                ))
+              ) : (
+                <span className="text-sm text-slate-400">Keine Ziele</span>
+              )}
+            </div>
+          </div>
+        </Card>
+
         <div>
           <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
             Top Cities
@@ -397,6 +741,132 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
           )}
         </div>
 
+        <Sheet open={isOriginSheetOpen} onOpenChange={setIsOriginSheetOpen}>
+          <SheetContent
+            side="right"
+            className="w-[380px] max-w-[92vw] rounded-l-[32px] border-l border-white/10 bg-slate-950/95 text-white shadow-2xl backdrop-blur-xl"
+          >
+            <SheetHeader className="border-b border-white/10 px-6 pb-4 pt-6">
+              <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                Abflug
+              </p>
+              <SheetTitle className="font-display text-2xl text-white">
+                Abflugort waehlen
+              </SheetTitle>
+            </SheetHeader>
+            <div className="flex-1 space-y-6 overflow-y-auto px-6 pb-6">
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                  Mein Standort verwenden
+                </p>
+                <p className="mt-2 text-xs text-slate-400">
+                  Nutzt den aktuellen Standort fuer den Abflug.
+                </p>
+                <Button
+                  type="button"
+                  variant="secondary"
+                  onClick={handleUseDeviceOrigin}
+                  className="mt-3 w-full"
+                >
+                  Mein Standort verwenden
+                </Button>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                  Ort suchen
+                </p>
+                <div className="mt-2 flex gap-2">
+                  <input
+                    type="text"
+                    value={geocodeQuery}
+                    onChange={(event) => {
+                      const nextValue = event.target.value;
+                      setGeocodeQuery(nextValue);
+                      if (nextValue.trim().length < 2) {
+                        setGeocodeResults([]);
+                        setGeocodeStatus("idle");
+                      }
+                    }}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter") {
+                        event.preventDefault();
+                        handleGeocodeSearch();
+                      }
+                    }}
+                    placeholder="Stadt oder Adresse"
+                    className="flex-1 rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 placeholder:text-slate-500 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
+                  />
+                  <Button
+                    type="button"
+                    size="sm"
+                    variant="outline"
+                    onClick={handleGeocodeSearch}
+                    disabled={geocodeStatus === "loading"}
+                    className="border-white/15 bg-white/5 text-white hover:bg-white/10"
+                  >
+                    Suchen
+                  </Button>
+                </div>
+                {geocodeStatus === "loading" ? (
+                  <div className="mt-3 space-y-2">
+                    {Array.from({ length: 3 }).map((_, index) => (
+                      <Skeleton
+                        key={`geocode-skel-${index}`}
+                        className="h-8 w-full bg-white/10"
+                      />
+                    ))}
+                  </div>
+                ) : null}
+                {geocodeStatus === "error" ? (
+                  <p className="mt-2 text-xs text-rose-300">
+                    Suche fehlgeschlagen.
+                  </p>
+                ) : null}
+                {geocodeResults.length ? (
+                  <div className="mt-3 space-y-2">
+                    {geocodeResults.map((result, index) => (
+                      <button
+                        key={`${result.name}-${result.lat}-${result.lon}-${index}`}
+                        type="button"
+                        onClick={() => handleSelectGeocodeResult(result)}
+                        className="w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-left transition hover:border-white/30"
+                      >
+                        <p className="text-sm text-white">{result.name}</p>
+                        <p className="text-[10px] uppercase tracking-[0.2em] text-slate-400">
+                          {result.country ?? result.type ?? "Ort"}
+                        </p>
+                      </button>
+                    ))}
+                  </div>
+                ) : showGeocodeEmpty ? (
+                  <p className="mt-2 text-xs text-slate-400">
+                    Keine Treffer.
+                  </p>
+                ) : null}
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                  Flughafen waehlen
+                </p>
+                <select
+                  value={airportSelection}
+                  onChange={(event) => handleAirportSelect(event.target.value)}
+                  className="mt-3 w-full rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
+                >
+                  <option value="">Bitte waehlen</option>
+                  {AIRPORTS.map((airport) => (
+                    <option key={airport.iata} value={airport.iata}>
+                      {airport.iata} - {airport.city}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+          </SheetContent>
+        </Sheet>
+
         <Link
           href={
             focus.kind === "city"
@@ -407,6 +877,12 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
           <Button className="w-full md:hidden">Open Map</Button>
         </Link>
       </div>
+      <ChatSheet
+        open={chatOpen}
+        onOpenChange={setChatOpen}
+        threadKey={threadKey}
+        context={aiContext}
+      />
     </motion.aside>
   );
 };

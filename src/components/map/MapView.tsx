@@ -99,6 +99,8 @@ const MapViewContent = ({
   const {
     selectedStops,
     optimizedStops,
+    originCoordinates,
+    settings,
     isPlanFull,
     maxStops,
     hydrated,
@@ -141,10 +143,17 @@ const MapViewContent = ({
     () => new Set(selectedStops.map((stop) => stop.id)),
     [selectedStops]
   );
-  const routeCoordinates = useMemo(
-    () => optimizedStops?.map((stop) => [stop.lon, stop.lat]) ?? [],
-    [optimizedStops]
-  );
+  const routeCoordinates = useMemo(() => {
+    if (!optimizedStops?.length) return [];
+    const coordinates: [number, number][] = [
+      [originCoordinates.lon, originCoordinates.lat],
+      ...optimizedStops.map((stop) => [stop.lon, stop.lat] as [number, number]),
+    ];
+    if (settings.roundTrip) {
+      coordinates.push([originCoordinates.lon, originCoordinates.lat]);
+    }
+    return coordinates;
+  }, [optimizedStops, originCoordinates, settings.roundTrip]);
   const routeGeoJson = useMemo(
     () => ({
       type: "Feature" as const,
@@ -608,7 +617,7 @@ const MapViewContent = ({
                   onClick={handleClearSelectedCity}
                   className="border-white/15 bg-white/5 text-white hover:bg-white/10"
                 >
-                  Zurueck
+                  Zurück
                 </Button>
               </div>
               <div className="mt-3 flex flex-wrap gap-2">
@@ -796,6 +805,17 @@ const MapViewContent = ({
                 }}
               />
             </Source>
+          ) : null}
+          {showRoute && optimizedStops?.length ? (
+            <Marker
+              longitude={originCoordinates.lon}
+              latitude={originCoordinates.lat}
+              anchor="bottom"
+            >
+              <div className="pointer-events-none flex h-8 w-8 items-center justify-center rounded-full border border-emerald-200/80 bg-emerald-300 text-[10px] font-semibold text-emerald-950 shadow-lg">
+                Start
+              </div>
+            </Marker>
           ) : null}
           {showRoute && itineraryStopsGeoJson ? (
             <Source id="itinerary-stops" type="geojson" data={itineraryStopsGeoJson}>
@@ -1011,7 +1031,7 @@ const MapViewContent = ({
 };
 
 export const MapView = (props: MapViewProps) => (
-  <ItineraryProvider>
+  <ItineraryProvider defaultOrigin={props.defaultCenter}>
     <MapViewContent {...props} />
   </ItineraryProvider>
 );

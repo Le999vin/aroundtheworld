@@ -32,6 +32,21 @@ export const sumRouteKm = (points: Coordinates[]) => {
   return total;
 };
 
+export const sumRouteKmWithOrigin = (
+  origin: Coordinates | undefined,
+  stops: Coordinates[],
+  roundTrip: boolean
+) => {
+  if (!origin) {
+    return sumRouteKm(stops);
+  }
+  const route = [origin, ...stops];
+  if (roundTrip) {
+    route.push(origin);
+  }
+  return sumRouteKm(route);
+};
+
 export const estimateEtaMinutes = (
   distanceKm: number,
   mode: "walk" | "drive"

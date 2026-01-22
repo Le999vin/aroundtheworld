@@ -1,0 +1,68 @@
+import type { Airport } from "@/lib/flights/types";
+
+export const AIRPORTS: Airport[] = [
+  {
+    iata: "ZRH",
+    name: "Zurich Airport",
+    city: "Zurich",
+    countryCode: "CH",
+    lat: 47.4581,
+    lon: 8.5555,
+  },
+  {
+    iata: "GVA",
+    name: "Geneva Airport",
+    city: "Geneva",
+    countryCode: "CH",
+    lat: 46.2381,
+    lon: 6.109,
+  },
+  {
+    iata: "BSL",
+    name: "EuroAirport",
+    city: "Basel",
+    countryCode: "CH",
+    lat: 47.59,
+    lon: 7.5299,
+  },
+  {
+    iata: "FRA",
+    name: "Frankfurt Airport",
+    city: "Frankfurt",
+    countryCode: "DE",
+    lat: 50.0379,
+    lon: 8.5622,
+  },
+  {
+    iata: "MUC",
+    name: "Munich Airport",
+    city: "Munich",
+    countryCode: "DE",
+    lat: 48.3538,
+    lon: 11.7861,
+  },
+  {
+    iata: "CDG",
+    name: "Charles de Gaulle",
+    city: "Paris",
+    countryCode: "FR",
+    lat: 49.0097,
+    lon: 2.5479,
+  },
+  {
+    iata: "AMS",
+    name: "Schiphol",
+    city: "Amsterdam",
+    countryCode: "NL",
+    lat: 52.3105,
+    lon: 4.7683,
+  },
+  {
+    iata: "LHR",
+    name: "Heathrow",
+    city: "London",
+    countryCode: "GB",
+    lat: 51.47,
+    lon: -0.4543,
+  },
+];
