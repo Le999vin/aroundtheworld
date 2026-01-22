@@ -15,8 +15,9 @@ export const ChatFab = ({ onClick, className }: ChatFabProps) => (
     size="sm"
     variant="secondary"
     onClick={onClick}
+    aria-label="Chat öffnen"
     className={cn(
-      "rounded-full border border-white/10 bg-white/10 text-white shadow-lg hover:bg-white/20",
+      "gap-2 rounded-full border border-white/10 bg-white/10 text-white shadow-lg hover:bg-white/20",
       className
     )}
   >

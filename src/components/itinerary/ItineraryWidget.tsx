@@ -283,7 +283,7 @@ export const ItineraryWidget = ({ getMapCenter }: ItineraryWidgetProps) => {
           </label>
           <label className="grid gap-2">
             <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-              Geplant fuer
+              Geplant für
             </span>
             <input
               type="date"
@@ -372,7 +372,7 @@ export const ItineraryWidget = ({ getMapCenter }: ItineraryWidgetProps) => {
                 disabled={!directionsUrl}
                 className="border-white/15 bg-white/5 text-white hover:bg-white/10"
               >
-                Google Maps Route oeffnen
+                Google Maps Route öffnen
               </Button>
               <Button
                 type="button"

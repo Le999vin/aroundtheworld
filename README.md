@@ -12,10 +12,10 @@ Global Travel Atlas ist eine interaktive Reise-App mit 3D-Globus, Live-Wetter un
 ## Tech Stack
 - Next.js 16 App Router + TypeScript
 - Tailwind CSS + shadcn/ui
-- globe.gl / three.js fuer den 3D-Globus
-- MapLibre GL fuer die Karte
+- globe.gl / three.js für den 3D-Globus
+- MapLibre GL für die Karte
 - OpenWeather als Wetter-Provider
-- JSON Datasets fuer POIs und Country Meta
+- JSON Datasets für POIs und Country Meta
 
 ## Quick Start (Local Dev)
 
@@ -74,14 +74,14 @@ ALLOW_INSECURE_TLS_FOR_DEV=1
 ```
 
 ### Warum diese Variablen
-- `OPENWEATHER_API_KEY`: notwendig fuer `/api/weather`.
+- `OPENWEATHER_API_KEY`: notwendig für `/api/weather`.
 - `WEATHER_PROVIDER`, `GEOCODING_PROVIDER`: Auswahl der Provider.
-- `NEXT_PUBLIC_DEFAULT_LAT/LON`: Default Zentrum fuer `/map`.
+- `NEXT_PUBLIC_DEFAULT_LAT/LON`: Default Zentrum für `/map`.
 - `NEXT_PUBLIC_DEFAULT_UNITS`, `NEXT_PUBLIC_DEFAULT_LANG`: Wetter Einheiten und Sprache.
 - `NEXT_PUBLIC_MAP_STYLE_URL`: optionaler MapLibre Style.
 - `NODE_EXTRA_CA_CERTS`: Pfad zu einem PEM mit zusaetzlichen Root CAs (z.B. Firmen-Proxy).
 - `AI_PROVIDER`, `OLLAMA_BASE_URL`, `OLLAMA_MODEL`: Lokaler AI Provider (Ollama).
-- `ALLOW_INSECURE_TLS_FOR_DEV`: Dev-only Toggle fuer TLS Workaround. Nie in Produktion aktivieren.
+- `ALLOW_INSECURE_TLS_FOR_DEV`: Dev-only Toggle für TLS Workaround. Nie in Produktion aktivieren.
 
 ### Vercel Setup
 1. Project in Vercel importieren.
@@ -96,7 +96,7 @@ Hinweis: Nach jeder Aenderung in `.env.local` den Dev Server neu starten.
 - **Landing (/)**
   - Laedt GeoJSON Laenderdaten server-seitig.
   - Rendert den 3D-Globus client-seitig.
-  - CountryPanel zeigt Wetter, Metadaten und POIs fuer das selektierte Land.
+  - CountryPanel zeigt Wetter, Metadaten und POIs für das selektierte Land.
 - **Map (/map)**
   - Liest `lat`, `lon`, `country`, `city` aus der URL.
   - Zentriert die Karte und zeigt POIs mit Filtern.
@@ -104,9 +104,9 @@ Hinweis: Nach jeder Aenderung in `.env.local` den Dev Server neu starten.
   - Detailseite, die das CountryPanel wiederverwendet.
 
 ### Datenquellen
-- `public/data/countries.geojson` fuer Geometrien und Landgrenzen.
-- `src/lib/data/countries/countries.meta.json` fuer Metadaten (Name, Hauptstadt, Population, Top Cities).
-- `src/lib/data/pois/datasets/` fuer JSON POI Datasets.
+- `public/data/countries.geojson` für Geometrien und Landgrenzen.
+- `src/lib/data/countries/countries.meta.json` für Metadaten (Name, Hauptstadt, Population, Top Cities).
+- `src/lib/data/pois/datasets/` für JSON POI Datasets.
 
 ## Golden Path User Flow (Step-by-step)
 1. Nutzer oeffnet `/`.
@@ -124,7 +124,7 @@ Hinweis: Nach jeder Aenderung in `.env.local` den Dev Server neu starten.
 ## API Routes
 
 ### `GET /api/weather`
-**Zweck:** Wetterdaten fuer Koordinaten.
+**Zweck:** Wetterdaten für Koordinaten.
 
 **Query Params:**
 - `lat` (number)
@@ -178,7 +178,7 @@ Hinweis: Nach jeder Aenderung in `.env.local` den Dev Server neu starten.
 **Query Params:**
 - `country` (ISO-2)
 - `city` (cityId)
-- `lat`, `lon` (fuer bbox Auswahl)
+- `lat`, `lon` (für bbox Auswahl)
 - `limit` (number)
 - `category` (all|landmarks|museums|food|nightlife|nature|other)
 
@@ -210,7 +210,7 @@ Hinweis: Nach jeder Aenderung in `.env.local` den Dev Server neu starten.
 **Hinweis:** Wenn ein Dataset nicht existiert, wird ein leeres Array geliefert.
 
 ### `GET /api/static-places` (deprecated)
-**Zweck:** Legacy Alias fuer POIs mit `lat/lon`.
+**Zweck:** Legacy Alias für POIs mit `lat/lon`.
 
 **Beispiel:**
 ```
@@ -218,7 +218,7 @@ Hinweis: Nach jeder Aenderung in `.env.local` den Dev Server neu starten.
 ```
 
 ### `GET /api/places` (deprecated)
-**Zweck:** Legacy Alias fuer `/api/pois`.
+**Zweck:** Legacy Alias für `/api/pois`.
 
 ### `GET /api/geocode`
 **Zweck:** Geocoding via Photon.
@@ -312,7 +312,7 @@ Ein POI ist ein JSON Objekt mit stabiler ID, Kategorie und Koordinaten.
   - Exportiere das Firmen-Root-Zertifikat als PEM.
   - Setze `NODE_EXTRA_CA_CERTS=C:\path\to\corp-root.pem`.
   - Terminal neu starten und `npm run dev` erneut starten.
-  - `ALLOW_INSECURE_TLS_FOR_DEV=1` ist nur fuer lokale Entwicklung und nicht empfohlen.
+  - `ALLOW_INSECURE_TLS_FOR_DEV=1` ist nur für lokale Entwicklung und nicht empfohlen.
   - Kurztest: ueber Handy-Hotspot pruefen, ob der Proxy/CA das Problem ist.
 - **Windows curl.exe Fehler (Schannel):** Verwende Browser oder PowerShell `irm` statt `curl.exe`.
 - **/map Search Params:** In Next.js App Router kann `searchParams` ein Promise sein. Immer via `await Promise.resolve(searchParams ?? {})` lesen.
@@ -332,9 +332,9 @@ Ein POI ist ein JSON Objekt mit stabiler ID, Kategorie und Koordinaten.
 
 ## Roadmap / Ideas
 - Mehr kuratierte City und Country Datasets.
-- Bessere Centroid Berechnung fuer Laender (z.B. label coordinates).
+- Bessere Centroid Berechnung für Laender (z.B. label coordinates).
 - POI Details (Bilder, Oeffnungszeiten, Routenplanung).
-- Offline Modus fuer JSON Daten.
+- Offline Modus für JSON Daten.
 
 # Global Travel Atlas (aroundtheworld)
 
@@ -370,7 +370,7 @@ Du kannst Laender auf dem Globus anklicken, sofort Wetter + Highlights sehen und
 - **Globus statt Liste**: Du erkundest Laender per 3D-Globus.
 - **Sofort Informationen**: Nach Klick bekommst du Wetter + Highlights.
 - **Kartenmodus**: In `/map` siehst du Marker, kannst Kategorien filtern und Orte schnell vergleichen.
-- **Lokale Datensaetze fuer POIs**: Fuer bestimmte Regionen (z.B. Paris/Zuerich/Mumbai) werden POIs aus JSON geladen. Wenn nichts passt, gibt es ein globales Fallback-Dataset.
+- **Lokale Datensaetze für POIs**: für bestimmte Regionen (z.B. Paris/Zuerich/Mumbai) werden POIs aus JSON geladen. Wenn nichts passt, gibt es ein globales Fallback-Dataset.
 
 ---
 
@@ -382,7 +382,7 @@ Du kannst Laender auf dem Globus anklicken, sofort Wetter + Highlights sehen und
   - Live-Wetter (OpenWeather: current + forecast)
   - Orte/Highlights (POIs)
 - MapLibre Karte:
-  - Marker fuer POIs
+  - Marker für POIs
   - Filter nach Kategorien (landmarks, museums, food, nightlife, nature, other)
 - API Routes (Next Route Handlers) inkl. Caching (unstable_cache)
 - Test-Setup (Vitest + Playwright)
@@ -464,7 +464,7 @@ Die wichtigsten Ordner:
 - `src/app/` – Routen (App Router) + API Routes
 - `src/components/` – UI Komponenten (Globus, Panel, Map, Search)
 - `src/lib/` – Domain-Logik, Services, Daten (POIs, Countries, Provider)
-- `public/data/countries.geojson` – GeoJSON fuer alle Laender (Polygone)
+- `public/data/countries.geojson` – GeoJSON für alle Laender (Polygone)
 
 ### Wichtige Dateien (Top 10)
 Wenn du das Projekt wirklich verstehen willst, starte hier:
@@ -546,7 +546,7 @@ Wenn du das Projekt wirklich verstehen willst, starte hier:
 
 ### 1) Laender (GeoJSON)
 - Datei: `public/data/countries.geojson`
-- Wird fuer:
+- Wird für:
   - 3D-Polygone auf dem Globus
   - Country Center Berechnung (`getFeatureCenter`)
   - Namen/ISO Codes Mapping
@@ -598,7 +598,7 @@ Im Code sind POIs Objekte mit z.B.:
   5. Nach Distanz sortieren (Haversine)
   6. `limit` anwenden
 
-### Neue Stadt/Region hinzufuegen (Schritt fuer Schritt)
+### Neue Stadt/Region hinzufuegen (Schritt für Schritt)
 1. Neues Dataset erstellen, z.B.:
    - `src/lib/data/pois/datasets/berlin.json`
 2. Struktur wie bestehende Datensaetze verwenden (wichtig: `source: "static"`).
@@ -672,7 +672,7 @@ Hinweis: `loadCountries()` versucht die Base-URL automatisch zu bestimmen (u.a. 
 
 - **Keine API Keys committen** (auch nicht in `.env.local.example`).
 - Wenn Keys schon im Repo/ZIP waren: **rotieren** (neue erstellen, alte ungueltig machen).
-- Nutze fuer Vercel immer Environment Variables (Production/Preview getrennt).
+- Nutze für Vercel immer Environment Variables (Production/Preview getrennt).
 
 ---
 

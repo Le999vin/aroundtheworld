@@ -774,7 +774,7 @@ export const CountryPanel = ({
                 Abflug
               </p>
               <SheetTitle className="font-display text-2xl text-white">
-                Abflugort waehlen
+                Abflugort wählen
               </SheetTitle>
             </SheetHeader>
             <div className="flex-1 space-y-6 overflow-y-auto px-6 pb-6">
@@ -783,7 +783,7 @@ export const CountryPanel = ({
                   Mein Standort verwenden
                 </p>
                 <p className="mt-2 text-xs text-slate-400">
-                  Nutzt den aktuellen Standort fuer den Abflug.
+                  Nutzt den aktuellen Standort für den Abflug.
                 </p>
                 <Button
                   type="button"
@@ -871,14 +871,14 @@ export const CountryPanel = ({
 
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                 <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
-                  Flughafen waehlen
+                  Flughafen wählen
                 </p>
                 <select
                   value={airportSelection}
                   onChange={(event) => handleAirportSelect(event.target.value)}
                   className="mt-3 w-full rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
                 >
-                  <option value="">Bitte waehlen</option>
+                  <option value="">Bitte wählen</option>
                   {AIRPORTS.map((airport) => (
                     <option key={airport.iata} value={airport.iata}>
                       {airport.iata} - {airport.city}

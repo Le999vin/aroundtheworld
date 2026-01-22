@@ -62,6 +62,8 @@ const isChatMessage = (value: unknown): value is ChatTextMessage => {
   return typeof record.content === "string";
 };
 
+const MAX_STORED_MESSAGES = 60;
+
 const loadStoredMessages = (storageKey: string): ChatMessage[] => {
   if (typeof window === "undefined") return [];
   const raw = window.localStorage.getItem(storageKey);
@@ -72,10 +74,11 @@ const loadStoredMessages = (storageKey: string): ChatMessage[] => {
     return parsed
       .map((entry) => {
         if (!isChatMessage(entry)) return null;
+        const e = entry as { id?: unknown; role: "user" | "assistant"; content: string };
         return {
-          id: typeof entry.id === "string" ? entry.id : createMessageId(),
-          role: entry.role,
-          content: entry.content,
+          id: typeof e.id === "string" ? e.id : createMessageId(),
+          role: e.role,
+          content: e.content,
         } satisfies ChatMessage;
       })
       .filter((message): message is ChatMessage => Boolean(message));
@@ -88,7 +91,8 @@ const loadStoredMessages = (storageKey: string): ChatMessage[] => {
 const saveStoredMessages = (storageKey: string, messages: ChatTextMessage[]) => {
   if (typeof window === "undefined") return;
   try {
-    window.localStorage.setItem(storageKey, JSON.stringify(messages));
+    const capped = messages.slice(-MAX_STORED_MESSAGES);
+    window.localStorage.setItem(storageKey, JSON.stringify(capped));
   } catch {
     // Ignore write errors.
   }
@@ -99,19 +103,19 @@ const getActionLabel = (action: AiAction) => {
     case "selectCountry": {
       const meta = countryMetaByCode[action.code];
       const label = meta?.name ? `${meta.name} (${action.code})` : action.code;
-      return `Land auswaehlen: ${label}`;
+      return `Land auswählen: ${label}`;
     }
     case "openCountryPanel":
-      return "Panel oeffnen";
+      return "Panel öffnen";
     case "openMapMode":
-      return "Map oeffnen";
+      return "Map öffnen";
     case "focusCity":
       if (action.name && action.lat !== undefined && action.lon !== undefined) {
-        return `City fokussieren: ${action.name} (${action.lat.toFixed(2)}, ${action.lon.toFixed(2)})`;
+        return `City fokussieren: ${action.name} (${action.lat.toFixed(2)}, ${action.lon.toFixed(
+          2
+        )})`;
       }
-      if (action.name) {
-        return `City fokussieren: ${action.name}`;
-      }
+      if (action.name) return `City fokussieren: ${action.name}`;
       return "City fokussieren";
     case "addPoiToPlan":
       return `POI zum Plan: ${action.poiId}`;
@@ -145,13 +149,17 @@ export const AtlasChat = ({
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [isStreaming, setIsStreaming] = useState(false);
+
   const storageKey = useMemo(() => buildStorageKey(threadKey), [threadKey]);
   const messagesRef = useRef<ChatMessage[]>([]);
   const abortRef = useRef<AbortController | null>(null);
   const pendingAssistantIdRef = useRef<string | null>(null);
   const failedAssistantIdRef = useRef<string | null>(null);
   const initializedKeyRef = useRef<string | null>(null);
+
+  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const scrollAnchorRef = useRef<HTMLDivElement | null>(null);
+  const shouldAutoScrollRef = useRef(true);
 
   useEffect(() => {
     if (initializedKeyRef.current !== storageKey) return;
@@ -172,16 +180,23 @@ export const AtlasChat = ({
     messagesRef.current = stored;
     initializedKeyRef.current = storageKey;
     setMessages(stored);
+    shouldAutoScrollRef.current = true;
   }, [storageKey]);
 
+  const updateAutoScrollFlag = useCallback(() => {
+    const el = scrollContainerRef.current;
+    if (!el) return;
+    const distFromBottom = el.scrollHeight - el.scrollTop - el.clientHeight;
+    shouldAutoScrollRef.current = distFromBottom < 120;
+  }, []);
+
   useEffect(() => {
+    if (!shouldAutoScrollRef.current && !isStreaming) return;
     scrollAnchorRef.current?.scrollIntoView({ behavior: "auto" });
   }, [messages, isStreaming]);
 
   useEffect(() => {
-    return () => {
-      abortRef.current?.abort();
-    };
+    return () => abortRef.current?.abort();
   }, []);
 
   const prompts = useMemo(() => {
@@ -190,14 +205,14 @@ export const AtlasChat = ({
       const cityHint = context.country?.topCities?.[0]?.name;
       return [
         `Highlights und Must-sees in ${name}?`,
-        `3-Tage Route fuer ${name}`,
-        cityHint ? `Tagesplan fuer ${cityHint}` : `Beste Reisezeit fuer ${name}`,
+        `3-Tage Route für ${name}`,
+        cityHint ? `Tagesplan für ${cityHint}` : `Beste Reisezeit für ${name}`,
         "Worauf sollte ich beim Wetter achten?",
       ];
     }
     return [
-      "Empfiehl mir ein Land fuer Natur und Kultur.",
-      "Welche Ziele passen fuer 7 Tage im Fruehling?",
+      "Empfiehl mir ein Land für Natur und Kultur.",
+      "Welche Ziele passen für 7 Tage im Fruehling?",
       "Gib mir eine Rundreise-Idee in Europa.",
       "Was ist eine gute erste Reise ausserhalb Europas?",
     ];
@@ -215,6 +230,13 @@ export const AtlasChat = ({
   }, []);
 
   const finalizeStream = useCallback(() => {
+    abortRef.current = null;
+    pendingAssistantIdRef.current = null;
+    setIsStreaming(false);
+  }, []);
+
+  const handleStop = useCallback(() => {
+    abortRef.current?.abort();
     abortRef.current = null;
     pendingAssistantIdRef.current = null;
     setIsStreaming(false);
@@ -263,6 +285,18 @@ export const AtlasChat = ({
     [onExecuteActions, updateActionMessage]
   );
 
+  const removeEmptyAssistantIfNeeded = useCallback((assistantId: string) => {
+    setMessages((prev) => {
+      const next = prev.filter((m) => {
+        if (!isTextMessage(m)) return true;
+        if (m.id !== assistantId) return true;
+        return m.content.trim().length > 0;
+      });
+      messagesRef.current = next;
+      return next;
+    });
+  }, []);
+
   const streamResponse = useCallback(
     async (
       payload: {
@@ -276,11 +310,14 @@ export const AtlasChat = ({
     ) => {
       abortRef.current?.abort();
       failedAssistantIdRef.current = null;
+
       const controller = new AbortController();
       abortRef.current = controller;
+
       let doneReceived = false;
       let hadError = false;
       let hadAssistantText = false;
+      let hadActions = false;
 
       try {
         const response = await fetch("/api/ai", {
@@ -301,18 +338,7 @@ export const AtlasChat = ({
           setError("Unexpected response type (expected text/event-stream).");
           failedAssistantIdRef.current = assistantId;
           hadError = true;
-          setMessages((prev) => {
-            const next = prev.filter(
-              (message) =>
-                !(
-                  message.id === assistantId &&
-                  isTextMessage(message) &&
-                  message.content.trim().length === 0
-                )
-            );
-            messagesRef.current = next;
-            return next;
-          });
+          removeEmptyAssistantIfNeeded(assistantId);
           return;
         }
 
@@ -328,13 +354,13 @@ export const AtlasChat = ({
           const lines = block.split(/\r?\n/);
           let eventName = "";
           const dataLines: string[] = [];
+
           for (const line of lines) {
-            if (line.startsWith("event:")) {
-              eventName = line.slice(6).trim();
-            } else if (line.startsWith("data:")) {
+            if (line.startsWith("event:")) eventName = line.slice(6).trim();
+            else if (line.startsWith("data:"))
               dataLines.push(line.startsWith("data: ") ? line.slice(6) : line.slice(5));
-            }
           }
+
           const data = dataLines.join("\n");
           if (!data) return;
 
@@ -343,6 +369,7 @@ export const AtlasChat = ({
               hadAssistantText = true;
               appendAssistantDelta(assistantId, data);
               break;
+
             case "actions": {
               let parsed: AiActionEnvelope | null = null;
               try {
@@ -351,20 +378,11 @@ export const AtlasChat = ({
                 parsed = null;
               }
               if (!parsed) break;
-              if (!hadAssistantText) {
-                setMessages((prev) => {
-                  const next = prev.filter(
-                    (message) =>
-                      !(
-                        message.id === assistantId &&
-                        isTextMessage(message) &&
-                        message.content.trim().length === 0
-                      )
-                  );
-                  messagesRef.current = next;
-                  return next;
-                });
-              }
+
+              hadActions = true;
+
+              if (!hadAssistantText) removeEmptyAssistantIfNeeded(assistantId);
+
               const actionId = createMessageId();
               const actionMessage: ChatActionMessage = {
                 id: actionId,
@@ -373,37 +391,31 @@ export const AtlasChat = ({
                 status: "pending",
                 autoTriggered: false,
               };
+
               setMessages((prev) => {
                 const next = [...prev, actionMessage];
                 messagesRef.current = next;
                 return next;
               });
+
               if (agentMode === "auto" && parsed.autoExecute) {
                 executeActionEnvelope(actionId, parsed, true);
               }
               break;
             }
+
             case "error":
               setError(data || "Antwort konnte nicht geladen werden.");
               failedAssistantIdRef.current = assistantId;
               hadError = true;
-              setMessages((prev) => {
-                const next = prev.filter(
-                  (message) =>
-                    !(
-                      message.id === assistantId &&
-                      isTextMessage(message) &&
-                      message.content.trim().length === 0
-                    )
-                );
-                messagesRef.current = next;
-                return next;
-              });
+              removeEmptyAssistantIfNeeded(assistantId);
               doneReceived = true;
               break;
+
             case "done":
               doneReceived = true;
               break;
+
             default:
               hadAssistantText = true;
               appendAssistantDelta(assistantId, data);
@@ -413,17 +425,24 @@ export const AtlasChat = ({
         while (true) {
           const { value, done } = await reader.read();
           if (done || doneReceived) break;
+
           buffer += decoder.decode(value, { stream: true });
           const parts = buffer.split(/\r?\n\r?\n/);
           buffer = parts.pop() ?? "";
+
           for (const part of parts) {
             handleEventBlock(part);
             if (doneReceived) break;
           }
         }
 
-        if (!doneReceived && buffer.trim().length) {
-          handleEventBlock(buffer);
+        if (!doneReceived && buffer.trim().length) handleEventBlock(buffer);
+
+        // Leere Antwort sauber behandeln (kein Text + keine Actions)
+        if (!hadError && !hadAssistantText && !hadActions) {
+          setError("Leere Antwort erhalten. Bitte erneut versuchen.");
+          failedAssistantIdRef.current = assistantId;
+          removeEmptyAssistantIfNeeded(assistantId);
         }
       } catch (err) {
         if (!controller.signal.aborted) {
@@ -432,16 +451,21 @@ export const AtlasChat = ({
           setError(message);
           failedAssistantIdRef.current = assistantId;
           hadError = true;
+          removeEmptyAssistantIfNeeded(assistantId);
         }
       } finally {
         if (controller.signal.aborted) return;
         finalizeStream();
-        if (!hadError) {
-          failedAssistantIdRef.current = null;
-        }
+        if (!hadError) failedAssistantIdRef.current = null;
       }
     },
-    [agentMode, appendAssistantDelta, executeActionEnvelope, finalizeStream]
+    [
+      agentMode,
+      appendAssistantDelta,
+      executeActionEnvelope,
+      finalizeStream,
+      removeEmptyAssistantIfNeeded,
+    ]
   );
 
   const handleSend = useCallback(
@@ -449,6 +473,8 @@ export const AtlasChat = ({
       if (isStreaming) return;
       const content = (override ?? input).trim();
       if (!content) return;
+
+      shouldAutoScrollRef.current = true;
 
       const userMessage: ChatMessage = {
         id: createMessageId(),
@@ -462,18 +488,17 @@ export const AtlasChat = ({
         content: "",
       };
 
-      const outgoingMessages: AiChatMessage[] = [
-        ...messagesRef.current,
-        userMessage,
-      ]
+      const outgoingMessages: AiChatMessage[] = [...messagesRef.current, userMessage]
         .filter((message): message is ChatTextMessage => isTextMessage(message))
         .map(({ role, content: messageContent }) => ({ role, content: messageContent }));
 
       const nextMessages = [...messagesRef.current, userMessage, assistantMessage];
       messagesRef.current = nextMessages;
       setMessages(nextMessages);
+
       setInput("");
       setError(null);
+
       pendingAssistantIdRef.current = assistantId;
       setIsStreaming(true);
 
@@ -487,14 +512,18 @@ export const AtlasChat = ({
 
   const handleRetry = useCallback(() => {
     if (isStreaming) return;
+
     const failedId = failedAssistantIdRef.current ?? pendingAssistantIdRef.current;
     const baseMessages = failedId
       ? messagesRef.current.filter((message) => message.id !== failedId)
       : messagesRef.current;
+
     const hasUserMessage = baseMessages.some(
       (message) => isTextMessage(message) && message.role === "user"
     );
     if (!hasUserMessage) return;
+
+    shouldAutoScrollRef.current = true;
 
     const assistantId = createMessageId();
     const assistantMessage: ChatTextMessage = {
@@ -502,20 +531,20 @@ export const AtlasChat = ({
       role: "assistant",
       content: "",
     };
+
     const outgoingMessages: AiChatMessage[] = baseMessages
       .filter((message): message is ChatTextMessage => isTextMessage(message))
-      .map((message) => ({
-        role: message.role,
-        content: message.content,
-      }));
+      .map((message) => ({ role: message.role, content: message.content }));
 
     const nextMessages = [...baseMessages, assistantMessage];
     messagesRef.current = nextMessages;
     setMessages(nextMessages);
+
     setError(null);
     pendingAssistantIdRef.current = assistantId;
     failedAssistantIdRef.current = null;
     setIsStreaming(true);
+
     streamResponse(
       { messages: outgoingMessages, context, threadKey, agentMode, uiContext },
       assistantId
@@ -532,10 +561,11 @@ export const AtlasChat = ({
     setInput("");
     messagesRef.current = [];
     setMessages([]);
-    if (typeof window !== "undefined") {
-      window.localStorage.removeItem(storageKey);
-    }
+    if (typeof window !== "undefined") window.localStorage.removeItem(storageKey);
   }, [storageKey]);
+
+  const promptGridClass =
+    variant === "sheet" ? "grid grid-cols-1 gap-2" : "grid grid-cols-2 gap-2";
 
   return (
     <div
@@ -551,14 +581,11 @@ export const AtlasChat = ({
       >
         {variant === "panel" ? (
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-300">
-              Atlas Assistant
-            </p>
-            <p className="mt-1 text-sm text-slate-200">
-              Frag nach Ideen, Routen oder Highlights.
-            </p>
+            <p className="text-xs uppercase tracking-[0.3em] text-slate-300">Atlas Assistant</p>
+            <p className="mt-1 text-sm text-slate-200">Frag nach Ideen, Routen oder Highlights.</p>
           </div>
         ) : null}
+
         <Button
           type="button"
           size="sm"
@@ -571,9 +598,7 @@ export const AtlasChat = ({
       </div>
 
       <div className="mt-3 flex shrink-0 items-center justify-between gap-3">
-        <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-          Agent Mode
-        </p>
+        <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">Agent Mode</p>
         <div className="flex items-center gap-1 rounded-full border border-white/10 bg-white/5 p-1">
           {AGENT_MODE_OPTIONS.map((mode) => (
             <button
@@ -584,9 +609,7 @@ export const AtlasChat = ({
               className={cn(
                 "rounded-full px-3 py-1 text-[10px] uppercase tracking-[0.2em] transition",
                 !onAgentModeChange ? "cursor-not-allowed opacity-60" : "hover:text-slate-200",
-                agentMode === mode
-                  ? "bg-cyan-300/20 text-cyan-100"
-                  : "text-slate-400"
+                agentMode === mode ? "bg-cyan-300/20 text-cyan-100" : "text-slate-400"
               )}
             >
               {AGENT_MODE_LABELS[mode]}
@@ -595,13 +618,15 @@ export const AtlasChat = ({
         </div>
       </div>
 
-      <div className="mt-4 flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-1">
+      <div
+        ref={scrollContainerRef}
+        onScroll={updateAutoScrollFlag}
+        className="mt-4 flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-1"
+      >
         {messages.length === 0 ? (
           <div className="space-y-3 text-sm text-slate-300">
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
-              Starter Prompts
-            </p>
-            <div className="grid grid-cols-2 gap-2">
+            <p className="text-xs uppercase tracking-[0.3em] text-slate-400">Starter Prompts</p>
+            <div className={promptGridClass}>
               {prompts.map((prompt) => (
                 <Button
                   key={prompt}
@@ -610,7 +635,7 @@ export const AtlasChat = ({
                   variant="outline"
                   onClick={() => handleSend(prompt)}
                   disabled={isStreaming}
-                  className="min-w-0 w-full h-auto justify-start rounded-xl border-white/10 bg-white/5 px-3 py-2 text-left text-xs leading-snug text-slate-100 whitespace-normal break-words hover:bg-white/5"
+                  className="min-w-0 w-full h-auto justify-start rounded-xl border-white/10 bg-white/5 px-3 py-2 text-left text-xs leading-snug text-slate-100 whitespace-normal break-words hover:bg-white/10"
                 >
                   {prompt}
                 </Button>
@@ -622,9 +647,8 @@ export const AtlasChat = ({
             {messages.map((message) => {
               if (message.kind === "actions") {
                 const showConfirmButtons =
-                  agentMode !== "off" &&
-                  message.status === "pending" &&
-                  !message.autoTriggered;
+                  agentMode !== "off" && message.status === "pending" && !message.autoTriggered;
+
                 const statusText =
                   message.status === "executed"
                     ? "Ausgefuehrt ✓"
@@ -637,32 +661,31 @@ export const AtlasChat = ({
                           : agentMode === "off"
                             ? "Agent Mode aus"
                             : "Bestaetigung erforderlich";
+
                 return (
                   <div key={message.id} className="flex justify-start">
                     <div className="min-w-0 max-w-[90%] space-y-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-100">
-                      <div className="flex items-center justify-between">
+                      <div className="flex items-center justify-between gap-3">
                         <p className="text-xs uppercase tracking-[0.3em] text-slate-300">
                           Vorschlag
                         </p>
                         <span className="text-xs text-slate-400">{statusText}</span>
                       </div>
+
                       {message.envelope.rationale ? (
-                        <p className="text-xs text-slate-300">
-                          {message.envelope.rationale}
-                        </p>
+                        <p className="text-xs text-slate-300">{message.envelope.rationale}</p>
                       ) : null}
+
                       <ul className="space-y-1 text-xs text-slate-200">
                         {message.envelope.actions.map((action, index) => (
-                          <li key={`${message.id}-action-${index}`}>
-                            {getActionLabel(action)}
-                          </li>
+                          <li key={`${message.id}-action-${index}`}>{getActionLabel(action)}</li>
                         ))}
                       </ul>
+
                       {message.statusMessage ? (
-                        <p className="text-xs text-slate-400">
-                          {message.statusMessage}
-                        </p>
+                        <p className="text-xs text-slate-400">{message.statusMessage}</p>
                       ) : null}
+
                       {showConfirmButtons ? (
                         <div className="flex items-center gap-2">
                           <Button
@@ -671,7 +694,7 @@ export const AtlasChat = ({
                             variant="secondary"
                             onClick={() => executeActionEnvelope(message.id, message.envelope)}
                           >
-                            Ausfuehren
+                            Ausführen
                           </Button>
                           <Button
                             type="button"
@@ -697,17 +720,12 @@ export const AtlasChat = ({
               return (
                 <div
                   key={message.id}
-                  className={cn(
-                    "flex",
-                    message.role === "user" ? "justify-end" : "justify-start"
-                  )}
+                  className={cn("flex", message.role === "user" ? "justify-end" : "justify-start")}
                 >
                   <div
                     className={cn(
                       "min-w-0 max-w-[85%] break-words rounded-2xl px-3 py-2 text-sm leading-relaxed",
-                      message.role === "user"
-                        ? "bg-cyan-300/20 text-cyan-50"
-                        : "bg-white/10 text-slate-100"
+                      message.role === "user" ? "bg-cyan-300/20 text-cyan-50" : "bg-white/10 text-slate-100"
                     )}
                   >
                     <p className="whitespace-pre-wrap break-words">{message.content}</p>
@@ -717,6 +735,7 @@ export const AtlasChat = ({
             })}
           </div>
         )}
+
         <div ref={scrollAnchorRef} />
       </div>
 
@@ -751,19 +770,28 @@ export const AtlasChat = ({
             disabled={isStreaming}
             className="w-full resize-none rounded-xl border border-white/10 bg-transparent px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30 disabled:cursor-not-allowed disabled:opacity-60"
           />
-          <div className="mt-2 flex items-center justify-between">
+          <div className="mt-2 flex items-center justify-between gap-2">
             <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
               {isStreaming ? "Antwort wird geladen..." : "Enter zum Senden"}
             </p>
-            <Button
-              type="button"
-              size="sm"
-              variant="secondary"
-              onClick={() => handleSend()}
-              disabled={isStreaming || input.trim().length === 0}
-            >
-              Send
-            </Button>
+
+            <div className="flex items-center gap-2">
+              {isStreaming ? (
+                <Button type="button" size="sm" variant="ghost" onClick={handleStop} className="text-slate-200 hover:bg-white/10">
+                  Stop
+                </Button>
+              ) : null}
+
+              <Button
+                type="button"
+                size="sm"
+                variant="secondary"
+                onClick={() => handleSend()}
+                disabled={isStreaming || input.trim().length === 0}
+              >
+                Send
+              </Button>
+            </div>
           </div>
         </div>
       </div>

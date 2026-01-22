@@ -511,7 +511,7 @@ const MapViewContent = ({
             onClick={() => setShowCities((prev) => !prev)}
             className={chipClassName(showCities)}
           >
-            Staedte
+            Städte
           </button>
           <button
             type="button"

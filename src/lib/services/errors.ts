@@ -25,7 +25,7 @@ export class ServiceError extends Error {
   constructor(message: string, options: ServiceErrorOptions) {
     super(message);
 
-    // Saubere Error-Identitaet (wichtig fuer Logs + shape-check)
+    // Saubere Error-Identitaet (wichtig für Logs + shape-check)
     this.name = "ServiceError";
 
     this.status = options.status;

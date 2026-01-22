@@ -392,7 +392,7 @@ export const PoiDetailsDrawer = ({
                     }}
                     className="w-full border-white/15 bg-white/5 text-white hover:bg-white/10"
                   >
-                    Google Maps oeffnen
+                    Google Maps öffnen
                   </Button>
                 ) : null}
                 {showWebsiteLoading ? (

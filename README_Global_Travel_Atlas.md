@@ -32,7 +32,7 @@ Du kannst Laender auf dem Globus anklicken, sofort Wetter + Highlights sehen und
 - **Globus statt Liste**: Du erkundest Laender per 3D-Globus.
 - **Sofort Informationen**: Nach Klick bekommst du Wetter + Highlights.
 - **Kartenmodus**: In `/map` siehst du Marker, kannst Kategorien filtern und Orte schnell vergleichen.
-- **Lokale Datensaetze fuer POIs**: Fuer bestimmte Regionen (z.B. Paris/Zuerich/Mumbai) werden POIs aus JSON geladen. Wenn nichts passt, gibt es ein globales Fallback-Dataset.
+- **Lokale Datensaetze fürr POIs**: für bestimmte Regionen (z.B. Paris/Zuerich/Mumbai) werden POIs aus JSON geladen. Wenn nichts passt, gibt es ein globales Fallback-Dataset.
 
 ---
 
@@ -44,7 +44,7 @@ Du kannst Laender auf dem Globus anklicken, sofort Wetter + Highlights sehen und
   - Live-Wetter (OpenWeather: current + forecast)
   - Orte/Highlights (POIs)
 - MapLibre Karte:
-  - Marker fuer POIs
+  - Marker für POIs
   - Filter nach Kategorien (landmarks, museums, food, nightlife, nature, other)
 - API Routes (Next Route Handlers) inkl. Caching (unstable_cache)
 - Test-Setup (Vitest + Playwright)
@@ -135,7 +135,7 @@ Die wichtigsten Ordner:
 - `src/app/` – Routen (App Router) + API Routes
 - `src/components/` – UI Komponenten (Globus, Panel, Map, Search)
 - `src/lib/` – Domain-Logik, Services, Daten (POIs, Countries, Provider)
-- `public/data/countries.geojson` – GeoJSON fuer alle Laender (Polygone)
+- `public/data/countries.geojson` – GeoJSON für alle Laender (Polygone)
 
 ### Wichtige Dateien (Top 10)
 Wenn du das Projekt wirklich verstehen willst, starte hier:
@@ -171,7 +171,7 @@ Wenn du das Projekt wirklich verstehen willst, starte hier:
    - `selectedCountry` wird gesetzt (GeoJSON Center + Meta aus `countryMetaByCode`).
 3. `CountryPanel` startet zwei Requests:
    - Wetter: `/api/weather?lat=...&lon=...`
-   - Orte: `/api/pois?country=...&lat=...&lon=...&limit=8` (lat/lon fuer Sortierung)
+   - Orte: `/api/pois?country=...&lat=...&lon=...&limit=8` (lat/lon für Sortierung)
 
 ### C) Kartenmodus `/map`
 1. `src/app/map/page.tsx` ist Server Component:
@@ -206,11 +206,11 @@ Optional: `errors` kann gesetzt sein, wenn Forecast ausfaellt.
 
 ### `GET /api/static-places?lat=...&lon=...&limit=...&category=...`
 - Datei: `src/app/api/static-places/route.ts`
-- Deprecated Alias fuer `/api/pois` (lat/lon required)
+- Deprecated Alias für `/api/pois` (lat/lon required)
 
 ### `GET /api/places?lat=...&lon=...`
 - Datei: `src/app/api/places/route.ts`
-- Deprecated Alias fuer `/api/pois` (Legacy Route).
+- Deprecated Alias für `/api/pois` (Legacy Route).
 
 ### `GET /api/geocode?q=...`
 - Datei: `src/app/api/geocode/route.ts`
@@ -223,7 +223,7 @@ Optional: `errors` kann gesetzt sein, wenn Forecast ausfaellt.
 
 ### 1) Laender (GeoJSON)
 - Datei: `public/data/countries.geojson`
-- Wird fuer:
+- Wird für:
   - 3D-Polygone auf dem Globus
   - Country Center Berechnung (`getFeatureCenter`)
   - Namen/ISO Codes Mapping
@@ -277,7 +277,7 @@ Im Code sind POIs Objekte mit z.B.:
   5. Optional nach Distanz sortieren (Haversine)
   6. `limit` anwenden
 
-### Neue Stadt/Region hinzufuegen (Schritt fuer Schritt)
+### Neue Stadt/Region hinzufuegen (Schritt für Schritt)
 1. Neues Dataset erstellen, z.B.:
    - `src/lib/data/pois/datasets/berlin.json`
 2. Struktur wie bestehende Datensaetze verwenden (wichtig: `source: "static"`).
@@ -346,7 +346,7 @@ Hinweis: `loadCountries()` versucht die Base-URL automatisch zu bestimmen (u.a. 
 - Dev-only fallback: `ALLOW_INSECURE_SSL=true` (niemals in Produktion).
 
 ### Karte ist leer / keine Marker
-- Fuer viele Regionen gibt es (noch) keine lokalen POI-Datasets.
+- für viele Regionen gibt es (noch) keine lokalen POI-Datasets.
 - Teste `/map?lat=48.8566&lon=2.3522` (Paris) oder `/map?lat=47.3769&lon=8.5417` (Zuerich).
 
 ### Externe Texturen (Globus) laden langsam
@@ -358,7 +358,7 @@ Hinweis: `loadCountries()` versucht die Base-URL automatisch zu bestimmen (u.a. 
 
 - **Keine API Keys committen** (auch nicht in `.env.local.example`).
 - Wenn Keys schon im Repo/ZIP waren: **rotieren** (neue erstellen, alte ungueltig machen).
-- Nutze fuer Vercel immer Environment Variables (Production/Preview getrennt).
+- Nutze für Vercel immer Environment Variables (Production/Preview getrennt).
 
 ---
 

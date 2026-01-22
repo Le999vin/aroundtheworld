@@ -66,15 +66,15 @@
 
 ## Fix-Vorschlaege (Shortlist)
 1) Script Execution normalisieren (JS oder `tsx` + Script Update).
-2) Timeouts fuer alle externen Fetch Calls (Nominatim, Overpass, Photon, OpenTripMap).
+2) Timeouts für alle externen Fetch Calls (Nominatim, Overpass, Photon, OpenTripMap).
 3) Dataset Encoding normalisieren und in CI validieren.
-4) GeoJSON Preprocessing fuer stabile Globe-Fuellung.
+4) GeoJSON Preprocessing für stabile Globe-Fuellung.
 5) Doku und Env Beispiele konsistent halten.
 
 ## Erweiterungsideen
 - Dynamic POIs: OpenTripMap optional in `/api/pois` integrieren, wenn statische Daten fehlen.
 - Itinerary Export: GPX/KML Export und Share-Links.
 - Offline Mode: Country Meta + POI Datasets mit Service Worker cachen.
-- Admin Tools: kleine POI Editor UI fuer Kuratierung/Validierung.
-- Observability: strukturierte Logs und Rate-Limit Metriken fuer Provider Calls.
-- Data Pipeline: Nightly Job fuer Enrichment und Re-Validation.
+- Admin Tools: kleine POI Editor UI für Kuratierung/Validierung.
+- Observability: strukturierte Logs und Rate-Limit Metriken für Provider Calls.
+- Data Pipeline: Nightly Job für Enrichment und Re-Validation.
