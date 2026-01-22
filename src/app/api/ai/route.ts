@@ -1,4 +1,6 @@
 import type { AiChatContext, AiChatMessage } from "@/lib/ai/types";
+import { validateActions } from "@/lib/ai/actions";
+import type { AiAgentMode, AiUiContext } from "@/lib/ai/actions";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -7,6 +9,8 @@ type IncomingBody = {
   messages: AiChatMessage[];
   context?: AiChatContext;
   threadKey?: string;
+  agentMode?: AiAgentMode;
+  uiContext?: AiUiContext;
 };
 
 type OllamaChatChunk = {
@@ -16,12 +20,14 @@ type OllamaChatChunk = {
   error?: string;
 };
 
-const SYSTEM_PROMPT = [
+const BASE_SYSTEM_PROMPT = [
   "Du bist der Global Travel Atlas Assistant.",
   "Antworte kurz und klar mit 3-6 Bulletpoints plus konkreten naechsten Schritten.",
   "Nutze zuerst gelieferten Kontext (country/weather/flights/topCities).",
   "Wenn Daten fehlen: sage ehrlich, dass es nicht im Kontext ist, und stelle genau 1 Rueckfrage.",
 ].join("\n");
+
+const ACTION_MARKER = "\n[ACTIONS]\n";
 
 const isNonEmptyString = (v: unknown): v is string => typeof v === "string" && v.trim().length > 0;
 
@@ -35,6 +41,29 @@ const buildContextSummary = (context?: AiChatContext) => {
   // Keep it short, avoid huge JSON
   const safe = JSON.stringify(context).slice(0, 1600);
   return `Context:\n${safe}`;
+};
+
+const resolveAgentMode = (value?: AiAgentMode): AiAgentMode => {
+  if (value === "confirm" || value === "auto") return value;
+  return "off";
+};
+
+const buildSystemPrompt = (agentMode: AiAgentMode, uiContext?: AiUiContext) => {
+  const uiContextSummary = uiContext ? JSON.stringify(uiContext) : "none";
+  return [
+    BASE_SYSTEM_PROMPT,
+    "",
+    "Agent Actions:",
+    `Agent Mode: ${agentMode}.`,
+    "Gib einen [ACTIONS]-Block nur aus, wenn Agent Mode != off und der Nutzer klar bestaetigt (z.B. 'ja', 'ok', 'mach', 'waehle').",
+    "Wenn unsicher: stelle eine Rueckfrage statt Actions.",
+    "Erlaubte Actions: selectCountry, openCountryPanel, openMapMode, focusCity, addPoiToPlan, buildItinerary, setOrigin.",
+    "Nutze ISO-2 Laendercodes wenn sicher. Wenn unsicher: rueckfragen, keine Action.",
+    "Format (nur am Ende der Antwort, ohne Markdown):",
+    "[ACTIONS]",
+    "{\"actions\":[{\"type\":\"selectCountry\",\"code\":\"MA\"}],\"rationale\":\"...\",\"autoExecute\":true}",
+    `UI Context: ${uiContextSummary}`,
+  ].join("\n");
 };
 
 const getErrorCode = (error: unknown) => {
@@ -74,6 +103,16 @@ const extractOllamaText = (raw: string) => {
   return raw;
 };
 
+const splitActionsBlock = (fullText: string) => {
+  const markerIndex = fullText.indexOf(ACTION_MARKER);
+  if (markerIndex === -1) {
+    return { text: fullText, actionsJson: null };
+  }
+  const text = fullText.slice(0, markerIndex);
+  const actionsJson = fullText.slice(markerIndex + ACTION_MARKER.length).trim();
+  return { text, actionsJson };
+};
+
 export async function POST(request: Request) {
   let body: IncomingBody | null = null;
   try {
@@ -84,6 +123,8 @@ export async function POST(request: Request) {
 
   const messages = Array.isArray(body?.messages) ? body!.messages : [];
   const context = body?.context;
+  const agentMode = resolveAgentMode(body?.agentMode);
+  const uiContext = body?.uiContext;
 
   const provider = process.env.AI_PROVIDER ?? "ollama";
   if (provider !== "ollama") {
@@ -110,8 +151,9 @@ export async function POST(request: Request) {
 
       // Build Ollama messages
       const contextSummary = buildContextSummary(context);
+      const systemPrompt = buildSystemPrompt(agentMode, uiContext);
       const ollamaMessages = [
-        { role: "system", content: `${SYSTEM_PROMPT}\n\n${contextSummary}` },
+        { role: "system", content: `${systemPrompt}\n\n${contextSummary}` },
         ...messages.map((m) => ({ role: m.role, content: m.content })),
       ];
 
@@ -146,7 +188,6 @@ export async function POST(request: Request) {
 
         const contentType = upstream.headers.get("content-type") ?? "";
         const isNdjson = contentType.includes("application/x-ndjson");
-        const isJson = contentType.includes("application/json");
 
         if (!upstream.body) {
           send("error", "Ollama response was empty.");
@@ -154,15 +195,32 @@ export async function POST(request: Request) {
           return;
         }
 
-        if (!isNdjson && isJson) {
+        if (!isNdjson) {
           const raw = await upstream.text().catch(() => "");
           const fallbackText = extractOllamaText(raw);
-          if (isNonEmptyString(fallbackText)) {
-            send("delta", fallbackText);
-            send("done", "[DONE]");
-          } else {
+          const { text, actionsJson } = splitActionsBlock(fallbackText);
+          if (isNonEmptyString(text)) {
+            send("delta", text);
+          } else if (!actionsJson) {
             send("error", "Ollama response was empty.");
+            controller.close();
+            return;
           }
+          if (actionsJson) {
+            const parsed = validateActions(
+              (() => {
+                try {
+                  return JSON.parse(actionsJson);
+                } catch {
+                  return null;
+                }
+              })()
+            );
+            if (parsed) {
+              send("actions", JSON.stringify(parsed));
+            }
+          }
+          send("done", "[DONE]");
           controller.close();
           return;
         }
@@ -171,11 +229,42 @@ export async function POST(request: Request) {
         const dec = new TextDecoder();
         let buffer = "";
         let hadDelta = false;
+        let fullText = "";
+        let pendingText = "";
+        let sentTextLength = 0;
+        let actionsDetected = false;
 
         const emitDelta = (value?: string) => {
           if (!isNonEmptyString(value)) return;
           hadDelta = true;
           send("delta", value);
+          sentTextLength += value.length;
+        };
+
+        const handleStreamText = (value?: string) => {
+          if (!isNonEmptyString(value)) return;
+          fullText += value;
+          pendingText += value;
+
+          if (actionsDetected) {
+            return;
+          }
+
+          const markerIndex = pendingText.indexOf(ACTION_MARKER);
+          if (markerIndex !== -1) {
+            const safeText = pendingText.slice(0, markerIndex);
+            if (safeText) emitDelta(safeText);
+            actionsDetected = true;
+            pendingText = pendingText.slice(markerIndex);
+            return;
+          }
+
+          const tailSize = ACTION_MARKER.length - 1;
+          if (pendingText.length > tailSize) {
+            const safeText = pendingText.slice(0, pendingText.length - tailSize);
+            if (safeText) emitDelta(safeText);
+            pendingText = pendingText.slice(-tailSize);
+          }
         };
 
         while (true) {
@@ -206,9 +295,27 @@ export async function POST(request: Request) {
               return;
             }
 
-            emitDelta(chunk?.message?.content ?? chunk?.response);
+            handleStreamText(chunk?.message?.content ?? chunk?.response);
 
             if (chunk?.done) {
+              const { text, actionsJson } = splitActionsBlock(fullText);
+              if (text.length > sentTextLength) {
+                emitDelta(text.slice(sentTextLength));
+              }
+              if (actionsJson) {
+                const parsed = validateActions(
+                  (() => {
+                    try {
+                      return JSON.parse(actionsJson);
+                    } catch {
+                      return null;
+                    }
+                  })()
+                );
+                if (parsed) {
+                  send("actions", JSON.stringify(parsed));
+                }
+              }
               send("done", "[DONE]");
               controller.close();
               return;
@@ -220,15 +327,33 @@ export async function POST(request: Request) {
         if (trimmed.length) {
           try {
             const parsed = JSON.parse(trimmed) as OllamaChatChunk;
-            emitDelta(parsed?.message?.content ?? parsed?.response);
+            handleStreamText(parsed?.message?.content ?? parsed?.response);
           } catch {
             if (!hadDelta) {
-              emitDelta(trimmed);
+              handleStreamText(trimmed);
             }
           }
         }
 
-        // flush last buffer (optional)
+        const { text, actionsJson } = splitActionsBlock(fullText || pendingText);
+        if (text.length > sentTextLength) {
+          emitDelta(text.slice(sentTextLength));
+        }
+        if (actionsJson) {
+          const parsed = validateActions(
+            (() => {
+              try {
+                return JSON.parse(actionsJson);
+              } catch {
+                return null;
+              }
+            })()
+          );
+          if (parsed) {
+            send("actions", JSON.stringify(parsed));
+          }
+        }
+
         send("done", "[DONE]");
         controller.close();
       } catch (e) {

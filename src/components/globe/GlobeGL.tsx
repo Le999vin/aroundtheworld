@@ -1,7 +1,15 @@
 // der “echte” Globus (globe.gl + Three.js)
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  forwardRef,
+  useCallback,
+  useEffect,
+  useImperativeHandle,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import Globe from "globe.gl";
 import * as THREE from "three";
 import {
@@ -175,13 +183,21 @@ type GlobeGLProps = {
   onHoverCountry?: (countryCode: string | null) => void;
 };
 
-export default function GlobeGL({
-  countries,
-  selectedCountry,
-  selectedCountryCode,
-  onSelectCountry,
-  onHoverCountry,
-}: GlobeGLProps) {
+export type GlobeHandle = {
+  flyToLatLon: (lat: number, lon: number, opts?: { durationMs?: number }) => void;
+  highlightCountry: (code: string, opts?: { pulseMs?: number }) => void;
+};
+
+const GlobeGL = forwardRef<GlobeHandle, GlobeGLProps>(function GlobeGL(
+  {
+    countries,
+    selectedCountry,
+    selectedCountryCode,
+    onSelectCountry,
+    onHoverCountry,
+  },
+  ref
+) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const globeRef = useRef<InstanceType<typeof Globe> | null>(null);
   const capMaterialCacheRef =
@@ -189,6 +205,8 @@ export default function GlobeGL({
   const sideMaterialRef = useRef<THREE.MeshBasicMaterial | null>(null);
   const hoveredCodeRef = useRef<string | null>(null);
   const selectedCodeRef = useRef<string | null>(selectedCountryCode ?? null);
+  const pulseCodeRef = useRef<string | null>(null);
+  const pulseTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastFocusRef = useRef<string | null>(null);
   const selectedCountryRef = useRef<{ lat: number; lon: number } | null>(
     selectedCountry ?? null
@@ -225,6 +243,7 @@ export default function GlobeGL({
   const resolveCapColor = useCallback((poly: object) => {
     const feature = poly as CountryFeature;
     const code = getResolvedCountryCode(feature);
+    if (code && pulseCodeRef.current === code) return HOVER_FILL;
     if (code && selectedCodeRef.current === code) return SELECT_FILL;
     if (code && hoveredCodeRef.current === code) return HOVER_FILL;
     return DEFAULT_FILL;
@@ -258,6 +277,38 @@ export default function GlobeGL({
     selectedCodeRef.current = selectedCountryCode ?? null;
     updatePolygonColors();
   }, [selectedCountryCode, updatePolygonColors]);
+
+  useImperativeHandle(
+    ref,
+    () => ({
+      flyToLatLon: (lat, lon, opts) => {
+        const globe = globeRef.current;
+        if (!globe || !Number.isFinite(lat) || !Number.isFinite(lon)) return;
+        const durationMs = opts?.durationMs ?? 1200;
+        const nextKey = `${lat}:${lon}`;
+        lastFocusRef.current = nextKey;
+        globe.pointOfView(
+          { lat, lng: lon, altitude: CAMERA_ALTITUDE },
+          durationMs
+        );
+        const controls = globe.controls();
+        controls.autoRotate = false;
+      },
+      highlightCountry: (code, opts) => {
+        if (!code) return;
+        pulseCodeRef.current = code;
+        updatePolygonColors();
+        if (pulseTimeoutRef.current) {
+          clearTimeout(pulseTimeoutRef.current);
+        }
+        pulseTimeoutRef.current = setTimeout(() => {
+          pulseCodeRef.current = null;
+          updatePolygonColors();
+        }, opts?.pulseMs ?? 1200);
+      },
+    }),
+    [updatePolygonColors]
+  );
 
   useEffect(() => {
     selectedCountryRef.current = selectedCountry ?? null;
@@ -462,6 +513,10 @@ export default function GlobeGL({
 
     return () => {
       cancelled = true;
+      if (pulseTimeoutRef.current) {
+        clearTimeout(pulseTimeoutRef.current);
+        pulseTimeoutRef.current = null;
+      }
       ro.disconnect();
       if (loadedTextures) {
         loadedTextures.earth.dispose();
@@ -513,4 +568,6 @@ export default function GlobeGL({
       ) : null}
     </div>
   );
-}
+});
+
+export default GlobeGL;

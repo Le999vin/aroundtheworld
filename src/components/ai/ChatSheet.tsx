@@ -2,6 +2,12 @@
 
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { AtlasChat } from "@/components/ai/AtlasChat";
+import type {
+  AiActionExecutionResult,
+  AiActionEnvelope,
+  AiAgentMode,
+  AiUiContext,
+} from "@/lib/ai/actions";
 import type { AiChatContext } from "@/lib/ai/types";
 
 type ChatSheetProps = {
@@ -9,6 +15,10 @@ type ChatSheetProps = {
   onOpenChange: (open: boolean) => void;
   threadKey: string;
   context: AiChatContext;
+  agentMode: AiAgentMode;
+  onAgentModeChange?: (mode: AiAgentMode) => void;
+  onExecuteActions?: (envelope: AiActionEnvelope) => Promise<AiActionExecutionResult>;
+  uiContext?: AiUiContext;
 };
 
 export const ChatSheet = ({
@@ -16,6 +26,10 @@ export const ChatSheet = ({
   onOpenChange,
   threadKey,
   context,
+  agentMode,
+  onAgentModeChange,
+  onExecuteActions,
+  uiContext,
 }: ChatSheetProps) => (
   <Sheet open={open} onOpenChange={onOpenChange}>
     <SheetContent
@@ -31,7 +45,15 @@ export const ChatSheet = ({
         </SheetTitle>
       </SheetHeader>
       <div className="flex-1 min-h-0 overflow-hidden overflow-x-hidden px-6 pb-6 pt-4">
-        <AtlasChat variant="sheet" threadKey={threadKey} context={context} />
+        <AtlasChat
+          variant="sheet"
+          threadKey={threadKey}
+          context={context}
+          agentMode={agentMode}
+          onAgentModeChange={onAgentModeChange}
+          onExecuteActions={onExecuteActions}
+          uiContext={uiContext}
+        />
       </div>
     </SheetContent>
   </Sheet>

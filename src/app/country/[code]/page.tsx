@@ -45,7 +45,15 @@ export default function CountryDetailPage({
       </header>
 
       <div className="relative">
-        <CountryPanel country={country} focus={focus} />
+        <CountryPanel
+          country={country}
+          focus={focus}
+          agentMode="off"
+          uiContext={{
+            currentCountryCode: country.code,
+            hasCountrySelected: true,
+          }}
+        />
         <div className="rounded-[32px] border border-white/10 bg-white/5 p-8 text-sm text-slate-200">
           <p className="text-xs uppercase tracking-[0.3em] text-slate-300">
             Overview

@@ -1,9 +1,11 @@
 //Startseiten-UI (Header, Suche, Globus, CountryPanel)
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 import CountryPanel from "@/components/panels/CountryPanel";
 import GlobalSearch, {
   type SearchResult,
@@ -18,6 +20,14 @@ import {
   resolveCountryCode,
   resolveCountryCenterFromMeta,
 } from "@/lib/countries/countryMeta";
+import type {
+  AiActionEnvelope,
+  AiActionExecutionResult,
+  AiAgentMode,
+  AiUiContext,
+} from "@/lib/ai/actions";
+import { resolveCountryCodeFromText } from "@/lib/ai/resolveCountry";
+import type { GlobeHandle } from "@/components/globe/GlobeGL";
 import {
   getCountryCode,
   getFeatureBboxCenter,
@@ -34,7 +44,7 @@ type LandingClientProps = {
 
 const GlobeGL = dynamic(() => import("@/components/globe/GlobeGL"), {
   ssr: false,
-});
+}) as typeof import("@/components/globe/GlobeGL").default;
 
 const normalizeCountryCodeCandidate = (
   value: string | number | null | undefined
@@ -55,6 +65,9 @@ const isValidLatLon = (lat?: number, lon?: number) => {
 
 const isZeroCenter = (lat: number, lon: number) =>
   Math.abs(lat) < 0.0001 && Math.abs(lon) < 0.0001;
+
+const AGENT_MODE_STORAGE_KEY = "gta.agentMode.v1";
+const AI_ORB_DURATION_MS = 900;
 
 const pickCenter = (
   ...candidates: Array<{ lat: number; lon: number } | null | undefined>
@@ -104,6 +117,20 @@ const getGlobeCountryCode = (feature: CountryFeature) => {
 };
 
 export const LandingClient = ({ countries }: LandingClientProps) => {
+  const router = useRouter();
+  const globeRef = useRef<GlobeHandle | null>(null);
+  const [agentMode, setAgentMode] = useState<AiAgentMode>(() => {
+    if (typeof window === "undefined") return "off";
+    const stored = window.localStorage.getItem(AGENT_MODE_STORAGE_KEY);
+    return stored === "off" || stored === "confirm" || stored === "auto"
+      ? stored
+      : "off";
+  });
+  const [orbFlight, setOrbFlight] = useState<{
+    id: number;
+    from: { x: number; y: number };
+    to: { x: number; y: number };
+  } | null>(null);
   const [focus, setFocus] = useState<Focus | null>(null);
   useEffect(() => {
     if (process.env.NODE_ENV === "production") return;
@@ -116,6 +143,11 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
       source: focus.source,
     });
   }, [focus]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    window.localStorage.setItem(AGENT_MODE_STORAGE_KEY, agentMode);
+  }, [agentMode]);
 
   const countryLookup = useMemo(() => {
     const features = (countries?.features ?? []) as CountryFeature[];
@@ -145,16 +177,30 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
     }, {});
   }, [countries]);
 
-  const resolveCountryFocus = (
+  const triggerAiOrb = useCallback(() => {
+    if (typeof window === "undefined") return;
+    const from = {
+      x: Math.max(window.innerWidth - 140, 24),
+      y: Math.max(window.innerHeight - 200, 24),
+    };
+    const to = {
+      x: Math.max(window.innerWidth / 2 - 12, 24),
+      y: Math.max(window.innerHeight / 2 - 12, 24),
+    };
+    setOrbFlight({ id: Date.now(), from, to });
+  }, []);
+
+  const resolveCountryFocus = useCallback(
+    (
     code: string,
     source: Focus["source"],
     nameHint?: string
-  ) => {
-    const base = countryLookup[code] ?? countryMetaByCode[code] ?? null;
-    if (base) {
-      return buildFocus({
-        kind: "country",
-        source,
+    ) => {
+      const base = countryLookup[code] ?? countryMetaByCode[code] ?? null;
+      if (base) {
+        return buildFocus({
+          kind: "country",
+          source,
         code: base.code,
         name: base.name,
         center: { lat: base.lat, lon: base.lon },
@@ -171,7 +217,24 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
       name: meta?.name ?? nameHint ?? code,
       center,
     });
-  };
+    },
+    [countryLookup]
+  );
+
+  const selectCountryByCode = useCallback(
+    (code: string, source: Focus["source"] = "ai") => {
+      const normalized = code.trim().toUpperCase();
+      if (!normalized) return null;
+      const next = resolveCountryFocus(normalized, source);
+      if (!next) return null;
+      setFocus(next);
+      globeRef.current?.flyToLatLon(next.lat, next.lon, { durationMs: 1400 });
+      globeRef.current?.highlightCountry(next.code ?? normalized, { pulseMs: 1200 });
+      triggerAiOrb();
+      return next;
+    },
+    [resolveCountryFocus, triggerAiOrb]
+  );
 
   const selectedCountry = useMemo<Country | null>(() => {
     if (!focus) return null;
@@ -191,6 +254,14 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
       topPlaces: base?.topPlaces,
     };
   }, [countryLookup, focus]);
+
+  const uiContext = useMemo<AiUiContext>(
+    () => ({
+      currentCountryCode: selectedCountry?.code,
+      hasCountrySelected: Boolean(selectedCountry?.code),
+    }),
+    [selectedCountry?.code]
+  );
 
   const handleSearch = (result: SearchResult) => {
     if (result.type === "city") {
@@ -214,18 +285,111 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
     if (next) setFocus(next);
   };
 
-  const mapHref = useMemo(() => {
-    if (!focus) return "/map";
+  const buildMapHrefFromFocus = useCallback((target: Focus | null) => {
+    if (!target) return "/map";
     const params = new URLSearchParams({
-      lat: focus.lat.toString(),
-      lon: focus.lon.toString(),
+      lat: target.lat.toString(),
+      lon: target.lon.toString(),
     });
-    if (focus.code) params.set("country", focus.code);
-    if (focus.kind === "city" && focus.name) {
-      params.set("city", focus.name);
+    if (target.code) params.set("country", target.code);
+    if (target.kind === "city" && target.name) {
+      params.set("city", target.name);
     }
     return `/map?${params.toString()}`;
-  }, [focus]);
+  }, []);
+
+  const mapHref = useMemo(() => buildMapHrefFromFocus(focus), [buildMapHrefFromFocus, focus]);
+
+  const executeAiActions = useCallback(
+    async (envelope: AiActionEnvelope): Promise<AiActionExecutionResult> => {
+      if (!envelope.actions.length) {
+        return { ok: false, message: "Keine Aktionen vorhanden." };
+      }
+      const warnings: string[] = [];
+      let executed = 0;
+      let nextFocus: Focus | null = focus;
+
+      for (const action of envelope.actions) {
+        switch (action.type) {
+          case "selectCountry": {
+            const direct = action.code.trim().toUpperCase();
+            const resolved =
+              (countryLookup[direct] ? direct : null) ??
+              resolveCountryCodeFromText(action.code, countryMeta);
+            if (!resolved) {
+              warnings.push(`Land nicht gefunden: ${action.code}`);
+              break;
+            }
+            const next = selectCountryByCode(resolved, "ai");
+            if (next) {
+              nextFocus = next;
+              executed += 1;
+            } else {
+              warnings.push(`Land nicht verfuegbar: ${resolved}`);
+            }
+            break;
+          }
+          case "openCountryPanel": {
+            if (!nextFocus) {
+              warnings.push("Kein Land ausgewaehlt.");
+            } else {
+              executed += 1;
+            }
+            break;
+          }
+          case "openMapMode": {
+            router.push(buildMapHrefFromFocus(nextFocus));
+            executed += 1;
+            break;
+          }
+          case "focusCity": {
+            if (action.lat === undefined || action.lon === undefined) {
+              warnings.push("City-Aktion braucht Koordinaten.");
+              break;
+            }
+            const next = buildFocus({
+              kind: "city",
+              source: "ai",
+              code: selectedCountry?.code,
+              name: action.name?.trim() || "City",
+              center: { lat: action.lat, lon: action.lon },
+            });
+            if (!next) {
+              warnings.push("City-Koordinaten ungueltig.");
+              break;
+            }
+            setFocus(next);
+            nextFocus = next;
+            globeRef.current?.flyToLatLon(next.lat, next.lon, { durationMs: 1200 });
+            triggerAiOrb();
+            executed += 1;
+            break;
+          }
+          case "addPoiToPlan":
+          case "buildItinerary":
+          case "setOrigin":
+            warnings.push("Aktion in dieser Ansicht nicht verfuegbar.");
+            break;
+          default:
+            warnings.push("Unbekannte Aktion ignoriert.");
+        }
+      }
+
+      return {
+        ok: executed > 0,
+        message: warnings.length ? warnings.join(" ") : undefined,
+      };
+    },
+    [
+      buildMapHrefFromFocus,
+      countryLookup,
+      focus,
+      router,
+      selectCountryByCode,
+      selectedCountry?.code,
+      triggerAiOrb,
+    ]
+  );
 
   return (
     <div className="relative min-h-screen overflow-hidden text-white">
@@ -255,6 +419,7 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
 
       <main className="relative h-screen">
         <GlobeGL
+          ref={globeRef}
           countries={countries}
           selectedCountry={focus ? { lat: focus.lat, lon: focus.lon } : null}
           selectedCountryCode={focus?.code ?? null}
@@ -264,7 +429,41 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
             if (next) setFocus(next);
           }}
         />
-        <CountryPanel country={selectedCountry} focus={focus} />
+        {orbFlight ? (
+          <motion.div
+            key={orbFlight.id}
+            className="pointer-events-none fixed inset-0 z-40"
+          >
+            <motion.div
+              className="absolute h-6 w-6 rounded-full bg-cyan-300/80 shadow-[0_0_24px_rgba(56,189,248,0.7)]"
+              initial={{
+                x: orbFlight.from.x,
+                y: orbFlight.from.y,
+                opacity: 0,
+                scale: 0.6,
+              }}
+              animate={{
+                x: orbFlight.to.x,
+                y: orbFlight.to.y,
+                opacity: 1,
+                scale: 1,
+              }}
+              transition={{
+                duration: AI_ORB_DURATION_MS / 1000,
+                ease: [0.22, 0.61, 0.36, 1],
+              }}
+              onAnimationComplete={() => setOrbFlight(null)}
+            />
+          </motion.div>
+        ) : null}
+        <CountryPanel
+          country={selectedCountry}
+          focus={focus}
+          agentMode={agentMode}
+          onAgentModeChange={setAgentMode}
+          onExecuteActions={executeAiActions}
+          uiContext={uiContext}
+        />
 
         <div className="pointer-events-none absolute bottom-20 left-6 z-10 max-w-md md:left-12">
           <p className="text-xs uppercase tracking-[0.3em] text-slate-300">

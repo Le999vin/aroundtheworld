@@ -30,6 +30,12 @@ import {
 import type { TravelOrigin } from "@/lib/flights/types";
 import type { AiChatContext } from "@/lib/ai/types";
 import type {
+  AiActionEnvelope,
+  AiActionExecutionResult,
+  AiAgentMode,
+  AiUiContext,
+} from "@/lib/ai/actions";
+import type {
   Country,
   Focus,
   GeocodeResult,
@@ -61,6 +67,10 @@ const isZeroCenter = (lat: number, lon: number) =>
 type CountryPanelProps = {
   country: Country | null;
   focus: Focus | null;
+  agentMode: AiAgentMode;
+  onAgentModeChange?: (mode: AiAgentMode) => void;
+  onExecuteActions?: (envelope: AiActionEnvelope) => Promise<AiActionExecutionResult>;
+  uiContext?: AiUiContext;
 };
 
 type LoadState<T> = {
@@ -225,7 +235,14 @@ const useCountryPlaces = (country: Country | null, focus: Focus | null) => {
   };
 };
 
-export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
+export const CountryPanel = ({
+  country,
+  focus,
+  agentMode,
+  onAgentModeChange,
+  onExecuteActions,
+  uiContext,
+}: CountryPanelProps) => {
   const reduceMotion = useReducedMotion();
   const weatherState = useCountryWeather(focus);
   const placesState = useCountryPlaces(country, focus);
@@ -466,6 +483,10 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
               variant="panel"
               threadKey="global"
               context={{ mode: "explore" }}
+              agentMode={agentMode}
+              onAgentModeChange={onAgentModeChange}
+              onExecuteActions={onExecuteActions}
+              uiContext={uiContext}
             />
           </div>
         </div>
@@ -587,7 +608,7 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
         <Card className="border-white/10 bg-white/5 p-4">
           <div className="flex items-center justify-between">
             <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
-              Fluege
+              Flüge
             </p>
             <Button
               type="button"
@@ -637,7 +658,7 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
               />
             </label>
             <label className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-3 py-2">
-              <span>Rueckflug</span>
+              <span>Rückflug</span>
               <input
                 type="checkbox"
                 checked={roundTrip}
@@ -647,7 +668,7 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
             </label>
             <label className="grid gap-2">
               <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-                Rueckflug Datum
+                Rückflug Datum
               </span>
               <input
                 type="date"
@@ -884,6 +905,10 @@ export const CountryPanel = ({ country, focus }: CountryPanelProps) => {
         onOpenChange={setChatOpen}
         threadKey={threadKey}
         context={aiContext}
+        agentMode={agentMode}
+        onAgentModeChange={onAgentModeChange}
+        onExecuteActions={onExecuteActions}
+        uiContext={uiContext}
       />
     </motion.aside>
   );

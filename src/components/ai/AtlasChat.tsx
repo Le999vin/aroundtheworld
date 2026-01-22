@@ -4,16 +4,46 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import type { AiChatContext, AiChatMessage } from "@/lib/ai/types";
+import {
+  type AiAction,
+  type AiActionEnvelope,
+  type AiActionExecutionResult,
+  type AiAgentMode,
+  type AiUiContext,
+  validateActions,
+} from "@/lib/ai/actions";
+import { countryMetaByCode } from "@/lib/countries/countryMeta";
 
 type AtlasChatProps = {
   context: AiChatContext;
   threadKey: string;
   variant: "panel" | "sheet";
+  agentMode: AiAgentMode;
+  onAgentModeChange?: (mode: AiAgentMode) => void;
+  onExecuteActions?: (envelope: AiActionEnvelope) => Promise<AiActionExecutionResult>;
+  uiContext?: AiUiContext;
 };
 
-type ChatMessage = AiChatMessage & {
+type ChatTextMessage = AiChatMessage & {
   id: string;
+  kind?: "text";
 };
+
+type ActionStatus = "pending" | "executed" | "rejected" | "error";
+
+type ChatActionMessage = {
+  id: string;
+  kind: "actions";
+  envelope: AiActionEnvelope;
+  status: ActionStatus;
+  statusMessage?: string;
+  autoTriggered?: boolean;
+};
+
+type ChatMessage = ChatTextMessage | ChatActionMessage;
+
+const isTextMessage = (message: ChatMessage): message is ChatTextMessage =>
+  message.kind !== "actions";
 
 const createMessageId = () => {
   if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
@@ -25,7 +55,7 @@ const createMessageId = () => {
 const buildStorageKey = (threadKey: string) =>
   `gta.ai.${encodeURIComponent(threadKey || "global")}.v1`;
 
-const isChatMessage = (value: unknown): value is ChatMessage => {
+const isChatMessage = (value: unknown): value is ChatTextMessage => {
   if (!value || typeof value !== "object") return false;
   const record = value as Record<string, unknown>;
   if (record.role !== "user" && record.role !== "assistant") return false;
@@ -55,7 +85,7 @@ const loadStoredMessages = (storageKey: string): ChatMessage[] => {
   }
 };
 
-const saveStoredMessages = (storageKey: string, messages: ChatMessage[]) => {
+const saveStoredMessages = (storageKey: string, messages: ChatTextMessage[]) => {
   if (typeof window === "undefined") return;
   try {
     window.localStorage.setItem(storageKey, JSON.stringify(messages));
@@ -64,7 +94,53 @@ const saveStoredMessages = (storageKey: string, messages: ChatMessage[]) => {
   }
 };
 
-export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
+const getActionLabel = (action: AiAction) => {
+  switch (action.type) {
+    case "selectCountry": {
+      const meta = countryMetaByCode[action.code];
+      const label = meta?.name ? `${meta.name} (${action.code})` : action.code;
+      return `Land auswaehlen: ${label}`;
+    }
+    case "openCountryPanel":
+      return "Panel oeffnen";
+    case "openMapMode":
+      return "Map oeffnen";
+    case "focusCity":
+      if (action.name && action.lat !== undefined && action.lon !== undefined) {
+        return `City fokussieren: ${action.name} (${action.lat.toFixed(2)}, ${action.lon.toFixed(2)})`;
+      }
+      if (action.name) {
+        return `City fokussieren: ${action.name}`;
+      }
+      return "City fokussieren";
+    case "addPoiToPlan":
+      return `POI zum Plan: ${action.poiId}`;
+    case "buildItinerary":
+      return "Route erstellen";
+    case "setOrigin":
+      return `Startpunkt setzen: ${action.label}`;
+    default:
+      return "Aktion";
+  }
+};
+
+const AGENT_MODE_LABELS: Record<AiAgentMode, string> = {
+  off: "Off",
+  confirm: "Confirm",
+  auto: "Auto",
+};
+
+const AGENT_MODE_OPTIONS: AiAgentMode[] = ["off", "confirm", "auto"];
+
+export const AtlasChat = ({
+  context,
+  threadKey,
+  variant,
+  agentMode,
+  onAgentModeChange,
+  onExecuteActions,
+  uiContext,
+}: AtlasChatProps) => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -79,7 +155,10 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
 
   useEffect(() => {
     if (initializedKeyRef.current !== storageKey) return;
-    saveStoredMessages(storageKey, messages);
+    const storedMessages = messages.filter(
+      (message): message is ChatTextMessage => message.kind !== "actions"
+    );
+    saveStoredMessages(storageKey, storedMessages);
   }, [messages, storageKey]);
 
   useEffect(() => {
@@ -126,11 +205,10 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
 
   const appendAssistantDelta = useCallback((assistantId: string, delta: string) => {
     setMessages((prev) => {
-      const next = prev.map((message) =>
-        message.id === assistantId
-          ? { ...message, content: `${message.content}${delta}` }
-          : message
-      );
+      const next = prev.map((message) => {
+        if (message.id !== assistantId || !isTextMessage(message)) return message;
+        return { ...message, content: `${message.content}${delta}` };
+      });
       messagesRef.current = next;
       return next;
     });
@@ -142,9 +220,58 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
     setIsStreaming(false);
   }, []);
 
+  const updateActionMessage = useCallback(
+    (actionId: string, updates: Partial<ChatActionMessage>) => {
+      setMessages((prev) => {
+        const next = prev.map((message) => {
+          if (message.id !== actionId || message.kind !== "actions") return message;
+          return { ...message, ...updates };
+        });
+        messagesRef.current = next;
+        return next;
+      });
+    },
+    []
+  );
+
+  const executeActionEnvelope = useCallback(
+    async (actionId: string, envelope: AiActionEnvelope, autoTriggered = false) => {
+      if (!onExecuteActions) {
+        updateActionMessage(actionId, {
+          status: "error",
+          statusMessage: "Keine Aktion-Handler verfuegbar.",
+          autoTriggered,
+        });
+        return;
+      }
+      updateActionMessage(actionId, {
+        status: "pending",
+        statusMessage: autoTriggered ? "Wird ausgefuehrt..." : undefined,
+        autoTriggered,
+      });
+      try {
+        const result = await onExecuteActions(envelope);
+        updateActionMessage(actionId, {
+          status: result.ok ? "executed" : "error",
+          statusMessage: result.message,
+        });
+      } catch (error) {
+        const message = error instanceof Error ? error.message : "Aktion fehlgeschlagen.";
+        updateActionMessage(actionId, { status: "error", statusMessage: message });
+      }
+    },
+    [onExecuteActions, updateActionMessage]
+  );
+
   const streamResponse = useCallback(
     async (
-      payload: { messages: AiChatMessage[]; context: AiChatContext; threadKey: string },
+      payload: {
+        messages: AiChatMessage[];
+        context: AiChatContext;
+        threadKey: string;
+        agentMode: AiAgentMode;
+        uiContext?: AiUiContext;
+      },
       assistantId: string
     ) => {
       abortRef.current?.abort();
@@ -153,6 +280,7 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
       abortRef.current = controller;
       let doneReceived = false;
       let hadError = false;
+      let hadAssistantText = false;
 
       try {
         const response = await fetch("/api/ai", {
@@ -176,7 +304,11 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
           setMessages((prev) => {
             const next = prev.filter(
               (message) =>
-                !(message.id === assistantId && message.content.trim().length === 0)
+                !(
+                  message.id === assistantId &&
+                  isTextMessage(message) &&
+                  message.content.trim().length === 0
+                )
             );
             messagesRef.current = next;
             return next;
@@ -208,8 +340,49 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
 
           switch (eventName) {
             case "delta":
+              hadAssistantText = true;
               appendAssistantDelta(assistantId, data);
               break;
+            case "actions": {
+              let parsed: AiActionEnvelope | null = null;
+              try {
+                parsed = validateActions(JSON.parse(data));
+              } catch {
+                parsed = null;
+              }
+              if (!parsed) break;
+              if (!hadAssistantText) {
+                setMessages((prev) => {
+                  const next = prev.filter(
+                    (message) =>
+                      !(
+                        message.id === assistantId &&
+                        isTextMessage(message) &&
+                        message.content.trim().length === 0
+                      )
+                  );
+                  messagesRef.current = next;
+                  return next;
+                });
+              }
+              const actionId = createMessageId();
+              const actionMessage: ChatActionMessage = {
+                id: actionId,
+                kind: "actions",
+                envelope: parsed,
+                status: "pending",
+                autoTriggered: false,
+              };
+              setMessages((prev) => {
+                const next = [...prev, actionMessage];
+                messagesRef.current = next;
+                return next;
+              });
+              if (agentMode === "auto" && parsed.autoExecute) {
+                executeActionEnvelope(actionId, parsed, true);
+              }
+              break;
+            }
             case "error":
               setError(data || "Antwort konnte nicht geladen werden.");
               failedAssistantIdRef.current = assistantId;
@@ -217,7 +390,11 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
               setMessages((prev) => {
                 const next = prev.filter(
                   (message) =>
-                    !(message.id === assistantId && message.content.trim().length === 0)
+                    !(
+                      message.id === assistantId &&
+                      isTextMessage(message) &&
+                      message.content.trim().length === 0
+                    )
                 );
                 messagesRef.current = next;
                 return next;
@@ -228,6 +405,7 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
               doneReceived = true;
               break;
             default:
+              hadAssistantText = true;
               appendAssistantDelta(assistantId, data);
           }
         };
@@ -263,7 +441,7 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
         }
       }
     },
-    [appendAssistantDelta, finalizeStream]
+    [agentMode, appendAssistantDelta, executeActionEnvelope, finalizeStream]
   );
 
   const handleSend = useCallback(
@@ -278,7 +456,7 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
         content,
       };
       const assistantId = createMessageId();
-      const assistantMessage: ChatMessage = {
+      const assistantMessage: ChatTextMessage = {
         id: assistantId,
         role: "assistant",
         content: "",
@@ -287,7 +465,9 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
       const outgoingMessages: AiChatMessage[] = [
         ...messagesRef.current,
         userMessage,
-      ].map(({ role, content: messageContent }) => ({ role, content: messageContent }));
+      ]
+        .filter((message): message is ChatTextMessage => isTextMessage(message))
+        .map(({ role, content: messageContent }) => ({ role, content: messageContent }));
 
       const nextMessages = [...messagesRef.current, userMessage, assistantMessage];
       messagesRef.current = nextMessages;
@@ -298,11 +478,11 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
       setIsStreaming(true);
 
       await streamResponse(
-        { messages: outgoingMessages, context, threadKey },
+        { messages: outgoingMessages, context, threadKey, agentMode, uiContext },
         assistantId
       );
     },
-    [context, input, isStreaming, streamResponse, threadKey]
+    [agentMode, context, input, isStreaming, streamResponse, threadKey, uiContext]
   );
 
   const handleRetry = useCallback(() => {
@@ -311,19 +491,23 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
     const baseMessages = failedId
       ? messagesRef.current.filter((message) => message.id !== failedId)
       : messagesRef.current;
-    const hasUserMessage = baseMessages.some((message) => message.role === "user");
+    const hasUserMessage = baseMessages.some(
+      (message) => isTextMessage(message) && message.role === "user"
+    );
     if (!hasUserMessage) return;
 
     const assistantId = createMessageId();
-    const assistantMessage: ChatMessage = {
+    const assistantMessage: ChatTextMessage = {
       id: assistantId,
       role: "assistant",
       content: "",
     };
-    const outgoingMessages: AiChatMessage[] = baseMessages.map((message) => ({
-      role: message.role,
-      content: message.content,
-    }));
+    const outgoingMessages: AiChatMessage[] = baseMessages
+      .filter((message): message is ChatTextMessage => isTextMessage(message))
+      .map((message) => ({
+        role: message.role,
+        content: message.content,
+      }));
 
     const nextMessages = [...baseMessages, assistantMessage];
     messagesRef.current = nextMessages;
@@ -332,8 +516,11 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
     pendingAssistantIdRef.current = assistantId;
     failedAssistantIdRef.current = null;
     setIsStreaming(true);
-    streamResponse({ messages: outgoingMessages, context, threadKey }, assistantId);
-  }, [context, isStreaming, streamResponse, threadKey]);
+    streamResponse(
+      { messages: outgoingMessages, context, threadKey, agentMode, uiContext },
+      assistantId
+    );
+  }, [agentMode, context, isStreaming, streamResponse, threadKey, uiContext]);
 
   const handleClear = useCallback(() => {
     abortRef.current?.abort();
@@ -383,6 +570,31 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
         </Button>
       </div>
 
+      <div className="mt-3 flex shrink-0 items-center justify-between gap-3">
+        <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
+          Agent Mode
+        </p>
+        <div className="flex items-center gap-1 rounded-full border border-white/10 bg-white/5 p-1">
+          {AGENT_MODE_OPTIONS.map((mode) => (
+            <button
+              key={mode}
+              type="button"
+              onClick={() => onAgentModeChange?.(mode)}
+              disabled={!onAgentModeChange}
+              className={cn(
+                "rounded-full px-3 py-1 text-[10px] uppercase tracking-[0.2em] transition",
+                !onAgentModeChange ? "cursor-not-allowed opacity-60" : "hover:text-slate-200",
+                agentMode === mode
+                  ? "bg-cyan-300/20 text-cyan-100"
+                  : "text-slate-400"
+              )}
+            >
+              {AGENT_MODE_LABELS[mode]}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div className="mt-4 flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-1">
         {messages.length === 0 ? (
           <div className="space-y-3 text-sm text-slate-300">
@@ -407,26 +619,102 @@ export const AtlasChat = ({ context, threadKey, variant }: AtlasChatProps) => {
           </div>
         ) : (
           <div className="space-y-3">
-            {messages.map((message) => (
-              <div
-                key={message.id}
-                className={cn(
-                  "flex",
-                  message.role === "user" ? "justify-end" : "justify-start"
-                )}
-              >
+            {messages.map((message) => {
+              if (message.kind === "actions") {
+                const showConfirmButtons =
+                  agentMode !== "off" &&
+                  message.status === "pending" &&
+                  !message.autoTriggered;
+                const statusText =
+                  message.status === "executed"
+                    ? "Ausgefuehrt ✓"
+                    : message.status === "rejected"
+                      ? "Abgelehnt"
+                      : message.status === "error"
+                        ? message.statusMessage ?? "Aktion fehlgeschlagen"
+                        : message.autoTriggered
+                          ? message.statusMessage ?? "Wird ausgefuehrt..."
+                          : agentMode === "off"
+                            ? "Agent Mode aus"
+                            : "Bestaetigung erforderlich";
+                return (
+                  <div key={message.id} className="flex justify-start">
+                    <div className="min-w-0 max-w-[90%] space-y-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-100">
+                      <div className="flex items-center justify-between">
+                        <p className="text-xs uppercase tracking-[0.3em] text-slate-300">
+                          Vorschlag
+                        </p>
+                        <span className="text-xs text-slate-400">{statusText}</span>
+                      </div>
+                      {message.envelope.rationale ? (
+                        <p className="text-xs text-slate-300">
+                          {message.envelope.rationale}
+                        </p>
+                      ) : null}
+                      <ul className="space-y-1 text-xs text-slate-200">
+                        {message.envelope.actions.map((action, index) => (
+                          <li key={`${message.id}-action-${index}`}>
+                            {getActionLabel(action)}
+                          </li>
+                        ))}
+                      </ul>
+                      {message.statusMessage ? (
+                        <p className="text-xs text-slate-400">
+                          {message.statusMessage}
+                        </p>
+                      ) : null}
+                      {showConfirmButtons ? (
+                        <div className="flex items-center gap-2">
+                          <Button
+                            type="button"
+                            size="sm"
+                            variant="secondary"
+                            onClick={() => executeActionEnvelope(message.id, message.envelope)}
+                          >
+                            Ausfuehren
+                          </Button>
+                          <Button
+                            type="button"
+                            size="sm"
+                            variant="ghost"
+                            onClick={() =>
+                              updateActionMessage(message.id, {
+                                status: "rejected",
+                                statusMessage: "Abgelehnt",
+                              })
+                            }
+                            className="text-slate-300 hover:bg-white/10"
+                          >
+                            Ablehnen
+                          </Button>
+                        </div>
+                      ) : null}
+                    </div>
+                  </div>
+                );
+              }
+
+              return (
                 <div
+                  key={message.id}
                   className={cn(
-                    "min-w-0 max-w-[85%] break-words rounded-2xl px-3 py-2 text-sm leading-relaxed",
-                    message.role === "user"
-                      ? "bg-cyan-300/20 text-cyan-50"
-                      : "bg-white/10 text-slate-100"
+                    "flex",
+                    message.role === "user" ? "justify-end" : "justify-start"
                   )}
                 >
-                  <p className="whitespace-pre-wrap break-words">{message.content}</p>
+                  <div
+                    className={cn(
+                      "min-w-0 max-w-[85%] break-words rounded-2xl px-3 py-2 text-sm leading-relaxed",
+                      message.role === "user"
+                        ? "bg-cyan-300/20 text-cyan-50"
+                        : "bg-white/10 text-slate-100"
+                    )}
+                  >
+                    <p className="whitespace-pre-wrap break-words">{message.content}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         )}
         <div ref={scrollAnchorRef} />
