@@ -119,13 +119,8 @@ const getGlobeCountryCode = (feature: CountryFeature) => {
 export const LandingClient = ({ countries }: LandingClientProps) => {
   const router = useRouter();
   const globeRef = useRef<GlobeHandle | null>(null);
-  const [agentMode, setAgentMode] = useState<AiAgentMode>(() => {
-    if (typeof window === "undefined") return "off";
-    const stored = window.localStorage.getItem(AGENT_MODE_STORAGE_KEY);
-    return stored === "off" || stored === "confirm" || stored === "auto"
-      ? stored
-      : "off";
-  });
+  const [agentMode, setAgentMode] = useState<AiAgentMode>("off");
+  const agentModeLoadedRef = useRef(false);
   const [orbFlight, setOrbFlight] = useState<{
     id: number;
     from: { x: number; y: number };
@@ -146,6 +141,16 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
+    const stored = window.localStorage.getItem(AGENT_MODE_STORAGE_KEY);
+    if (stored === "off" || stored === "confirm" || stored === "auto") {
+      setAgentMode(stored);
+    }
+    agentModeLoadedRef.current = true;
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (!agentModeLoadedRef.current) return;
     window.localStorage.setItem(AGENT_MODE_STORAGE_KEY, agentMode);
   }, [agentMode]);
 

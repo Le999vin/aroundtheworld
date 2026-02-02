@@ -39,6 +39,9 @@ Erstelle eine `.env.local`-Datei mit folgenden Einträgen:
 | `WEATHER_PROVIDER` | ❌ | `openweather` | Wetter-Service Auswahl |
 | `GEOCODING_PROVIDER` | ❌ | `photon` | Geocoding-Service Auswahl |
 | `PLACES_PROVIDER` | ❌ | `opentripmap` | Orte-Service Auswahl |
+| `STAYS_PROVIDER` | ? | `mock` | Stays-Provider (mock oder partner) |
+| `STAYS_PARTNER_ENDPOINT` | ? | `https://partner.example.com/stays` | Partner-API Endpoint |
+| `STAYS_PARTNER_KEY` | ? | `sk_...` | Partner-API Key |
 | `NEXT_PUBLIC_DEFAULT_LAT` | ❌ | `47.3769` | Standard-Kartenbreite |
 | `NEXT_PUBLIC_DEFAULT_LON` | ❌ | `8.5417` | Standard-Kartenlänge |
 | `NEXT_PUBLIC_DEFAULT_UNITS` | ❌ | `metric` | Wetter-Einheiten |
@@ -150,6 +153,12 @@ aroundtheworld/
 **Antwort:** `{ pois: [{ id, name, category, lat, lon, ... }] }`  
 **Datenquelle:** Lokale Datensätze
 
+### `/api/stays`
+**Funktionalit?t:** Unterk?nfte im aktuellen Kartenausschnitt (Provider-basiert, kein Scraping)  
+**Parameter:** `bbox=minLon,minLat,maxLon,maxLat`, `minPrice`, `maxPrice`, `currency`, `limit`  
+**Antwort:** `{ stays: [{ id, title, lat, lon, price, currency, ... }], meta: { source, fallback?, error? } }`  
+**Caching:** 60 Sekunden (In-Memory)
+
 ### `/api/geocode`
 **Funktionalität:** Adresse ↔ Koordinaten  
 **Parameter:** `address` oder `lat`, `lon`  
@@ -226,6 +235,23 @@ Sie enthält:
 - City-Loaders mit Bounding-Boxes
 - Land-Datensatz-Zuordnungen
 - Koordinaten-Zentren für Zoom-Funktionen
+
+
+### Mock Stays Dataset
+
+Die Stays-API nutzt Mock-Datensaetze pro Land:
+- public/data/stays/countries/<CC>.json
+
+Generieren:
+
+```bash
+node scripts/generate-stays-dataset.ts --perCity=150 --radiusKm=8 --writeAll=false
+```
+
+Optionale Gesamtdatei:
+- public/data/stays.all.json (nur wenn --writeAll=true)
+
+Hinweis: Die Dateien sind gross; nicht zwingend ins Repo committen.
 
 ---
 
