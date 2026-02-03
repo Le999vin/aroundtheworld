@@ -38,6 +38,8 @@ const POLYGON_OFFSET_UNITS = 1;
 const POLYGON_STROKE_RENDER_ORDER = 2;
 const CAMERA_ALTITUDE = 2.1;
 const CAMERA_ANIMATION_MS = 900;
+const DEFAULT_VIEW_LAT = 20;
+const DEFAULT_VIEW_LON = 0;
 
 type LoadedTextures = {
   earth: THREE.Texture;
@@ -186,6 +188,7 @@ type GlobeGLProps = {
 export type GlobeHandle = {
   flyToLatLon: (lat: number, lon: number, opts?: { durationMs?: number }) => void;
   highlightCountry: (code: string, opts?: { pulseMs?: number }) => void;
+  resetView: (opts?: { durationMs?: number }) => void;
 };
 
 const GlobeGL = forwardRef<GlobeHandle, GlobeGLProps>(function GlobeGL(
@@ -306,6 +309,18 @@ const GlobeGL = forwardRef<GlobeHandle, GlobeGLProps>(function GlobeGL(
           updatePolygonColors();
         }, opts?.pulseMs ?? 1200);
       },
+      resetView: (opts) => {
+        const globe = globeRef.current;
+        if (!globe) return;
+        const durationMs = opts?.durationMs ?? 1200;
+        lastFocusRef.current = null;
+        globe.pointOfView(
+          { lat: DEFAULT_VIEW_LAT, lng: DEFAULT_VIEW_LON, altitude: CAMERA_ALTITUDE },
+          durationMs
+        );
+        const controls = globe.controls();
+        controls.autoRotate = true;
+      },
     }),
     [updatePolygonColors]
   );
@@ -425,7 +440,7 @@ const GlobeGL = forwardRef<GlobeHandle, GlobeGLProps>(function GlobeGL(
     controls.minDistance = radius * 1.2;
     controls.maxDistance = radius * 3;
 
-    g.pointOfView({ lat: 20, lng: 0, altitude: CAMERA_ALTITUDE }, 0);
+    g.pointOfView({ lat: DEFAULT_VIEW_LAT, lng: DEFAULT_VIEW_LON, altitude: CAMERA_ALTITUDE }, 0);
 
     const renderer = g.renderer();
     renderer.setClearColor(BACKGROUND_COLOR, 1);

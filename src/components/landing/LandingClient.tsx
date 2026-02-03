@@ -4,13 +4,14 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import CountryPanel from "@/components/panels/CountryPanel";
 import GlobalSearch, {
   type SearchResult,
 } from "@/components/search/GlobalSearch";
 import { Button } from "@/components/ui/button";
+import { createAtlasAgentController } from "@/lib/agent/atlasAgentController";
+import { atlasAgentStore } from "@/lib/state/atlasAgent.store";
 import {
   countryMeta,
   countryMetaByCode,
@@ -20,13 +21,6 @@ import {
   resolveCountryCode,
   resolveCountryCenterFromMeta,
 } from "@/lib/countries/countryMeta";
-import type {
-  AiActionEnvelope,
-  AiActionExecutionResult,
-  AiAgentMode,
-  AiUiContext,
-} from "@/lib/ai/actions";
-import { resolveCountryCodeFromText } from "@/lib/ai/resolveCountry";
 import type { GlobeHandle } from "@/components/globe/GlobeGL";
 import {
   getCountryCode,
@@ -66,7 +60,6 @@ const isValidLatLon = (lat?: number, lon?: number) => {
 const isZeroCenter = (lat: number, lon: number) =>
   Math.abs(lat) < 0.0001 && Math.abs(lon) < 0.0001;
 
-const AGENT_MODE_STORAGE_KEY = "gta.agentMode.v1";
 const AI_ORB_DURATION_MS = 900;
 
 const pickCenter = (
@@ -117,10 +110,7 @@ const getGlobeCountryCode = (feature: CountryFeature) => {
 };
 
 export const LandingClient = ({ countries }: LandingClientProps) => {
-  const router = useRouter();
   const globeRef = useRef<GlobeHandle | null>(null);
-  const [agentMode, setAgentMode] = useState<AiAgentMode>("off");
-  const agentModeLoadedRef = useRef(false);
   const [orbFlight, setOrbFlight] = useState<{
     id: number;
     from: { x: number; y: number };
@@ -139,20 +129,6 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
     });
   }, [focus]);
 
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const stored = window.localStorage.getItem(AGENT_MODE_STORAGE_KEY);
-    if (stored === "off" || stored === "confirm" || stored === "auto") {
-      setAgentMode(stored);
-    }
-    agentModeLoadedRef.current = true;
-  }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    if (!agentModeLoadedRef.current) return;
-    window.localStorage.setItem(AGENT_MODE_STORAGE_KEY, agentMode);
-  }, [agentMode]);
 
   const countryLookup = useMemo(() => {
     const features = (countries?.features ?? []) as CountryFeature[];
@@ -196,34 +172,41 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
   }, []);
 
   const resolveCountryFocus = useCallback(
-    (
-    code: string,
-    source: Focus["source"],
-    nameHint?: string
-    ) => {
+    (code: string, source: Focus["source"], nameHint?: string) => {
       const base = countryLookup[code] ?? countryMetaByCode[code] ?? null;
       if (base) {
         return buildFocus({
           kind: "country",
           source,
-        code: base.code,
-        name: base.name,
-        center: { lat: base.lat, lon: base.lon },
+          code: base.code,
+          name: base.name,
+          center: { lat: base.lat, lon: base.lon },
+        });
+      }
+      const meta =
+        getCountryMeta(code) ??
+        (nameHint ? getCountryMetaByName(nameHint) : null);
+      const center = resolveCountryCenterFromMeta(meta ?? null);
+      return buildFocus({
+        kind: "country",
+        source,
+        code: meta?.code ?? code,
+        name: meta?.name ?? nameHint ?? code,
+        center,
       });
-    }
-    const meta =
-      getCountryMeta(code) ??
-      (nameHint ? getCountryMetaByName(nameHint) : null);
-    const center = resolveCountryCenterFromMeta(meta ?? null);
-    return buildFocus({
-      kind: "country",
-      source,
-      code: meta?.code ?? code,
-      name: meta?.name ?? nameHint ?? code,
-      center,
-    });
     },
     [countryLookup]
+  );
+
+  const agentController = useMemo(
+    () =>
+      createAtlasAgentController({
+        globeRef,
+        resolveCountryFocus,
+        setFocus,
+        triggerAiOrb,
+      }),
+    [resolveCountryFocus, triggerAiOrb]
   );
 
   const selectCountryByCode = useCallback(
@@ -260,13 +243,13 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
     };
   }, [countryLookup, focus]);
 
-  const uiContext = useMemo<AiUiContext>(
-    () => ({
-      currentCountryCode: selectedCountry?.code,
-      hasCountrySelected: Boolean(selectedCountry?.code),
-    }),
-    [selectedCountry?.code]
-  );
+  const handleClosePanel = useCallback(() => {
+    atlasAgentStore.clearPendingIntents();
+    agentController.executeIntents([
+      { type: "clear_selection" },
+      { type: "return_to_world_view" },
+    ]);
+  }, [agentController]);
 
   const handleSearch = (result: SearchResult) => {
     if (result.type === "city") {
@@ -304,97 +287,6 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
   }, []);
 
   const mapHref = useMemo(() => buildMapHrefFromFocus(focus), [buildMapHrefFromFocus, focus]);
-
-  const executeAiActions = useCallback(
-    async (envelope: AiActionEnvelope): Promise<AiActionExecutionResult> => {
-      if (!envelope.actions.length) {
-        return { ok: false, message: "Keine Aktionen vorhanden." };
-      }
-      const warnings: string[] = [];
-      let executed = 0;
-      let nextFocus: Focus | null = focus;
-
-      for (const action of envelope.actions) {
-        switch (action.type) {
-          case "selectCountry": {
-            const direct = action.code.trim().toUpperCase();
-            const resolved =
-              (countryLookup[direct] ? direct : null) ??
-              resolveCountryCodeFromText(action.code, countryMeta);
-            if (!resolved) {
-              warnings.push(`Land nicht gefunden: ${action.code}`);
-              break;
-            }
-            const next = selectCountryByCode(resolved, "ai");
-            if (next) {
-              nextFocus = next;
-              executed += 1;
-            } else {
-              warnings.push(`Land nicht verfuegbar: ${resolved}`);
-            }
-            break;
-          }
-          case "openCountryPanel": {
-            if (!nextFocus) {
-              warnings.push("Kein Land ausgewaehlt.");
-            } else {
-              executed += 1;
-            }
-            break;
-          }
-          case "openMapMode": {
-            router.push(buildMapHrefFromFocus(nextFocus));
-            executed += 1;
-            break;
-          }
-          case "focusCity": {
-            if (action.lat === undefined || action.lon === undefined) {
-              warnings.push("City-Aktion braucht Koordinaten.");
-              break;
-            }
-            const next = buildFocus({
-              kind: "city",
-              source: "ai",
-              code: selectedCountry?.code,
-              name: action.name?.trim() || "City",
-              center: { lat: action.lat, lon: action.lon },
-            });
-            if (!next) {
-              warnings.push("City-Koordinaten ungueltig.");
-              break;
-            }
-            setFocus(next);
-            nextFocus = next;
-            globeRef.current?.flyToLatLon(next.lat, next.lon, { durationMs: 1200 });
-            triggerAiOrb();
-            executed += 1;
-            break;
-          }
-          case "addPoiToPlan":
-          case "buildItinerary":
-          case "setOrigin":
-            warnings.push("Aktion in dieser Ansicht nicht verfuegbar.");
-            break;
-          default:
-            warnings.push("Unbekannte Aktion ignoriert.");
-        }
-      }
-
-      return {
-        ok: executed > 0,
-        message: warnings.length ? warnings.join(" ") : undefined,
-      };
-    },
-    [
-      buildMapHrefFromFocus,
-      countryLookup,
-      focus,
-      router,
-      selectCountryByCode,
-      selectedCountry?.code,
-      triggerAiOrb,
-    ]
-  );
 
   return (
     <div className="relative min-h-screen overflow-hidden text-white">
@@ -464,10 +356,12 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
         <CountryPanel
           country={selectedCountry}
           focus={focus}
-          agentMode={agentMode}
-          onAgentModeChange={setAgentMode}
-          onExecuteActions={executeAiActions}
-          uiContext={uiContext}
+          onSelectCountry={(code) => {
+            if (!code) return;
+            selectCountryByCode(code, "ai");
+          }}
+          onExecuteIntents={agentController.executeIntents}
+          onClose={handleClosePanel}
         />
 
         <div className="pointer-events-none absolute bottom-20 left-6 z-10 max-w-md md:left-12">

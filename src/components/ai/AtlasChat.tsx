@@ -1,49 +1,34 @@
-"use client";
+﻿"use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import type { AiChatContext, AiChatMessage } from "@/lib/ai/types";
-import {
-  type AiAction,
-  type AiActionEnvelope,
-  type AiActionExecutionResult,
-  type AiAgentMode,
-  type AiUiContext,
-  validateActions,
-} from "@/lib/ai/actions";
-import { countryMetaByCode } from "@/lib/countries/countryMeta";
+import type {
+  AgentMode,
+  AtlasAssistantResponse,
+  UiIntent,
+} from "@/lib/ai/atlasAssistant.types";
+import { atlasAgentStore, useAtlasAgentStore } from "@/lib/state/atlasAgent.store";
 
 type AtlasChatProps = {
   context: AiChatContext;
   threadKey: string;
   variant: "panel" | "sheet";
-  agentMode: AiAgentMode;
-  onAgentModeChange?: (mode: AiAgentMode) => void;
-  onExecuteActions?: (envelope: AiActionEnvelope) => Promise<AiActionExecutionResult>;
-  uiContext?: AiUiContext;
+  onSelectCountry?: (code: string) => void;
+  onExecuteIntents?: (intents: UiIntent[]) => void;
+  uiState?: Record<string, unknown>;
 };
 
-type ChatTextMessage = AiChatMessage & {
+type AssistantQuickReply = NonNullable<AtlasAssistantResponse["quick_replies"]>[number];
+
+type ChatMessage = {
   id: string;
-  kind?: "text";
+  role: "user" | "assistant";
+  content: string;
+  quickReplies?: AssistantQuickReply[];
+  intents?: UiIntent[];
 };
-
-type ActionStatus = "pending" | "executed" | "rejected" | "error";
-
-type ChatActionMessage = {
-  id: string;
-  kind: "actions";
-  envelope: AiActionEnvelope;
-  status: ActionStatus;
-  statusMessage?: string;
-  autoTriggered?: boolean;
-};
-
-type ChatMessage = ChatTextMessage | ChatActionMessage;
-
-const isTextMessage = (message: ChatMessage): message is ChatTextMessage =>
-  message.kind !== "actions";
 
 const createMessageId = () => {
   if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
@@ -53,9 +38,9 @@ const createMessageId = () => {
 };
 
 const buildStorageKey = (threadKey: string) =>
-  `gta.ai.${encodeURIComponent(threadKey || "global")}.v1`;
+  `gta.ai.${encodeURIComponent(threadKey || "global")}.v2`;
 
-const isChatMessage = (value: unknown): value is ChatTextMessage => {
+const isChatMessage = (value: unknown): value is ChatMessage => {
   if (!value || typeof value !== "object") return false;
   const record = value as Record<string, unknown>;
   if (record.role !== "user" && record.role !== "assistant") return false;
@@ -88,99 +73,125 @@ const loadStoredMessages = (storageKey: string): ChatMessage[] => {
   }
 };
 
-const saveStoredMessages = (storageKey: string, messages: ChatTextMessage[]) => {
+const saveStoredMessages = (storageKey: string, messages: ChatMessage[]) => {
   if (typeof window === "undefined") return;
   try {
-    const capped = messages.slice(-MAX_STORED_MESSAGES);
+    const capped = messages.slice(-MAX_STORED_MESSAGES).map((message) => ({
+      id: message.id,
+      role: message.role,
+      content: message.content,
+    }));
     window.localStorage.setItem(storageKey, JSON.stringify(capped));
   } catch {
     // Ignore write errors.
   }
 };
 
-const getActionLabel = (action: AiAction) => {
-  switch (action.type) {
-    case "selectCountry": {
-      const meta = countryMetaByCode[action.code];
-      const label = meta?.name ? `${meta.name} (${action.code})` : action.code;
-      return `Land auswählen: ${label}`;
-    }
-    case "openCountryPanel":
-      return "Panel öffnen";
-    case "openMapMode":
-      return "Map öffnen";
-    case "focusCity":
-      if (action.name && action.lat !== undefined && action.lon !== undefined) {
-        return `City fokussieren: ${action.name} (${action.lat.toFixed(2)}, ${action.lon.toFixed(
-          2
-        )})`;
-      }
-      if (action.name) return `City fokussieren: ${action.name}`;
-      return "City fokussieren";
-    case "addPoiToPlan":
-      return `POI zum Plan: ${action.poiId}`;
-    case "buildItinerary":
-      return "Route erstellen";
-    case "setOrigin":
-      return `Startpunkt setzen: ${action.label}`;
-    default:
-      return "Aktion";
-  }
+const FALLBACK_RESPONSE: AtlasAssistantResponse = {
+  message_md: "Sorry, das hat nicht geklappt. Wohin soll ich dich fuehren?",
+  quick_replies: [
+    { id: "europe", label: "Europa" },
+    { id: "beach", label: "Strand" },
+    { id: "city", label: "Stadt" },
+  ],
+  intents: [],
 };
 
-const AGENT_MODE_LABELS: Record<AiAgentMode, string> = {
-  off: "Off",
-  confirm: "Confirm",
-  auto: "Auto",
+const isValidAtlasAssistantResponse = (value: unknown): value is AtlasAssistantResponse => {
+  if (!value || typeof value !== "object") return false;
+  const record = value as Record<string, unknown>;
+  if (typeof record.message_md !== "string") return false;
+  if (record.quick_replies !== undefined && !Array.isArray(record.quick_replies)) return false;
+  if (record.intents !== undefined && !Array.isArray(record.intents)) return false;
+  return true;
 };
 
-const AGENT_MODE_OPTIONS: AiAgentMode[] = ["off", "confirm", "auto"];
+const normalizeConfirmInput = (value: string) =>
+  value
+    .toLowerCase()
+    .replace(/[.!?,]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+const CONFIRM_PHRASES = new Set([
+  "ja",
+  "ja bitte",
+  "ok",
+  "okay",
+  "okey",
+  "ok mach",
+  "mach",
+  "mach das",
+  "mach bitte",
+  "gerne",
+  "fuehr mich hin",
+  "fuehr mich",
+  "fuehr mich bitte",
+  "fuehr mich dahin",
+  "fuehr mich dorthin",
+  "führ mich hin",
+  "führ mich",
+  "führ mich bitte",
+  "führ mich dahin",
+  "führ mich dorthin",
+  "go",
+]);
+
+const isConfirmMessage = (value: string) => {
+  const normalized = normalizeConfirmInput(value);
+  if (!normalized) return false;
+  if (CONFIRM_PHRASES.has(normalized)) return true;
+  if (normalized.startsWith("ja ") && normalized.split(" ").length <= 3) return true;
+  if (normalized.startsWith("ok ") && normalized.split(" ").length <= 3) return true;
+  if (normalized.startsWith("okay ") && normalized.split(" ").length <= 3) return true;
+  return false;
+};
 
 export const AtlasChat = ({
   context,
   threadKey,
   variant,
-  agentMode,
-  onAgentModeChange,
-  onExecuteActions,
-  uiContext,
+  onExecuteIntents,
+  uiState,
 }: AtlasChatProps) => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
-  const [error, setError] = useState<string | null>(null);
-  const [isStreaming, setIsStreaming] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const agentMode = useAtlasAgentStore((state) => state.agentMode);
+  const pendingIntents = useAtlasAgentStore((state) => state.pendingIntents);
+  const pendingMessageId = useAtlasAgentStore((state) => state.pendingMessageId);
 
   const storageKey = useMemo(() => buildStorageKey(threadKey), [threadKey]);
   const messagesRef = useRef<ChatMessage[]>([]);
   const abortRef = useRef<AbortController | null>(null);
-  const pendingAssistantIdRef = useRef<string | null>(null);
-  const failedAssistantIdRef = useRef<string | null>(null);
   const initializedKeyRef = useRef<string | null>(null);
 
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const scrollAnchorRef = useRef<HTMLDivElement | null>(null);
   const shouldAutoScrollRef = useRef(true);
 
+  const uiStatePayload = useMemo(
+    () => ({ ...(uiState ?? {}), context }),
+    [context, uiState]
+  );
+
   useEffect(() => {
     if (initializedKeyRef.current !== storageKey) return;
-    const storedMessages = messages.filter(
-      (message): message is ChatTextMessage => message.kind !== "actions"
-    );
-    saveStoredMessages(storageKey, storedMessages);
+    saveStoredMessages(storageKey, messages);
   }, [messages, storageKey]);
 
   useEffect(() => {
     abortRef.current?.abort();
     abortRef.current = null;
-    pendingAssistantIdRef.current = null;
-    setIsStreaming(false);
-    setError(null);
+    setIsLoading(false);
     setInput("");
     const stored = loadStoredMessages(storageKey);
     messagesRef.current = stored;
     initializedKeyRef.current = storageKey;
     setMessages(stored);
     shouldAutoScrollRef.current = true;
+    atlasAgentStore.clearPendingIntents();
   }, [storageKey]);
 
   const updateAutoScrollFlag = useCallback(() => {
@@ -191,9 +202,9 @@ export const AtlasChat = ({
   }, []);
 
   useEffect(() => {
-    if (!shouldAutoScrollRef.current && !isStreaming) return;
+    if (!shouldAutoScrollRef.current && !isLoading) return;
     scrollAnchorRef.current?.scrollIntoView({ behavior: "auto" });
-  }, [messages, isStreaming]);
+  }, [messages, isLoading]);
 
   useEffect(() => {
     return () => abortRef.current?.abort();
@@ -212,267 +223,75 @@ export const AtlasChat = ({
     }
     return [
       "Empfiehl mir ein Land für Natur und Kultur.",
-      "Welche Ziele passen für 7 Tage im Fruehling?",
+      "Welche Ziele passen für 7 Tage im Frühling?",
       "Gib mir eine Rundreise-Idee in Europa.",
       "Was ist eine gute erste Reise ausserhalb Europas?",
     ];
   }, [context]);
 
-  const appendAssistantDelta = useCallback((assistantId: string, delta: string) => {
-    setMessages((prev) => {
-      const next = prev.map((message) => {
-        if (message.id !== assistantId || !isTextMessage(message)) return message;
-        return { ...message, content: `${message.content}${delta}` };
-      });
-      messagesRef.current = next;
-      return next;
-    });
-  }, []);
-
-  const finalizeStream = useCallback(() => {
-    abortRef.current = null;
-    pendingAssistantIdRef.current = null;
-    setIsStreaming(false);
-  }, []);
-
-  const handleStop = useCallback(() => {
-    abortRef.current?.abort();
-    abortRef.current = null;
-    pendingAssistantIdRef.current = null;
-    setIsStreaming(false);
-  }, []);
-
-  const updateActionMessage = useCallback(
-    (actionId: string, updates: Partial<ChatActionMessage>) => {
-      setMessages((prev) => {
-        const next = prev.map((message) => {
-          if (message.id !== actionId || message.kind !== "actions") return message;
-          return { ...message, ...updates };
-        });
-        messagesRef.current = next;
-        return next;
-      });
-    },
-    []
-  );
-
-  const executeActionEnvelope = useCallback(
-    async (actionId: string, envelope: AiActionEnvelope, autoTriggered = false) => {
-      if (!onExecuteActions) {
-        updateActionMessage(actionId, {
-          status: "error",
-          statusMessage: "Keine Aktion-Handler verfuegbar.",
-          autoTriggered,
-        });
-        return;
-      }
-      updateActionMessage(actionId, {
-        status: "pending",
-        statusMessage: autoTriggered ? "Wird ausgefuehrt..." : undefined,
-        autoTriggered,
-      });
-      try {
-        const result = await onExecuteActions(envelope);
-        updateActionMessage(actionId, {
-          status: result.ok ? "executed" : "error",
-          statusMessage: result.message,
-        });
-      } catch (error) {
-        const message = error instanceof Error ? error.message : "Aktion fehlgeschlagen.";
-        updateActionMessage(actionId, { status: "error", statusMessage: message });
-      }
-    },
-    [onExecuteActions, updateActionMessage]
-  );
-
-  const removeEmptyAssistantIfNeeded = useCallback((assistantId: string) => {
-    setMessages((prev) => {
-      const next = prev.filter((m) => {
-        if (!isTextMessage(m)) return true;
-        if (m.id !== assistantId) return true;
-        return m.content.trim().length > 0;
-      });
-      messagesRef.current = next;
-      return next;
-    });
-  }, []);
-
-  const streamResponse = useCallback(
-    async (
-      payload: {
-        messages: AiChatMessage[];
-        context: AiChatContext;
-        threadKey: string;
-        agentMode: AiAgentMode;
-        uiContext?: AiUiContext;
-      },
-      assistantId: string
-    ) => {
+  const fetchAtlasAssistantResponse = useCallback(
+    async (outgoingMessages: AiChatMessage[]) => {
       abortRef.current?.abort();
-      failedAssistantIdRef.current = null;
-
       const controller = new AbortController();
       abortRef.current = controller;
-
-      let doneReceived = false;
-      let hadError = false;
-      let hadAssistantText = false;
-      let hadActions = false;
-
       try {
-        const response = await fetch("/api/ai", {
+        const response = await fetch("/api/atlas-assistant", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
+          body: JSON.stringify({
+            messages: outgoingMessages,
+            agentMode,
+            uiState: uiStatePayload,
+          }),
           signal: controller.signal,
         });
-
-        const contentType = response.headers.get("content-type") ?? "";
-        if (!contentType.includes("text/event-stream")) {
-          const bodyText = await response.text().catch(() => "");
-          console.warn("[atlas-chat] unexpected content-type", {
-            status: response.status,
-            contentType,
-            body: bodyText.slice(0, 400),
-          });
-          setError("Unexpected response type (expected text/event-stream).");
-          failedAssistantIdRef.current = assistantId;
-          hadError = true;
-          removeEmptyAssistantIfNeeded(assistantId);
-          return;
+        const data = (await response.json().catch(() => null)) as AtlasAssistantResponse | null;
+        if (response.ok && data && isValidAtlasAssistantResponse(data)) {
+          return data;
         }
-
-        if (!response.body) {
-          throw new Error(response.ok ? "Antwort ohne Daten." : "Anfrage fehlgeschlagen.");
-        }
-
-        const reader = response.body.getReader();
-        const decoder = new TextDecoder();
-        let buffer = "";
-
-        const handleEventBlock = (block: string) => {
-          const lines = block.split(/\r?\n/);
-          let eventName = "";
-          const dataLines: string[] = [];
-
-          for (const line of lines) {
-            if (line.startsWith("event:")) eventName = line.slice(6).trim();
-            else if (line.startsWith("data:"))
-              dataLines.push(line.startsWith("data: ") ? line.slice(6) : line.slice(5));
-          }
-
-          const data = dataLines.join("\n");
-          if (!data) return;
-
-          switch (eventName) {
-            case "delta":
-              hadAssistantText = true;
-              appendAssistantDelta(assistantId, data);
-              break;
-
-            case "actions": {
-              let parsed: AiActionEnvelope | null = null;
-              try {
-                parsed = validateActions(JSON.parse(data));
-              } catch {
-                parsed = null;
-              }
-              if (!parsed) break;
-
-              hadActions = true;
-
-              if (!hadAssistantText) removeEmptyAssistantIfNeeded(assistantId);
-
-              const actionId = createMessageId();
-              const actionMessage: ChatActionMessage = {
-                id: actionId,
-                kind: "actions",
-                envelope: parsed,
-                status: "pending",
-                autoTriggered: false,
-              };
-
-              setMessages((prev) => {
-                const next = [...prev, actionMessage];
-                messagesRef.current = next;
-                return next;
-              });
-
-              if (agentMode === "auto" && parsed.autoExecute) {
-                executeActionEnvelope(actionId, parsed, true);
-              }
-              break;
-            }
-
-            case "error":
-              setError(data || "Antwort konnte nicht geladen werden.");
-              failedAssistantIdRef.current = assistantId;
-              hadError = true;
-              removeEmptyAssistantIfNeeded(assistantId);
-              doneReceived = true;
-              break;
-
-            case "done":
-              doneReceived = true;
-              break;
-
-            default:
-              hadAssistantText = true;
-              appendAssistantDelta(assistantId, data);
-          }
-        };
-
-        while (true) {
-          const { value, done } = await reader.read();
-          if (done || doneReceived) break;
-
-          buffer += decoder.decode(value, { stream: true });
-          const parts = buffer.split(/\r?\n\r?\n/);
-          buffer = parts.pop() ?? "";
-
-          for (const part of parts) {
-            handleEventBlock(part);
-            if (doneReceived) break;
-          }
-        }
-
-        if (!doneReceived && buffer.trim().length) handleEventBlock(buffer);
-
-        // Leere Antwort sauber behandeln (kein Text + keine Actions)
-        if (!hadError && !hadAssistantText && !hadActions) {
-          setError("Leere Antwort erhalten. Bitte erneut versuchen.");
-          failedAssistantIdRef.current = assistantId;
-          removeEmptyAssistantIfNeeded(assistantId);
-        }
-      } catch (err) {
-        if (!controller.signal.aborted) {
-          const message =
-            err instanceof Error ? err.message : "Antwort konnte nicht geladen werden.";
-          setError(message);
-          failedAssistantIdRef.current = assistantId;
-          hadError = true;
-          removeEmptyAssistantIfNeeded(assistantId);
-        }
-      } finally {
-        if (controller.signal.aborted) return;
-        finalizeStream();
-        if (!hadError) failedAssistantIdRef.current = null;
+      } catch {
+        // fall back
       }
+      return FALLBACK_RESPONSE;
     },
-    [
-      agentMode,
-      appendAssistantDelta,
-      executeActionEnvelope,
-      finalizeStream,
-      removeEmptyAssistantIfNeeded,
-    ]
+    [agentMode, uiStatePayload]
   );
 
+  const executeIntents = useCallback(
+    (intents: UiIntent[]) => {
+      if (!Array.isArray(intents) || intents.length === 0) return;
+      onExecuteIntents?.(intents);
+    },
+    [onExecuteIntents]
+  );
+
+  const confirmPendingIntents = useCallback(() => {
+    if (!pendingIntents?.length) return false;
+    executeIntents(pendingIntents);
+    atlasAgentStore.clearPendingIntents();
+    return true;
+  }, [executeIntents, pendingIntents]);
+
+  const declinePendingIntents = useCallback(() => {
+    atlasAgentStore.clearPendingIntents();
+  }, []);
+
   const handleSend = useCallback(
-    async (override?: string) => {
-      if (isStreaming) return;
+    async (
+      override?: string,
+      options?: {
+        skipConfirmCheck?: boolean;
+      }
+    ) => {
+      if (isLoading) return;
       const content = (override ?? input).trim();
       if (!content) return;
+
+      if (!options?.skipConfirmCheck) {
+        if (agentMode === "confirm" && pendingIntents?.length && isConfirmMessage(content)) {
+          confirmPendingIntents();
+        }
+      }
 
       shouldAutoScrollRef.current = true;
 
@@ -481,91 +300,85 @@ export const AtlasChat = ({
         role: "user",
         content,
       };
-      const assistantId = createMessageId();
-      const assistantMessage: ChatTextMessage = {
-        id: assistantId,
-        role: "assistant",
-        content: "",
-      };
 
-      const outgoingMessages: AiChatMessage[] = [...messagesRef.current, userMessage]
-        .filter((message): message is ChatTextMessage => isTextMessage(message))
-        .map(({ role, content: messageContent }) => ({ role, content: messageContent }));
-
-      const nextMessages = [...messagesRef.current, userMessage, assistantMessage];
+      const nextMessages = [...messagesRef.current, userMessage];
       messagesRef.current = nextMessages;
       setMessages(nextMessages);
 
       setInput("");
-      setError(null);
+      setIsLoading(true);
 
-      pendingAssistantIdRef.current = assistantId;
-      setIsStreaming(true);
+      const outgoingMessages: AiChatMessage[] = nextMessages.map((message) => ({
+        role: message.role,
+        content: message.content,
+      }));
 
-      await streamResponse(
-        { messages: outgoingMessages, context, threadKey, agentMode, uiContext },
-        assistantId
-      );
+      const response = await fetchAtlasAssistantResponse(outgoingMessages);
+      const intents = Array.isArray(response.intents) ? response.intents : [];
+
+      const assistantMessage: ChatMessage = {
+        id: createMessageId(),
+        role: "assistant",
+        content: response.message_md,
+        quickReplies: response.quick_replies,
+        intents,
+      };
+
+      const withAssistant = [...messagesRef.current, assistantMessage];
+      messagesRef.current = withAssistant;
+      setMessages(withAssistant);
+
+      if (intents.length > 0) {
+        if (agentMode === "auto") {
+          executeIntents(intents);
+        } else if (agentMode === "confirm") {
+          atlasAgentStore.setPendingIntents(intents, assistantMessage.id);
+        }
+      }
+
+      setIsLoading(false);
     },
-    [agentMode, context, input, isStreaming, streamResponse, threadKey, uiContext]
+    [
+      agentMode,
+      confirmPendingIntents,
+      executeIntents,
+      fetchAtlasAssistantResponse,
+      input,
+      isLoading,
+      pendingIntents,
+    ]
   );
 
-  const handleRetry = useCallback(() => {
-    if (isStreaming) return;
-
-    const failedId = failedAssistantIdRef.current ?? pendingAssistantIdRef.current;
-    const baseMessages = failedId
-      ? messagesRef.current.filter((message) => message.id !== failedId)
-      : messagesRef.current;
-
-    const hasUserMessage = baseMessages.some(
-      (message) => isTextMessage(message) && message.role === "user"
-    );
-    if (!hasUserMessage) return;
-
-    shouldAutoScrollRef.current = true;
-
-    const assistantId = createMessageId();
-    const assistantMessage: ChatTextMessage = {
-      id: assistantId,
-      role: "assistant",
-      content: "",
-    };
-
-    const outgoingMessages: AiChatMessage[] = baseMessages
-      .filter((message): message is ChatTextMessage => isTextMessage(message))
-      .map((message) => ({ role: message.role, content: message.content }));
-
-    const nextMessages = [...baseMessages, assistantMessage];
-    messagesRef.current = nextMessages;
-    setMessages(nextMessages);
-
-    setError(null);
-    pendingAssistantIdRef.current = assistantId;
-    failedAssistantIdRef.current = null;
-    setIsStreaming(true);
-
-    streamResponse(
-      { messages: outgoingMessages, context, threadKey, agentMode, uiContext },
-      assistantId
-    );
-  }, [agentMode, context, isStreaming, streamResponse, threadKey, uiContext]);
+  const handleQuickReply = useCallback(
+    (reply: AssistantQuickReply) => {
+      if (isLoading) return;
+      handleSend(reply.label, { skipConfirmCheck: true });
+    },
+    [handleSend, isLoading]
+  );
 
   const handleClear = useCallback(() => {
     abortRef.current?.abort();
     abortRef.current = null;
-    pendingAssistantIdRef.current = null;
-    failedAssistantIdRef.current = null;
-    setIsStreaming(false);
-    setError(null);
+    setIsLoading(false);
     setInput("");
     messagesRef.current = [];
     setMessages([]);
+    atlasAgentStore.clearPendingIntents();
     if (typeof window !== "undefined") window.localStorage.removeItem(storageKey);
   }, [storageKey]);
 
   const promptGridClass =
     variant === "sheet" ? "grid grid-cols-1 gap-2" : "grid grid-cols-2 gap-2";
+
+  const modeOptions: Array<{ value: AgentMode; label: string }> = useMemo(
+    () => [
+      { value: "off", label: "OFF" },
+      { value: "confirm", label: "CONFIRM" },
+      { value: "auto", label: "AUTO" },
+    ],
+    []
+  );
 
   return (
     <div
@@ -580,9 +393,36 @@ export const AtlasChat = ({
         )}
       >
         {variant === "panel" ? (
-          <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-300">Atlas Assistant</p>
-            <p className="mt-1 text-sm text-slate-200">Frag nach Ideen, Routen oder Highlights.</p>
+          <div className="space-y-3">
+            <div>
+              <p className="text-xs uppercase tracking-[0.3em] text-slate-300">Atlas Assistant</p>
+              <p className="mt-1 text-sm text-slate-200">Frag nach Ideen, Routen oder Highlights.</p>
+            </div>
+            <div className="inline-flex flex-wrap items-center gap-2">
+              <div className="inline-flex rounded-full border border-white/10 bg-white/5 p-1 text-[10px] uppercase tracking-[0.3em] text-slate-400">
+                {modeOptions.map((mode) => {
+                  const isActive = agentMode === mode.value;
+                  return (
+                    <button
+                      key={mode.value}
+                      type="button"
+                      onClick={() => atlasAgentStore.setAgentMode(mode.value)}
+                      className={cn(
+                        "rounded-full px-3 py-1 transition",
+                        isActive
+                          ? "bg-cyan-300/20 text-cyan-50 shadow-[0_0_0_1px_rgba(56,189,248,0.25)]"
+                          : "text-slate-400 hover:text-slate-200"
+                      )}
+                    >
+                      {mode.label}
+                    </button>
+                  );
+                })}
+              </div>
+              <span className="text-[10px] uppercase tracking-[0.3em] text-slate-500">
+                Agent Mode
+              </span>
+            </div>
           </div>
         ) : null}
 
@@ -595,27 +435,6 @@ export const AtlasChat = ({
         >
           Clear
         </Button>
-      </div>
-
-      <div className="mt-3 flex shrink-0 items-center justify-between gap-3">
-        <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">Agent Mode</p>
-        <div className="flex items-center gap-1 rounded-full border border-white/10 bg-white/5 p-1">
-          {AGENT_MODE_OPTIONS.map((mode) => (
-            <button
-              key={mode}
-              type="button"
-              onClick={() => onAgentModeChange?.(mode)}
-              disabled={!onAgentModeChange}
-              className={cn(
-                "rounded-full px-3 py-1 text-[10px] uppercase tracking-[0.2em] transition",
-                !onAgentModeChange ? "cursor-not-allowed opacity-60" : "hover:text-slate-200",
-                agentMode === mode ? "bg-cyan-300/20 text-cyan-100" : "text-slate-400"
-              )}
-            >
-              {AGENT_MODE_LABELS[mode]}
-            </button>
-          ))}
-        </div>
       </div>
 
       <div
@@ -634,7 +453,7 @@ export const AtlasChat = ({
                   size="sm"
                   variant="outline"
                   onClick={() => handleSend(prompt)}
-                  disabled={isStreaming}
+                  disabled={isLoading}
                   className="min-w-0 w-full h-auto justify-start rounded-xl border-white/10 bg-white/5 px-3 py-2 text-left text-xs leading-snug text-slate-100 whitespace-normal break-words hover:bg-white/10"
                 >
                   {prompt}
@@ -644,115 +463,70 @@ export const AtlasChat = ({
           </div>
         ) : (
           <div className="space-y-3">
-            {messages.map((message) => {
-              if (message.kind === "actions") {
-                const showConfirmButtons =
-                  agentMode !== "off" && message.status === "pending" && !message.autoTriggered;
-
-                const statusText =
-                  message.status === "executed"
-                    ? "Ausgefuehrt ✓"
-                    : message.status === "rejected"
-                      ? "Abgelehnt"
-                      : message.status === "error"
-                        ? message.statusMessage ?? "Aktion fehlgeschlagen"
-                        : message.autoTriggered
-                          ? message.statusMessage ?? "Wird ausgefuehrt..."
-                          : agentMode === "off"
-                            ? "Agent Mode aus"
-                            : "Bestaetigung erforderlich";
-
-                return (
-                  <div key={message.id} className="flex justify-start">
-                    <div className="min-w-0 max-w-[90%] space-y-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-100">
-                      <div className="flex items-center justify-between gap-3">
-                        <p className="text-xs uppercase tracking-[0.3em] text-slate-300">
-                          Vorschlag
-                        </p>
-                        <span className="text-xs text-slate-400">{statusText}</span>
-                      </div>
-
-                      {message.envelope.rationale ? (
-                        <p className="text-xs text-slate-300">{message.envelope.rationale}</p>
-                      ) : null}
-
-                      <ul className="space-y-1 text-xs text-slate-200">
-                        {message.envelope.actions.map((action, index) => (
-                          <li key={`${message.id}-action-${index}`}>{getActionLabel(action)}</li>
-                        ))}
-                      </ul>
-
-                      {message.statusMessage ? (
-                        <p className="text-xs text-slate-400">{message.statusMessage}</p>
-                      ) : null}
-
-                      {showConfirmButtons ? (
-                        <div className="flex items-center gap-2">
-                          <Button
-                            type="button"
-                            size="sm"
-                            variant="secondary"
-                            onClick={() => executeActionEnvelope(message.id, message.envelope)}
-                          >
-                            Ausführen
-                          </Button>
-                          <Button
-                            type="button"
-                            size="sm"
-                            variant="ghost"
-                            onClick={() =>
-                              updateActionMessage(message.id, {
-                                status: "rejected",
-                                statusMessage: "Abgelehnt",
-                              })
-                            }
-                            className="text-slate-300 hover:bg-white/10"
-                          >
-                            Ablehnen
-                          </Button>
-                        </div>
-                      ) : null}
-                    </div>
-                  </div>
-                );
-              }
-
-              return (
-                <div
-                  key={message.id}
-                  className={cn("flex", message.role === "user" ? "justify-end" : "justify-start")}
-                >
+            {messages.map((message) => (
+              <div
+                key={message.id}
+                className={cn("flex", message.role === "user" ? "justify-end" : "justify-start")}
+              >
+                <div className="min-w-0 max-w-[85%]">
                   <div
                     className={cn(
-                      "min-w-0 max-w-[85%] break-words rounded-2xl px-3 py-2 text-sm leading-relaxed",
+                      "break-words rounded-2xl px-3 py-2 text-sm leading-relaxed",
                       message.role === "user" ? "bg-cyan-300/20 text-cyan-50" : "bg-white/10 text-slate-100"
                     )}
                   >
                     <p className="whitespace-pre-wrap break-words">{message.content}</p>
                   </div>
+                  {message.role === "assistant" && message.quickReplies?.length ? (
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {message.quickReplies.map((reply) => (
+                        <Button
+                          key={`${message.id}-${reply.id}`}
+                          type="button"
+                          size="sm"
+                          variant="outline"
+                          onClick={() => handleQuickReply(reply)}
+                          disabled={isLoading}
+                          className="h-8 rounded-full border-white/10 bg-white/5 px-3 text-xs text-slate-100 hover:bg-white/10"
+                        >
+                          {reply.label}
+                        </Button>
+                      ))}
+                    </div>
+                  ) : null}
+                  {message.role === "assistant" &&
+                  agentMode === "confirm" &&
+                  pendingMessageId === message.id &&
+                  pendingIntents?.length ? (
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      <Button
+                        type="button"
+                        size="sm"
+                        variant="secondary"
+                        onClick={() => confirmPendingIntents()}
+                        className="h-8 rounded-full"
+                      >
+                        Ja, zeig mir das
+                      </Button>
+                      <Button
+                        type="button"
+                        size="sm"
+                        variant="outline"
+                        onClick={declinePendingIntents}
+                        className="h-8 rounded-full border-white/10 bg-white/5 text-slate-100 hover:bg-white/10"
+                      >
+                        Nein
+                      </Button>
+                    </div>
+                  ) : null}
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
         )}
 
         <div ref={scrollAnchorRef} />
       </div>
-
-      {error ? (
-        <div className="mt-3 shrink-0 rounded-2xl border border-rose-300/30 bg-rose-500/10 px-3 py-2 text-xs text-rose-200">
-          <p>{error}</p>
-          <Button
-            type="button"
-            size="sm"
-            variant="ghost"
-            onClick={handleRetry}
-            className="mt-2 h-7 px-2 text-rose-100 hover:bg-rose-500/20"
-          >
-            Retry
-          </Button>
-        </div>
-      ) : null}
 
       <div className="mt-4 shrink-0 border-t border-white/10 pt-4">
         <div className="rounded-2xl border border-white/10 bg-white/5 p-2">
@@ -767,31 +541,23 @@ export const AtlasChat = ({
               }
             }}
             placeholder="Frag den Atlas Assistant..."
-            disabled={isStreaming}
+            disabled={isLoading}
             className="w-full resize-none rounded-xl border border-white/10 bg-transparent px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30 disabled:cursor-not-allowed disabled:opacity-60"
           />
           <div className="mt-2 flex items-center justify-between gap-2">
             <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-              {isStreaming ? "Antwort wird geladen..." : "Enter zum Senden"}
+              {isLoading ? "Antwort wird geladen..." : "Enter zum Senden"}
             </p>
 
-            <div className="flex items-center gap-2">
-              {isStreaming ? (
-                <Button type="button" size="sm" variant="ghost" onClick={handleStop} className="text-slate-200 hover:bg-white/10">
-                  Stop
-                </Button>
-              ) : null}
-
-              <Button
-                type="button"
-                size="sm"
-                variant="secondary"
-                onClick={() => handleSend()}
-                disabled={isStreaming || input.trim().length === 0}
-              >
-                Send
-              </Button>
-            </div>
+            <Button
+              type="button"
+              size="sm"
+              variant="secondary"
+              onClick={() => handleSend()}
+              disabled={isLoading || input.trim().length === 0}
+            >
+              Send
+            </Button>
           </div>
         </div>
       </div>

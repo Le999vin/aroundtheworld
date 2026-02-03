@@ -2,23 +2,17 @@
 
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { AtlasChat } from "@/components/ai/AtlasChat";
-import type {
-  AiActionExecutionResult,
-  AiActionEnvelope,
-  AiAgentMode,
-  AiUiContext,
-} from "@/lib/ai/actions";
 import type { AiChatContext } from "@/lib/ai/types";
+import type { UiIntent } from "@/lib/ai/atlasAssistant.types";
 
 type ChatSheetProps = {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   threadKey: string;
   context: AiChatContext;
-  agentMode: AiAgentMode;
-  onAgentModeChange?: (mode: AiAgentMode) => void;
-  onExecuteActions?: (envelope: AiActionEnvelope) => Promise<AiActionExecutionResult>;
-  uiContext?: AiUiContext;
+  onSelectCountry?: (code: string) => void;
+  onExecuteIntents?: (intents: UiIntent[]) => void;
+  uiState?: Record<string, unknown>;
 };
 
 export const ChatSheet = ({
@@ -26,10 +20,9 @@ export const ChatSheet = ({
   onOpenChange,
   threadKey,
   context,
-  agentMode,
-  onAgentModeChange,
-  onExecuteActions,
-  uiContext,
+  onSelectCountry,
+  onExecuteIntents,
+  uiState,
 }: ChatSheetProps) => (
   <Sheet open={open} onOpenChange={onOpenChange}>
     <SheetContent
@@ -46,10 +39,9 @@ export const ChatSheet = ({
           variant="sheet"
           threadKey={threadKey}
           context={context}
-          agentMode={agentMode}
-          onAgentModeChange={onAgentModeChange}
-          onExecuteActions={onExecuteActions}
-          uiContext={uiContext}
+          onSelectCountry={onSelectCountry}
+          onExecuteIntents={onExecuteIntents}
+          uiState={uiState}
         />
       </div>
     </SheetContent>

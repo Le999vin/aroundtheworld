@@ -45,8 +45,33 @@ Erstelle eine `.env.local`-Datei mit folgenden Einträgen:
 | `NEXT_PUBLIC_DEFAULT_LANG` | ❌ | `de` | Wetter-Sprache |
 | `NEXT_PUBLIC_MAP_STYLE_URL` | ❌ | MapLibre Style JSON | Kartenstil |
 | `AI_PROVIDER` | ❌ | `ollama` | KI-Provider |
-| `OLLAMA_BASE_URL` | ❌ | `http://127.0.0.1:11434` | Ollama-Server |
+| `OLLAMA_URL` | ❌ | `http://127.0.0.1:11434` | Ollama-Server (neu, bevorzugt) |
+| `OLLAMA_BASE_URL` | ❌ | `http://127.0.0.1:11434` | Ollama-Server (legacy) |
 | `OLLAMA_MODEL` | ❌ | `llama3.1:8b` | Ollama-Modell |
+
+### Ollama (lokal)
+```bash
+ollama serve
+ollama pull llama3.1:8b
+```
+
+### AI-Chat Endpoint (Structured Output)
+- **Endpoint:** `POST /api/ai/chat`
+- **Body (Beispiel):**
+```json
+{
+  "messages": [{ "role": "user", "content": "Gib mir 3 Reiseideen." }],
+  "appState": { "state": { "step": "pick_country" }, "context": {} }
+}
+```
+- **Antwort:** JSON mit `message_md`, `quick_replies`, `state`
+
+### Quick Replies
+- `message_md` wird als Chat-Bubble gerendert.
+- `quick_replies` erscheinen als Buttons unter der Bubble.
+- Klick auf einen Button sendet den Label-Text als neue User-Message.
+- `select_country` setzt `state.step = "pick_city"` und `state.country_code`.
+- `select_city` setzt `state.step = "plan_trip"` und `state.city`.
 
 ---
 
@@ -132,7 +157,7 @@ aroundtheworld/
 | **CountryPanel** | Wetter, Sehenswürdigkeiten, Flüge, KI-Chat |
 | **PoiDetailsDrawer** | Detaillierte POI-Informationen |
 | **ItineraryWidget** | Reiseplanung & Routenoptimierung |
-| **AtlasChat** | KI-Assistent mit Streaming-Antworten |
+| **AtlasChat** | KI-Assistent mit Streaming (Legacy)-Antworten |
 
 ---
 
@@ -163,8 +188,15 @@ aroundtheworld/
 **Antwort:** `{ address, images, wikipedia, osmTags, ... }`  
 **Quellen:** Nominatim, Overpass, Wikidata, Wikipedia
 
+### `/api/ai/chat`
+**Funktionalitaet:** KI-Chat mit Structured Output  
+**Parameter:** `messages`, `appState`  
+**Antwort:** `{ message_md, quick_replies, state }`  
+**Provider:** Ollama (lokal)  
+**Format:** JSON Schema via `format`
+
 ### `/api/ai`
-**Funktionalität:** KI-Assistent mit Streaming  
+**Funktionalität:** KI-Assistent mit Streaming (Legacy)  
 **Parameter:** `message`, `context`  
 **Antwort:** Server-Sent Events (SSE)  
 **Provider:** Ollama (lokal)  
@@ -451,3 +483,5 @@ src/ für alles zusammen
 ---
 
 **Viel Erfolg beim Entwickeln! 🚀**
+
+

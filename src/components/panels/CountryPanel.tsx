@@ -29,12 +29,7 @@ import {
 } from "@/lib/flights/originStore";
 import type { TravelOrigin } from "@/lib/flights/types";
 import type { AiChatContext } from "@/lib/ai/types";
-import type {
-  AiActionEnvelope,
-  AiActionExecutionResult,
-  AiAgentMode,
-  AiUiContext,
-} from "@/lib/ai/actions";
+import type { UiIntent } from "@/lib/ai/atlasAssistant.types";
 import type {
   Country,
   Focus,
@@ -67,10 +62,9 @@ const isZeroCenter = (lat: number, lon: number) =>
 type CountryPanelProps = {
   country: Country | null;
   focus: Focus | null;
-  agentMode: AiAgentMode;
-  onAgentModeChange?: (mode: AiAgentMode) => void;
-  onExecuteActions?: (envelope: AiActionEnvelope) => Promise<AiActionExecutionResult>;
-  uiContext?: AiUiContext;
+  onSelectCountry?: (code: string) => void;
+  onExecuteIntents?: (intents: UiIntent[]) => void;
+  onClose?: () => void;
 };
 
 type LoadState<T> = {
@@ -238,10 +232,9 @@ const useCountryPlaces = (country: Country | null, focus: Focus | null) => {
 export const CountryPanel = ({
   country,
   focus,
-  agentMode,
-  onAgentModeChange,
-  onExecuteActions,
-  uiContext,
+  onSelectCountry,
+  onExecuteIntents,
+  onClose,
 }: CountryPanelProps) => {
   const reduceMotion = useReducedMotion();
   const weatherState = useCountryWeather(focus);
@@ -306,6 +299,23 @@ export const CountryPanel = ({
   const threadKey = useMemo(
     () => country?.code || country?.name || "global",
     [country]
+  );
+
+  const uiState = useMemo(
+    () => ({
+      selectedCountryCode: focus?.code ?? country?.code ?? null,
+      panelOpen: Boolean(country && focus),
+      focus: focus
+        ? {
+            kind: focus.kind,
+            code: focus.code,
+            name: focus.name,
+            lat: focus.lat,
+            lon: focus.lon,
+          }
+        : null,
+    }),
+    [country, focus]
   );
 
   const aiContext = useMemo<AiChatContext>(() => {
@@ -479,19 +489,18 @@ export const CountryPanel = ({
             </p>
           </div>
           <div className="mt-5 flex-1 min-h-0 flex flex-col text-left">
-            <AtlasChat
-              variant="panel"
-              threadKey="global"
-              context={{ mode: "explore" }}
-              agentMode={agentMode}
-              onAgentModeChange={onAgentModeChange}
-              onExecuteActions={onExecuteActions}
-              uiContext={uiContext}
-            />
-          </div>
+          <AtlasChat
+            variant="panel"
+            threadKey="global"
+            context={{ mode: "explore" }}
+            onSelectCountry={onSelectCountry}
+            onExecuteIntents={onExecuteIntents}
+            uiState={uiState}
+          />
         </div>
       </div>
-    );
+    </div>
+  );
   }
 
   return (
@@ -518,7 +527,18 @@ export const CountryPanel = ({
               </Badge>
             </div>
           </div>
-          <ChatFab onClick={() => setChatOpen(true)} />
+          <div className="flex items-center gap-2">
+            <Button
+              type="button"
+              size="sm"
+              variant="ghost"
+              onClick={onClose}
+              className="text-slate-200 hover:bg-white/10"
+            >
+              Close
+            </Button>
+            <ChatFab onClick={() => setChatOpen(true)} />
+          </div>
         </div>
 
         <Card className="border-white/10 bg-white/5 p-4">
@@ -905,10 +925,9 @@ export const CountryPanel = ({
         onOpenChange={setChatOpen}
         threadKey={threadKey}
         context={aiContext}
-        agentMode={agentMode}
-        onAgentModeChange={onAgentModeChange}
-        onExecuteActions={onExecuteActions}
-        uiContext={uiContext}
+        onSelectCountry={onSelectCountry}
+        onExecuteIntents={onExecuteIntents}
+        uiState={uiState}
       />
     </motion.aside>
   );
