@@ -1,4 +1,30 @@
-﻿import type { AiChatMessage } from "@/lib/ai/types";
+﻿/**
+ * Atlas Assistant API (POST /api/atlas-assistant)
+ *
+ * Zweck:
+ * - Brücke zwischen UI-Chat und lokalem Ollama-LLM.
+ * - Nimmt Chat-Messages + UI-State entgegen und liefert strukturierte Antwort
+ *   (message_md, quick_replies, intents).
+ *
+ * Wichtigste Code-Blöcke:
+ * 1) Input-Validierung
+ *    - prüft Body + `messages` und liefert Fallback bei leerem Input.
+ *
+ * 2) Ollama-Request
+ *    - baut System-Prompts (inkl. UI_STATE + agentMode)
+ *    - POST an `${OLLAMA_BASE_URL}/api/chat` mit Schema-Format.
+ *
+ * 3) Response-Parsing
+ *    - `extractContent()` holt Antwort aus verschiedenen Ollama-Formaten.
+ *    - JSON-Parsing wenn Response als String zurückkommt.
+ *    - Fallback, wenn keine valide `message_md` vorhanden ist.
+ *
+ * 4) Fehlerbehandlung
+ *    - `isOllamaUnavailable()` erkennt Offline/Netzwerkfehler.
+ *    - Liefert passende Fallback-Messages (503/500).
+ */
+
+import type { AiChatMessage } from "@/lib/ai/types";
 import type { AgentMode, AtlasAssistantResponse } from "@/lib/ai/atlasAssistant.types";
 import { ATLAS_ASSISTANT_SYSTEM_PROMPT } from "@/lib/ai/atlasAssistant.prompt";
 import { AtlasAssistantSchema } from "@/lib/ai/atlasAssistant.schema";

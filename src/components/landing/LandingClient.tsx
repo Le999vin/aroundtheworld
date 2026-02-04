@@ -1,4 +1,30 @@
-//Startseiten-UI (Header, Suche, Globus, CountryPanel)
+/**
+ * LandingClient - Hauptkomponente der Startseite
+ * 
+ * Zeigt einen interaktiven 3D-Globus mit Länderauswahl, Suchfunktion und Details-Panel.
+ * 
+ * Funktionen:
+ * - Rendert 3D-Globus mit allen Ländern (GeoJSON)
+ * - Ermöglicht Suche nach Ländern und Städten
+ * - Zeigt Details zu ausgewähltem Land im Country-Panel
+ * - Steuert Kamera-Animationen beim Länder-Fokus
+ * - Zeigt animierten AI-Orb bei Interaktionen
+ * - Generiert Map-Link mit aktueller Auswahl
+ * 
+ * Props:
+ * - countries: GeoJSON mit allen Länder-Geometrien
+ * 
+ * State:
+ * - focus: Aktuell ausgewähltes Land/Stadt mit Koordinaten
+ * - orbFlight: Animation-State für den fliegenden AI-Orb
+ * - countryLookup: Gecachte Länder-Metadaten (Name, Koordinaten, Hauptstadt, etc.)
+ * 
+ * Interaktionen:
+ * - Klick auf Land → Kamera fliegt hin, Panel öffnet sich
+ * - Suche → Gleicher Effekt wie Klick
+ * - Panel schließen → Auswahl wird gelöscht, Kamera zoomt raus
+ */
+
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -210,7 +236,7 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
   );
 
   const selectCountryByCode = useCallback(
-    (code: string, source: Focus["source"] = "ai") => {
+    (code: string, source: Focus["source"] = "globe") => {
       const normalized = code.trim().toUpperCase();
       if (!normalized) return null;
       const next = resolveCountryFocus(normalized, source);
@@ -358,7 +384,7 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
           focus={focus}
           onSelectCountry={(code) => {
             if (!code) return;
-            selectCountryByCode(code, "ai");
+            selectCountryByCode(code, "globe");
           }}
           onExecuteIntents={agentController.executeIntents}
           onClose={handleClosePanel}

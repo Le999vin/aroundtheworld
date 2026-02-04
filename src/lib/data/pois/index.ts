@@ -1,3 +1,31 @@
+/**
+ * POI Data Loader & Filter
+ *
+ * Dieses Modul lädt POI-Datasets (global, country, city) und liefert gefilterte,
+ * sortierte Ergebnisse für die Kartenansicht.
+ *
+ * Wichtigste Code-Blöcke:
+ * 1) `ensureLimit()`
+ *    - Validiert `limit` und setzt Default (12).
+ *    - Wirft `ServiceError`, wenn `limit` ungültig ist.
+ *
+ * 2) `loadDataset()`
+ *    - Lädt JSON-Dataset, validiert Schema (`parsePoisDataset`).
+ *    - Filtert ungültige POIs und wirft ServiceError bei Fehlern.
+ *
+ * 3) `applyFilters()`
+ *    - Filtert nach `countryCode`/`cityId` (Selector).
+ *    - Filtert nach Kategorie.
+ *    - Sortiert nach Distanz zum `center` (Haversine).
+ *    - Gibt nur `limit` Ergebnisse zurück.
+ *
+ * 4) `getPoisForMap()`
+ *    - Zentrale Logik: wählt Datensatz in Reihenfolge
+ *      City → Country → Dataset über BBox → Global Fallback.
+ *    - Nutzt `normalizeCityId`, `normalizeCountryCode`, `resolveCountryCode`.
+ *    - Liefert POIs für Map-Ansicht zurück.
+ */
+
 import { ServiceError } from "@/lib/services/errors";
 import type { POI, PlaceCategory } from "@/lib/types";
 import { parsePoisDataset } from "@/lib/data/pois/schema";

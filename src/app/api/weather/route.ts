@@ -1,3 +1,26 @@
+/**
+ * Weather API Route (GET /api/weather)
+ *
+ * Aufgabe:
+ * - Liefert Wetterdaten für gegebene Koordinaten (lat, lon).
+ * - Validiert Eingaben und blockt ungültige/Null-Koordinaten.
+ * - Nutzt Server-Cache (unstable_cache) + Fallback-Cache bei Provider-Ausfall.
+ *
+ * Kernlogik:
+ * 1) Query-Params lesen (lat, lon, optional allowZero).
+ * 2) Validieren: Bereich prüfen, Zero-Center blocken.
+ * 3) Wetterservice abrufen (Provider aus env).
+ * 4) Cache-Key bauen (lat/lon gerundet, units, lang).
+ * 5) Cache lesen/füllen, Ergebnis zurückgeben.
+ * 6) Fehler behandeln: ServiceError mappen, friendly message, debugId.
+ * 7) Bei Fehlern: falls Fallback vorhanden → stale response liefern.
+ *
+ * Error Handling:
+ * - Mapping von Provider-Fehlern zu verständlichen Messages.
+ * - DebugId für Server-Logs.
+ * - Spezielle Hinweise für TLS/SSL-Fehler im Dev-Modus.
+ */
+
 import { randomUUID } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { unstable_cache } from "next/cache";

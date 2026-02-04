@@ -1,4 +1,25 @@
-// rechte/untere Info-Karte mit Wetter + Places
+/**
+ * CountryPanel
+ * Zeigt die Detailansicht für das aktuell fokussierte Land/Stadt:
+ * - Wetter (API), POIs/Highlights (API)
+ * - Fluginfos + Abflugort-Auswahl (Geolocation/Geocoding/Airports)
+ * - Top Cities + Map-Link
+ * - AI-Chat Kontext und UI (ChatFab/ChatSheet)
+ *
+ * Wird geöffnet, sobald `focus` und `country` gesetzt sind.
+ *
+ * WICHTIGSTER LOGIK-BLOCK:
+ * - useCountryWeather() lädt Wetterdaten anhand der Focus-Koordinaten.
+ * - useCountryPlaces() lädt POIs (Highlights) anhand von Country/City + Koordinaten.
+ *
+ * Details:
+ * - Koordinaten werden gerundet (4 Nachkommastellen) → stabiler Cache-Key.
+ * - Ungültige/Null-Koordinaten werden geblockt.
+ * - Requests sind debounced (Weather) bzw. abortable (Weather/Places).
+ * - Ergebnis wird pro Key gecached → UI zeigt loading/error/data sauber getrennt.
+ * - API-Endpunkte: /api/weather und /api/pois.
+ */
+ 
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";

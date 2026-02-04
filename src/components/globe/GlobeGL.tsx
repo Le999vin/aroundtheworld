@@ -1,4 +1,41 @@
-// der “echte” Globus (globe.gl + Three.js)
+/**
+ * GlobeGL - Interaktiver 3D-Globus mit Länderauswahl
+ * 
+ * Rendert den Hauptglobus der Anwendung mit globe.gl (Three.js/WebGL).
+ * 
+ * HAUPTFUNKTIONEN:
+ * - Zeigt fotorealistischen 3D-Globus mit Earth-Texturen (Blue Marble + Bump Map)
+ * - Zeichnet alle Länder als interaktive 3D-Polygone auf der Oberfläche
+ * - Hover-Effekt: Türkis-Highlight + Tooltip mit Ländername
+ * - Click-Effekt: Blaues Highlight + Callback an Parent-Komponente
+ * - Kamera-Animationen: Flug zu Koordinaten, Auto-Rotation, Reset zur Weltansicht
+ * 
+ * FARB-SYSTEM:
+ * - Grau (DEFAULT_FILL): Normale Länder
+ * - Türkis (HOVER_FILL): Maus über Land
+ * - Blau (SELECT_FILL): Ausgewähltes Land
+ * - Pulse-Effekt: Temporäres Highlight (1.2s)
+ * 
+ * IMPERATIVE API (via ref):
+ * - flyToLatLon(lat, lon) - Fliegt zu Koordinaten
+ * - highlightCountry(code) - Zeigt Pulse-Effekt
+ * - resetView() - Zurück zur Weltansicht
+ * 
+ * PROPS:
+ * - countries: GeoJSON mit allen Länder-Polygonen
+ * - selectedCountryCode: Aktuell ausgewähltes Land (ISO-Code)
+ * - onSelectCountry: Callback bei Klick
+ * - onHoverCountry: Callback bei Hover
+ * 
+ * PERFORMANCE:
+ * - Material-Caching (Map von Farbe → Material)
+ * - Max DPR = 2 (Device Pixel Ratio begrenzt)
+ * - Cleanup aller Three.js Ressourcen bei Unmount
+ * 
+ * ROLLE IM PROJECT:
+ * page.tsx → lädt GeoJSON → LandingClient → GlobeGL rendert Globus
+ */
+
 "use client";
 
 import {

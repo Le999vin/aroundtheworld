@@ -1,4 +1,36 @@
-﻿// Map-Ansicht mit Marker + Filter + Liste
+﻿/**
+ * MapView - Interaktive Kartenansicht (MapLibre)
+ *
+ * Zweck:
+ * - Zeigt POIs, Städte, Routen und Unterkünfte auf einer Zoom-Map.
+ * - Bietet Filter, Suche und Detail-Drawer für POIs.
+ * - Unterstützt Itinerary-Planung (Stops/Route) und Airbnb-ähnliche Stays.
+ *
+ * Wichtigste Code-Blöcke:
+ * 1) State + Filter
+ *    - `activeCategory`, `showCities/POIs/Route/Heatmap/Stays`
+ *    - Auswahl von POIs/Stays/City + Such-Query
+ *
+ * 2) Datenaufbereitung (useMemo)
+ *    - `filteredPois`, `visiblePois`, `listEntries`
+ *    - GeoJSON für POIs, Cities, Stays und Route
+ *    - Distanzberechnung (nearby POIs) via `haversineKm`
+ *
+ * 3) Map-Interaktion
+ *    - `handleMapClick` (Cluster-Zoom, City/Stay Auswahl)
+ *    - `handleSelectCity/POI/Stay`, `handleCenterPoi`
+ *    - `handleMapMove/MoveEnd` (Zoom + Stays viewport)
+ *
+ * 4) Stays-Loading & Cache
+ *    - Fetch `/api/stays` mit BBox + Preisrange
+ *    - Debounce + AbortController + In-Memory Cache
+ *
+ * 5) Rendering
+ *    - MapLibre Layers: Heatmap, Route, Cities, Stays, POI Marker
+ *    - Sidebar mit Filtern, Suche, Results und Itinerary-Buttons
+ *    - Drawer für POI-Details + ItineraryWidget
+ */
+
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";

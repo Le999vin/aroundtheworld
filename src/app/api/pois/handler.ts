@@ -1,3 +1,27 @@
+/**
+ * POI Request Handler (handlePoisRequest)
+ *
+ * Zentrale Logik für POI-API-Requests:
+ * - Liest Query-Parameter (country, city, lat, lon, limit, category)
+ * - Validiert Parameter (Zahlen, Kategorien, Lat/Lon Bereich)
+ * - Erlaubt Fallback-Koordinaten aus Country-Metadaten
+ * - Baut den Request für `getPoisForMap` und gibt JSON zurück
+ * - Einheitliches Error-Handling mit `toErrorResponse` und Logging
+ *
+ * Wichtigste Blöcke:
+ * 1) Parameter-Parsing & Validierung
+ *    - liest `country`, `city`, `lat`, `lon`, `limit`, `category`
+ *    - prüft Zahlen, Kategorien und Lat/Lon-Grenzen
+ *
+ * 2) Fallback-Koordinaten
+ *    - wenn keine Lat/Lon vorhanden, aber Country gesetzt:
+ *      → Country-Metadaten liefern den Mittelpunkt als Fallback
+ *
+ * 3) POI-Request + Fehlerbehandlung
+ *    - ruft `getPoisForMap()` mit den gefilterten Parametern auf
+ *    - gibt JSON zurück oder standardisierte Fehlerantwort
+ */
+
 import { NextRequest, NextResponse } from "next/server";
 import { getPoisForMap } from "@/lib/data/pois";
 import { PLACE_CATEGORIES } from "@/lib/data/pois/constants";

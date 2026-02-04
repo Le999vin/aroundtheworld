@@ -1,3 +1,5 @@
+// Wichtig: Hier wird nicht der Globus gemacht, aber hier startet jede Seite “drin”.
+
 import type { Metadata } from "next";
 import { DM_Serif_Display, Sora } from "next/font/google";
 import "@/styles/globals.css";

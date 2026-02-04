@@ -1,4 +1,27 @@
-// Map page showing a zoomed-in view with POIs
+/**
+ * Map Page (Zoomed View)
+ *
+ * Zweck:
+ * - Rendert die Karten-Ansicht mit POIs (statt Globus).
+ * - Liest Query-Params (lat, lon, country, city, poi) für Fokus & Zoom.
+ * - Lädt POIs serverseitig über `getPoisForMap()` und übergibt sie an `MapView`.
+ *
+ * Wichtigste Code-Blöcke:
+ * 1) Default-Center & Zoom
+ *    - `DEFAULT_CENTER` aus env oder Fallback (0,0).
+ *    - Zoom-Level: Default, City, POI.
+ *
+ * 2) `getCenter()`
+ *    - Priorität: explizite lat/lon → Country-Center → Default.
+ *
+ * 3) `getZoom()`
+ *    - POI → City → Country → Default.
+ *
+ * 4) `MapPage()`
+ *    - resolved `searchParams`, lädt POIs (limit 200),
+ *      rendert `MapView` plus Header/Back-Link.
+ */
+
 import Link from "next/link";
 import MapView from "@/components/map/MapView";
 import { Button } from "@/components/ui/button";

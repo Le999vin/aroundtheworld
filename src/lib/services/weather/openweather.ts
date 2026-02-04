@@ -1,3 +1,15 @@
+/**
+ * Weather API Route (GET /api/weather)
+ *
+ * Liefert Wetterdaten für Koordinaten und behandelt Validierung, Caching und Fehler robust:
+ * - Validiert `lat`/`lon` und blockt 0,0 (außer `allowZero`).
+ * - Ruft den Wetter-Provider über `getWeatherService()` ab.
+ * - Cache-Key basiert auf gerundeten Koordinaten + Units + Sprache.
+ * - `unstable_cache` revalidiert alle 10 Minuten.
+ * - Fallback-Cache liefert stale Daten bei Provider-Ausfall.
+ * - Fehler werden in eine einheitliche API-Antwort gemappt (Message, Code, debugId).
+ */
+
 import fs from "node:fs";
 import https from "node:https";
 import type { WeatherData, WeatherError } from "@/lib/types";

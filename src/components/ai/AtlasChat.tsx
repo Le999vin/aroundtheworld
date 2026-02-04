@@ -1,4 +1,30 @@
-﻿"use client";
+﻿/**
+ * AtlasChat - UI für den Atlas Assistant (Chat)
+ *
+ * Zweck:
+ * - Chat-Komponente für Reiseideen/Intents im Panel oder Sheet.
+ * - Speichert Chat-Verlauf pro Thread in localStorage.
+ * - Ruft /api/atlas-assistant auf und verarbeitet Quick Replies + Intents.
+ *
+ * Wichtigste Code-Blöcke:
+ * 1) Storage & Messages
+ *    - `buildStorageKey`, `loadStoredMessages`, `saveStoredMessages`
+ *    - persistiert Chat-Verlauf pro `threadKey` (max. 60 Messages).
+ *
+ * 2) Fetch & Response Handling
+ *    - `fetchAtlasAssistantResponse()` sendet Messages an API,
+ *      validiert Response und nutzt Fallback bei Fehlern.
+ *
+ * 3) Intent Handling
+ *    - `executeIntents`, `confirmPendingIntents`, `declinePendingIntents`
+ *    - Auto/Confirm-Mode über `atlasAgentStore`.
+ *
+ * 4) Send/Render Flow
+ *    - `handleSend()` erstellt User-Message, holt Assistant-Response,
+ *      setzt Quick Replies + Intents, updated UI & Auto-Scroll.
+ */
+
+"use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";

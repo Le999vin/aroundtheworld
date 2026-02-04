@@ -1,3 +1,12 @@
+/*
+  Dieses File lädt GeoJSON-Länderdaten vom Server:
+
+  resolveBaseUrl() findet die richtige URL der App (aus Umgebungsvariablen, Request-Headern oder localhost als Fallback).
+  loadCountries() holt die Datei /data/countries.geojson per fetch und gibt die Daten zurück.
+  Die Daten werden 24 Stunden gecacht.
+  import "server-only" stellt sicher, dass der Code nur serverseitig läuft.
+*/
+
 import "server-only";
 
 import { headers } from "next/headers";
