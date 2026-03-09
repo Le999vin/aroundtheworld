@@ -12,16 +12,23 @@ import {
 } from "@/lib/ai/atlasAssistant.types";
 import { buildSystemPrompt } from "@/lib/ai/atlasAssistant.prompt";
 import { AtlasAssistantSchema } from "@/lib/ai/atlasAssistant.schema";
+import {
+  extractTextFromChatCompletionPayload,
+  getGatewayErrorCode,
+  readGatewayErrorMessage,
+  isGatewayUnavailable,
+  requestAiGatewayChatCompletion,
+} from "@/lib/ai/gatewayClient";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 type IncomingBody = AtlasAssistantRequestBody;
+const DEBUG_ATLAS_ASSISTANT = process.env.NODE_ENV !== "production";
 
-type OllamaResponse = {
-  message?: { role?: string; content?: unknown };
-  response?: unknown;
-  content?: unknown;
+const logDebug = (stage: string, data?: Record<string, unknown>) => {
+  if (!DEBUG_ATLAS_ASSISTANT) return;
+  console.info("[atlas-assistant]", stage, data ?? {});
 };
 
 const resolveAgentMode = (value?: AgentMode): AgentMode => {
@@ -94,42 +101,12 @@ const resolveChatContext = (body: IncomingBody | null, agentMode: AgentMode): Ch
   };
 };
 
-const extractContent = (payload: OllamaResponse | null) => {
-  if (!payload) return null;
-  if (payload.message && payload.message.content !== undefined) {
-    return payload.message.content;
-  }
-  if (payload.response !== undefined) return payload.response;
-  if (payload.content !== undefined) return payload.content;
-  return null;
-};
-
 const buildFallback = (
   message = "Sorry, das hat nicht geklappt. Sag mir ein Land oder eine Region."
 ): AtlasAssistantResponse => ({
   message_md: message,
   intents: [],
 });
-
-const getErrorCode = (error: unknown) => {
-  if (!error || typeof error !== "object") return undefined;
-  const record = error as { code?: string; cause?: { code?: string } };
-  return record.code ?? record.cause?.code;
-};
-
-const isOllamaUnavailable = (error: unknown) => {
-  const code = getErrorCode(error);
-  if (!code) {
-    const message = error instanceof Error ? error.message : String(error ?? "");
-    return message.includes("ECONNREFUSED") || message.includes("connect ECONNREFUSED");
-  }
-  return (
-    code === "ECONNREFUSED" ||
-    code === "ENOTFOUND" ||
-    code === "EAI_AGAIN" ||
-    code === "EHOSTUNREACH"
-  );
-};
 
 const isSameCountryIntent = (intentCode: string, selectedCountryCode: string | null) => {
   const intentNormalized = normalizeCountryCode(intentCode);
@@ -188,10 +165,6 @@ export async function POST(request: Request) {
   const uiState = isRecord(body?.uiState) ? body.uiState : {};
   const chatContext = resolveChatContext(body, agentMode);
 
-  const ollamaBaseUrl = (process.env.OLLAMA_BASE_URL ?? "http://127.0.0.1:11434").replace(/\/+$/, "");
-  const model = process.env.OLLAMA_MODEL ?? "llama3.1:8b";
-  const upstreamUrl = `${ollamaBaseUrl}/api/chat`;
-
   const systemMessages: Array<{ role: "system"; content: string }> = [
     { role: "system", content: buildSystemPrompt(chatContext) },
     { role: "system", content: `CHAT_CONTEXT: ${JSON.stringify(chatContext)}` },
@@ -199,33 +172,40 @@ export async function POST(request: Request) {
   ];
 
   try {
-    const upstream = await fetch(upstreamUrl, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        model,
-        messages: [...systemMessages, ...(messages as AiChatMessage[])],
-        stream: false,
-        format: AtlasAssistantSchema,
-      }),
-      cache: "no-store",
+    const upstream = await requestAiGatewayChatCompletion({
+      messages: [...systemMessages, ...(messages as AiChatMessage[])],
+      stream: false,
+      response_format: {
+        type: "json_schema",
+        json_schema: {
+          name: "atlas_assistant_response",
+          schema: AtlasAssistantSchema,
+        },
+      },
     });
 
     if (!upstream.ok) {
+      const upstreamError = await readGatewayErrorMessage(upstream, "Atlas assistant");
+      logDebug("upstream-non-ok", {
+        status: upstream.status,
+        statusText: upstream.statusText,
+        error: upstreamError,
+        hasApiKey: Boolean(process.env.AI_GATEWAY_API_KEY?.trim()),
+      });
       return Response.json(buildFallback(), { status: 502 });
     }
 
-    const payload = (await upstream.json().catch(() => null)) as OllamaResponse | null;
-    const content = extractContent(payload);
+    const payload = (await upstream.json().catch(() => null)) as unknown;
+    const content = extractTextFromChatCompletionPayload(payload);
 
     let parsed: AtlasAssistantResponse | null = null;
-
-    if (content && typeof content === "object") {
-      parsed = content as AtlasAssistantResponse;
-    } else if (isNonEmptyString(content)) {
+    if (isNonEmptyString(content)) {
       try {
         parsed = JSON.parse(content) as AtlasAssistantResponse;
       } catch {
+        logDebug("content-json-parse-failed", {
+          contentLength: content.length,
+        });
         parsed = null;
       }
     }
@@ -238,9 +218,16 @@ export async function POST(request: Request) {
 
     return Response.json(parsed, { status: 200 });
   } catch (error) {
-    if (isOllamaUnavailable(error)) {
+    const message = error instanceof Error ? error.message : String(error ?? "");
+    logDebug("route-error", {
+      code: getGatewayErrorCode(error) ?? null,
+      isGatewayUnavailable: isGatewayUnavailable(error),
+      message,
+      hasApiKey: Boolean(process.env.AI_GATEWAY_API_KEY?.trim()),
+    });
+    if (isGatewayUnavailable(error)) {
       return Response.json(
-        buildFallback("Ollama laeuft nicht. Starte Ollama und versuch es erneut."),
+        buildFallback("AI Gateway ist nicht erreichbar. Pruefe AI_GATEWAY_API_KEY und versuch es erneut."),
         { status: 503 }
       );
     }

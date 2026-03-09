@@ -2,6 +2,10 @@ import type { AiChatMessage } from "@/lib/ai/types";
 import { TravelBotSchema } from "@/lib/ai/travelBot.schema";
 import { TRAVEL_BOT_SYSTEM_PROMPT } from "@/lib/ai/travelBot.prompt";
 import type { TravelBotQuickReply, TravelBotResponse, TravelBotState } from "@/lib/ai/travelBot.types";
+import {
+  extractTextFromChatCompletionPayload,
+  requestAiGatewayChatCompletion,
+} from "@/lib/ai/gatewayClient";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -9,13 +13,6 @@ export const dynamic = "force-dynamic";
 type IncomingBody = {
   messages: AiChatMessage[];
   appState?: unknown;
-};
-
-type OllamaChatResponse = {
-  message?: { content?: string };
-  response?: string;
-  content?: string;
-  error?: string;
 };
 
 const FALLBACK_RESPONSE: TravelBotResponse = {
@@ -48,14 +45,6 @@ const buildAppStateSummary = (appState: unknown) => {
   } catch {
     return `APP_STATE: ${String(appState ?? "none")}`;
   }
-};
-
-const extractOllamaContent = (data: OllamaChatResponse | null) => {
-  if (!data) return "";
-  if (isNonEmptyString(data.message?.content)) return data.message!.content!;
-  if (isNonEmptyString(data.response)) return data.response;
-  if (isNonEmptyString(data.content)) return data.content;
-  return "";
 };
 
 const extractJsonObject = (text: string) => {
@@ -130,7 +119,7 @@ const parseQuickReplies = (value: unknown): TravelBotQuickReply[] | null => {
     }
     const payload =
       record.payload && typeof record.payload === "object"
-        ? (record.payload as Record<string, any>)
+        ? (record.payload as Record<string, unknown>)
         : undefined;
     result.push({ id, label, action, payload });
     if (result.length >= 6) break;
@@ -186,48 +175,38 @@ export async function POST(request: Request) {
     return Response.json(FALLBACK_RESPONSE);
   }
 
-  const ollamaBaseUrl = (process.env.OLLAMA_URL ?? process.env.OLLAMA_BASE_URL ?? "http://127.0.0.1:11434").replace(
-    /\/+$/,
-    ""
-  );
-  const model = process.env.OLLAMA_MODEL ?? "llama3.1:8b";
-  const upstreamUrl = `${ollamaBaseUrl}/api/chat`;
-
   const appStateSummary = buildAppStateSummary(body?.appState);
-  const ollamaMessages = [
+  const requestMessages = [
     { role: "system", content: TRAVEL_BOT_SYSTEM_PROMPT },
     { role: "system", content: appStateSummary },
     ...messages.map((message) => ({ role: message.role, content: message.content })),
   ];
 
   try {
-    const upstream = await fetch(upstreamUrl, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        model,
-        messages: ollamaMessages,
-        stream: false,
-        format: TravelBotSchema,
-        options: {
-          temperature: 0.3,
-          top_p: 0.9,
-          repeat_penalty: 1.1,
+    const upstream = await requestAiGatewayChatCompletion({
+      messages: requestMessages,
+      stream: false,
+      response_format: {
+        type: "json_schema",
+        json_schema: {
+          name: "travel_bot_response",
+          schema: TravelBotSchema,
         },
-      }),
-      cache: "no-store",
+      },
+      temperature: 0.3,
+      top_p: 0.9,
     });
 
     if (!upstream.ok) {
       return Response.json(FALLBACK_RESPONSE);
     }
 
-    const data = (await upstream.json().catch(() => null)) as OllamaChatResponse | null;
-    if (!data || data.error) {
+    const data = (await upstream.json().catch(() => null)) as unknown;
+    if (!data) {
       return Response.json(FALLBACK_RESPONSE);
     }
 
-    const rawContent = extractOllamaContent(data);
+    const rawContent = extractTextFromChatCompletionPayload(data);
     if (!rawContent) {
       return Response.json(FALLBACK_RESPONSE);
     }
