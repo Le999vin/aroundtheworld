@@ -40,10 +40,10 @@ Erstelle eine `.env.local` für Provider-Konfiguration und optionale Defaults.
 | `OPENWEATHER_API_KEY` | Ja (Wetter) | `YOUR_KEY` | OpenWeather API-Schlüssel für `/api/weather`. |
 | `WEATHER_PROVIDER` | Optional | `openweather` | Wetter-Provider (nur `openweather` implementiert). |
 | `OPENWEATHER_TIMEOUT_MS` | Optional | `8000` | Timeout in ms für OpenWeather-Requests. |
-| `ALLOW_INSECURE_TLS_FOR_DEV` | Optional | `1` | Erlaubt unsichere TLS-Zertifikate in Dev. |
+| `ALLOW_INSECURE_TLS_FOR_DEV` | Optional | `1` | Erlaubt unsichere TLS-Zertifikate nur lokal in Dev (nie in Produktion). |
 | `ALLOW_INSECURE_TLS` | Optional | `1` | Alias für unsichere TLS in Dev. |
 | `ALLOW_INSECURE_SSL` | Optional | `1` | Alias für unsichere TLS in Dev. |
-| `NODE_EXTRA_CA_CERTS` | Optional | `C:\\ca.pem` | Pfad zu einer eigenen CA-Datei. |
+| `NODE_EXTRA_CA_CERTS` | Optional | `C:\\ca.pem` | Pfad zu einer eigenen CA-Datei; muss vor Prozessstart gesetzt werden. |
 | `NEXT_PUBLIC_DEFAULT_UNITS` | Optional | `metric` | Standard-Einheiten für Wetter (`imperial` für US). |
 | `NEXT_PUBLIC_DEFAULT_LANG` | Optional | `de` | Sprache für Wettertexte. |
 | `NEXT_PUBLIC_DEFAULT_LAT` | Optional | `47.3769` | Standard-Kartenmittelpunkt (Latitude). |
@@ -436,13 +436,14 @@ node scripts/generate-stays-dataset.ts --perCity=150 --radiusKm=8 --writeAll=fal
 
 ### Problem: `npm run dev` schlägt fehl
 
-**Ursache:** `predev` führt `node scripts/generate-poi-registry.ts` aus (TypeScript).  
+**Ursache:** `predev` führt `tsx scripts/generate-poi-registry.ts` aus. Wenn `tsx` fehlt, schlägt der Start fehl.  
 **Lösung:**
 ```bash
-# Option 1: tsx verwenden
-npx tsx scripts/generate-poi-registry.ts
+# Abhängigkeiten sauber installieren
+npm install
 
-# Option 2: Scripts zu JavaScript konvertieren
+# Registry manuell generieren (optional)
+npx tsx scripts/generate-poi-registry.ts
 ```
 
 ### Problem: Wetter wird nicht angezeigt
@@ -456,6 +457,22 @@ npx tsx scripts/generate-poi-registry.ts
 **Debug:**
 ```bash
 curl "https://api.openweathermap.org/data/2.5/weather?lat=50&lon=10&appid=YOUR_KEY"
+```
+
+**TLS in Corporate/Proxy-Umgebungen (Windows PowerShell):**
+```powershell
+# 1) Corporate Root CA als PEM-Datei lokal ablegen (z.B. C:\certs\corp-root.pem)
+# 2) Vor dem Start von Next setzen:
+$env:NODE_EXTRA_CA_CERTS = "C:\certs\corp-root.pem"
+npm run dev
+```
+
+`NODE_EXTRA_CA_CERTS` wirkt nur beim Start des Node-Prozesses. Ein Eintrag in `.env.local` allein reicht nicht aus, wenn der Prozess bereits läuft.
+
+Temporärer Notfall-Workaround (nur lokal, niemals Produktion):
+```powershell
+$env:ALLOW_INSECURE_TLS_FOR_DEV = "1"
+npm run dev
 ```
 
 ### Problem: POIs fehlen in der Karte
@@ -946,4 +963,3 @@ npm run test:e2e
 ---
 
 **Happy coding!**
-

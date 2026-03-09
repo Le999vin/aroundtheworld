@@ -56,15 +56,48 @@ type WeatherErrorBody = {
   debugId: string;
 };
 
-const weatherFallbackCache = new Map<string, WeatherData>();
+type WeatherFallbackEntry = {
+  data: WeatherData;
+  cachedAt: number;
+};
+
+const weatherFallbackCache = new Map<string, WeatherFallbackEntry>();
 const weatherFailureLog = new Map<string, number>();
 const FAILURE_LOG_COOLDOWN_MS = 5 * 60 * 1000;
+const TLS_ERROR_CODES = new Set([
+  "UNABLE_TO_GET_ISSUER_CERT_LOCALLY",
+  "SELF_SIGNED_CERT_IN_CHAIN",
+  "DEPTH_ZERO_SELF_SIGNED_CERT",
+  "ERR_TLS_CERT_ALTNAME_INVALID",
+  "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+  "CERT_HAS_EXPIRED",
+  "ERR_TLS_CERT_SIGNATURE_ALGORITHM_UNSUPPORTED",
+]);
+const TLS_ERROR_MESSAGE_PATTERNS = [
+  /unable to get local issuer certificate/i,
+  /self[- ]signed certificate/i,
+  /certificate signed by unknown authority/i,
+  /unable to verify the first certificate/i,
+  /hostname\/ip does not match certificate/i,
+];
 
 const findErrorCode = (details: unknown) => {
   if (!details || typeof details !== "object") return undefined;
   const record = details as Record<string, unknown>;
-  const code = record.code ?? record.causeCode;
+  const code = record.tlsCode ?? record.code ?? record.causeCode;
   return typeof code === "string" ? code : undefined;
+};
+
+const findErrorMessage = (details: unknown) => {
+  if (!details || typeof details !== "object") return undefined;
+  const record = details as Record<string, unknown>;
+  const message = record.message ?? record.causeMessage;
+  return typeof message === "string" ? message : undefined;
+};
+
+const isTlsMessage = (message?: string) => {
+  if (!message) return false;
+  return TLS_ERROR_MESSAGE_PATTERNS.some((pattern) => pattern.test(message));
 };
 
 const getUpstreamHint = (serviceError: ServiceError): string | null => {
@@ -74,12 +107,8 @@ const getUpstreamHint = (serviceError: ServiceError): string | null => {
   if (serviceError.code !== "provider_error") return null;
 
   const code = findErrorCode(serviceError.details);
-  if (
-    code === "UNABLE_TO_GET_ISSUER_CERT_LOCALLY" ||
-    code === "SELF_SIGNED_CERT_IN_CHAIN" ||
-    code === "DEPTH_ZERO_SELF_SIGNED_CERT" ||
-    code === "ERR_TLS_CERT_ALTNAME_INVALID"
-  ) {
+  const detailMessage = findErrorMessage(serviceError.details);
+  if ((code && TLS_ERROR_CODES.has(code)) || isTlsMessage(detailMessage) || isTlsMessage(serviceError.message)) {
     return "ssl_error";
   }
   if (
@@ -189,7 +218,10 @@ export async function GET(request: NextRequest) {
 
   try {
     const data = await cached();
-    weatherFallbackCache.set(cacheKey, data);
+    weatherFallbackCache.set(cacheKey, {
+      data,
+      cachedAt: Date.now(),
+    });
     if (process.env.NODE_ENV !== "production") {
       console.debug("[api/weather] response", {
         lat: data.location?.lat ?? roundedLat,
@@ -207,15 +239,22 @@ export async function GET(request: NextRequest) {
     if (fallback) {
       const now = Date.now();
       const lastLog = weatherFailureLog.get(cacheKey) ?? 0;
+      const staleAgeMs = Math.max(0, now - fallback.cachedAt);
       if (now - lastLog > FAILURE_LOG_COOLDOWN_MS) {
-        console.warn("[api/weather] using stale cache", {
+        console.warn("[api/weather] fresh request failed, serving stale fallback", {
           debugId,
           code: serviceError.code,
           hint: upstreamHint,
+          staleAgeMs,
+          staleAgeSec: Math.round(staleAgeMs / 1000),
         });
         weatherFailureLog.set(cacheKey, now);
       }
-      return NextResponse.json(fallback);
+      return NextResponse.json(fallback.data, {
+        headers: {
+          "x-weather-cache": "stale-fallback",
+        },
+      });
     }
 
     if (process.env.NODE_ENV !== "production" && upstreamHint === "ssl_error") {
@@ -223,7 +262,7 @@ export async function GET(request: NextRequest) {
         "[api/weather] TLS Zertifikat nicht vertrauenswuerdig (UNABLE_TO_GET_ISSUER_CERT_LOCALLY). Ursache oft: Proxy/Antivirus/Corporate MITM."
       );
       console.warn(
-        "[api/weather] Hinweis: Setze NODE_EXTRA_CA_CERTS oder ALLOW_INSECURE_TLS_FOR_DEV=1 (nur lokal)."
+        "[api/weather] Hinweis: Setze NODE_EXTRA_CA_CERTS vor dem Start von npm run dev oder nutze ALLOW_INSECURE_TLS_FOR_DEV=1 nur lokal und temporaer."
       );
     }
     logServiceError("api/weather", serviceError);

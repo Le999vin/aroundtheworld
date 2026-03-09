@@ -11,6 +11,7 @@ type AtlasAgentControllerDeps = {
   globeRef: RefObject<GlobeHandle | null>;
   resolveCountryFocus: (code: string, source: Focus["source"], nameHint?: string) => Focus | null;
   setFocus: (focus: Focus | null) => void;
+  getSelectedCountryCode?: () => string | null;
   triggerAiOrb?: () => void;
 };
 
@@ -27,6 +28,10 @@ export const createAtlasAgentController = (deps: AtlasAgentControllerDeps) => {
   const focusCountry = (countryCode: string, durationMs = DEFAULT_FOCUS_DURATION_MS) => {
     const normalized = normalizeCountryCode(countryCode);
     if (!normalized) return null;
+    const current = deps.getSelectedCountryCode?.()?.trim().toUpperCase() ?? null;
+    if (current && current === normalized) {
+      return null;
+    }
 
     const next = deps.resolveCountryFocus(normalized, "ai");
     if (!next) return null;
@@ -50,6 +55,8 @@ export const createAtlasAgentController = (deps: AtlasAgentControllerDeps) => {
   const openCountryPanel = (countryCode: string) => {
     const normalized = normalizeCountryCode(countryCode);
     if (!normalized) return null;
+    const current = deps.getSelectedCountryCode?.()?.trim().toUpperCase() ?? null;
+    if (current && current === normalized) return null;
     const next = deps.resolveCountryFocus(normalized, "ai");
     if (!next) return null;
     cancelPendingFocus();

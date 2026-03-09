@@ -41,6 +41,7 @@ import { atlasAgentStore } from "@/lib/state/atlasAgent.store";
 import {
   countryMeta,
   countryMetaByCode,
+  getCountryCenterOverride,
   getCapitalCoordinates,
   getCountryMeta,
   getCountryMetaByName,
@@ -164,6 +165,7 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
       const name = getCountryName(feature);
       const meta = countryMetaByCode[code] ?? getCountryMetaByName(name);
       const center = pickCenter(
+        getCountryCenterOverride(code),
         getFeatureCenter(feature),
         getCapitalCoordinates(meta ?? null),
         getFeatureBboxCenter(feature),
@@ -230,9 +232,10 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
         globeRef,
         resolveCountryFocus,
         setFocus,
+        getSelectedCountryCode: () => focus?.code ?? null,
         triggerAiOrb,
       }),
-    [resolveCountryFocus, triggerAiOrb]
+    [focus?.code, resolveCountryFocus, triggerAiOrb]
   );
 
   const selectCountryByCode = useCallback(
@@ -270,7 +273,7 @@ export const LandingClient = ({ countries }: LandingClientProps) => {
   }, [countryLookup, focus]);
 
   const handleClosePanel = useCallback(() => {
-    atlasAgentStore.clearPendingIntents();
+    atlasAgentStore.clearPendingAction();
     agentController.executeIntents([
       { type: "clear_selection" },
       { type: "return_to_world_view" },

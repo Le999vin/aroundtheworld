@@ -23,16 +23,46 @@ import type { WeatherOptions, WeatherService } from "@/lib/services/weather/type
 type TlsState = {
   mode: "default" | "custom_ca" | "insecure";
   caPath?: string;
+  caReadable?: boolean;
   caError?: { name: string; message: string };
+  startupHint?: string;
   agent?: https.Agent;
 };
 
 let tlsState: TlsState | null = null;
 
 const DEFAULT_TIMEOUT_MS = 8000;
+const NODE_EXTRA_CA_CERTS_STARTUP_HINT =
+  "NODE_EXTRA_CA_CERTS is only applied when the Node process starts. Set it in your shell before running npm run dev, then restart the server.";
+const TLS_HINT =
+  "Set NODE_EXTRA_CA_CERTS in the shell before starting npm run dev. As a local-only fallback, set ALLOW_INSECURE_TLS_FOR_DEV=1.";
+const TLS_ERROR_CODES = new Set([
+  "UNABLE_TO_GET_ISSUER_CERT_LOCALLY",
+  "SELF_SIGNED_CERT_IN_CHAIN",
+  "DEPTH_ZERO_SELF_SIGNED_CERT",
+  "ERR_TLS_CERT_ALTNAME_INVALID",
+  "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+  "CERT_HAS_EXPIRED",
+  "ERR_TLS_CERT_SIGNATURE_ALGORITHM_UNSUPPORTED",
+]);
+const TLS_ERROR_MESSAGE_PATTERNS = [
+  /unable to get local issuer certificate/i,
+  /self[- ]signed certificate/i,
+  /certificate signed by unknown authority/i,
+  /unable to verify the first certificate/i,
+  /hostname\/ip does not match certificate/i,
+];
 
 const isTruthyEnv = (value?: string) =>
   value === "1" || value === "true" || value === "TRUE";
+
+const matchesTlsMessage = (message?: string) => {
+  if (!message) return false;
+  return TLS_ERROR_MESSAGE_PATTERNS.some((pattern) => pattern.test(message));
+};
+
+const isTlsErrorSignal = (code?: string, message?: string) =>
+  (code ? TLS_ERROR_CODES.has(code) : false) || matchesTlsMessage(message);
 
 const resolveTimeoutMs = () => {
   const raw = process.env.OPENWEATHER_TIMEOUT_MS;
@@ -62,17 +92,24 @@ const resolveTlsState = (): TlsState => {
   if (caPath) {
     try {
       fs.readFileSync(caPath);
-      tlsState = { mode: "custom_ca", caPath };
+      tlsState = {
+        mode: "custom_ca",
+        caPath,
+        caReadable: true,
+        startupHint: NODE_EXTRA_CA_CERTS_STARTUP_HINT,
+      };
       return tlsState;
     } catch (error) {
       const err = error as { name?: string; message?: string };
       tlsState = {
         mode: "default",
         caPath,
+        caReadable: false,
         caError: {
           name: err.name ?? "Error",
           message: err.message ?? "Failed to read CA file",
         },
+        startupHint: NODE_EXTRA_CA_CERTS_STARTUP_HINT,
       };
       return tlsState;
     }
@@ -97,9 +134,6 @@ type HttpResponse = {
   url: string;
   body: string;
 };
-
-const TLS_HINT =
-  "Set NODE_EXTRA_CA_CERTS=... or ALLOW_INSECURE_TLS_FOR_DEV=1 (dev only).";
 
 const requestWithHttps = (
   url: URL,
@@ -185,16 +219,15 @@ const requestWithTimeout = async (
       name?: string;
       message?: string;
       code?: string;
-      cause?: { code?: string };
+      cause?: { code?: string; message?: string };
     };
     const isTimeout = err.name === "AbortError";
     const code = err.code ?? (isTimeout ? "ETIMEDOUT" : undefined);
-    const tlsCode = err.code ?? err.cause?.code;
-    const isTlsError =
-      tlsCode === "UNABLE_TO_GET_ISSUER_CERT_LOCALLY" ||
-      tlsCode === "SELF_SIGNED_CERT_IN_CHAIN" ||
-      tlsCode === "DEPTH_ZERO_SELF_SIGNED_CERT" ||
-      tlsCode === "ERR_TLS_CERT_ALTNAME_INVALID";
+    const message = err.message ?? "fetch failed";
+    const causeCode = err.cause?.code;
+    const causeMessage = err.cause?.message;
+    const tlsCode = err.code ?? causeCode;
+    const isTlsError = isTlsErrorSignal(tlsCode, message) || matchesTlsMessage(causeMessage);
     const hint = isTlsError ? TLS_HINT : undefined;
     throw new ServiceError(
       isTimeout
@@ -205,12 +238,17 @@ const requestWithTimeout = async (
         code: "provider_error",
         details: {
           name: err.name ?? "Error",
-          message: err.message ?? "fetch failed",
+          message,
           code,
-          causeCode: err.cause?.code,
+          causeCode,
+          causeMessage,
+          tlsCode,
+          tlsDetected: isTlsError,
           tlsMode: tlsInfo.mode,
           caPath: tlsInfo.caPath,
+          caReadable: tlsInfo.caReadable,
           caError: tlsInfo.caError,
+          startupHint: tlsInfo.startupHint,
           hint,
           target: `${url.origin}${url.pathname}`,
           timeoutMs,

@@ -28,11 +28,15 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { SiriGlowFrame } from "@/components/ui/siri-glow-frame";
+import { parsePendingActionDecision } from "@/lib/ai/atlasAssistantConfirm";
 import { cn } from "@/lib/utils";
 import type { AiChatContext, AiChatMessage } from "@/lib/ai/types";
 import type {
   AgentMode,
+  AtlasAssistantRequestBody,
   AtlasAssistantResponse,
+  ChatContext,
   UiIntent,
 } from "@/lib/ai/atlasAssistant.types";
 import { atlasAgentStore, useAtlasAgentStore } from "@/lib/state/atlasAgent.store";
@@ -43,6 +47,7 @@ type AtlasChatProps = {
   variant: "panel" | "sheet";
   onSelectCountry?: (code: string) => void;
   onExecuteIntents?: (intents: UiIntent[]) => void;
+  onLoadingStateChange?: (isLoadingOrStreaming: boolean) => void;
   uiState?: Record<string, unknown>;
 };
 
@@ -132,45 +137,42 @@ const isValidAtlasAssistantResponse = (value: unknown): value is AtlasAssistantR
   return true;
 };
 
-const normalizeConfirmInput = (value: string) =>
-  value
-    .toLowerCase()
-    .replace(/[.!?,]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+  typeof value === "object" && value !== null;
 
-const CONFIRM_PHRASES = new Set([
-  "ja",
-  "ja bitte",
-  "ok",
-  "okay",
-  "okey",
-  "ok mach",
-  "mach",
-  "mach das",
-  "mach bitte",
-  "gerne",
-  "fuehr mich hin",
-  "fuehr mich",
-  "fuehr mich bitte",
-  "fuehr mich dahin",
-  "fuehr mich dorthin",
-  "führ mich hin",
-  "führ mich",
-  "führ mich bitte",
-  "führ mich dahin",
-  "führ mich dorthin",
-  "go",
-]);
+const isAbortError = (error: unknown) => {
+  if (error instanceof DOMException) return error.name === "AbortError";
+  if (!isRecord(error)) return false;
+  return error.name === "AbortError";
+};
 
-const isConfirmMessage = (value: string) => {
-  const normalized = normalizeConfirmInput(value);
-  if (!normalized) return false;
-  if (CONFIRM_PHRASES.has(normalized)) return true;
-  if (normalized.startsWith("ja ") && normalized.split(" ").length <= 3) return true;
-  if (normalized.startsWith("ok ") && normalized.split(" ").length <= 3) return true;
-  if (normalized.startsWith("okay ") && normalized.split(" ").length <= 3) return true;
-  return false;
+const asStringOrNull = (value: unknown) => {
+  if (typeof value !== "string") return null;
+  const trimmed = value.trim();
+  return trimmed || null;
+};
+
+const asCountryCodeOrNull = (value: unknown) => {
+  const normalized = asStringOrNull(value);
+  return normalized ? normalized.toUpperCase() : null;
+};
+
+const buildRequestChatContext = (
+  context: AiChatContext,
+  uiState: Record<string, unknown> | undefined,
+  agentMode: AgentMode
+): ChatContext => {
+  const selectedCountryCode =
+    asCountryCodeOrNull(context.country?.code) ??
+    (isRecord(uiState) ? asCountryCodeOrNull(uiState.selectedCountryCode) : null);
+  const selectedCountryName = asStringOrNull(context.country?.name);
+
+  return {
+    uiMode: context.mode === "country" ? "country" : "global",
+    selectedCountryCode,
+    selectedCountryName,
+    agentMode,
+  };
 };
 
 export const AtlasChat = ({
@@ -178,15 +180,17 @@ export const AtlasChat = ({
   threadKey,
   variant,
   onExecuteIntents,
+  onLoadingStateChange,
   uiState,
 }: AtlasChatProps) => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [isStreaming, setIsStreaming] = useState(false);
+  const isLoadingOrStreaming = isLoading || isStreaming;
 
   const agentMode = useAtlasAgentStore((state) => state.agentMode);
-  const pendingIntents = useAtlasAgentStore((state) => state.pendingIntents);
-  const pendingMessageId = useAtlasAgentStore((state) => state.pendingMessageId);
+  const pendingAction = useAtlasAgentStore((state) => state.pendingAction);
 
   const storageKey = useMemo(() => buildStorageKey(threadKey), [threadKey]);
   const messagesRef = useRef<ChatMessage[]>([]);
@@ -201,6 +205,10 @@ export const AtlasChat = ({
     () => ({ ...(uiState ?? {}), context }),
     [context, uiState]
   );
+  const requestChatContext = useMemo(
+    () => buildRequestChatContext(context, uiState, agentMode),
+    [agentMode, context, uiState]
+  );
 
   useEffect(() => {
     if (initializedKeyRef.current !== storageKey) return;
@@ -211,13 +219,14 @@ export const AtlasChat = ({
     abortRef.current?.abort();
     abortRef.current = null;
     setIsLoading(false);
+    setIsStreaming(false);
     setInput("");
     const stored = loadStoredMessages(storageKey);
     messagesRef.current = stored;
     initializedKeyRef.current = storageKey;
     setMessages(stored);
     shouldAutoScrollRef.current = true;
-    atlasAgentStore.clearPendingIntents();
+    atlasAgentStore.clearPendingAction();
   }, [storageKey]);
 
   const updateAutoScrollFlag = useCallback(() => {
@@ -228,12 +237,25 @@ export const AtlasChat = ({
   }, []);
 
   useEffect(() => {
-    if (!shouldAutoScrollRef.current && !isLoading) return;
+    if (!shouldAutoScrollRef.current && !isLoadingOrStreaming) return;
     scrollAnchorRef.current?.scrollIntoView({ behavior: "auto" });
-  }, [messages, isLoading]);
+  }, [isLoadingOrStreaming, messages]);
 
   useEffect(() => {
-    return () => abortRef.current?.abort();
+    onLoadingStateChange?.(isLoadingOrStreaming);
+  }, [isLoadingOrStreaming, onLoadingStateChange]);
+
+  useEffect(() => {
+    return () => {
+      onLoadingStateChange?.(false);
+    };
+  }, [onLoadingStateChange]);
+
+  useEffect(() => {
+    return () => {
+      abortRef.current?.abort();
+      abortRef.current = null;
+    };
   }, []);
 
   const prompts = useMemo(() => {
@@ -261,26 +283,34 @@ export const AtlasChat = ({
       const controller = new AbortController();
       abortRef.current = controller;
       try {
+        const requestBody: AtlasAssistantRequestBody = {
+          messages: outgoingMessages,
+          agentMode,
+          chatContext: requestChatContext,
+          uiState: uiStatePayload,
+        };
         const response = await fetch("/api/atlas-assistant", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            messages: outgoingMessages,
-            agentMode,
-            uiState: uiStatePayload,
-          }),
+          body: JSON.stringify(requestBody),
           signal: controller.signal,
         });
         const data = (await response.json().catch(() => null)) as AtlasAssistantResponse | null;
         if (response.ok && data && isValidAtlasAssistantResponse(data)) {
           return data;
         }
-      } catch {
-        // fall back
+      } catch (error) {
+        if (controller.signal.aborted || isAbortError(error)) {
+          return null;
+        }
+      } finally {
+        if (abortRef.current === controller) {
+          abortRef.current = null;
+        }
       }
       return FALLBACK_RESPONSE;
     },
-    [agentMode, uiStatePayload]
+    [agentMode, requestChatContext, uiStatePayload]
   );
 
   const executeIntents = useCallback(
@@ -291,15 +321,15 @@ export const AtlasChat = ({
     [onExecuteIntents]
   );
 
-  const confirmPendingIntents = useCallback(() => {
-    if (!pendingIntents?.length) return false;
-    executeIntents(pendingIntents);
-    atlasAgentStore.clearPendingIntents();
+  const confirmPendingAction = useCallback(() => {
+    if (!pendingAction?.intents?.length) return false;
+    executeIntents(pendingAction.intents);
+    atlasAgentStore.clearPendingAction();
     return true;
-  }, [executeIntents, pendingIntents]);
+  }, [executeIntents, pendingAction]);
 
-  const declinePendingIntents = useCallback(() => {
-    atlasAgentStore.clearPendingIntents();
+  const declinePendingAction = useCallback(() => {
+    atlasAgentStore.clearPendingAction();
   }, []);
 
   const handleSend = useCallback(
@@ -309,13 +339,21 @@ export const AtlasChat = ({
         skipConfirmCheck?: boolean;
       }
     ) => {
-      if (isLoading) return;
+      if (isLoadingOrStreaming) return;
       const content = (override ?? input).trim();
       if (!content) return;
 
-      if (!options?.skipConfirmCheck) {
-        if (agentMode === "confirm" && pendingIntents?.length && isConfirmMessage(content)) {
-          confirmPendingIntents();
+      if (!options?.skipConfirmCheck && agentMode === "confirm" && pendingAction?.intents?.length) {
+        const decision = parsePendingActionDecision(content);
+        if (decision === "confirm") {
+          confirmPendingAction();
+          setInput("");
+          return;
+        }
+        if (decision === "cancel") {
+          declinePendingAction();
+          setInput("");
+          return;
         }
       }
 
@@ -333,64 +371,73 @@ export const AtlasChat = ({
 
       setInput("");
       setIsLoading(true);
+      setIsStreaming(false);
 
       const outgoingMessages: AiChatMessage[] = nextMessages.map((message) => ({
         role: message.role,
         content: message.content,
       }));
 
-      const response = await fetchAtlasAssistantResponse(outgoingMessages);
-      const intents = Array.isArray(response.intents) ? response.intents : [];
-
-      const assistantMessage: ChatMessage = {
-        id: createMessageId(),
-        role: "assistant",
-        content: response.message_md,
-        quickReplies: response.quick_replies,
-        intents,
-      };
-
-      const withAssistant = [...messagesRef.current, assistantMessage];
-      messagesRef.current = withAssistant;
-      setMessages(withAssistant);
-
-      if (intents.length > 0) {
-        if (agentMode === "auto") {
-          executeIntents(intents);
-        } else if (agentMode === "confirm") {
-          atlasAgentStore.setPendingIntents(intents, assistantMessage.id);
+      try {
+        const response = await fetchAtlasAssistantResponse(outgoingMessages);
+        if (!response) {
+          return;
         }
-      }
+        const intents = Array.isArray(response.intents) ? response.intents : [];
 
-      setIsLoading(false);
+        const assistantMessage: ChatMessage = {
+          id: createMessageId(),
+          role: "assistant",
+          content: response.message_md,
+          quickReplies: response.quick_replies,
+          intents,
+        };
+
+        const withAssistant = [...messagesRef.current, assistantMessage];
+        messagesRef.current = withAssistant;
+        setMessages(withAssistant);
+
+        if (intents.length > 0) {
+          if (agentMode === "auto") {
+            executeIntents(intents);
+          } else if (agentMode === "confirm") {
+            atlasAgentStore.setPendingAction(intents, assistantMessage.id);
+          }
+        }
+      } finally {
+        setIsLoading(false);
+        setIsStreaming(false);
+      }
     },
     [
       agentMode,
-      confirmPendingIntents,
+      confirmPendingAction,
+      declinePendingAction,
       executeIntents,
       fetchAtlasAssistantResponse,
       input,
-      isLoading,
-      pendingIntents,
+      isLoadingOrStreaming,
+      pendingAction,
     ]
   );
 
   const handleQuickReply = useCallback(
     (reply: AssistantQuickReply) => {
-      if (isLoading) return;
+      if (isLoadingOrStreaming) return;
       handleSend(reply.label, { skipConfirmCheck: true });
     },
-    [handleSend, isLoading]
+    [handleSend, isLoadingOrStreaming]
   );
 
   const handleClear = useCallback(() => {
     abortRef.current?.abort();
     abortRef.current = null;
     setIsLoading(false);
+    setIsStreaming(false);
     setInput("");
     messagesRef.current = [];
     setMessages([]);
-    atlasAgentStore.clearPendingIntents();
+    atlasAgentStore.clearPendingAction();
     if (typeof window !== "undefined") window.localStorage.removeItem(storageKey);
   }, [storageKey]);
 
@@ -406,10 +453,11 @@ export const AtlasChat = ({
     []
   );
 
-  return (
+  const chatSurface = (
     <div
       className={cn(
-        "flex h-full min-h-0 flex-col overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-4"
+        "flex min-h-0 flex-col overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-4",
+        variant === "panel" ? "flex-1" : "h-full"
       )}
     >
       <div
@@ -479,7 +527,7 @@ export const AtlasChat = ({
                   size="sm"
                   variant="outline"
                   onClick={() => handleSend(prompt)}
-                  disabled={isLoading}
+                  disabled={isLoadingOrStreaming}
                   className="min-w-0 w-full h-auto justify-start rounded-xl border-white/10 bg-white/5 px-3 py-2 text-left text-xs leading-snug text-slate-100 whitespace-normal break-words hover:bg-white/10"
                 >
                   {prompt}
@@ -512,7 +560,7 @@ export const AtlasChat = ({
                           size="sm"
                           variant="outline"
                           onClick={() => handleQuickReply(reply)}
-                          disabled={isLoading}
+                          disabled={isLoadingOrStreaming}
                           className="h-8 rounded-full border-white/10 bg-white/5 px-3 text-xs text-slate-100 hover:bg-white/10"
                         >
                           {reply.label}
@@ -522,14 +570,14 @@ export const AtlasChat = ({
                   ) : null}
                   {message.role === "assistant" &&
                   agentMode === "confirm" &&
-                  pendingMessageId === message.id &&
-                  pendingIntents?.length ? (
+                  pendingAction?.messageId === message.id &&
+                  pendingAction?.intents.length ? (
                     <div className="mt-2 flex flex-wrap gap-2">
                       <Button
                         type="button"
                         size="sm"
                         variant="secondary"
-                        onClick={() => confirmPendingIntents()}
+                        onClick={() => confirmPendingAction()}
                         className="h-8 rounded-full"
                       >
                         Ja, zeig mir das
@@ -538,7 +586,7 @@ export const AtlasChat = ({
                         type="button"
                         size="sm"
                         variant="outline"
-                        onClick={declinePendingIntents}
+                        onClick={declinePendingAction}
                         className="h-8 rounded-full border-white/10 bg-white/5 text-slate-100 hover:bg-white/10"
                       >
                         Nein
@@ -567,12 +615,12 @@ export const AtlasChat = ({
               }
             }}
             placeholder="Frag den Atlas Assistant..."
-            disabled={isLoading}
+            disabled={isLoadingOrStreaming}
             className="w-full resize-none rounded-xl border border-white/10 bg-transparent px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30 disabled:cursor-not-allowed disabled:opacity-60"
           />
           <div className="mt-2 flex items-center justify-between gap-2">
             <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-              {isLoading ? "Antwort wird geladen..." : "Enter zum Senden"}
+              {isLoadingOrStreaming ? "Antwort wird geladen..." : "Enter zum Senden"}
             </p>
 
             <Button
@@ -580,7 +628,7 @@ export const AtlasChat = ({
               size="sm"
               variant="secondary"
               onClick={() => handleSend()}
-              disabled={isLoading || input.trim().length === 0}
+              disabled={isLoadingOrStreaming || input.trim().length === 0}
             >
               Send
             </Button>
@@ -589,6 +637,16 @@ export const AtlasChat = ({
       </div>
     </div>
   );
+
+  if (variant === "panel") {
+    return (
+      <SiriGlowFrame active={isLoadingOrStreaming} className="flex h-full min-h-0 flex-col rounded-3xl">
+        {chatSurface}
+      </SiriGlowFrame>
+    );
+  }
+
+  return chatSurface;
 };
 
 export default AtlasChat;

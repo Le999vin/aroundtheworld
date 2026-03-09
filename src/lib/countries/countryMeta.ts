@@ -12,6 +12,10 @@ type CountryMetaEntry = {
   topCities: NonNullable<Country["topCities"]>;
 };
 
+const countryCenterOverrides: Record<string, Coordinates> = {
+  CH: { lat: 47.3769, lon: 8.5417 },
+};
+
 const curatedOverrides: Country[] = [
   {
     code: "DE",
@@ -228,6 +232,18 @@ const isValidLatLon = (lat?: number, lon?: number) => {
 const isZeroCenter = (lat: number, lon: number) =>
   Math.abs(lat) < 0.0001 && Math.abs(lon) < 0.0001;
 
+export const getCountryCenterOverride = (
+  code?: string | null
+): Coordinates | null => {
+  const normalized = code?.trim().toUpperCase();
+  if (!normalized) return null;
+  const override = countryCenterOverrides[normalized];
+  if (!override) return null;
+  if (!isValidLatLon(override.lat, override.lon)) return null;
+  if (isZeroCenter(override.lat, override.lon)) return null;
+  return override;
+};
+
 export const getCapitalCoordinates = (
   country?: Country | null
 ): Coordinates | null => {
@@ -246,6 +262,8 @@ export const resolveCountryCenterFromMeta = (
   country?: Country | null
 ): Coordinates | null => {
   if (!country) return null;
+  const override = getCountryCenterOverride(country.code);
+  if (override) return override;
   if (isValidLatLon(country.lat, country.lon) && !isZeroCenter(country.lat, country.lon)) {
     return { lat: country.lat, lon: country.lon };
   }

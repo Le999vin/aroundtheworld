@@ -1,42 +1,22 @@
-﻿/**
+/**
  * Atlas Assistant API (POST /api/atlas-assistant)
- *
- * Zweck:
- * - Brücke zwischen UI-Chat und lokalem Ollama-LLM.
- * - Nimmt Chat-Messages + UI-State entgegen und liefert strukturierte Antwort
- *   (message_md, quick_replies, intents).
- *
- * Wichtigste Code-Blöcke:
- * 1) Input-Validierung
- *    - prüft Body + `messages` und liefert Fallback bei leerem Input.
- *
- * 2) Ollama-Request
- *    - baut System-Prompts (inkl. UI_STATE + agentMode)
- *    - POST an `${OLLAMA_BASE_URL}/api/chat` mit Schema-Format.
- *
- * 3) Response-Parsing
- *    - `extractContent()` holt Antwort aus verschiedenen Ollama-Formaten.
- *    - JSON-Parsing wenn Response als String zurückkommt.
- *    - Fallback, wenn keine valide `message_md` vorhanden ist.
- *
- * 4) Fehlerbehandlung
- *    - `isOllamaUnavailable()` erkennt Offline/Netzwerkfehler.
- *    - Liefert passende Fallback-Messages (503/500).
  */
 
 import type { AiChatMessage } from "@/lib/ai/types";
-import type { AgentMode, AtlasAssistantResponse } from "@/lib/ai/atlasAssistant.types";
-import { ATLAS_ASSISTANT_SYSTEM_PROMPT } from "@/lib/ai/atlasAssistant.prompt";
+import {
+  type AgentMode,
+  type AtlasAssistantRequestBody,
+  type AtlasAssistantResponse,
+  type ChatContext,
+  type UiIntent,
+} from "@/lib/ai/atlasAssistant.types";
+import { buildSystemPrompt } from "@/lib/ai/atlasAssistant.prompt";
 import { AtlasAssistantSchema } from "@/lib/ai/atlasAssistant.schema";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-type IncomingBody = {
-  messages: AiChatMessage[];
-  agentMode?: AgentMode;
-  uiState?: unknown;
-};
+type IncomingBody = AtlasAssistantRequestBody;
 
 type OllamaResponse = {
   message?: { role?: string; content?: unknown };
@@ -51,6 +31,68 @@ const resolveAgentMode = (value?: AgentMode): AgentMode => {
 
 const isNonEmptyString = (value: unknown): value is string =>
   typeof value === "string" && value.trim().length > 0;
+
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+  typeof value === "object" && value !== null;
+
+const normalizeCountryCode = (value: unknown) => {
+  if (!isNonEmptyString(value)) return null;
+  const normalized = value.trim().toUpperCase();
+  return normalized || null;
+};
+
+const normalizeCountryName = (value: unknown) => {
+  if (!isNonEmptyString(value)) return null;
+  const normalized = value.trim();
+  return normalized || null;
+};
+
+const extractLegacyContext = (uiState: unknown) => {
+  if (!isRecord(uiState)) return null;
+  const context = uiState.context;
+  if (!isRecord(context)) return null;
+
+  const country = isRecord(context.country) ? context.country : null;
+  const mode = context.mode;
+
+  return {
+    mode: typeof mode === "string" ? mode : null,
+    selectedCountryCode:
+      normalizeCountryCode(country?.code) ?? normalizeCountryCode(uiState.selectedCountryCode),
+    selectedCountryName: normalizeCountryName(country?.name),
+  };
+};
+
+const resolveChatContext = (body: IncomingBody | null, agentMode: AgentMode): ChatContext => {
+  const direct = isRecord(body?.chatContext) ? body?.chatContext : null;
+  const uiState = body?.uiState;
+  const legacy = extractLegacyContext(uiState);
+
+  const uiModeCandidate = direct?.uiMode;
+  const uiMode =
+    uiModeCandidate === "country" || uiModeCandidate === "global"
+      ? uiModeCandidate
+      : legacy?.mode === "country"
+        ? "country"
+        : "global";
+
+  const selectedCountryCode =
+    normalizeCountryCode(direct?.selectedCountryCode) ??
+    legacy?.selectedCountryCode ??
+    null;
+
+  const selectedCountryName =
+    normalizeCountryName(direct?.selectedCountryName) ??
+    legacy?.selectedCountryName ??
+    null;
+
+  return {
+    uiMode,
+    selectedCountryCode,
+    selectedCountryName,
+    agentMode,
+  };
+};
 
 const extractContent = (payload: OllamaResponse | null) => {
   if (!payload) return null;
@@ -89,6 +131,46 @@ const isOllamaUnavailable = (error: unknown) => {
   );
 };
 
+const isSameCountryIntent = (intentCode: string, selectedCountryCode: string | null) => {
+  const intentNormalized = normalizeCountryCode(intentCode);
+  const selectedNormalized = normalizeCountryCode(selectedCountryCode);
+  if (!intentNormalized || !selectedNormalized) return false;
+  return intentNormalized === selectedNormalized;
+};
+
+const filterRedundantCountryIntents = (
+  intents: UiIntent[] | undefined,
+  chatContext: ChatContext,
+  uiState: unknown
+) => {
+  if (!Array.isArray(intents) || intents.length === 0) return intents;
+
+  const uiStateRecord = isRecord(uiState) ? uiState : null;
+  const panelOpen = chatContext.uiMode === "country" || uiStateRecord?.panelOpen === true;
+  const selectedCountryCode = chatContext.selectedCountryCode;
+
+  if (!selectedCountryCode) return intents;
+
+  return intents.filter((intent) => {
+    if (
+      intent.type === "focus_country" &&
+      isSameCountryIntent(intent.countryCode, selectedCountryCode)
+    ) {
+      return false;
+    }
+
+    if (
+      intent.type === "open_country_panel" &&
+      panelOpen &&
+      isSameCountryIntent(intent.countryCode, selectedCountryCode)
+    ) {
+      return false;
+    }
+
+    return true;
+  });
+};
+
 export async function POST(request: Request) {
   let body: IncomingBody | null = null;
   try {
@@ -97,24 +179,23 @@ export async function POST(request: Request) {
     body = null;
   }
 
-  const messages = Array.isArray(body?.messages) ? body!.messages : [];
+  const messages = Array.isArray(body?.messages) ? body.messages : [];
   if (!messages.length) {
     return Response.json(buildFallback("Sag mir kurz, wohin du moechtest."), { status: 400 });
   }
 
   const agentMode = resolveAgentMode(body?.agentMode);
-  const uiState = body?.uiState ?? {};
+  const uiState = isRecord(body?.uiState) ? body.uiState : {};
+  const chatContext = resolveChatContext(body, agentMode);
 
   const ollamaBaseUrl = (process.env.OLLAMA_BASE_URL ?? "http://127.0.0.1:11434").replace(/\/+$/, "");
   const model = process.env.OLLAMA_MODEL ?? "llama3.1:8b";
   const upstreamUrl = `${ollamaBaseUrl}/api/chat`;
 
-  const systemMessages = [
-    { role: "system", content: ATLAS_ASSISTANT_SYSTEM_PROMPT },
-    {
-      role: "system",
-      content: `UI_STATE: ${JSON.stringify({ ...uiState, agentMode })}`,
-    },
+  const systemMessages: Array<{ role: "system"; content: string }> = [
+    { role: "system", content: buildSystemPrompt(chatContext) },
+    { role: "system", content: `CHAT_CONTEXT: ${JSON.stringify(chatContext)}` },
+    { role: "system", content: `UI_STATE: ${JSON.stringify({ ...uiState, agentMode })}` },
   ];
 
   try {
@@ -123,7 +204,7 @@ export async function POST(request: Request) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         model,
-        messages: [...systemMessages, ...messages],
+        messages: [...systemMessages, ...(messages as AiChatMessage[])],
         stream: false,
         format: AtlasAssistantSchema,
       }),
@@ -153,13 +234,13 @@ export async function POST(request: Request) {
       return Response.json(buildFallback(), { status: 200 });
     }
 
+    parsed.intents = filterRedundantCountryIntents(parsed.intents, chatContext, uiState) ?? [];
+
     return Response.json(parsed, { status: 200 });
   } catch (error) {
     if (isOllamaUnavailable(error)) {
       return Response.json(
-        buildFallback(
-          "Ollama laeuft nicht. Starte Ollama und versuch es erneut."
-        ),
+        buildFallback("Ollama laeuft nicht. Starte Ollama und versuch es erneut."),
         { status: 503 }
       );
     }

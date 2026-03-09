@@ -19,10 +19,17 @@
  * - Ergebnis wird pro Key gecached → UI zeigt loading/error/data sauber getrennt.
  * - API-Endpunkte: /api/weather und /api/pois.
  */
- 
+
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,6 +39,7 @@ import { ChatSheet } from "@/components/ai/ChatSheet";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Sheet,
   SheetContent,
@@ -111,7 +119,10 @@ const useCountryWeather = (focus: Focus | null) => {
 
   useEffect(() => {
     if (roundedLat === undefined || roundedLon === undefined || !key) return;
-    if (!isValidLatLon(roundedLat, roundedLon) || isZeroCenter(roundedLat, roundedLon)) {
+    if (
+      !isValidLatLon(roundedLat, roundedLon) ||
+      isZeroCenter(roundedLat, roundedLon)
+    ) {
       setState({ key, data: null, error: "Weather unavailable" });
       return;
     }
@@ -260,23 +271,45 @@ export const CountryPanel = ({
   const reduceMotion = useReducedMotion();
   const weatherState = useCountryWeather(focus);
   const placesState = useCountryPlaces(country, focus);
-  const [origin, setOrigin] = useState<TravelOrigin>(() => loadOrigin() ?? defaultOrigin());
-  const [originStatus, setOriginStatus] = useState<"idle" | "loading" | "error">("idle");
+  const [origin, setOrigin] = useState<TravelOrigin>(
+    () => loadOrigin() ?? defaultOrigin(),
+  );
+  const [originStatus, setOriginStatus] = useState<
+    "idle" | "loading" | "error"
+  >("idle");
   const [originHint, setOriginHint] = useState<string | null>(null);
   const [isOriginSheetOpen, setIsOriginSheetOpen] = useState(false);
   const [geocodeQuery, setGeocodeQuery] = useState("");
   const [geocodeResults, setGeocodeResults] = useState<GeocodeResult[]>([]);
-  const [geocodeStatus, setGeocodeStatus] = useState<"idle" | "loading" | "error">("idle");
+  const [geocodeStatus, setGeocodeStatus] = useState<
+    "idle" | "loading" | "error"
+  >("idle");
   const [departDate, setDepartDate] = useState("");
   const [returnDate, setReturnDate] = useState("");
   const [roundTrip, setRoundTrip] = useState(false);
   const [airportSelection, setAirportSelection] = useState("");
   const [chatOpen, setChatOpen] = useState(false);
   const deviceAttemptedRef = useRef(false);
+  const scrollViewportRef = useRef<HTMLDivElement | null>(null);
+  const selectedCountryCode = focus?.code ?? country?.code ?? null;
+
+  const handleScrollWheelCapture = useCallback(
+    (event: React.WheelEvent<HTMLDivElement>) => {
+      event.stopPropagation();
+    },
+    [],
+  );
+
+  const handleScrollTouchCapture = useCallback(
+    (event: React.TouchEvent<HTMLDivElement>) => {
+      event.stopPropagation();
+    },
+    [],
+  );
 
   const poiCards = useMemo<POI[]>(
     () => placesState.data?.slice(0, 5) ?? [],
-    [placesState.data]
+    [placesState.data],
   );
 
   const placesLabel = useMemo(() => {
@@ -286,7 +319,7 @@ export const CountryPanel = ({
 
   const originHasCoords = useMemo(
     () => isValidLatLon(origin.lat, origin.lon),
-    [origin.lat, origin.lon]
+    [origin.lat, origin.lon],
   );
 
   const departure = useMemo(() => resolveDeparture(origin), [origin]);
@@ -319,7 +352,7 @@ export const CountryPanel = ({
 
   const threadKey = useMemo(
     () => country?.code || country?.name || "global",
-    [country]
+    [country],
   );
 
   const uiState = useMemo(
@@ -336,7 +369,7 @@ export const CountryPanel = ({
           }
         : null,
     }),
-    [country, focus]
+    [country, focus],
   );
 
   const aiContext = useMemo<AiChatContext>(() => {
@@ -358,7 +391,13 @@ export const CountryPanel = ({
         destinations,
       },
     };
-  }, [country, departure.iata, departure.label, destinations, weatherState.data]);
+  }, [
+    country,
+    departure.iata,
+    departure.label,
+    destinations,
+    weatherState.data,
+  ]);
 
   const showGeocodeEmpty =
     geocodeQuery.trim().length >= 2 &&
@@ -420,7 +459,9 @@ export const CountryPanel = ({
     }
     setGeocodeStatus("loading");
     try {
-      const response = await fetch(`/api/geocode?q=${encodeURIComponent(query)}`);
+      const response = await fetch(
+        `/api/geocode?q=${encodeURIComponent(query)}`,
+      );
       if (!response.ok) throw new Error("Geocode failed");
       const data = (await response.json()) as GeocodeResult[];
       setGeocodeResults(Array.isArray(data) ? data : []);
@@ -450,7 +491,7 @@ export const CountryPanel = ({
       setAirportSelection("");
       setIsOriginSheetOpen(false);
     },
-    [applyCustomOrigin]
+    [applyCustomOrigin],
   );
 
   const handleAirportSelect = useCallback(
@@ -469,14 +510,16 @@ export const CountryPanel = ({
       setAirportSelection(iata);
       setIsOriginSheetOpen(false);
     },
-    [applyCustomOrigin]
+    [applyCustomOrigin],
   );
 
   const handleOpenFlights = useCallback(
     (destination: string) => {
       const departDateValue = departDate.trim() || undefined;
       const returnDateValue =
-        roundTrip && returnDate.trim().length > 0 ? returnDate.trim() : undefined;
+        roundTrip && returnDate.trim().length > 0
+          ? returnDate.trim()
+          : undefined;
       const url = buildGoogleFlightsUrl({
         fromLabelOrIata: departure.iata,
         toLabelOrIata: destination,
@@ -485,7 +528,7 @@ export const CountryPanel = ({
       });
       window.open(url, "_blank", "noopener,noreferrer");
     },
-    [departDate, departure.iata, returnDate, roundTrip]
+    [departDate, departure.iata, returnDate, roundTrip],
   );
 
   useEffect(() => {
@@ -499,6 +542,13 @@ export const CountryPanel = ({
     attemptDeviceLocation(false);
   }, [attemptDeviceLocation, origin.mode, originHasCoords]);
 
+  useLayoutEffect(() => {
+    if (!selectedCountryCode) return;
+    const viewport = scrollViewportRef.current;
+    if (!viewport) return;
+    viewport.scrollTo({ top: 0, behavior: "auto" });
+  }, [selectedCountryCode]);
+
   if (!country || !focus) {
     return (
       <div className="fixed inset-x-4 bottom-6 z-20 flex justify-center md:right-6 md:top-20 md:bottom-6 md:left-auto md:w-[380px]">
@@ -510,18 +560,18 @@ export const CountryPanel = ({
             </p>
           </div>
           <div className="mt-5 flex-1 min-h-0 flex flex-col text-left">
-          <AtlasChat
-            variant="panel"
-            threadKey="global"
-            context={{ mode: "explore" }}
-            onSelectCountry={onSelectCountry}
-            onExecuteIntents={onExecuteIntents}
-            uiState={uiState}
-          />
+            <AtlasChat
+              variant="panel"
+              threadKey="global"
+              context={{ mode: "explore" }}
+              onSelectCountry={onSelectCountry}
+              onExecuteIntents={onExecuteIntents}
+              uiState={uiState}
+            />
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
   }
 
   return (
@@ -532,8 +582,12 @@ export const CountryPanel = ({
       className="fixed inset-x-4 bottom-6 z-20 md:right-6 md:top-20 md:bottom-6 md:left-auto md:w-[380px]"
       aria-live="polite"
     >
-      <div className="flex h-full min-h-0 max-h-[72vh] flex-col gap-5 overflow-hidden rounded-[32px] border border-white/10 bg-white/10 p-6 text-white shadow-2xl backdrop-blur-xl md:max-h-full">
-        <div className="flex items-start justify-between gap-4">
+      <div className="grid h-full min-h-0 max-h-[72vh] grid-rows-[auto,1fr] gap-5 overflow-hidden rounded-[32px] border border-white/10 bg-white/10 p-6 text-white shadow-2xl backdrop-blur-xl md:max-h-full">
+        <div
+          className="flex items-start justify-between gap-4"
+          onWheelCapture={handleScrollWheelCapture}
+          onTouchMoveCapture={handleScrollTouchCapture}
+        >
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
               Country Focus
@@ -542,7 +596,9 @@ export const CountryPanel = ({
               {country.name}
             </h2>
             <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-200">
-              <Badge variant="secondary">Capital: {country.capital || "-"}</Badge>
+              <Badge variant="secondary">
+                Capital: {country.capital || "-"}
+              </Badge>
               <Badge variant="secondary">
                 Population: {formatPopulation(country.population)}
               </Badge>
@@ -562,384 +618,399 @@ export const CountryPanel = ({
           </div>
         </div>
 
-        <Card className="border-white/10 bg-white/5 p-4">
-          <div className="flex items-center justify-between">
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
-              Weather
-            </p>
-            <span className="text-xs text-slate-400">
-              {weatherState.data?.provider || "Forecast"}
-            </span>
-          </div>
-          {weatherState.loading ? (
-            <div className="mt-4 space-y-3">
-              <Skeleton className="h-6 w-1/2 bg-white/10" />
-              <Skeleton className="h-4 w-2/3 bg-white/10" />
-              <div className="flex gap-2">
-                {Array.from({ length: 4 }).map((_, index) => (
-                  <Skeleton
-                    key={`weather-skel-${index}`}
-                    className="h-16 w-16 bg-white/10"
-                  />
-                ))}
-              </div>
-              {weatherState.data?.errors?.forecast ? (
-                <p className="text-xs text-amber-200">
-                  Forecast unavailable. Showing current conditions.
-                </p>
-              ) : null}
+        <ScrollArea
+          variant="glass"
+          className="min-h-0"
+          viewportRef={scrollViewportRef}
+          viewportClassName="h-full min-h-0 flex flex-col gap-5 overscroll-contain"
+          viewportProps={{
+            onWheelCapture: handleScrollWheelCapture,
+            onTouchMoveCapture: handleScrollTouchCapture,
+          }}
+        >
+          <Card className="border-white/10 bg-white/5 p-4">
+            <div className="flex items-center justify-between">
+              <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
+                Weather
+              </p>
+              <span className="text-xs text-slate-400">
+                {weatherState.data?.provider || "Forecast"}
+              </span>
             </div>
-          ) : weatherState.error ? (
-            <p className="mt-4 text-sm text-amber-200">
-              {weatherState.error}
-            </p>
-          ) : weatherState.data ? (
-            <div className="mt-4 space-y-4">
-              <div className="flex items-center gap-3">
-                <Image
-                  src={weatherIconUrl(weatherState.data.current.icon)}
-                  alt={weatherState.data.current.description}
-                  width={48}
-                  height={48}
-                  className="h-12 w-12"
-                  unoptimized
-                />
-                <div>
-                  <p className="text-2xl font-semibold">
-                    {Math.round(weatherState.data.current.tempC)}°C
-                  </p>
-                  <p className="text-sm text-slate-200">
-                    {weatherState.data.current.description}
-                  </p>
-                </div>
-              </div>
-              <div className="grid grid-cols-4 gap-2">
-                {weatherState.data.daily.slice(0, 4).map((day) => (
-                  <div
-                    key={day.date}
-                    className="rounded-2xl border border-white/10 bg-white/5 p-2 text-center"
-                  >
-                    <p className="text-[10px] tracking-widest text-slate-300">
-                      {new Date(day.date).toLocaleDateString("de-DE", {
-                        weekday: "short",
-                      })}
-                    </p>
-                    <Image
-                      src={weatherIconUrl(day.icon)}
-                      alt={day.description}
-                      width={32}
-                      height={32}
-                      className="mx-auto h-8 w-8"
-                      unoptimized
+            {weatherState.loading ? (
+              <div className="mt-4 space-y-3">
+                <Skeleton className="h-6 w-1/2 bg-white/10" />
+                <Skeleton className="h-4 w-2/3 bg-white/10" />
+                <div className="flex gap-2">
+                  {Array.from({ length: 4 }).map((_, index) => (
+                    <Skeleton
+                      key={`weather-skel-${index}`}
+                      className="h-16 w-16 bg-white/10"
                     />
-                    <p className="text-sm font-semibold">
-                      {Math.round(day.maxC)}°C
+                  ))}
+                </div>
+                {weatherState.data?.errors?.forecast ? (
+                  <p className="text-xs text-amber-200">
+                    Forecast unavailable. Showing current conditions.
+                  </p>
+                ) : null}
+              </div>
+            ) : weatherState.error ? (
+              <p className="mt-4 text-sm text-amber-200">
+                {weatherState.error}
+              </p>
+            ) : weatherState.data ? (
+              <div className="mt-4 space-y-4">
+                <div className="flex items-center gap-3">
+                  <Image
+                    src={weatherIconUrl(weatherState.data.current.icon)}
+                    alt={weatherState.data.current.description}
+                    width={48}
+                    height={48}
+                    className="h-12 w-12"
+                    unoptimized
+                  />
+                  <div>
+                    <p className="text-2xl font-semibold">
+                      {Math.round(weatherState.data.current.tempC)}°C
+                    </p>
+                    <p className="text-sm text-slate-200">
+                      {weatherState.data.current.description}
                     </p>
                   </div>
-                ))}
-              </div>
-            </div>
-          ) : (
-            <p className="mt-4 text-sm text-slate-300">
-              Weather data will appear once an API key is configured.
-            </p>
-          )}
-        </Card>
-
-        <Card className="border-white/10 bg-white/5 p-4">
-          <div className="flex items-center justify-between">
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
-              Flüge
-            </p>
-            <Button
-              type="button"
-              size="sm"
-              variant="outline"
-              onClick={() => setIsOriginSheetOpen(true)}
-              className="border-white/15 bg-white/5 text-white hover:bg-white/10"
-            >
-              ändern
-            </Button>
-          </div>
-
-          <div className="mt-3 rounded-2xl border border-white/10 bg-white/5 px-3 py-2">
-            <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-              Von
-            </p>
-            {originStatus === "loading" ? (
-              <div className="mt-2 space-y-2">
-                <Skeleton className="h-4 w-32 bg-white/10" />
-                <Skeleton className="h-3 w-24 bg-white/10" />
+                </div>
+                <div className="grid grid-cols-4 gap-2">
+                  {weatherState.data.daily.slice(0, 4).map((day) => (
+                    <div
+                      key={day.date}
+                      className="rounded-2xl border border-white/10 bg-white/5 p-2 text-center"
+                    >
+                      <p className="text-[10px] tracking-widest text-slate-300">
+                        {new Date(day.date).toLocaleDateString("de-DE", {
+                          weekday: "short",
+                        })}
+                      </p>
+                      <Image
+                        src={weatherIconUrl(day.icon)}
+                        alt={day.description}
+                        width={32}
+                        height={32}
+                        className="mx-auto h-8 w-8"
+                        unoptimized
+                      />
+                      <p className="text-sm font-semibold">
+                        {Math.round(day.maxC)}°C
+                      </p>
+                    </div>
+                  ))}
+                </div>
               </div>
             ) : (
-              <>
-                <p className="mt-1 text-sm text-slate-100">{departure.label}</p>
-                {origin.mode === "device" ? (
-                  <p className="mt-1 text-[10px] text-slate-400">
-                    Quelle: {origin.label}
-                  </p>
-                ) : null}
-              </>
+              <p className="mt-4 text-sm text-slate-300">
+                Weather data will appear once an API key is configured.
+              </p>
             )}
-            {originHint ? (
-              <p className="mt-2 text-xs text-amber-200">{originHint}</p>
-            ) : null}
-          </div>
+          </Card>
 
-          <div className="mt-3 grid gap-3 text-xs text-slate-200">
-            <label className="grid gap-2">
-              <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-                Hinflug
-              </span>
-              <input
-                type="date"
-                value={departDate}
-                onChange={(event) => setDepartDate(event.target.value)}
-                className="rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
-              />
-            </label>
-            <label className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-3 py-2">
-              <span>Rückflug</span>
-              <input
-                type="checkbox"
-                checked={roundTrip}
-                onChange={(event) => setRoundTrip(event.target.checked)}
-                className="h-4 w-4 accent-cyan-300"
-              />
-            </label>
-            <label className="grid gap-2">
-              <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
-                Rückflug Datum
-              </span>
-              <input
-                type="date"
-                value={returnDate}
-                onChange={(event) => setReturnDate(event.target.value)}
-                disabled={!roundTrip}
-                className="rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30 disabled:cursor-not-allowed disabled:opacity-60"
-              />
-            </label>
-          </div>
-
-          <div className="mt-4">
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
-              Ziele
-            </p>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {destinations.length ? (
-                destinations.map((destination) => (
-                  <Button
-                    key={`flight-${destination}`}
-                    type="button"
-                    size="sm"
-                    variant="secondary"
-                    onClick={() => handleOpenFlights(destination)}
-                  >
-                    {destination}
-                  </Button>
-                ))
-              ) : (
-                <span className="text-sm text-slate-400">Keine Ziele</span>
-              )}
+          <Card className="border-white/10 bg-white/5 p-4">
+            <div className="flex items-center justify-between">
+              <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
+                Flüge
+              </p>
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                onClick={() => setIsOriginSheetOpen(true)}
+                className="border-white/15 bg-white/5 text-white hover:bg-white/10"
+              >
+                ändern
+              </Button>
             </div>
-          </div>
-        </Card>
 
-        <div>
-          <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
-            Top Cities
-          </p>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {country.topCities?.map((city) => (
-              <Badge key={city.name} className="bg-white/10 text-white">
-                {city.name}
-              </Badge>
-            )) || <span className="text-sm text-slate-400">No data</span>}
-          </div>
-        </div>
-
-        <div className="flex-1 min-h-0">
-          <div className="flex items-center justify-between">
-            <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
-              Places to Visit
-            </p>
-            {placesLabel ? (
-              <span className="text-xs text-slate-400">{placesLabel}</span>
-            ) : null}
-          </div>
-          {placesState.loading ? (
-            <div className="mt-4 space-y-3">
-              {Array.from({ length: 3 }).map((_, index) => (
-                <Skeleton
-                  key={`poi-skel-${index}`}
-                  className="h-14 w-full bg-white/10"
-                />
-              ))}
-            </div>
-          ) : placesState.error ? (
-            <p className="mt-4 text-sm text-amber-200">
-              {placesState.error}
-            </p>
-          ) : (
-            <div className="mt-4 space-y-3">
-              {poiCards.map((poi) => (
-                <div
-                  key={poi.id}
-                  className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3"
-                >
-                  <div>
-                    <p className="text-sm font-medium text-white">{poi.name}</p>
-                    <p className="text-xs text-slate-300">{poi.category}</p>
-                  </div>
-                  {poi.rating ? (
-                    <Badge className="bg-white/15 text-white">
-                      {poi.rating.toFixed(1)}
-                    </Badge>
-                  ) : null}
+            <div className="mt-3 rounded-2xl border border-white/10 bg-white/5 px-3 py-2">
+              <p className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
+                Von
+              </p>
+              {originStatus === "loading" ? (
+                <div className="mt-2 space-y-2">
+                  <Skeleton className="h-4 w-32 bg-white/10" />
+                  <Skeleton className="h-3 w-24 bg-white/10" />
                 </div>
-              ))}
-              {!poiCards.length ? (
-                <p className="text-sm text-slate-400">No places yet.</p>
+              ) : (
+                <>
+                  <p className="mt-1 text-sm text-slate-100">
+                    {departure.label}
+                  </p>
+                  {origin.mode === "device" ? (
+                    <p className="mt-1 text-[10px] text-slate-400">
+                      Quelle: {origin.label}
+                    </p>
+                  ) : null}
+                </>
+              )}
+              {originHint ? (
+                <p className="mt-2 text-xs text-amber-200">{originHint}</p>
               ) : null}
             </div>
-          )}
-        </div>
 
-        <Sheet open={isOriginSheetOpen} onOpenChange={setIsOriginSheetOpen}>
-          <SheetContent
-            side="right"
-            className="w-[380px] max-w-[92vw] rounded-l-[32px] border-l border-white/10 bg-slate-950/95 text-white shadow-2xl backdrop-blur-xl"
-          >
-            <SheetHeader className="border-b border-white/10 px-6 pb-4 pt-6">
-              <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
-                Abflug
+            <div className="mt-3 grid gap-3 text-xs text-slate-200">
+              <label className="grid gap-2">
+                <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
+                  Hinflug
+                </span>
+                <input
+                  type="date"
+                  value={departDate}
+                  onChange={(event) => setDepartDate(event.target.value)}
+                  className="rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
+                />
+              </label>
+              <label className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-3 py-2">
+                <span>Rückflug</span>
+                <input
+                  type="checkbox"
+                  checked={roundTrip}
+                  onChange={(event) => setRoundTrip(event.target.checked)}
+                  className="h-4 w-4 accent-cyan-300"
+                />
+              </label>
+              <label className="grid gap-2">
+                <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400">
+                  Rückflug Datum
+                </span>
+                <input
+                  type="date"
+                  value={returnDate}
+                  onChange={(event) => setReturnDate(event.target.value)}
+                  disabled={!roundTrip}
+                  className="rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30 disabled:cursor-not-allowed disabled:opacity-60"
+                />
+              </label>
+            </div>
+
+            <div className="mt-4">
+              <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
+                Ziele
               </p>
-              <SheetTitle className="font-display text-2xl text-white">
-                Abflugort wählen
-              </SheetTitle>
-            </SheetHeader>
-            <div className="flex-1 space-y-6 overflow-y-auto px-6 pb-6">
-              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
-                  Mein Standort verwenden
-                </p>
-                <p className="mt-2 text-xs text-slate-400">
-                  Nutzt den aktuellen Standort für den Abflug.
-                </p>
-                <Button
-                  type="button"
-                  variant="secondary"
-                  onClick={handleUseDeviceOrigin}
-                  className="mt-3 w-full"
-                >
-                  Mein Standort verwenden
-                </Button>
-              </div>
-
-              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
-                  Ort suchen
-                </p>
-                <div className="mt-2 flex gap-2">
-                  <input
-                    type="text"
-                    value={geocodeQuery}
-                    onChange={(event) => {
-                      const nextValue = event.target.value;
-                      setGeocodeQuery(nextValue);
-                      if (nextValue.trim().length < 2) {
-                        setGeocodeResults([]);
-                        setGeocodeStatus("idle");
-                      }
-                    }}
-                    onKeyDown={(event) => {
-                      if (event.key === "Enter") {
-                        event.preventDefault();
-                        handleGeocodeSearch();
-                      }
-                    }}
-                    placeholder="Stadt oder Adresse"
-                    className="flex-1 rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 placeholder:text-slate-500 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
-                  />
-                  <Button
-                    type="button"
-                    size="sm"
-                    variant="outline"
-                    onClick={handleGeocodeSearch}
-                    disabled={geocodeStatus === "loading"}
-                    className="border-white/15 bg-white/5 text-white hover:bg-white/10"
-                  >
-                    Suchen
-                  </Button>
-                </div>
-                {geocodeStatus === "loading" ? (
-                  <div className="mt-3 space-y-2">
-                    {Array.from({ length: 3 }).map((_, index) => (
-                      <Skeleton
-                        key={`geocode-skel-${index}`}
-                        className="h-8 w-full bg-white/10"
-                      />
-                    ))}
-                  </div>
-                ) : null}
-                {geocodeStatus === "error" ? (
-                  <p className="mt-2 text-xs text-rose-300">
-                    Suche fehlgeschlagen.
-                  </p>
-                ) : null}
-                {geocodeResults.length ? (
-                  <div className="mt-3 space-y-2">
-                    {geocodeResults.map((result, index) => (
-                      <button
-                        key={`${result.name}-${result.lat}-${result.lon}-${index}`}
-                        type="button"
-                        onClick={() => handleSelectGeocodeResult(result)}
-                        className="w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-left transition hover:border-white/30"
-                      >
-                        <p className="text-sm text-white">{result.name}</p>
-                        <p className="text-[10px] uppercase tracking-[0.2em] text-slate-400">
-                          {result.country ?? result.type ?? "Ort"}
-                        </p>
-                      </button>
-                    ))}
-                  </div>
-                ) : showGeocodeEmpty ? (
-                  <p className="mt-2 text-xs text-slate-400">
-                    Keine Treffer.
-                  </p>
-                ) : null}
-              </div>
-
-              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
-                  Flughafen wählen
-                </p>
-                <select
-                  value={airportSelection}
-                  onChange={(event) => handleAirportSelect(event.target.value)}
-                  className="mt-3 w-full rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
-                >
-                  <option value="">Bitte wählen</option>
-                  {AIRPORTS.map((airport) => (
-                    <option key={airport.iata} value={airport.iata}>
-                      {airport.iata} - {airport.city}
-                    </option>
-                  ))}
-                </select>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {destinations.length ? (
+                  destinations.map((destination) => (
+                    <Button
+                      key={`flight-${destination}`}
+                      type="button"
+                      size="sm"
+                      variant="secondary"
+                      onClick={() => handleOpenFlights(destination)}
+                    >
+                      {destination}
+                    </Button>
+                  ))
+                ) : (
+                  <span className="text-sm text-slate-400">Keine Ziele</span>
+                )}
               </div>
             </div>
-          </SheetContent>
-        </Sheet>
+          </Card>
 
-        <Link
-          href={
-            focus.kind === "city"
-              ? `/map?lat=${focus.lat}&lon=${focus.lon}&country=${focus.code ?? ""}&city=${encodeURIComponent(focus.name)}`
-              : `/map?lat=${focus.lat}&lon=${focus.lon}&country=${focus.code ?? ""}`
-          }
-        >
-          <Button className="w-full md:hidden">Open Map</Button>
-        </Link>
+          <div>
+            <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
+              Top Cities
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {country.topCities?.map((city) => (
+                <Badge key={city.name} className="bg-white/10 text-white">
+                  {city.name}
+                </Badge>
+              )) || <span className="text-sm text-slate-400">No data</span>}
+            </div>
+          </div>
+
+          <div className="flex-1 min-h-0">
+            <div className="flex items-center justify-between">
+              <p className="text-xs uppercase tracking-[0.3em] text-slate-200">
+                Places to Visit
+              </p>
+              {placesLabel ? (
+                <span className="text-xs text-slate-400">{placesLabel}</span>
+              ) : null}
+            </div>
+            {placesState.loading ? (
+              <div className="mt-4 space-y-3">
+                {Array.from({ length: 3 }).map((_, index) => (
+                  <Skeleton
+                    key={`poi-skel-${index}`}
+                    className="h-14 w-full bg-white/10"
+                  />
+                ))}
+              </div>
+            ) : placesState.error ? (
+              <p className="mt-4 text-sm text-amber-200">{placesState.error}</p>
+            ) : (
+              <div className="mt-4 space-y-3">
+                {poiCards.map((poi) => (
+                  <div
+                    key={poi.id}
+                    className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3"
+                  >
+                    <div>
+                      <p className="text-sm font-medium text-white">
+                        {poi.name}
+                      </p>
+                      <p className="text-xs text-slate-300">{poi.category}</p>
+                    </div>
+                    {poi.rating ? (
+                      <Badge className="bg-white/15 text-white">
+                        {poi.rating.toFixed(1)}
+                      </Badge>
+                    ) : null}
+                  </div>
+                ))}
+                {!poiCards.length ? (
+                  <p className="text-sm text-slate-400">No places yet.</p>
+                ) : null}
+              </div>
+            )}
+          </div>
+
+          <Sheet open={isOriginSheetOpen} onOpenChange={setIsOriginSheetOpen}>
+            <SheetContent
+              side="right"
+              className="w-[380px] max-w-[92vw] rounded-l-[32px] border-l border-white/10 bg-slate-950/95 text-white shadow-2xl backdrop-blur-xl"
+            >
+              <SheetHeader className="border-b border-white/10 px-6 pb-4 pt-6">
+                <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                  Abflug
+                </p>
+                <SheetTitle className="font-display text-2xl text-white">
+                  Abflugort wählen
+                </SheetTitle>
+              </SheetHeader>
+              <div className="flex-1 space-y-6 overflow-y-auto px-6 pb-6">
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                    Mein Standort verwenden
+                  </p>
+                  <p className="mt-2 text-xs text-slate-400">
+                    Nutzt den aktuellen Standort für den Abflug.
+                  </p>
+                  <Button
+                    type="button"
+                    variant="secondary"
+                    onClick={handleUseDeviceOrigin}
+                    className="mt-3 w-full"
+                  >
+                    Mein Standort verwenden
+                  </Button>
+                </div>
+
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                    Ort suchen
+                  </p>
+                  <div className="mt-2 flex gap-2">
+                    <input
+                      type="text"
+                      value={geocodeQuery}
+                      onChange={(event) => {
+                        const nextValue = event.target.value;
+                        setGeocodeQuery(nextValue);
+                        if (nextValue.trim().length < 2) {
+                          setGeocodeResults([]);
+                          setGeocodeStatus("idle");
+                        }
+                      }}
+                      onKeyDown={(event) => {
+                        if (event.key === "Enter") {
+                          event.preventDefault();
+                          handleGeocodeSearch();
+                        }
+                      }}
+                      placeholder="Stadt oder Adresse"
+                      className="flex-1 rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 placeholder:text-slate-500 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
+                    />
+                    <Button
+                      type="button"
+                      size="sm"
+                      variant="outline"
+                      onClick={handleGeocodeSearch}
+                      disabled={geocodeStatus === "loading"}
+                      className="border-white/15 bg-white/5 text-white hover:bg-white/10"
+                    >
+                      Suchen
+                    </Button>
+                  </div>
+                  {geocodeStatus === "loading" ? (
+                    <div className="mt-3 space-y-2">
+                      {Array.from({ length: 3 }).map((_, index) => (
+                        <Skeleton
+                          key={`geocode-skel-${index}`}
+                          className="h-8 w-full bg-white/10"
+                        />
+                      ))}
+                    </div>
+                  ) : null}
+                  {geocodeStatus === "error" ? (
+                    <p className="mt-2 text-xs text-rose-300">
+                      Suche fehlgeschlagen.
+                    </p>
+                  ) : null}
+                  {geocodeResults.length ? (
+                    <div className="mt-3 space-y-2">
+                      {geocodeResults.map((result, index) => (
+                        <button
+                          key={`${result.name}-${result.lat}-${result.lon}-${index}`}
+                          type="button"
+                          onClick={() => handleSelectGeocodeResult(result)}
+                          className="w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-left transition hover:border-white/30"
+                        >
+                          <p className="text-sm text-white">{result.name}</p>
+                          <p className="text-[10px] uppercase tracking-[0.2em] text-slate-400">
+                            {result.country ?? result.type ?? "Ort"}
+                          </p>
+                        </button>
+                      ))}
+                    </div>
+                  ) : showGeocodeEmpty ? (
+                    <p className="mt-2 text-xs text-slate-400">
+                      Keine Treffer.
+                    </p>
+                  ) : null}
+                </div>
+
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
+                    Flughafen wählen
+                  </p>
+                  <select
+                    value={airportSelection}
+                    onChange={(event) =>
+                      handleAirportSelect(event.target.value)
+                    }
+                    className="mt-3 w-full rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-100 focus:border-cyan-300/50 focus:outline-none focus:ring-1 focus:ring-cyan-300/30"
+                  >
+                    <option value="">Bitte wählen</option>
+                    {AIRPORTS.map((airport) => (
+                      <option key={airport.iata} value={airport.iata}>
+                        {airport.iata} - {airport.city}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+            </SheetContent>
+          </Sheet>
+
+          <Link
+            href={
+              focus.kind === "city"
+                ? `/map?lat=${focus.lat}&lon=${focus.lon}&country=${focus.code ?? ""}&city=${encodeURIComponent(focus.name)}`
+                : `/map?lat=${focus.lat}&lon=${focus.lon}&country=${focus.code ?? ""}`
+            }
+          >
+            <Button className="w-full md:hidden">Open Map</Button>
+          </Link>
+        </ScrollArea>
       </div>
       <ChatSheet
         open={chatOpen}

@@ -1,0 +1,147 @@
+.frame {
+  position: relative;
+  isolation: isolate;
+  overflow: visible;
+  border-radius: inherit;
+}
+
+.frame::before,
+.frame::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.frame::before {
+  inset: 0;
+  padding: 1px;
+  background: conic-gradient(
+    from 210deg,
+    rgba(124, 226, 255, 0.88) 0deg,
+    rgba(90, 144, 255, 0.72) 72deg,
+    rgba(164, 120, 255, 0.78) 150deg,
+    rgba(255, 136, 214, 0.72) 232deg,
+    rgba(124, 226, 255, 0.8) 308deg,
+    rgba(124, 226, 255, 0.36) 338deg,
+    rgba(124, 226, 255, 0.88) 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  transition: opacity 180ms ease-out;
+  will-change: opacity;
+}
+
+.frame::after {
+  inset: -16px;
+  padding: 16px;
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(124, 226, 255, 0.26) 0%,
+      rgba(124, 226, 255, 0.16) 34%,
+      rgba(124, 226, 255, 0.08) 52%,
+      rgba(124, 226, 255, 0) 72%
+    ),
+    conic-gradient(
+      from 210deg,
+      rgba(124, 226, 255, 0.24) 0deg,
+      rgba(90, 144, 255, 0.18) 78deg,
+      rgba(164, 120, 255, 0.2) 156deg,
+      rgba(255, 136, 214, 0.18) 236deg,
+      rgba(124, 226, 255, 0.18) 312deg,
+      rgba(124, 226, 255, 0.02) 342deg,
+      rgba(124, 226, 255, 0.24) 360deg
+    );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  filter: blur(24px);
+  transform: scale(0.992);
+  transition: opacity 220ms ease-out, transform 220ms ease-out;
+  will-change: opacity, transform;
+}
+
+.frame[data-active="true"]::before {
+  opacity: 0.72;
+}
+
+.frame[data-active="true"]::after {
+  opacity: 0.52;
+  transform: scale(1);
+  animation: siriBreathing 4.4s ease-in-out infinite;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 0;
+  flex: 1 1 auto;
+  flex-direction: column;
+  border-radius: inherit;
+}
+
+@supports not ((-webkit-mask-composite: xor) or (mask-composite: exclude)) {
+  .frame::before {
+    padding: 0;
+    background: transparent;
+    -webkit-mask: none;
+    mask: none;
+    border: 1px solid rgba(124, 226, 255, 0.42);
+    box-shadow:
+      0 0 0 1px rgba(164, 120, 255, 0.16),
+      0 0 16px rgba(124, 226, 255, 0.18);
+  }
+
+  .frame::after {
+    inset: -10px;
+    padding: 0;
+    background: transparent;
+    -webkit-mask: none;
+    mask: none;
+    filter: blur(18px);
+    box-shadow:
+      0 0 26px rgba(124, 226, 255, 0.18),
+      0 0 14px rgba(164, 120, 255, 0.12);
+  }
+}
+
+@keyframes siriBreathing {
+  0%,
+  100% {
+    opacity: 0.44;
+    transform: scale(0.996);
+  }
+
+  50% {
+    opacity: 0.62;
+    transform: scale(1.018);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .frame::before,
+  .frame::after {
+    transition: opacity 180ms ease-out;
+  }
+
+  .frame[data-active="true"]::after {
+    animation: none;
+    opacity: 0.52;
+    transform: scale(1);
+  }
+}

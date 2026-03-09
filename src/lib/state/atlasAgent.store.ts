@@ -1,20 +1,30 @@
-﻿"use client";
+"use client";
 
-import { useSyncExternalStore } from "react";
-import type { AgentMode, UiIntent } from "@/lib/ai/atlasAssistant.types";
+import { useEffect, useSyncExternalStore } from "react";
+import type { AgentMode, PendingAction, UiIntent } from "@/lib/ai/atlasAssistant.types";
 
 const STORAGE_KEY = "atlas_agent_mode";
 
 type AtlasAgentState = {
   agentMode: AgentMode;
-  pendingIntents: UiIntent[] | null;
-  pendingMessageId: string | null;
+  pendingAction: PendingAction | null;
 };
 
 type AtlasAgentStore = AtlasAgentState & {
   setAgentMode: (mode: AgentMode) => void;
+  setPendingAction: (intents: UiIntent[] | null, messageId?: string | null) => void;
+  clearPendingAction: () => void;
+  hydrateFromStorage: () => void;
+  // Compatibility aliases for existing callers during refactor.
   setPendingIntents: (intents: UiIntent[] | null, messageId?: string | null) => void;
   clearPendingIntents: () => void;
+  readonly pendingIntents: UiIntent[] | null;
+  readonly pendingMessageId: string | null;
+};
+
+const SERVER_STATE: AtlasAgentState = {
+  agentMode: "off",
+  pendingAction: null,
 };
 
 const readStoredMode = (): AgentMode => {
@@ -40,10 +50,9 @@ const persistMode = (mode: AgentMode) => {
 };
 
 let state: AtlasAgentState = {
-  agentMode: readStoredMode(),
-  pendingIntents: null,
-  pendingMessageId: null,
+  ...SERVER_STATE,
 };
+let storageHydrated = false;
 
 const listeners = new Set<() => void>();
 
@@ -57,25 +66,41 @@ const setState = (next: Partial<AtlasAgentState>) => {
 };
 
 const getState = () => state;
+const getServerState = () => SERVER_STATE;
+
+const hydrateFromStorage = () => {
+  if (storageHydrated || typeof window === "undefined") return;
+  storageHydrated = true;
+  const storedMode = readStoredMode();
+  if (storedMode === state.agentMode) return;
+  setState({
+    agentMode: storedMode,
+    ...(storedMode === "confirm" ? {} : { pendingAction: null }),
+  });
+};
 
 const setAgentMode = (mode: AgentMode) => {
   setState({
     agentMode: mode,
-    ...(mode === "confirm" ? {} : { pendingIntents: null, pendingMessageId: null }),
+    ...(mode === "confirm" ? {} : { pendingAction: null }),
   });
   persistMode(mode);
 };
 
-const setPendingIntents = (intents: UiIntent[] | null, messageId?: string | null) => {
+const setPendingAction = (intents: UiIntent[] | null, messageId?: string | null) => {
   const normalized = intents && intents.length > 0 ? intents : null;
   setState({
-    pendingIntents: normalized,
-    pendingMessageId: normalized ? messageId ?? null : null,
+    pendingAction: normalized
+      ? {
+          intents: normalized,
+          messageId: messageId ?? null,
+        }
+      : null,
   });
 };
 
-const clearPendingIntents = () => {
-  setState({ pendingIntents: null, pendingMessageId: null });
+const clearPendingAction = () => {
+  setState({ pendingAction: null });
 };
 
 const subscribe = (listener: () => void) => {
@@ -86,19 +111,35 @@ const subscribe = (listener: () => void) => {
 };
 
 export const useAtlasAgentStore = <T>(selector: (state: AtlasAgentState) => T) =>
-  useSyncExternalStore(subscribe, () => selector(getState()), () => selector(getState()));
+  {
+    useEffect(() => {
+      hydrateFromStorage();
+    }, []);
+
+    return useSyncExternalStore(
+      subscribe,
+      () => selector(getState()),
+      () => selector(getServerState())
+    );
+  };
 
 export const atlasAgentStore: AtlasAgentStore = {
   get agentMode() {
     return state.agentMode;
   },
+  get pendingAction() {
+    return state.pendingAction;
+  },
   get pendingIntents() {
-    return state.pendingIntents;
+    return state.pendingAction?.intents ?? null;
   },
   get pendingMessageId() {
-    return state.pendingMessageId;
+    return state.pendingAction?.messageId ?? null;
   },
   setAgentMode,
-  setPendingIntents,
-  clearPendingIntents,
+  setPendingAction,
+  clearPendingAction,
+  hydrateFromStorage,
+  setPendingIntents: setPendingAction,
+  clearPendingIntents: clearPendingAction,
 };

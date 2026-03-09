@@ -13,6 +13,7 @@ describe("weather route", () => {
   afterEach(() => {
     vi.unstubAllEnvs();
     vi.restoreAllMocks();
+    vi.resetModules();
   });
 
   it("returns provider status and code when provider fails", async () => {
@@ -80,5 +81,80 @@ describe("weather route", () => {
     expect(body.errors?.forecast?.message).toBe(
       "Weather provider error (forecast)"
     );
+  });
+
+  it("maps TLS-like failures to ssl_error", async () => {
+    vi.spyOn(console, "error").mockImplementation(() => {});
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+
+    const tlsError = new Error("unable to get local issuer certificate");
+    const fetchMock = vi.fn().mockRejectedValue(tlsError);
+    vi.stubGlobal("fetch", fetchMock);
+
+    const { GET } = await import("@/app/api/weather/route");
+    const request = new NextRequest(
+      "http://localhost/api/weather?lat=46.948&lon=7.4474"
+    );
+    const response = await GET(request);
+
+    expect(response.status).toBe(502);
+    const body = await response.json();
+    expect(body).toMatchObject({
+      code: "provider_error",
+      upstreamHint: "ssl_error",
+      error: "TLS Zertifikat nicht vertrauenswuerdig. Bitte Proxy/CA konfigurieren.",
+    });
+  });
+
+  it("serves stale fallback data with cache header when fresh request fails", async () => {
+    vi.spyOn(console, "warn").mockImplementation(() => {});
+
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            main: { temp: 12, humidity: 65 },
+            weather: [{ description: "clear", icon: "01d" }],
+            wind: { speed: 3 },
+          }),
+          { status: 200 }
+        )
+      )
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            list: [
+              {
+                dt: 1_700_000_000,
+                main: { temp_min: 10, temp_max: 14 },
+                weather: [{ description: "sunny", icon: "01d" }],
+              },
+            ],
+          }),
+          { status: 200 }
+        )
+      )
+      .mockRejectedValueOnce(new Error("unable to get local issuer certificate"))
+      .mockRejectedValueOnce(new Error("unable to get local issuer certificate"));
+
+    vi.stubGlobal("fetch", fetchMock);
+
+    const { GET } = await import("@/app/api/weather/route");
+    const request = new NextRequest(
+      "http://localhost/api/weather?lat=52.52&lon=13.405"
+    );
+
+    const first = await GET(request);
+    expect(first.status).toBe(200);
+    expect(first.headers.get("x-weather-cache")).toBeNull();
+
+    const second = await GET(request);
+    expect(second.status).toBe(200);
+    expect(second.headers.get("x-weather-cache")).toBe("stale-fallback");
+
+    const body = await second.json();
+    expect(body.current?.tempC).toBe(12);
+    expect(fetchMock).toHaveBeenCalledTimes(4);
   });
 });
